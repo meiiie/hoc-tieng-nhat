@@ -5,7 +5,7 @@ PREFIX=os.environ.get("REPORT_PREFIX", "")
 import json,sys
 from pathlib import Path
 from playwright.sync_api import sync_playwright
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT.parent/'screenshots';OUT.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];OUT=Path(os.environ.get('SCREENSHOT_DIR',ROOT.parent/'screenshots'));OUT.mkdir(exist_ok=True)
 BASE=sys.argv[1] if len(sys.argv)>1 else 'http://localhost:8931/'
 shots=[]
 with sync_playwright() as p:

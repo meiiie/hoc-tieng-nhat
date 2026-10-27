@@ -9,7 +9,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 BASE=sys.argv[1] if len(sys.argv)>1 else 'http://localhost:8931/'
 WHICH=sys.argv[2] if len(sys.argv)>2 else 'all'
-ROOT=Path(__file__).resolve().parents[1];REPORTS=ROOT.parent/'reports';REPORTS.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];REPORTS=Path(os.environ.get('REPORT_DIR',ROOT.parent/'reports'));REPORTS.mkdir(exist_ok=True)
 AXE=(ROOT/'node_modules/axe-core/axe.min.js').read_text()
 results={}
 def run(kind):

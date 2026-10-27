@@ -44,7 +44,7 @@ def main():
    checks.append('skip name and defaults');ctx.close();browser.close()
    result['engines'][engine]={'passed':len(checks),'checks':checks}
    print(engine,len(checks),'onboarding checks passed',flush=True)
- out=Path(__file__).resolve().parents[2]/'reports';out.mkdir(exist_ok=True)
+ out=Path(os.environ.get('REPORT_DIR',Path(__file__).resolve().parents[2]/'reports'));out.mkdir(parents=True,exist_ok=True)
  (out/(os.environ.get('REPORT_PREFIX','')+'onboard.json')).write_text(json.dumps(result,indent=2)+'\n')
 
 

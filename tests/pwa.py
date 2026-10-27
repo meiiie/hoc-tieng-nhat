@@ -8,7 +8,7 @@ import json,threading,traceback,re,sys
 BASE=sys.argv[1] if len(sys.argv)>1 else None
 from playwright.sync_api import sync_playwright
 
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT.parent/'reports'
+ROOT=Path(__file__).resolve().parents[1];OUT=Path(os.environ.get('REPORT_DIR',ROOT.parent/'reports'));OUT.mkdir(parents=True,exist_ok=True)
 SW=(ROOT/'sw.js').read_text();CURRENT=re.search(r"const V='([^']+)'",SW)[1];NEXT=CURRENT+'-test-update';STATE={'next':False,'fail':False}
 class Handler(SimpleHTTPRequestHandler):
  def __init__(self,*a,**k):super().__init__(*a,directory=str(ROOT),**k)
