@@ -34,3 +34,5 @@ header{gap:8px}header #title{font-size:16px;line-height:1.3;flex:1;min-width:0}h
 .cloze { line-height:1.8; }
 
 .ja-example-text rt { font-size:.6em; color:var(--text-2); }
+.mora-chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:12px 0 4px}.mora-chip{min-width:40px;min-height:44px;padding:4px 10px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);font-size:22px;color:var(--text);font-family:inherit}.mora-chip.g{border-color:var(--success);background:color-mix(in srgb,var(--success) 12%,var(--surface))}.mora-chip.y{border-color:var(--warn);background:color-mix(in srgb,var(--warn) 14%,var(--surface))}.mora-chip.r{border-color:var(--danger);background:color-mix(in srgb,var(--danger) 12%,var(--surface))}.mora-chip:disabled{opacity:1;cursor:default}
+#mora-tip[hidden]{display:none}

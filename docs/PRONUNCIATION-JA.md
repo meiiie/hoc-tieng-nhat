@@ -1,6 +1,33 @@
 # Cao độ và mora: phương pháp và giới hạn
 
-Ứng dụng cho nghe mẫu, xem đường cao/thấp, theo nhịp mora, ghi âm rồi nghe lại. Khi có đủ tín hiệu, nó so hình dạng cao độ với mẫu từ điển có nguồn và luôn ghi **ước lượng**. Không xuất điểm số phát âm, không xác nhận đã nói đúng từ, không đưa kết quả vào FSRS.
+## Chấm từng mora trên thiết bị (v1.10)
+
+**Mô hình:** `prj-beatrice/japanese-hubert-base-phoneme-ctc-v4` (rinna/japanese-hubert-base fine-tune trên ReazonSpeech, nhãn âm vị OpenJTalk), bản ONNX 4-bit của `air-air/japanese-hubert-base-phoneme-ctc-v4-ONNX`, ghim revision `a36617c5fbf7cfde02caa067716961c03cf4d87e`. Giấy phép Apache-2.0. Tải 63 MB một lần khi người học bấm "Tải mô hình", giữ trong Cache Storage `htn-engine-v1`, chạy bằng onnxruntime-web 1.30 WASM một luồng trong `asr-worker.js`. Âm thanh không rời thiết bị.
+
+**Vì sao chọn:** nhãn của nó là âm vị tiếng Nhật thật (có `cl` cho っ, `N` cho ん, `I`/`U` cho nguyên âm vô thanh), nên chấm được đúng các lỗi người Việt hay gặp. 63 MB là mức iPhone tải được (bản tiếng Anh dùng ZIPA 71 MB). Đã cân nhắc: ZIPA đa ngôn ngữ (nhãn IPA, không riêng tiếng Nhật), `sakasegawa/japanese-wav2vec2-large-hiragana-ctc` (315M tham số, ~630 MB, không có ONNX), Whisper (nhận dạng chữ, tự sửa lỗi người học nên không hợp để chấm âm), `TKU410410103/wav2vec2-base-japanese-asr` (chưa có ONNX). CREPE/pYIN không cần: cao độ dùng bộ đo F0 sẵn có, nay đo trong đúng khoảng thời gian của từng mora.
+
+**Cách chấm (`ja-phone.js`):** kana → chuỗi âm vị theo mora (っ, ん, trường âm う/い/ー, âm ghép, は/へ cuối từ đọc wa/e). Biến thể được chấp nhận: nguyên âm vô thanh (です, した), trường âm đọc o-o hay o-u. Căn chỉnh CTC Viterbi theo mẫu, rồi mỗi âm vị có điểm GOP (phần xác suất của âm đúng so với âm cạnh tranh mạnh nhất). Thêm một lượt so khoảng cách chỉnh sửa với chuỗi máy nghe tự do để bắt mora bị bỏ (forced alignment luôn "nhét" được mora vào). Mỗi mora: tốt / gần đúng / chưa đúng / thiếu / thiếu trường âm, kèm gợi ý. Mỗi mora lỗi trừ thêm 15% tổng điểm.
+
+**Cao độ:** trung vị F0 (bán cung) trong khoảng của từng mora, so tương quan với mọi mẫu accent; heiban và odaka coi như nhau khi đọc riêng một từ. Luôn ghi "ước lượng".
+
+**Đo thực tế (giọng Nanami, không phải người học):**
+
+| Bộ thử | n | Trung vị | ≥ 70 điểm |
+|---|---:|---:|---:|
+| Đọc đúng từ (mẫu ngẫu nhiên N5–N1) | 300 | 100 | 96% |
+| Đọc một từ khác | 300 | 0 | 0% |
+| Bỏ trường âm う | 32 | 64 | 3% |
+| Bỏ trường âm い | 43 | 57 | 0% |
+| Bỏ っ | 10 | 64 | 0% |
+| Bỏ ん | 34 | 57 | 3% |
+
+Cao độ: đoán đúng kiểu accent theo từ điển 53% (127/239), tốt nhất với heiban/atamadaka, kém với nakadaka. Một phần sai lệch có thể do chính giọng Nanami không theo accent từ điển. Vì thế cao độ không cộng vào điểm.
+
+Trình duyệt: Chromium với micro giả phát MP3 Nanami: がっこう 100, phát せんせい khi phải đọc がっこう: 0 (`tests/pron_e2e.py`, axe 0 lỗi ở màn kết quả). Engine WebKit: mô hình tải trong ~5,6 s (từ cache), chấm một từ ~3 s, cùng kết quả (`tests/pron_webkit.py`). **Chưa thử trên iPhone thật, chưa thử với giọng người học thật**; độ chính xác với giọng người Việt chưa được đo.
+
+**Không có mô hình:** người học chọn "Chỉ đo cao độ" thì dùng lại đường ước lượng cao độ cũ.
+
+Ứng dụng cho nghe mẫu, xem đường cao/thấp, theo nhịp mora, ghi âm rồi nghe lại. Khi có đủ tín hiệu, nó so hình dạng cao độ với mẫu từ điển có nguồn và luôn ghi **ước lượng**. Từ v1.10 có thêm chấm điểm từng mora trên thiết bị (phần dưới). Kết quả luyện nói không đưa vào FSRS.
 
 ## Mẫu tiếng Nhật
 
