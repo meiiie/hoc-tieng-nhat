@@ -1,3 +1,4 @@
+import sys as _s,os as _o;_s.path.insert(0,_o.path.dirname(__file__));from onboard import onboard
 import os
 PREFIX=os.environ.get("REPORT_PREFIX", "")
 """Neko Japanese browser gates, adapted from the Chinese browser suite.
@@ -29,11 +30,11 @@ def run(kind):
   def settle():
    E("Promise.all(document.getAnimations().filter(a=>a.effect?.getComputedTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{})))")
   try:
-   go();pg.wait_for_selector('[data-start="kana"]');E('navigator.serviceWorker.ready');assert not audio_requests,'audio must not be in the shell'
+   go();pg.wait_for_selector('#nm');E('navigator.serviceWorker.ready');assert not audio_requests,'audio must not be in the shell'
    for theme in ['light','dark']:
     E("theme=>{S.set.theme=theme;applyTheme()}",theme);E(AXE);bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
     if bad:violations[theme+':onboarding']=bad
-   E("S.set.theme='light';applyTheme()");pg.fill('#ja-name','Bạn');pg.click('[data-start="kana"]');pg.wait_for_selector('.kana-grid');ok('onboarding starts with kana and a five-word goal')
+   E("S.set.theme='light';applyTheme()");onboard(pg,'kana','Bạn');pg.wait_for_selector('.kana-grid');assert E('S.user.style')=='cards' and E('S.user.start')=='kana';ok('onboarding starts with kana and a five-word goal')
    assert E('S.user.goal')=='5'
    pg.locator('.kana-cell').first.click();pg.wait_for_selector('.kana-detail');snap=E('JSON.stringify(S.srs)');pg.click('#kana-quiz');pg.locator('[data-option]').first.click();pg.wait_for_selector('#kana-next');assert E('S.kanaPractice.answered')==1;assert E('JSON.stringify(S.srs)')==snap;ok('kana tables, playback, quiz and practice isolation')
    go('kana');pg.click('[data-script="katakana"]');assert pg.locator('.kana-cell b').first.inner_text()=='ア'
@@ -164,9 +165,17 @@ def run(kind):
    go();E('navigator.serviceWorker.ready');pg.wait_for_function('!!navigator.serviceWorker.controller');saved=E('save().then(()=>JSON.stringify([S.srs,S.ev,S.pron]))')
    ctx.set_offline(True);pg.reload();pg.wait_for_selector('.v-home');assert E('words.length')>8000;assert E('JSON.stringify([S.srs,S.ev,S.pron])')==saved;go('kana');pg.wait_for_selector('.kana-grid');go('write?w='+word);pg.wait_for_selector('.stroke-path');ok('offline reload, all levels, kana and lazily cached strokes');ctx.set_offline(False)
    assert not errors,errors;ok('no page errors or console errors')
+   oc=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True);op=oc.new_page();op.goto(BASE)
+   op.wait_for_selector('#nm');assert op.locator('.seg i').count()==5
+   op.fill('#nm','Darren');op.click('#nx');op.click('[data-start="n4"]');assert op.get_attribute('[data-start="n4"]','aria-checked')=='true'
+   op.click('#back');assert op.input_value('#nm')=='Darren';op.click('#nx');assert op.get_attribute('[data-start="n4"]','aria-checked')=='true'
+   op.click('#nx');op.click('[data-goal="10"]');op.click('#nx');op.click('[data-style="learn"]');op.click('#nx');op.wait_for_selector('.plan');op.click('#nx');op.wait_for_selector('.v-home #filt')
+   u=op.evaluate('({u:S.user,f:S.set.f,o:S.jaUnlocked,chip:document.querySelector("#filt").textContent.trim()})')
+   assert u['u']['goal']=='10' and u['u']['style']=='learn' and u['f']=={'cefr':'N4'} and u['o'].get('4') and not u['o'].get('3') and u['chip']=='Chọn bộ từ',u
+   oc.close();ok('five-step onboarding wizard: back keeps draft, N4 start unlocks N5+N4 only')
    # New contexts isolate schema fixtures from the established IndexedDB record.
    for fixture in ['migration','corrupt','newer','idb-corrupt']:
-    fc=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True);fp=fc.new_page();fixture_errors=[];fp.on('pageerror',lambda e:fixture_errors.append(str(e)));fp.goto(BASE);fp.wait_for_selector('[data-start]')
+    fc=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True);fp=fc.new_page();fixture_errors=[];fp.on('pageerror',lambda e:fixture_errors.append(str(e)));fp.goto(BASE);fp.wait_for_selector('#nm')
     state={'v':7,'user':{'done':True,'goal':'5'},'set':{'autoplay':False,'f':{}},'srs':{'fixture':{'state':'review','due':4102444800000,'s':31,'d':4,'int':30}},'ev':{'fixture':[[123,'f',1]]},'revlog':[[123,'fixture',3,'review',30]],'notes':{'fixture':'giữ lại'}}
     if fixture=='newer':state['v']=99;state.pop('set')
     fp.evaluate("async s=>{const db=await new Promise(ok=>{const r=indexedDB.open('hoc-tieng-nhat',1);r.onsuccess=()=>ok(r.result)});await new Promise(ok=>{const t=db.transaction('progress','readwrite');t.objectStore('progress').clear();t.oncomplete=ok});db.close();localStorage.setItem('htn-core',JSON.stringify(s));localStorage.setItem('htv2','english');localStorage.setItem('htt-core','chinese')}",state)
