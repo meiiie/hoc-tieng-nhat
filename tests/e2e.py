@@ -30,6 +30,33 @@ def run(kind):
    E("S.set.f={cefr:'N5'};S.jaUnlocked={5:true};S.srs={};S.introductions={};S.sess={};save()")
    go('review');pg.wait_for_selector('.fc');assert pg.locator('.face.f ruby rt').count()>0;before=E('JSON.stringify(S.srs)');pg.click('#show');pg.wait_for_selector('#gr:not(.hidden)');pg.click('[data-g="3"]');pg.wait_for_timeout(250);assert E('JSON.stringify(S.srs)')!=before;pg.click('#undo');assert E('JSON.stringify(S.srs)')==before;ok('scheduled rating and undo restore exact card state')
    pg.locator('[data-g="3"]').click();pg.wait_for_timeout(150);awaited=E('save().then(()=>JSON.stringify(S.srs))');pg.reload();pg.wait_for_selector('.fc');assert E('JSON.stringify(S.srs)')==awaited;ok('IndexedDB reload persistence')
+   E("S.srs={};S.sess={};S.introductions={};S.studyDay=null;S.bury=null;FC=null;save()")
+   go('review');before=E('JSON.stringify(S.srs)')
+   def drag(dx,dy):
+    box=pg.locator('.fc').bounding_box();x=box['x']+90;y=box['y']+110
+    pg.dispatch_event('.fc','pointerdown',{'pointerId':9,'pointerType':'touch','clientX':x,'clientY':y,'buttons':1})
+    pg.dispatch_event('.fc','pointermove',{'pointerId':9,'pointerType':'touch','clientX':x+dx,'clientY':y+dy,'buttons':1})
+    pg.dispatch_event('.fc','pointerup',{'pointerId':9,'pointerType':'touch','clientX':x+dx,'clientY':y+dy,'buttons':0})
+    pg.wait_for_timeout(550)
+   drag(2,100);assert not pg.locator('.fc').evaluate("e=>e.classList.contains('flip')");assert E('JSON.stringify(S.srs)')==before
+   drag(150,0);pg.wait_for_selector('.fc.flip');assert E('JSON.stringify(S.srs)')==before
+   drag(150,0);assert E('JSON.stringify(S.srs)')!=before;pg.click('#undo');assert E('JSON.stringify(S.srs)')==before;ok('touch scroll does not flip; front swipe reveals; back swipe rates; undo restores')
+   go();pg.click('#settings');pg.wait_for_selector('#sheet:not(.hidden)');pg.wait_for_timeout(100)
+   assert E("document.activeElement.classList.contains('sheet-close')&&document.querySelector('main').inert")
+   pg.keyboard.press('Shift+Tab');assert E("document.activeElement.closest('#sheet')!==null")
+   pg.keyboard.press('Escape');assert E("document.activeElement.id==='settings'&&!document.querySelector('main').inert");ok('sheets trap focus, close by keyboard and restore header focus')
+   pg.click('#settings')
+   with pg.expect_download() as download:pg.click('#exp')
+   exported=json.loads(Path(download.value.path()).read_text());assert exported['app']=='hoc-tieng-nhat';assert exported['schema']==11
+   original=exported['data']['srs'];E("S.notes.backupFixture='before import';save()")
+   pg.on('dialog',lambda dialog:dialog.accept())
+   pg.set_input_files('#impf',{'name':'neko.json','mimeType':'application/json','buffer':json.dumps(exported).encode()});pg.wait_for_selector('#sheet.hidden',state='attached')
+   assert E('JSON.stringify(S.srs)')==json.dumps(original,separators=(',',':'))
+   assert E("Object.keys(localStorage).filter(k=>k.startsWith('htn-core-before-import-')).some(k=>JSON.parse(localStorage[k]).notes.backupFixture==='before import')")
+   pg.click('#settings');safe=E('JSON.stringify(S.srs)')
+   for payload in ['{broken',json.dumps({'app':'hoc-tu-vung','data':exported['data']})]:
+    pg.set_input_files('#impf',{'name':'invalid.json','mimeType':'application/json','buffer':payload.encode()});pg.wait_for_timeout(150);assert E('JSON.stringify(S.srs)')==safe
+   pg.keyboard.press('Escape');pg.reload();pg.wait_for_selector('.v-home');assert E('JSON.stringify(S.srs)')==safe;ok('JSON export/import, pre-import snapshot and rejected malformed or other-app backups')
    # Isolate practice from the scheduled fixture; the English failure-forward exception is tested below.
    E("S.srs={};S.sess={};S.introductions={};S.studyDay=null;S.bury=null;FC=null;save()")
    snapshot=E('JSON.stringify(S.srs)')
@@ -69,7 +96,7 @@ def run(kind):
     for route in ['', 'kana','review','cards','learn','hard','listen','match','test','cram','write?w='+word,'speak?w='+word,'list','stats']:
      
      if route=='review':E("if(S.sess?.review)S.sess.review.flipped=false;save()")
-     go(route);settle();E(AXE)
+     go(route);settle();assert E('document.documentElement.scrollWidth<=innerWidth'),(theme,route,'horizontal overflow');E(AXE)
      bad=E("axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}}).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})))")
      if bad:violations[theme+':'+route]=bad
      if route=='review':
@@ -84,18 +111,21 @@ def run(kind):
    assert not errors,errors;ok('no page errors or console errors')
    # New contexts isolate schema fixtures from the established IndexedDB record.
    for fixture in ['migration','corrupt','newer','idb-corrupt']:
-    fc=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True);fp=fc.new_page();fp.goto(BASE);fp.wait_for_selector('[data-start]')
+    fc=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True);fp=fc.new_page();fixture_errors=[];fp.on('pageerror',lambda e:fixture_errors.append(str(e)));fp.goto(BASE);fp.wait_for_selector('[data-start]')
     state={'v':7,'user':{'done':True,'goal':'5'},'set':{'autoplay':False,'f':{}},'srs':{'fixture':{'state':'review','due':4102444800000,'s':31,'d':4,'int':30}},'ev':{'fixture':[[123,'f',1]]},'revlog':[[123,'fixture',3,'review',30]],'notes':{'fixture':'giữ lại'}}
-    if fixture=='newer':state['v']=99
+    if fixture=='newer':state['v']=99;state.pop('set')
     fp.evaluate("async s=>{const db=await new Promise(ok=>{const r=indexedDB.open('hoc-tieng-nhat',1);r.onsuccess=()=>ok(r.result)});await new Promise(ok=>{const t=db.transaction('progress','readwrite');t.objectStore('progress').clear();t.oncomplete=ok});db.close();localStorage.setItem('htn-core',JSON.stringify(s));localStorage.setItem('htv2','english');localStorage.setItem('htt-core','chinese')}",state)
     if fixture=='corrupt':fp.evaluate("s=>{localStorage.setItem('htn-core-bak',JSON.stringify(s));localStorage.setItem('htn-core','{broken')}",state)
     if fixture=='idb-corrupt':fp.evaluate("async s=>{const db=await new Promise(ok=>{const r=indexedDB.open('hoc-tieng-nhat',1);r.onsuccess=()=>ok(r.result)});await new Promise(ok=>{const t=db.transaction('progress','readwrite'),st=t.objectStore('progress');st.put('broken','current');st.put(s,'daily-backup');t.oncomplete=ok});db.close()}",state)
     fp.reload();fp.wait_for_selector('.view');fp.wait_for_timeout(250)
     assert fp.evaluate('JSON.stringify(S.srs)')==json.dumps(state['srs'],separators=(',',':'));assert fp.evaluate("S.notes.fixture")=='giữ lại';assert fp.evaluate("localStorage.getItem('htv2')")=='english';assert fp.evaluate("localStorage.getItem('htt-core')")=='chinese'
-    if fixture=='newer':assert fp.evaluate('S.v')==99
+    if fixture=='newer':
+     assert fp.evaluate('S.v')==99;assert fp.locator('#settings').is_disabled()
+     assert fp.evaluate("JSON.parse(localStorage.getItem('htn-core'))")==state
+     assert fp.evaluate("async()=>{await save();const db=await new Promise(ok=>{const r=indexedDB.open('hoc-tieng-nhat',1);r.onsuccess=()=>ok(r.result)});const value=await new Promise(ok=>{const r=db.transaction('progress').objectStore('progress').get('current');r.onsuccess=()=>ok(r.result)});db.close();return value}")==state
     elif fixture=='corrupt':assert fp.evaluate("Object.keys(localStorage).some(k=>k.startsWith('htn-core-corrupt-'))")
     elif fixture=='migration':assert fp.evaluate("!!localStorage.getItem('htn-core-pre-v7')")
-    ok(fixture+' preserves cards, notes and other applications');fc.close()
+    assert not fixture_errors,fixture_errors;ok(fixture+' preserves cards, notes and other applications');fc.close()
    return {'passed':len(checks),'failed':0,'checks':checks,'consoleErrors':errors,'axeViolations':violations}
   except Exception as e:
    traceback.print_exc();pg.screenshot(path=str(REPORTS/f'failure-{kind}.png'),full_page=True);return {'passed':len(checks),'failed':1,'checks':checks,'error':str(e),'consoleErrors':errors,'axeViolations':violations}

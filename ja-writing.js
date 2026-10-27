@@ -1,5 +1,6 @@
 'use strict';
 function jaWrite(){const params=new URLSearchParams(location.hash.split('?')[1]||''),word=byId(params.get('w'))||deck().find(w=>/[一-龯]/.test(w.kanji)),text=params.get('kana')||word?.kanji||'あ';let chars=[...text].filter(c=>/[ぁ-ゖァ-ヺ一-龯]/.test(c)),index=0,mode='watch',dead=false,attempt=0,animations=[];
+ if(!chars.length)chars=['あ'];
  if(params.get('c')&&chars.includes(params.get('c')))index=chars.indexOf(params.get('c'));
  function stop(){attempt++;animations.forEach(a=>a.cancel());animations=[]}
  async function draw(){stop();const token=attempt,c=chars[index],info=LANG.kanji[c]||{},src=info.strokes||`data/strokes/${c.codePointAt(0).toString(16).padStart(5,'0')}.svg`;

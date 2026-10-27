@@ -29,4 +29,4 @@ with out.open('w') as f:
    writer.writerow({'id':w['id'],'kanji':w['kanji'],'reading':w['kana'],'en':en,'vi':vi})
   f.flush();print(start+len(texts),'/',len(work),round(time.time()-started,1),'seconds',flush=True)
 meta={'model':'Helsinki-NLP/opus-mt-en-vi','license':'Apache-2.0','engine':'Transformers Marian float32 CPU','beam_size':4,'batch_size':32,'candidateCount':len(work),'source':'first JMdict English gloss; parenthetical notes stripped','postprocessing':'lowercase, trim punctuation, remove leading Vietnamese infinitive marker','weightsSha256':hashlib.sha256((cache/'opus-en-vi/pytorch_model.bin').read_bytes()).hexdigest(),'requiresReview':True}
-(ROOT/'data/sources/translation-method.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
+(cache/'mt-candidate-method.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
