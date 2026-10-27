@@ -1,5 +1,5 @@
 {
- "version": "1.9.0",
+ "version": "1.10.0",
  "sourceDate": "2026-10-26",
  "sourceHeadwords": 8138,
  "sourceRows": 8505,
@@ -67,14 +67,14 @@
    "hanViet": 1508,
    "pitch": 1749,
    "audio": 1826,
-   "examples": 0,
-   "exampleHumanDirect": 0,
-   "exampleHumanPivot": 0,
-   "exampleMachine": 0,
-   "exampleLemma": 0,
-   "furiganaFull": 0,
-   "furiganaPartial": 0,
-   "furiganaTokensSkipped": 0
+   "examples": 1522,
+   "exampleHumanDirect": 294,
+   "exampleHumanPivot": 134,
+   "exampleMachine": 1094,
+   "exampleLemma": 320,
+   "furiganaFull": 479,
+   "furiganaPartial": 895,
+   "furiganaTokensSkipped": 1543
   },
   "N1": {
    "words": 3425,
@@ -82,14 +82,14 @@
    "hanViet": 3152,
    "pitch": 3328,
    "audio": 3425,
-   "examples": 0,
-   "exampleHumanDirect": 0,
-   "exampleHumanPivot": 0,
-   "exampleMachine": 0,
-   "exampleLemma": 0,
-   "furiganaFull": 0,
-   "furiganaPartial": 0,
-   "furiganaTokensSkipped": 0
+   "examples": 2421,
+   "exampleHumanDirect": 633,
+   "exampleHumanPivot": 195,
+   "exampleMachine": 1593,
+   "exampleLemma": 342,
+   "furiganaFull": 781,
+   "furiganaPartial": 1412,
+   "furiganaTokensSkipped": 2483
   }
  },
  "sources": {

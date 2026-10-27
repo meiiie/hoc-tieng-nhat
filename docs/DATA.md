@@ -71,8 +71,8 @@ Tái trích: `.cache/content-venv/bin/python tools/pitch_sources.py --download` 
 | N5 | 649 | 541 | 37 | 71 |
 | N4 | 627 | 450 | 59 | 118 |
 | N3 | 1719 | 1045 | 169 | 505 |
-| N2 | 0 | 0 | 0 | 0 |
-| N1 | 0 | 0 | 0 | 0 |
+| N2 | 1522 | 294 | 134 | 1094 |
+| N1 | 2421 | 633 | 195 | 1593 |
 <!-- example-counts:end -->
 
 Mỗi từ được chọn tối đa một câu thật, dài 4–25 ký tự, có dấu kết câu và tác giả được nêu tên. Tệp chi tiết thực tế có sáu cột `id, lang, text, username, created, modified`, **không có cột giấy phép**; văn bản được tái sử dụng theo CC BY 2.0 FR của bản xuất Tatoeba. Bỏ câu không có chủ sở hữu. SHA-256 và phương pháp nằm trong `data/sources/tatoeba-method.json`; nguyên câu, tên người đóng góp và liên kết `https://tatoeba.org/sentences/show/<id>` giữ cho cả Nhật, Việt và Anh được dùng.
@@ -107,8 +107,8 @@ Nút furigana hiện có điều khiển cả từ và câu. Các bộ đếm th
 | N5 | 222 | 322 | 77 | 28 | 632 | 99 |
 | N4 | 210 | 347 | 48 | 22 | 604 | 132 |
 | N3 | 515 | 1081 | 90 | 33 | 1969 | 165 |
-| N2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| N1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| N2 | 479 | 895 | 93 | 55 | 1543 | 320 |
+| N1 | 781 | 1412 | 163 | 65 | 2483 | 342 |
 <!-- furigana-counts:end -->
 
 ### Mở rộng N2/N1 và bản dịch máy (1.10.0)
