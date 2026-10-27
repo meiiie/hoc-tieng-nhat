@@ -10,6 +10,7 @@ from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1];OUT=Path(os.environ.get('REPORT_DIR',ROOT.parent/'reports'));OUT.mkdir(parents=True,exist_ok=True)
 SW=(ROOT/'sw.js').read_text();CURRENT=re.search(r"const V='([^']+)'",SW)[1];NEXT=CURRENT+'-test-update';STATE={'next':False,'fail':False}
+REPLACED_AUDIO=json.loads(re.search(r'const REPLACED_AUDIO=(\[.*?\]);',SW)[1])
 class Handler(SimpleHTTPRequestHandler):
  def __init__(self,*a,**k):super().__init__(*a,directory=str(ROOT),**k)
  def log_message(self,*_):pass
@@ -55,6 +56,7 @@ try:
      if not BASE:
       page.evaluate("async()=>{S.notes.upgrade='giữ lại';S.srs.fixture={state:'review',due:4102444800000,int:30,s:31.5,d:4.2,reps:4,lapses:0};await save();for(const name of ['another-app','htv-v24','htt-v5.0.0','htn-v0.9.0','htn-data-v0'])await (await caches.open(name)).put('sentinel',new Response('keep'))}")
       progress=page.evaluate('JSON.stringify([S.srs,S.notes])')
+      page.evaluate("async url=>{const c=await caches.open('htn-audio-v1');await c.put(url,new Response('old recording'));await c.put('audio/update-sentinel.mp3',new Response('keep recording'))}",REPLACED_AUDIO[0])
       STATE.update(next=True,fail=True)
       page.evaluate("""async()=>{
        const r=await navigator.serviceWorker.getRegistration();
@@ -64,6 +66,7 @@ try:
       }""")
       assert page.evaluate('navigator.serviceWorker.getRegistration().then(r=>!r.waiting)')
       assert page.evaluate('JSON.stringify([S.srs,S.notes])')==progress
+      assert page.evaluate("url=>caches.open('htn-audio-v1').then(c=>c.match(url)).then(r=>r.text())",REPLACED_AUDIO[0])=='old recording'
       context.set_offline(True);page.reload();page.wait_for_selector('.v-home');assert page.evaluate('words.length')==8344;context.set_offline(False)
       checks.append('failed shell install leaves previous app usable offline')
       STATE['fail']=False
@@ -79,6 +82,9 @@ try:
       for name in ['another-app','htv-v24','htt-v5.0.0']:
        assert page.evaluate("name=>caches.open(name).then(c=>c.match('sentinel')).then(r=>r.text())",name)=='keep'
       checks.append('activation removes own obsolete caches and retains other apps')
+      assert not page.evaluate("url=>caches.open('htn-audio-v1').then(c=>c.match(url)).then(Boolean)",REPLACED_AUDIO[0])
+      assert page.evaluate("caches.open('htn-audio-v1').then(c=>c.match('audio/update-sentinel.mp3')).then(r=>r.text())")=='keep recording'
+      checks.append('incoming v1.10.2 invalidates replaced audio only after successful activation')
       context.set_offline(True);page.evaluate('JaData.loadLevel(2)');assert page.evaluate('words.some(w=>w.level===2&&w.example)');context.set_offline(False)
       checks.append('upgrade retains vocabulary from the old eager shell for offline use')
      audio=page.evaluate('words.find(w=>w.audio).audio')

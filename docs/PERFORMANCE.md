@@ -105,6 +105,13 @@ An offline fallback can use an already-cached prior revision. Activation copies
 old eager-shell vocabulary before deleting old shell caches. Cache identity and
 content metadata are separate from learner storage: schema stays **11**.
 
+While this task was running, main advanced to v1.10.2 / PR #3
+(`8e70f86a8903e7389a2b6bfccd26a4b02d28a64b`). The local commits were rebased;
+its 152 corrected MP3s, source audits, tools and selective audio-cache invalidation
+were retained. Vocabulary JSON did not change in that release. All final gates
+must run on the combined v1.11.0 tree; earlier gate runs are not the final release
+verification. The original before measurements remain the v1.10.1 baseline.
+
 Settings offers **Tải để dùng offline** for all five levels, their complete
 examples/ruby, and kanji metadata. Downloads are sequential and don't parse
 unused levels. It only reports success after the requested content is cached;
