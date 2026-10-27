@@ -1,3 +1,4 @@
+import sys as _s,os as _o;_s.path.insert(0,_o.path.dirname(__file__));from onboard import onboard
 import os
 PREFIX=os.environ.get("REPORT_PREFIX", "")
 """Measure the actual home after onboarding, keeping the installed service worker.
@@ -11,7 +12,7 @@ ROOT=Path(__file__).resolve().parents[1];OUT=ROOT.parent/'reports'
 with tempfile.TemporaryDirectory(prefix="neko-lighthouse-") as profile, sync_playwright() as p:
  ctx=p.chromium.launch_persistent_context(profile,headless=True,args=['--remote-debugging-port=9225','--no-sandbox'],viewport={'width':390,'height':844},is_mobile=True,has_touch=True)
  page=ctx.pages[0];page.goto(BASE);page.wait_for_selector('.view')
- if page.locator('[data-start="n5"]').count():page.click('[data-start="n5"]')
+ if page.locator('#nm').count():onboard(page)
  page.wait_for_selector('.v-home');page.evaluate("S.set.theme='light';S.set.autoplay=false;save()");page.evaluate('navigator.serviceWorker.ready');page.wait_for_function('!!navigator.serviceWorker.controller')
  cases=[('lighthouse','lighthouse-current','performance,accessibility,best-practices'),(str(ROOT/'.cache/lighthouse11/node_modules/.bin/lighthouse'),'lighthouse-pwa-legacy','pwa,accessibility')]
  env={**os.environ,'CHROME_PATH':p.chromium.executable_path}

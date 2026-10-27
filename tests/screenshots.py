@@ -1,3 +1,4 @@
+import sys as _s,os as _o;_s.path.insert(0,_o.path.dirname(__file__));from onboard import onboard
 import os
 PREFIX=os.environ.get("REPORT_PREFIX", "")
 """Reproducible 390 × 844 touch screenshots; synthetic study fixture only."""
@@ -10,7 +11,7 @@ shots=[]
 with sync_playwright() as p:
  browser=p.chromium.launch()
  ctx=browser.new_context(viewport={'width':390,'height':844},device_scale_factor=2,has_touch=True,is_mobile=True,reduced_motion='reduce')
- page=ctx.new_page();page.goto(BASE);page.wait_for_selector('[data-start="n5"]');page.click('[data-start="n5"]');page.wait_for_selector('.v-home')
+ page=ctx.new_page();page.goto(BASE);onboard(page);page.wait_for_selector('.v-home')
  page.evaluate("S.set.autoplay=false;S.set.gtip=true;S.set.furigana='on';S.set.romaji='off';S.user.name='';save()")
  word=page.evaluate("words.find(w=>w.kanji==='学校').id")
  def go(route):

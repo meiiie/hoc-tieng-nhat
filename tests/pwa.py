@@ -1,3 +1,4 @@
+import sys as _s,os as _o;_s.path.insert(0,_o.path.dirname(__file__));from onboard import onboard
 import os
 PREFIX=os.environ.get("REPORT_PREFIX", "")
 """Install, update and offline gates at root and GitHub Pages paths, in both engines."""
@@ -36,7 +37,7 @@ try:
     context=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True)
     page=context.new_page();base=BASE or f'http://127.0.0.1:{server.server_port}'+path
     try:
-     page.goto(base);page.wait_for_selector('[data-start="n5"]');page.click('[data-start="n5"]');page.wait_for_selector('.v-home')
+     page.goto(base);onboard(page);page.wait_for_selector('.v-home')
      page.evaluate('navigator.serviceWorker.ready');page.wait_for_function('!!navigator.serviceWorker.controller')
      manifest=page.evaluate("fetch('manifest.webmanifest').then(r=>r.json())")
      assert manifest['start_url']==manifest['scope']==manifest['id']=='./';assert manifest['lang']=='vi'
