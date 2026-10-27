@@ -446,7 +446,7 @@ function learn(mode){const hard=mode=='hard',SK=hard?'hard':'learn',MAX=4,ROUND=
   view(T,header(st)+`<div class="card q">${body}<input class="ti" id="ti" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done">
   <div class="row" id="tirow"><button class="btn sec" id="dk">Không biết</button><button class="btn" id="ck">Kiểm tra</button></div><div id="fb" aria-live="polite"></div></div>`);
   if(st==3){const pl=$('#pl');pl.onclick=()=>play(w,'w',{btn:pl});setTimeout(()=>play(w,'w',{btn:pl}),250)}
-  const ti=$('#ti'),targets=cz?[norm(cz.ans),...accepts(w)]:accepts(w);setTimeout(()=>ti.focus(),60);
+  const ti=$('#ti'),targets=cz?(LANG.clozeTargets?LANG.clozeTargets(w,cz):[norm(cz.ans),...accepts(w)]):accepts(w);setTimeout(()=>ti.focus(),60);
   const chk=give=>{if(ti.disabled)return;const r=give?{ok:false,exact:false,input:'',target:targets[0]}:checkAns(ti.value,targets);ti.disabled=true;ti.classList.add(r.ok?(r.exact?'ok':'near'):'bad');$('#tirow').remove();res(w,r.ok,st,r)};
   $('#ck').onclick=()=>chk(false);$('#dk').onclick=()=>chk(true);ti.onkeydown=e=>{if(e.key=='Enter')chk(false)};keys=null}
  function res(w,ok,st,r){const snap=[S.learn[w.id],S.miss[w.id]];
@@ -455,7 +455,7 @@ function learn(mode){const hard=mode=='hard',SK=hard?'hard':'learn',MAX=4,ROUND=
   apply(ok);if(ok)rc++;buzz(ok?10:[30,40,30]);practice(w,ok);play(w);
   const near=!!(r&&r.ok&&!r.exact);
   moodTo($('.mascot'),ok?'happy':'sad',ok?(near?'Gần đúng! Chú ý chính tả nhé.':PRAISE[Math.random()*PRAISE.length|0]):'Chưa đúng, xem lại nhé.');
-  $('#fb').innerHTML=`<div class="fb ${ok?(near?'near':'ok'):'bad'}">${I(ok?'circle-check':'circle-x')}<div>${near?'Gần đúng · ':''}${ok?'':'Đáp án: '}<b>${esc(w.w)}</b> ${esc(ipaOf(w))}<br><span style="font-weight:500">${esc(w.vi)}</span></div></div>
+  $('#fb').innerHTML=`<div class="fb ${ok?(near?'near':'ok'):'bad'}">${I(ok?'circle-check':'circle-x')}<div>${near?'Gần đúng · ':''}${ok?'':'Đáp án: '}<b>${esc(st===2?cloze(w).ans:w.w)}</b> ${esc(st===2&&w.example?.match?.kind==='lemma'?w.example.match.surfaceReading:ipaOf(w))}<br><span style="font-weight:500">${esc(w.vi)}</span></div></div>
   ${r&&r.input&&!r.exact?diffRow(r):''}${ok?'':`<p class="muted"><i>${esc(w.ex)}</i></p>`}${noteHTML(w)}
   <div class="row" style="margin-top:12px">${!ok&&r&&r.input?'<button class="btn sec" id="ovr">Tôi đã đúng</button>':''}<button class="btn" id="nx">Tiếp tục</button></div>`;
   ri++;put();ri--;const go=()=>{ri++;ask()};$('#nx').onclick=go;$('#nx').focus({preventScroll:true});keys=e=>{if(e.key=='Enter'&&!$('#sheet:not(.hidden)')&&document.activeElement.tagName!='TEXTAREA'){e.preventDefault();go()}};

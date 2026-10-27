@@ -35,7 +35,12 @@ class FuriganaTest(unittest.TestCase):
                 self.assertEqual(annotate(w, e), e, w['id'])
                 m = e['match']
                 ts = [t for t in analyze(e['text']) if m['start'] <= t['start'] and t['end'] <= m['end']]
-                self.assertEqual(''.join(t['reading'] for t in ts), hira(w['kana']), w['id'])
+                if m['kind'] == 'lemma':
+                    lexical = [t for t in ts if t['end'] <= m['lexicalEnd']]
+                    self.assertEqual(''.join(t['reading'] for t in lexical[:-1])+hira(lexical[-1]['kanaBase']), hira(w['kana']), w['id'])
+                    self.assertEqual(''.join(t['reading'] for t in ts), m['surfaceReading'], w['id'])
+                else:
+                    self.assertEqual(''.join(t['reading'] for t in ts), hira(w['kana']), w['id'])
 
 
 if __name__ == '__main__':

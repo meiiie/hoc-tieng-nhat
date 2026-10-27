@@ -38,7 +38,7 @@ def verify_dictionary():
     return digest
 
 
-@lru_cache(maxsize=150000)
+@lru_cache(maxsize=8192)
 def analyze(text):
     tokens = []
     offset = 0
@@ -111,6 +111,11 @@ def annotate(word, example):
     target_agrees = (target and target[0]['start'] == match['start']
                      and target[-1]['end'] == match['end']
                      and ''.join(t['reading'] for t in target) == hira(word['kana']))
+    if match.get('kind') == 'lemma':
+        lexical = [t for t in target if t['end'] <= match['lexicalEnd']]
+        target_agrees = (lexical and ''.join(t['reading'] for t in lexical[:-1])
+                         + hira(lexical[-1].get('kanaBase', '')) == hira(word['kana'])
+                         and match['targetReading'] == hira(word['kana']))
     segments, evidence, skipped = [], [], []
     offset = 0
     for token in tokens:

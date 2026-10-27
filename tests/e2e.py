@@ -106,9 +106,20 @@ def run(kind):
     assert pg.locator('.face.b .ja-example-source a').first.get_attribute('href')==fixture['example']['url']
    E("id=>{S.learn={[id]:2};S.sess={};save()}",fixture['id'])
    go('learn');pg.wait_for_selector('.cloze .gap');assert 'bản dịch máy, cần kiểm tra' in pg.text_content('main')
-   pg.fill('#ti',fixture['kana']);pg.click('#ck');pg.wait_for_selector('#fb .fb.ok')
+   pg.fill('#ti',fixture['example']['match'].get('surfaceReading',fixture['kana']));pg.click('#ck');pg.wait_for_selector('#fb .fb.ok')
    assert E('id=>S.learn[id]',fixture['id'])==3;assert E('JSON.stringify(S.srs)')=='{}'
    ok('attributed direct/pivot/machine examples and exact cloze preserve scheduled progress')
+   # An inflected cloze must ask for the actual surface, including negative/polite endings.
+   lemma=E("()=>{const w=words.find(w=>w.example?.match.kind==='lemma');S.star={[w.id]:true};S.set.f={cefr:'N'+w.level,star:true};S.learn={[w.id]:2};S.srs={};S.sess={};FC=null;save();return w}")
+   for answer in [lemma['kanji'],lemma['example']['match']['surface'],lemma['example']['match']['surfaceReading']]:
+    E("id=>{S.learn={[id]:2};S.sess={};save()}",lemma['id']);go('learn');pg.wait_for_selector('.cloze .gap')
+    assert pg.locator('.cloze').evaluate("e=>{const c=e.cloneNode(true);c.querySelector('.gap').remove();return c.textContent}")==lemma['example']['text'][:lemma['example']['match']['start']]+lemma['example']['text'][lemma['example']['match']['end']:]
+    pg.fill('#ti',answer);pg.click('#ck');pg.wait_for_selector('#fb .fb')
+    assert pg.locator('#fb .fb.ok').count()==(0 if answer==lemma['kanji'] else 1)
+    assert lemma['example']['match']['surface'] in pg.locator('#fb').inner_text()
+    assert E('JSON.stringify(S.srs)')=='{}'
+   ok('lemma cloze hides and accepts the actual surface/reading, rejects dictionary form and preserves SRS')
+
    forward=E("(()=>{const w=words.find(w=>w.level===5);S.star={[w.id]:true};S.set.f={cefr:'N5',star:true};S.srs[w.id]={...SRS.fresh(),state:'review',s:31,d:4,int:30,due:SRS.dayAt(Date.now(),20),last:Date.now(),reps:4};FC=null;S.sess={};save();return w.id})()")
    go('cards');pg.click('#nL');pg.wait_for_timeout(300);assert E('id=>S.srs[id].due===SRS.dayAt(Date.now(),1)&&S.srs[id].s===31&&S.srs[id].int===30',forward);ok('English failed-recall exception advances due date without changing memory state')
    E("S.set.f={cefr:'N5'};S.star={};S.sess={};S.srs={};S.introductions={};S.bury=null;save()")

@@ -22,3 +22,10 @@ test('sentence ruby respects the toggle, escapes bases and falls back on invalid
  assert.equal(E.sentence({...e,furigana:[{base:'学校'}]}),example.text);
  assert.equal(E.sentence({...e,text:'<script>',furigana:[{base:'<script>'}]}),'&lt;script&gt;');
 });
+
+test('inflected cloze hides the actual span including polite and negative endings',()=>{
+ for(const [text,surface,start,end] of [['昨日食べました。','食べました',2,7],['高くない。','高くない',0,4],['勉強しませんでした。','勉強しませんでした',0,9]]){
+  const e={...example,text,match:{start,end,surface,kind:'lemma'}};const c=E.cloze({kanji:'辞書形',example:e});
+  assert.equal(c.ans,surface);assert.equal(c.before+c.ans+c.after,text);
+ }
+});
