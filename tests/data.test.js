@@ -14,7 +14,7 @@ test('every published romaji retains the reading and mora boundaries',()=>{const
 test('Tatoeba examples have exact word blanks, short sentences and per-sentence attribution',()=>{
  const check=s=>{assert.ok(Number.isInteger(s.id)&&s.id>0);assert.ok(s.username&&s.username!=='\\N');assert.equal(s.url,`https://tatoeba.org/sentences/show/${s.id}`);assert.equal(s.license,'CC BY 2.0 FR')};
  for(const [n,min] of [[5,600],[4,580],[3,1600]])assert.ok(all.filter(w=>w.level===n&&w.example).length>min,`N${n} example coverage`);
- for(const w of all){const e=w.example;if(!e)continue;check(e);assert.equal(e.lang,'jpn');assert.ok([...e.text].length<=25);assert.equal(e.furigana,null);
+ for(const w of all){const e=w.example;if(!e)continue;check(e);assert.equal(e.lang,'jpn');assert.ok([...e.text].length<=25);assert.ok(Array.isArray(e.furigana));
   const m=e.match;assert.equal(m.kind,'exact');assert.ok([w.kanji,w.kana].includes(m.surface));assert.equal(e.text.slice(m.start,m.end),m.surface);
   const t=e.translation;assert.ok(t.text.trim());assert.equal(t.license,'CC BY 2.0 FR');assert.equal(t.lang,'vie');assert.equal(typeof t.machine,'boolean');assert.equal(typeof t.pivot,'boolean');
   if(t.machine){assert.equal(t.pivot,false);check(t.from);assert.equal(t.from.lang,'eng');assert.deepEqual(t.links,[[e.id,t.from.id]])}
@@ -43,5 +43,17 @@ test('added pitch values retain explicit licensed lexical evidence and source la
     assert.ok(r.allowedLemmas.map(hira).includes(hira(f.lemma.replace(/-[A-Za-z].*$/,''))));
    }
   }else{assert.equal(r.source,'kanjium');assert.equal(r.license,'CC-BY-SA-4.0');for(const item of r.records){assert.equal(item.form,w.kanji);assert.equal(hira(item.reading),hira(w.kana));assert.deepEqual(item.acc_pos.split(',').map(Number),w.pitch);assert.ok(item.line>0&&item.rowId&&item.raw)}}
+ }
+});
+
+ test('sentence ruby preserves every base character, excludes kana and retains lexical evidence',()=>{
+ const hira=s=>s.normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96));
+ for(const w of all){const e=w.example;if(!e)continue;
+  assert.equal(e.furigana.map(s=>s.base).join(''),e.text,w.id);
+  for(const s of e.furigana){assert.ok(s.base);if(s.ruby){assert.match(s.base,/^[\p{Script=Han}々〆〇]+$/u);assert.match(s.ruby,/^[ぁ-ゖー]+$/)}}
+  for(const t of e.furiganaEvidence){assert.equal(e.text.slice(t.start,t.end),t.surface);assert.ok(t.dictionaryReadings.includes(t.reading));assert.doesNotMatch(t.surface,/今日|一日|^人$/);if(t.source==='unidic-single-reading')assert.equal(t.dictionaryReadings.length,1);else assert.equal(t.source,'unidic-jmdict-target')}
+  const start=e.match.start,end=e.match.end;let offset=0,reading='',complete=true;
+  for(const s of e.furigana){const next=offset+s.base.length;if(offset>=start&&next<=end){reading+=s.ruby||hira(s.base);if(!s.ruby&&/\p{Script=Han}/u.test(s.base))complete=false}offset=next}
+  if(complete)assert.equal(reading,hira(w.kana),w.id+' target reading');
  }
 });

@@ -1,0 +1,76 @@
+{
+  "analyzer": "fugashi 1.5.2 (MIT; bundled MeCab BSD-3-Clause)",
+  "dictionary": "unidic-lite 1.0.8 / UniDic 2.1.2 (BSD-3-Clause option)",
+  "dictionarySha256": "122c4c91f026bf4b65bbe2dfd8b9f8eeb6ab56d8eb2a7287a68bca75708ba513",
+  "levels": {
+    "N5": {
+      "examples": 648,
+      "full": 167,
+      "partial": 384,
+      "unannotated": 77,
+      "kanaOnly": 20,
+      "tokensAnnotated": 969,
+      "tokensSkipped": 769,
+      "skipReasons": {
+        "ambiguous-date-or-person": 17,
+        "ambiguous-kana-alignment": 1,
+        "multiple-or-missing-readings": 629,
+        "number-or-counter": 110,
+        "proper-name": 12
+      }
+    },
+    "N4": {
+      "examples": 611,
+      "full": 185,
+      "partial": 363,
+      "unannotated": 44,
+      "kanaOnly": 19,
+      "tokensAnnotated": 1050,
+      "tokensSkipped": 631,
+      "skipReasons": {
+        "ambiguous-date-or-person": 17,
+        "multiple-or-missing-readings": 544,
+        "number-or-counter": 55,
+        "proper-name": 15
+      }
+    },
+    "N3": {
+      "examples": 1712,
+      "full": 479,
+      "partial": 1094,
+      "unannotated": 98,
+      "kanaOnly": 41,
+      "tokensAnnotated": 3260,
+      "tokensSkipped": 1986,
+      "skipReasons": {
+        "ambiguous-date-or-person": 54,
+        "ambiguous-kana-alignment": 3,
+        "multiple-or-missing-readings": 1670,
+        "number-or-counter": 222,
+        "proper-name": 37
+      }
+    },
+    "N2": {
+      "examples": 0,
+      "full": 0,
+      "partial": 0,
+      "unannotated": 0,
+      "kanaOnly": 0,
+      "tokensAnnotated": 0,
+      "tokensSkipped": 0,
+      "skipReasons": {}
+    },
+    "N1": {
+      "examples": 0,
+      "full": 0,
+      "partial": 0,
+      "unannotated": 0,
+      "kanaOnly": 0,
+      "tokensAnnotated": 0,
+      "tokensSkipped": 0,
+      "skipReasons": {}
+    }
+  },
+  "countUnit": "per word example, including repeated sentence IDs; tokensSkipped counts kanji-bearing tokens only",
+  "policy": "All full-surface dictionary nodes must agree, or agree with the matched JMdict target reading. Always skip ambiguous dates/person counters, numbers/counters, proper names, unknowns and nonunique kana alignment. Kana are never ruby bases."
+}

@@ -79,11 +79,19 @@ Mỗi từ được chọn tối đa một câu thật, dài 4–25 ký tự, c�
 
 Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu, chọn Việt nối qua một câu Anh và ghi `pivot:true`, nhãn **dịch qua câu tiếng Anh**. Nếu chỉ có câu Anh liên kết trực tiếp, Codex dịch sang Việt, đối chiếu câu Nhật và giữ `machine:true`, nhãn **bản dịch máy, cần kiểm tra**. Không gọi các bản dịch AI là bản dịch do người đóng góp Tatoeba viết. Cột Việt trực tiếp/pivot chỉ cho biết nguồn văn bản do người đóng góp đăng; chưa có biên tập viên bản ngữ kiểm định chúng hay xác minh cách tác giả tạo ra chúng.
 
-`match` ghi `start`, `end`, `surface`, `kind:exact`. Biên từ và cách đọc được kiểm tra bằng fugashi 1.5.2 + UniDic 2.1.2 (unidic-lite 1.0.8). Chỉ lấy dạng chữ hoặc kana nguyên vẹn, không ghép một phần kanji/từ đồng âm khác cách đọc. **Không dùng khớp thân biến cách** trong bản này; các câu chỉ chứa dạng đã chia có thể bị bỏ. Bộ phân tích vẫn có thể sai nghĩa/cách tách; không bảo đảm mọi ví dụ đúng sense JLPT. Không suy furigana từ bộ tách từ: `furigana:null`, hiển thị nguyên câu. Cloze che đúng đoạn khớp; chỉ bật khi có ví dụ hợp lệ.
+`match` ghi `start`, `end`, `surface`, `kind:exact`. Biên từ và cách đọc được kiểm tra bằng fugashi 1.5.2 + UniDic 2.1.2 (unidic-lite 1.0.8). Chỉ lấy dạng chữ hoặc kana nguyên vẹn, không ghép một phần kanji/từ đồng âm khác cách đọc. **Không dùng khớp thân biến cách** trong bản này; các câu chỉ chứa dạng đã chia có thể bị bỏ. Bộ phân tích vẫn có thể sai nghĩa/cách tách; không bảo đảm mọi ví dụ đúng sense JLPT. Furigana được biên soạn offline theo chính sách bảo thủ bên dưới. Cloze che đúng đoạn khớp; chỉ bật khi có ví dụ hợp lệ.
 
 Đầu vào biên soạn bền vững: `tatoeba-examples.json`, `tatoeba-vi-machine.tsv`, `tatoeba-exclusions.json`. Tệp loại trừ ghi lý do cho câu/link lỗi phát hiện khi rà. `tools/build-data.py` luôn ghép overlay, giữ ID từ và tiến độ cũ. Tái chọn bằng `tools/tatoeba.py --levels 5 4` rồi `tools/apply-examples.py .cache/examples-5-4.json`; bước apply từ chối bản dịch máy còn trống. Dùng venv biên soạn `.cache/content-venv`, không phân phối bộ tách từ/từ điển trong website.
 
 `tests/tatoeba_provenance.py` đối chiếu tất cả câu/ID/tác giả với TSV gốc và mọi cạnh liên kết với links.csv. `tests/example_matching.py` kiểm tra khớp từ và các trường hợp âm/biên sai; Node kiểm tra thuộc tính ghi công, câu ngắn và vị trí từ; E2E kiểm tra nhãn, nguồn và bước cloze. Nhật ký tự rà: `data/sources/tatoeba-review.json`. Codex đã dịch/đối chiếu các trường hợp máy, xem mẫu 35 bản dịch của người đóng góp N5/N4 và 60 N3; lỗi phát hiện được loại bằng danh sách có lý do. Không suy ra tỷ lệ chính xác; chưa có người bản ngữ rà toàn bộ câu/bản dịch. Không dùng `sentences_with_audio.csv`: phát âm câu vẫn dùng giọng thiết bị; không tải audio Tatoeba khi chưa kiểm tra giấy phép riêng từng bản ghi.
+
+## Furigana câu ví dụ (1.8.0)
+
+Chạy `.cache/content-venv/bin/python tools/annotate-examples.py` rồi `python3 tools/build-data.py`. Ghim fugashi 1.5.2, unidic-lite 1.0.8 / UniDic 2.1.2 và SHA-256 binary; không cần mạng. Build thường chỉ đọc overlay đã biên soạn. Không tải bộ phân tích hoặc từ điển vào trình duyệt.
+
+`example.furigana` là danh sách `{base, ruby?}` nối lại đúng nguyên câu. Chỉ nhóm kanji nhận ruby, kana/okurigana luôn giữ riêng. Mọi nút từ điển nguyên token phải thống nhất một cách đọc, hoặc cách đọc phải đồng ý với từ đích JMdict. Từ chưa biết, tên riêng, số/đơn vị đếm, 今日/一日/人, cách đọc khác nhau và phép tách kana không duy nhất giữ nguyên chữ. `furiganaEvidence` lưu cách đọc và nguồn tin cậy; `furiganaSkipped` lưu vị trí/lý do từng token kanji bị bỏ. Đây là bộ lọc bảo thủ, không phải xác suất thống kê hay kiểm định bản ngữ.
+
+Nút furigana hiện có điều khiển cả từ và câu. Các bộ đếm theo từng ví dụ của từng từ (có thể lặp ID câu) ở `data/sources/furigana-method.json`: N5 đầy đủ/một phần **167/384**, N4 **185/363**, N3 **479/1094**; bỏ **3.386 token kanji**. Câu chỉ có kana được đếm riêng. `tests/furigana.py` tái tạo toàn bộ annotation bằng dictionary thật và kiểm tra cách đọc từ đích; Node kiểm tra phép nối base, không ruby kana và bằng chứng. Chưa bảo đảm đọc đúng mọi ngữ cảnh.
 
 ## Âm thanh
 

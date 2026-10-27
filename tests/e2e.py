@@ -99,7 +99,7 @@ def run(kind):
    for mode in ['direct','pivot','machine']:
     fixture=E("mode=>{const w=words.find(w=>w.level===5&&w.example&&(mode==='machine'?w.example.translation.machine:mode==='pivot'?w.example.translation.pivot:!w.example.translation.machine&&!w.example.translation.pivot));S.star={[w.id]:true};S.set.f={cefr:'N5',star:true};S.srs={};S.introductions={};S.studyDay=null;S.bury=null;S.sess={};FC=null;save();return w}",mode)
     go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example')
-    assert fixture['example']['text'] in pg.locator('.face.b .ja-example').inner_text()
+    assert fixture['example']['text']==pg.locator('.face.b .ja-example-text').evaluate("e=>{const c=e.cloneNode(true);c.querySelectorAll('rt').forEach(x=>x.remove());return c.textContent}")
     expected={'direct':'bản dịch tiếng Việt trên Tatoeba','pivot':'dịch qua câu tiếng Anh','machine':'bản dịch máy, cần kiểm tra'}[mode]
     assert expected in pg.locator('.face.b .ja-example').inner_text()
     pg.locator('.face.b .ja-example-source summary').click()
@@ -143,6 +143,8 @@ def run(kind):
    assert E('JSON.stringify(S.srs)')==pitch_snapshot
    ok('licensed pitch sources, variants and missing-accent fallback render honestly')
    go('review');pg.wait_for_selector('.fc');pg.click('#voice');assert pg.locator('.fc ruby').count()==0;pg.click('#voice');assert pg.locator('.fc ruby').count()>0;ok('furigana toggle on both card faces')
+   E("const w=words.find(w=>w.example?.furigana?.some(s=>s.ruby));S.star={[w.id]:true};S.set.f={cefr:'N'+w.level,star:true};FC=null;save()")
+   go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example-text ruby rt');pg.click('#voice');pg.click('#show');assert pg.locator('.ja-example-text ruby').count()==0;pg.click('#voice');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example-text ruby rt');ok('sentence furigana follows the persisted toggle')
    go();pg.click('#settings');pg.wait_for_selector('#sheet:not(.hidden)');pg.click('[data-set="romaji"][data-v="on"]');pg.keyboard.press('Escape');go('review');pg.wait_for_selector('.ja-romaji');ok('romaji settings toggle')
    # Full route accessibility in both themes, including transient sheets and the back face.
    for theme in ['light','dark']:

@@ -13,3 +13,12 @@ test('example output labels pivot and machine translations and escapes text/attr
   assert.ok(html.includes('https://tatoeba.org/sentences/show/1'));assert.ok(html.includes('CC BY 2.0 FR'));
  }
 });
+test('sentence ruby respects the toggle, escapes bases and falls back on invalid segments',()=>{
+ const e={...example,furigana:[{base:'学校',ruby:'がっこう'},{base:'へ'},{base:'行',ruby:'い'},{base:'く。'}]};
+ assert.equal(E.sentence(e),'<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く。');
+ assert.equal(E.sentence(e,false),example.text);
+ assert.ok(!E.render(e,false).includes('<ruby>'));
+ assert.equal(E.sentence({...e,furigana:[{base:'学校へ行く。',ruby:'がっこうへいく'}]}),example.text);
+ assert.equal(E.sentence({...e,furigana:[{base:'学校'}]}),example.text);
+ assert.equal(E.sentence({...e,text:'<script>',furigana:[{base:'<script>'}]}),'&lt;script&gt;');
+});

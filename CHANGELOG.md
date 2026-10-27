@@ -1,3 +1,9 @@
+# 1.8.0 — 2026-10-27
+
+- Thêm furigana câu ví dụ N5–N3, biên soạn offline bằng fugashi/UniDic có phiên bản/hash và giấy phép đầy đủ. Chỉ ruby kanji khi đủ căn cứ; giữ chữ mơ hồ và ghi lý do bỏ.
+- Nút furigana điều khiển cả từ và câu. Không đổi câu gốc, bản dịch, ID hoặc schema 11.
+- Kiểm tra dữ liệu ruby/cách đọc, toggle trên hai engine và gate onboarding 5 bước độc lập. Cache htn-v1.8.0 chờ Tải lại.
+
 # 1.7.0 — 2026-10-27
 
 - Màn hình mở đầu theo đúng mẫu app tiếng Anh: 5 bước có thanh tiến trình và nút quay lại (tên, điểm bắt đầu, số từ mới mỗi nhóm, kiểu học, kế hoạch). Bước riêng cho tiếng Nhật: bắt đầu từ kana, N5, N4 hoặc N3; chọn N4/N3 mở sẵn các cấp tương ứng.

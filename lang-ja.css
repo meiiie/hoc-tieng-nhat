@@ -32,3 +32,5 @@ header{gap:8px}header #title{font-size:16px;line-height:1.3;flex:1;min-width:0}h
 .ja-example-text { font-size:1.15rem; line-height:1.7; overflow-wrap:anywhere; }
 .ja-example-source p { font-size:.85rem; line-height:1.6; overflow-wrap:anywhere; }
 .cloze { line-height:1.8; }
+
+.ja-example-text rt { font-size:.6em; color:var(--text-2); }

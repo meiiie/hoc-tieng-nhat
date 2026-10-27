@@ -80,3 +80,9 @@ Audio bổ sung: `python3 tests/audio_generation.py`; `python3 tests/audio_decod
 Cao độ bổ sung: `.cache/content-venv/bin/python tests/pitch_sources_test.py` và `.cache/content-venv/bin/python tests/pitch_provenance.py`. Bảy tình huống chọn nguồn dùng binary UniDic thật; provenance kiểm tra từng giá trị gốc, lemma, giấy phép, hash và giữ 7.096 accent/8.344 ID cũ. Node kiểm tra dữ liệu phát hành khớp overlay; E2E thêm nguồn UniDic, chọn biến thể và trạng thái chưa có accent.
 
 Gate localhost bản 1.6.0: npm 83/83; E2E Chromium 30/30, WebKit 29/29; axe 0 vi phạm trong 36 trạng thái mỗi engine; PWA 20/20; ranh giới đáp án 6/6. Chọn nguồn cao độ 7/7, provenance 936/936; provenance Tatoeba 2.971/2.971. Toàn bộ 8.344 MP3 đã giải mã qua các lượt theo cấp và khớp SHA-256 cuối. Rebuild data/core: 2.723/2.723 tệp cùng byte. Kết quả URL Pages và Lighthouse sau deploy lưu riêng ở báo cáo bàn giao lần 2; không suy điểm live từ localhost.
+
+## Gate từ 1.8.0
+
+Mọi push chạy đầy đủ `npm test`, `python3 tests/e2e.py http://localhost:8931/ all`, `python3 tests/pwa.py`, `python3 tests/answer-boundaries.py`, **`python3 tests/onboard.py`**. `onboard.py` vẫn xuất helper dùng chung; khi chạy trực tiếp kiểm tra 5 bước, back/giữ lựa chọn, bốn điểm bắt đầu/mở cấp, kế hoạch, lưu qua reload và bỏ qua tên trên cả Chromium/WebKit. Script nhận base URL và `REPORT_PREFIX` như E2E.
+
+Thêm `.cache/content-venv/bin/python tests/furigana.py`: dictionary thật, kana/okurigana, token mơ hồ và tái tạo toàn bộ dữ liệu ruby; `npm test` kiểm tra tính toàn vẹn base/đọc từ đích và toggle. E2E kiểm tra ruby câu với nút furigana trên cả hai engine. Không có thay đổi schema/ID tiến độ.
