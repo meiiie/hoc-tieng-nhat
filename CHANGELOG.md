@@ -1,3 +1,10 @@
+# 1.12.0 — 2026-10-27
+
+- Bổ sung 99 ví dụ vào chỗ trống N5/N4/N3: 26 câu có giấy phép và 73 câu AI. Giữ các câu cũ, toàn bộ ID/trường từ khác và schema 11.
+- Giữ nguồn/giấy phép và ghi phần hiệu đính; câu AI có nhãn “Câu do AI viết, cần kiểm tra” và khung nét đứt riêng. Bản dịch máy luôn giữ nhãn cần kiểm tra.
+- Áp dụng review v5; fix được kiểm lại lemma/nghĩa/ruby, reject viết mới một lần và ghi self-check riêng. Furigana chỉ thêm khi chắc; phương pháp và giới hạn ở docs/DATA.md, NOTICE và ex5/final.json.
+- Dữ liệu tiếp tục tải trễ từng cấp, không thêm câu vào shell. Cache `htn-v1.12.0`; tiến độ được giữ nguyên.
+
 # 1.11.0 — 2026-10-27
 
 - Trang chủ, thống kê và onboarding dùng chỉ mục nhỏ; chỉ tải bộ từ cùng ví dụ/furigana khi mở màn hình học cần cấp đó. Thông tin kanji tải khi luyện viết.

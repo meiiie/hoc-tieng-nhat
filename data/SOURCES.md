@@ -30,3 +30,10 @@ Tệp âm thanh tổng hợp được tạo bằng edge-tts, giọng ja-JP-Nanam
 - Binary sys.dic SHA-256 `122c4c91f026bf4b65bbe2dfd8b9f8eeb6ab56d8eb2a7287a68bca75708ba513`; các sửa nhỏ của unidic-lite như phần cao độ. Kết quả trích đọc từ điển giữ BSD-3-Clause; câu Tatoeba giữ CC BY 2.0 FR. Chính sách/các số bị bỏ: [furigana-method.json](sources/furigana-method.json).
 
 - Bản dịch câu máy N2/N1: [Helsinki-NLP/opus-mt-en-vi model card](https://huggingface.co/Helsinki-NLP/opus-mt-en-vi/raw/main/README.md), Apache-2.0 (đối chiếu 2026-10-27). Trọng số gốc Marian, token `>>vie<<`, chạy offline; hash/engine/tham số trong sources/tatoeba-machine-method.json. Bản dịch máy giữ giấy phép phái sinh CC BY 2.0 FR của câu; chỉ mẫu ID công bố được Codex xem/sửa, không kiểm định bản ngữ. Không dùng bản CTranslate2 cache lỗi.
+
+
+## Ví dụ v5
+
+Nguồn và đầu vào được ghim trong [hồ sơ nguồn v5](../ex5/sources-checked.md) và [manifest](../ex5/input-manifest.json): Tatoeba (CC BY 2.0 FR), KFTT 1.0 (CC BY-SA 3.0), Wiktionary tiếng Nhật (CC BY-SA 4.0, revision cố định), KNBC 1.0 (BSD ba khoản tiếng Nhật). Thông báo nguyên văn KFTT/KNBC ở `../ex5/licences/`; per-item credit và sửa đổi nằm trong `sources/examples-v5.json`. Câu nguồn được sửa vẫn giữ nguồn/giấy phép, có `original_ja` và `changes`; bản dịch người đóng góp bị sửa giữ `translation.original`.
+
+Câu AI dùng `source:"ai"`, nhãn “Câu do AI viết, cần kiểm tra”, ghi công OpenAI Codex và CC BY-SA 4.0; không mang nhãn Tatoeba. [Review](../ex5/review.json) tách khỏi [quyết định cuối](../ex5/final.json): bản viết lại chỉ có `rewrite_selfcheck` của trợ lý tích hợp, không phải review độc lập. Phương pháp, số lượng và giới hạn ở [DATA](../docs/DATA.md).

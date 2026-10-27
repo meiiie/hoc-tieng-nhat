@@ -42,6 +42,6 @@ Schema lớn hơn 11 chỉ đọc: bổ sung mặc định trong RAM để hiể
 
 ## PWA và phát hành
 
-Cache shell `htn-v1.11.0`; nét chữ/model `htn-data-v1`; MP3 `htn-audio-v1`. `SHELL` liệt kê tất cả JS/CSS/vendor dùng lúc chạy, 5 cấp từ, metadata, kana, kanji, manifest, version, credits và icon. SVG nét, âm thanh và model tải lười; không tải sẵn 2.683 SVG hoặc 8.344 MP3 khi cài ứng dụng.
+Cache shell `htn-v1.12.0`; nét chữ/model `htn-data-v1`; MP3 `htn-audio-v1`. `SHELL` liệt kê tất cả JS/CSS/vendor dùng lúc chạy, 5 cấp từ, metadata, kana, kanji, manifest, version, credits và icon. SVG nét, âm thanh và model tải lười; không tải sẵn 2.683 SVG hoặc 8.344 MP3 khi cài ứng dụng.
 
 Install dùng `cache:'reload'` và `addAll` nguyên khối. Không `skipWaiting` tự động. Khi bản mới đã cài đầy đủ, core mời **Tải lại**; activate chỉ xóa cache cũ có prefix Nhật. Service worker không chạm tiến độ. Các kiểm tra update thất bại/thành công và offline chạy ở cả `/` lẫn `/hoc-tieng-nhat/` trên Chromium/WebKit. GitHub Pages đã được triển khai tại https://meiiie.github.io/hoc-tieng-nhat/; chưa thử iPhone thật.

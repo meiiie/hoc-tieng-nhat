@@ -14,7 +14,7 @@ test('every published romaji retains the reading and mora boundaries',()=>{const
 test('Tatoeba examples have exact word blanks, short sentences and per-sentence attribution',()=>{
  const check=s=>{assert.ok(Number.isInteger(s.id)&&s.id>0);assert.ok(s.username&&s.username!=='\\N');assert.equal(s.url,`https://tatoeba.org/sentences/show/${s.id}`);assert.equal(s.license,'CC BY 2.0 FR')};
  for(const [n,min] of [[5,600],[4,580],[3,1600],[2,1400],[1,2300]])assert.ok(all.filter(w=>w.level===n&&w.example).length>min,`N${n} example coverage`);
- for(const w of all){const e=w.example;if(!e)continue;check(e);assert.equal(e.lang,'jpn');assert.ok([...e.text].length<=25);assert.ok(Array.isArray(e.furigana));
+ for(const w of all){const e=w.example;if(!e||e.source)continue;check(e);assert.equal(e.lang,'jpn');assert.ok([...e.text].length<=25);assert.ok(Array.isArray(e.furigana));
   const m=e.match;assert.ok(['exact','lemma'].includes(m.kind));if(m.kind==='exact')assert.ok([w.kanji,w.kana].includes(m.surface));else {assert.ok(m.lemma&&['動詞','形容詞'].includes(m.pos));assert.equal(require('../ja-kana').soundKey(m.targetReading),require('../ja-kana').soundKey(w.kana));assert.ok(m.surfaceReading&&m.lexicalEnd<=m.end);}assert.equal(e.text.slice(m.start,m.end),m.surface);
   const t=e.translation;assert.ok(t.text.trim());assert.equal(t.license,'CC BY 2.0 FR');assert.equal(t.lang,'vie');assert.equal(typeof t.machine,'boolean');assert.equal(typeof t.pivot,'boolean');
   if(t.machine){assert.equal(t.pivot,false);check(t.from);assert.equal(t.from.lang,'eng');assert.deepEqual(t.links,[[e.id,t.from.id]])}
@@ -51,7 +51,7 @@ test('machine sentence translations keep model attribution and honest per-senten
  const manifest=JSON.parse(fs.readFileSync('data/sources/tatoeba-machine-method.json'));
  assert.equal(Object.keys(methods).length,manifest.importedUniqueSentences);
  assert.equal(Object.values(methods).filter(m=>m.aiSpotChecked).length,manifest.aiSpotChecked);
- for(const w of all){const e=w.example,m=e&&methods[e.id];if(!m)continue;
+ for(const w of all){const e=w.example,m=e&&!e.source&&methods[e.id];if(!m)continue;
   assert.equal(e.translation.machine,true);assert.equal(e.translation.pivot,false);
   assert.equal(e.translation.translator,m.translator);assert.equal(e.translation.method,m.method);
   assert.equal(e.translation.from.id,m.englishSentence);assert.equal(m.nativeReviewed,false);
@@ -62,7 +62,7 @@ test('machine sentence translations keep model attribution and honest per-senten
 });
 
  test('sentence ruby preserves every base character, excludes kana and retains lexical evidence',()=>{
- const sources=JSON.parse(fs.readFileSync('data/sources/tatoeba-examples.json'));
+ const sources={...JSON.parse(fs.readFileSync('data/sources/tatoeba-examples.json')),...JSON.parse(fs.readFileSync('data/sources/examples-v5.json'))};
  const hira=s=>s.normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96));
  for(const w of all){const e=w.example;if(!e)continue;
   assert.equal(e.furigana.map(s=>s.base).join(''),e.text,w.id);
@@ -71,6 +71,6 @@ test('machine sentence translations keep model attribution and honest per-senten
   for(const t of sources[w.id].furiganaEvidence){assert.equal(e.text.slice(t.start,t.end),t.surface);assert.ok(t.dictionaryReadings.includes(t.reading));assert.doesNotMatch(t.surface,/今日|一日|^人$/);if(t.source==='unidic-single-reading')assert.equal(t.dictionaryReadings.length,1);else assert.equal(t.source,'unidic-jmdict-target')}
   const start=e.match.start,end=e.match.end;let offset=0,reading='',complete=true;
   for(const s of e.furigana){const next=offset+s.base.length;if(offset>=start&&next<=end){reading+=s.ruby||hira(s.base);if(!s.ruby&&/\p{Script=Han}/u.test(s.base))complete=false}offset=next}
-  if(complete)assert.equal(reading,hira(e.match.kind==='lemma'?e.match.surfaceReading:w.kana),w.id+' target reading');
+  if(complete)assert.equal(reading,hira(e.match.kind==='lemma'?e.match.surfaceReading:e.match.kind==='phaseA-review'?e.match.surface:w.kana),w.id+' target reading');
  }
 });

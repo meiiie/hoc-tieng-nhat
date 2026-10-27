@@ -3520,7 +3520,70 @@
   "pitch": [
    2
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:jb19cdf8fed99",
+   "lang": "jpn",
+   "text": "魚のアラでだしを取りました。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 4,
+    "surface": "アラ",
+    "kind": "exact",
+    "jmdictAlias": "アラ"
+   },
+   "furigana": [
+    {
+     "base": "魚"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "アラ"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "だし"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "取り"
+    },
+    {
+     "base": "まし"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi đã dùng đầu và xương cá để nấu nước dùng.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1586730",
   "match": "exact",
   "sourceForm": [
@@ -8741,7 +8804,76 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j580b2eac7df1",
+   "lang": "jpn",
+   "text": "朝の市場で新鮮な魚を買いました。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 4,
+    "surface": "市場",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "朝"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "市場"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "新鮮",
+     "ruby": "しんせん"
+    },
+    {
+     "base": "な"
+    },
+    {
+     "base": "魚"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "買い"
+    },
+    {
+     "base": "まし"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi đã mua cá tươi ở chợ buổi sáng.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1308300",
   "match": "exact",
   "sourceForm": [
@@ -11345,7 +11477,57 @@
   ],
   "hv": "",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j17e24f9a6fd2",
+   "lang": "jpn",
+   "text": "いらっしゃい、どうぞ入って。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 6,
+    "surface": "いらっしゃい",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "いらっしゃい"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "どうぞ"
+    },
+    {
+     "base": "入っ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Chào bạn, vào nhà đi nào.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1000920",
   "match": "exact",
   "sourceForm": [
@@ -15116,7 +15298,66 @@
   ],
   "hv": "thượng/thướng",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:je6f01103efba",
+   "lang": "jpn",
+   "text": "箱の上ぶたを開けてください。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 3,
+    "surface": "上",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "箱"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "上"
+    },
+    {
+     "base": "ぶた"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "開け"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "ください"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Hãy mở nắp trên của chiếc hộp.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1352140",
   "match": "exact",
   "sourceForm": [
@@ -15324,7 +15565,67 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j32db7f0b2dc1",
+   "lang": "jpn",
+   "text": "この包丁は柄が握りやすい。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 5,
+    "end": 6,
+    "surface": "柄",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "この"
+    },
+    {
+     "base": "包丁"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "柄"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "握",
+     "ruby": "にぎ"
+    },
+    {
+     "base": "り"
+    },
+    {
+     "base": "やすい"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Cán con dao này cầm rất vừa tay.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1508290",
   "match": "exact",
   "sourceForm": [
@@ -25190,7 +25491,71 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j802b86712508",
+   "lang": "jpn",
+   "text": "子どもが紙に猫を描く。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 8,
+    "end": 10,
+    "surface": "描く",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "子",
+     "ruby": "こ"
+    },
+    {
+     "base": "ども"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "紙"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "猫",
+     "ruby": "ねこ"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "描"
+    },
+    {
+     "base": "く"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Đứa trẻ vẽ một con mèo lên giấy.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1583460",
   "match": "exact",
   "sourceForm": [
@@ -29445,7 +29810,76 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j10e15909a62d",
+   "lang": "jpn",
+   "text": "川の上から小舟が流れてきた。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 3,
+    "surface": "上",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "川"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "上"
+    },
+    {
+     "base": "から"
+    },
+    {
+     "base": "小舟"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "流",
+     "ruby": "なが"
+    },
+    {
+     "base": "れ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "き"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Một chiếc thuyền nhỏ trôi từ thượng nguồn xuống.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1352150",
   "match": "exact",
   "sourceForm": [
@@ -30039,7 +30473,81 @@
   "pitch": [
    2
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j59420c476050",
+   "lang": "jpn",
+   "text": "冷蔵庫が空なので買い物に行こう。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 4,
+    "end": 5,
+    "surface": "空",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "冷蔵",
+     "ruby": "れいぞう"
+    },
+    {
+     "base": "庫"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "空"
+    },
+    {
+     "base": "な"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "買",
+     "ruby": "か"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "物",
+     "ruby": "もの"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "行こう"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tủ lạnh hết sạch đồ rồi, đi chợ thôi.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1245280",
   "match": "exact",
   "sourceForm": [
@@ -36383,7 +36891,80 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:je64b189d1607",
+   "lang": "jpn",
+   "text": "この店の静かな雰囲気が気に入った。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 11,
+    "end": 16,
+    "surface": "気に入った",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "この"
+    },
+    {
+     "base": "店"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "静",
+     "ruby": "しず"
+    },
+    {
+     "base": "か"
+    },
+    {
+     "base": "な"
+    },
+    {
+     "base": "雰囲気",
+     "ruby": "ふんいき"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "気"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "入っ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi thích không khí yên tĩnh của quán này.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1221740",
   "match": "exact",
   "sourceForm": [
@@ -37676,7 +38257,66 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j26c478c91822",
+   "lang": "jpn",
+   "text": "粘土で丸い球を作りました。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 5,
+    "end": 6,
+    "surface": "球",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "粘土"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "丸い"
+    },
+    {
+     "base": "球"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "作り"
+    },
+    {
+     "base": "まし"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi đã nặn một quả cầu bằng đất sét.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1229880",
   "match": "exact",
   "sourceForm": [
@@ -44112,7 +44752,70 @@
   "pitch": [
    3
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 170020,
+   "lang": "jpn",
+   "text": "昨日は曇りだった。",
+   "username": "bunbuku",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 3,
+    "end": 5,
+    "surface": "曇り",
+    "kind": "exact",
+    "jmdictAlias": "曇り"
+   },
+   "furigana": [
+    {
+     "base": "昨日"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "曇",
+     "ruby": "くも"
+    },
+    {
+     "base": "り"
+    },
+    {
+     "base": "だっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/170020",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "bunbuku — Tatoeba, 170020; https://tatoeba.org/sentences/show/170020; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source.",
+   "translation": {
+    "id": 8897212,
+    "text": "Hôm qua trời nhiều mây.",
+    "username": "dotheduyet1999",
+    "url": "https://tatoeba.org/sentences/show/8897212",
+    "machine": false,
+    "pivot": false,
+    "links": [
+     [
+      170020,
+      8897212
+     ]
+    ],
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "lang": "vie",
+    "label": "bản dịch tiếng Việt trên Tatoeba"
+   }
+  },
   "jmdict": "1592340",
   "match": "exact",
   "sourceForm": [
@@ -46747,7 +47450,70 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 108077,
+   "lang": "jpn",
+   "text": "彼は靴屋を経営している。",
+   "username": "bunbuku",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 5,
+    "end": 7,
+    "surface": "経営",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "彼"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "靴屋",
+     "ruby": "くつや"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "経営",
+     "ruby": "けいえい"
+    },
+    {
+     "base": "し"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "いる"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/108077",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "bunbuku — Tatoeba, 108077; https://tatoeba.org/sentences/show/108077; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translated/adapted by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Anh ấy điều hành một cửa hàng giày.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Review correction checked against Japanese and the selected JMdict sense by the integrating assistant; no native review.",
+    "changes": "Vietnamese wording corrected by OpenAI Codex after the supplied assistant review.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1251130",
   "match": "exact",
   "sourceForm": [
@@ -50117,7 +50883,71 @@
    1,
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j06ada5e5c0b2",
+   "lang": "jpn",
+   "text": "この小説の下を読み終えた。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 5,
+    "end": 6,
+    "surface": "下",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "この"
+    },
+    {
+     "base": "小説",
+     "ruby": "しょうせつ"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "下"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "読",
+     "ruby": "よ"
+    },
+    {
+     "base": "み"
+    },
+    {
+     "base": "終え"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi đã đọc xong tập cuối của cuốn tiểu thuyết này.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2080200",
   "match": "exact",
   "sourceForm": [
@@ -53289,7 +54119,80 @@
   "pitch": [
    3
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j146878246467",
+   "lang": "jpn",
+   "text": "父は町の小さな工場で働いている。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 7,
+    "end": 9,
+    "surface": "工場",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "父"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "町"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "小",
+     "ruby": "ちい"
+    },
+    {
+     "base": "さな"
+    },
+    {
+     "base": "工場"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "働",
+     "ruby": "はたら"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "いる"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Bố tôi làm ở một xưởng nhỏ trong thị trấn.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1578700",
   "match": "exact",
   "sourceForm": [
@@ -60053,7 +60956,60 @@
    0,
    3
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j309732a67bfb",
+   "lang": "jpn",
+   "text": "桜は今が盛りです。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 4,
+    "end": 6,
+    "surface": "盛り",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "桜"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "今"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "盛り"
+    },
+    {
+     "base": "です"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Lúc này hoa anh đào đang nở rộ nhất.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1379640",
   "match": "exact",
   "sourceForm": [
@@ -60174,7 +61130,81 @@
    1,
    0
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 11013785,
+   "lang": "jpn",
+   "text": "昨年度の売り上げを上回った。",
+   "username": "KK_kaku_",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 1,
+    "surface": "昨",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "昨",
+     "ruby": "さく"
+    },
+    {
+     "base": "年度",
+     "ruby": "ねんど"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "売",
+     "ruby": "う"
+    },
+    {
+     "base": "り"
+    },
+    {
+     "base": "上",
+     "ruby": "あ"
+    },
+    {
+     "base": "げ"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "上回",
+     "ruby": "うわまわ"
+    },
+    {
+     "base": "っ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/11013785",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "KK_kaku_ — Tatoeba, 11013785; https://tatoeba.org/sentences/show/11013785; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Doanh số đã vượt mức của năm tài chính trước.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1298200",
   "match": "exact",
   "sourceForm": [
@@ -66881,7 +67911,87 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 150989,
+   "lang": "jpn",
+   "text": "資本、土地、労働は生産の三大要素である。",
+   "username": "KK_kaku_",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 2,
+    "surface": "資本",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "資本",
+     "ruby": "しほん"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "土地",
+     "ruby": "とち"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "労働",
+     "ruby": "ろうどう"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "生産",
+     "ruby": "せいさん"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "三"
+    },
+    {
+     "base": "大"
+    },
+    {
+     "base": "要素",
+     "ruby": "ようそ"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "ある"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/150989",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "KK_kaku_ — Tatoeba, 150989; https://tatoeba.org/sentences/show/150989; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Vốn, đất đai và lao động là ba yếu tố chính của sản xuất.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1312780",
   "match": "exact",
   "sourceForm": [
@@ -67289,7 +68399,70 @@
   ],
   "hv": "",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j14a907ae5e2c",
+   "lang": "jpn",
+   "text": "しまった、財布を家に忘れた。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 4,
+    "surface": "しまった",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "しまっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "財布",
+     "ruby": "さいふ"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "家"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "忘れ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Chết rồi, tôi để quên ví ở nhà mất rồi.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1005600",
   "match": "exact",
   "sourceForm": [
@@ -67525,7 +68698,70 @@
   "pitch": [
    2
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j58d4093f89ca",
+   "lang": "jpn",
+   "text": "舟で川の下へ向かった。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 4,
+    "end": 5,
+    "surface": "下",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "舟"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "川"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "下"
+    },
+    {
+     "base": "へ"
+    },
+    {
+     "base": "向",
+     "ruby": "む"
+    },
+    {
+     "base": "かっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Chúng tôi đi thuyền về phía hạ lưu.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2080210",
   "match": "exact",
   "sourceForm": [
@@ -71339,7 +72575,66 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "kftt",
+   "sourceName": "KFTT 1.0",
+   "label": "KFTT 1.0",
+   "id": "kyoto-train.ja:314624",
+   "lang": "jpn",
+   "text": "子孫は商人となった。",
+   "username": "Japanese Wikipedia contributors; NICT; Graham Neubig (KFTT)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "match": {
+    "start": 3,
+    "end": 5,
+    "surface": "商人",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "子孫",
+     "ruby": "しそん"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "商人",
+     "ruby": "しょうにん"
+    },
+    {
+     "base": "と"
+    },
+    {
+     "base": "なっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://www.phontron.com/kftt/",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "Japanese Wikipedia contributors; NICT; Graham Neubig (KFTT) — KFTT 1.0, kyoto-train.ja:314624; https://www.phontron.com/kftt/; CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Con cháu họ đã trở thành thương nhân.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   },
+   "archive_url": "https://www.phontron.com/kftt/download/kftt-data-1.0.tar.gz",
+   "archive_path": "kftt-data-1.0/data/orig/kyoto-train.ja",
+   "line": 314624
+  },
   "jmdict": "1580270",
   "match": "exact",
   "sourceForm": [
@@ -77952,7 +79247,86 @@
    1,
    0
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 173185,
+   "lang": "jpn",
+   "text": "高等学校では英語と数学が重視されている。",
+   "username": "mookeee",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 12,
+    "end": 14,
+    "surface": "重視",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "高等",
+     "ruby": "こうとう"
+    },
+    {
+     "base": "学校",
+     "ruby": "がっこう"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "英語",
+     "ruby": "えいご"
+    },
+    {
+     "base": "と"
+    },
+    {
+     "base": "数学"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "重視",
+     "ruby": "じゅうし"
+    },
+    {
+     "base": "さ"
+    },
+    {
+     "base": "れ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "いる"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/173185",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "mookeee — Tatoeba, 173185; https://tatoeba.org/sentences/show/173185; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Ở bậc trung học phổ thông, tiếng Anh và toán được chú trọng.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1336260",
   "match": "exact",
   "sourceForm": [
@@ -84113,7 +85487,76 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 10758932,
+   "lang": "jpn",
+   "text": "隅のテーブルをお願いできますか。",
+   "username": "bunbuku",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 1,
+    "surface": "隅",
+    "kind": "exact",
+    "jmdictAlias": "隅"
+   },
+   "furigana": [
+    {
+     "base": "隅",
+     "ruby": "すみ"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "テーブル"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "お"
+    },
+    {
+     "base": "願",
+     "ruby": "ねが"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "でき"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "か"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/10758932",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "bunbuku — Tatoeba, 10758932; https://tatoeba.org/sentences/show/10758932; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Cho tôi ngồi bàn trong góc được không?",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1246440",
   "match": "exact",
   "sourceForm": [
@@ -85229,7 +86672,71 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j733d2172d757",
+   "lang": "jpn",
+   "text": "弟は急に背が伸びた。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 4,
+    "end": 5,
+    "surface": "背",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "弟"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "急",
+     "ruby": "きゅう"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "背"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "伸",
+     "ruby": "の"
+    },
+    {
+     "base": "び"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Em trai tôi cao vọt lên.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1472650",
   "match": "exact",
   "sourceForm": [
@@ -93471,7 +94978,78 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j762983bc3fe7",
+   "lang": "jpn",
+   "text": "田に水を引いて稲を育てる。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 1,
+    "surface": "田",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "田",
+     "ruby": "た"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "水"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "引",
+     "ruby": "ひ"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "稲"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "育",
+     "ruby": "そだ"
+    },
+    {
+     "base": "てる"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Người ta dẫn nước vào ruộng để trồng lúa.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1442730",
   "match": "exact",
   "sourceForm": [
@@ -98549,7 +100127,74 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j9e9b8c19d8d4",
+   "lang": "jpn",
+   "text": "たまの休みは家でゆっくり過ごす。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 2,
+    "surface": "たま",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "たま"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "休",
+     "ruby": "やす"
+    },
+    {
+     "base": "み"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "家"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "ゆっくり"
+    },
+    {
+     "base": "過",
+     "ruby": "す"
+    },
+    {
+     "base": "ごす"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Vào những ngày nghỉ hiếm hoi, tôi ở nhà thư giãn.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2068840",
   "match": "exact",
   "sourceForm": [
@@ -103960,7 +105605,82 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j03b3847086c3",
+   "lang": "jpn",
+   "text": "詳しい説明は下の注を読んでください。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 8,
+    "end": 9,
+    "surface": "注",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "詳",
+     "ruby": "くわ"
+    },
+    {
+     "base": "しい"
+    },
+    {
+     "base": "説明",
+     "ruby": "せつめい"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "下"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "注",
+     "ruby": "ちゅう"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "読",
+     "ruby": "よ"
+    },
+    {
+     "base": "ん"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "ください"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Muốn biết rõ hơn, hãy đọc chú thích bên dưới.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1426520",
   "match": "exact",
   "sourceForm": [
@@ -107063,7 +108783,74 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j13f2d0619604",
+   "lang": "jpn",
+   "text": "お客様の茶碗にお茶を注ぐ。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 10,
+    "end": 12,
+    "surface": "注ぐ",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "お"
+    },
+    {
+     "base": "客",
+     "ruby": "きゃく"
+    },
+    {
+     "base": "様"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "茶碗"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "お"
+    },
+    {
+     "base": "茶",
+     "ruby": "ちゃ"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "注ぐ"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi rót trà vào chén cho khách.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2145240",
   "match": "exact",
   "sourceForm": [
@@ -109390,7 +111177,69 @@
    0,
    5
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j629d62385869",
+   "lang": "jpn",
+   "text": "次の停留所でバスを降ります。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 5,
+    "surface": "停留所",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "次"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "停留"
+    },
+    {
+     "base": "所"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "バス"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "降り"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi sẽ xuống xe buýt ở trạm tiếp theo.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1435080",
   "match": "exact",
   "sourceForm": [
@@ -114301,7 +116150,67 @@
    3,
    4
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 14077109,
+   "lang": "jpn",
+   "text": "お年寄りは早起きだ。",
+   "username": "small_snow",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 1,
+    "end": 4,
+    "surface": "年寄り",
+    "kind": "exact",
+    "jmdictAlias": "年寄り"
+   },
+   "furigana": [
+    {
+     "base": "お"
+    },
+    {
+     "base": "年寄",
+     "ruby": "としよ"
+    },
+    {
+     "base": "り"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "早起",
+     "ruby": "はやお"
+    },
+    {
+     "base": "き"
+    },
+    {
+     "base": "だ"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/14077109",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "small_snow — Tatoeba, 14077109; https://tatoeba.org/sentences/show/14077109; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Người cao tuổi thường dậy sớm.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1598750",
   "match": "exact",
   "sourceForm": [
@@ -123803,7 +125712,81 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j5687ed3e1820",
+   "lang": "jpn",
+   "text": "雨が続いて野菜の値が上がった。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 8,
+    "end": 9,
+    "surface": "値",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "雨"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "続",
+     "ruby": "つづ"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "野菜",
+     "ruby": "やさい"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "値"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "上",
+     "ruby": "あ"
+    },
+    {
+     "base": "がっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Mưa kéo dài khiến giá rau tăng.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2836242",
   "match": "exact",
   "sourceForm": [
@@ -124667,7 +126650,78 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j2bc6b74db1f5",
+   "lang": "jpn",
+   "text": "長い年月をかけて森を育てた。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 4,
+    "surface": "年月",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "長",
+     "ruby": "なが"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "年月"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "かけ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "森",
+     "ruby": "もり"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "育",
+     "ruby": "そだ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Người ta mất nhiều năm để gây dựng khu rừng.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1582870",
   "match": "exact",
   "sourceForm": [
@@ -125551,7 +127605,77 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j3700ad77f356",
+   "lang": "jpn",
+   "text": "雨がやむまで軒の下で待った。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 6,
+    "end": 7,
+    "surface": "軒",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "雨"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "やむ"
+    },
+    {
+     "base": "まで"
+    },
+    {
+     "base": "軒",
+     "ruby": "のき"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "下"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "待",
+     "ruby": "ま"
+    },
+    {
+     "base": "っ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi đợi dưới mái hiên cho đến khi mưa tạnh.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1260330",
   "match": "exact",
   "sourceForm": [
@@ -129111,7 +131235,64 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:jcb43cf24e7ad",
+   "lang": "jpn",
+   "text": "弟は来月、二十になる。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 5,
+    "end": 7,
+    "surface": "二十",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "弟"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "来月",
+     "ruby": "らいげつ"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "二十"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "なる"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tháng sau em trai tôi sẽ tròn hai mươi tuổi.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1600790",
   "match": "exact",
   "sourceForm": [
@@ -131034,7 +133215,81 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:jd0a72b47f82e",
+   "lang": "jpn",
+   "text": "広い原に馬が放たれていた。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 3,
+    "surface": "原",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "広",
+     "ruby": "ひろ"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "原",
+     "ruby": "はら"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "馬"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "放",
+     "ruby": "はな"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "れ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Những con ngựa được thả trên cánh đồng rộng.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1261140",
   "match": "exact",
   "sourceForm": [
@@ -132213,7 +134468,68 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j653a7bc79088",
+   "lang": "jpn",
+   "text": "梅雨前線が南へ下がった。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 2,
+    "surface": "梅雨",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "梅雨"
+    },
+    {
+     "base": "前線",
+     "ruby": "ぜんせん"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "南"
+    },
+    {
+     "base": "へ"
+    },
+    {
+     "base": "下",
+     "ruby": "さ"
+    },
+    {
+     "base": "がっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Frông gây mưa mùa đã dịch xuống phía nam.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1582960",
   "match": "exact",
   "sourceForm": [
@@ -133655,7 +135971,74 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j45410f94ac7b",
+   "lang": "jpn",
+   "text": "窓から暖かな灯が漏れている。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 6,
+    "end": 7,
+    "surface": "灯",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "窓",
+     "ruby": "まど"
+    },
+    {
+     "base": "から"
+    },
+    {
+     "base": "暖か"
+    },
+    {
+     "base": "な"
+    },
+    {
+     "base": "灯"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "漏",
+     "ruby": "も"
+    },
+    {
+     "base": "れ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "いる"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Ánh đèn ấm áp hắt ra từ cửa sổ.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1582290",
   "match": "exact",
   "sourceForm": [
@@ -134320,7 +136703,68 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 11045174,
+   "lang": "jpn",
+   "text": "ひたいの汗をぬぐって一息つく。",
+   "username": "KK_kaku_",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 3,
+    "surface": "ひたい",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "ひたい"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "汗"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "ぬぐっ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "一息",
+     "ruby": "ひといき"
+    },
+    {
+     "base": "つく"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/11045174",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "KK_kaku_ — Tatoeba, 11045174; https://tatoeba.org/sentences/show/11045174; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Tôi lau mồ hôi trên trán rồi nghỉ lấy hơi.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1207510",
   "match": "exact",
   "sourceForm": [
@@ -140962,7 +143406,70 @@
   ],
   "hv": "bất/phầu/phủ/phi",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j98e6ef04426f",
+   "lang": "jpn",
+   "text": "不器用でも丁寧に作れば大丈夫。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 1,
+    "surface": "不",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "不"
+    },
+    {
+     "base": "器用"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "も"
+    },
+    {
+     "base": "丁寧",
+     "ruby": "ていねい"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "作れ"
+    },
+    {
+     "base": "ば"
+    },
+    {
+     "base": "大丈夫"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Dù vụng về, cứ làm cẩn thận là được.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2423740",
   "match": "exact",
   "sourceForm": [
@@ -140996,7 +143503,70 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j8ed04ec90005",
+   "lang": "jpn",
+   "text": "体温は三十七度五分だった。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 8,
+    "end": 9,
+    "surface": "分",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "体温",
+     "ruby": "たいおん"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "三十"
+    },
+    {
+     "base": "七"
+    },
+    {
+     "base": "度"
+    },
+    {
+     "base": "五"
+    },
+    {
+     "base": "分"
+    },
+    {
+     "base": "だっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Nhiệt độ cơ thể là 37,5 độ.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1502850",
   "match": "exact",
   "sourceForm": [
@@ -141023,7 +143593,70 @@
   ],
   "hv": "vô/mô",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:je4334e117c6e",
+   "lang": "jpn",
+   "text": "無愛想だが、親切な人だ。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 1,
+    "surface": "無",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "無"
+    },
+    {
+     "base": "愛想"
+    },
+    {
+     "base": "だ"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "親切",
+     "ruby": "しんせつ"
+    },
+    {
+     "base": "な"
+    },
+    {
+     "base": "人"
+    },
+    {
+     "base": "だ"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tuy ít niềm nở nhưng anh ấy rất tốt bụng.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2423740",
   "match": "exact",
   "sourceForm": [
@@ -144600,7 +147233,67 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 9885734,
+   "lang": "jpn",
+   "text": "方方でフラミンゴを見かけます。",
+   "username": "small_snow",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 2,
+    "surface": "方方",
+    "kind": "exact",
+    "jmdictAlias": "方方"
+   },
+   "furigana": [
+    {
+     "base": "方方",
+     "ruby": "ほうぼう"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "フラミンゴ"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "見",
+     "ruby": "み"
+    },
+    {
+     "base": "かけ"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/9885734",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "small_snow — Tatoeba, 9885734; https://tatoeba.org/sentences/show/9885734; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Ở đâu cũng bắt gặp chim hồng hạc.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1584105",
   "match": "exact",
   "sourceForm": [
@@ -145498,7 +148191,90 @@
    0,
    3
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j5c627509af2f",
+   "lang": "jpn",
+   "text": "仏に花を供え、静かに手を合わせた。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 1,
+    "surface": "仏",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "仏"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "花"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "供",
+     "ruby": "そな"
+    },
+    {
+     "base": "え"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "静",
+     "ruby": "しず"
+    },
+    {
+     "base": "か"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "手"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "合",
+     "ruby": "あ"
+    },
+    {
+     "base": "わせ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi dâng hoa lên tượng Phật rồi lặng lẽ chắp tay.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1501760",
   "match": "exact",
   "sourceForm": [
@@ -146308,7 +149084,74 @@
   "pitch": [
    2
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j43f0e09c92b0",
+   "lang": "jpn",
+   "text": "城の濠を小舟で巡りました。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 3,
+    "surface": "濠",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "城"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "濠",
+     "ruby": "ほり"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "小舟"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "巡",
+     "ruby": "めぐ"
+    },
+    {
+     "base": "り"
+    },
+    {
+     "base": "まし"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Chúng tôi đi thuyền nhỏ quanh hào thành.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1522060",
   "match": "exact",
   "sourceForm": [
@@ -151131,7 +153974,74 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j9357e32d0194",
+   "lang": "jpn",
+   "text": "庭の木に赤い実がなった。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 6,
+    "end": 7,
+    "surface": "実",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "庭",
+     "ruby": "にわ"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "木"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "赤",
+     "ruby": "あか"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "実"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "なっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Cây trong vườn đã ra quả đỏ.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1320810",
   "match": "exact",
   "sourceForm": [
@@ -151789,7 +154699,76 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j3d9e38a63305",
+   "lang": "jpn",
+   "text": "担任と保護者が密に連絡を取る。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 7,
+    "end": 8,
+    "surface": "密",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "担任",
+     "ruby": "たんにん"
+    },
+    {
+     "base": "と"
+    },
+    {
+     "base": "保護",
+     "ruby": "ほご"
+    },
+    {
+     "base": "者"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "密",
+     "ruby": "みつ"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "連絡",
+     "ruby": "れんらく"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "取る"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Giáo viên chủ nhiệm và phụ huynh giữ liên lạc chặt chẽ.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2014380",
   "match": "exact",
   "sourceForm": [
@@ -154208,7 +157187,71 @@
    0,
    3
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:jc4335e79b29c",
+   "lang": "jpn",
+   "text": "上司は作業の中止を命じた。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 9,
+    "end": 12,
+    "surface": "命じた",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "上司"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "作業",
+     "ruby": "さぎょう"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "中止",
+     "ruby": "ちゅうし"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "命"
+    },
+    {
+     "base": "じ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Cấp trên ra lệnh dừng công việc.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1531950",
   "match": "exact",
   "sourceForm": [
@@ -157972,7 +161015,82 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j8d01008b8c17",
+   "lang": "jpn",
+   "text": "石碑に刻まれた文字を読み解く。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 7,
+    "end": 9,
+    "surface": "文字",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "石碑",
+     "ruby": "せきひ"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "刻",
+     "ruby": "きざ"
+    },
+    {
+     "base": "ま"
+    },
+    {
+     "base": "れ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "文字"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "読",
+     "ruby": "よ"
+    },
+    {
+     "base": "み"
+    },
+    {
+     "base": "解",
+     "ruby": "と"
+    },
+    {
+     "base": "く"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tìm cách đọc hiểu những chữ khắc trên bia đá.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1505390",
   "match": "exact",
   "sourceForm": [
@@ -159225,7 +162343,81 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 11055486,
+   "lang": "jpn",
+   "text": "新聞の紙がやや上質になった気がする。",
+   "username": "bunbuku",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 5,
+    "end": 7,
+    "surface": "やや",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "新聞",
+     "ruby": "しんぶん"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "紙"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "やや"
+    },
+    {
+     "base": "上質",
+     "ruby": "じょうしつ"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "なっ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "気"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "する"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/11055486",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "bunbuku — Tatoeba, 11055486; https://tatoeba.org/sentences/show/11055486; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Tôi có cảm giác chất lượng giấy báo đã khá hơn một chút.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1570120",
   "match": "exact",
   "sourceForm": [
@@ -160553,7 +163745,64 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j0c5871310c83",
+   "lang": "jpn",
+   "text": "次は京都行きの電車です。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 4,
+    "end": 6,
+    "surface": "行き",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "次"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "京都"
+    },
+    {
+     "base": "行き"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "電車",
+     "ruby": "でんしゃ"
+    },
+    {
+     "base": "です"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Chuyến tiếp theo là tàu đi Kyoto.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1578790",
   "match": "exact",
   "sourceForm": [
@@ -168607,7 +171856,66 @@
   "pitch": [
    2
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j9f5dc01e03d0",
+   "lang": "jpn",
+   "text": "人の悪口を言うのはやめよう。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 2,
+    "end": 4,
+    "surface": "悪口",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "人"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "悪口"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "言う"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "やめよう"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Đừng nói xấu người khác nữa.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1575730",
   "match": "exact",
   "sourceForm": [

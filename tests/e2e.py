@@ -123,13 +123,33 @@ def run(kind):
    for level in [2,1]:
     for mode in ['direct','pivot','machine']:
      E('n=>JaData.loadLevel(n)',level) # Fixture selection needs that level's examples.
-     fixture=E("([n,mode])=>{const w=words.find(w=>w.level===n&&w.example&&(mode==='machine'?w.example.translation.machine:mode==='pivot'?w.example.translation.pivot:!w.example.translation.machine&&!w.example.translation.pivot));S.jaUnlocked[n]=true;S.star={[w.id]:true};S.set.f={cefr:'N'+n,star:true};S.set.furigana='on';S.srs={};S.sess={};FC=null;save();return w}",[level,mode])
+     fixture=E("([n,mode])=>{const w=words.find(w=>w.level===n&&w.example&&!w.example.source&&(mode==='machine'?w.example.translation.machine:mode==='pivot'?w.example.translation.pivot:!w.example.translation.machine&&!w.example.translation.pivot));S.jaUnlocked[n]=true;S.star={[w.id]:true};S.set.f={cefr:'N'+n,star:true};S.set.furigana='on';S.srs={};S.sess={};FC=null;save();return w}",[level,mode])
      go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example')
      assert fixture['example']['text']==pg.locator('.face.b .ja-example-text').evaluate("e=>{const c=e.cloneNode(true);c.querySelectorAll('rt').forEach(x=>x.remove());return c.textContent}")
      assert {'direct':'bản dịch tiếng Việt trên Tatoeba','pivot':'dịch qua câu tiếng Anh','machine':'bản dịch máy, cần kiểm tra'}[mode] in pg.locator('.face.b .ja-example').inner_text()
      assert pg.locator('.face.b .ja-example-text ruby').count()==sum(bool(x.get('ruby')) for x in fixture['example']['furigana'])
      pg.locator('.face.b .ja-example-source summary').click();assert pg.locator('.face.b .ja-example-source a').first.get_attribute('href')==fixture['example']['url']
     ok('N'+str(level)+' examples: direct/pivot/machine labels, original base, ruby and attribution')
+   for level in [5,4,3,2,1]:E('n=>JaData.loadLevel(n)',level)
+   sources=E("[...new Set(words.filter(w=>w.example?.source).map(w=>w.example.source))]")
+   for source in sources:
+    E('Promise.all([5,4,3,2,1].map(n=>JaData.loadLevel(n)))')
+    sample=E("source=>{const w=words.find(w=>w.example?.source===source);S.jaUnlocked[w.level]=true;S.star={[w.id]:true};S.set.f={cefr:'N'+w.level,star:true};S.srs={};S.sess={};FC=null;save();return w}",source)
+    go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example')
+    box=pg.locator('.face.b .ja-example');box.locator('summary').click()
+    assert sample['example']['translation']['text'] in box.inner_text()
+    if source=='ai':
+     assert 'Câu do AI viết, cần kiểm tra' in box.inner_text() and 'Tatoeba' not in box.inner_text()
+     assert box.evaluate("e=>e.classList.contains('ja-example-ai')&&getComputedStyle(e).borderTopStyle==='dashed'")
+     E("id=>{S.learn={[id]:2};S.sess={};save()}",sample['id']);go('learn');pg.wait_for_selector('.cloze .gap')
+     assert 'Câu do AI viết, cần kiểm tra' in pg.locator('main').inner_text() and 'Tatoeba' not in pg.locator('main').inner_text()
+     pg.fill('#ti',sample['example']['match']['surface']);pg.click('#ck');pg.wait_for_selector('#fb .fb.ok')
+     assert E('JSON.stringify(S.srs)')=='{}'
+    else:
+     assert sample['example']['sourceName'] in box.inner_text() and sample['example']['license'] in box.inner_text()
+     assert box.locator('a').first.get_attribute('href')==sample['example']['url']
+     if source!='tatoeba':assert 'Tatoeba' not in box.inner_text()
+   ok('v5 source credits; AI label and distinct border; AI cloze preserves SRS')
 
 
    forward=E("(()=>{const w=words.find(w=>w.level===5);S.star={[w.id]:true};S.set.f={cefr:'N5',star:true};S.srs[w.id]={...SRS.fresh(),state:'review',s:31,d:4,int:30,due:SRS.dayAt(Date.now(),20),last:Date.now(),reps:4};FC=null;S.sess={};save();return w.id})()")
@@ -184,6 +204,12 @@ def run(kind):
       if bad:violations[theme+':review-back']=bad
       pg.locator('.face.b .ja-example-source summary').click();settle();bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
       if bad:violations[theme+':example-attribution']=bad
+    for source in sources:
+     E('Promise.all([5,4,3,2,1].map(n=>JaData.loadLevel(n)))')
+     E("source=>{const w=words.find(w=>w.example?.source===source);S.jaUnlocked[w.level]=true;S.star={[w.id]:true};S.set.f={cefr:'N'+w.level,star:true};S.srs={};S.sess={};S.introductions={};S.studyDay=null;S.bury=null;FC=null;save()}",source)
+     go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example');pg.locator('.face.b .ja-example-source summary').click();settle();E(AXE)
+     bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
+     if bad:violations[theme+':v5-'+source]=bad
     go('settings');settle();E(AXE);bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
     if bad:violations[theme+':settings']=bad
     pg.keyboard.press('Escape')

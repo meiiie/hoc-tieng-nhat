@@ -1,0 +1,44 @@
+{
+  "N5": {
+    "words": 684,
+    "tatoeba_before": 649,
+    "new_licensed": {
+      "Tatoeba": 7
+    },
+    "ai_authored": 28,
+    "still_missing": 0
+  },
+  "N4": {
+    "words": 641,
+    "tatoeba_before": 627,
+    "new_licensed": {
+      "Tatoeba": 8
+    },
+    "ai_authored": 6,
+    "still_missing": 0
+  },
+  "N3": {
+    "words": 1768,
+    "tatoeba_before": 1718,
+    "new_licensed": {
+      "Tatoeba": 10,
+      "KFTT 1.0": 1
+    },
+    "ai_authored": 39,
+    "still_missing": 0
+  },
+  "N2": {
+    "words": 1826,
+    "tatoeba_before": 1521,
+    "new_licensed": {},
+    "ai_authored": 0,
+    "still_missing": 305
+  },
+  "N1": {
+    "words": 3425,
+    "tatoeba_before": 2420,
+    "new_licensed": {},
+    "ai_authored": 0,
+    "still_missing": 1005
+  }
+}

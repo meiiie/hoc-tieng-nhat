@@ -21,6 +21,9 @@ def main():
  vocab=json.loads((src/'JLPT_vocab_ALL.json').read_text());jlptkanji=json.loads((src/'JLPT_kanji_ALL.json').read_text());jm=json.loads((src/'jmdict-eng-3.6.2.json').read_text());kd=json.loads((src/'kanjidic2-all-3.6.2.json').read_text())
  fixes={(r['kanji'],r['reading']):r for r in readtsv(out/'sources/entry-fixes.tsv')}
  tatoeba_examples=json.loads((out/'sources/tatoeba-examples.json').read_text()) if (out/'sources/tatoeba-examples.json').exists() else {}
+ reviewed_examples=json.loads((out/'sources/examples-v5.json').read_text()) if (out/'sources/examples-v5.json').exists() else {}
+ assert not (tatoeba_examples.keys() & reviewed_examples.keys()), 'v5 only fills previously empty examples'
+ tatoeba_examples.update(reviewed_examples)
  pitch_additions=json.loads((out/'sources/pitch-additions.json').read_text()) if (out/'sources/pitch-additions.json').exists() else {}
  vi={r['id']:r for r in readtsv(out/'sources/vi-glosses.tsv')}
  selections={(r['kanji'],r['reading']):r['jmdict'] for r in readtsv(out/'sources/sense-selection.tsv')}

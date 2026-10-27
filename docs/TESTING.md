@@ -121,3 +121,12 @@ ràng; fixture lưu tiến độ phải chờ `save()` trước reload.
 
 Số đo Lighthouse và trace trước/sau được ghi riêng trong [PERFORMANCE](PERFORMANCE.md).
 Điểm 1.0.0/1.6.0 phía trên là lịch sử, không phải kết quả release mới.
+
+
+## Gate ví dụ v5
+
+`npm test` thêm `examples-v5.test.js`: pass nguyên trạng, fix đúng đề xuất, rewrite có self-check riêng; nhãn/ghi công, span từ đích, nguồn AI không mang nhãn Tatoeba. `.cache/content-venv/bin/python tests/final_examples.py` đối chiếu nghĩa JMdict và tái tạo lemma/ruby cho toàn bộ 1.409 quyết định. E2E thêm thẻ từng nguồn, thẻ AI/khung riêng và cloze; axe quét các nguồn ở cả hai giao diện.
+
+`progress-preservation.py` từ v5 so với mốc `cceba8b696feb5dce1fb7caa233653aa05775b48`: mọi ID/thứ tự/trường ngoài example và mọi câu đã có phải giữ nguyên; chỉ được bổ sung example trống. Các đoạn state/review/backup, scheduler/storage và MP3 đợt trước vẫn so nguyên byte. Schema 11. Mỗi mức phát hành chạy đủ npm, E2E hai engine/axe, PWA, answer-boundaries, onboard, performance, progress-preservation; log riêng theo phiên bản.
+
+Ảnh thẻ AI: `REPORT_PREFIX=live5- python3 tests/ai-screenshots.py <URL>`; Lighthouse 13 chạy ba lần lấy trung vị, và 11.7.1 cho PWA qua `tests/lighthouse.py`.

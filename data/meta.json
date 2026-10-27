@@ -1,5 +1,5 @@
 {
- "version": "1.11.0",
+ "version": "1.12.0",
  "sourceDate": "2026-10-26",
  "sourceHeadwords": 8138,
  "sourceRows": 8505,
@@ -22,14 +22,14 @@
    "hanViet": 514,
    "pitch": 638,
    "audio": 684,
-   "examples": 649,
-   "exampleHumanDirect": 541,
+   "examples": 684,
+   "exampleHumanDirect": 543,
    "exampleHumanPivot": 37,
-   "exampleMachine": 71,
+   "exampleMachine": 104,
    "exampleLemma": 99,
-   "furiganaFull": 222,
-   "furiganaPartial": 322,
-   "furiganaTokensSkipped": 632
+   "furiganaFull": 223,
+   "furiganaPartial": 346,
+   "furiganaTokensSkipped": 709
   },
   "N4": {
    "words": 641,
@@ -37,14 +37,14 @@
    "hanViet": 496,
    "pitch": 605,
    "audio": 641,
-   "examples": 627,
-   "exampleHumanDirect": 450,
-   "exampleHumanPivot": 59,
-   "exampleMachine": 118,
+   "examples": 641,
+   "exampleHumanDirect": 452,
+   "exampleHumanPivot": 60,
+   "exampleMachine": 129,
    "exampleLemma": 132,
-   "furiganaFull": 210,
-   "furiganaPartial": 347,
-   "furiganaTokensSkipped": 604
+   "furiganaFull": 215,
+   "furiganaPartial": 355,
+   "furiganaTokensSkipped": 623
   },
   "N3": {
    "words": 1768,
@@ -52,14 +52,14 @@
    "hanViet": 1546,
    "pitch": 1712,
    "audio": 1768,
-   "examples": 1718,
-   "exampleHumanDirect": 1044,
+   "examples": 1768,
+   "exampleHumanDirect": 1045,
    "exampleHumanPivot": 169,
-   "exampleMachine": 505,
+   "exampleMachine": 554,
    "exampleLemma": 165,
-   "furiganaFull": 515,
-   "furiganaPartial": 1080,
-   "furiganaTokensSkipped": 1965
+   "furiganaFull": 520,
+   "furiganaPartial": 1118,
+   "furiganaTokensSkipped": 2068
   },
   "N2": {
    "words": 1826,

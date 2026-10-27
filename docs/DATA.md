@@ -63,7 +63,7 @@ Nguồn bổ sung chính: [UniDic 2.1.2](https://clrd.ninjal.ac.jp/unidic/en/bac
 
 Tái trích: `.cache/content-venv/bin/python tools/pitch_sources.py --download` (tải Kanjium đã ghim vào `.cache`); sau đó `python3 tools/build-data.py`. Build thông thường chỉ đọc overlay, không chạy bộ phân tích. `tests/pitch_sources_test.py` kiểm tra từ đồng âm, từ ghép, nút chưa biết và bẫy tên riêng/ký hiệu; `tests/pitch_provenance.py` đối chiếu từng bản ghi với binary/dòng nguồn và bảo toàn toàn bộ accent/ID cũ. Không dùng Wiktionary hoặc nguồn không rõ giấy phép trong đợt này. Chưa có kiểm định accent bởi người bản ngữ; đây là dữ liệu từ điển, không phải kết quả suy từ âm thanh Nanami.
 
-## Câu ví dụ Tatoeba
+## Câu ví dụ Tatoeba trước v5
 
 <!-- example-counts:start -->
 | Cấp | Có ví dụ | Việt trực tiếp | Việt qua Anh (pivot) | Dịch máy |
@@ -102,6 +102,8 @@ Chạy `.cache/content-venv/bin/python tools/annotate-examples.py` rồi `python
 `example.furigana` là danh sách `{base, ruby?}` nối lại đúng nguyên câu. Chỉ nhóm kanji nhận ruby, kana/okurigana luôn giữ riêng. Mọi nút từ điển nguyên token phải thống nhất một cách đọc, hoặc cách đọc phải đồng ý với từ đích JMdict. Từ chưa biết, tên riêng, số/đơn vị đếm, 今日/一日/人, cách đọc khác nhau và phép tách kana không duy nhất giữ nguyên chữ. `furiganaEvidence` trong overlay nguồn lưu cách đọc và nguồn tin cậy; `furiganaSkipped` lưu vị trí/lý do từng token kanji bị bỏ. JSON dùng trong trình duyệt chỉ chứa các đoạn `furigana`, không tải những bản ghi kiểm toán từ điển lặp lại này. Đây là bộ lọc bảo thủ, không phải xác suất thống kê hay kiểm định bản ngữ.
 
 Nút furigana hiện có điều khiển cả từ và câu. Các bộ đếm theo từng ví dụ của từng từ (có thể lặp ID câu) ở `data/sources/furigana-method.json`; token bỏ chỉ đếm token chứa kanji. Câu chỉ có kana được đếm riêng. `tests/furigana.py` tái tạo toàn bộ annotation bằng dictionary thật và kiểm tra cách đọc từ đích; Node kiểm tra phép nối base, không ruby kana và bằng chứng. Chưa bảo đảm đọc đúng mọi ngữ cảnh.
+
+Số liệu ruby dưới đây là mốc trước v5; số hiện hành trong `data/meta.json`.
 
 <!-- furigana-counts:start -->
 | Cấp | Ruby đầy đủ | Ruby một phần | Chưa ruby | Chỉ kana | Token bỏ | Khớp lemma |
@@ -148,3 +150,28 @@ JMdict, KANJIDIC2 và bản dịch phái sinh giữ CC BY-SA 4.0. Tanos/Waller C
 Giới hạn: người chấm và người chọn bản thay là cùng một mô hình, nên đây không phải bằng chứng độc lập. Mô hình hay nhầm phụ âm đầu từ ngắn (k/g, t/d, n/m, h/f/w); nhiều tệp trong 100 tệp còn lại có thể đúng. Chưa có người nghe lại.
 
 **Nghĩa Việt: dịch ngược.** `tools/meaning_crosscheck.py` dịch nghĩa Việt sang Anh bằng Helsinki-NLP/opus-mt-vi-en và so từ nội dung với chú giải JMdict. 5.636 khớp rõ, 86 khớp một phần, 2.622 không chung từ nào. Đọc thử ngẫu nhiên 15 mục "không khớp" thì cả 15 đều là nghĩa Việt chấp nhận được; lệch là do dịch ngược hoặc từ đồng nghĩa (chất lên → "load" so với "pile up"). Vì vậy nhãn này chỉ dùng để ưu tiên rà soát, không hiển thị như cảnh báo trong app. Một lượt đánh giá bằng mô hình ngôn ngữ lớn chưa chạy.
+
+
+## Ví dụ v5: nguồn có giấy phép và câu AI
+
+Các mức được phát hành lần lượt N5+N4+N3, N2 rồi N1. Chỉ trường `example` của từ trước đây chưa có câu được bổ sung; mọi ID, trường từ khác và schema tiến độ 11 giữ nguyên. Dữ liệu nằm trong `data/n*.json` tải trễ theo cấp; `data/index.json` vẫn chỉ là chỉ mục nhỏ, không tải nội dung câu lúc mở app.
+
+<!-- examples-v5-counts:start -->
+| Cấp | Tatoeba trước | Tatoeba mới | KFTT mới | Wiktionary mới | KNBC mới | AI mới | Còn thiếu |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| N5 | 649 | 7 | 0 | 0 | 0 | 28 | 0 |
+| N4 | 627 | 8 | 0 | 0 | 0 | 6 | 0 |
+| N3 | 1718 | 10 | 1 | 0 | 0 | 39 | 0 |
+| N2 | 1521 | 0 | 0 | 0 | 0 | 0 | 305 |
+| N1 | 2420 | 0 | 0 | 0 | 0 | 0 | 1005 |
+<!-- examples-v5-counts:end -->
+
+“Trước” là 6.935 câu Tatoeba đã có trước v5; số đếm là số từ/câu liên kết, không phải số chuỗi Nhật duy nhất. “Mới” giữ đúng nguồn của câu, kể cả câu có hiệu đính: Tatoeba (CC BY 2.0 FR), KFTT 1.0 (CC BY-SA 3.0), Wiktionary tiếng Nhật (CC BY-SA 4.0), KNBC (BSD ba khoản tiếng Nhật). Người đóng góp, ID, URL, giấy phép, lịch sử và tệp/dòng nguồn được giữ trong dữ liệu, hiển thị ở phần nguồn của thẻ. KFTT không có URL bản sửa Wikipedia cho từng dòng; giữ rõ giới hạn này. Các bản thông báo đầy đủ nằm ở `ex5/licences/`.
+
+Câu mới được AI viết riêng theo mục từ, nghĩa JMdict (chỉ số sense bắt đầu từ 1), cách đọc và cấp, rồi viết nghĩa Việt tương ứng. `source:"ai"` và nhãn **Câu do AI viết, cần kiểm tra** đi cùng khung nét đứt riêng; không dùng nhãn Tatoeba. Câu có giấy phép giữ nhãn nguồn; bản dịch của người đóng góp giữ credit riêng, bản dịch máy luôn `machine:true` và nhãn **bản dịch máy, cần kiểm tra**. Nếu bản dịch của người đóng góp được AI sửa, nguyên bản và credit ở `translation.original`, phần sửa ghi AI và cùng giấy phép. Câu Nhật nguồn bị hiệu đính có `original_ja`, `changes` và credit gốc, không còn ghi sao chép nguyên văn.
+
+Rà toàn bộ 1.409 ứng viên ở lượt trợ lý riêng: **1.263 pass, 126 fix, 20 reject** (tỷ lệ reject 20/1.409 = **1,42%**, fix + reject **10,36%**). Pass giữ nguyên; 126 fix dùng đúng câu Nhật/Việt đề xuất và được trợ lý tích hợp đọc lại, đối chiếu lemma/nghĩa, tái tạo ruby. Với 20 reject, viết mới đúng một lần rồi tự kiểm tra ngữ pháp, tự nhiên, nghĩa/POS, văn phong/chữ viết, cấp, ngữ cảnh, Việt chính xác/tự nhiên, độ chính xác nội dung, độ dài và nguồn. **18 rewrite đạt; 2 bỏ** (佚 và ディア, vẫn chưa đủ tự nhiên). Kết quả nằm ở trường `rewrite_selfcheck`, **không gọi là review độc lập**. Không có người bản ngữ duyệt; tự kiểm tra và parser không bảo đảm độ chính xác ngôn ngữ.
+
+Fugashi/UniDic được ghim như Phase A. Lemma strict, lemma theo nút từ điển thay thế và trường hợp chỉ có đối chiếu JMdict/trợ lý được ghi tách biệt. Cách đọc/biên từ chưa chắc không nhận ruby; những phần ngoài từ đích chỉ ruby khi đạt bộ lọc từ điển bảo thủ. Một số mục cổ, ít gặp hoặc dạng tiền/hậu tố có bằng chứng biên/cách đọc hạn chế, không được nâng nhãn thành tự động xác nhận. Không đưa bộ phân tích vào trình duyệt.
+
+Tái dựng quyết định bằng `.cache/content-venv/bin/python ex5/build-final.py`; nhập một mức bằng `python3 ex5/integrate.py 5 4 3` (hoặc `2`, `1`). `data/sources/examples-v5.json` là overlay bền vững mà `tools/build-data.py` tiếp tục dùng; dữ liệu bằng chứng ở overlay/final, không tải vào thẻ. `tests/final_examples.py` tái tạo bằng chứng lemma/sense/ruby, Node kiểm tra nhãn/credit/không gắn Tatoeba cho AI, và các gate trình duyệt giữ nguyên ngân sách mở app và tiến độ. Hồ sơ gốc `ex5/authored.json` và `licensed-candidates.json` không bị sửa.

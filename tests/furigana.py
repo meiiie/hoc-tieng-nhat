@@ -5,7 +5,9 @@ import unittest
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'tools'))
+sys.path.insert(0, str(ROOT/'ex5'))
 from japanese_morphology import annotate, analyze, hira, split_ruby, verify_dictionary
+from phase_analyzer import evidence
 
 
 class FuriganaTest(unittest.TestCase):
@@ -28,10 +30,20 @@ class FuriganaTest(unittest.TestCase):
     def test_every_released_example_and_target_reading(self):
         verify_dictionary()
         sources = json.loads((ROOT/'data/sources/tatoeba-examples.json').read_text())
+        new_sources = json.loads((ROOT/'data/sources/examples-v5.json').read_text())
+        final = {r['id']: r['final_candidate'] for r in json.loads((ROOT/'ex5/final.json').read_text())}
         for n in range(5, 0, -1):
             for w in json.loads((ROOT/f'data/n{n}.json').read_text()):
                 e = w['example']
                 if not e:
+                    continue
+                if e.get('source'):
+                    source = new_sources[w['id']]
+                    calculated, ann = evidence(w, final[w['id']])
+                    self.assertEqual(calculated, final[w['id']]['analysis'], w['id'])
+                    for key, value in ann.items():
+                        self.assertEqual(source[key], value, (w['id'], key))
+                    self.assertEqual(e, {k: v for k, v in source.items() if k not in ('furiganaEvidence', 'furiganaSkipped')}, w['id'])
                     continue
                 source = sources[w['id']]
                 self.assertEqual(annotate(w, source), source, w['id'])

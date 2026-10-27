@@ -501,7 +501,80 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 142247,
+   "lang": "jpn",
+   "text": "赤ちゃんはまだ眠っています。",
+   "username": "bunbuku",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 4,
+    "surface": "赤ちゃん",
+    "kind": "exact",
+    "jmdictAlias": "赤ちゃん"
+   },
+   "furigana": [
+    {
+     "base": "赤",
+     "ruby": "あか"
+    },
+    {
+     "base": "ちゃん"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "まだ"
+    },
+    {
+     "base": "眠",
+     "ruby": "ねむ"
+    },
+    {
+     "base": "っ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/142247",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "bunbuku — Tatoeba, 142247; https://tatoeba.org/sentences/show/142247; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source.",
+   "translation": {
+    "id": 8956778,
+    "text": "Em bé vẫn đang ngủ.",
+    "username": "dotheduyet1999",
+    "url": "https://tatoeba.org/sentences/show/8956778",
+    "machine": false,
+    "pivot": false,
+    "links": [
+     [
+      142247,
+      8956778
+     ]
+    ],
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "lang": "vie",
+    "label": "bản dịch tiếng Việt trên Tatoeba"
+   }
+  },
   "jmdict": "1383260",
   "match": "exact",
   "sourceForm": [
@@ -22030,7 +22103,57 @@
   ],
   "hv": "",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 9518005,
+   "lang": "jpn",
+   "text": "この間はありがとう。",
+   "username": "small_snow",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 3,
+    "surface": "この間",
+    "kind": "exact",
+    "jmdictAlias": "この間"
+   },
+   "furigana": [
+    {
+     "base": "この"
+    },
+    {
+     "base": "間",
+     "ruby": "あいだ"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "ありがとう"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/9518005",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "small_snow — Tatoeba, 9518005; https://tatoeba.org/sentences/show/9518005; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Cảm ơn bạn về chuyện hôm trước nhé.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1004690",
   "match": "exact",
   "sourceForm": [
@@ -23242,7 +23365,70 @@
   ],
   "hv": "ngự/nhạ · chủ · nhân",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 217138,
+   "lang": "jpn",
+   "text": "ご主人は家にいますか。",
+   "username": "mookeee",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 3,
+    "surface": "ご主人",
+    "kind": "exact",
+    "jmdictAlias": "ご主人"
+   },
+   "furigana": [
+    {
+     "base": "ご"
+    },
+    {
+     "base": "主人",
+     "ruby": "しゅじん"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "家"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "か"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/217138",
+   "changes": "Japanese adapted by OpenAI Codex using the supplied reviewer correction; original source and licence retained.",
+   "attribution": "mookeee — Tatoeba, 217138; https://tatoeba.org/sentences/show/217138; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese adapted by OpenAI Codex using the supplied reviewer correction; original source and licence retained. Vietnamese translated/adapted by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Anh nhà có ở nhà không ạ?",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   },
+   "original_ja": "ご主人はご在宅ですか。"
+  },
   "jmdict": "1270390",
   "match": "exact",
   "sourceForm": [
@@ -23553,7 +23739,74 @@
   ],
   "hv": "",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j5b21d92a7eee",
+   "lang": "jpn",
+   "text": "先生はこの映画をごらんになりますか。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 8,
+    "end": 16,
+    "surface": "ごらんになります",
+    "kind": "phaseA-review"
+   },
+   "furigana": [
+    {
+     "base": "先生",
+     "ruby": "せんせい"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "この"
+    },
+    {
+     "base": "映画",
+     "ruby": "えいが"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "ごらん"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "なり"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "か"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Thầy có xem bộ phim này không ạ?",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "2217040",
   "match": "exact",
   "sourceForm": [
@@ -24648,7 +24901,76 @@
    0,
    2
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j3f676facfdd4",
+   "lang": "jpn",
+   "text": "さ来月、新しい仕事を始めます。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 0,
+    "end": 3,
+    "surface": "さ来月",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "さ"
+    },
+    {
+     "base": "来月",
+     "ruby": "らいげつ"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "新",
+     "ruby": "あたら"
+    },
+    {
+     "base": "しい"
+    },
+    {
+     "base": "仕事",
+     "ruby": "しごと"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "始",
+     "ruby": "はじ"
+    },
+    {
+     "base": "め"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tháng sau nữa tôi sẽ bắt đầu công việc mới.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1293640",
   "match": "exact",
   "sourceForm": [
@@ -24674,7 +24996,67 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 170804,
+   "lang": "jpn",
+   "text": "再来週の木曜日はどう？",
+   "username": "small_snow",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 0,
+    "end": 3,
+    "surface": "再来週",
+    "kind": "exact",
+    "jmdictAlias": "再来週"
+   },
+   "furigana": [
+    {
+     "base": "再来",
+     "ruby": "さらい"
+    },
+    {
+     "base": "週"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "木曜",
+     "ruby": "もくよう"
+    },
+    {
+     "base": "日"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "どう"
+    },
+    {
+     "base": "？"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/170804",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "small_snow — Tatoeba, 170804; https://tatoeba.org/sentences/show/170804; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Thứ năm tuần sau nữa thì sao?",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1293650",
   "match": "exact",
   "sourceForm": [
@@ -29097,7 +29479,78 @@
   "pitch": [
    1
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j3bfea40cee04",
+   "lang": "jpn",
+   "text": "弟は学校で柔道を習っています。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 5,
+    "end": 7,
+    "surface": "柔道",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "弟"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "学校",
+     "ruby": "がっこう"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "柔道",
+     "ruby": "じゅうどう"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "習",
+     "ruby": "なら"
+    },
+    {
+     "base": "っ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Em trai tôi đang học judo ở trường.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1335440",
   "match": "exact",
   "sourceForm": [
@@ -38292,7 +38745,96 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 10640446,
+   "lang": "jpn",
+   "text": "私のおばあちゃん、漬物を漬けるのが上手なんだよ。",
+   "username": "small_snow",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 12,
+    "end": 15,
+    "surface": "漬ける",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "私"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "お"
+    },
+    {
+     "base": "ばあ"
+    },
+    {
+     "base": "ちゃん"
+    },
+    {
+     "base": "、"
+    },
+    {
+     "base": "漬物",
+     "ruby": "つけもの"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "漬",
+     "ruby": "つ"
+    },
+    {
+     "base": "ける"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "上手"
+    },
+    {
+     "base": "な"
+    },
+    {
+     "base": "ん"
+    },
+    {
+     "base": "だ"
+    },
+    {
+     "base": "よ"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/10640446",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "small_snow — Tatoeba, 10640446; https://tatoeba.org/sentences/show/10640446; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source. Vietnamese translation added by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Bà tôi muối dưa rất khéo.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Translated directly from Japanese by the authoring assistant; not native reviewed.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   }
+  },
   "jmdict": "1433680",
   "match": "exact",
   "sourceForm": [
@@ -41130,7 +41672,71 @@
   ],
   "hv": "",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 155836,
+   "lang": "jpn",
+   "text": "私は床屋で髪を切った。",
+   "username": "bunbuku",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 2,
+    "end": 4,
+    "surface": "床屋",
+    "kind": "exact",
+    "jmdictAlias": "床屋"
+   },
+   "furigana": [
+    {
+     "base": "私"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "床屋",
+     "ruby": "とこや"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "髪"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "切っ"
+    },
+    {
+     "base": "た"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/155836",
+   "changes": "Japanese adapted by OpenAI Codex using the supplied reviewer correction; original source and licence retained.",
+   "attribution": "bunbuku — Tatoeba, 155836; https://tatoeba.org/sentences/show/155836; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese adapted by OpenAI Codex using the supplied reviewer correction; original source and licence retained. Vietnamese translated/adapted by OpenAI Codex; machine-generated, not native reviewed.",
+   "translation": {
+    "text": "Tôi đã ra tiệm cắt tóc.",
+    "lang": "vie",
+    "machine": true,
+    "translator": "OpenAI Codex",
+    "method": "Review correction checked against Japanese and the selected JMdict sense by the integrating assistant; no native review.",
+    "changes": "Vietnamese wording corrected by OpenAI Codex after the supplied assistant review.",
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "pivot": false,
+    "label": "bản dịch máy, cần kiểm tra"
+   },
+   "original_ja": "私は床屋で散髪した。"
+  },
   "jmdict": "1349410",
   "match": "exact",
   "sourceForm": [
@@ -43561,7 +44167,93 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j7c23332ecdd6",
+   "lang": "jpn",
+   "text": "駅の近くの二階建ての家に住んでいます。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 5,
+    "end": 9,
+    "surface": "二階建て",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "駅",
+     "ruby": "えき"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "近く"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "二"
+    },
+    {
+     "base": "階"
+    },
+    {
+     "base": "建",
+     "ruby": "だ"
+    },
+    {
+     "base": "て"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "家"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "住",
+     "ruby": "す"
+    },
+    {
+     "base": "ん"
+    },
+    {
+     "base": "で"
+    },
+    {
+     "base": "い"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi sống trong căn nhà hai tầng gần ga.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1599800",
   "match": "exact",
   "sourceForm": [
@@ -44516,7 +45208,80 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 179745,
+   "lang": "jpn",
+   "text": "金の値段は日ごとに変わる。",
+   "username": "bunbuku",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 2,
+    "end": 4,
+    "surface": "値段",
+    "kind": "exact",
+    "jmdictAlias": "値段"
+   },
+   "furigana": [
+    {
+     "base": "金"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "値段",
+     "ruby": "ねだん"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "日"
+    },
+    {
+     "base": "ごと"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "変",
+     "ruby": "か"
+    },
+    {
+     "base": "わる"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/179745",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "bunbuku — Tatoeba, 179745; https://tatoeba.org/sentences/show/179745; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source.",
+   "translation": {
+    "id": 9035068,
+    "text": "Giá vàng thay đổi từng ngày.",
+    "username": "dotheduyet1999",
+    "url": "https://tatoeba.org/sentences/show/9035068",
+    "machine": false,
+    "pivot": false,
+    "links": [
+     [
+      179745,
+      9035068
+     ]
+    ],
+    "license": "CC BY 2.0 FR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "lang": "vie",
+    "label": "bản dịch tiếng Việt trên Tatoeba"
+   }
+  },
   "jmdict": "1600160",
   "match": "exact",
   "sourceForm": [
@@ -44548,7 +45313,85 @@
    1,
    3
   ],
-  "example": null,
+  "example": {
+   "source": "tatoeba",
+   "sourceName": "Tatoeba",
+   "label": "Tatoeba",
+   "id": 87585,
+   "lang": "jpn",
+   "text": "彼女は熱心に勉強する。",
+   "username": "bunbuku",
+   "license": "CC BY 2.0 FR",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+   "match": {
+    "start": 3,
+    "end": 5,
+    "surface": "熱心",
+    "kind": "exact",
+    "jmdictAlias": "熱心"
+   },
+   "furigana": [
+    {
+     "base": "彼女",
+     "ruby": "かのじょ"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "熱心",
+     "ruby": "ねっしん"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "勉強",
+     "ruby": "べんきょう"
+    },
+    {
+     "base": "する"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "url": "https://tatoeba.org/sentences/show/87585",
+   "changes": "Japanese sentence copied verbatim from the source.",
+   "attribution": "bunbuku — Tatoeba, 87585; https://tatoeba.org/sentences/show/87585; CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/). Japanese sentence copied verbatim from the source.",
+   "translation": {
+    "id": 13769810,
+    "lang": "vie",
+    "text": "Cô ấy học hành chăm chỉ.",
+    "username": "leucammieuvu",
+    "license": "CC BY 2.0 FR",
+    "url": "https://tatoeba.org/sentences/show/13769810",
+    "machine": false,
+    "pivot": true,
+    "via": {
+     "id": 316123,
+     "lang": "eng",
+     "text": "She studies hard.",
+     "username": "CK",
+     "license": "CC BY 2.0 FR",
+     "url": "https://tatoeba.org/sentences/show/316123",
+     "pivot": false
+    },
+    "links": [
+     [
+      87585,
+      316123
+     ],
+     [
+      316123,
+      13769810
+     ]
+    ],
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "label": "dịch qua câu tiếng Anh"
+   }
+  },
   "jmdict": "1467910",
   "match": "exact",
   "sourceForm": [
@@ -58519,7 +59362,63 @@
   ],
   "hv": "",
   "pitch": null,
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:j9ce91e3ea30f",
+   "lang": "jpn",
+   "text": "明日までにリポートを出します。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 5,
+    "end": 9,
+    "surface": "リポート",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "明日"
+    },
+    {
+     "base": "まで"
+    },
+    {
+     "base": "に"
+    },
+    {
+     "base": "リポート"
+    },
+    {
+     "base": "を"
+    },
+    {
+     "base": "出し"
+    },
+    {
+     "base": "ます"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Tôi sẽ nộp bài thu hoạch chậm nhất là ngày mai.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1145990",
   "match": "exact",
   "sourceForm": [
@@ -60015,7 +60914,70 @@
   "pitch": [
    0
   ],
-  "example": null,
+  "example": {
+   "source": "ai",
+   "sourceName": "OpenAI Codex",
+   "label": "Câu do AI viết, cần kiểm tra",
+   "id": "ai:jf61c8dbcebee",
+   "lang": "jpn",
+   "text": "このクラスは女子の割合が高いです。",
+   "username": "OpenAI Codex",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "match": {
+    "start": 9,
+    "end": 11,
+    "surface": "割合",
+    "kind": "exact"
+   },
+   "furigana": [
+    {
+     "base": "この"
+    },
+    {
+     "base": "クラス"
+    },
+    {
+     "base": "は"
+    },
+    {
+     "base": "女子"
+    },
+    {
+     "base": "の"
+    },
+    {
+     "base": "割合",
+     "ruby": "わりあい"
+    },
+    {
+     "base": "が"
+    },
+    {
+     "base": "高い"
+    },
+    {
+     "base": "です"
+    },
+    {
+     "base": "。"
+    }
+   ],
+   "nativeReviewed": false,
+   "changes": "Japanese and Vietnamese authored by OpenAI Codex; assistant reviewed; no native-speaker review.",
+   "attribution": "OpenAI Codex (AI); CC BY-SA 4.0; method and review in docs/DATA.md and ex5/final.json.",
+   "translation": {
+    "text": "Lớp này có tỷ lệ nữ sinh cao.",
+    "lang": "vie",
+    "machine": true,
+    "pivot": false,
+    "translator": "OpenAI Codex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "label": "bản dịch máy, cần kiểm tra",
+    "method": "Composed with the Japanese example by OpenAI Codex; assistant reviewed, not native reviewed."
+   }
+  },
   "jmdict": "1606810",
   "match": "exact",
   "sourceForm": [
