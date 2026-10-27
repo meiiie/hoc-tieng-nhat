@@ -109,14 +109,12 @@ test('day groups grow automatically, never exceed 25, and preserve earlier membe
   assert.throws(()=>P.groups(['p1-001','p1-001']),/Duplicate/);
 });
 
-test('real release keeps 250 legacy entries in their days and covers the library exactly once',()=>{
+test('Japanese release ids retain exact coverage through the shared deterministic grouping',()=>{
   const fs=require('node:fs'),path=require('node:path'),root=path.join(__dirname,'..');
-  const pages=JSON.parse(fs.readFileSync(path.join(root,'data/pages.json'))).pages;
-  const words=pages.flatMap(p=>JSON.parse(fs.readFileSync(path.join(root,p.file))));
-  const days=P.groups(words.map(w=>w.id));assert.equal(days.length,199);
-  assert.equal(new Set(days.flatMap(d=>d.wordIds)).size,4971);
-  for(let i=0;i<250;i++)assert.ok(days[Math.floor(i/25)].wordIds.includes('p1-'+String(i+1).padStart(3,'0')));
-  assert.deepEqual(days[10].wordIds.slice(0,3),['p1-251','p1-252','p2-001']);
+  const words=[5,4,3,2,1].flatMap(n=>JSON.parse(fs.readFileSync(path.join(root,`data/n${n}.json`))));
+  const days=P.groups(words.map(w=>w.id));assert.equal(days.length,Math.ceil(words.length/25));
+  assert.deepEqual(new Set(days.flatMap(d=>d.wordIds)),new Set(words.map(w=>w.id)));
+  assert.deepEqual(P.groups(words.map(w=>w.id).reverse()),days);
 });
 
 test('choosing another group allows more new words today without resetting the previous group',()=>{

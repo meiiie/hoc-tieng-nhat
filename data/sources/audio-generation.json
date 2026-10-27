@@ -1,0 +1,9 @@
+{
+  "voice": "ja-JP-NanamiNeural",
+  "requested": 1325,
+  "generated": 16,
+  "existing": 1309,
+  "errors": [],
+  "bitrate": "32k",
+  "status": "complete"
+}

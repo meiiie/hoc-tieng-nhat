@@ -16,7 +16,8 @@ const api={
    if(current&&!stored){await tx(s=>s.put(current,'corrupt-'+Date.now()));stored=parse(await read('daily-backup'));}
    if(stored&&(!seed?.saved||!(seed.saved>stored.saved)))seed=stored;
    if(!valid(seed))seed={};if(+seed.v<11&&Object.keys(seed).length)await tx(s=>s.put(seed,'pre-v'+(seed.v||2)));
-   await tx(s=>s.put(seed,'current'));mirror(seed);return seed;
+   const backup=parse(await read('daily-backup'));
+   await tx(s=>{s.put(seed,'current');if(!backup)s.put(seed,'daily-backup')});mirror(seed);return seed;
   }catch(e){fallback=true;return seed}
  },
  save(state){const snapshot=structuredClone(state);chain=chain.catch(()=>{}).then(async()=>{if(!valid(snapshot))throw new Error('Tiến độ không hợp lệ');if(fallback){if(!mirror(snapshot))throw new Error('Bộ nhớ đầy');return}

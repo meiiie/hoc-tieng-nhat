@@ -17,7 +17,7 @@ def B(start,end,new):
 R("/* Học Từ Vựng. Static PWA with versioned content and local progress. */","/* Generated Neko core. Source and assertions: tools/make-core.py. */\nconst LANG=window.LANG||{};")
 R("const DAY=864e5,KEY='htv2',AUDIO_CACHE='htv-audio-v1';","const DAY=864e5,KEY=LANG.key||'htv2',AUDIO_CACHE=LANG.audioCache||'htv-audio-v1';")
 R("retention:0.9,rev:true,fcMode:'sched'}};","retention:0.9,rev:true,fcMode:'sched',...(LANG.setDefaults||{})}};")
-R("function migrate(d){d=d&&typeof d=='object'?d:{};let v=+d.v||2;","function migrate(d){d=d&&typeof d=='object'&&!Array.isArray(d)?d:{};if(+d.v>SCHEMA)return d;let v=+d.v||2;\n if(v<SCHEMA&&Object.keys(d).length)lsSet(KEY+'-pre-v'+v,JSON.stringify(d));")
+R("function migrate(d){d=d&&typeof d=='object'?d:{};let v=+d.v||2;","function migrate(d){d=d&&typeof d=='object'&&!Array.isArray(d)?d:{};if(+d.v>SCHEMA)return {...structuredClone(blank),...d,set:{...structuredClone(blank.set),...d.set}};let v=+d.v||2;\n if(v<SCHEMA&&Object.keys(d).length)lsSet(KEY+'-pre-v'+v,JSON.stringify(d));")
 R("const save=()=>{S.v=SCHEMA;","const save=()=>{if(+S.v>SCHEMA)return Promise.resolve(false);S.v=SCHEMA;")
 B('async function loadData(){', '\nconst F=()', '''async function loadData(){const x=await LANG.loadData();pages=x.pages;words=x.words;wordIndex=new Map(words.map(w=>[w.id,w]));
  studyOrder=words.map(w=>w.id);studyDays=[];dayIndex=new Map();}
@@ -32,6 +32,15 @@ R('function checkAns(input,targets){const h=norm(input);','function checkAns(inp
 R('const cloze=w=>Content.cloze(w);','const cloze=w=>LANG.cloze?LANG.cloze(w):Content.cloze(w);')
 R('function backFace(w){return `','function backFace(w){if(LANG.backFace)return LANG.backFace(w);return `')
 R('function frontFace(w,dir){return `','function frontFace(w,dir){if(LANG.frontFace)return LANG.frontFace(w,dir);return `')
+B('function sheet(html,onClose){', "document.addEventListener('keydown',e=>{if(e.key=='Escape'", """function sheet(html,onClose){const sh=$('#sheet'),opener=document.activeElement,header=document.querySelector('header');
+ sh.innerHTML=`<div><div class="grab" aria-hidden="true"></div><button class="ib sheet-close" aria-label="Đóng bảng">${I('x')}</button>${html}</div>`;sh.classList.remove('hidden');app.inert=true;header.inert=true;
+ const heading=$('h2',sh);if(heading){heading.id='sheet-heading';sh.setAttribute('aria-labelledby',heading.id)}
+ const close=(refresh=true)=>{if(sh.classList.contains('hidden'))return;sh.classList.add('hidden');app.inert=false;header.inert=false;if(refresh&&onClose)onClose();if(opener?.isConnected&&!opener.closest('[inert]'))opener.focus({preventScroll:true})};
+ $('.sheet-close',sh).onclick=()=>close();sh.onclick=e=>{if(e.target===sh)close()};sh._close=close;
+ sh.onkeydown=e=>{if(e.key!=='Tab')return;const xs=$$('button,a,input,select,textarea,summary,[tabindex="0"]',sh).filter(x=>!x.disabled&&x.getClientRects().length);if(!xs.length)return;const first=xs[0],last=xs.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}};
+ requestAnimationFrame(()=>{if(!sh.classList.contains('hidden'))$('.sheet-close',sh).focus({preventScroll:true})});return {sh,close}}
+""")
+R("function route(){keys=null;", "function route(){if(!$('#sheet').classList.contains('hidden'))$('#sheet')._close?.(false);keys=null;")
 R("function openFilter(){const f=F();","function openFilter(){if(LANG.filter)return LANG.filter();const f=F();")
 R("<div class=\"opt-row\"><span>Giọng đọc</span>${seg('voice',[['gb','Anh (UK)'],['us','Mỹ (US)']])}</div>","${LANG.settingsTop?LANG.settingsTop(seg):''}")
 R("${deck().length} thẻ · khoảng ${Math.ceil(deck().reduce((n,w)=>n+(w.audioBytes?.[S.set.voice]||0),0)/1048576)} MB · giọng ${S.set.voice=='gb'?'Anh':'Mỹ'}. Có thể tiếp tục nếu tải lỗi", "${LANG.audioUrls().length} tệp có sẵn trong bộ đang chọn. Giọng thiết bị phụ thuộc máy.")
@@ -62,8 +71,9 @@ R("if(!words.length)return;if(!S.user", "if(!words.length)return;if(+S.v>SCHEMA)
 R("const k=location.hash.replace(/^#\\/?/,'');const r=(R[k]||home)();", "const k=location.hash.replace(/^#\\/?/,'').split('?')[0];const r=(R[k]||home)();")
 R("const updVoice=()=>{$('#voice').textContent=", "const updVoice=()=>{if(LANG.chip)return LANG.chip.paint();$('#voice').textContent=")
 R("$('#voice').onclick=()=>{S.set.voice=", "$('#voice').onclick=()=>{if(LANG.chip)return LANG.chip.click();S.set.voice=")
-R(".then(()=>loadPron()).then(()=>{save();route();", ".then(()=>LANG.boot?LANG.boot():loadPron()).then(()=>{save();route();")
-R("return loadData()}", "return loadData()}")
+R(".then(()=>loadPron()).then(()=>{save();route();", ".then(()=>S.v>SCHEMA?null:(LANG.boot?LANG.boot():loadPron())).then(()=>{save();route();")
+R("function applyTheme(){const dark=","function applyTheme(){for(const id of ['voice','settings'])$('#'+id).disabled=+S.v>SCHEMA;const dark=")
+R("delete d.set.dark", "/* Retain the legacy field for additive recovery. */")
 R("addEventListener('click',e=>{if(performance.now()-(window._swipeT||0)<450)","addEventListener('click',e=>{if(window._swipeT!=null&&performance.now()-window._swipeT<450)")
 R("lastFlip=0,lastSwipeEnd=0,busy=false;", "lastFlip=-Infinity,lastSwipeEnd=-Infinity,busy=false;")
 # A swipe is a rating only after retrieval; on the front it reveals the answer.

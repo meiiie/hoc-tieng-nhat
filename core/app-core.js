@@ -15,9 +15,9 @@ const blank={srs:{},known:{},star:{},learn:{},speak:{},pron:{},log:{},best:{},no
 const SCHEMA=11;
 const lsGet=k=>{try{return localStorage.getItem(k)}catch(e){return null}};const lsSet=(k,v)=>{try{localStorage.setItem(k,v);return true}catch(e){return false}};
 /* Migrations: each step upgrades stored data by one schema version. Never drops unknown fields. */
-function migrate(d){d=d&&typeof d=='object'&&!Array.isArray(d)?d:{};if(+d.v>SCHEMA)return d;let v=+d.v||2;
+function migrate(d){d=d&&typeof d=='object'&&!Array.isArray(d)?d:{};if(+d.v>SCHEMA)return {...structuredClone(blank),...d,set:{...structuredClone(blank.set),...d.set}};let v=+d.v||2;
  if(v<SCHEMA&&Object.keys(d).length)lsSet(KEY+'-pre-v'+v,JSON.stringify(d));
- if(v<3){if(d.set&&d.set.dark!=null&&(d.set.theme==null||d.set.theme=='system')){d.set.theme=d.set.dark?'dark':'light';delete d.set.dark}v=3}
+ if(v<3){if(d.set&&d.set.dark!=null&&(d.set.theme==null||d.set.theme=='system')){d.set.theme=d.set.dark?'dark':'light';/* Retain the legacy field for additive recovery. */}v=3}
  if(v<4){if(d.srs&&typeof d.srs=='object')for(const id in d.srs)d.srs[id]=SRS.migrate(d.srs[id]);v=4}
  /* v5: Learn has 4 steps (choice, recall, cloze, dictation); an old "mastered" (2) becomes 4, "familiar" (1) stays 1 */
  if(v<5){if(d.learn&&typeof d.learn=='object')for(const id in d.learn)if(d.learn[id]>=2)d.learn[id]=4;v=5}
@@ -157,8 +157,13 @@ function confetti(){if(reduce)return;const c=$('#confetti'),x=c.getContext('2d')
  if(++t<140)requestAnimationFrame(f);else x.clearRect(0,0,c.width,c.height)})();buzz([20,30,20])}
 
 /* ---------- sheets: filter & settings ---------- */
-function sheet(html,onClose){const sh=$('#sheet');sh.innerHTML=`<div><div class="grab" aria-hidden="true"></div>${html}</div>`;sh.classList.remove('hidden');
- const close=()=>{sh.classList.add('hidden');onClose&&onClose()};sh.onclick=e=>{if(e.target==sh)close()};sh._close=close;return {sh,close}}
+function sheet(html,onClose){const sh=$('#sheet'),opener=document.activeElement,header=document.querySelector('header');
+ sh.innerHTML=`<div><div class="grab" aria-hidden="true"></div><button class="ib sheet-close" aria-label="Đóng bảng">${I('x')}</button>${html}</div>`;sh.classList.remove('hidden');app.inert=true;header.inert=true;
+ const heading=$('h2',sh);if(heading){heading.id='sheet-heading';sh.setAttribute('aria-labelledby',heading.id)}
+ const close=(refresh=true)=>{if(sh.classList.contains('hidden'))return;sh.classList.add('hidden');app.inert=false;header.inert=false;if(refresh&&onClose)onClose();if(opener?.isConnected&&!opener.closest('[inert]'))opener.focus({preventScroll:true})};
+ $('.sheet-close',sh).onclick=()=>close();sh.onclick=e=>{if(e.target===sh)close()};sh._close=close;
+ sh.onkeydown=e=>{if(e.key!=='Tab')return;const xs=$$('button,a,input,select,textarea,summary,[tabindex="0"]',sh).filter(x=>!x.disabled&&x.getClientRects().length);if(!xs.length)return;const first=xs[0],last=xs.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}};
+ requestAnimationFrame(()=>{if(!sh.classList.contains('hidden'))$('.sheet-close',sh).focus({preventScroll:true})});return {sh,close}}
 document.addEventListener('keydown',e=>{if(e.key=='Escape'&&!$('#sheet').classList.contains('hidden'))$('#sheet')._close()});
 function openFilter(){if(LANG.filter)return LANG.filter();const f=F();
  const chips=(k,opts)=>`<div class="chips" role="group">${opts.map(([v,l])=>`<button class="chip ${(f[k]||'')==v?'on':''}" data-k="${k}" data-v="${v}" aria-pressed="${(f[k]||'')==v}">${l}</button>`).join('')}</div>`;
@@ -729,7 +734,7 @@ async function importProgress(file,close){try{if(file.size>50e6)throw new Error(
 
 /* ---------- router & boot ---------- */
 const R={'':home,path:()=>{location.replace('#/');home()},cards,review,cram:()=>review(true),learn:()=>learn(),hard:()=>learn('hard'),speak,listen,match,test,list,stats,...(LANG.routes||{})};let cleanup=null;
-function route(){keys=null;audio.pause();if(cleanup){try{cleanup()}catch(e){}cleanup=null}$('#back').onclick=()=>{location.hash='#/'};
+function route(){if(!$('#sheet').classList.contains('hidden'))$('#sheet')._close?.(false);keys=null;audio.pause();if(cleanup){try{cleanup()}catch(e){}cleanup=null}$('#back').onclick=()=>{location.hash='#/'};
  if(!words.length)return;if(+S.v>SCHEMA){view('Phiên bản mới hơn','<p>Tiến độ được tạo bằng phiên bản mới hơn. Hãy tải lại ứng dụng; dữ liệu của bạn vẫn được giữ nguyên.</p>');return}if(!S.user||!S.user.done)return onboarding(0);const k=location.hash.replace(/^#\/?/,'').split('?')[0];const r=(R[k]||home)();if(typeof r=='function')cleanup=r;document.body.classList.toggle('home-v',!k)}
 addEventListener('hashchange',route);
 /* v15: keyboard shortcuts per mode, shown in a '?' sheet (desktop) instead of a side panel */
@@ -740,7 +745,7 @@ function openKeys(){const k=location.hash.replace(/^#\/?/,'').split('?')[0];cons
 document.addEventListener('keydown',e=>{if(e.key=='?'&&!/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)&&$('#sheet').classList.contains('hidden')){e.preventDefault();openKeys()}});
 
 const MCOL=NK_COLORS;
-function applyTheme(){const dark=S.set.theme=='dark'||(S.set.theme=='system'&&matchMedia('(prefers-color-scheme: dark)').matches);document.body.classList.toggle('dark',dark);document.body.classList.toggle('mdrag',S.set.mdrag!==false);
+function applyTheme(){for(const id of ['voice','settings'])$('#'+id).disabled=+S.v>SCHEMA;const dark=S.set.theme=='dark'||(S.set.theme=='system'&&matchMedia('(prefers-color-scheme: dark)').matches);document.body.classList.toggle('dark',dark);document.body.classList.toggle('mdrag',S.set.mdrag!==false);
  const mc=MCOL[S.set.mcolor]||MCOL.cocoa;document.body.style.setProperty('--mk-body',dark?mc.d:mc.l);$('meta[name=theme-color]').content=dark?'#121214':'#F6F5F2'}
 matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change',applyTheme);
 applyTheme();
@@ -754,7 +759,7 @@ if('serviceWorker' in navigator){let reloading=false;navigator.serviceWorker.add
   r.addEventListener('updatefound',()=>{const n=r.installing;n&&n.addEventListener('statechange',()=>{if(n.state=='installed'&&navigator.serviceWorker.controller)offer(n)})});
   setInterval(()=>r.update().catch(()=>{}),36e5);document.addEventListener('visibilitychange',()=>{if(document.visibilityState=='visible')r.update().catch(()=>{})})}).catch(()=>{})}
 function boot(){app.innerHTML=`<div class="sk" style="height:150px;margin:12px 0"></div><div class="sk" style="height:170px;margin-bottom:12px"></div><div class="modes"><div class="sk" style="height:112px"></div><div class="sk" style="height:112px"></div><div class="sk" style="height:112px"></div><div class="sk" style="height:112px"></div></div>`;
- ProgressStore.load(S).then(stored=>{S=migrate(stored);applyTheme();updVoice();return loadData()}).then(()=>LANG.boot?LANG.boot():loadPron()).then(()=>{save();route();if(ProgressStore.mode=='localStorage')toast('Trình duyệt chỉ cho dùng bộ nhớ nhỏ. Hãy xuất tiến độ định kỳ.','info',5000)}).catch(e=>{console.warn(e);view('',`${mascot('sad','Không tải được dữ liệu.')}<p class="muted center">Kiểm tra kết nối mạng rồi thử lại.</p><button class="btn" id="retry">${I('refresh-cw','s')}Thử lại</button>`,false);$('#retry').onclick=boot})}
+ ProgressStore.load(S).then(stored=>{S=migrate(stored);applyTheme();updVoice();return loadData()}).then(()=>S.v>SCHEMA?null:(LANG.boot?LANG.boot():loadPron())).then(()=>{save();route();if(ProgressStore.mode=='localStorage')toast('Trình duyệt chỉ cho dùng bộ nhớ nhỏ. Hãy xuất tiến độ định kỳ.','info',5000)}).catch(e=>{console.warn(e);view('',`${mascot('sad','Không tải được dữ liệu.')}<p class="muted center">Kiểm tra kết nối mạng rồi thử lại.</p><button class="btn" id="retry">${I('refresh-cw','s')}Thử lại</button>`,false);$('#retry').onclick=boot})}
 boot();
 /* v17: expose the sticky header height so the flashcard mode switch can stick right under it (iOS safe-area aware) */
 {const h=document.querySelector('header');if(h){const set=()=>document.documentElement.style.setProperty('--hh',h.getBoundingClientRect().height+'px');set();try{new ResizeObserver(set).observe(h)}catch(e){addEventListener('resize',set)}}}

@@ -1,0 +1,62 @@
+{
+ "version": "1.0.0",
+ "sourceDate": "2026-10-26",
+ "sourceHeadwords": 8138,
+ "sourceRows": 8505,
+ "uniqueWords": 8344,
+ "matches": {
+  "exact": 8471,
+  "quarantined": 20,
+  "reviewed-link": 14
+ },
+ "rawExactMatches": 8349,
+ "matchRate": 98.1658,
+ "correctedMatchRate": 99.835,
+ "unmatched": 156,
+ "kana": 214,
+ "kanji": 2535,
+ "levels": {
+  "N5": {
+   "words": 684,
+   "vi": 684,
+   "hanViet": 514,
+   "pitch": 506,
+   "audio": 684
+  },
+  "N4": {
+   "words": 641,
+   "vi": 641,
+   "hanViet": 496,
+   "pitch": 488,
+   "audio": 641
+  },
+  "N3": {
+   "words": 1768,
+   "vi": 1768,
+   "hanViet": 1546,
+   "pitch": 1536,
+   "audio": 0
+  },
+  "N2": {
+   "words": 1826,
+   "vi": 1826,
+   "hanViet": 1508,
+   "pitch": 1494,
+   "audio": 0
+  },
+  "N1": {
+   "words": 3425,
+   "vi": 3425,
+   "hanViet": 3152,
+   "pitch": 3072,
+   "audio": 0
+  }
+ },
+ "sources": {
+  "JLPT_vocab_ALL.json": "7cccbbc9559d056526f122dff17c24dc80cfc4c607bdd1b26db0dc5238baabca",
+  "JLPT_kanji_ALL.json": "dd3847e019065d43f1e8cd9c07fda72f7fa001be669e3c4f2dc7dc49be8dcc19",
+  "jmdict-eng-3.6.2.json": "592987229d5da43aa9d10565b4dd4944e08b206f159e3ff1af67cac91f896605",
+  "kanjidic2-all-3.6.2.json": "94a244176ef202e202219b4a8f4dfdcafe73aaccc6cb53e2febe96a0a73221da",
+  "accents.txt": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20"
+ }
+}
