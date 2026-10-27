@@ -1,3 +1,5 @@
+import os
+PREFIX=os.environ.get("REPORT_PREFIX", "")
 """Reproducible 390 × 844 touch screenshots; synthetic study fixture only."""
 import json,sys
 from pathlib import Path
@@ -16,7 +18,7 @@ with sync_playwright() as p:
  def shot(name):
   page.evaluate('document.fonts.ready');page.evaluate("document.querySelector('#toast').classList.remove('on');document.activeElement?.blur();window.scrollTo(0,0)")
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
-  page.screenshot(path=str(OUT/name),animations='disabled');shots.append(str(OUT/name))
+  page.screenshot(path=str(OUT/(PREFIX+name)),animations='disabled');shots.append(str(OUT/(PREFIX+name)))
  for theme in ['light','dark']:
   page.evaluate("theme=>{S.set.theme=theme;S.set.f={cefr:'N5'};S.star={};S.srs={};S.sess={};S.introductions={};S.bury=null;S.studyDay=null;FC=null;applyTheme();save()}",theme)
   go('');shot(f'{theme}-home.png')
@@ -30,5 +32,5 @@ with sync_playwright() as p:
   go('list');page.wait_for_selector('.it');shot(f'{theme}-word-list.png')
   go('');page.click('#settings');page.wait_for_selector('#sheet:not(.hidden)');shot(f'{theme}-settings.png');page.keyboard.press('Escape')
  ctx.close();browser.close()
-(OUT/'index.json').write_text(json.dumps({'viewport':{'width':390,'height':844},'scale':2,'files':shots},ensure_ascii=False,indent=2)+'\n')
+(OUT/(PREFIX+'screenshots.json')).write_text(json.dumps({'viewport':{'width':390,'height':844},'scale':2,'files':shots},ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(shots,ensure_ascii=False,indent=2))

@@ -1,3 +1,5 @@
+import os
+PREFIX=os.environ.get("REPORT_PREFIX", "")
 """Neko Japanese browser gates, adapted from the Chinese browser suite.
 Serve: python3 -m http.server 8931; run: python3 tests/e2e.py http://localhost:8931/ all
 """
@@ -78,6 +80,20 @@ def run(kind):
    go('match');pg.click('#go');pg.wait_for_selector('.tile');tiles=E("Array.from(document.querySelectorAll('.tile')).map((x,i)=>({i,text:x.textContent}))");pg.locator('.tile').nth(0).click();pg.locator('.tile').nth(1).click()
    go('cram');pg.wait_for_selector('.fc');pg.click('#show');pg.click('[data-g="3"]');pg.wait_for_timeout(180)
    assert E('JSON.stringify(S.srs)')==snapshot;assert E('Object.values(S.ev).flat().length')>3;ok('cards, learn, listen, test, match and cram keep SRS byte-identical')
+   # Exercise the real core cloze step and each source label with released examples.
+   for mode in ['direct','pivot','machine']:
+    fixture=E("mode=>{const w=words.find(w=>w.level===5&&w.example&&(mode==='machine'?w.example.translation.machine:mode==='pivot'?w.example.translation.pivot:!w.example.translation.machine&&!w.example.translation.pivot));S.star={[w.id]:true};S.set.f={cefr:'N5',star:true};S.srs={};S.introductions={};S.studyDay=null;S.bury=null;S.sess={};FC=null;save();return w}",mode)
+    go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example')
+    assert fixture['example']['text'] in pg.locator('.face.b .ja-example').inner_text()
+    expected={'direct':'bản dịch tiếng Việt trên Tatoeba','pivot':'dịch qua câu tiếng Anh','machine':'bản dịch máy, cần kiểm tra'}[mode]
+    assert expected in pg.locator('.face.b .ja-example').inner_text()
+    pg.locator('.face.b .ja-example-source summary').click()
+    assert pg.locator('.face.b .ja-example-source a').first.get_attribute('href')==fixture['example']['url']
+   E("id=>{S.learn={[id]:2};S.sess={};save()}",fixture['id'])
+   go('learn');pg.wait_for_selector('.cloze .gap');assert 'bản dịch máy, cần kiểm tra' in pg.text_content('main')
+   pg.fill('#ti',fixture['kana']);pg.click('#ck');pg.wait_for_selector('#fb .fb.ok')
+   assert E('id=>S.learn[id]',fixture['id'])==3;assert E('JSON.stringify(S.srs)')=='{}'
+   ok('attributed direct/pivot/machine examples and exact cloze preserve scheduled progress')
    forward=E("(()=>{const w=words.find(w=>w.level===5);S.star={[w.id]:true};S.set.f={cefr:'N5',star:true};S.srs[w.id]={...SRS.fresh(),state:'review',s:31,d:4,int:30,due:SRS.dayAt(Date.now(),20),last:Date.now(),reps:4};FC=null;S.sess={};save();return w.id})()")
    go('cards');pg.click('#nL');pg.wait_for_timeout(300);assert E('id=>S.srs[id].due===SRS.dayAt(Date.now(),1)&&S.srs[id].s===31&&S.srs[id].int===30',forward);ok('English failed-recall exception advances due date without changing memory state')
    E("S.set.f={cefr:'N5'};S.star={};S.sess={};S.srs={};S.introductions={};S.bury=null;save()")
@@ -119,7 +135,7 @@ def run(kind):
     go('settings');settle();E(AXE);bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
     if bad:violations[theme+':settings']=bad
     pg.keyboard.press('Escape')
-   (REPORTS/f'axe-{kind}.json').write_text(json.dumps(violations,ensure_ascii=False,indent=2)+'\n');assert not violations,json.dumps(violations,ensure_ascii=False)[:2500];ok('axe clean: all routes and card backs, light and dark')
+   (REPORTS/f'{PREFIX}axe-{kind}.json').write_text(json.dumps(violations,ensure_ascii=False,indent=2)+'\n');assert not violations,json.dumps(violations,ensure_ascii=False)[:2500];ok('axe clean: all routes and card backs, light and dark')
    go();E('navigator.serviceWorker.ready');pg.wait_for_function('!!navigator.serviceWorker.controller');saved=E('save().then(()=>JSON.stringify([S.srs,S.ev,S.pron]))')
    ctx.set_offline(True);pg.reload();pg.wait_for_selector('.v-home');assert E('words.length')>8000;assert E('JSON.stringify([S.srs,S.ev,S.pron])')==saved;go('kana');pg.wait_for_selector('.kana-grid');go('write?w='+word);pg.wait_for_selector('.stroke-path');ok('offline reload, all levels, kana and lazily cached strokes');ctx.set_offline(False)
    assert not errors,errors;ok('no page errors or console errors')
@@ -142,9 +158,9 @@ def run(kind):
     assert not fixture_errors,fixture_errors;ok(fixture+' preserves cards, notes and other applications');fc.close()
    return {'passed':len(checks),'failed':0,'checks':checks,'consoleErrors':errors,'axeViolations':violations}
   except Exception as e:
-   traceback.print_exc();pg.screenshot(path=str(REPORTS/f'failure-{kind}.png'),full_page=True);return {'passed':len(checks),'failed':1,'checks':checks,'error':str(e),'consoleErrors':errors,'axeViolations':violations}
+   traceback.print_exc();pg.screenshot(path=str(REPORTS/f'{PREFIX}failure-{kind}.png'),full_page=True);return {'passed':len(checks),'failed':1,'checks':checks,'error':str(e),'consoleErrors':errors,'axeViolations':violations}
   finally:browser.close()
 for kind in (['chromium','webkit'] if WHICH=='all' else [WHICH]):results[kind]=run(kind)
-(REPORTS/'e2e.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')
+(REPORTS/(PREFIX+'e2e.json')).write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:{'passed':v['passed'],'failed':v['failed']} for k,v in results.items()}),flush=True)
 sys.exit(1 if any(v['failed'] for v in results.values()) else 0)

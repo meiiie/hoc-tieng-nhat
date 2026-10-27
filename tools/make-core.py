@@ -30,6 +30,7 @@ R("const answerText=w=>w.w.replace(/\\s*\\(.*?\\)/g,'');","const answerText=LANG
 B('const norm=s=>','/* ---------- answer checking:',"const norm=LANG.norm,accepts=LANG.accepts;\n")
 R('function checkAns(input,targets){const h=norm(input);','function checkAns(input,targets){if(LANG.checkAns)return LANG.checkAns(input,targets);const h=norm(input);')
 R('const cloze=w=>Content.cloze(w);','const cloze=w=>LANG.cloze?LANG.cloze(w):Content.cloze(w);')
+R('<p class="muted" style="margin:0 0 4px">${esc(w.exvi)}</p>', '${LANG.clozeDetails?LANG.clozeDetails(w):esc(w.exvi)}')
 R('function backFace(w){return `','function backFace(w){if(LANG.backFace)return LANG.backFace(w);return `')
 R('function frontFace(w,dir){return `','function frontFace(w,dir){if(LANG.frontFace)return LANG.frontFace(w,dir);return `')
 B('function sheet(html,onClose){', "document.addEventListener('keydown',e=>{if(e.key=='Escape'", """function sheet(html,onClose){const sh=$('#sheet'),opener=document.activeElement,header=document.querySelector('header');

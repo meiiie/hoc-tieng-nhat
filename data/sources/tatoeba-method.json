@@ -1,0 +1,21 @@
+{
+  "license": "CC BY 2.0 FR",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+  "exportColumns": [
+    "id",
+    "lang",
+    "text",
+    "username",
+    "created",
+    "modified"
+  ],
+  "retrieved": "2026-10-27",
+  "selection": "one named sentence, 4–25 characters, punctuation-terminated; exact surface and UniDic token reading; no inflection matching or generated furigana",
+  "tokenizer": "fugashi 1.5.2 / unidic-lite 1.0.8 (UniDic 2.1.2)",
+  "sources": {
+    "jpn.tsv": "e2e9533c271107c65da6d0601c0f96186da0fe0027b49298e579467aaedc7e8a",
+    "vie.tsv": "d49f579c1fe71ace65291e004bf8d98545faa5ec0a1f8f4304a94fbdb15521c9",
+    "eng.tsv": "eca5d6fdfc04634a774a1d1d651fc7b0086b7f578c582a17b6769192b0ed41d7",
+    "links.csv": "1e7d8b07d1a3f41cbe3d7856ff5a4ae2fc7f0fc78df959f1a3e4b6c7d3a5e972"
+  }
+}

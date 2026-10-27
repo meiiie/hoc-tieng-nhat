@@ -1,5 +1,5 @@
 {
- "version": "1.0.0",
+ "version": "1.1.0",
  "sourceDate": "2026-10-26",
  "sourceHeadwords": 8138,
  "sourceRows": 8505,
@@ -21,35 +21,55 @@
    "vi": 684,
    "hanViet": 514,
    "pitch": 506,
-   "audio": 684
+   "audio": 684,
+   "examples": 648,
+   "exampleHumanDirect": 518,
+   "exampleHumanPivot": 44,
+   "exampleMachine": 86
   },
   "N4": {
    "words": 641,
    "vi": 641,
    "hanViet": 496,
    "pitch": 488,
-   "audio": 641
+   "audio": 641,
+   "examples": 611,
+   "exampleHumanDirect": 387,
+   "exampleHumanPivot": 70,
+   "exampleMachine": 154
   },
   "N3": {
    "words": 1768,
    "vi": 1768,
    "hanViet": 1546,
    "pitch": 1536,
-   "audio": 0
+   "audio": 0,
+   "examples": 0,
+   "exampleHumanDirect": 0,
+   "exampleHumanPivot": 0,
+   "exampleMachine": 0
   },
   "N2": {
    "words": 1826,
    "vi": 1826,
    "hanViet": 1508,
    "pitch": 1494,
-   "audio": 0
+   "audio": 0,
+   "examples": 0,
+   "exampleHumanDirect": 0,
+   "exampleHumanPivot": 0,
+   "exampleMachine": 0
   },
   "N1": {
    "words": 3425,
    "vi": 3425,
    "hanViet": 3152,
    "pitch": 3072,
-   "audio": 0
+   "audio": 0,
+   "examples": 0,
+   "exampleHumanDirect": 0,
+   "exampleHumanPivot": 0,
+   "exampleMachine": 0
   }
  },
  "sources": {

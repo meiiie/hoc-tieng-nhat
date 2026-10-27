@@ -1,10 +1,11 @@
 # Học Tiếng Nhật cùng Neko
 
-PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên bản **1.0.0**, ngày 27-10-2026. Chạy bằng các tệp tĩnh; không cần tài khoản, máy chủ ứng dụng hay khóa API.
+PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên bản **1.1.0**, ngày 27-10-2026. Chạy bằng các tệp tĩnh; không cần tài khoản, máy chủ ứng dụng hay khóa API.
 
 ## Học cùng Neko
 
 - 214 mục hiragana/katakana: âm cơ bản, âm đục, âm ghép, nghe, luyện nhớ và viết nét.
+- 1.259 từ N5/N4 có ví dụ Tatoeba ngắn và bản dịch có nhãn/ghi công; bước điền vào câu bật khi có ví dụ.
 - 8.344 mục từ N5–N1 có nghĩa Việt, kana, romaji, nghĩa Anh đối chiếu và liên kết JMdict. Furigana bật/tắt trên thanh đầu trang; romaji trong Cài đặt.
 - Ôn theo lịch FSRS-6, Thẻ ghi nhớ, Học, Từ khó, Ghép thẻ, Nghe – chép, Kiểm tra, Ôn toàn bộ, Danh sách từ và Thống kê.
 - Bắt đầu từ kana hoặc N5; mặc định 5 từ mới/ngày. Cấp tiếp theo mở khi 80% từ đã qua bước học ban đầu, hoặc chọn **Mở sớm**.
@@ -32,7 +33,7 @@ python3 -m http.server 8931
 # Mở http://localhost:8931/
 ```
 
-GitHub Pages: sau khi chủ repository tạo remote và đẩy mã, chọn **Deploy from a branch → main → / (root)**. Không có bước build bắt buộc. `.nojekyll`, manifest, URL tương đối và service worker đã hỗ trợ đường dẫn `/hoc-tieng-nhat/`. `sitemap.xml` đang dùng chủ sở hữu dự kiến `meiiie`; đổi URL nếu nơi triển khai khác. Chưa có remote, chưa push, chưa kiểm tra URL công khai trong phiên bàn giao này.
+GitHub Pages: sau khi chủ repository tạo remote và đẩy mã, chọn **Deploy from a branch → main → / (root)**. Không có bước build bắt buộc. `.nojekyll`, manifest, URL tương đối và service worker đã hỗ trợ đường dẫn `/hoc-tieng-nhat/`. `sitemap.xml` đang dùng chủ sở hữu dự kiến `meiiie`; đổi URL nếu nơi triển khai khác. Website: https://meiiie.github.io/hoc-tieng-nhat/. Remote `meiiie/hoc-tieng-nhat`, nhánh `main`; chỉ push sau khi các gate được thông qua.
 
 Trên iPhone, mở trang bằng Safari rồi chọn **Chia sẻ → Thêm vào Màn hình chính**. Hãy mở trực tuyến ít nhất một lần và xuất bản sao lưu định kỳ. Bản cập nhật hoàn chỉnh chờ nút **Tải lại**; nâng `V` trong `sw.js` và `version.json` khi phát hành tiếp theo. Khi thay nội dung dùng lại cùng URL của stroke/audio, nâng cache dữ liệu/âm thanh tương ứng.
 

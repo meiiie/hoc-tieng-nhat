@@ -1,3 +1,10 @@
+# 1.1.0 — 2026-10-27
+
+- 648 ví dụ N5 và 611 ví dụ N4 từ Tatoeba, ghi công từng câu; phân biệt Việt trực tiếp, qua Anh và dịch máy.
+- Bật bước điền vào câu cho từ có ví dụ khớp chính xác; không suy furigana câu hoặc thay ID/tiến độ.
+- Pipeline nguồn tái dựng, kiểm tra liên kết/tác giả, bộ kiểm tra chấp nhận URL triển khai và tiền tố report.
+- Cache shell htn-v1.1.0; bản PWA cũ chờ Tải lại sau khi tải đủ bản mới.
+
 # Thay đổi
 
 ## 1.0.0 — 2026-10-27

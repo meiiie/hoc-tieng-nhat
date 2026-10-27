@@ -11,3 +11,13 @@ test('kana inventory covers both scripts and each required group',()=>{for(const
 test('source files contain a translation for every delivered word',()=>{const lines=fs.readFileSync('data/sources/vi-glosses.tsv','utf8').trim().split('\n');assert.equal(lines.length,all.length+1);const ids=new Set(lines.slice(1).map(l=>l.split('\t')[0]));for(const w of all)assert.ok(ids.has(w.id))});
 
 test('every published romaji retains the reading and mora boundaries',()=>{const K=require('../ja-kana');for(const w of all)assert.equal(K.soundKey(w.romaji),K.soundKey(w.kana),`${w.id} ${w.kana} ${w.romaji}`)});
+test('Tatoeba examples have exact word blanks, short sentences and per-sentence attribution',()=>{
+ const check=s=>{assert.ok(Number.isInteger(s.id)&&s.id>0);assert.ok(s.username&&s.username!=='\\N');assert.equal(s.url,`https://tatoeba.org/sentences/show/${s.id}`);assert.equal(s.license,'CC BY 2.0 FR')};
+ for(const n of [5,4])assert.ok(all.filter(w=>w.level===n&&w.example).length>580);
+ for(const w of all){const e=w.example;if(!e)continue;check(e);assert.equal(e.lang,'jpn');assert.ok([...e.text].length<=25);assert.equal(e.furigana,null);
+  const m=e.match;assert.equal(m.kind,'exact');assert.ok([w.kanji,w.kana].includes(m.surface));assert.equal(e.text.slice(m.start,m.end),m.surface);
+  const t=e.translation;assert.ok(t.text.trim());assert.equal(t.lang,'vie');assert.equal(typeof t.machine,'boolean');assert.equal(typeof t.pivot,'boolean');
+  if(t.machine){assert.equal(t.pivot,false);check(t.from);assert.equal(t.from.lang,'eng');assert.deepEqual(t.links,[[e.id,t.from.id]])}
+  else{check(t);if(t.pivot){check(t.via);assert.equal(t.via.lang,'eng');assert.deepEqual(t.links,[[e.id,t.via.id],[t.via.id,t.id]])}else assert.deepEqual(t.links,[[e.id,t.id]])}
+ }
+});

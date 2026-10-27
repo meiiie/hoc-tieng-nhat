@@ -12,8 +12,12 @@ Audio: giọng tổng hợp Microsoft ja-JP-NanamiNeural; chưa được nghe du
 
 Mã chương trình: MIT. Biểu tượng Lucide: ISC. ts-fsrs: MIT. Linh vật Neko và mã nền từ các ứng dụng Neko của meiiie.
 
-Bản phát hành 1.0.0 (2026-10-27) có các thay đổi so với nguồn: sửa lỗi cặp chữ/cách đọc có ghi TSV, lựa chọn từ đồng âm có JMdict ID, ghép Hán Việt/cao độ, thêm romaji, dịch nghĩa Việt và tạo audio tổng hợp. 20 mảnh nguồn không đủ căn cứ được cách ly. Giữ nghĩa Anh để đối chiếu; không thêm ví dụ ngoài JMdict. Các nguồn không bảo đảm nội dung hoàn toàn đúng hoặc phù hợp với mọi mục đích học tập.
+Bản phát hành 1.0.0 (2026-10-27) có các thay đổi so với nguồn: sửa lỗi cặp chữ/cách đọc có ghi TSV, lựa chọn từ đồng âm có JMdict ID, ghép Hán Việt/cao độ, thêm romaji, dịch nghĩa Việt và tạo audio tổng hợp. 20 mảnh nguồn không đủ căn cứ được cách ly. Giữ nghĩa Anh để đối chiếu. Các nguồn không bảo đảm nội dung hoàn toàn đúng hoặc phù hợp với mọi mục đích học tập.
 
 Bộ từ và phần biên soạn phái sinh được phát hành theo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); không áp dụng MIT của mã cho dữ liệu. SVG KanjiVG giữ giấy phép riêng [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Bản đầy đủ: LICENSE-CC-BY-SA-4.0.txt, LICENSE-CC-BY-SA-3.0.txt. Audio được tạo qua dịch vụ Microsoft; không có model giọng Microsoft được phân phối trong dự án.
 
 Biểu tượng Lucide giữ thông báo ISC và ghi công các icon kế thừa Feather/MIT trong vendor/lucide.LICENSE. ts-fsrs giữ nguyên vendor/ts-fsrs.LICENSE.
+
+Câu ví dụ từ Tatoeba và người đóng góp, [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/). Mỗi câu Nhật, bản dịch Việt của người đóng góp và câu Anh trung gian giữ ID, username, URL và giấy phép trong `tatoeba-examples.json` và dữ liệu từng cấp; ghi công hiển thị ở từng câu trong ứng dụng. Câu gốc không sửa. Bản dịch Việt do Codex tạo từ câu Anh liên kết là phần phái sinh, ghi `machine:true`, cũng cung cấp theo CC BY 2.0 FR; nhãn “bản dịch máy, cần kiểm tra”. Bản dịch qua liên kết Anh ghi `pivot:true`, nhãn “dịch qua câu tiếng Anh”. Giấy phép Tatoeba này áp dụng riêng cho câu, không bị thay bởi MIT của mã hoặc CC BY-SA của từ điển. Không phân phối âm thanh Tatoeba. Phương pháp và dấu vết nguồn nằm trong sources/tatoeba-method.json.
+
+Biên soạn ví dụ dùng fugashi (MIT) và UniDic 2.1.2 qua unidic-lite (BSD cho dữ liệu từ điển); chúng chỉ chạy ngoài website, không có model/từ điển phân tích được phân phối trong bản này.

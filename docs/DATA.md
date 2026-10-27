@@ -1,4 +1,4 @@
-# Dữ liệu 1.0.0
+# Dữ liệu
 
 Đầu vào được cung cấp tại `../src`, chỉ đọc. Ngày từ điển 2026-10-26, jmdict-simplified `3.6.2+20261026175559`. SHA-256 từng JSON/text gốc nằm trong `data/meta.json`. Không nhập từ điển Nhật–Việt không rõ giấy phép.
 
@@ -44,14 +44,34 @@ Python chuẩn và Node (dùng cùng bộ chuyển kana/romaji với ứng dụn
 | `v`, `viMethod` | Nghĩa Việt ngắn và phương pháp cho từng mục |
 | `hv` | Ghép âm `vietnam` của từng kanji, viết thường; `/` phân cách biến thể, `·` phân cách chữ |
 | `pitch` | Danh sách số accent từ Kanjium, hoặc `null` khi thiếu |
-| `example` | Ví dụ gắn với mục JMdict khi có, nếu không `null` |
+| `example` | Câu Tatoeba, bản dịch, tác giả/ID/URL/giấy phép và vị trí khớp chính xác; thiếu thì `null` |
 | `audio` | Đường dẫn MP3 thực sự tồn tại, hoặc `null` |
 
 Hán Việt trình bày **theo từng chữ**, không tự chọn một cách đọc chuẩn cho cả từ; thí dụ 校 có nhiều âm trong KANJIDIC2. Từ thuần kana không tự suy diễn Hán Việt. `kanji.json` giữ toàn bộ âm on/kun, Hán Việt, cấp từ danh mục kanji (có thể `null` nếu chữ chỉ có trong từ vựng), số nét và đường dẫn SVG. Không suy cấp của chữ từ cấp của từ chứa nó.
 
 Cao độ ghép đúng dạng chữ + cách đọc, chỉ chuẩn hóa katakana/hiragana cho khóa cách đọc. Giữ nhiều biến thể; không đoán từ khi dữ liệu thiếu. **1.248 mục chưa có cao độ**. Số accent phải nằm trong số mora của từ; test xác minh toàn bộ.
 
-**Không có ví dụ trong các sense của JSON JMdict được cung cấp**, nên cả 8.344 trường `example` đều `null`. Không nhập câu chưa rõ tác giả hoặc tạo câu rồi gắn nhãn JMdict. Tệp nguồn có ví dụ ở một bản nâng cấp sau có thể cung cấp trường này, sau khi kiểm tra cấu trúc/ghi công.
+## Câu ví dụ Tatoeba
+
+<!-- example-counts:start -->
+| Cấp | Có ví dụ | Việt trực tiếp | Việt qua Anh (pivot) | Dịch máy |
+|---|---:|---:|---:|---:|
+| N5 | 648 | 518 | 44 | 86 |
+| N4 | 611 | 387 | 70 | 154 |
+| N3 | 0 | 0 | 0 | 0 |
+| N2 | 0 | 0 | 0 | 0 |
+| N1 | 0 | 0 | 0 | 0 |
+<!-- example-counts:end -->
+
+Mỗi từ được chọn tối đa một câu thật, dài 4–25 ký tự, có dấu kết câu và tác giả được nêu tên. Tệp chi tiết thực tế có sáu cột `id, lang, text, username, created, modified`, **không có cột giấy phép**; văn bản được tái sử dụng theo CC BY 2.0 FR của bản xuất Tatoeba. Bỏ câu không có chủ sở hữu. SHA-256 và phương pháp nằm trong `data/sources/tatoeba-method.json`; nguyên câu, tên người đóng góp và liên kết `https://tatoeba.org/sentences/show/<id>` giữ cho cả Nhật, Việt và Anh được dùng.
+
+Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu, chọn Việt nối qua một câu Anh và ghi `pivot:true`, nhãn **dịch qua câu tiếng Anh**. Nếu chỉ có câu Anh liên kết trực tiếp, Codex dịch sang Việt, đối chiếu câu Nhật và giữ `machine:true`, nhãn **bản dịch máy, cần kiểm tra**. Không gọi các bản dịch AI là bản dịch do người đóng góp Tatoeba viết. Cột Việt trực tiếp/pivot chỉ cho biết nguồn văn bản do người đóng góp đăng; chưa có biên tập viên bản ngữ kiểm định chúng hay xác minh cách tác giả tạo ra chúng.
+
+`match` ghi `start`, `end`, `surface`, `kind:exact`. Biên từ và cách đọc được kiểm tra bằng fugashi 1.5.2 + UniDic 2.1.2 (unidic-lite 1.0.8). Chỉ lấy dạng chữ hoặc kana nguyên vẹn, không ghép một phần kanji/từ đồng âm khác cách đọc. **Không dùng khớp thân biến cách** trong bản này; các câu chỉ chứa dạng đã chia có thể bị bỏ. Bộ phân tích vẫn có thể sai nghĩa/cách tách; không bảo đảm mọi ví dụ đúng sense JLPT. Không suy furigana từ bộ tách từ: `furigana:null`, hiển thị nguyên câu. Cloze che đúng đoạn khớp; chỉ bật khi có ví dụ hợp lệ.
+
+Đầu vào biên soạn bền vững: `tatoeba-examples.json`, `tatoeba-vi-machine.tsv`, `tatoeba-exclusions.json`. Tệp loại trừ ghi lý do cho câu/link lỗi phát hiện khi rà. `tools/build-data.py` luôn ghép overlay, giữ ID từ và tiến độ cũ. Tái chọn bằng `tools/tatoeba.py --levels 5 4` rồi `tools/apply-examples.py .cache/examples-5-4.json`; bước apply từ chối bản dịch máy còn trống. Dùng venv biên soạn `.cache/content-venv`, không phân phối bộ tách từ/từ điển trong website.
+
+`tests/tatoeba_provenance.py` đối chiếu tất cả câu/ID/tác giả với TSV gốc và mọi cạnh liên kết với links.csv. `tests/example_matching.py` kiểm tra khớp từ và các trường hợp âm/biên sai; Node kiểm tra thuộc tính ghi công, câu ngắn và vị trí từ; E2E kiểm tra nhãn, nguồn và bước cloze. Chưa có người bản ngữ rà toàn bộ câu/bản dịch. Không dùng `sentences_with_audio.csv`: phát âm câu vẫn dùng giọng thiết bị; không tải audio Tatoeba khi chưa kiểm tra giấy phép riêng từng bản ghi.
 
 ## Âm thanh
 

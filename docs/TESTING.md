@@ -66,3 +66,11 @@ Các vấn đề phát hiện đã sửa gồm tương phản nhãn thẻ tối,
 ## Chưa kiểm định
 
 Chưa có kiểm thử trên iPhone thật/VoiceOver, Safari cũ, Bluetooth, thu âm thật có nhãn, kiểm định từ vựng/bản dịch bởi người bản ngữ, nghe duyệt toàn bộ TTS, stress quota bộ nhớ hoặc đồng bộ nhiều tab cùng sửa một thẻ. Bulk download toàn bộ audio trong UI chưa được thao tác hết; từng tệp đã kiểm tra và cache playback đã được thử. Chưa deploy/push hoặc đo URL GitHub Pages công khai. F0 chỉ được kiểm tra bằng contour/PCM tổng hợp và đường thu micro giả; không có số accuracy trên người học. [PRONUNCIATION-JA](PRONUNCIATION-JA.md) mô tả đầy đủ.
+
+## Các gate sau 1.0.0 và URL triển khai
+
+Mỗi release chạy `npm test`, `python3 tests/e2e.py http://localhost:8931/ all`, `python3 tests/pwa.py`, `python3 tests/answer-boundaries.py`. E2E chạy cả Chromium/WebKit và axe; thêm kiểm tra ba loại bản dịch/ghi công và cloze không thay SRS. PWA suy phiên bản hiện hành từ sw.js, kiểm tra failed/successful update ở root và subpath.
+
+Các script e2e, pwa, answer-boundaries, screenshots, lighthouse nhận base URL qua đối số đầu. `REPORT_PREFIX=live-` đặt tên artifact riêng, ví dụ `REPORT_PREFIX=live- python3 tests/e2e.py https://meiiie.github.io/hoc-tieng-nhat/ all`. PWA khi có URL chỉ chạy manifest/scope/installability và offline tài nguyên thực; thử cập nhật lỗi/thành công cần HTTP server kiểm soát được nên chạy ở gate localhost, không giả lập sửa server Pages.
+
+Kiểm tra nguồn ví dụ: `.cache/content-venv/bin/python tests/example_matching.py` và `.cache/content-venv/bin/python tests/tatoeba_provenance.py`; venv cài `fugashi==1.5.2 unidic-lite==1.0.8`. Kết quả từng release lưu `reports/v<version>-*` ngoài repo. Các kết quả 1.0.0 phía trên là lịch sử, không phải kết quả URL công khai.
