@@ -69,8 +69,8 @@ test('machine sentence translations keep model attribution and honest per-senten
   for(const s of e.furigana){assert.ok(s.base);if(s.ruby){assert.match(s.base,/^[\p{Script=Han}々〆〇]+$/u);assert.match(s.ruby,/^[ぁ-ゖー]+$/)}}
   assert.deepEqual(e, Object.fromEntries(Object.entries(sources[w.id]).filter(([k])=>!['furiganaEvidence','furiganaSkipped'].includes(k))));
   for(const t of sources[w.id].furiganaEvidence){assert.equal(e.text.slice(t.start,t.end),t.surface);assert.ok(t.dictionaryReadings.includes(t.reading));assert.doesNotMatch(t.surface,/今日|一日|^人$/);if(t.source==='unidic-single-reading')assert.equal(t.dictionaryReadings.length,1);else assert.equal(t.source,'unidic-jmdict-target')}
-  const start=e.match.start,end=e.match.end;let offset=0,reading='',complete=true;
-  for(const s of e.furigana){const next=offset+s.base.length;if(offset>=start&&next<=end){reading+=s.ruby||hira(s.base);if(!s.ruby&&/\p{Script=Han}/u.test(s.base))complete=false}offset=next}
-  if(complete)assert.equal(reading,hira(e.match.kind==='lemma'?e.match.surfaceReading:e.match.kind==='phaseA-review'?e.match.surface:w.kana),w.id+' target reading');
+  const start=e.match.start,end=e.match.end;let offset=0,reading='',complete=true,covered=0;
+  for(const s of e.furigana){const next=offset+s.base.length;if(offset>=start&&next<=end){reading+=s.ruby||hira(s.base);covered+=s.base.length;if(!s.ruby&&/\p{Script=Han}/u.test(s.base))complete=false}else if(offset<end&&next>start)complete=false;offset=next}
+  if(complete){assert.equal(covered,end-start,w.id+' target coverage');assert.equal(reading,hira(e.match.kind==='lemma'?e.match.surfaceReading:e.match.kind==='phaseA-review'?e.match.surface:w.kana),w.id+' target reading');}
  }
 });

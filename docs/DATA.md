@@ -163,7 +163,7 @@ Các mức được phát hành lần lượt N5+N4+N3, N2 rồi N1. Chỉ trư�
 | N4 | 627 | 8 | 0 | 0 | 0 | 6 | 0 |
 | N3 | 1718 | 10 | 1 | 0 | 0 | 39 | 0 |
 | N2 | 1521 | 111 | 63 | 3 | 1 | 125 | 2 |
-| N1 | 2420 | 0 | 0 | 0 | 0 | 0 | 1005 |
+| N1 | 2420 | 234 | 254 | 9 | 6 | 502 | 0 |
 <!-- examples-v5-counts:end -->
 
 “Trước” là 6.935 câu Tatoeba đã có trước v5; số đếm là số từ/câu liên kết, không phải số chuỗi Nhật duy nhất. “Mới” giữ đúng nguồn của câu, kể cả câu có hiệu đính: Tatoeba (CC BY 2.0 FR), KFTT 1.0 (CC BY-SA 3.0), Wiktionary tiếng Nhật (CC BY-SA 4.0), KNBC (BSD ba khoản tiếng Nhật). Người đóng góp, ID, URL, giấy phép, lịch sử và tệp/dòng nguồn được giữ trong dữ liệu, hiển thị ở phần nguồn của thẻ. KFTT không có URL bản sửa Wikipedia cho từng dòng; giữ rõ giới hạn này. Các bản thông báo đầy đủ nằm ở `ex5/licences/`.

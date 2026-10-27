@@ -1,3 +1,9 @@
+# 1.12.2 — 2026-10-27
+
+- Bổ sung đủ 1.005 chỗ trống N1: 503 câu có giấy phép (234 Tatoeba, 254 KFTT, 9 Wiktionary, 6 KNBC) và 502 câu AI đã áp dụng review/tự kiểm tra đúng quy trình.
+- Hoàn tất v5: thêm 1.407 ví dụ (707 có giấy phép, 700 AI), tổng 8.342/8.344 từ có câu; còn 2 mục N2 bị bỏ sau lần viết lại duy nhất. Hồ sơ từng mục ở `ex5/final.json`.
+- Giữ nhãn/ghi công, ruby bảo thủ, dữ liệu tải trễ, toàn bộ ID/trường từ khác và schema 11. Cache `htn-v1.12.2`.
+
 # 1.12.1 — 2026-10-27
 
 - Bổ sung 303 ví dụ N2 đã áp dụng review: 178 câu có giấy phép (111 Tatoeba, 63 KFTT, 3 Wiktionary, 1 KNBC) và 125 câu AI. Giữ 2 mục chưa có câu sau khi bản viết lại không qua tự kiểm tra độ tự nhiên.
