@@ -113,7 +113,7 @@ Nút furigana hiện có điều khiển cả từ và câu. Các bộ đếm th
 | N1 | 781 | 1411 | 163 | 65 | 2482 | 342 |
 <!-- furigana-counts:end -->
 
-### Mở rộng N2/N1 và bản dịch máy (1.10.0)
+### Mở rộng N2/N1 và bản dịch máy (1.10.1)
 
 N2/N1 dùng cùng bộ chọn câu 4–25 ký tự, kiểm tra exact/lemma, ưu tiên Việt trực tiếp rồi Việt qua Anh, cùng ghi công Tatoeba/CC BY 2.0 FR và bộ lọc ruby. Quy trình: `tools/tatoeba.py --levels 2 1`, apply, annotate, build. `tatoeba-selection-2-1.json` ghi các từ có câu.
 

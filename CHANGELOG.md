@@ -4,7 +4,7 @@
 - Furigana câu chạy offline; trình duyệt chỉ nhận các đoạn ruby, bằng chứng từ điển giữ ở overlay nguồn để giảm dữ liệu tải lúc mở app.
 - Bản dịch máy mới có model/hash và cờ xem/sửa riêng từng ID; phần chưa đối chiếu được ghi rõ, tất cả giữ nhãn cần kiểm tra.
 - Loại khớp sai アイ (cây chàm) với từ mượn “eye” và マーク với tên người; giữ phân biệt lemma của UniDic và ghi ngoại lệ nguồn đã rà.
-- Kiểm tra N2/N1 trên hai engine và ảnh review ruby sáng/tối. Cache htn-v1.10.0 chờ Tải lại; ID/schema 11/tiến độ giữ nguyên.
+- Kiểm tra N2/N1 trên hai engine và ảnh review ruby sáng/tối. Cache htn-v1.10.1 chờ Tải lại; ID/schema 11/tiến độ giữ nguyên.
 
 # 1.10.0 — 2026-10-27
 
