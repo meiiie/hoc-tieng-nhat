@@ -8,10 +8,10 @@
 |---|---:|---:|---:|---:|---:|
 | N5 | 684 | 684 | 514 | 506 | 684 |
 | N4 | 641 | 641 | 496 | 488 | 641 |
-| N3 | 1.768 | 1.768 | 1.546 | 1.536 | 0 |
+| N3 | 1.768 | 1.768 | 1.546 | 1.536 | 1.768 |
 | N2 | 1.826 | 1.826 | 1.508 | 1.494 | 0 |
 | N1 | 3.425 | 3.425 | 3.152 | 3.072 | 0 |
-| Tổng | 8.344 | 8.344 | 7.216 | 7.096 | 1.325 |
+| Tổng | 8.344 | 8.344 | 7.216 | 7.096 | 3.093 |
 
 `data/kanji.json` có **2.535 kanji**, tất cả có âm Hán Việt trong KANJIDIC2 và SVG KanjiVG. `data/kana.json` có **214 mục**: mỗi bảng có 46 âm cơ bản, 25 âm đục/bán đục, 36 âm ghép. **2.683 SVG** là hợp của các chữ trong danh mục kanji JLPT, chữ xuất hiện trong từ vựng và kana dùng trong bảng; không sao chép toàn bộ KanjiVG hoặc các biến thể không dùng. SVG nguồn giữ nguyên byte.
 
@@ -75,11 +75,15 @@ Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu
 
 ## Âm thanh
 
-`tools/gen-audio.py` dùng `edge-tts`, giọng `ja-JP-NanamiNeural`, đầu vào là kana đã ghép. FFmpeg chuyển MP3 mono 24 kHz, 32 kbit/s. Đường dẫn `audio/n<level>/w/<id>.mp3`. Có thể chạy lại; chỉ tái tạo mục thiếu. Dừng sau ba lỗi liên tiếp và ghi thật vào `audio-generation.json`; pipeline chỉ gắn đường dẫn nếu tệp tồn tại.
+`tools/gen-audio.py` dùng cùng pipeline N5/N4: edge-tts 7.3.1, `ja-JP-NanamiNeural`, đầu vào kana, FFmpeg MP3 mono 24 kHz / 32 kbit/s. Đường dẫn `audio/n<level>/w/<id>.mp3`. Tệp chỉ được đưa vào vị trí phát hành sau khi giải mã thành công, sau đó `tools/build-data.py` gắn đường dẫn thực sự tồn tại. Không đổi ID từ hoặc schema tiến độ.
 
-Đã có đủ 684 N5 và 641 N4; tổng 10.463.644 byte MP3. Lần hoàn tất gần nhất dùng lại 1.309 tệp và tạo 16 tệp sau chỉnh danh mục, không có lỗi. Các timeout ở lần đầu được chạy lại; tệp của mục đã bỏ được loại khỏi bản phát hành. Toàn bộ 1.325 tệp được giải mã bằng FFmpeg không lỗi, nhưng **chưa nghe duyệt từng tệp**. Kana làm đầu vào giúp tránh đọc nhầm từ đồng tự, đồng thời giọng TTS có thể chọn cao độ khác Kanjium. Không dùng MP3 làm nhãn chuẩn để chấm phát âm.
+Có **3.093 MP3**, tổng **24.395.964 byte**. Bảng phía trên là số thực tế từng cấp. Mọi tệp của các cấp hoàn tất được kiểm tra lại bằng FFmpeg và ffprobe (`tests/audio_decode.py`): phải giải mã được, đúng mono/24 kHz/32 kbit/s, không thiếu/thừa ID. Chưa nghe duyệt từng tệp; giọng TTS có thể chọn accent khác từ điển. Không dùng MP3 làm nhãn chuẩn để chấm phát âm.
 
-N3–N1 chưa có MP3; ứng dụng gọi giọng `ja-JP` của thiết bị. Bộ từ/schema/UI hoạt động offline sau cài service worker; giọng thiết bị không được bảo đảm có sẵn hay offline. Nét và MP3 được cache khi truy cập; có nút tải âm thanh của bộ đang chọn trong Cài đặt.
+Chạy nền theo lô 100, bốn yêu cầu đồng thời, tiếp tục được từ tệp đã có: `python3 tools/gen-audio.py --levels n3 --chunk-size 100 --workers 4`. Mỗi lỗi được thử tối đa 5 lần, chờ 3/6/12/24 giây; dừng lấy việc mới sau 3 từ lỗi liên tiếp đã hết lượt thử. Có `--offset`/`--limit` để chạy một đoạn. Nhật ký riêng cho từng cấp tại `data/sources/audio-generation-n*.json`, giữ số thật, lỗi và retry; kết thúc thiếu không báo complete. `tests/audio_generation.py` kiểm tra retry/backoff, hết lượt và hủy.
+
+MP3 và nét chữ tải lười, không nằm trong SW shell. Cài đặt tải bộ đang chọn (chọn cấp ở trang chủ); từ chưa có MP3 dùng speechSynthesis ja-JP của thiết bị, khả năng offline tùy máy. [Git LFS không được Pages hỗ trợ](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage); dự án không dùng LFS.
+
+Giới hạn đã đối chiếu ngày 2026-10-27: [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) cho site tối đa 1 GB, băng thông mềm 100 GB/tháng; [GitHub files](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) chặn tệp trên 100 MiB. `tools/site-size.py` kiểm kê toàn bộ tệp Git phát hành, áp ngưỡng mỗi tệp dưới 100 MB nghiêm hơn và site dưới 1 GB; không tính .git/node_modules/.cache vào site. Kích thước đối tượng Git được báo riêng trong report. Không có số liệu băng thông sử dụng thực tế.
 
 ## Kiểm soát và giấy phép
 

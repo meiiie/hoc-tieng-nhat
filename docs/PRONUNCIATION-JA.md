@@ -8,7 +8,7 @@ Ghép Kanjium bằng dạng chữ + cách đọc; 7.096/8.344 mục có mẫu, 1
 
 Mora khác số chữ/âm tiết: âm ghép きゃ tính một; っ, ん và dấu kéo dài ー mỗi phần tính một; きょう có hai, がっこう và コーヒー có bốn. Các ô sáng lần lượt mỗi 500 ms chỉ là nhịp luyện do ứng dụng đặt, không phải tốc độ nói tự nhiên hoặc đo thời gian mora của người học. Furigana áp dụng ruby cho cả từ, không tự tách/đoán cách đọc của từng kanji.
 
-Giọng Nanami N5/N4 và giọng thiết bị đọc kana có thể chọn biến thể cao độ khác Kanjium. Đường tham khảo không được trích từ MP3 này, và MP3 không phải bản ghi người bản ngữ đã kiểm duyệt.
+Giọng Nanami và giọng thiết bị đọc kana có thể chọn biến thể cao độ khác Kanjium. Đường tham khảo không được trích từ MP3 này, và MP3 không phải bản ghi người bản ngữ đã kiểm duyệt.
 
 ## Thu âm trên thiết bị
 

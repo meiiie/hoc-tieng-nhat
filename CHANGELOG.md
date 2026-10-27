@@ -1,3 +1,10 @@
+# 1.3.0 — 2026-10-27
+
+- Đủ 1.768 MP3 N3 Nanami; tổng 3.093 MP3 N5–N3, giữ mono 24 kHz / 32 kbit/s.
+- Tạo theo lô có tiếp tục, retry/backoff và kiểm tra giải mã trước khi xuất tệp; không đưa audio vào SW shell.
+- Kiểm tra thao tác tải âm thanh từ Cài đặt ở từng cấp có MP3, cache và giữ tiến độ; axe thêm nguồn ví dụ mở rộng.
+- Công bố kiểm kê giới hạn GitHub Pages; cache htn-v1.3.0 chờ Tải lại.
+
 # 1.2.0 — 2026-10-27
 
 - Thêm 1.712 ví dụ N3: 992 Việt trực tiếp, 161 qua tiếng Anh, 559 dịch máy có nhãn; tổng 2.971 từ N5–N3 có câu.

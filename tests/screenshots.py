@@ -26,6 +26,7 @@ with sync_playwright() as p:
   page.evaluate("id=>{S.star={[id]:true};S.set.f={cefr:'N5',star:true};S.sess={};save()}",word)
   go('review');page.wait_for_selector('.fc');shot(f'{theme}-review-front.png')
   page.click('#show');page.wait_for_selector('.fc.flip');shot(f'{theme}-review-back.png')
+  page.locator('.face.b .ja-example-source summary').click();page.locator('.face.b .ja-example').scroll_into_view_if_needed();shot(f'{theme}-review-example.png')
   page.evaluate("S.set.f={cefr:'N5'};S.star={};save()")
   go('write?w='+word);page.wait_for_selector('.stroke-path');shot(f'{theme}-stroke-order.png')
   go('speak?w='+word);page.wait_for_selector('.pitch-svg');shot(f'{theme}-pitch-practice.png')

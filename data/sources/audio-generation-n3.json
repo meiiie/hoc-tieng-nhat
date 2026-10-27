@@ -1,0 +1,59 @@
+{
+  "voice": "ja-JP-NanamiNeural",
+  "input": "kana",
+  "sampleRate": 24000,
+  "channels": 1,
+  "bitrate": "32k",
+  "levels": [
+    "n3"
+  ],
+  "requested": 1768,
+  "offset": 0,
+  "generated": 1764,
+  "existing": 4,
+  "errors": [],
+  "retryEvents": [
+    {
+      "id": "j858cc9b8654b",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j6cb07fcea260",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jd3ffc6eab664",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j48a0a3b1d1d4",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jfb9e91d6616d",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "ja41440966471",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jcaf03d5882a6",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    }
+  ],
+  "chunkSize": 100,
+  "workers": 4,
+  "status": "complete",
+  "chunksCompleted": 18,
+  "available": 1768,
+  "totalLevelWords": 1768,
+  "seconds": 498.0
+}

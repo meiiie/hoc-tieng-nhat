@@ -12,12 +12,13 @@ ROOT=Path(__file__).resolve().parents[1];REPORTS=ROOT.parent/'reports';REPORTS.m
 AXE=(ROOT/'node_modules/axe-core/axe.min.js').read_text()
 results={}
 def run(kind):
- checks=[];errors=[];violations={}
+ checks=[];errors=[];violations={};audio_requests=[];audio_levels=[]
  with sync_playwright() as p:
   browser=getattr(p,kind).launch(args=['--use-fake-ui-for-media-stream','--use-fake-device-for-media-stream','--autoplay-policy=no-user-gesture-required'] if kind=='chromium' else [])
   ctx=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True,reduced_motion='reduce')
   if kind=='chromium':ctx.grant_permissions(['microphone'])
   pg=ctx.new_page();pg.on('pageerror',lambda e:errors.append(str(e)));pg.on('console',lambda m:errors.append(m.text) if m.type=='error' else None)
+  pg.on('request',lambda request:audio_requests.append(request.url) if '/audio/' in request.url else None)
   E=pg.evaluate
   def ok(name):checks.append(name);print(kind,'PASS',name,flush=True)
   def go(route=''):
@@ -28,7 +29,7 @@ def run(kind):
   def settle():
    E("Promise.all(document.getAnimations().filter(a=>a.effect?.getComputedTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{})))")
   try:
-   go();pg.wait_for_selector('[data-start="kana"]')
+   go();pg.wait_for_selector('[data-start="kana"]');E('navigator.serviceWorker.ready');assert not audio_requests,'audio must not be in the shell'
    for theme in ['light','dark']:
     E("theme=>{S.set.theme=theme;applyTheme()}",theme);E(AXE);bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
     if bad:violations[theme+':onboarding']=bad
@@ -70,6 +71,19 @@ def run(kind):
    for payload in ['{broken',json.dumps({'app':'hoc-tu-vung','data':exported['data']})]:
     pg.set_input_files('#impf',{'name':'invalid.json','mimeType':'application/json','buffer':payload.encode()});pg.wait_for_timeout(150);assert E('JSON.stringify(S.srs)')==safe
    pg.keyboard.press('Escape');pg.reload();pg.wait_for_selector('.v-home');assert E('JSON.stringify(S.srs)')==safe;ok('JSON export/import, pre-import snapshot and rejected malformed or other-app backups')
+   # Exercise Settings against a real, filtered one-word set at every available MP3 level.
+   audio_snap=E('JSON.stringify(S.srs)')
+   for level in [5,4,3,2,1]:
+    sample=E("n=>words.find(w=>w.level===n&&w.audio)||null",level)
+    if not sample:continue
+    E("async w=>{S.jaUnlocked[w.level]=true;S.star={[w.id]:true};S.set.f={cefr:'N'+w.level,star:true};FC=null;await (await caches.open('htn-audio-v1')).delete(w.audio);await save()}",sample)
+    go('settings');pg.wait_for_selector('#dl');pg.click('#dl')
+    pg.wait_for_function("document.querySelector('#dlst').textContent==='Đã lưu 1/1 tệp âm thanh'&&!document.querySelector('#dl').disabled")
+    assert E("async url=>!!(await (await caches.open('htn-audio-v1')).match(url))",sample['audio'])
+    pg.keyboard.press('Escape');audio_levels.append(level)
+   assert E('JSON.stringify(S.srs)')==audio_snap
+   E("S.star={};S.set.f={cefr:'N5'};FC=null;save()")
+   ok('audio stays lazy; Settings downloads/cache preserve progress at every available level')
    # Isolate practice from the scheduled fixture; the English failure-forward exception is tested below.
    E("S.srs={};S.sess={};S.introductions={};S.studyDay=null;S.bury=null;FC=null;save()")
    snapshot=E('JSON.stringify(S.srs)')
@@ -132,6 +146,8 @@ def run(kind):
      if route=='review':
       pg.click('#show');settle();bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
       if bad:violations[theme+':review-back']=bad
+      pg.locator('.face.b .ja-example-source summary').click();settle();bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
+      if bad:violations[theme+':example-attribution']=bad
     go('settings');settle();E(AXE);bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
     if bad:violations[theme+':settings']=bad
     pg.keyboard.press('Escape')
@@ -156,9 +172,9 @@ def run(kind):
     elif fixture=='corrupt':assert fp.evaluate("Object.keys(localStorage).some(k=>k.startsWith('htn-core-corrupt-'))")
     elif fixture=='migration':assert fp.evaluate("!!localStorage.getItem('htn-core-pre-v7')")
     assert not fixture_errors,fixture_errors;ok(fixture+' preserves cards, notes and other applications');fc.close()
-   return {'passed':len(checks),'failed':0,'checks':checks,'consoleErrors':errors,'axeViolations':violations}
+   return {'baseUrl':BASE,'version':E("fetch('version.json').then(r=>r.json()).then(v=>v.version)"),'audioLevelsTested':audio_levels,'passed':len(checks),'failed':0,'checks':checks,'consoleErrors':errors,'axeViolations':violations}
   except Exception as e:
-   traceback.print_exc();pg.screenshot(path=str(REPORTS/f'{PREFIX}failure-{kind}.png'),full_page=True);return {'passed':len(checks),'failed':1,'checks':checks,'error':str(e),'consoleErrors':errors,'axeViolations':violations}
+   traceback.print_exc();pg.screenshot(path=str(REPORTS/f'{PREFIX}failure-{kind}.png'),full_page=True);return {'baseUrl':BASE,'audioLevelsTested':audio_levels,'passed':len(checks),'failed':1,'checks':checks,'error':str(e),'consoleErrors':errors,'axeViolations':violations}
   finally:browser.close()
 for kind in (['chromium','webkit'] if WHICH=='all' else [WHICH]):results[kind]=run(kind)
 (REPORTS/(PREFIX+'e2e.json')).write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')
