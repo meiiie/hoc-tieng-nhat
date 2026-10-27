@@ -15,6 +15,12 @@ class MatchTest(unittest.TestCase):
    self.assertIsNone(match_word(word,text),(word,text))
  def test_homophone(self):
   self.assertIsNone(match_word({'kanji':'今日','kana':'こんにち'},'今日は暑い。'))
+ def test_katakana_native_word_is_not_an_english_loanword(self):
+  # UniDic explicitly identifies アイ-eye; JMdict 1549400 is 藍 (indigo).
+  self.assertIsNone(match_word({'kanji':'アイ','kana':'アイ','pos':'danh từ','jmdict':'1549400'},'彼女はアイシャドーをつけている。'))
+  # Ateji kanji spellings are often absent from UniDic; valid loanwords survive.
+  for form,ident,text in [('カレー','1039140','カレーを食べる。'),('ゼロ','2839962','点数はゼロだ。'),('アフリカ','1929050','アフリカで生まれた。'),('マッチ','1128430','彼はマッチをすった。')]:
+   self.assertIsNotNone(match_word({'kanji':form,'kana':form,'pos':'danh từ','jmdict':ident},text))
  def test_inflections_hide_the_entire_surface(self):
   for form,reading,pos,text,surface in [
    ('食べる','たべる','động từ','昨日食べました。','食べました'),

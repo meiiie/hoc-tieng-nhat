@@ -4,10 +4,12 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
 from tatoeba import ROOT,sentences,match_word
 src=ROOT.parent/'src/tatoeba';words=[w for n in range(5,0,-1) for w in json.loads((ROOT/f'data/n{n}.json').read_text())]
+excluded=json.loads((ROOT/'data/sources/tatoeba-exclusions.json').read_text())
 needed={};edges=set();count=0
 for w in words:
  e=w['example']
  if not e:continue
+ assert str(e['id']) not in excluded,(w['id'],'excluded sentence',e['id'])
  count+=1;assert match_word(w,e['text'])==e['match'],w['id']
  t=e['translation'];refs=[e]+([t['from']] if t['machine'] else [t]+([t['via']] if t['pivot'] else []))
  for r in refs:needed[(r['lang'],r['id'])]=r

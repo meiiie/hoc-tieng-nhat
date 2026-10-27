@@ -22,5 +22,6 @@
   "235585": "Japanese says twenty houses burned down, Vietnamese says within twenty minutes",
   "9550240": "Reduplicated 込み込み is not a clear conjugated example of standalone 込む; prefer an unambiguous verb context.",
   "116169": "Japanese has the malformed time expression １５年間前; choose a sentence without a known source typo.",
-  "1219164": "Linked Vietnamese says ngay (now) instead of あらかじめ (in advance), losing the target meaning."
+  "1219164": "Linked Vietnamese says ngay (now) instead of あらかじめ (in advance), losing the target meaning.",
+  "2732667": "Mark is a personal name here, not an example of the common noun マーク (mark/sign); UniDic chooses the common-noun homograph, so retain this explicit review exclusion."
 }

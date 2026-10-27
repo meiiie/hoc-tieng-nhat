@@ -21152,5 +21152,15 @@
     "reason": "previous example fails lexical/POS guard"
    }
   ]
- }
+ },
+ "postSelectionRejected": [
+  {
+   "word": "jf6065ea00eef",
+   "sentence": 116169,
+   "reason": "Known source typo １５年間前; enforce existing exclusion 116169 in the final published overlay.",
+   "translationType": "direct",
+   "rubyAnnotated": 2,
+   "rubySkipped": 4
+  }
+ ]
 }

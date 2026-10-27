@@ -312,5 +312,35 @@
     },
     "machineSampleSelection": "Initial 84 source-order candidates, seeded samples 20261101 and 20261102 from completed batches, a 45-row and 50-row batch review, and targeted polysemy/format checks. The manifest counts only IDs actually imported.",
     "unreviewedImportedMachineSentences": 2199
+  },
+  "finalPrePushReview": {
+    "rejected": [
+      {
+        "word": "jced6da73a7f7",
+        "sentence": 93476,
+        "reason": "UniDic アイ-eye is a different lexical node from JMdict 藍 (indigo).",
+        "translationType": "machine",
+        "rubyAnnotated": 1,
+        "rubySkipped": 0
+      },
+      {
+        "word": "j7b6396fe1c52",
+        "sentence": 2732667,
+        "reason": "The sentence uses the personal name Mark, not the common noun mark/sign; explicit source exclusion 2732667.",
+        "translationType": "direct",
+        "rubyAnnotated": 2,
+        "rubySkipped": 1
+      },
+      {
+        "word": "jf6065ea00eef",
+        "sentence": 116169,
+        "reason": "Known source typo １５年間前; enforce existing exclusion 116169 in the final published overlay.",
+        "translationType": "direct",
+        "rubyAnnotated": 2,
+        "rubySkipped": 4
+      }
+    ],
+    "guard": "Preserve UniDic English suffix versus a full-surface node for the JMdict kanji lexeme; validated positive loanword fixtures. Mark is recorded as an explicit source exclusion because UniDic did not distinguish the name in this context.",
+    "scope": "Three known false lexical/sense/source matches removed; not a whole-corpus bilingual audit."
   }
 }

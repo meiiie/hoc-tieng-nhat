@@ -6,20 +6,13 @@
  "counts": {
   "retained": 0,
   "replaced": 0,
-  "filled": 3943,
+  "filled": 3941,
   "removed": 0
  },
  "changes": {
   "retained": [],
   "replaced": [],
   "filled": [
-   {
-    "word": "jced6da73a7f7",
-    "before": null,
-    "after": 93476,
-    "match": "exact",
-    "reason": "filled"
-   },
    {
     "word": "ja52977369d34",
     "before": null,
@@ -25781,13 +25774,6 @@
     "reason": "filled"
    },
    {
-    "word": "j7b6396fe1c52",
-    "before": null,
-    "after": 2732667,
-    "match": "exact",
-    "reason": "filled"
-   },
-   {
     "word": "ja019589f8618",
     "before": null,
     "after": 1278528,
@@ -27616,5 +27602,23 @@
    }
   ],
   "removed": []
- }
+ },
+ "postSelectionRejected": [
+  {
+   "word": "jced6da73a7f7",
+   "sentence": 93476,
+   "reason": "UniDic アイ-eye is a different lexical node from JMdict 藍 (indigo).",
+   "translationType": "machine",
+   "rubyAnnotated": 1,
+   "rubySkipped": 0
+  },
+  {
+   "word": "j7b6396fe1c52",
+   "sentence": 2732667,
+   "reason": "The sentence uses the personal name Mark, not the common noun mark/sign; explicit source exclusion 2732667.",
+   "translationType": "direct",
+   "rubyAnnotated": 2,
+   "rubySkipped": 1
+  }
+ ]
 }

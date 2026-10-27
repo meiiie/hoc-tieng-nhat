@@ -70,9 +70,9 @@ Tái trích: `.cache/content-venv/bin/python tools/pitch_sources.py --download` 
 |---|---|---|---|---|
 | N5 | 649 | 541 | 37 | 71 |
 | N4 | 627 | 450 | 59 | 118 |
-| N3 | 1719 | 1045 | 169 | 505 |
-| N2 | 1522 | 294 | 134 | 1094 |
-| N1 | 2421 | 633 | 195 | 1593 |
+| N3 | 1718 | 1044 | 169 | 505 |
+| N2 | 1521 | 294 | 134 | 1093 |
+| N1 | 2420 | 632 | 195 | 1593 |
 <!-- example-counts:end -->
 
 Mỗi từ được chọn tối đa một câu thật, dài 4–25 ký tự, có dấu kết câu và tác giả được nêu tên. Tệp chi tiết thực tế có sáu cột `id, lang, text, username, created, modified`, **không có cột giấy phép**; văn bản được tái sử dụng theo CC BY 2.0 FR của bản xuất Tatoeba. Bỏ câu không có chủ sở hữu. SHA-256 và phương pháp nằm trong `data/sources/tatoeba-method.json`; nguyên câu, tên người đóng góp và liên kết `https://tatoeba.org/sentences/show/<id>` giữ cho cả Nhật, Việt và Anh được dùng.
@@ -83,11 +83,13 @@ Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu
 
 Đầu vào biên soạn bền vững: `tatoeba-examples.json`, `tatoeba-vi-machine.tsv`, `tatoeba-exclusions.json`. Tệp loại trừ ghi lý do cho câu/link lỗi phát hiện khi rà. `tools/build-data.py` luôn ghép overlay, giữ ID từ và tiến độ cũ. Tái chọn bằng `tools/tatoeba.py --levels 5 4` rồi `tools/apply-examples.py .cache/examples-5-4.json`; bước apply từ chối bản dịch máy còn trống. Dùng venv biên soạn `.cache/content-venv`, không phân phối bộ tách từ/từ điển trong website.
 
-`tests/tatoeba_provenance.py` đối chiếu tất cả câu/ID/tác giả với TSV gốc và mọi cạnh liên kết với links.csv. `tests/example_matching.py` kiểm tra khớp từ và các trường hợp âm/biên sai; Node kiểm tra thuộc tính ghi công, câu ngắn và vị trí từ; E2E kiểm tra nhãn, nguồn và bước cloze. Nhật ký tự rà: `data/sources/tatoeba-review.json`. Codex đã dịch/đối chiếu các trường hợp máy, xem mẫu 35 bản dịch của người đóng góp N5/N4 và 60 N3; lỗi phát hiện được loại bằng danh sách có lý do. Không suy ra tỷ lệ chính xác; chưa có người bản ngữ rà toàn bộ câu/bản dịch. Không dùng `sentences_with_audio.csv`: phát âm câu vẫn dùng giọng thiết bị; không tải audio Tatoeba khi chưa kiểm tra giấy phép riêng từng bản ghi.
+`tests/tatoeba_provenance.py` đối chiếu tất cả câu/ID/tác giả với TSV gốc và mọi cạnh liên kết với links.csv. `tests/example_matching.py` kiểm tra khớp từ và các trường hợp âm/biên sai; Node kiểm tra thuộc tính ghi công, câu ngắn và vị trí từ; E2E kiểm tra nhãn, nguồn và bước cloze. Nhật ký tự rà: `data/sources/tatoeba-review.json`. Ở đợt ví dụ lịch sử 1.0–1.7, Codex đã dịch/đối chiếu các trường hợp máy, xem mẫu 35 bản dịch của người đóng góp N5/N4 và 60 N3; lỗi phát hiện được loại bằng danh sách có lý do. Không suy ra tỷ lệ chính xác; chưa có người bản ngữ rà toàn bộ câu/bản dịch. Không dùng `sentences_with_audio.csv`: phát âm câu vẫn dùng giọng thiết bị; không tải audio Tatoeba khi chưa kiểm tra giấy phép riêng từng bản ghi.
 
 ### Ghép dạng biến cách (1.9.0)
 
 `tools/example_lemmas.py` dùng UniDic `lemma`, `orthBase`, `kanaBase`, POS và dạng chữ JMdict đúng ràng buộc cách đọc. Không chấp nhận chỉ vì đồng âm. Nếu UniDic gộp lemma của hai cách viết (như 閉める/締める), kanji xuất hiện vẫn phải thuộc từ đích. Cách đọc kana thay cho kanji cũng phải chỉ đúng lexeme; chuỗi trợ từ như と + お không được khớp 十/とお. Cách đọc mơ hồ, từ không phân tích chắc hoặc sai POS bị bỏ.
+
+Từ viết kana cũng giữ phân biệt lemma từ mượn khi từ điển có nút nguyên token cho kanji của từ đích: アイ-eye không được khớp 藍/アイ (cây chàm). Đây không phải kiểm định sense toàn bộ câu. Trường hợp tên người マーク mà UniDic vẫn chọn danh từ thường được loại bằng ngoại lệ nguồn có lý do. Provenance từ chối mọi ID câu đã có trong danh sách loại, gồm lỗi nguồn １５年間前; các mục loại sau lựa chọn được ghi ở `postSelectionRejected`.
 
 Vị trí cloze bao gồm dạng thực và trợ động từ liên tiếp: 食べました → 食べる, 高かった → 高い, 勉強しませんでした → 勉強する; bao gồm ない ở dạng phủ định. `match` lưu `lemma`, `dictionaryForm`, `targetReading`, `surfaceReading`, `pos`, `lexicalEnd`. Bước điền câu nhận dạng thực bằng kanji/kana/romaji, không nhận dạng từ điển thay cho phần biến cách; phản hồi hiện đúng phần đã che. Lịch SRS không đổi.
 
@@ -106,9 +108,9 @@ Nút furigana hiện có điều khiển cả từ và câu. Các bộ đếm th
 |---|---|---|---|---|---|---|
 | N5 | 222 | 322 | 77 | 28 | 632 | 99 |
 | N4 | 210 | 347 | 48 | 22 | 604 | 132 |
-| N3 | 515 | 1081 | 90 | 33 | 1969 | 165 |
-| N2 | 479 | 895 | 93 | 55 | 1543 | 320 |
-| N1 | 781 | 1412 | 163 | 65 | 2483 | 342 |
+| N3 | 515 | 1080 | 90 | 33 | 1965 | 165 |
+| N2 | 478 | 895 | 93 | 55 | 1543 | 320 |
+| N1 | 781 | 1411 | 163 | 65 | 2482 | 342 |
 <!-- furigana-counts:end -->
 
 ### Mở rộng N2/N1 và bản dịch máy (1.10.0)

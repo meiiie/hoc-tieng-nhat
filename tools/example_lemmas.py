@@ -3,7 +3,7 @@ import json
 import re
 from functools import lru_cache
 from pathlib import Path
-from japanese_morphology import analyze, hira, HAN
+from japanese_morphology import analyze, hira, tagger, HAN
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -141,6 +141,21 @@ def exact_lexeme_ok(word, selected):
     surface = ''.join(t['surface'] for t in selected)
     if re.search(HAN, surface):
         return True
+    # UniDic distinguishes loanword homographs with an English lemma suffix.
+    # If the same surface has a dictionary node explicitly identifying the
+    # target's kanji lexeme, a different loanword node is not that target:
+    # アイ-eye is not 藍. Do not infer this from uncommon ateji spellings;
+    # many valid loanwords' ateji are absent or split in UniDic.
+    if not re.search(HAN, word['kanji']) and len(selected) == 1:
+        lemma = selected[0].get('lemma', '')
+        if re.search(r'-[A-Za-z]', lemma):
+            forms = allowed(word)
+            if any(not node.is_unk and node.surface == surface
+                   and node.feature.orth == surface
+                   and re.search(HAN, node.feature.lemma)
+                   and node.feature.lemma in forms
+                   for node in tagger(True).parseToNodeList(surface)):
+                return False
     if re.search(HAN, word['kanji']):
         forms = allowed(word)
         lemmas = lexical_form(''.join(t.get('lemma', '').split('-', 1)[0] for t in selected))

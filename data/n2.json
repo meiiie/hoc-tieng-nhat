@@ -15,73 +15,7 @@
   "pitch": [
    1
   ],
-  "example": {
-   "id": 93476,
-   "lang": "jpn",
-   "text": "彼女はアイシャドーをつけている。",
-   "username": "bunbuku",
-   "license": "CC BY 2.0 FR",
-   "url": "https://tatoeba.org/sentences/show/93476",
-   "furigana": [
-    {
-     "base": "彼女",
-     "ruby": "かのじょ"
-    },
-    {
-     "base": "は"
-    },
-    {
-     "base": "アイ"
-    },
-    {
-     "base": "シャドー"
-    },
-    {
-     "base": "を"
-    },
-    {
-     "base": "つけ"
-    },
-    {
-     "base": "て"
-    },
-    {
-     "base": "いる"
-    },
-    {
-     "base": "。"
-    }
-   ],
-   "translation": {
-    "text": "Cô ấy đang đeo bóng mắt.",
-    "lang": "vie",
-    "machine": true,
-    "pivot": false,
-    "from": {
-     "id": 310232,
-     "lang": "eng",
-     "text": "She's wearing eye shadow.",
-     "username": "CK",
-     "license": "CC BY 2.0 FR",
-     "url": "https://tatoeba.org/sentences/show/310232"
-    },
-    "links": [
-     [
-      93476,
-      310232
-     ]
-    ],
-    "method": "Local machine translation of linked English; not individually reviewed against Japanese; not native-speaker verified",
-    "license": "CC BY 2.0 FR",
-    "translator": "Helsinki-NLP/opus-mt-en-vi (AI)"
-   },
-   "match": {
-    "start": 3,
-    "end": 5,
-    "surface": "アイ",
-    "kind": "exact"
-   }
-  },
+  "example": null,
   "jmdict": "1549400",
   "match": "exact",
   "sourceForm": [
