@@ -1,3 +1,11 @@
+# 1.10.0 — 2026-10-27
+
+- Luyện nói chấm từng mora ngay trên máy: mô hình âm vị tiếng Nhật japanese-hubert-base-phoneme-ctc-v4 (Apache-2.0, ONNX 4-bit, 63 MB, chỉ tải khi người học bấm "Tải mô hình", lưu offline). Phát hiện sai âm, bỏ trường âm, bỏ っ, bỏ ん; chấp nhận nguyên âm vô thanh. Giao diện điểm, chip từng mora, gợi ý, so sánh giọng mẫu và giọng mình giống app tiếng Anh.
+- Cao độ đo trong đúng khoảng thời gian của từng mora rồi so với mẫu từ điển, vẫn ghi là ước lượng và không cộng vào điểm.
+- "Chỉ đo cao độ" giữ đường cũ cho máy không muốn tải mô hình.
+- Đo trên giọng Nanami: đọc đúng từ trung vị 100 (96% đạt ≥ 70), đọc sai từ trung vị 0, bỏ trường âm/っ/ん phần lớn dưới 70. Chưa đo với giọng người học thật.
+- Cache htn-v1.10.0 chờ Tải lại; schema không đổi.
+
 # 1.9.0 — 2026-10-27
 
 - Chọn câu bằng lemma/POS, dạng chữ và cách đọc JMdict; hỗ trợ động từ, tính từ, する và phủ định. Sửa ghép kana nhầm từ đồng âm/trợ từ; giữ câu cũ trừ khi sai khớp hoặc có câu người đóng góp tốt hơn/ngắn hơn.

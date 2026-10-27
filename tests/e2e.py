@@ -140,6 +140,7 @@ def run(kind):
    assert 'Đã viết xong' in pg.text_content('#stroke-status');assert E('JSON.stringify(S.srs)')=='{}';ok('touch tracing completes strokes and preserves SRS')
    go('speak?w='+word);pg.wait_for_selector('.pitch-svg');assert 'mora' in pg.text_content('main');pg.click('#mora-play');pg.wait_for_selector('.mora-row .beat');ok('pitch pattern and timed mora practice')
    if kind=='chromium':
+    pg.wait_for_selector('#sarea[data-state="offer"]');assert '63 MB' in pg.text_content('#sarea');assert not any('huggingface' in u for u in audio_requests);pg.click('#pitch-only');assert E('S.set.jaAsr')=='pitch';ok('model download is offered, never automatic; pitch-only fallback works')
     pg.click('#mic');pg.wait_for_selector('[data-state="rec"]');pg.wait_for_function("['result','error'].includes(document.querySelector('#sarea').dataset.state)",timeout=18000);assert 'ước lượng' in pg.text_content('#sarea') or 'Chưa nhận' in pg.text_content('#sarea');assert pg.locator('.score').count()==0;ok('fake microphone capture, honest estimate or abstention')
    E("window.savedMedia=navigator.mediaDevices;Object.defineProperty(navigator,'mediaDevices',{value:undefined,configurable:true});route()")
    assert 'Micro chưa khả dụng' in pg.text_content('#sarea');assert pg.locator('#mic').count()==0;assert pg.locator('#mora-play').is_enabled()
