@@ -1,0 +1,62 @@
+Input hashes verified: 82
+Coverage, senses, target evidence and ruby verified: 1409
+Sentence provenance and existing human Vietnamese verified: 725
+{
+  "scope": "Phase A only; structural/provenance checks passed; native-language review not performed",
+  "baseline_commit": "cceba8b696feb5dce1fb7caa233653aa05775b48",
+  "outside_ex5_unchanged": true,
+  "total": 1409,
+  "licensed": 725,
+  "authored": 684,
+  "by_level": {
+    "5": {
+      "licensed": 7,
+      "authored": 28
+    },
+    "4": {
+      "licensed": 8,
+      "authored": 6
+    },
+    "3": {
+      "licensed": 12,
+      "authored": 38
+    },
+    "2": {
+      "licensed": 186,
+      "authored": 119
+    },
+    "1": {
+      "licensed": 512,
+      "authored": 493
+    }
+  },
+  "sources": {
+    "Tatoeba": 373,
+    "KFTT 1.0": 332,
+    "Japanese Wiktionary": 12,
+    "KNBC 1.0 (2009-09-25)": 8
+  },
+  "existing_human_vi": 27,
+  "licensed_machine_vi": 698,
+  "optional_machine_vi_refinements": 5,
+  "authored_machine_vi": 684,
+  "native_reviewed": 0,
+  "analysis": {
+    "strict-matcher-confirmed": 1132,
+    "alternative-Unidic-lexeme-confirmed": 217,
+    "same-default-lemma-requested-reading-unconfirmed": 47,
+    "manual-JMdict-review-only": 13
+  },
+  "all_targets_machine_confirmed": false,
+  "ruby_sentences": 1349,
+  "ruby_spans": 4014,
+  "max_authored_characters": 21,
+  "max_licensed_characters": 35,
+  "licensed_over_25": 207,
+  "tatoeba_length_only": 65,
+  "distinct_japanese": 1392,
+  "candidate_sha256": {
+    "licensed-candidates.json": "4d02e6bd9087b1b35315ea3311c5ac22652d06983153c28267f1e84ea2c691a7",
+    "authored.json": "fd5f87346e4f4b8d143368e2adc4ae6d2a6022118e9553cf05a3930a7dafb4be"
+  }
+}

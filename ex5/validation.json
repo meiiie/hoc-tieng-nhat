@@ -1,0 +1,121 @@
+{
+  "scope": "Phase A only; structural/provenance checks passed; native-language review not performed",
+  "baseline_commit": "cceba8b696feb5dce1fb7caa233653aa05775b48",
+  "outside_ex5_unchanged": true,
+  "total": 1409,
+  "licensed": 725,
+  "authored": 684,
+  "by_level": {
+    "5": {
+      "licensed": 7,
+      "authored": 28
+    },
+    "4": {
+      "licensed": 8,
+      "authored": 6
+    },
+    "3": {
+      "licensed": 12,
+      "authored": 38
+    },
+    "2": {
+      "licensed": 186,
+      "authored": 119
+    },
+    "1": {
+      "licensed": 512,
+      "authored": 493
+    }
+  },
+  "sources": {
+    "Tatoeba": 373,
+    "KFTT 1.0": 332,
+    "Japanese Wiktionary": 12,
+    "KNBC 1.0 (2009-09-25)": 8
+  },
+  "existing_human_vi": 27,
+  "licensed_machine_vi": 698,
+  "optional_machine_vi_refinements": 5,
+  "authored_machine_vi": 684,
+  "native_reviewed": 0,
+  "analysis": {
+    "strict-matcher-confirmed": 1132,
+    "alternative-Unidic-lexeme-confirmed": 217,
+    "same-default-lemma-requested-reading-unconfirmed": 47,
+    "manual-JMdict-review-only": 13
+  },
+  "all_targets_machine_confirmed": false,
+  "targets_without_machine_confirmation": [
+    "j17e24f9a6fd2",
+    "j802b86712508",
+    "j14a907ae5e2c",
+    "ja32b11e42842",
+    "j925841cdfb47",
+    "jf303d8ce6b20",
+    "j05a86c982ca6",
+    "jee22cf67c5a1",
+    "j2ca58e79ff98",
+    "j3a318cc61aa9",
+    "j422971ce6bda",
+    "jb78f63e72515",
+    "jc71f0e34843a",
+    "jd06a9bb83e9a",
+    "j6095d3365d5a",
+    "j709fea6c1ea8",
+    "j8e31cd002849",
+    "j409a1bfe247f",
+    "j98cc63ab09b5",
+    "jcf0bfabb6cd8",
+    "jb035ece31bd6",
+    "j2909d40a26b6",
+    "j365d998df8ca",
+    "j9215cdd47829",
+    "jc9120b886dd2",
+    "jbec5bea88ce2",
+    "j6b6325fdd7a4",
+    "jb2b524cc32a5",
+    "j2dc314bf0542",
+    "j2f2ff229b850",
+    "jf35f9eba6813",
+    "j43a753ee4220",
+    "j855a4be25408",
+    "j69114bd44743",
+    "j082d0947f6eb",
+    "jc2485156bf30",
+    "j490aa827cf2d",
+    "j1b7d6662c03a",
+    "j662775107b19",
+    "j25f4aa93ecf6",
+    "j10a6ac8ff635",
+    "j3fee78bfe423",
+    "j9b468d68264d",
+    "jded7b1c2f04d",
+    "j93b6841c6ec1",
+    "jb15d1a07983c",
+    "jb3fbe3565d56",
+    "jc326198dcf1c",
+    "je1716cdfe74d",
+    "j1cf171dbc617",
+    "j64ad3ee9ad88",
+    "j774ea0878d10",
+    "j3cd8319de548",
+    "j108510dcb41d",
+    "j864732ce944b",
+    "jc9f96db73354",
+    "j959a582750b3",
+    "j6ec4d1caa895",
+    "j77e75432f84a",
+    "jbba2ef0085dd"
+  ],
+  "ruby_sentences": 1349,
+  "ruby_spans": 4014,
+  "max_authored_characters": 21,
+  "max_licensed_characters": 35,
+  "licensed_over_25": 207,
+  "tatoeba_length_only": 65,
+  "distinct_japanese": 1392,
+  "candidate_sha256": {
+    "licensed-candidates.json": "4d02e6bd9087b1b35315ea3311c5ac22652d06983153c28267f1e84ea2c691a7",
+    "authored.json": "fd5f87346e4f4b8d143368e2adc4ae6d2a6022118e9553cf05a3930a7dafb4be"
+  }
+}

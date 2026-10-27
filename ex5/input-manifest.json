@@ -1,0 +1,572 @@
+{
+  "checked_on": "2026-10-27",
+  "baseline_commit": "cceba8b696feb5dce1fb7caa233653aa05775b48",
+  "dictionary_binary_sha256": "122c4c91f026bf4b65bbe2dfd8b9f8eeb6ab56d8eb2a7287a68bca75708ba513",
+  "files": [
+    {
+      "path": "../src/tatoeba/jpn.tsv",
+      "bytes": 24076616,
+      "sha256": "e2e9533c271107c65da6d0601c0f96186da0fe0027b49298e579467aaedc7e8a",
+      "role": "supplied detailed Tatoeba export",
+      "url": "https://tatoeba.org/en/downloads"
+    },
+    {
+      "path": "../src/tatoeba/vie.tsv",
+      "bytes": 3744678,
+      "sha256": "d49f579c1fe71ace65291e004bf8d98545faa5ec0a1f8f4304a94fbdb15521c9",
+      "role": "supplied detailed Tatoeba export",
+      "url": "https://tatoeba.org/en/downloads"
+    },
+    {
+      "path": "../src/tatoeba/eng.tsv",
+      "bytes": 198860502,
+      "sha256": "eca5d6fdfc04634a774a1d1d651fc7b0086b7f578c582a17b6769192b0ed41d7",
+      "role": "supplied detailed Tatoeba export",
+      "url": "https://tatoeba.org/en/downloads"
+    },
+    {
+      "path": "../src/tatoeba/links.csv",
+      "bytes": 458005936,
+      "sha256": "1e7d8b07d1a3f41cbe3d7856ff5a4ae2fc7f0fc78df959f1a3e4b6c7d3a5e972",
+      "role": "supplied detailed Tatoeba export",
+      "url": "https://tatoeba.org/en/downloads"
+    },
+    {
+      "path": "../src/jmdict-eng-3.6.2.json",
+      "bytes": 118055090,
+      "sha256": "592987229d5da43aa9d10565b4dd4944e08b206f159e3ff1af67cac91f896605",
+      "role": "selected senses: jmdict-simplified 3.6.2, dictionary date 2026-10-26",
+      "url": "https://github.com/scriptin/jmdict-simplified"
+    },
+    {
+      "path": ".cache/ex5/JMdict_e_examp.gz",
+      "bytes": 13085516,
+      "sha256": "b1c7b7acf61970757dde6e494bd57255fbe3460c7c8ba2872b7ec918d96c6cea",
+      "role": "downloaded corpus archive",
+      "url": "https://www.edrdg.org/pub/Nihongo/JMdict_e_examp.gz"
+    },
+    {
+      "path": ".cache/ex5/kftt-data-1.0.tar.gz",
+      "bytes": 99246893,
+      "sha256": "fcfcaa670d6d59aa691b0e909c0d7c393852dd2fb1d6310fda9b3282dc6d1638",
+      "role": "downloaded corpus archive",
+      "url": "https://www.phontron.com/kftt/download/kftt-data-1.0.tar.gz"
+    },
+    {
+      "path": ".cache/ex5/KNBC_v1.0_090925.tar.bz2",
+      "bytes": 4418998,
+      "sha256": "eae5f629335f0a8f5651653429c3a491d9d9c221b2bbfa3b3289028c9a146747",
+      "role": "downloaded corpus archive",
+      "url": "https://nlp.ist.i.kyoto-u.ac.jp/kuntt/KNBC_v1.0_090925.tar.bz2"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0000.json",
+      "bytes": 60962,
+      "sha256": "8e3190abc45f38c8e6aed7a2edc0429e5cc71a9261248ee7929af165316a1c89",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0040.json",
+      "bytes": 34780,
+      "sha256": "85f5d64868a8dcee08394364e4ef8013c9076c3a6945815f2aabe0d254e34f85",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0080.json",
+      "bytes": 56155,
+      "sha256": "947309cde82aabbce84915b9fb625729c46bed0b4a8c54ebf2fc7fd6679193f6",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0120.json",
+      "bytes": 37641,
+      "sha256": "bcdc315e6a19160bf08fef056bed1db41b9c817e435e6885e35484607882c466",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0160.json",
+      "bytes": 50641,
+      "sha256": "1db4fe1d0d987a999d6e9e6a5c133f29c9791cd565b73ef54551c00b070b2e51",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0200.json",
+      "bytes": 72505,
+      "sha256": "14dc0819d908975b707ccfbb5752f32fcdda92f86837994938301c18392fbaa7",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0240.json",
+      "bytes": 125824,
+      "sha256": "5a213c67ac96a6b6bc3a16e0d5fd51ec40c7ef74fb206e801170745b46d1d00a",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0280.json",
+      "bytes": 72518,
+      "sha256": "ee30a298cb06562e7f78cb85c6a2bedf15bd1878af792be9b76e63d7d4a74bb4",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0320.json",
+      "bytes": 50543,
+      "sha256": "53f212fd3359d81ca30c88a706d70684ca2d5e1398bef63b1e8b529e9cd8eb6f",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0360.json",
+      "bytes": 42474,
+      "sha256": "18cb3c14be31fdad669f2d04ac99b1883e495552371d050b72d72ecdb8563a5c",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0400.json",
+      "bytes": 50309,
+      "sha256": "10852c515da2f2e7612c91f1f40b6200827b687b9f72ed447bd6ddb01c89d705",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0440.json",
+      "bytes": 65757,
+      "sha256": "124da5cb9a423c796951447f0275ec0e7d3b8b16181a65dca0a21a24dd739dbe",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0480.json",
+      "bytes": 58072,
+      "sha256": "6f3494357472dba938a5845eb2d55deddd762054e91a16a6bca4bb24ebed466a",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0520.json",
+      "bytes": 30294,
+      "sha256": "4bd662436cf534c8a7b72b8cb6fbb97dc9d595ce0d8fd69590c83d12c4919795",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0560.json",
+      "bytes": 33688,
+      "sha256": "50777af624f5de565933181beb44c9467e72a76f0b03963a8a98347b931a3fa8",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0600.json",
+      "bytes": 94596,
+      "sha256": "8c386ff5b1537d6e515b5b3d241c887420964eed52fbf6c5838b0089273d0be4",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0640.json",
+      "bytes": 59116,
+      "sha256": "88e149ac42b1553864bde1fae32f601211e8208548a02213764ba47f7285041f",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0680.json",
+      "bytes": 44269,
+      "sha256": "7071b578a0f188059518e35644f1e1bb9d98a03804cdd754de58b32208d9c2fd",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0720.json",
+      "bytes": 97304,
+      "sha256": "ec303ff3e36f502d76052fd6641504ec8779185bedc7702b4d88768d533090f7",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0760.json",
+      "bytes": 23557,
+      "sha256": "c38d5efec88e4b8be673cb907ae5d648079726df05191b6e3caf1f97a7744821",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0800.json",
+      "bytes": 50867,
+      "sha256": "f4e53d269b29fbab10f59f1f9eb837f553aa2e8de97abdc0bb193ad2fdae7573",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0840.json",
+      "bytes": 43332,
+      "sha256": "5f00d3d3f72f1a0eacfaef8fcd54ea67314eaa41768ac041fb058934621aa986",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0880.json",
+      "bytes": 30255,
+      "sha256": "01ca96c8b544935dfa6b71f1043a0fbbe0329b44593307bb235392cba78d4309",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0920.json",
+      "bytes": 56158,
+      "sha256": "290f9a392907c8150d6b5690c7f63d2c240588b454284795ef101fb2ce967830",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/0960.json",
+      "bytes": 52666,
+      "sha256": "1d4738e78a99c2b8ea6585252b7362cf15c7341b941159f77115bd7431825b81",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1000.json",
+      "bytes": 94802,
+      "sha256": "faf6955311be7f8c056c91112caaa93cebd6696578ba0ed213a7159c36a38467",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1040.json",
+      "bytes": 32709,
+      "sha256": "7f11bdbb7a51c7763f7ee81ea0f88e7efca8f374e561cbc2aff2d61c6e603a2e",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1080.json",
+      "bytes": 47301,
+      "sha256": "514f4845bb9541b93c3ff33c2229a6e0552f500eca0bd8d58b3807fe050475e4",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1120.json",
+      "bytes": 55148,
+      "sha256": "f0a1a062eef4374f483af15fff12e4102b58fd89965854bf4b3c759b10046410",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1160.json",
+      "bytes": 37042,
+      "sha256": "348aabb8b38ca345b4975e7bafb992fd25ec764a8acf06eff28bd258e3c05bce",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1200.json",
+      "bytes": 49167,
+      "sha256": "92936b5c1ca2ee065d3c9b6cc41788e1e24ed795aea069ba84b7a618ebc1fcb7",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1240.json",
+      "bytes": 30360,
+      "sha256": "fecfaaf77b4e05392bbf5d347aa90567a022915b74e63803601d7a4813728ed3",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1280.json",
+      "bytes": 25132,
+      "sha256": "22948b1c91b9ba424c611572cca05c9be848fe7a3121af6705621915ef38e272",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1320.json",
+      "bytes": 50267,
+      "sha256": "531f4d50695a5a93be153579b7cf7d6678567b68e9952bd573013be7948ca3c3",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1360.json",
+      "bytes": 85337,
+      "sha256": "7df27d39a8859516dad2305f29acb77e7741e46a0eabc495f22fd24eac497b82",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1400.json",
+      "bytes": 65384,
+      "sha256": "974e634bfc25eea8901a7ab640aeed0e5b416b538b7bcdddce6c533c0bd880b0",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1440.json",
+      "bytes": 50596,
+      "sha256": "cf2c0cfce02c1e1dc42afdc75c9938921503fdb87134dfb75ace83e244160393",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1480.json",
+      "bytes": 55820,
+      "sha256": "522ffcb2f8f2859bf40bb676e65c0d029fa02aa815f0e9ea23b30992034b53f2",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1520.json",
+      "bytes": 52466,
+      "sha256": "63f54aef4a9eb50c9df5110527e10737e5389b1c96bd64ee662c37364da87408",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1560.json",
+      "bytes": 47052,
+      "sha256": "c7ff27ce5f769da2f3fe335adb95888857ec7c196dda1b18dbefc6b331b59d80",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1600.json",
+      "bytes": 53703,
+      "sha256": "4d5009ef06082afca499fcf4cdbe391a3ace29e6abd17977a812536d6f685131",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1640.json",
+      "bytes": 53815,
+      "sha256": "d014b45e80c90f4c637cd9a943694d89831fe0a066aa85cdd96540ac5e0d3374",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1680.json",
+      "bytes": 55272,
+      "sha256": "1fbc2450688809ff7e01bd1b928647d265af375acf3757385d63329079939003",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1720.json",
+      "bytes": 52204,
+      "sha256": "559b566ab21744614d074344e6d1b99ec80e6d778db866598d279daa3b86b76b",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1760.json",
+      "bytes": 62773,
+      "sha256": "989c40941b7b4c66ed0bfdf240fea2e4f5e06c1568c1c41baaa0f92309d8b4bb",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1800.json",
+      "bytes": 37734,
+      "sha256": "b2af1cb004afb63999545b0a5b7314abe3ff10d9ff256e724d809671b9784e19",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1840.json",
+      "bytes": 37830,
+      "sha256": "be6fbb0bd2b1d9b22242ebb21fc60568d8e855a5dcc3b47979280873a91e4ed5",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1880.json",
+      "bytes": 28131,
+      "sha256": "46d019953e00b486bfd41a8369ff023999467ed995c7d88b8dbc365671071284",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1920.json",
+      "bytes": 43775,
+      "sha256": "5855dfc614f2ef5c9c8bc6c04267395af3212e959403620e707ea83e1379c782",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/1960.json",
+      "bytes": 60476,
+      "sha256": "fddc2cc3d5ac0facf4d5733aa2f5ee7f50fc838be1bc78357880d5a3a8dfb08b",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2000.json",
+      "bytes": 61452,
+      "sha256": "fd92375cca362199f31ac982cdc19492b69ceb20b8215e2b07652dd2c8ad2b42",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2040.json",
+      "bytes": 54878,
+      "sha256": "6a8275ccc5d995a68cd8e90b0d92fda53718e08940d79f08f329520499f755bb",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2080.json",
+      "bytes": 42138,
+      "sha256": "3ae391e62f04fafd1f1b6d5ae3d5246a476d115b36a8cd87db968b7996ca412d",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2120.json",
+      "bytes": 65152,
+      "sha256": "3a99d4ba1b6c4785116fa0fcd44ee1b2d5f850fe4a2c62e32a22bd500844ed61",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2160.json",
+      "bytes": 78139,
+      "sha256": "6f4156e2353c8ca8cd21d4b108f200ce65a2684b8d27442df677427b7615e7e9",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2200.json",
+      "bytes": 31339,
+      "sha256": "2bcd9d328f111ab2e94859fc4dad1cff52d9131a4ad35c727eaa4ad97a8e6652",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2240.json",
+      "bytes": 69682,
+      "sha256": "aad5a3137c379ab811e4b6b5abe3de1cec770fc223bc9ae1a3f5743029667410",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2280.json",
+      "bytes": 44815,
+      "sha256": "80c60c5eecbabf9de675bf1647803a5e8e4d4a4307a3eeee441c2d206725809f",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2320.json",
+      "bytes": 43335,
+      "sha256": "96198c3a87d5e7bc9372bf4f4161f5e43a2cf8aed3505e98d1155ad8fb45d94a",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2360.json",
+      "bytes": 41951,
+      "sha256": "75e935849f1ccb1942bd3245b0b819057423164879daa812817fa50dda63a3d0",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2400.json",
+      "bytes": 54091,
+      "sha256": "91b580afd385c93097038929d75283174373420bf0e5706b3dcf0a8aa742244d",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2440.json",
+      "bytes": 40533,
+      "sha256": "264f4dc96c644c50e8ae4f9fa6c62e4e366836e18a01fc4bf71c49e6c5be270e",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2480.json",
+      "bytes": 54155,
+      "sha256": "c984715b2c59dcd9b16b8bacb22d1649a3ec4db3adcda436c025d94f4c48c851",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2520.json",
+      "bytes": 96210,
+      "sha256": "47809d2a5f957d556d5c623fb3e1879eea8038a7a1a3b6b77849e1fde5e66ace",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/wiktionary/2560.json",
+      "bytes": 27861,
+      "sha256": "e87859653ea43ea57a9a9a25bb7cb991e42aecfa9c129354a58f9400b0dc4e2c",
+      "role": "fixed Wiktionary revisions returned by API",
+      "url": "https://ja.wiktionary.org/w/api.php"
+    },
+    {
+      "path": ".cache/ex5/review-pool.json",
+      "bytes": 3557308,
+      "sha256": "ef39109887b88702c391ebb820aa7e77e27b377ff1f8d5b4a429100a4442accf",
+      "role": "local reproducibility input"
+    },
+    {
+      "path": ".cache/ex5/jmdict-examples.json",
+      "bytes": 395086,
+      "sha256": "0132f047404af9fbc33c18a33e8faddde6203e75258bd9dffe8ea192de09456b",
+      "role": "local reproducibility input"
+    },
+    {
+      "path": ".cache/ex5/mining-counts.json",
+      "bytes": 289,
+      "sha256": "2cde77582d9175461dbb6b532958f2f61ae4d19f49ff688e5829386e565f6b64",
+      "role": "local reproducibility input"
+    },
+    {
+      "path": ".cache/ex5/extra-counts.json",
+      "bytes": 310,
+      "sha256": "694c202820289e0008daba8090711d0c64be74b6509a66686ad53252fa3dcdc8",
+      "role": "local reproducibility input"
+    },
+    {
+      "path": "tools/tatoeba.py",
+      "bytes": 7856,
+      "sha256": "f4fb353628a1ebf2d1731196d0f818c1c9f277a7e3e8088f1f4f65dde8010cdd",
+      "role": "unchanged existing analyzer"
+    },
+    {
+      "path": "tools/example_lemmas.py",
+      "bytes": 8661,
+      "sha256": "d4cd7bbed8b285b383a49862f9b6536a5c68663bf603b345f44d2931468cf6c8",
+      "role": "unchanged existing analyzer"
+    },
+    {
+      "path": "tools/japanese_morphology.py",
+      "bytes": 6162,
+      "sha256": "2cc0b6791c6cd73aedf594cc84375265e8a6c6fd04cf7bda2bbd7b62a8fd13c1",
+      "role": "unchanged existing analyzer"
+    },
+    {
+      "path": "data/sources/tatoeba-exclusions.json",
+      "bytes": 2272,
+      "sha256": "1d63f9b8585909eca5ef88b0d39b8932d77b5df945658417d26990b898661ee9",
+      "role": "unchanged baseline example data"
+    },
+    {
+      "path": "data/sources/tatoeba-examples.json",
+      "bytes": 11735156,
+      "sha256": "e593440e7c064a1cd1d2441b2b83f4c67f0cd6ecafa33040fe62397fd81cb41d",
+      "role": "unchanged baseline example data"
+    }
+  ]
+}

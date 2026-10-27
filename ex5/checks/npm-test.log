@@ -1,0 +1,398 @@
+
+> hoc-tieng-nhat@1.11.0 test
+> node tests/srs.test.js && node tests/learning-plan.test.js && node --test tests/examples.test.js tests/lang-ja.test.js tests/data.test.js tests/pitch.test.js tests/storage.test.js tests/phone.test.js tests/performance.test.js
+
+ok sm2 new Again -> 1m
+ok sm2 new Hard -> 5.5m (avg of 1m,10m)
+ok sm2 new Good -> 10m step
+ok sm2 graduate Good -> 1d, Easy -> 4d
+ok sm2 Hard on step 2 repeats 10m
+ok sm2 review Good = 25, Hard = 12 (ease -15%), Easy = 33 (ease +15%)
+ok sm2 overdue 4d: good=(10+2)*2.5=30
+ok sm2 lapse -> relearn 10m, ease -20%, then 1d
+ok sm2 ease floor 1.3; hard >= ivl+1
+ok leech at 8th lapse suspends, re-alert at 12
+ok fuzz ranges match Anki
+ok load balancer prefers empty day, avoids sibling day
+ok migrate SM-2 records losslessly
+ok SM-2 -> FSRS memory state: R(ivl)=0.9
+ok labels
+ok day boundary 4am
+ok fsrs matches ts-fsrs for 33333
+ok fsrs matches ts-fsrs for 1333133
+ok fsrs matches ts-fsrs for 444
+ok fsrs matches ts-fsrs for 232333
+ok fsrs matches ts-fsrs for 33311334
+ok fsrs retention 0.8 gives longer intervals than 0.95
+ok fsrs from migrated SM-2 review card works
+23 tests passed
+TAP version 13
+# Subtest: fresh words have one direction, capped by unique words
+ok 1 - fresh words have one direction, capped by unique words
+  ---
+  duration_ms: 2.133439
+  ...
+# Subtest: changing selection cannot reset the daily word quota
+ok 2 - changing selection cannot reset the daily word quota
+  ---
+  duration_ms: 0.242778
+  ...
+# Subtest: reverse direction is a separate bounded workload, never another word
+ok 3 - reverse direction is a separate bounded workload, never another word
+  ---
+  duration_ms: 0.160176
+  ...
+# Subtest: siblings are excluded even when in learning state
+ok 4 - siblings are excluded even when in learning state
+  ---
+  duration_ms: 0.155444
+  ...
+# Subtest: due reviews outside selected lesson remain eligible and precede new words
+ok 5 - due reviews outside selected lesson remain eligible and precede new words
+  ---
+  duration_ms: 0.4275
+  ...
+# Subtest: zero new-word goal still allows due review, but no new directions
+ok 6 - zero new-word goal still allows due review, but no new directions
+  ---
+  duration_ms: 0.175094
+  ...
+# Subtest: changing settings invalidates an ineligible resumed new card
+ok 7 - changing settings invalidates an ineligible resumed new card
+  ---
+  duration_ms: 0.132284
+  ...
+# Subtest: a resumed card does not jump over a due learning card
+ok 8 - a resumed card does not jump over a due learning card
+  ---
+  duration_ms: 0.153511
+  ...
+# Subtest: same study day survives midnight; exactly the next 04:00 resets usage
+ok 9 - same study day survives midnight; exactly the next 04:00 resets usage
+  ---
+  duration_ms: 0.235052
+  ...
+# Subtest: a skipped day never accumulates quota
+ok 10 - a skipped day never accumulates quota
+  ---
+  duration_ms: 0.198556
+  ...
+# Subtest: manual word restart does not erase first introduction and consumes direction budget
+ok 11 - manual word restart does not erase first introduction and consumes direction budget
+  ---
+  duration_ms: 0.130976
+  ...
+# Subtest: suspended words do not unexpectedly introduce their sibling
+ok 12 - suspended words do not unexpectedly introduce their sibling
+  ---
+  duration_ms: 0.120798
+  ...
+# Subtest: new-word order follows supplied recommendations rather than packaging
+ok 13 - new-word order follows supplied recommendations rather than packaging
+  ---
+  duration_ms: 0.106057
+  ...
+# Subtest: learner choices can promote any word without completing a level
+ok 14 - learner choices can promote any word without completing a level
+  ---
+  duration_ms: 0.261685
+  ...
+# Subtest: v10 removes lesson scope while retaining progress, quota, preferences and other sessions
+ok 15 - v10 removes lesson scope while retaining progress, quota, preferences and other sessions
+  ---
+  duration_ms: 0.467153
+  ...
+# Subtest: migration preserves cards and notes; removes obsolete scope; recovers first introductions
+ok 16 - migration preserves cards and notes; removes obsolete scope; recovers first introductions
+  ---
+  duration_ms: 0.558942
+  ...
+# Subtest: migration keeps zero and explicit numeric pace; rejects NaN and unlimited
+ok 17 - migration keeps zero and explicit numeric pace; rejects NaN and unlimited
+  ---
+  duration_ms: 0.149751
+  ...
+# Subtest: day groups grow automatically, never exceed 25, and preserve earlier membership
+ok 18 - day groups grow automatically, never exceed 25, and preserve earlier membership
+  ---
+  duration_ms: 168.349736
+  ...
+# Subtest: Japanese release ids retain exact coverage through the shared deterministic grouping
+ok 19 - Japanese release ids retain exact coverage through the shared deterministic grouping
+  ---
+  duration_ms: 1230.024792
+  ...
+# Subtest: choosing another group allows more new words today without resetting the previous group
+ok 20 - choosing another group allows more new words today without resetting the previous group
+  ---
+  duration_ms: 0.547086
+  ...
+# Subtest: new reverse cards stay in selected group; due siblings from other groups remain eligible
+ok 21 - new reverse cards stay in selected group; due siblings from other groups remain eligible
+  ---
+  duration_ms: 0.181523
+  ...
+# Subtest: scoped usage counts directions and is independent of a narrower practice filter
+ok 22 - scoped usage counts directions and is independent of a narrower practice filter
+  ---
+  duration_ms: 0.215966
+  ...
+# Subtest: v11 restores old day and automatic pace while retaining actual study history
+ok 23 - v11 restores old day and automatic pace while retaining actual study history
+  ---
+  duration_ms: 0.434446
+  ...
+# Subtest: introduction updates are idempotent and undo snapshot restores quota
+ok 24 - introduction updates are idempotent and undo snapshot restores quota
+  ---
+  duration_ms: 0.13402
+  ...
+# Subtest: new directions have their own daily cap, even after enabling two-way review
+ok 25 - new directions have their own daily cap, even after enabling two-way review
+  ---
+  duration_ms: 0.229726
+  ...
+# Subtest: burying a whole word hides fresh, review and learning directions
+ok 26 - burying a whole word hides fresh, review and learning directions
+  ---
+  duration_ms: 0.099736
+  ...
+1..26
+# tests 26
+# suites 0
+# pass 26
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1439.018083
+TAP version 13
+# Subtest: all levels have substantial complete data
+ok 1 - all levels have substantial complete data
+  ---
+  duration_ms: 13.605318
+  ...
+# Subtest: word ids are globally unique and readings are kana
+ok 2 - word ids are globally unique and readings are kana
+  ---
+  duration_ms: 3.410268
+  ...
+# Subtest: Vietnamese has no empty text, obvious untranslated English or emoji
+ok 3 - Vietnamese has no empty text, obvious untranslated English or emoji
+  ---
+  duration_ms: 109.062677
+  ...
+# Subtest: all N5 kanji have real KanjiVG stroke files
+ok 4 - all N5 kanji have real KanjiVG stroke files
+  ---
+  duration_ms: 3.388066
+  ...
+# Subtest: Han Viet matches KANJIDIC2 Vietnam readings wherever supplied
+ok 5 - Han Viet matches KANJIDIC2 Vietnam readings wherever supplied
+  ---
+  duration_ms: 335.223085
+  ...
+# Subtest: pitch indices are bounded by mora count; audio paths correspond to files
+ok 6 - pitch indices are bounded by mora count; audio paths correspond to files
+  ---
+  duration_ms: 119.949129
+  ...
+# Subtest: kana inventory covers both scripts and each required group
+ok 7 - kana inventory covers both scripts and each required group
+  ---
+  duration_ms: 0.486879
+  ...
+# Subtest: source files contain a translation for every delivered word
+ok 8 - source files contain a translation for every delivered word
+  ---
+  duration_ms: 9.197881
+  ...
+# Subtest: every published romaji retains the reading and mora boundaries
+ok 9 - every published romaji retains the reading and mora boundaries
+  ---
+  duration_ms: 61.656986
+  ...
+# Subtest: Tatoeba examples have exact word blanks, short sentences and per-sentence attribution
+ok 10 - Tatoeba examples have exact word blanks, short sentences and per-sentence attribution
+  ---
+  duration_ms: 27.591273
+  ...
+# Subtest: added pitch values retain explicit licensed lexical evidence and source labels
+ok 11 - added pitch values retain explicit licensed lexical evidence and source labels
+  ---
+  duration_ms: 18.49074
+  ...
+# Subtest: machine sentence translations keep model attribution and honest per-sentence review flags
+ok 12 - machine sentence translations keep model attribution and honest per-sentence review flags
+  ---
+  duration_ms: 7.251257
+  ...
+# Subtest: sentence ruby preserves every base character, excludes kana and retains lexical evidence
+ok 13 - sentence ruby preserves every base character, excludes kana and retains lexical evidence
+  ---
+  duration_ms: 193.015233
+  ...
+# Subtest: cloze removes only the matched surface and retains the rest of the sentence
+ok 14 - cloze removes only the matched surface and retains the rest of the sentence
+  ---
+  duration_ms: 2.105727
+  ...
+# Subtest: example output labels pivot and machine translations and escapes text/attribution
+ok 15 - example output labels pivot and machine translations and escapes text/attribution
+  ---
+  duration_ms: 0.53585
+  ...
+# Subtest: sentence ruby respects the toggle, escapes bases and falls back on invalid segments
+ok 16 - sentence ruby respects the toggle, escapes bases and falls back on invalid segments
+  ---
+  duration_ms: 0.571177
+  ...
+# Subtest: inflected cloze hides the actual span including polite and negative endings
+ok 17 - inflected cloze hides the actual span including polite and negative endings
+  ---
+  duration_ms: 0.274872
+  ...
+# Subtest: romaji: Hepburn and wapuro, gemination and moraic n
+ok 18 - romaji: Hepburn and wapuro, gemination and moraic n
+  ---
+  duration_ms: 1.95999
+  ...
+# Subtest: long vowels: macrons, repeated vowels and katakana mark
+ok 19 - long vowels: macrons, repeated vowels and katakana mark
+  ---
+  duration_ms: 0.679321
+  ...
+# Subtest: answers accept kana, romaji variants, kanji and reject unrelated text
+ok 20 - answers accept kana, romaji variants, kanji and reject unrelated text
+  ---
+  duration_ms: 0.903919
+  ...
+# Subtest: answer keys retain mora boundaries around n and yoon
+ok 21 - answer keys retain mora boundaries around n and yoon
+  ---
+  duration_ms: 0.57662
+  ...
+# Subtest: furigana is ruby with escaped text and removable annotation
+ok 22 - furigana is ruby with escaped text and removable annotation
+  ---
+  duration_ms: 0.592398
+  ...
+# Subtest: morae count yoon, small tsu, n and long vowels
+ok 23 - morae count yoon, small tsu, n and long vowels
+  ---
+  duration_ms: 0.221667
+  ...
+# Subtest: romaji output preserves moraic n boundary
+ok 24 - romaji output preserves moraic n boundary
+  ---
+  duration_ms: 0.296082
+  ...
+# Subtest: accent number maps to high/low with following particle
+ok 25 - accent number maps to high/low with following particle
+  ---
+  duration_ms: 1.093517
+  ...
+# Subtest: storage and adapter namespaces are distinct
+ok 26 - storage and adapter namespaces are distinct
+  ---
+  duration_ms: 0.589885
+  ...
+# Subtest: scheduler and mascot remain byte identical to English reference
+ok 27 - scheduler and mascot remain byte identical to English reference
+  ---
+  duration_ms: 1.573852
+  ...
+# Subtest: startup catalogue preserves every ID, level, order and audio availability
+ok 28 - startup catalogue preserves every ID, level, order and audio availability
+  ---
+  duration_ms: 142.821548
+  ...
+# Subtest: kana to OpenJTalk morae: sokuon, n, long vowels, yoon, particles
+ok 29 - kana to OpenJTalk morae: sokuon, n, long vowels, yoon, particles
+  ---
+  duration_ms: 2.337414
+  ...
+# Subtest: devoiced vowels are accepted variants
+ok 30 - devoiced vowels are accepted variants
+  ---
+  duration_ms: 0.28038
+  ...
+# Subtest: the right word scores high, a different word low
+ok 31 - the right word scores high, a different word low
+  ---
+  duration_ms: 2.595151
+  ...
+# Subtest: dropping っ, ん or a long vowel is flagged on that mora
+ok 32 - dropping っ, ん or a long vowel is flagged on that mora
+  ---
+  duration_ms: 7.259828
+  ...
+# Subtest: devoiced です scores like voiced
+ok 33 - devoiced です scores like voiced
+  ---
+  duration_ms: 0.601332
+  ...
+# Subtest: F0 extracts a synthetic 180 Hz tone
+ok 34 - F0 extracts a synthetic 180 Hz tone
+  ---
+  duration_ms: 54.430141
+  ...
+# Subtest: F0 rejects silence
+ok 35 - F0 rejects silence
+  ---
+  duration_ms: 4.509767
+  ...
+# Subtest: expected fall and rise compare against measured shape
+ok 36 - expected fall and rise compare against measured shape
+  ---
+  duration_ms: 0.384619
+  ...
+# Subtest: comparison is invariant to speaker pitch baseline
+ok 37 - comparison is invariant to speaker pitch baseline
+  ---
+  duration_ms: 0.188361
+  ...
+# Subtest: unknown accent, one mora and mostly unvoiced audio abstain
+ok 38 - unknown accent, one mora and mostly unvoiced audio abstain
+  ---
+  duration_ms: 1.804792
+  ...
+# Subtest: single isolated word cannot distinguish heiban from odaka
+ok 39 - single isolated word cannot distinguish heiban from odaka
+  ---
+  duration_ms: 0.972466
+  ...
+# Subtest: synthetic PCM rising and falling words run through full analysis
+ok 40 - synthetic PCM rising and falling words run through full analysis
+  ---
+  duration_ms: 30.558451
+  ...
+# Subtest: local fallback saves and reloads progress without other app changes
+ok 41 - local fallback saves and reloads progress without other app changes
+  ---
+  duration_ms: 16.043754
+  ...
+# Subtest: malformed local record is quarantined and backup restored
+ok 42 - malformed local record is quarantined and backup restored
+  ---
+  duration_ms: 0.968611
+  ...
+# Subtest: import preserves previous snapshot under timestamped key
+ok 43 - import preserves previous snapshot under timestamped key
+  ---
+  duration_ms: 0.851753
+  ...
+# Subtest: arrays are rejected as progress records
+ok 44 - arrays are rejected as progress records
+  ---
+  duration_ms: 0.816872
+  ...
+1..44
+# tests 44
+# suites 0
+# pass 44
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1159.783925

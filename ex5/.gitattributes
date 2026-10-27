@@ -1,0 +1,2 @@
+# Preserve the decoded upstream notice verbatim, including its trailing spaces.
+licences/KNBC-README.txt -whitespace

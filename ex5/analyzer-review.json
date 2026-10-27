@@ -1,0 +1,5256 @@
+[
+  {
+    "index": 1,
+    "id": "j7b9061f52b70",
+    "word": "お兄さん",
+    "reading": "おにいさん",
+    "ja": "お兄さんは大学生ですか。",
+    "target": "お兄さん",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "お",
+        "御",
+        "お"
+      ],
+      [
+        "兄",
+        "兄",
+        "あに"
+      ],
+      [
+        "さん",
+        "さん",
+        "さん"
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "id": "j1b000d77877a",
+    "word": "お姉さん",
+    "reading": "おねえさん",
+    "ja": "お姉さんも一緒に来ますか。",
+    "target": "お姉さん",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "お",
+        "御",
+        "お"
+      ],
+      [
+        "姉",
+        "姉",
+        "あね"
+      ],
+      [
+        "さん",
+        "さん",
+        "さん"
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "id": "j9ba01fdc9897",
+    "word": "火曜日",
+    "reading": "かようび",
+    "ja": "火曜日は学校が休みです。",
+    "target": "火曜日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "火曜",
+        "火曜",
+        "かよう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 4,
+    "id": "j5ee635ff604e",
+    "word": "辛い",
+    "reading": "からい",
+    "ja": "このカレーは少し辛いです。",
+    "target": "辛い",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "辛い",
+        "辛い",
+        "つらい"
+      ]
+    ]
+  },
+  {
+    "index": 5,
+    "id": "ja089826e2906",
+    "word": "外国人",
+    "reading": "がいこくじん",
+    "ja": "この町には外国人も住んでいます。",
+    "target": "外国人",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "外国",
+        "外国",
+        "がいこく"
+      ],
+      [
+        "人",
+        "人",
+        "にん"
+      ]
+    ]
+  },
+  {
+    "index": 6,
+    "id": "j8f0a38919b77",
+    "word": "金曜日",
+    "reading": "きんようび",
+    "ja": "金曜日に友達と会います。",
+    "target": "金曜日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "金曜",
+        "金曜",
+        "きんよう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 7,
+    "id": "j2a8090e9c46e",
+    "word": "九",
+    "reading": "く",
+    "ja": "授業は九時に始まります。",
+    "target": "九",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "九",
+        "九",
+        "きゅう"
+      ]
+    ]
+  },
+  {
+    "index": 8,
+    "id": "j61c02e7f4acc",
+    "word": "月曜日",
+    "reading": "げつようび",
+    "ja": "月曜日から仕事が始まります。",
+    "target": "月曜日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "月曜",
+        "月曜",
+        "げつよう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 12,
+    "id": "j2c216f915116",
+    "word": "水曜日",
+    "reading": "すいようび",
+    "ja": "水曜日に図書館へ行きます。",
+    "target": "水曜日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "水曜",
+        "水曜",
+        "すいよう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 13,
+    "id": "j5841d3db2c97",
+    "word": "誕生日",
+    "reading": "たんじょうび",
+    "ja": "誕生日はいつですか。",
+    "target": "誕生日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "誕生",
+        "誕生",
+        "たんじょう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 16,
+    "id": "j440290628fd6",
+    "word": "土曜日",
+    "reading": "どようび",
+    "ja": "土曜日は家で休みます。",
+    "target": "土曜日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "土曜",
+        "土曜",
+        "どよう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 18,
+    "id": "j0655c242d1db",
+    "word": "七日",
+    "reading": "なのか",
+    "ja": "来月の七日に帰ります。",
+    "target": "七日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "七",
+        "七",
+        "なな"
+      ],
+      [
+        "日",
+        "日",
+        "にち"
+      ]
+    ]
+  },
+  {
+    "index": 19,
+    "id": "jb7519a0f57a7",
+    "word": "日曜日",
+    "reading": "にちようび",
+    "ja": "日曜日に公園で遊びます。",
+    "target": "日曜日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "日曜",
+        "日曜",
+        "にちよう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 20,
+    "id": "j28102c121d50",
+    "word": "箱",
+    "reading": "はこ",
+    "ja": "この箱に本を入れてください。",
+    "target": "箱",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "箱",
+        "箱",
+        "ばこ"
+      ]
+    ]
+  },
+  {
+    "index": 22,
+    "id": "j14435050c0df",
+    "word": "一月",
+    "reading": "ひとつき",
+    "ja": "一月ほど日本にいました。",
+    "target": "一月",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "一",
+        "一",
+        "いち"
+      ],
+      [
+        "月",
+        "月",
+        "がつ"
+      ]
+    ]
+  },
+  {
+    "index": 24,
+    "id": "j56d52b7869ab",
+    "word": "二日",
+    "reading": "ふつか",
+    "ja": "旅行で二日休みます。",
+    "target": "二日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "二",
+        "二",
+        "ふた"
+      ],
+      [
+        "日",
+        "日",
+        "か"
+      ]
+    ]
+  },
+  {
+    "index": 25,
+    "id": "j1a53b6dbb027",
+    "word": "毎月",
+    "reading": "まいげつ",
+    "ja": "毎月、本を一冊買います。",
+    "target": "毎月",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "毎月",
+        "毎月",
+        "まいつき"
+      ]
+    ]
+  },
+  {
+    "index": 26,
+    "id": "j0c038f53ae7e",
+    "word": "毎年",
+    "reading": "まいねん",
+    "ja": "毎年、家族で旅行します。",
+    "target": "毎年",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "毎年",
+        "毎年",
+        "まいとし"
+      ]
+    ]
+  },
+  {
+    "index": 28,
+    "id": "jdf70a01acaec",
+    "word": "六つ",
+    "reading": "むっつ",
+    "ja": "卵を六つ買いました。",
+    "target": "六つ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "六",
+        "六",
+        "むい"
+      ],
+      [
+        "つ",
+        "つ",
+        "つ"
+      ]
+    ]
+  },
+  {
+    "index": 29,
+    "id": "j8b1ba4846f97",
+    "word": "木曜日",
+    "reading": "もくようび",
+    "ja": "木曜日にテストがあります。",
+    "target": "木曜日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "木曜",
+        "木曜",
+        "もくよう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 30,
+    "id": "j6c9351ae67e6",
+    "word": "八つ",
+    "reading": "やっつ",
+    "ja": "パンを八つ買いました。",
+    "target": "八つ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "八",
+        "八",
+        "よう"
+      ],
+      [
+        "つ",
+        "つ",
+        "つ"
+      ]
+    ]
+  },
+  {
+    "index": 31,
+    "id": "j13ea3220cde0",
+    "word": "四日",
+    "reading": "よっか",
+    "ja": "来月の四日に会いましょう。",
+    "target": "四日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "四",
+        "四",
+        "よん"
+      ],
+      [
+        "日",
+        "日",
+        "か"
+      ]
+    ]
+  },
+  {
+    "index": 32,
+    "id": "j947395f42397",
+    "word": "四つ",
+    "reading": "よっつ",
+    "ja": "みかんを四つください。",
+    "target": "四つ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "四",
+        "四",
+        "よん"
+      ],
+      [
+        "つ",
+        "つ",
+        "つ"
+      ]
+    ]
+  },
+  {
+    "index": 38,
+    "id": "j5b21d92a7eee",
+    "word": "ごらんになる",
+    "reading": "ごらんになる",
+    "ja": "先生はこの映画をごらんになりますか。",
+    "target": "ごらんになります",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "ごらん",
+        "御覧",
+        "ごらん"
+      ],
+      [
+        "に",
+        "に",
+        "に"
+      ],
+      [
+        "なり",
+        "成る",
+        "なり"
+      ],
+      [
+        "ます",
+        "ます",
+        "ます"
+      ]
+    ]
+  },
+  {
+    "index": 50,
+    "id": "j580b2eac7df1",
+    "word": "市場",
+    "reading": "いちば",
+    "ja": "朝の市場で新鮮な魚を買いました。",
+    "target": "市場",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "市場",
+        "市場",
+        "しじょう"
+      ]
+    ]
+  },
+  {
+    "index": 51,
+    "id": "j17e24f9a6fd2",
+    "word": "いらっしゃい",
+    "reading": "いらっしゃい",
+    "ja": "いらっしゃい、どうぞ入って。",
+    "target": "いらっしゃい",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "いらっしゃい",
+        "いらっしゃる",
+        "いらっしゃい"
+      ]
+    ]
+  },
+  {
+    "index": 52,
+    "id": "je6f01103efba",
+    "word": "上",
+    "reading": "うわ",
+    "ja": "箱の上ぶたを開けてください。",
+    "target": "上",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "上",
+        "上",
+        "うえ"
+      ]
+    ]
+  },
+  {
+    "index": 53,
+    "id": "j32db7f0b2dc1",
+    "word": "柄",
+    "reading": "え",
+    "ja": "この包丁は柄が握りやすい。",
+    "target": "柄",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "柄",
+        "柄",
+        "がら"
+      ]
+    ]
+  },
+  {
+    "index": 54,
+    "id": "j802b86712508",
+    "word": "描く",
+    "reading": "かく",
+    "ja": "子どもが紙に猫を描く。",
+    "target": "描く",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "描く",
+        "描く",
+        "えがく"
+      ]
+    ]
+  },
+  {
+    "index": 55,
+    "id": "j10e15909a62d",
+    "word": "上",
+    "reading": "かみ",
+    "ja": "川の上から小舟が流れてきた。",
+    "target": "上",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "上",
+        "上",
+        "うえ"
+      ]
+    ]
+  },
+  {
+    "index": 56,
+    "id": "j59420c476050",
+    "word": "空",
+    "reading": "から",
+    "ja": "冷蔵庫が空なので買い物に行こう。",
+    "target": "空",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "空",
+        "虚ろ",
+        "うつろ"
+      ]
+    ]
+  },
+  {
+    "index": 57,
+    "id": "je64b189d1607",
+    "word": "気に入る",
+    "reading": "きにいる",
+    "ja": "この店の静かな雰囲気が気に入った。",
+    "target": "気に入った",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "気",
+        "気",
+        "き"
+      ],
+      [
+        "に",
+        "に",
+        "に"
+      ],
+      [
+        "入っ",
+        "入る",
+        "はいっ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 58,
+    "id": "j26c478c91822",
+    "word": "球",
+    "reading": "きゅう",
+    "ja": "粘土で丸い球を作りました。",
+    "target": "球",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "球",
+        "玉",
+        "たま"
+      ]
+    ]
+  },
+  {
+    "index": 61,
+    "id": "j06ada5e5c0b2",
+    "word": "下",
+    "reading": "げ",
+    "ja": "この小説の下を読み終えた。",
+    "target": "下",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "下",
+        "下",
+        "した"
+      ]
+    ]
+  },
+  {
+    "index": 62,
+    "id": "j146878246467",
+    "word": "工場",
+    "reading": "こうば",
+    "ja": "父は町の小さな工場で働いている。",
+    "target": "工場",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "工場",
+        "工場",
+        "こうじょう"
+      ]
+    ]
+  },
+  {
+    "index": 63,
+    "id": "j309732a67bfb",
+    "word": "盛り",
+    "reading": "さかり",
+    "ja": "桜は今が盛りです。",
+    "target": "盛り",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "盛り",
+        "盛り",
+        "もり"
+      ]
+    ]
+  },
+  {
+    "index": 66,
+    "id": "j14a907ae5e2c",
+    "word": "しまった",
+    "reading": "しまった",
+    "ja": "しまった、財布を家に忘れた。",
+    "target": "しまった",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "しまっ",
+        "仕舞う",
+        "しまっ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 67,
+    "id": "j58d4093f89ca",
+    "word": "下",
+    "reading": "しも",
+    "ja": "舟で川の下へ向かった。",
+    "target": "下",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "下",
+        "下",
+        "した"
+      ]
+    ]
+  },
+  {
+    "index": 71,
+    "id": "j733d2172d757",
+    "word": "背",
+    "reading": "せい",
+    "ja": "弟は急に背が伸びた。",
+    "target": "背",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "背",
+        "背",
+        "せ"
+      ]
+    ]
+  },
+  {
+    "index": 75,
+    "id": "j13f2d0619604",
+    "word": "注ぐ",
+    "reading": "つぐ",
+    "ja": "お客様の茶碗にお茶を注ぐ。",
+    "target": "注ぐ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "注ぐ",
+        "注ぐ",
+        "そそぐ"
+      ]
+    ]
+  },
+  {
+    "index": 76,
+    "id": "j629d62385869",
+    "word": "停留所",
+    "reading": "ていりゅうじょ",
+    "ja": "次の停留所でバスを降ります。",
+    "target": "停留所",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "停留",
+        "停留",
+        "ていりゅう"
+      ],
+      [
+        "所",
+        "所",
+        "しょ"
+      ]
+    ]
+  },
+  {
+    "index": 78,
+    "id": "j5687ed3e1820",
+    "word": "値",
+    "reading": "ね",
+    "ja": "雨が続いて野菜の値が上がった。",
+    "target": "値",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "値",
+        "値",
+        "あたい"
+      ]
+    ]
+  },
+  {
+    "index": 79,
+    "id": "j2bc6b74db1f5",
+    "word": "年月",
+    "reading": "ねんげつ",
+    "ja": "長い年月をかけて森を育てた。",
+    "target": "年月",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "年月",
+        "年月",
+        "としつき"
+      ]
+    ]
+  },
+  {
+    "index": 81,
+    "id": "jcb43cf24e7ad",
+    "word": "二十",
+    "reading": "はたち",
+    "ja": "弟は来月、二十になる。",
+    "target": "二十",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "二十",
+        "二十",
+        "にじゅう"
+      ]
+    ]
+  },
+  {
+    "index": 83,
+    "id": "j653a7bc79088",
+    "word": "梅雨",
+    "reading": "ばいう",
+    "ja": "梅雨前線が南へ下がった。",
+    "target": "梅雨",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "梅雨",
+        "梅雨",
+        "つゆ"
+      ]
+    ]
+  },
+  {
+    "index": 84,
+    "id": "j45410f94ac7b",
+    "word": "灯",
+    "reading": "ひ",
+    "ja": "窓から暖かな灯が漏れている。",
+    "target": "灯",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "灯",
+        "明かり",
+        "あかり"
+      ]
+    ]
+  },
+  {
+    "index": 86,
+    "id": "j98e6ef04426f",
+    "word": "不",
+    "reading": "ぶ",
+    "ja": "不器用でも丁寧に作れば大丈夫。",
+    "target": "不",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "不",
+        "不",
+        "ふ"
+      ]
+    ]
+  },
+  {
+    "index": 87,
+    "id": "j8ed04ec90005",
+    "word": "分",
+    "reading": "ぶ",
+    "ja": "体温は三十七度五分だった。",
+    "target": "分",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "分",
+        "分",
+        "ふん"
+      ]
+    ]
+  },
+  {
+    "index": 88,
+    "id": "je4334e117c6e",
+    "word": "無",
+    "reading": "ぶ",
+    "ja": "無愛想だが、親切な人だ。",
+    "target": "無",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "無",
+        "無",
+        "む"
+      ]
+    ]
+  },
+  {
+    "index": 90,
+    "id": "j5c627509af2f",
+    "word": "仏",
+    "reading": "ほとけ",
+    "ja": "仏に花を供え、静かに手を合わせた。",
+    "target": "仏",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "仏",
+        "仏",
+        "ふつ"
+      ]
+    ]
+  },
+  {
+    "index": 92,
+    "id": "j9357e32d0194",
+    "word": "実",
+    "reading": "み",
+    "ja": "庭の木に赤い実がなった。",
+    "target": "実",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "実",
+        "実",
+        "じつ"
+      ]
+    ]
+  },
+  {
+    "index": 94,
+    "id": "jc4335e79b29c",
+    "word": "命じる",
+    "reading": "めいじる",
+    "ja": "上司は作業の中止を命じた。",
+    "target": "命じた",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "命じ",
+        "命ずる",
+        "めいじ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 95,
+    "id": "j8d01008b8c17",
+    "word": "文字",
+    "reading": "もんじ",
+    "ja": "石碑に刻まれた文字を読み解く。",
+    "target": "文字",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "文字",
+        "文字",
+        "もじ"
+      ]
+    ]
+  },
+  {
+    "index": 97,
+    "id": "j0c5871310c83",
+    "word": "行き",
+    "reading": "ゆき",
+    "ja": "次は京都行きの電車です。",
+    "target": "行き",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "行き",
+        "行き",
+        "いき"
+      ]
+    ]
+  },
+  {
+    "index": 98,
+    "id": "j9f5dc01e03d0",
+    "word": "悪口",
+    "reading": "わるくち",
+    "ja": "人の悪口を言うのはやめよう。",
+    "target": "悪口",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "悪口",
+        "悪口",
+        "わるぐち"
+      ]
+    ]
+  },
+  {
+    "index": 99,
+    "id": "jced6da73a7f7",
+    "word": "アイ",
+    "reading": "アイ",
+    "ja": "畑で育てたアイで布を染める。",
+    "target": "アイ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "アイ",
+        "アイ-eye",
+        "あい"
+      ]
+    ]
+  },
+  {
+    "index": 114,
+    "id": "j6a1719a84087",
+    "word": "一昨日",
+    "reading": "いっさくじつ",
+    "ja": "一昨日、お送りした資料をご確認ください。",
+    "target": "一昨日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "一昨",
+        "一昨",
+        "いっさく"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 116,
+    "id": "ja32b11e42842",
+    "word": "いってらっしゃい",
+    "reading": "いってらっしゃい",
+    "ja": "いってらっしゃい、気をつけてね。",
+    "target": "いってらっしゃい",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "いっ",
+        "行く",
+        "いっ"
+      ],
+      [
+        "てらっしゃい",
+        "てらっしゃる",
+        "てらっしゃい"
+      ]
+    ]
+  },
+  {
+    "index": 153,
+    "id": "j308c27a28d86",
+    "word": "帰す",
+    "reading": "かえす",
+    "ja": "熱のある社員を早めに家へ帰した。",
+    "target": "帰した",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "帰し",
+        "返す",
+        "かえし"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 190,
+    "id": "j35a59040d5a3",
+    "word": "煙い",
+    "reading": "けむい",
+    "ja": "煙いので窓を開けてもいいですか。",
+    "target": "煙い",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "煙い",
+        "煙い",
+        "けみい"
+      ]
+    ]
+  },
+  {
+    "index": 200,
+    "id": "jb940df047cbe",
+    "word": "言付ける",
+    "reading": "ことづける",
+    "ja": "母に、少し遅れると言付けた。",
+    "target": "言付けた",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "言付け",
+        "言い付ける",
+        "いいつけ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 204,
+    "id": "j6689f6b212f7",
+    "word": "ごちそうさま",
+    "reading": "ごちそうさま",
+    "ja": "ごちそうさま、とてもおいしかったです。",
+    "target": "ごちそうさま",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "ご",
+        "御",
+        "ご"
+      ],
+      [
+        "ちそう",
+        "馳走",
+        "ちそう"
+      ],
+      [
+        "さま",
+        "様",
+        "さま"
+      ]
+    ]
+  },
+  {
+    "index": 205,
+    "id": "jccc25d6bbd09",
+    "word": "御無沙汰",
+    "reading": "ごぶさた",
+    "ja": "長らく御無沙汰しております。",
+    "target": "御無沙汰",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "御",
+        "御",
+        "ご"
+      ],
+      [
+        "無",
+        "無",
+        "む"
+      ],
+      [
+        "沙汰",
+        "沙汰",
+        "さた"
+      ]
+    ]
+  },
+  {
+    "index": 214,
+    "id": "j925841cdfb47",
+    "word": "再来月",
+    "reading": "さらいげつ",
+    "ja": "再来月、引っ越す予定です。",
+    "target": "再来月",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "再",
+        "再",
+        "さい"
+      ],
+      [
+        "来月",
+        "来月",
+        "らいげつ"
+      ]
+    ]
+  },
+  {
+    "index": 218,
+    "id": "j379f4e631a1f",
+    "word": "座布団",
+    "reading": "ざぶとん",
+    "ja": "座布団を敷いて、床に座った。",
+    "target": "座布団",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "座",
+        "座",
+        "ざ"
+      ],
+      [
+        "布団",
+        "布団",
+        "ふとん"
+      ]
+    ]
+  },
+  {
+    "index": 223,
+    "id": "jf300b4953902",
+    "word": "湿気",
+    "reading": "しっき",
+    "ja": "湿気を防ぐため、窓を開けておく。",
+    "target": "湿気",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "湿気",
+        "湿気",
+        "しっけ"
+      ]
+    ]
+  },
+  {
+    "index": 234,
+    "id": "jb485eb38b09a",
+    "word": "白髪",
+    "reading": "しらが",
+    "ja": "父は最近、白髪が増えた。",
+    "target": "白髪",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "白髪",
+        "白髪",
+        "はくはつ"
+      ]
+    ]
+  },
+  {
+    "index": 248,
+    "id": "j0d3fd71c26bf",
+    "word": "水蒸気",
+    "reading": "すいじょうき",
+    "ja": "やかんの口から水蒸気が上がる。",
+    "target": "水蒸気",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "水",
+        "水",
+        "みず"
+      ],
+      [
+        "蒸気",
+        "蒸気",
+        "じょうき"
+      ]
+    ]
+  },
+  {
+    "index": 261,
+    "id": "jb74c55988d67",
+    "word": "生年月日",
+    "reading": "せいねんがっぴ",
+    "ja": "この欄に生年月日を書いてください。",
+    "target": "生年月日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "生",
+        "生",
+        "せい"
+      ],
+      [
+        "年",
+        "年",
+        "ねん"
+      ],
+      [
+        "月",
+        "月",
+        "がつ"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 264,
+    "id": "jf303d8ce6b20",
+    "word": "先々月",
+    "reading": "せんせんげつ",
+    "ja": "先々月から料理教室に通っています。",
+    "target": "先々月",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "先々",
+        "先々",
+        "さきざき"
+      ],
+      [
+        "月",
+        "月",
+        "つき"
+      ]
+    ]
+  },
+  {
+    "index": 265,
+    "id": "j05a86c982ca6",
+    "word": "先々週",
+    "reading": "せんせんしゅう",
+    "ja": "先々週借りた本を返しました。",
+    "target": "先々週",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "先々",
+        "先々",
+        "さきざき"
+      ],
+      [
+        "週",
+        "週",
+        "しゅう"
+      ]
+    ]
+  },
+  {
+    "index": 274,
+    "id": "j5085718cf848",
+    "word": "存じる",
+    "reading": "ぞんじる",
+    "ja": "その件については存じております。",
+    "target": "存じて",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "存じ",
+        "存ずる",
+        "ぞんじ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 298,
+    "id": "j7867a845e906",
+    "word": "定休日",
+    "reading": "ていきゅうび",
+    "ja": "この店の定休日は水曜日です。",
+    "target": "定休日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "定休",
+        "定休",
+        "ていきゅう"
+      ],
+      [
+        "日",
+        "日",
+        "ひ"
+      ]
+    ]
+  },
+  {
+    "index": 320,
+    "id": "j38f9dc83c22e",
+    "word": "捩る",
+    "reading": "ねじる",
+    "ja": "針金を捩って、輪を作った。",
+    "target": "捩って",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "捩っ",
+        "捩る",
+        "もじっ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 326,
+    "id": "j4c80d1afd90c",
+    "word": "斜",
+    "reading": "はす",
+    "ja": "封筒の端を斜に切った。",
+    "target": "斜",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "斜",
+        "斜",
+        "しゃ"
+      ]
+    ]
+  },
+  {
+    "index": 329,
+    "id": "j66f26c0be2ba",
+    "word": "鉢",
+    "reading": "はち",
+    "ja": "鉢に土を入れて花を植えた。",
+    "target": "鉢",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "鉢",
+        "鉢",
+        "ばち"
+      ]
+    ]
+  },
+  {
+    "index": 331,
+    "id": "j91aaabba34c6",
+    "word": "話中",
+    "reading": "はなしちゅう",
+    "ja": "何度かけても電話は話中だった。",
+    "target": "話中",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "話",
+        "話",
+        "はなし"
+      ],
+      [
+        "中",
+        "中",
+        "ちゅう"
+      ]
+    ]
+  },
+  {
+    "index": 356,
+    "id": "j83d70c1de04a",
+    "word": "無沙汰",
+    "reading": "ぶさた",
+    "ja": "無沙汰をわびる手紙を書いた。",
+    "target": "無沙汰",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "無",
+        "無",
+        "む"
+      ],
+      [
+        "沙汰",
+        "沙汰",
+        "さた"
+      ]
+    ]
+  },
+  {
+    "index": 377,
+    "id": "j4aa5c84df90c",
+    "word": "三日月",
+    "reading": "みかづき",
+    "ja": "夕空に細い三日月が浮かんでいる。",
+    "target": "三日月",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "三",
+        "三",
+        "みっ"
+      ],
+      [
+        "日",
+        "日",
+        "か"
+      ],
+      [
+        "月",
+        "月",
+        "つき"
+      ]
+    ]
+  },
+  {
+    "index": 404,
+    "id": "j4e8876ee5cae",
+    "word": "相対",
+    "reading": "あいたい",
+    "ja": "価格は買い手と売り手の相対で決める。",
+    "target": "相対",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "相対",
+        "相対",
+        "そうたい"
+      ]
+    ]
+  },
+  {
+    "index": 407,
+    "id": "j0ab991abf7db",
+    "word": "銅",
+    "reading": "あかがね",
+    "ja": "古い銅の鏡が鈍く光っていた。",
+    "target": "銅",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "銅",
+        "銅",
+        "どう"
+      ]
+    ]
+  },
+  {
+    "index": 410,
+    "id": "jee22cf67c5a1",
+    "word": "商人",
+    "reading": "あきうど",
+    "ja": "旅の商人が村に布を売りに来た。",
+    "target": "商人",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "商人",
+        "商人",
+        "しょうにん"
+      ]
+    ]
+  },
+  {
+    "index": 411,
+    "id": "j6a94066bbbb5",
+    "word": "空間",
+    "reading": "あきま",
+    "ja": "箪笥と壁の空間に箱を置いた。",
+    "target": "空間",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "空間",
+        "空間",
+        "くうかん"
+      ]
+    ]
+  },
+  {
+    "index": 415,
+    "id": "j2ca58e79ff98",
+    "word": "明くる",
+    "reading": "あくる",
+    "ja": "明くる朝には雨がやんでいた。",
+    "target": "明くる",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "明くる",
+        "明ける",
+        "あくる"
+      ]
+    ]
+  },
+  {
+    "index": 417,
+    "id": "j3a318cc61aa9",
+    "word": "明後日",
+    "reading": "あさって",
+    "ja": "明後日の朝、駅で待ち合わせよう。",
+    "target": "明後日",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "明後日",
+        "明後日",
+        "みょうごにち"
+      ]
+    ]
+  },
+  {
+    "index": 419,
+    "id": "j054d8a5a9c4a",
+    "word": "字",
+    "reading": "あざ",
+    "ja": "古い住所には字の名も書かれている。",
+    "target": "字",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "字",
+        "字",
+        "じ"
+      ]
+    ]
+  },
+  {
+    "index": 422,
+    "id": "j8136cf87c017",
+    "word": "東",
+    "reading": "あずま",
+    "ja": "都を離れ、東へ旅立った。",
+    "target": "東",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "東",
+        "東",
+        "ひがし"
+      ]
+    ]
+  },
+  {
+    "index": 423,
+    "id": "j422971ce6bda",
+    "word": "他人",
+    "reading": "あだびと",
+    "ja": "他人には語れぬ思いを胸に秘める。",
+    "target": "他人",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "他人",
+        "他人",
+        "たにん"
+      ]
+    ]
+  },
+  {
+    "index": 424,
+    "id": "jd986de28b8d2",
+    "word": "悪口",
+    "reading": "あっこう",
+    "ja": "相手への悪口は議論を損なう。",
+    "target": "悪口",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "悪口",
+        "悪口",
+        "わるぐち"
+      ]
+    ]
+  },
+  {
+    "index": 433,
+    "id": "jb78f63e72515",
+    "word": "天つ",
+    "reading": "あまつ",
+    "ja": "古い神話には天つ神が登場する。",
+    "target": "天つ",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "天つ神",
+        "天つ神",
+        "あまつかみ"
+      ]
+    ]
+  },
+  {
+    "index": 434,
+    "id": "jb3ea6eb63056",
+    "word": "天地",
+    "reading": "あめつち",
+    "ja": "天地の恵みに感謝して祈る。",
+    "target": "天地",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "天地",
+        "天地",
+        "てんち"
+      ]
+    ]
+  },
+  {
+    "index": 442,
+    "id": "j3cf4fdec5400",
+    "word": "案じる",
+    "reading": "あんじる",
+    "ja": "離れて暮らす母の体を案じている。",
+    "target": "案じて",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "案じ",
+        "案ずる",
+        "あんじ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 444,
+    "id": "jcb52629bed24",
+    "word": "家主",
+    "reading": "いえぬし",
+    "ja": "修理の費用を家主に相談した。",
+    "target": "家主",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "家主",
+        "家主",
+        "やぬし"
+      ]
+    ]
+  },
+  {
+    "index": 445,
+    "id": "j3846fc9ee418",
+    "word": "雷",
+    "reading": "いかずち",
+    "ja": "暗い空を雷が切り裂いた。",
+    "target": "雷",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "雷",
+        "雷",
+        "かみなり"
+      ]
+    ]
+  },
+  {
+    "index": 446,
+    "id": "j4cd83fa1d541",
+    "word": "怒る",
+    "reading": "いかる",
+    "ja": "民衆は不正に怒り、声を上げた。",
+    "target": "怒り",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "怒り",
+        "怒る",
+        "おこり"
+      ]
+    ]
+  },
+  {
+    "index": 447,
+    "id": "jfe18a6c7c3e4",
+    "word": "歪む",
+    "reading": "いがむ",
+    "ja": "熱で板が歪んでしまった。",
+    "target": "歪んで",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "歪ん",
+        "歪む",
+        "ゆがん"
+      ],
+      [
+        "で",
+        "て",
+        "で"
+      ]
+    ]
+  },
+  {
+    "index": 458,
+    "id": "jb125d8d71385",
+    "word": "依存",
+    "reading": "いそん",
+    "ja": "一つの収入源への依存を減らしたい。",
+    "target": "依存",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "依存",
+        "依存",
+        "いぞん"
+      ]
+    ]
+  },
+  {
+    "index": 462,
+    "id": "j88401a6d62df",
+    "word": "市",
+    "reading": "いち",
+    "ja": "週末の市で新鮮な野菜を買った。",
+    "target": "市",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "市",
+        "市",
+        "し"
+      ]
+    ]
+  },
+  {
+    "index": 464,
+    "id": "j9c4755e8a489",
+    "word": "一見",
+    "reading": "いちげん",
+    "ja": "この店は一見の客も歓迎している。",
+    "target": "一見",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "一見",
+        "一見",
+        "いっけん"
+      ]
+    ]
+  },
+  {
+    "index": 465,
+    "id": "jd7e436bdd920",
+    "word": "一言",
+    "reading": "いちげん",
+    "ja": "一言をもって決意を表す。",
+    "target": "一言",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "一言",
+        "一言",
+        "ひとこと"
+      ]
+    ]
+  },
+  {
+    "index": 466,
+    "id": "j5d8799538f7f",
+    "word": "一日",
+    "reading": "いちじつ",
+    "ja": "一日たりとも努力を怠らなかった。",
+    "target": "一日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "一",
+        "一",
+        "いち"
+      ],
+      [
+        "日",
+        "日",
+        "にち"
+      ]
+    ]
+  },
+  {
+    "index": 467,
+    "id": "jd5342c418ad4",
+    "word": "一定",
+    "reading": "いちじょう",
+    "ja": "敗北は一定と覚悟した。",
+    "target": "一定",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "一定",
+        "一定",
+        "いってい"
+      ]
+    ]
+  },
+  {
+    "index": 473,
+    "id": "jf470d678de5a",
+    "word": "一敗",
+    "reading": "いっぱい",
+    "ja": "今大会は三勝一敗で終えた。",
+    "target": "一敗",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "一",
+        "一",
+        "いち"
+      ],
+      [
+        "敗",
+        "敗",
+        "はい"
+      ]
+    ]
+  },
+  {
+    "index": 479,
+    "id": "jc71f0e34843a",
+    "word": "入口",
+    "reading": "いりくち",
+    "ja": "家の入口に小さな灯をともした。",
+    "target": "入口",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "入口",
+        "入り口",
+        "いりぐち"
+      ]
+    ]
+  },
+  {
+    "index": 482,
+    "id": "j0ceac3df1a77",
+    "word": "入る",
+    "reading": "いる",
+    "ja": "ようやく話が佳境に入った。",
+    "target": "入った",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "入っ",
+        "入る",
+        "はいっ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 490,
+    "id": "jfa1ebbcff8ef",
+    "word": "上下",
+    "reading": "うえした",
+    "ja": "服の上下を同じ色でそろえた。",
+    "target": "上下",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "上下",
+        "上下",
+        "じょうげ"
+      ]
+    ]
+  },
+  {
+    "index": 491,
+    "id": "jd06a9bb83e9a",
+    "word": "含嗽",
+    "reading": "うがい",
+    "ja": "帰宅したら、手洗いと含嗽をする。",
+    "target": "含嗽",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "含嗽",
+        "含嗽",
+        "がんそう"
+      ]
+    ]
+  },
+  {
+    "index": 494,
+    "id": "jdb9c7c15c67b",
+    "word": "潮",
+    "reading": "うしお",
+    "ja": "満ちてくる潮が砂浜を覆った。",
+    "target": "潮",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "潮",
+        "潮",
+        "しお"
+      ]
+    ]
+  },
+  {
+    "index": 495,
+    "id": "j7a4fa9e74a2f",
+    "word": "氏",
+    "reading": "うじ",
+    "ja": "古文書で一族の氏を調べる。",
+    "target": "氏",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "氏",
+        "氏",
+        "し"
+      ]
+    ]
+  },
+  {
+    "index": 497,
+    "id": "j6794e1e74afc",
+    "word": "埋まる",
+    "reading": "うずまる",
+    "ja": "小屋が深い雪に埋まっていた。",
+    "target": "埋まって",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "埋まっ",
+        "埋まる",
+        "うまっ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 501,
+    "id": "j93cc48faff45",
+    "word": "海路",
+    "reading": "うみじ",
+    "ja": "穏やかな海路を船で進んだ。",
+    "target": "海路",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "海路",
+        "海路",
+        "かいろ"
+      ]
+    ]
+  },
+  {
+    "index": 504,
+    "id": "j6095d3365d5a",
+    "word": "末",
+    "reading": "うら",
+    "ja": "風が杉の末を静かに揺らした。",
+    "target": "末",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "末",
+        "末",
+        "すえ"
+      ]
+    ]
+  },
+  {
+    "index": 505,
+    "id": "jae7bbfbb90c9",
+    "word": "上手",
+    "reading": "うわて",
+    "ja": "交渉では彼の方が一枚上手だった。",
+    "target": "上手",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "上手",
+        "上手",
+        "じょうず"
+      ]
+    ]
+  },
+  {
+    "index": 510,
+    "id": "j8fcafd88ecd6",
+    "word": "会",
+    "reading": "え",
+    "ja": "寺で春の会を営んだ。",
+    "target": "会",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "会",
+        "会",
+        "かい"
+      ]
+    ]
+  },
+  {
+    "index": 515,
+    "id": "j119665bda3fc",
+    "word": "役",
+    "reading": "えき",
+    "ja": "文永の役について史料を読んだ。",
+    "target": "役",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "役",
+        "役",
+        "やく"
+      ]
+    ]
+  },
+  {
+    "index": 516,
+    "id": "j92f646086d36",
+    "word": "塩",
+    "reading": "えん",
+    "ja": "酸と塩基の反応で塩ができる。",
+    "target": "塩",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "塩",
+        "塩",
+        "しお"
+      ]
+    ]
+  },
+  {
+    "index": 525,
+    "id": "jc75e75ba69d6",
+    "word": "お出でになる",
+    "reading": "おいでになる",
+    "ja": "先生は明日こちらへお出でになります。",
+    "target": "お出でになります",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "お",
+        "御",
+        "お"
+      ],
+      [
+        "出で",
+        "出でる",
+        "いで"
+      ],
+      [
+        "に",
+        "に",
+        "に"
+      ],
+      [
+        "なり",
+        "成る",
+        "なり"
+      ],
+      [
+        "ます",
+        "ます",
+        "ます"
+      ]
+    ]
+  },
+  {
+    "index": 526,
+    "id": "j20487758c18c",
+    "word": "黄色",
+    "reading": "おうしょく",
+    "ja": "黄色の顔料を少量加えた。",
+    "target": "黄色",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "黄色",
+        "黄色",
+        "きいろ"
+      ]
+    ]
+  },
+  {
+    "index": 531,
+    "id": "je52aa0903852",
+    "word": "長",
+    "reading": "おさ",
+    "ja": "村の長が皆の意見を聞いた。",
+    "target": "長",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "長",
+        "長",
+        "ちょう"
+      ]
+    ]
+  },
+  {
+    "index": 534,
+    "id": "j709fea6c1ea8",
+    "word": "弟",
+    "reading": "おと",
+    "ja": "兄は弟を連れて旅に出た。",
+    "target": "弟",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "弟",
+        "弟",
+        "おとうと"
+      ]
+    ]
+  },
+  {
+    "index": 536,
+    "id": "j8a73da827a1d",
+    "word": "脅かす",
+    "reading": "おどかす",
+    "ja": "急に大声を出して猫を脅かした。",
+    "target": "脅かした",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "脅かし",
+        "脅かす",
+        "おびやかし"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 537,
+    "id": "j30a8128b2db2",
+    "word": "女子",
+    "reading": "おなご",
+    "ja": "村の女子たちが祭りの支度をした。",
+    "target": "女子",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "女子",
+        "女子",
+        "じょし"
+      ]
+    ]
+  },
+  {
+    "index": 540,
+    "id": "j8e31cd002849",
+    "word": "お襁褓",
+    "reading": "おむつ",
+    "ja": "赤ちゃんのお襁褓を取り替えた。",
+    "target": "お襁褓",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "お",
+        "御",
+        "お"
+      ],
+      [
+        "襁褓",
+        "御湿",
+        "おしめ"
+      ]
+    ]
+  },
+  {
+    "index": 541,
+    "id": "j409a1bfe247f",
+    "word": "お目出度う",
+    "reading": "おめでとう",
+    "ja": "お誕生日お目出度うございます。",
+    "target": "お目出度う",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "お",
+        "御",
+        "お"
+      ],
+      [
+        "目出度う",
+        "めでたい",
+        "めでとう"
+      ]
+    ]
+  },
+  {
+    "index": 542,
+    "id": "ja6971e1dbf4d",
+    "word": "面",
+    "reading": "おも",
+    "ja": "少女は恥ずかしげに面を伏せた。",
+    "target": "面",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "面",
+        "面",
+        "めん"
+      ]
+    ]
+  },
+  {
+    "index": 544,
+    "id": "j98cc63ab09b5",
+    "word": "重なる",
+    "reading": "おもなる",
+    "ja": "重なる原因は水不足であった。",
+    "target": "重なる",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "重なる",
+        "重なる",
+        "かさなる"
+      ]
+    ]
+  },
+  {
+    "index": 547,
+    "id": "jcf0bfabb6cd8",
+    "word": "重役",
+    "reading": "おもやく",
+    "ja": "彼は若くして重役を任された。",
+    "target": "重役",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "重役",
+        "重役",
+        "じゅうやく"
+      ]
+    ]
+  },
+  {
+    "index": 552,
+    "id": "jaa17cbb8ef20",
+    "word": "音色",
+    "reading": "おんしょく",
+    "ja": "楽器ごとの音色の違いを比べる。",
+    "target": "音色",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "音色",
+        "音色",
+        "ねいろ"
+      ]
+    ]
+  },
+  {
+    "index": 554,
+    "id": "jb035ece31bd6",
+    "word": "個",
+    "reading": "か",
+    "ja": "地図の三個所に印を付けた。",
+    "target": "個",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "個所",
+        "箇所",
+        "かしょ"
+      ]
+    ]
+  },
+  {
+    "index": 575,
+    "id": "j0d21ba0be1b9",
+    "word": "火傷",
+    "reading": "かしょう",
+    "ja": "火傷の跡を医師に診てもらった。",
+    "target": "火傷",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "火傷",
+        "火傷",
+        "やけど"
+      ]
+    ]
+  },
+  {
+    "index": 576,
+    "id": "j906fdf65f78b",
+    "word": "箇条書き",
+    "reading": "かじょうがき",
+    "ja": "伝えたい点を箇条書きにまとめた。",
+    "target": "箇条書き",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "箇条",
+        "箇条",
+        "かじょう"
+      ],
+      [
+        "書き",
+        "書き",
+        "かき"
+      ]
+    ]
+  },
+  {
+    "index": 577,
+    "id": "j2909d40a26b6",
+    "word": "擦る",
+    "reading": "かする",
+    "ja": "飛んできた球が頬を擦った。",
+    "target": "擦った",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "擦っ",
+        "擦る",
+        "すっ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 581,
+    "id": "j863b214bce4f",
+    "word": "敵",
+    "reading": "かたき",
+    "ja": "決勝では長年の敵と対戦する。",
+    "target": "敵",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "敵",
+        "敵",
+        "てき"
+      ]
+    ]
+  },
+  {
+    "index": 582,
+    "id": "jabf4f1a886e6",
+    "word": "気質",
+    "reading": "かたぎ",
+    "ja": "父には昔ながらの職人気質がある。",
+    "target": "気質",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "気質",
+        "気質",
+        "きしつ"
+      ]
+    ]
+  },
+  {
+    "index": 583,
+    "id": "j5396373caf59",
+    "word": "傾く",
+    "reading": "かたぶく",
+    "ja": "西の空に日が傾いてきた。",
+    "target": "傾いて",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "傾い",
+        "傾く",
+        "かたむい"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 585,
+    "id": "j139fa3390378",
+    "word": "門",
+    "reading": "かど",
+    "ja": "家の門に客の姿が見えた。",
+    "target": "門",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "門",
+        "門",
+        "もん"
+      ]
+    ]
+  },
+  {
+    "index": 586,
+    "id": "j4854610ea3b5",
+    "word": "鉄棒",
+    "reading": "かなぼう",
+    "ja": "太い鉄棒で門をしっかり支えた。",
+    "target": "鉄棒",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "鉄棒",
+        "鉄棒",
+        "てつぼう"
+      ]
+    ]
+  },
+  {
+    "index": 587,
+    "id": "j365d998df8ca",
+    "word": "金庫",
+    "reading": "かねぐら",
+    "ja": "城の金庫には金銀が蓄えられていた。",
+    "target": "金庫",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "金庫",
+        "金庫",
+        "きんこ"
+      ]
+    ]
+  },
+  {
+    "index": 588,
+    "id": "j9215cdd47829",
+    "word": "予言",
+    "reading": "かねごと",
+    "ja": "別れの予言を守り、春に戻った。",
+    "target": "予言",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "予言",
+        "予言",
+        "よげん"
+      ]
+    ]
+  },
+  {
+    "index": 600,
+    "id": "j95118c56c261",
+    "word": "側",
+    "reading": "かわ",
+    "ja": "道の右の側を歩いてください。",
+    "target": "側",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "側",
+        "側",
+        "がわ"
+      ]
+    ]
+  },
+  {
+    "index": 603,
+    "id": "j28493e2f19af",
+    "word": "冠",
+    "reading": "かん",
+    "ja": "王は金の冠をかぶって現れた。",
+    "target": "冠",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "冠",
+        "冠",
+        "かんむり"
+      ]
+    ]
+  },
+  {
+    "index": 617,
+    "id": "je4db102a5798",
+    "word": "月日",
+    "reading": "がっぴ",
+    "ja": "申込書に出発の月日を記入した。",
+    "target": "月日",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "月日",
+        "月日",
+        "つきひ"
+      ]
+    ]
+  },
+  {
+    "index": 618,
+    "id": "j1e3dc4333f89",
+    "word": "眼鏡",
+    "reading": "がんきょう",
+    "ja": "眼鏡の度数を検査で確かめた。",
+    "target": "眼鏡",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "眼鏡",
+        "眼鏡",
+        "めがね"
+      ]
+    ]
+  },
+  {
+    "index": 621,
+    "id": "j02fd78908aff",
+    "word": "贋物",
+    "reading": "がんぶつ",
+    "ja": "その掛け軸は鑑定で贋物と分かった。",
+    "target": "贋物",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "贋物",
+        "偽物",
+        "にせもの"
+      ]
+    ]
+  },
+  {
+    "index": 623,
+    "id": "j7e010e89b3cc",
+    "word": "生",
+    "reading": "き",
+    "ja": "生のままの酒を少し味わった。",
+    "target": "生",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "生",
+        "生",
+        "なま"
+      ]
+    ]
+  },
+  {
+    "index": 633,
+    "id": "jc9120b886dd2",
+    "word": "寄贈",
+    "reading": "きそう",
+    "ja": "卒業生が図書館に本を寄贈した。",
+    "target": "寄贈",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "寄贈",
+        "寄贈",
+        "きぞう"
+      ]
+    ]
+  },
+  {
+    "index": 637,
+    "id": "j7ae409766e47",
+    "word": "甲",
+    "reading": "きのえ",
+    "ja": "十干の最初は甲である。",
+    "target": "甲",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "甲",
+        "甲",
+        "こう"
+      ]
+    ]
+  },
+  {
+    "index": 638,
+    "id": "j727112059d04",
+    "word": "気配",
+    "reading": "きはい",
+    "ja": "廊下に誰かの気配を感じた。",
+    "target": "気配",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "気配",
+        "気配",
+        "けはい"
+      ]
+    ]
+  },
+  {
+    "index": 643,
+    "id": "j0f08d944e14d",
+    "word": "決まり悪い",
+    "reading": "きまりわるい",
+    "ja": "名前を忘れて、決まり悪い思いをした。",
+    "target": "決まり悪い",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "決まり悪い",
+        "極まり悪い",
+        "きまりわりい"
+      ]
+    ]
+  },
+  {
+    "index": 659,
+    "id": "jdb8412d6b29e",
+    "word": "共存",
+    "reading": "きょうそん",
+    "ja": "人と野生動物の共存を考える。",
+    "target": "共存",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "共存",
+        "共存",
+        "きょうぞん"
+      ]
+    ]
+  },
+  {
+    "index": 660,
+    "id": "jbec5bea88ce2",
+    "word": "姉妹",
+    "reading": "きょうだい",
+    "ja": "私たちは三人姉妹です。",
+    "target": "姉妹",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "姉妹",
+        "姉妹",
+        "しまい"
+      ]
+    ]
+  },
+  {
+    "index": 669,
+    "id": "j6ebcec3d00fa",
+    "word": "木綿",
+    "reading": "きわた",
+    "ja": "木綿を紡いで丈夫な糸を作った。",
+    "target": "木綿",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "木綿",
+        "木綿",
+        "もめん"
+      ]
+    ]
+  },
+  {
+    "index": 676,
+    "id": "j5b49dd8c6689",
+    "word": "玉",
+    "reading": "ぎょく",
+    "ja": "職人が玉を磨いて飾りを作った。",
+    "target": "玉",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "玉",
+        "玉",
+        "たま"
+      ]
+    ]
+  },
+  {
+    "index": 680,
+    "id": "j6b6325fdd7a4",
+    "word": "種々",
+    "reading": "くさぐさ",
+    "ja": "庭には種々の草花が咲いていた。",
+    "target": "種々",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "種々",
+        "種々",
+        "しゅじゅ"
+      ]
+    ]
+  },
+  {
+    "index": 681,
+    "id": "j53475c262cbc",
+    "word": "旧事",
+    "reading": "くじ",
+    "ja": "祖父は村の旧事を静かに語った。",
+    "target": "旧事",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "旧事",
+        "旧事",
+        "きゅうじ"
+      ]
+    ]
+  },
+  {
+    "index": 684,
+    "id": "jb7a7e396d4af",
+    "word": "件",
+    "reading": "くだん",
+    "ja": "件の手紙は机の引き出しにあった。",
+    "target": "件",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "件",
+        "件",
+        "けん"
+      ]
+    ]
+  },
+  {
+    "index": 687,
+    "id": "jb2b524cc32a5",
+    "word": "諄い",
+    "reading": "くどい",
+    "ja": "同じ説明を繰り返すと諄い印象になる。",
+    "target": "諄い",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "諄",
+        "真",
+        "まこと"
+      ],
+      [
+        "い",
+        "いー",
+        "い"
+      ]
+    ]
+  },
+  {
+    "index": 688,
+    "id": "j3aec2289e4ae",
+    "word": "国境",
+    "reading": "くにざかい",
+    "ja": "山の尾根が国境になっていた。",
+    "target": "国境",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "国境",
+        "国境",
+        "こっきょう"
+      ]
+    ]
+  },
+  {
+    "index": 695,
+    "id": "j2dc314bf0542",
+    "word": "頃",
+    "reading": "けい",
+    "ja": "中国の面積単位では一頃は百畝だ。",
+    "target": "頃",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "一頃",
+        "一頃",
+        "ひところ"
+      ]
+    ]
+  },
+  {
+    "index": 702,
+    "id": "j2b5a420bf00c",
+    "word": "汚れ",
+    "reading": "けがれ",
+    "ja": "祭りの前に身の汚れを祓う。",
+    "target": "汚れ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "汚れ",
+        "汚れ",
+        "よごれ"
+      ]
+    ]
+  },
+  {
+    "index": 703,
+    "id": "jf98fe58bbb5f",
+    "word": "汚れる",
+    "reading": "けがれる",
+    "ja": "不正によって名誉が汚れてしまった。",
+    "target": "汚れて",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "汚れ",
+        "汚れる",
+        "よごれ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 704,
+    "id": "jf928d22165ea",
+    "word": "獣",
+    "reading": "けだもの",
+    "ja": "森の奥から獣の声が聞こえた。",
+    "target": "獣",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "獣",
+        "獣",
+        "けもの"
+      ]
+    ]
+  },
+  {
+    "index": 705,
+    "id": "j2f2ff229b850",
+    "word": "吝嗇",
+    "reading": "けち",
+    "ja": "必要な物まで惜しむのは吝嗇だ。",
+    "target": "吝嗇",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "吝嗇",
+        "吝嗇",
+        "りんしょく"
+      ]
+    ]
+  },
+  {
+    "index": 708,
+    "id": "jf35f9eba6813",
+    "word": "傑",
+    "reading": "けつ",
+    "ja": "彼は大会の十傑に名を連ねた。",
+    "target": "傑",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "十傑",
+        "十傑",
+        "じっけつ"
+      ]
+    ]
+  },
+  {
+    "index": 720,
+    "id": "jff3e56f790c1",
+    "word": "現場",
+    "reading": "げんじょう",
+    "ja": "事故の現場を詳しく調べた。",
+    "target": "現場",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "現場",
+        "現場",
+        "げんば"
+      ]
+    ]
+  },
+  {
+    "index": 752,
+    "id": "j43a753ee4220",
+    "word": "凝らす",
+    "reading": "こごらす",
+    "ja": "厳しい寒気が池の水を凝らした。",
+    "target": "凝らした",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "凝らし",
+        "凝らす",
+        "こらし"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 753,
+    "id": "j8f2a6a8c4ae3",
+    "word": "凝る",
+    "reading": "こごる",
+    "ja": "冷えた煮汁がすっかり凝った。",
+    "target": "凝った",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "凝っ",
+        "凝る",
+        "こっ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 757,
+    "id": "j82ffcf836a71",
+    "word": "堪える",
+    "reading": "こたえる",
+    "ja": "歯を食いしばって痛みを堪えた。",
+    "target": "堪えた",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "堪え",
+        "堪える",
+        "こらえ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 761,
+    "id": "j59efed6eebf3",
+    "word": "個別",
+    "reading": "こべつ",
+    "ja": "事情が違うので個別に相談したい。",
+    "target": "個別",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "個別",
+        "個別",
+        "こべつ"
+      ]
+    ]
+  },
+  {
+    "index": 763,
+    "id": "j855a4be25408",
+    "word": "魂",
+    "reading": "こん",
+    "ja": "古い思想では魂と魄を区別する。",
+    "target": "魂",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "魂",
+        "魂",
+        "たましい"
+      ]
+    ]
+  },
+  {
+    "index": 771,
+    "id": "je5591b71319e",
+    "word": "ご馳走さま",
+    "reading": "ごちそうさま",
+    "ja": "ご馳走さま、また食べに来ますね。",
+    "target": "ご馳走さま",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "ご",
+        "御",
+        "ご"
+      ],
+      [
+        "馳走",
+        "馳走",
+        "ちそう"
+      ],
+      [
+        "さま",
+        "様",
+        "さま"
+      ]
+    ]
+  },
+  {
+    "index": 773,
+    "id": "j042b91cf4be7",
+    "word": "ご無沙汰",
+    "reading": "ごぶさた",
+    "ja": "すっかりご無沙汰してしまいました。",
+    "target": "ご無沙汰",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "ご",
+        "御",
+        "ご"
+      ],
+      [
+        "無",
+        "無",
+        "む"
+      ],
+      [
+        "沙汰",
+        "沙汰",
+        "さた"
+      ]
+    ]
+  },
+  {
+    "index": 781,
+    "id": "je5198b16b5f7",
+    "word": "盛る",
+    "reading": "さかる",
+    "ja": "炉の火が赤々と盛っていた。",
+    "target": "盛って",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "盛っ",
+        "盛る",
+        "もっ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 783,
+    "id": "j69114bd44743",
+    "word": "一昨昨日",
+    "reading": "さきおととい",
+    "ja": "一昨昨日、友人から手紙が届いた。",
+    "target": "一昨昨日",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "一昨",
+        "一昨",
+        "いっさく"
+      ],
+      [
+        "昨日",
+        "昨日",
+        "きのう"
+      ]
+    ]
+  },
+  {
+    "index": 784,
+    "id": "j6bb9c50db63c",
+    "word": "作物",
+    "reading": "さくぶつ",
+    "ja": "この詩は若い頃の作物である。",
+    "target": "作物",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "作物",
+        "作物",
+        "さくもつ"
+      ]
+    ]
+  },
+  {
+    "index": 790,
+    "id": "j8918bd027939",
+    "word": "三味線",
+    "reading": "さみせん",
+    "ja": "祖母は三味線を弾くのが好きだ。",
+    "target": "三味線",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "三味",
+        "三味",
+        "しゃみ"
+      ],
+      [
+        "線",
+        "線",
+        "せん"
+      ]
+    ]
+  },
+  {
+    "index": 791,
+    "id": "j253b3510768b",
+    "word": "サンキュー",
+    "reading": "サンキュー",
+    "ja": "手伝ってくれて、サンキュー！",
+    "target": "サンキュー",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "サンキュー",
+        "サンキュー-thank you",
+        "さんきゅー"
+      ]
+    ]
+  },
+  {
+    "index": 792,
+    "id": "j082d0947f6eb",
+    "word": "桟橋",
+    "reading": "さんきょう",
+    "ja": "船は古い桟橋に着いた。",
+    "target": "桟橋",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "桟橋",
+        "桟橋",
+        "さんばし"
+      ]
+    ]
+  },
+  {
+    "index": 797,
+    "id": "j418781f24efa",
+    "word": "雑木",
+    "reading": "ざつぼく",
+    "ja": "庭の隅に雑木が生えている。",
+    "target": "雑木",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "雑木",
+        "雑木",
+        "ぞうき"
+      ]
+    ]
+  },
+  {
+    "index": 807,
+    "id": "jbca701cec907",
+    "word": "施行",
+    "reading": "しぎょう",
+    "ja": "予定どおり式典を施行した。",
+    "target": "施行した",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "施行",
+        "施行",
+        "しこう"
+      ],
+      [
+        "し",
+        "為る",
+        "し"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 825,
+    "id": "j0000922a647f",
+    "word": "僕",
+    "reading": "しもべ",
+    "ja": "彼は王に仕える忠実な僕だった。",
+    "target": "僕",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "僕",
+        "僕",
+        "ぼく"
+      ]
+    ]
+  },
+  {
+    "index": 832,
+    "id": "j877ee4ef5afa",
+    "word": "執着",
+    "reading": "しゅうじゃく",
+    "ja": "名誉への執着を捨てて山に入った。",
+    "target": "執着",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "執着",
+        "執着",
+        "しゅうちゃく"
+      ]
+    ]
+  },
+  {
+    "index": 847,
+    "id": "j759000be904d",
+    "word": "背負う",
+    "reading": "しょう",
+    "ja": "父は子供を背負って山道を歩いた。",
+    "target": "背負って",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "背負っ",
+        "背負う",
+        "せおっ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 848,
+    "id": "jc2485156bf30",
+    "word": "象",
+    "reading": "しょう",
+    "ja": "月の象を鏡に映した意匠だ。",
+    "target": "象",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "象",
+        "象",
+        "ぞう"
+      ]
+    ]
+  },
+  {
+    "index": 849,
+    "id": "j07ae0b6d823c",
+    "word": "消耗",
+    "reading": "しょうこう",
+    "ja": "長い旅で体力を消耗した。",
+    "target": "消耗した",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "消耗",
+        "消耗",
+        "しょうもう"
+      ],
+      [
+        "し",
+        "為る",
+        "し"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 851,
+    "id": "j5197cddbaf76",
+    "word": "所々",
+    "reading": "しょしょ",
+    "ja": "古い城壁は所々に傷がある。",
+    "target": "所々",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "所々",
+        "所々",
+        "ところどころ"
+      ]
+    ]
+  },
+  {
+    "index": 852,
+    "id": "j6a4547d509d4",
+    "word": "所定",
+    "reading": "しょてい",
+    "ja": "所定の用紙に氏名を記入してください。",
+    "target": "所定",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "所定",
+        "所定",
+        "しょてい"
+      ]
+    ]
+  },
+  {
+    "index": 857,
+    "id": "j490aa827cf2d",
+    "word": "代",
+    "reading": "しろ",
+    "ja": "布を切るときは縫い代を残す。",
+    "target": "代",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "縫い代",
+        "縫い代",
+        "ぬいしろ"
+      ]
+    ]
+  },
+  {
+    "index": 858,
+    "id": "j6a6a1a92bd72",
+    "word": "殿",
+    "reading": "しんがり",
+    "ja": "隊長が殿を務めて全員の撤退を待った。",
+    "target": "殿",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "殿",
+        "殿",
+        "との"
+      ]
+    ]
+  },
+  {
+    "index": 860,
+    "id": "jc6d9569f14a4",
+    "word": "新興",
+    "reading": "しんこう",
+    "ja": "新興企業が次々と市場に参入した。",
+    "target": "新興",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "新興",
+        "新興",
+        "しんこう"
+      ]
+    ]
+  },
+  {
+    "index": 864,
+    "id": "j1b7d6662c03a",
+    "word": "審判",
+    "reading": "しんばん",
+    "ja": "審判の笛で試合が始まった。",
+    "target": "審判",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "審判",
+        "審判",
+        "しんぱん"
+      ]
+    ]
+  },
+  {
+    "index": 866,
+    "id": "j536e0d18d2a6",
+    "word": "地方",
+    "reading": "じかた",
+    "ja": "地方の三味線に合わせて舞う。",
+    "target": "地方",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "地方",
+        "地方",
+        "ちほう"
+      ]
+    ]
+  },
+  {
+    "index": 869,
+    "id": "j5503b29963d0",
+    "word": "地形",
+    "reading": "じぎょう",
+    "ja": "山々に囲まれた険しい地形である。",
+    "target": "地形",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "地形",
+        "地形",
+        "ちけい"
+      ]
+    ]
+  },
+  {
+    "index": 871,
+    "id": "jf67a631bbbce",
+    "word": "事前",
+    "reading": "じぜん",
+    "ja": "参加する方は事前にご連絡ください。",
+    "target": "事前",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "事前",
+        "事前",
+        "じぜん"
+      ]
+    ]
+  },
+  {
+    "index": 875,
+    "id": "jc0b7ce607a74",
+    "word": "十分",
+    "reading": "じっぷん",
+    "ja": "駅まで歩いて十分ほどかかる。",
+    "target": "十分",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "十",
+        "十",
+        "じゅう"
+      ],
+      [
+        "分",
+        "分",
+        "ふん"
+      ]
+    ]
+  },
+  {
+    "index": 881,
+    "id": "jb09ba256907f",
+    "word": "重複",
+    "reading": "じゅうふく",
+    "ja": "名簿に同じ名前の重複があった。",
+    "target": "重複",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "重複",
+        "重複",
+        "ちょうふく"
+      ]
+    ]
+  },
+  {
+    "index": 882,
+    "id": "j7898616ad1a9",
+    "word": "重宝",
+    "reading": "じゅうほう",
+    "ja": "この刀は代々伝わる家の重宝だ。",
+    "target": "重宝",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "重宝",
+        "重宝",
+        "ちょうほう"
+      ]
+    ]
+  },
+  {
+    "index": 885,
+    "id": "jc5460fd7800e",
+    "word": "助",
+    "reading": "じょ",
+    "ja": "この資料が研究の助となれば幸いです。",
+    "target": "助",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "助",
+        "助",
+        "すけ"
+      ]
+    ]
+  },
+  {
+    "index": 889,
+    "id": "j662775107b19",
+    "word": "乗客",
+    "reading": "じょうかく",
+    "ja": "乗客は静かに船を降りた。",
+    "target": "乗客",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "乗客",
+        "乗客",
+        "じょうきゃく"
+      ]
+    ]
+  },
+  {
+    "index": 890,
+    "id": "je3ea2fb84564",
+    "word": "情緒",
+    "reading": "じょうしょ",
+    "ja": "幼い子はまだ情緒が安定しない。",
+    "target": "情緒",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "情緒",
+        "情緒",
+        "じょうちょ"
+      ]
+    ]
+  },
+  {
+    "index": 891,
+    "id": "j5a02a6b04f91",
+    "word": "丈夫",
+    "reading": "じょうふ",
+    "ja": "危機にひるまぬ丈夫であれ。",
+    "target": "丈夫",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "丈夫",
+        "丈夫",
+        "じょうぶ"
+      ]
+    ]
+  },
+  {
+    "index": 895,
+    "id": "j59abcf0f11ec",
+    "word": "人",
+    "reading": "じん",
+    "ja": "私はベトナム人です。",
+    "target": "人",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "人",
+        "人",
+        "にん"
+      ]
+    ]
+  },
+  {
+    "index": 896,
+    "id": "j25f4aa93ecf6",
+    "word": "人目",
+    "reading": "じんもく",
+    "ja": "人目を避けて裏道を歩いた。",
+    "target": "人目",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "人目",
+        "人目",
+        "ひとめ"
+      ]
+    ]
+  },
+  {
+    "index": 897,
+    "id": "j4448ab01dbfd",
+    "word": "水気",
+    "reading": "すいき",
+    "ja": "朝の森は水気を帯びていた。",
+    "target": "水気",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "水気",
+        "水気",
+        "みずけ"
+      ]
+    ]
+  },
+  {
+    "index": 909,
+    "id": "j10a6ac8ff635",
+    "word": "天皇",
+    "reading": "すめらぎ",
+    "ja": "古い歌には天皇をたたえる言葉がある。",
+    "target": "天皇",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "天皇",
+        "天皇",
+        "てんのう"
+      ]
+    ]
+  },
+  {
+    "index": 910,
+    "id": "j6bd1f68bccb5",
+    "word": "剃る",
+    "reading": "する",
+    "ja": "僧は頭を剃って山に入った。",
+    "target": "剃って",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "剃っ",
+        "剃る",
+        "そっ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 934,
+    "id": "j2067a73a8126",
+    "word": "世論",
+    "reading": "せろん",
+    "ja": "この事件は世論に大きな影響を与えた。",
+    "target": "世論",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "世論",
+        "輿論",
+        "よろん"
+      ]
+    ]
+  },
+  {
+    "index": 940,
+    "id": "j3d6062f9db2c",
+    "word": "先先月",
+    "reading": "せんせんげつ",
+    "ja": "先先月から日本語を習っている。",
+    "target": "先先月",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "先",
+        "先",
+        "さき"
+      ],
+      [
+        "先月",
+        "先月",
+        "せんげつ"
+      ]
+    ]
+  },
+  {
+    "index": 941,
+    "id": "j1152a5414bff",
+    "word": "先先週",
+    "reading": "せんせんしゅう",
+    "ja": "先先週、祖母の家を訪ねた。",
+    "target": "先先週",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "先",
+        "先",
+        "さき"
+      ],
+      [
+        "先週",
+        "先週",
+        "せんしゅう"
+      ]
+    ]
+  },
+  {
+    "index": 959,
+    "id": "j3fee78bfe423",
+    "word": "然して",
+    "reading": "そして",
+    "ja": "雨がやんだ。然して虹が出た。",
+    "target": "然して",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "然して",
+        "而して",
+        "しこうして"
+      ]
+    ]
+  },
+  {
+    "index": 960,
+    "id": "j9b468d68264d",
+    "word": "外方",
+    "reading": "そっぽ",
+    "ja": "名前を呼ぶと、猫は外方を向いた。",
+    "target": "外方",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "外方",
+        "外方",
+        "がいほう"
+      ]
+    ]
+  },
+  {
+    "index": 970,
+    "id": "jded7b1c2f04d",
+    "word": "沿い",
+    "reading": "ぞい",
+    "ja": "川沿いをゆっくり散歩した。",
+    "target": "沿い",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "川沿い",
+        "川沿い",
+        "かわぞい"
+      ]
+    ]
+  },
+  {
+    "index": 984,
+    "id": "j46b74b157391",
+    "word": "館",
+    "reading": "たち",
+    "ja": "領主の館は丘の上にあった。",
+    "target": "館",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "館",
+        "館",
+        "やかた"
+      ]
+    ]
+  },
+  {
+    "index": 985,
+    "id": "j7880c3558ab6",
+    "word": "立方",
+    "reading": "たちかた",
+    "ja": "立方を変えると背中が楽になった。",
+    "target": "立方",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "立方",
+        "立方",
+        "りっぽう"
+      ]
+    ]
+  },
+  {
+    "index": 986,
+    "id": "j0385df07300a",
+    "word": "尊い",
+    "reading": "たっとい",
+    "ja": "多くの尊い命が戦争で失われた。",
+    "target": "尊い",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "尊い",
+        "尊い",
+        "とうとい"
+      ]
+    ]
+  },
+  {
+    "index": 987,
+    "id": "j87663ded296a",
+    "word": "貴い",
+    "reading": "たっとい",
+    "ja": "家族と過ごす時間は何よりも貴い。",
+    "target": "貴い",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "貴い",
+        "尊い",
+        "とうとい"
+      ]
+    ]
+  },
+  {
+    "index": 988,
+    "id": "j1d08317d64d1",
+    "word": "尊ぶ",
+    "reading": "たっとぶ",
+    "ja": "祖母は古くからの教えを尊ぶ。",
+    "target": "尊ぶ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "尊ぶ",
+        "尊ぶ",
+        "とうとぶ"
+      ]
+    ]
+  },
+  {
+    "index": 989,
+    "id": "j2509403a94ea",
+    "word": "掌",
+    "reading": "たなごころ",
+    "ja": "掌に小さな貝殻を載せた。",
+    "target": "掌",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "掌",
+        "掌",
+        "てのひら"
+      ]
+    ]
+  },
+  {
+    "index": 993,
+    "id": "j93b6841c6ec1",
+    "word": "例",
+    "reading": "ためし",
+    "ja": "彼が約束を守った例はない。",
+    "target": "例",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "例",
+        "例",
+        "れい"
+      ]
+    ]
+  },
+  {
+    "index": 995,
+    "id": "j31e12977856a",
+    "word": "弛む",
+    "reading": "たるむ",
+    "ja": "荷物を縛ったロープが弛んできた。",
+    "target": "弛んで",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "弛ん",
+        "緩む",
+        "ゆるん"
+      ],
+      [
+        "で",
+        "て",
+        "で"
+      ]
+    ]
+  },
+  {
+    "index": 1016,
+    "id": "j68a8caf8bf50",
+    "word": "父母",
+    "reading": "ちちはは",
+    "ja": "故郷で待つ父母に手紙を書いた。",
+    "target": "父母",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "父母",
+        "父母",
+        "ふぼ"
+      ]
+    ]
+  },
+  {
+    "index": 1024,
+    "id": "jbd547535595e",
+    "word": "昼間",
+    "reading": "ちゅうかん",
+    "ja": "この道路は昼間だけ通行できる。",
+    "target": "昼間",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "昼間",
+        "昼間",
+        "ひるま"
+      ]
+    ]
+  },
+  {
+    "index": 1025,
+    "id": "jb15d1a07983c",
+    "word": "中指",
+    "reading": "ちゅうし",
+    "ja": "右手の中指に指輪をはめた。",
+    "target": "中指",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "中指",
+        "中指",
+        "なかゆび"
+      ]
+    ]
+  },
+  {
+    "index": 1029,
+    "id": "jc49951a2eed2",
+    "word": "仲人",
+    "reading": "ちゅうにん",
+    "ja": "叔父が二人の仲人を務めた。",
+    "target": "仲人",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "仲人",
+        "仲人",
+        "なこうど"
+      ]
+    ]
+  },
+  {
+    "index": 1033,
+    "id": "j7304043fbfdf",
+    "word": "塵取り",
+    "reading": "ちりとり",
+    "ja": "ほうきで集めたごみを塵取りに入れた。",
+    "target": "塵取り",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "塵取り",
+        "塵取り",
+        "ごみとり"
+      ]
+    ]
+  },
+  {
+    "index": 1041,
+    "id": "jb3fbe3565d56",
+    "word": "接ぐ",
+    "reading": "つぐ",
+    "ja": "破れた布に別の布を接いだ。",
+    "target": "接いだ",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "接い",
+        "接ぐ",
+        "はい"
+      ],
+      [
+        "だ",
+        "た",
+        "だ"
+      ]
+    ]
+  },
+  {
+    "index": 1044,
+    "id": "jc326198dcf1c",
+    "word": "銃",
+    "reading": "つつ",
+    "ja": "兵は古い銃を肩に担いだ。",
+    "target": "銃",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "銃",
+        "銃",
+        "じゅう"
+      ]
+    ]
+  },
+  {
+    "index": 1045,
+    "id": "je1716cdfe74d",
+    "word": "伝言",
+    "reading": "つてこと",
+    "ja": "旅先の友から伝言を預かった。",
+    "target": "伝言",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "伝言",
+        "伝言",
+        "でんごん"
+      ]
+    ]
+  },
+  {
+    "index": 1048,
+    "id": "j1cf171dbc617",
+    "word": "詰らない",
+    "reading": "つまらない",
+    "ja": "一人で待つのは詰らない。",
+    "target": "詰らない",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "詰ら",
+        "詰る",
+        "なじら"
+      ],
+      [
+        "ない",
+        "ない",
+        "ない"
+      ]
+    ]
+  },
+  {
+    "index": 1049,
+    "id": "ja8e4f8240c51",
+    "word": "露",
+    "reading": "つゆ",
+    "ja": "朝の葉に露が光っている。",
+    "target": "露",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "露",
+        "露",
+        "ろ"
+      ]
+    ]
+  },
+  {
+    "index": 1056,
+    "id": "j541b5f157562",
+    "word": "体",
+    "reading": "てい",
+    "ja": "彼はほうほうの体で逃げ帰った。",
+    "target": "体",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "体",
+        "体",
+        "からだ"
+      ]
+    ]
+  },
+  {
+    "index": 1057,
+    "id": "j64ad3ee9ad88",
+    "word": "梯子",
+    "reading": "ていし",
+    "ja": "高い棚の本を梯子で取った。",
+    "target": "梯子",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "梯子",
+        "梯子",
+        "はしご"
+      ]
+    ]
+  },
+  {
+    "index": 1058,
+    "id": "j9cd11172a94a",
+    "word": "手数",
+    "reading": "てかず",
+    "ja": "少ない手数で相手の王を詰めた。",
+    "target": "手数",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "手数",
+        "手数",
+        "てすう"
+      ]
+    ]
+  },
+  {
+    "index": 1074,
+    "id": "j61df493f1291",
+    "word": "出入り口",
+    "reading": "でいりぐち",
+    "ja": "出入り口に荷物を置かないでください。",
+    "target": "出入り口",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "出入り",
+        "出入り",
+        "でいり"
+      ],
+      [
+        "口",
+        "口",
+        "くち"
+      ]
+    ]
+  },
+  {
+    "index": 1081,
+    "id": "j74bc990c4033",
+    "word": "問屋",
+    "reading": "といや",
+    "ja": "問屋から商品をまとめて仕入れた。",
+    "target": "問屋",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "問屋",
+        "問屋",
+        "とんや"
+      ]
+    ]
+  },
+  {
+    "index": 1082,
+    "id": "j2442e1fd4b7c",
+    "word": "棟",
+    "reading": "とう",
+    "ja": "新しい校舎が二棟建った。",
+    "target": "棟",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "棟",
+        "棟",
+        "むね"
+      ]
+    ]
+  },
+  {
+    "index": 1084,
+    "id": "j5801e0207a3c",
+    "word": "統治",
+    "reading": "とうじ",
+    "ja": "王は広い領土を統治した。",
+    "target": "統治した",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "統治",
+        "統治",
+        "とうち"
+      ],
+      [
+        "し",
+        "為る",
+        "し"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 1087,
+    "id": "j774ea0878d10",
+    "word": "丁々",
+    "reading": "とうとう",
+    "ja": "森に丁々と斧の音が響いた。",
+    "target": "丁々",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "丁々",
+        "丁々",
+        "ちょうちょう"
+      ]
+    ]
+  },
+  {
+    "index": 1092,
+    "id": "jd66a284a078e",
+    "word": "床",
+    "reading": "とこ",
+    "ja": "今夜は早めに床に就こう。",
+    "target": "床",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "床",
+        "床",
+        "ゆか"
+      ]
+    ]
+  },
+  {
+    "index": 1100,
+    "id": "jcabb68a2c4e6",
+    "word": "灯",
+    "reading": "ともしび",
+    "ja": "窓辺の灯が暗い道を照らしていた。",
+    "target": "灯",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "灯",
+        "明かり",
+        "あかり"
+      ]
+    ]
+  },
+  {
+    "index": 1120,
+    "id": "j780501729d8e",
+    "word": "土産",
+    "reading": "どさん",
+    "ja": "この土地の土産として良質の茶が知られる。",
+    "target": "土産",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "土産",
+        "土産",
+        "みやげ"
+      ]
+    ]
+  },
+  {
+    "index": 1125,
+    "id": "je97630f1fd28",
+    "word": "何れ何れ",
+    "reading": "どれどれ",
+    "ja": "何れ何れ、傷を見せてごらん。",
+    "target": "何れ何れ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "何れ",
+        "何れ",
+        "いずれ"
+      ],
+      [
+        "何れ",
+        "何れ",
+        "いずれ"
+      ]
+    ]
+  },
+  {
+    "index": 1132,
+    "id": "j0cd64352d9dc",
+    "word": "何気ない",
+    "reading": "なにげない",
+    "ja": "何気ない一言に励まされた。",
+    "target": "何気ない",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "何",
+        "何",
+        "なん"
+      ],
+      [
+        "気",
+        "気",
+        "げ"
+      ],
+      [
+        "ない",
+        "無い",
+        "ない"
+      ]
+    ]
+  },
+  {
+    "index": 1135,
+    "id": "j3cd8319de548",
+    "word": "七日",
+    "reading": "なぬか",
+    "ja": "七日の朝、故郷を旅立った。",
+    "target": "七日",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "七",
+        "七",
+        "なな"
+      ],
+      [
+        "日",
+        "日",
+        "か"
+      ]
+    ]
+  },
+  {
+    "index": 1137,
+    "id": "jbdb2207c3d1d",
+    "word": "鈍る",
+    "reading": "なまる",
+    "ja": "運動を休んで体が鈍ってしまった。",
+    "target": "鈍って",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "鈍っ",
+        "鈍る",
+        "にぶっ"
+      ],
+      [
+        "て",
+        "て",
+        "て"
+      ]
+    ]
+  },
+  {
+    "index": 1144,
+    "id": "j8ea60d63bb43",
+    "word": "南",
+    "reading": "なん",
+    "ja": "麻雀で南を一枚捨てた。",
+    "target": "南",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "南",
+        "南",
+        "みなみ"
+      ]
+    ]
+  },
+  {
+    "index": 1153,
+    "id": "jc35803ba27e4",
+    "word": "音",
+    "reading": "ね",
+    "ja": "窓の外から虫の音が聞こえる。",
+    "target": "音",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "音",
+        "音",
+        "おと"
+      ]
+    ]
+  },
+  {
+    "index": 1157,
+    "id": "j8aaa59a11703",
+    "word": "鼠",
+    "reading": "ねず",
+    "ja": "鼠の紬に白い帯を締めた。",
+    "target": "鼠",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "鼠",
+        "鼠",
+        "ねずみ"
+      ]
+    ]
+  },
+  {
+    "index": 1173,
+    "id": "j108510dcb41d",
+    "word": "墓地",
+    "reading": "はかち",
+    "ja": "丘の上の墓地に祖父は眠っている。",
+    "target": "墓地",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "墓地",
+        "墓地",
+        "ぼち"
+      ]
+    ]
+  },
+  {
+    "index": 1180,
+    "id": "je3db3eb64661",
+    "word": "機",
+    "reading": "はた",
+    "ja": "祖母は機で絹の布を織っていた。",
+    "target": "機",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "機",
+        "機",
+        "き"
+      ]
+    ]
+  },
+  {
+    "index": 1182,
+    "id": "j92c45a56133c",
+    "word": "発足",
+    "reading": "はっそく",
+    "ja": "新しい研究会が来月発足する。",
+    "target": "発足する",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "発足",
+        "発足",
+        "ほっそく"
+      ],
+      [
+        "する",
+        "為る",
+        "する"
+      ]
+    ]
+  },
+  {
+    "index": 1191,
+    "id": "jce279aaa24c4",
+    "word": "版",
+    "reading": "はん",
+    "ja": "この本は版によって内容が異なる。",
+    "target": "版",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "版",
+        "版",
+        "ばん"
+      ]
+    ]
+  },
+  {
+    "index": 1199,
+    "id": "ja3c5e7790d71",
+    "word": "罰",
+    "reading": "ばち",
+    "ja": "そんな嘘をつくと罰が当たるよ。",
+    "target": "罰",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "罰",
+        "罰",
+        "ばつ"
+      ]
+    ]
+  },
+  {
+    "index": 1202,
+    "id": "j8f6c01b06dde",
+    "word": "万",
+    "reading": "ばん",
+    "ja": "万遺漏なきよう準備を整えた。",
+    "target": "万",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "万",
+        "万",
+        "まん"
+      ]
+    ]
+  },
+  {
+    "index": 1203,
+    "id": "jba53fbe11166",
+    "word": "判",
+    "reading": "ばん",
+    "ja": "資料はＡ４判で配ってください。",
+    "target": "判",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "判",
+        "判",
+        "はん"
+      ]
+    ]
+  },
+  {
+    "index": 1204,
+    "id": "j255733ebac23",
+    "word": "万人",
+    "reading": "ばんじん",
+    "ja": "万人に好かれる作品はない。",
+    "target": "万人",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "万人",
+        "万人",
+        "ばんにん"
+      ]
+    ]
+  },
+  {
+    "index": 1239,
+    "id": "j1c560180769f",
+    "word": "文",
+    "reading": "ふみ",
+    "ja": "遠い都から母の文が届いた。",
+    "target": "文",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "文",
+        "文",
+        "ぶん"
+      ]
+    ]
+  },
+  {
+    "index": 1248,
+    "id": "j864732ce944b",
+    "word": "打付ける",
+    "reading": "ぶつける",
+    "ja": "急いで立ち上がり、頭を棚に打付けた。",
+    "target": "打付けた",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "打付け",
+        "打ち付ける",
+        "うちつけ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 1271,
+    "id": "j31a20a6af9ba",
+    "word": "報じる",
+    "reading": "ほうじる",
+    "ja": "新聞は選挙の結果を大きく報じた。",
+    "target": "報じた",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "報じ",
+        "報ずる",
+        "ほうじ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 1289,
+    "id": "jc9f96db73354",
+    "word": "卯",
+    "reading": "ぼう",
+    "ja": "卯は十二支の四番目に当たる。",
+    "target": "卯",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "卯",
+        "卯",
+        "う"
+      ]
+    ]
+  },
+  {
+    "index": 1293,
+    "id": "j6a3dad5443dc",
+    "word": "坊ちゃん",
+    "reading": "ぼっちゃん",
+    "ja": "坊ちゃんはもう学校に慣れましたか。",
+    "target": "坊ちゃん",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "坊",
+        "坊",
+        "ぼう"
+      ],
+      [
+        "ちゃん",
+        "ちゃん",
+        "ちゃん"
+      ]
+    ]
+  },
+  {
+    "index": 1301,
+    "id": "j959a582750b3",
+    "word": "真心",
+    "reading": "まこころ",
+    "ja": "真心を込めて手紙を書いた。",
+    "target": "真心",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "真心",
+        "真心",
+        "まごころ"
+      ]
+    ]
+  },
+  {
+    "index": 1303,
+    "id": "j90bf506f1a32",
+    "word": "瞬き",
+    "reading": "またたき",
+    "ja": "澄んだ夜空に星の瞬きが見える。",
+    "target": "瞬き",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "瞬き",
+        "瞬き",
+        "まばたき"
+      ]
+    ]
+  },
+  {
+    "index": 1305,
+    "id": "j2fdb330b452a",
+    "word": "真っ二つ",
+    "reading": "まっぷたつ",
+    "ja": "強い風で枝が真っ二つに折れた。",
+    "target": "真っ二つ",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "真っ",
+        "真",
+        "まっ"
+      ],
+      [
+        "二",
+        "二",
+        "ふた"
+      ],
+      [
+        "つ",
+        "つ",
+        "つ"
+      ]
+    ]
+  },
+  {
+    "index": 1306,
+    "id": "j0e7f6d9b8305",
+    "word": "免れる",
+    "reading": "まぬかれる",
+    "ja": "幸いにも大きな被害は免れた。",
+    "target": "免れた",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "免れ",
+        "免れる",
+        "まぬがれ"
+      ],
+      [
+        "た",
+        "た",
+        "た"
+      ]
+    ]
+  },
+  {
+    "index": 1311,
+    "id": "j6ccf037061fa",
+    "word": "真ん丸い",
+    "reading": "まんまるい",
+    "ja": "真ん丸い月が海の上に浮かんでいた。",
+    "target": "真ん丸い",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "真ん丸い",
+        "真ん丸い",
+        "まんまりい"
+      ]
+    ]
+  },
+  {
+    "index": 1313,
+    "id": "jf7e4e7d13c26",
+    "word": "三",
+    "reading": "み",
+    "ja": "三つのりんごを家族で分けた。",
+    "target": "三",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "三",
+        "三",
+        "みっ"
+      ]
+    ]
+  },
+  {
+    "index": 1315,
+    "id": "j6ec4d1caa895",
+    "word": "三日月",
+    "reading": "みかずき",
+    "ja": "夕空に細い三日月が見えた。",
+    "target": "三日月",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "三",
+        "三",
+        "みっ"
+      ],
+      [
+        "日",
+        "日",
+        "か"
+      ],
+      [
+        "月",
+        "月",
+        "つき"
+      ]
+    ]
+  },
+  {
+    "index": 1328,
+    "id": "j18bf73af8385",
+    "word": "六",
+    "reading": "む",
+    "ja": "客のために六つの椅子を並べた。",
+    "target": "六",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "六",
+        "六",
+        "むい"
+      ]
+    ]
+  },
+  {
+    "index": 1351,
+    "id": "j3402672f6cbe",
+    "word": "基",
+    "reading": "もとい",
+    "ja": "日々の努力が成功の基となる。",
+    "target": "基",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "基",
+        "基",
+        "もと"
+      ]
+    ]
+  },
+  {
+    "index": 1360,
+    "id": "j77e75432f84a",
+    "word": "夜行",
+    "reading": "やぎょう",
+    "ja": "絵巻には百鬼夜行の様子が描かれる。",
+    "target": "夜行",
+    "status": "same-default-lemma-requested-reading-unconfirmed",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "夜行",
+        "夜行",
+        "やこう"
+      ]
+    ]
+  },
+  {
+    "index": 1361,
+    "id": "jbba2ef0085dd",
+    "word": "優",
+    "reading": "やさ",
+    "ja": "優な姿で舞う人に見とれた。",
+    "target": "優",
+    "status": "manual-JMdict-review-only",
+    "lemma_confirmed": false,
+    "tokens": [
+      [
+        "優",
+        "優",
+        "ゆう"
+      ]
+    ]
+  },
+  {
+    "index": 1362,
+    "id": "j37cad4a19203",
+    "word": "社",
+    "reading": "やしろ",
+    "ja": "森の奥に小さな社がある。",
+    "target": "社",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "社",
+        "社",
+        "しゃ"
+      ]
+    ]
+  },
+  {
+    "index": 1365,
+    "id": "j61dfc42a1627",
+    "word": "夜中",
+    "reading": "やちゅう",
+    "ja": "夜中の外出は控えるよう命じられた。",
+    "target": "夜中",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "夜中",
+        "夜中",
+        "よなか"
+      ]
+    ]
+  },
+  {
+    "index": 1382,
+    "id": "j788e14462b67",
+    "word": "葦",
+    "reading": "よし",
+    "ja": "川辺で葦が風に揺れている。",
+    "target": "葦",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "葦",
+        "葦",
+        "あし"
+      ]
+    ]
+  },
+  {
+    "index": 1389,
+    "id": "j1073cbb01017",
+    "word": "利根",
+    "reading": "りこん",
+    "ja": "利根の弟子は一度で教えを悟った。",
+    "target": "利根",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "利根",
+        "トネ",
+        "とね"
+      ]
+    ]
+  },
+  {
+    "index": 1402,
+    "id": "j66f061ba9faf",
+    "word": "連中",
+    "reading": "れんじゅう",
+    "ja": "長唄の連中が舞台に並んだ。",
+    "target": "連中",
+    "status": "alternative-Unidic-lexeme-confirmed",
+    "lemma_confirmed": true,
+    "tokens": [
+      [
+        "連中",
+        "連中",
+        "れんちゅう"
+      ]
+    ]
+  }
+]

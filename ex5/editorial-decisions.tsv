@@ -1,0 +1,1409 @@
+0|L|1|1|=
+1|A|1|お兄さんは大学生ですか。|お兄さん|Anh trai bạn là sinh viên đại học à?|Respectful reference to the listener's older brother.
+2|A|1|お姉さんも一緒に来ますか。|お姉さん|Chị gái bạn cũng đến cùng à?|Polite reference to the listener's older sister.
+3|A|1|火曜日は学校が休みです。|火曜日|Thứ ba được nghỉ học.|Simple weekday and school schedule.
+4|A|1|このカレーは少し辛いです。|辛い|Món cà ri này hơi cay.|Food context distinguishes spicy from painful.
+5|A|1|この町には外国人も住んでいます。|外国人|Thị trấn này cũng có người nước ngoài sinh sống.|Neutral statement about residents.
+6|A|1|金曜日に友達と会います。|金曜日|Thứ sáu tôi sẽ gặp bạn.|Basic weekday plan.
+7|A|1|授業は九時に始まります。|九|Giờ học bắt đầu lúc chín giờ.|Nine is read ku before ji, not kyuu.
+8|A|1|月曜日から仕事が始まります。|月曜日|Công việc bắt đầu từ thứ hai.|Simple weekly schedule.
+9|L|0|1|Ngày mùng chín tháng sau, bố mẹ sẽ đến nhà tôi chơi.
+10|L|0|1|Năm sau nữa tôi sẽ về nước.
+11|L|0|1|Tom, đưa giúp tôi chai nước tương ở đằng kia.
+12|A|1|水曜日に図書館へ行きます。|水曜日|Thứ tư tôi sẽ đến thư viện.|Basic weekday and familiar destination.
+13|A|1|誕生日はいつですか。|誕生日|Sinh nhật bạn vào ngày nào?|Common introductory question.
+14|L|1|1|Trên bàn có một cái bát.
+15|A|1|今夜はとり肉を焼きます。|とり肉|Tối nay tôi sẽ nướng thịt gà.|Everyday cooking context for chicken meat.
+16|A|1|土曜日は家で休みます。|土曜日|Thứ bảy tôi nghỉ ngơi ở nhà.|Basic weekend routine.
+17|A|1|りんごを七つください。|七つ|Cho tôi bảy quả táo.|Concrete general counter, not age or old timekeeping.
+18|A|1|来月の七日に帰ります。|七日|Tôi sẽ về vào ngày mùng bảy tháng sau.|Calendar context fixes nanoka as the seventh.
+19|A|1|日曜日に公園で遊びます。|日曜日|Chủ nhật tôi sẽ ra công viên chơi.|Simple day and leisure activity.
+20|A|1|この箱に本を入れてください。|箱|Hãy cho sách vào chiếc hộp này.|Concrete container, not a counter or figurative sense.
+21|A|1|姉は今年で二十歳です。|二十歳|Năm nay chị tôi tròn hai mươi tuổi.|Age context fixes hatachi.
+22|A|1|一月ほど日本にいました。|一月|Tôi đã ở Nhật khoảng một tháng.|Duration marked by hodo distinguishes hitotsuki from January.
+23|L|2|1|=
+24|A|2|旅行で二日休みます。|二日|Tôi sẽ nghỉ hai ngày để đi du lịch.|Duration, not the second calendar day.
+25|A|1|毎月、本を一冊買います。|毎月|Mỗi tháng tôi mua một quyển sách.|Monthly habit; selected reading maigetsu is retained in metadata.
+26|A|1|毎年、家族で旅行します。|毎年|Năm nào gia đình tôi cũng đi du lịch.|Annual habit; mainen is an accepted reading.
+27|L|0|1|Tôi đã gửi bưu kiện ở bưu điện vào ngày mùng sáu.
+28|A|1|卵を六つ買いました。|六つ|Tôi đã mua sáu quả trứng.|General counter used with familiar food.
+29|A|1|木曜日にテストがあります。|木曜日|Thứ năm có bài kiểm tra.|Simple school schedule.
+30|A|1|パンを八つ買いました。|八つ|Tôi đã mua tám cái bánh mì.|Concrete general counter.
+31|A|1|来月の四日に会いましょう。|四日|Hẹn gặp nhau ngày mùng bốn tháng sau nhé.|Calendar context fixes yokka.
+32|A|1|みかんを四つください。|四つ|Cho tôi bốn quả quýt.|Concrete general counter.
+33|A|1|父はラジオカセットを使っています。|ラジオカセット|Bố tôi vẫn dùng máy cassette có radio.|Older device in a plausible family context.
+34|A|1|古いラジカセで音楽を聞きます。|ラジカセ|Tôi nghe nhạc bằng chiếc radio cassette cũ.|Natural context for an older device.
+35|L|1|1|=
+36|L|1|1|Cảm ơn bạn về chuyện hôm trước nhé.
+37|L|1|1|Anh nhà có ở nhà không ạ?
+38|A|1|先生はこの映画をごらんになりますか。|ごらんになります|Thầy có xem bộ phim này không ạ?|Honorific subject is the teacher; not humble speech.
+39|A|1|さ来月、新しい仕事を始めます。|さ来月|Tháng sau nữa tôi sẽ bắt đầu công việc mới.|Concrete future month; preserves the listed mixed spelling.
+40|L|0|1|Thứ năm tuần sau nữa thì sao?
+41|A|1|弟は学校で柔道を習っています。|柔道|Em trai tôi đang học judo ở trường.|Everyday martial-arts practice without unsupported rule claims.
+42|L|0|2|Bà tôi muối dưa rất khéo.
+43|L|1|1|Tôi đã cắt tóc ở tiệm.
+44|A|1|駅の近くの二階建てに住んでいます。|二階建て|Tôi sống trong căn nhà hai tầng gần ga.|Residential building; avoids historical proper names.
+45|L|0|1|=
+46|L|2|1|=
+47|A|1|明日までにリポートを出します。|リポート|Tôi sẽ nộp bài thu hoạch chậm nhất là ngày mai.|Student paper, not news reportage.
+48|A|1|このクラスは女子の割合が高いです。|割合|Lớp này có tỷ lệ nữ sinh cao.|Ratio sense; not the adverb comparatively.
+49|A|1|魚の粗でだしを取りました。|粗|Tôi đã dùng đầu và xương cá để nấu nước dùng.|Fish remnants distinguish ara from personal flaws.
+50|A|1|朝の市場で新鮮な魚を買いました。|市場|Tôi đã mua cá tươi ở chợ buổi sáng.|Physical marketplace selects ichiba, not shijou.
+51|A|2|いらっしゃい、どうぞ入って。|いらっしゃい|Chào bạn, vào nhà đi nào.|Welcoming a visitor, not the imperative come.
+52|A|1|箱の上ぶたを開けてください。|上|Hãy mở nắp trên của chiếc hộp.|Bound prefix uwa in uwabuta; not standalone ue.
+53|A|1|この包丁は柄が握りやすい。|柄|Cán con dao này cầm rất vừa tay.|Knife handle fixes e and excludes pattern sense.
+54|A|1|子どもが紙に猫を描く。|描く|Đứa trẻ vẽ một con mèo lên giấy.|Concrete drawing; kaku is a permitted reading.
+55|A|1|川の上から小舟が流れてきた。|上|Một chiếc thuyền nhỏ trôi từ thượng nguồn xuống.|River context selects kami, the upper reaches.
+56|A|1|冷蔵庫が空なので買い物に行こう。|空|Tủ lạnh hết sạch đồ rồi, đi chợ thôi.|Empty container fixes kara, not sky.
+57|A|1|この店の静かな雰囲気が気に入った。|気に入った|Tôi thích không khí yên tĩnh của quán này.|Natural past form expressing a personal preference.
+58|A|1|粘土で丸い球を作りました。|球|Tôi đã nặn một quả cầu bằng đất sét.|Geometric sphere, not a pitch counter.
+59|L|0|1|=
+60|L|2|1|Anh ấy kinh doanh một cửa hàng giày.
+61|A|2|この小説の下を読み終えた。|下|Tôi đã đọc xong tập cuối của cuốn tiểu thuyết này.|Volume reading ge; second volume of a two-volume novel.
+62|A|1|父は町の小さな工場で働いている。|工場|Bố tôi làm ở một xưởng nhỏ trong thị trấn.|Small workshop context supports kouba.
+63|A|1|桜は今が盛りです。|盛り|Lúc này hoa anh đào đang nở rộ nhất.|Seasonal peak, not an animal being in heat.
+64|L|0|1|Doanh số đã vượt mức của năm tài chính trước.
+65|L|1|1|Vốn, đất đai và lao động là ba yếu tố chính của sản xuất.
+66|A|1|しまった、財布を家に忘れた。|しまった|Chết rồi, tôi để quên ví ở nhà mất rồi.|Interjection of regret, not conjugated shimau.
+67|A|1|舟で川の下へ向かった。|下|Chúng tôi đi thuyền về phía hạ lưu.|River context selects shimo, not shita.
+68|L|1|1|Con cháu họ đã trở thành thương nhân.
+69|L|0|1|Ở bậc trung học phổ thông, tiếng Anh và toán được chú trọng.
+70|L|2|1|Cho tôi ngồi bàn trong góc được không?
+71|A|1|弟は急に背が伸びた。|背|Em trai tôi cao vọt lên.|Stature sense; sei is a dictionary reading alongside se.
+72|A|1|田に水を引いて稲を育てる。|田|Người ta dẫn nước vào ruộng để trồng lúa.|Agricultural context, not a surname.
+73|A|1|偶の休みは家でゆっくり過ごす。|偶|Hiếm khi được nghỉ, tôi chỉ muốn thong thả ở nhà.|Infrequent holiday; literary kanji for usual tama.
+74|A|1|詳しい説明は下の注を読んでください。|注|Muốn biết rõ hơn, hãy đọc chú thích bên dưới.|Explanatory note, not an annotation marker fragment.
+75|A|1|お客様の茶碗にお茶を注ぐ。|注ぐ|Tôi rót trà vào chén cho khách.|Pouring into a vessel supports tsugu.
+76|A|1|次の停留所でバスを降ります。|停留所|Tôi sẽ xuống xe buýt ở trạm tiếp theo.|Bus context; teiryuujo is the selected reading.
+77|L|2|1|Người cao tuổi thường dậy sớm.
+78|A|1|雨が続いて野菜の値が上がった。|値|Mưa kéo dài khiến giá rau tăng.|Price reading ne, not numerical atai.
+79|A|1|長い年月をかけて森を育てた。|年月|Người ta mất nhiều năm để gây dựng khu rừng.|Elapsed years and months, not a calendar date.
+80|L|3|1|Phần mái hiên phía tây bắc ở mỗi tầng bị gãy, rủ xuống.
+81|A|1|弟は来月、二十になる。|二十|Tháng sau em trai tôi sẽ tròn hai mươi tuổi.|Age reading hatachi; uncommon spelling retained.
+82|A|1|広い原に馬が放たれていた。|原|Những con ngựa được thả trên cánh đồng rộng.|Open field, not a family name.
+83|A|1|梅雨前線が南へ下がった。|梅雨|Dải mưa mùa đã dịch xuống phía nam.|Meteorological compound selects baiu rather than tsuyu.
+84|A|1|窓から暖かな灯が漏れている。|灯|Ánh đèn ấm áp hắt ra từ cửa sổ.|Lamplight, not literal fire.
+85|L|0|1|Tôi lau mồ hôi trên trán rồi nghỉ lấy hơi.
+86|A|2|不器用でも丁寧に作れば大丈夫。|不|Dù vụng về, cứ làm cẩn thận là được.|Negative bu in bukiyou; prefix is not a standalone word.
+87|A|1|体温は三十七度五分だった。|分|Nhiệt độ cơ thể là 37,5 độ.|Bu denotes a tenth of a degree here.
+88|A|2|無愛想だが、親切な人だ。|無|Tuy ít niềm nở nhưng anh ấy rất tốt bụng.|Negative bu in buaisou; not the homograph mu.
+89|L|0|1|Ở đâu cũng bắt gặp chim hồng hạc.
+90|A|2|仏に花を供え、静かに手を合わせた。|仏|Tôi dâng hoa lên tượng Phật rồi lặng lẽ chắp tay.|Buddhist image rather than the deceased.
+91|A|1|城の濠を小舟で巡りました。|濠|Chúng tôi đi thuyền nhỏ quanh hào thành.|Castle moat, not a surname or canal.
+92|A|1|庭の木に赤い実がなった。|実|Cây trong vườn đã ra quả đỏ.|Fruit on a tree, not content or seed.
+93|A|2|担任と保護者が密に連絡を取る。|密|Giáo viên chủ nhiệm và phụ huynh giữ liên lạc chặt chẽ.|Close cooperation, not dense crowds or secrecy.
+94|A|1|上司は作業の中止を命じた。|命じた|Cấp trên ra lệnh dừng công việc.|Workplace order in neutral formal register.
+95|A|1|石碑に刻まれた文字を読み解く。|文字|Tìm cách đọc hiểu những chữ khắc trên bia đá.|Written characters; monji is a literary reading.
+96|L|0|1|Tôi có cảm giác chất lượng giấy báo đã khá hơn một chút.
+97|A|2|次は京都行きの電車です。|行き|Chuyến tiếp theo là tàu đi Kyoto.|Destination suffix read yuki, not an outbound ticket.
+98|A|1|人の悪口を言うのはやめよう。|悪口|Đừng nói xấu người khác nữa.|Bad-mouthing; warukuchi is the listed variant reading.
+99|A|1|畑で育てたアイで布を染める。|アイ|Tôi nhuộm vải bằng cây chàm trồng trong ruộng.|Dye plant context excludes English eye loanword.
+100|A|1|暑いので、うちわで顔を扇いだ。|扇いだ|Trời nóng nên tôi lấy quạt nan quạt mặt.|Physical fanning, not inciting someone.
+101|L|0|1|=
+102|L|2|2|Còn chỗ cho một người nữa không?
+103|L|0|1|=
+104|L|0|1|Không thể áp dụng quy tắc này cho mọi trường hợp.
+105|A|1|池であひるが泳いでいる。|あひる|Mấy con vịt đang bơi trong ao.|Concrete domestic duck, not a name.
+106|L|1|2|Nướng trực tiếp trên lửa rồi ăn.
+107|L|2|1|Cô ấy đang mê đan len.
+108|L|0|1|Khi phóng ảnh lên quá lớn, ảnh sẽ bị nổi hạt.
+109|L|0|1|Bạn có thể tóm tắt câu chuyện giúp tôi không?
+110|L|3|1|Ông còn viết nhiều sách về nông nghiệp.
+111|L|3|1|Đó là một ngày tất bật đủ chuyện.
+112|L|1|1|Những người say mê công việc trông rất tràn đầy sức sống.
+113|L|1|1|Bạn đã bao giờ nghĩ đến việc nghỉ làm để chăm con chưa?
+114|A|1|一昨日、お送りした資料をご確認ください。|一昨日|Xin anh chị kiểm tra tài liệu tôi gửi hôm kia.|Formal business wording supports issakujitsu.
+115|A|1|では、いってまいります。|いってまいります|Vậy tôi xin phép đi ạ.|Polite departure formula implying return.
+116|A|1|いってらっしゃい、気をつけてね。|いってらっしゃい|Đi cẩn thận nhé, hẹn lát gặp lại.|Spoken farewell to someone leaving and returning.
+117|A|1|佚をむさぼり、務めを忘れてはならぬ。|佚|Đừng mải hưởng nhàn mà quên bổn phận.|Rare literary noun for ease; deliberately literary register.
+118|A|1|従姉妹と久しぶりに買い物に行った。|従姉妹|Lâu lắm rồi tôi mới đi mua sắm cùng cô em họ.|Female cousin fixed by spelling, no celebrity names.
+119|L|0|1|Bản đồ khổ lớn không có đường vĩ tuyến hay kinh tuyến.
+120|L|0|1|Rang đậu.
+121|L|0|1|Rang đậu.
+122|A|1|ペンのインキが切れてしまった。|インキ|Bút hết mực mất rồi.|Everyday pen ink; preserves older loanword spelling.
+123|L|0|1|Cô phục vụ trải khăn bàn trắng lên bàn.
+124|A|1|荷物の受取は明日になります。|受取|Ngày mai mới nhận được hàng.|Nominal receiving, not an inflected verb used as a false match.
+125|L|0|1|Pha loãng phần nước nấu còn lại rồi dùng để nấu cơm.
+126|L|0|1|Mấy giờ bắt đầu họp trao đổi?
+127|A|2|出口が分からず、駅をうろうろした。|うろうろした|Không biết lối ra ở đâu, tôi cứ đi loanh quanh trong ga.|Aimless movement explained by a concrete cause.
+128|A|1|姉は忙しいキャリアウーマンだ。|ウーマン|Chị tôi là một phụ nữ bận rộn với sự nghiệp.|Loanword naturally occurs in the compound career woman.
+129|L|0|1|Bạn có biết pha màu đỏ với màu xanh lam sẽ ra màu tím không?
+130|A|1|受付の人が丁寧に応対してくれた。|応対|Nhân viên lễ tân đã tiếp đón tôi rất chu đáo.|Service interaction, not military response.
+131|L|0|1|Ở châu Âu và Mỹ, phong trào cứu thành phố Venice đang chìm dần ngày càng lan rộng.
+132|L|0|2|Tính người đó vốn xuề xòa mà.
+133|L|2|1|Thật tiếc khi nghe chuyện đó.
+134|L|1|1|=
+135|L|2|3|Tôi xin phép về trước ạ.
+136|L|0|1|Xin phép cho tôi vào nhà ạ.
+137|L|1|1|Mong bạn mau khỏe nhé.
+138|L|0|1|Nhà vệ sinh ở đâu ạ?
+139|L|1|1|Anh chị sắp ra ngoài à?
+140|L|0|1|Quầy đồ thất lạc ở đâu ạ?
+141|A|2|後ろから急におどかさないで。|おどかさないで|Đừng bất ngờ hù tôi từ phía sau.|Everyday startling, not a threat.
+142|L|0|1|Mỗi người cần tự đưa ra quyết định có lợi cho bản thân mình.
+143|A|1|おまちどおさま、料理ができました。|おまちどおさま|Xin lỗi đã để anh chị chờ, món ăn xong rồi đây.|Friendly serving formula; not excessively formal service speech.
+144|L|2|1|Trong chuyến du lịch một mình, tôi đã có một cuộc gặp gỡ bất ngờ.
+145|L|0|1|Cứ làm hết mình nào!
+146|A|1|農家が新鮮な野菜を店に卸す。|卸す|Nhà nông bán sỉ rau tươi cho cửa hàng.|Wholesale trade, not grating or filleting.
+147|A|1|宛名には「人事部御中」と書いた。|御中|Tôi ghi ở phần người nhận: Kính gửi Phòng Nhân sự.|Addressing an organization, not an individual.
+148|L|1|1|Họ ngồi hàng ghế đầu trong phòng hòa nhạc để nghe dàn nhạc biểu diễn.
+149|A|1|工場にオートメーションを導入した。|オートメーション|Nhà máy đã áp dụng tự động hóa.|Industrial automation in a concrete workplace.
+150|A|1|寒いのでオーバーコートを着た。|オーバーコート|Trời lạnh nên tôi mặc áo măng tô.|Outerwear, not technical coating.
+151|L|0|1|Chỉ riêng ngày đó trẻ em mới được phép vào hội trường.
+152|L|1|2|Vừa qua cổng soát vé ở ga, tôi đã bị cuốn vào dòng người.
+153|A|1|熱のある社員を早めに家へ帰した。|帰した|Tôi cho nhân viên bị sốt về nhà sớm.|Sending someone home, not returning an object.
+154|L|1|1|Tôi vui vì được điểm tuyệt đối trong bài kiểm tra viết chữ Hán.
+155|L|0|1|Kết quả sẽ được gửi riêng cho từng thí sinh qua bưu điện sau đó.
+156|A|1|図書館は児童書の拡充を進めている。|拡充|Thư viện đang bổ sung thêm nhiều sách thiếu nhi.|Expansion of resources, neutral administrative register.
+157|A|1|さいころで一が出る確率は六分の一だ。|確率|Xác suất gieo xúc xắc ra mặt một là một phần sáu.|Clear probability example with a standard die.
+158|A|1|飛行機はゆっくり下降を始めた。|下降|Máy bay bắt đầu hạ độ cao từ từ.|Physical descent, not a statistical downturn.
+159|A|1|火口から白い煙が上がっている。|火口|Khói trắng đang bốc lên từ miệng núi lửa.|Volcanic crater distinguished from a burner opening.
+160|A|1|駅の近くで貸家を探しています。|貸家|Tôi đang tìm nhà cho thuê gần ga.|Residential rental, selected reading kashiya.
+161|A|1|車の加速度を測定した。|加速度|Chúng tôi đã đo gia tốc của xe.|Physical acceleration, not metaphorical growth.
+162|L|0|2|Cứ ăn toàn hamburger thì sẽ mất cân bằng dinh dưỡng đấy.
+163|A|1|職人が活字を一つずつ並べた。|活字|Người thợ xếp từng con chữ in một.|Physical movable type, not printed writing generally.
+164|A|1|子どもたちの笑顔が町に活力を与える。|活力|Nụ cười của trẻ em mang lại sức sống cho thị trấn.|Social vitality in a natural collocation.
+165|A|1|難しい漢字には仮名を添えた。|仮名|Tôi ghi thêm cách đọc bằng kana bên cạnh những chữ Hán khó.|Japanese syllabary, not a person's alias.
+166|L|0|1|Trong nhạc koto cổ điển, hơn một nửa số bản là thể loại tegotomono.
+167|L|0|1|Tiền giấy của phiên cũng có nguy cơ trở thành giấy lộn nếu phiên bị bãi bỏ.
+168|L|0|1|Dạo gần đây tôi cũng không còn nghe những bài nhạc phổ thông mà ai cũng hát được nữa.
+169|L|2|1|Bộ bài Hyakunin Isshu có một trăm lá đọc và một trăm lá để bắt, tổng cộng hai trăm lá.
+170|L|0|1|Thuở nhỏ, ông thích chăm sóc cá trong ao và chim trong lồng.
+171|L|0|1|Cơn bão đã thổi bay một số viên ngói.
+172|L|0|1|Ở Siberia, nhiều dân tộc bản địa từ lâu đã sống hòa hợp với thiên nhiên vùng hàn đới.
+173|L|1|1|Nói cách khác, tên cơ quan cấp được ghi trên đó.
+174|L|0|1|Viên pin này dùng cũng lâu ra phết nhỉ.
+175|A|1|大学で日本文学の概論を学んだ。|概論|Tôi đã học môn đại cương văn học Nhật ở đại học.|Introductory academic survey.
+176|L|0|1|Về mặt học thuật, tác phẩm này được xem là sách giả mạo.
+177|L|0|1|Anh ấy miệt mài nghiên cứu rồi trình bày kết quả tại hội nghị khoa học.
+178|L|3|1|Vì không có tiêu chí nào khác nên mỗi người đánh giá một kiểu.
+179|A|1|開演前に客席の照明が暗くなった。|客席|Trước khi buổi diễn bắt đầu, đèn khu vực khán giả tối dần.|Theater seating area, not audience members.
+180|L|1|1|Tiết ba và bốn được nghỉ nên tôi tiện ghé chùa Ginkaku-ji chơi.
+181|L|0|1|Công việc không thú vị lắm, nhưng bù lại lương khá tốt.
+182|A|1|山から清い水が流れてくる。|清い|Nước trong lành chảy từ trên núi xuống.|Clear water; concrete rather than moral purity.
+183|L|3|1|Anh ta bị kẻ địch chém.
+184|L|0|1|Anh ấy nhét sách kín cả giá.
+185|L|0|1|Chia thời gian thành từng khoảng để tập trung làm việc sẽ giúp tăng hiệu quả đáng kể.
+186|L|0|1|Đừng hỏi đi hỏi lại mãi nữa. Vừa giải thích rõ rồi còn gì. Dai quá đấy!
+187|L|0|1|Biết đâu đây lại là một sự kết hợp thú vị đấy nhỉ.
+188|L|0|1|Tôi đã cùng người bạn cũ nhâm nhi rượu chuyện trò.
+189|L|1|1|Những tính từ dạng “-tari” bị coi là cổ, nên về sau ngày càng ít được dùng.
+190|A|1|煙いので窓を開けてもいいですか。|煙い|Khói quá, tôi mở cửa sổ được không?|Physical smoke irritation, not interpersonal discomfort.
+191|L|0|1|Kết quả là số quan lại tăng vọt.
+192|L|0|1|Vé này cho phép xuống tàu dọc đường rồi đi tiếp.
+193|L|0|2|Nhà nhân học đó đã thuyết trình về văn hóa nguyên thủy.
+194|L|1|1|Cảnh sát điều tra hết sức nghiêm ngặt.
+195|L|2|1|Thực tế, ông chưa từng một lần làm trợ lý đạo diễn cho Kinoshita Keisuke.
+196|L|0|1|Nguyên lý phát ra âm thanh gần giống với còi.
+197|A|1|この工場では牛乳を原料に使う。|原料|Nhà máy này dùng sữa làm nguyên liệu.|Concrete manufacturing ingredient.
+198|A|1|窓から細い光線が差し込んだ。|光線|Một tia sáng mảnh chiếu qua cửa sổ.|Beam of light, not a painter's style name.
+199|L|1|1|Các điền trang thời Đường và Tống gồm vườn, đất nông nghiệp và nhiều khu đất canh tác.
+200|A|1|母に、少し遅れると言付けた。|言付けた|Tôi nhờ nhắn với mẹ rằng tôi sẽ về muộn một chút.|Leaving a message, not making an excuse.
+201|L|0|1|Nghĩ xem mỗi ngày ăn gì cũng mệt lắm đấy.
+202|A|1|学校のコーラスに参加しています。|コーラス|Tôi đang tham gia đội hợp xướng của trường.|Choral singing group, not a verse count.
+203|L|0|1|Tom đôi lúc hơi áp đặt nhỉ.
+204|A|1|ごちそうさま、とてもおいしかったです。|ごちそうさま|Cảm ơn về bữa ăn, ngon lắm ạ.|Gratitude after a meal, not teasing a couple.
+205|A|1|長らく御無沙汰しております。|御無沙汰|Lâu rồi tôi chưa có dịp liên lạc với anh chị.|Conventional polite reconnection formula.
+206|L|0|1|Ngại phải nhắc, nhưng anh có thể trả giúp tôi số tiền đã mượn hôm trước không?
+207|L|0|1|Không ai nhận ra bức tranh đang bị treo ngược.
+208|A|1|仕事帰りに小さな酒場に寄った。|酒場|Trên đường đi làm về, tôi ghé một quán rượu nhỏ.|Ordinary pub visit without named people.
+209|A|1|さきおととい出した手紙がもう届いた。|さきおととい|Lá thư gửi ba hôm trước đã tới nơi rồi.|Three days ago, distinct from day before yesterday.
+210|A|1|巻末の索引で用語を調べる。|索引|Tra thuật ngữ trong mục chỉ dẫn cuối sách.|Book index used for lookup.
+211|A|1|経費を除くと差し引き一万円の利益だ。|差し引き|Trừ chi phí, còn lãi mười nghìn yên.|Balance after deduction, not tides.
+212|A|1|雲の間から日が射してきた。|射して|Nắng bắt đầu ló qua những đám mây.|Sunlight, not shooting an arrow.
+213|L|0|1|Châm thêm nước.
+214|A|1|再来月、引っ越す予定です。|再来月|Tháng sau nữa tôi định chuyển nhà.|Concrete future month.
+215|L|1|2|Núi rừng, đầm lầy và đất hoang cũng được ghi lại.
+216|L|1|1|Nhờ hoạt động câu lạc bộ ở đại học, tôi đã quen được nhiều bạn.
+217|A|1|奥の座敷でお茶をいただいた。|座敷|Tôi được mời uống trà trong căn phòng trải chiếu phía trong.|Tatami room, not a geisha banquet.
+218|A|1|座布団を敷いて、床に座った。|座布団|Tôi trải đệm rồi ngồi xuống sàn.|Floor cushion in use.
+219|L|1|1|Cuộc họp được hoãn đến ba ngày nữa.
+220|A|1|送別会の司会を頼まれた。|司会|Tôi được nhờ dẫn chương trình buổi tiệc chia tay.|Hosting an event.
+221|L|0|1|Cũng có loại bánh taiyaki hình vuông.
+222|L|0|1|Nếu xảy ra chiến tranh hạt nhân, con cháu chúng ta sẽ ra sao?
+223|A|1|湿気を防ぐため、窓を開けておく。|湿気|Tôi mở cửa sổ cho thoáng để tránh ẩm.|Moisture; shikki is a formal variant reading.
+224|L|1|1|Các tuyến đường sắt tư nhân chỉ được phép vận chuyển trong khu vực.
+225|A|1|空気が抜けて風船がしぼんだ。|しぼんだ|Không khí thoát ra làm quả bóng xẹp xuống.|Deflation, distinct from flowers wilting.
+226|A|2|申し込みは今週末で締め切ります。|締め切ります|Chúng tôi nhận đăng ký đến hết cuối tuần này.|Application deadline, not closing windows.
+227|A|1|大学で社会科学を学んでいます。|社会科学|Tôi đang học ngành khoa học xã hội ở đại học.|Academic field in familiar context.
+228|A|1|赤ちゃんが指をしゃぶっている。|しゃぶって|Em bé đang mút tay.|Sucking a finger, ordinary infant behavior.
+229|A|1|係の人が会費の集金に来た。|集金|Người phụ trách đã đến thu hội phí.|Collecting a specified fee.
+230|L|0|1|Đến nơi sớm nên tôi có thời gian đi dạo quanh đó.
+231|L|0|1|Một đặc điểm của tiếng Nhật là thường lược bỏ chủ ngữ khi nói.
+232|L|0|1|Anh ấy đảm nhận vai chính Romeo.
+233|A|2|箱を除くと正味五百グラムです。|正味|Không tính hộp thì khối lượng tịnh là năm trăm gam.|Net weight excludes packaging.
+234|A|1|父は最近、白髪が増えた。|白髪|Dạo này tóc bố tôi bạc nhiều hơn.|Gray hair, everyday family context.
+235|L|2|1|=
+236|L|0|1|Bộ sách này có bốn mươi tám tập.
+237|A|1|夜行列車の寝台でぐっすり眠った。|寝台|Tôi ngủ một giấc ngon lành trên giường nằm của tàu đêm.|Bed on a sleeper train.
+238|A|1|船は嵐を避けて針路を変えた。|針路|Con tàu đổi hướng để tránh bão.|Navigational course, not a career path.
+239|L|0|1|Mặt đất đã bị nâng lên do động đất.
+240|A|1|事故で重体だった人が意識を取り戻した。|重体|Người bị nguy kịch sau tai nạn đã tỉnh lại.|Critical medical condition, not merely severe injury.
+241|A|1|授業では会話練習に重点を置く。|重点|Giờ học chú trọng luyện hội thoại.|Priority expressed by the standard collocation.
+242|A|1|この文の述語に線を引いてください。|述語|Hãy gạch dưới vị ngữ của câu này.|Grammar exercise, not a logic predicate.
+243|L|0|1|Đúng hơn, có thể nói chức dōshin tương đương với cảnh sát cấp tuần cảnh ngày nay.
+244|A|1|名前を呼ばれたら順々に入ってください。|順々|Khi được gọi tên, hãy lần lượt vào trong.|Turn-taking in a polite instruction.
+245|L|0|1|Sau đó, ông trở thành phó giáo sư.
+246|L|0|1|Từ khoảng thập niên 1970, các sản phẩm nhân tạo bằng nhựa vinyl bắt đầu được bán rộng rãi.
+247|L|0|1|Trong số đó, mười một công ty xuất khẩu thực phẩm thủy sản sang Nhật.
+248|A|1|やかんの口から水蒸気が上がる。|水蒸気|Hơi nước bốc lên từ vòi ấm.|Steam from boiling water.
+249|L|0|1|Hôm trời mưa, cửa sổ lớp học đọng đầy những giọt nước.
+250|L|0|1|Bóng cá thấp thoáng trong làn nước biển xanh trong vắt.
+251|L|1|1|Vật liệu chủ yếu là gỗ hông và gỗ tuyết tùng Nhật.
+252|L|0|1|Chỗ này thoáng gió, rất thích hợp để hóng mát.
+253|A|1|混んだ電車では掏摸に気をつけよう。|掏摸|Trên tàu đông người, hãy cẩn thận kẻ móc túi.|Pickpocket as a person; uncommon kanji retained.
+254|L|2|1|Những bản in thời đầu chỉ dùng một màu mực đen được gọi là sumizuri-e.
+255|L|1|1|Ngoài ra còn có tập tùy bút mang tên Fūjin Zuihitsu.
+256|A|1|子どもの頃からずうっとここに住んでいる。|ずうっと|Tôi sống ở đây từ nhỏ đến giờ.|Emphatic continuous duration in casual speech.
+257|L|0|1|Tôi đang tra tên các loài hoa trong vườn bằng sách ảnh thực vật.
+258|L|0|1|Dùng hiệu quả slide, video và sơ đồ sẽ giúp người xem hiểu sâu hơn.
+259|L|0|1|Số biểu diễn được dưới dạng thương của hai số nguyên được gọi là số hữu tỉ.
+260|L|1|1|Sau một thời gian chịu lạnh vào thu đông, cây sinh trưởng và nở hoa khi mùa xuân ấm lên.
+261|A|1|この欄に生年月日を書いてください。|生年月日|Hãy điền ngày tháng năm sinh vào ô này.|Date-of-birth field, standard polite instruction.
+262|L|1|1|Đây là quạt gấp, mở ra như thế này. Người ta dùng vào những ngày hè nóng bức.
+263|L|2|1|Sự kiện này được xem là mốc hoàn tất chế độ chuyên quyền của Tokusō.
+264|A|1|先々月から料理教室に通っています。|先々月|Tôi bắt đầu đi học nấu ăn từ tháng trước nữa.|Two months before the current month.
+265|A|1|先々週借りた本を返しました。|先々週|Tôi đã trả cuốn sách mượn từ tuần trước nữa.|Two weeks ago, not last week.
+266|L|0|1|Mai đến lượt thuyết trình ở lớp chuyên đề. Sợ bị chê tơi tả quá.
+267|L|2|1|Bạn thích tác phẩm hư cấu hay sách phi hư cấu hơn?
+268|L|1|1|Dựa trên kết quả đo đạc, Inō và cộng sự đã vẽ bản đồ tại Edo.
+269|L|0|1|=
+270|L|2|2|Ngoài ra, người ta còn khai quật được cả đồ gốm Sue.
+271|L|0|1|Vậy mà vì sao nút xoay jog dial giờ lại không còn được dùng nữa?
+272|A|1|損得だけで友達を選びたくない。|損得|Tôi không muốn chọn bạn chỉ vì tính toán thiệt hơn.|Personal gains and losses, natural collocation.
+273|A|1|この港町では造船が盛んだ。|造船|Ngành đóng tàu rất phát triển ở thị trấn cảng này.|Industry, not part of a company name.
+274|A|1|その件については存じております。|存じて|Về việc đó thì tôi có biết ạ.|Humble knowledge of a matter; not honorific subject.
+275|A|1|車のタイアを新しい物に交換した。|タイア|Tôi đã thay lốp mới cho xe.|Variant spelling of tire retained.
+276|L|0|1|Bệnh viện đó đã bố trí hoạt động suốt hai mươi bốn giờ.
+277|L|1|1|Trong các khối có cùng diện tích bề mặt, hình cầu có thể tích lớn nhất.
+278|A|1|夏休みに短期の仕事を探している。|短期|Tôi đang tìm việc ngắn hạn trong kỳ nghỉ hè.|Duration of work, not a college name.
+279|L|1|2|=
+280|L|1|2|Người ta chồng hai chiếc bánh mochi lớn nhỏ lên nhau để dâng cúng.
+281|A|1|列車の動きをダイヤグラムで確認する。|ダイヤグラム|Kiểm tra hành trình của tàu trên biểu đồ chạy tàu.|Railway diagram, a standard Japanese use.
+282|L|0|1|Gấu áo hơi dài nhưng trông không luộm thuộm nhỉ.
+283|L|2|1|Cũng không thể khẳng định cứ mỗi khu vực là do một người chỉ huy.
+284|L|1|1|Nguồn nước chủ yếu là nước giếng lấy từ mạch nước ngầm hoặc nước thấm dưới lòng sông.
+285|L|3|1|Anh ấy đạp mạnh chân phải xuống đất rồi lao về phía khung thành.
+286|L|3|1|Thảm kịch này cũng trở thành một nguyên nhân khiến chính quyền Toyotomi sớm chấm dứt.
+287|L|3|1|Hai mặt lá đều đỏ và hơi quăn.
+288|L|1|1|Trong nhạc phủ có những bài dài ngắn không đều giữa các câu, gọi là tạp ngôn thi.
+289|L|0|1|Nhân dịp đó, hệ thống được chuyển từ điện một chiều điện áp thấp sang điện xoay chiều điện áp cao.
+290|L|0|1|Bảo quản ở nhiệt độ thấp thì tốt hơn.
+291|L|3|1|Đôi khi người ta rắc thêm hành lá thái nhỏ.
+292|L|0|1|Tôi đã đổi báo cũ lấy giấy vệ sinh.
+293|A|1|銀行で新しい通帳を作りました。|通帳|Tôi đã làm sổ ngân hàng mới.|Bank passbook in its usual setting.
+294|A|1|楽しい月日はあっという間に過ぎる。|月日|Những ngày tháng vui vẻ trôi qua thật nhanh.|Passage of time, not month/day notation.
+295|L|3|1|Hoặc nhúng vào nước xốt rồi nướng.
+296|L|0|1|Tôi đang kết nối máy tính này với Internet.
+297|L|0|1|Làm cho màu mực có độ bóng, ánh sáng và cảm giác trong trẻo.
+298|A|1|この店の定休日は水曜日です。|定休日|Quán này nghỉ cố định vào thứ tư.|Regular weekly closing day.
+299|L|0|1|Câu trả lời của anh ấy rất xác đáng.
+300|A|1|博物館で昔の鉄砲を見た。|鉄砲|Tôi đã xem những khẩu súng cổ trong bảo tàng.|Historical firearm, not idiom or pufferfish.
+301|L|2|1|Khi cần phân biệt rõ, người ta dùng cách gọi “khăn tenugui Nhật”.
+302|L|0|1|Đó là một cuộc gặp tình cờ.
+303|A|1|この革はディアと呼ばれる鹿革だ。|ディア|Loại da này là da hươu, được gọi là deer.|Rare loanword naturally explained in leather terminology.
+304|L|1|1|Ở đầu sân ga có lối ra vào tạm dành cho khách đoàn, nhưng hầu như không được dùng.
+305|L|0|1|Đồ dùng của anh ấy đều đồng bộ một màu đen.
+306|L|2|1|Chẻ tre shino, cũng gọi là medake, thành bốn phần bằng nhau.
+307|L|3|1|Hòa bột mì và trứng với nước hoặc nước dùng.
+308|L|3|1|Những ưu điểm chung là nét vững, dẻo dai và có nhịp điệu.
+309|L|3|1|Căn phòng chính trong nhà có một hốc trang trí tokonoma.
+310|L|1|1|Đồng cỏ mênh mông trải dài tới tận chân trời, lác đác có những khu rừng nhỏ.
+311|L|2|1|Cơ quan Khai thác Hokkaido là một cơ quan trung ương ngang cấp bộ.
+312|L|0|1|=
+313|L|1|1|Từ đèo, đi theo con đường xuống dốc thoai thoải sẽ đến ngã rẽ khu nhà cũ Uenishi.
+314|A|2|なにしろ初めてなので、緊張しています。|なにしろ|Dù sao đây cũng là lần đầu nên tôi hồi hộp lắm.|Reason-giving discourse marker.
+315|A|4|何々、集合時間が変わったのか。|何々|Để xem nào, giờ tập trung đổi rồi à?|Reading a notice aloud; interjection, not a placeholder name.
+316|L|1|1|Lịch Tenpō của Nhật cũng làm theo cách đó.
+317|A|1|庭では梅の花がほのかに匂う。|匂う|Trong vườn, hoa mơ thoang thoảng hương thơm.|Pleasant fragrance, not stink.
+318|L|2|1|Mỗi câu chuyện đều ghi rất rõ thời gian và địa điểm.
+319|L|0|1|Giá đồ dùng hằng ngày đã tăng.
+320|A|1|針金を捩って、輪を作った。|捩って|Tôi xoắn dây thép thành một vòng.|Twisting a material, not a sprain.
+321|L|1|1|Dọc các trục đường chính có nhiều điểm bán trực tiếp nông sản và sản phẩm chế biến.
+322|A|1|少し休むと仕事の能率が上がる。|能率|Nghỉ một chút sẽ giúp làm việc hiệu quả hơn.|Work efficiency, not physical moment.
+323|L|2|1|Có cần chuyển tàu không?
+324|L|0|1|Xe phía trước cứ bò chậm chạp, sốt ruột thật.
+325|L|0|1|Nghe nói vùng Kai có khai thác vàng nên cần những chiếc cân chính xác.
+326|A|1|封筒の端を斜に切った。|斜|Tôi cắt chéo một góc phong bì.|Diagonal cut selects hasu, not sha ni kamaeru.
+327|L|2|2|Không biết tin đó có thật không nhỉ.
+328|L|0|1|Áo lót cho trẻ sơ sinh có đường may nằm ở mặt ngoài.
+329|A|2|鉢に土を入れて花を植えた。|鉢|Tôi cho đất vào chậu rồi trồng hoa.|Flowerpot context, not skull.
+330|L|1|1|Cuộc thảo luận đã tạm dừng một lát.
+331|A|1|何度かけても電話は話中だった。|話中|Gọi bao nhiêu lần máy cũng báo bận.|Busy telephone line.
+332|A|1|網から放れた魚が泳ぎ去った。|放れた|Con cá thoát khỏi lưới rồi bơi đi.|Release from restraint, not simple spatial separation.
+333|L|3|2|Tom, dầu bắn nguy hiểm đấy, con ra chỗ khác đi.
+334|A|1|受験料を銀行で払い込んだ。|払い込んだ|Tôi đã nộp lệ phí thi qua ngân hàng.|Payment into the designated account.
+335|A|1|公演が中止になり、代金を払い戻す。|払い戻す|Buổi diễn bị hủy nên tiền vé sẽ được hoàn lại.|Refund of a cancelled event.
+336|A|1|そんなうわさを信じるのはばからしい。|ばからしい|Tin lời đồn như thế thì thật ngớ ngẩn.|Evaluating an idea rather than insulting a person.
+337|L|1|1|Chuyển động của con rối được điều khiển bằng lò xo cót, cam và dây.
+338|L|0|1|Con tôi làm phép trừ còn kém lắm.
+339|L|1|1|Trận đấu kết thúc với tỷ số hòa hai đều.
+340|L|1|1|Nắng thật dễ chịu.
+341|A|1|引越しの準備で週末は忙しい。|引越し|Cuối tuần tôi bận chuẩn bị chuyển nhà.|Noun moving, not a verb conjugation.
+342|L|0|1|Ngón trỏ của tôi đau.
+343|L|0|1|Phố mua sắm này thưa người qua lại và hiếm khi có xe chạy qua.
+344|L|1|1|Bạn chọn ngày đi.
+345|L|0|1|Bộ bách khoa toàn thư này rất tiện tra cứu.
+346|L|1|1|Ông mang về nhiều mẫu thực vật rồi đặt tên khoa học cho chúng.
+347|A|1|駅前に新しいビルディングが建った。|ビルディング|Một tòa nhà cao tầng mới đã được xây trước ga.|Full loanword form in a building context.
+348|A|1|手作りのジャムを瓶詰にした。|瓶詰|Tôi đã cho mứt tự làm vào lọ.|Bottling food, excludes unsuitable source content.
+349|L|0|4|Vốn có tính cách ngay thẳng, ông rất hợp với những vai cao quý.
+350|L|0|1|Không được tự ý sao chép sách này, trừ những trường hợp ngoại lệ theo luật bản quyền.
+351|A|1|子どもたちと風船を膨らました。|膨らました|Tôi cùng bọn trẻ thổi bóng bay.|Inflating an object, natural contracted verb variant.
+352|A|2|計算の途中で符号を間違えた。|符号|Tôi đã nhầm dấu trong lúc tính toán.|Positive or negative mathematical sign.
+353|A|1|襖を開けると、隣の部屋が見えた。|襖|Mở cửa lùa ra là thấy phòng bên cạnh.|Traditional sliding partition in use.
+354|L|1|1|Trường đại học này có bệnh viện trực thuộc.
+355|L|1|1|Vật liệu này chủ yếu được dùng cho kimono cao cấp và khăn gói furoshiki.
+356|A|1|無沙汰をわびる手紙を書いた。|無沙汰|Tôi viết thư xin lỗi vì lâu không liên lạc.|Failure to keep in touch, not idle hands.
+357|A|1|漢字の部首から意味を推測する。|部首|Dựa vào bộ thủ để đoán nghĩa chữ Hán.|Kanji radical, not a historical personal name.
+358|L|0|1|Chiếc trâm cài áo bằng thạch anh tím ấy là báu vật quý nhất của Marilla.
+359|A|1|論文を書く前に関連する文献を読む。|文献|Trước khi viết luận văn, tôi đọc các tài liệu liên quan.|Scholarly source material, not a posthumous name.
+360|L|0|1|Tôi rất xúc động khi lần đầu có bài tản văn được đăng trên tạp chí văn học.
+361|L|1|1|Mỗi phần là một câu chuyện riêng với độ dài vừa phải.
+362|L|1|2|Nhờ bạn giúp, tôi đã giải được bài tập trong phiếu học tập.
+363|L|0|1|Gần như toàn bộ tuyến chạy song song với tuyến JR Nara.
+364|A|1|赤ちゃんのへそをそっと拭いた。|へそ|Tôi nhẹ nhàng lau rốn cho em bé.|Literal navel, no misleading animal premise.
+365|A|1|青いペンで名前を書いてください。|ペン|Hãy viết tên bằng bút mực xanh.|Standard katakana spelling of the same pen lexeme.
+366|L|0|1|Lúc dọn vệ sinh, mọi người tranh nhau cái chổi.
+367|L|0|1|Nhà ngôn ngữ học đó biết khá rõ về phương ngữ ấy.
+368|L|1|1|Tôi đang mài dao bếp đấy.
+369|A|1|城の周りに深い堀がある。|堀|Quanh thành có một con hào sâu.|Moat, not the surname Hori.
+370|A|1|この地方では牧畜が主な産業だ。|牧畜|Chăn nuôi là ngành kinh tế chính của vùng này.|Livestock farming as an industry.
+371|A|1|坊っちゃんはもう学校に慣れましたか。|坊っちゃん|Cậu bé nhà mình đã quen trường chưa ạ?|Respectful reference to another person's son.
+372|L|0|3|Hắn toàn nói khoác thôi, rồi cũng có lúc lộ cái dốt ra.
+373|A|1|初めての駅で、出口が分からずまごまごした。|まごまごした|Lần đầu tới ga này, không biết lối ra nên tôi cứ lúng túng.|Concrete cause for being at a loss.
+374|L|0|1|Vui lòng nộp hồ sơ đăng ký tại quầy.
+375|L|0|1|=
+376|L|0|1|Họ đã đi vòng một đoạn khá xa mới tới được.
+377|A|1|夕空に細い三日月が浮かんでいる。|三日月|Một vầng trăng lưỡi liềm mảnh hiện trên trời chiều.|Visible young crescent moon.
+378|A|1|通りの店屋はもう閉まっていた。|店屋|Các cửa tiệm trên phố đều đã đóng cửa.|Traditional shop noun, not machiya house reading.
+379|A|2|板の厚さは五ミリです。|ミリ|Tấm ván dày năm milimét.|Millimeter abbreviation, not an unspecified milli prefix.
+380|L|0|2|Bài nghiên cứu này so sánh các truyền thuyết dân gian của Đức và Hà Lan.
+381|L|0|1|Mặt sau thường để trơn.
+382|A|2|完成まで一週間を目安にしてください。|目安|Bạn cứ dự tính khoảng một tuần là xong.|Approximate timeframe, not a complaint box.
+383|A|1|空港までモノレールで行きます。|モノレール|Tôi sẽ đi tàu một ray ra sân bay.|Concrete means of transport.
+384|L|0|2|Tom vừa đi dạo vừa ngắm những tán lá thu rực rỡ.
+385|L|1|2|Ông tự tay pha hóa chất rồi chụp ảnh.
+386|A|1|知らないリンクをやたらに開かないで。|やたらに|Đừng bấm mở các đường dẫn lạ một cách bừa bãi.|Indiscriminate action in a familiar context.
+387|A|1|台風なら、旅行の中止もやむをえない。|やむをえない|Có bão thì đành phải hủy chuyến đi thôi.|Unavoidable cancellation, without endorsing war.
+388|A|1|赤い溶岩が山の斜面を流れた。|溶岩|Dung nham đỏ rực chảy xuống sườn núi.|Literal lava, not a fictional sword exploit.
+389|A|1|発表の要旨を一枚にまとめた。|要旨|Tôi tóm tắt nội dung chính của bài thuyết trình trong một trang.|Abstract or summary of a presentation.
+390|L|1|1|Các đơn vị thể tích, dung tích trong hệ đo lường này lấy shō làm đơn vị cơ bản.
+391|A|1|駅前の洋品店でシャツを買った。|洋品店|Tôi mua áo sơ mi ở cửa hàng quần áo trước ga.|Western-style apparel shop, natural modern purchase.
+392|L|0|1|Vào mùa thu, một phần thân rễ tích trữ dinh dưỡng và trở thành chồi ngủ đông.
+393|L|1|1|Niềm vui hiện rõ trên gương mặt anh ấy.
+394|L|1|1|Tuy không phải đồng minh, nhưng trước mắt lợi ích của chúng tôi trùng nhau.
+395|L|0|1|Mưa lớn đã gây lũ lụt trong lưu vực đó.
+396|A|1|名前を書き忘れて零点になった。|零点|Quên ghi tên nên tôi bị chấm không điểm.|Test score, not freezing point or a root.
+397|L|0|1|Khu vui chơi vẫn mở cửa cho công chúng.
+398|L|2|2|Người ta viết tiếng Nhật bằng chữ La-tinh để chỉ cách phát âm.
+399|A|2|この言葉を和英で調べてみよう。|和英|Thử tra từ này trong từ điển Nhật–Anh xem.|Dictionary abbreviation used as a noun.
+400|L|0|1|Đó là gương mặt trẻ trung, mắt to, da trắng và đầy đặn ở phần má dưới.
+401|L|1|1|Ga Katabiranotsuji cách khoảng ba trăm mét về phía nam, nhưng lượng khách chuyển tuyến khá đông.
+402|A|1|割算の答えを掛け算で確かめる。|割算|Kiểm tra kết quả phép chia bằng phép nhân.|Elementary arithmetic, avoids imprecise zero-division source.
+403|L|2|1|Bát đựng món ninh thường có nắp và hơi lớn hơn bát cơm hay bát canh.
+404|A|1|価格は買い手と売り手の相対で決める。|相対|Giá do bên mua và bên bán trực tiếp thỏa thuận.|Bilateral negotiation read aitai, not relative soutai.
+405|A|1|この昆虫は別の亜科に分類される。|亜科|Loài côn trùng này được xếp vào một phân họ khác.|Biological taxonomic rank.
+406|A|1|風呂で体の垢を洗い落とした。|垢|Tôi tắm rửa sạch lớp ghét trên người.|Physical grime, not the idiom refined.
+407|A|1|古い銅の鏡が鈍く光っていた。|銅|Chiếc gương đồng cũ ánh lên mờ đục.|Literary akagane reading; copper material.
+408|A|1|あからさまに不満を口にした。|あからさま|Anh ấy bộc lộ sự bất mãn một cách công khai.|Selected akarasama sense of openly, written in the natural modern kana form.
+409|A|1|褒められて頬が赤らんだ。|赤らんだ|Được khen, cô ấy đỏ bừng má.|Intransitive reddening from embarrassment.
+410|A|1|旅の商人が村に布を売りに来た。|商人|Một người buôn rong đến làng bán vải.|Traditional narrative supports akiudo reading.
+411|A|1|箪笥と壁の空間に箱を置いた。|空間|Tôi đặt chiếc hộp vào khoảng trống giữa tủ và tường.|Rare akima reading for a physical gap, not abstract kuukan.
+412|L|1|3|Tất nhiên sẽ nổi bọt, nên cần vớt thường xuyên.
+413|L|0|1|Tôi cẩn thận đạp chân ga.
+414|A|1|暦では悪日なので、式を別の日にした。|悪日|Lịch ghi là ngày xấu nên chúng tôi đổi ngày tổ chức lễ.|Traditional calendar judgment, not the homophone yawn.
+415|A|1|明くる朝には雨がやんでいた。|明くる|Đến sáng hôm sau, mưa đã tạnh.|Following morning in narrative register.
+416|L|1|2|Vải ban đầu được làm từ sợi gai.
+417|A|1|明後日の朝、駅で待ち合わせよう。|明後日|Sáng ngày kia gặp nhau ở ga nhé.|Calendar day, not the figurative wrong direction.
+418|L|1|1|Heiji Monogatari miêu tả cảnh tượng đáng hổ thẹn ấy với thái độ phê phán từ đầu đến cuối.
+419|A|1|古い住所には字の名も書かれている。|字|Trong địa chỉ cũ có ghi cả tên xóm.|Administrative village subdivision read aza.
+420|L|0|1|Thấy vậy, các tướng nhà Minamoto cười nhạo Munemori.
+421|L|0|2|Tác phẩm kinh điển xem lúc nào cũng thấy có cái hay.
+422|A|1|都を離れ、東へ旅立った。|東|Rời kinh đô, ông lên đường về miền đông.|Classical perspective from Kyoto; azuma denotes eastern provinces.
+423|A|1|他人には語れぬ思いを胸に秘める。|他人|Tôi giấu trong lòng những tâm sự không thể nói với người ngoài.|Literary adabito; not the everyday tanin reading.
+424|A|1|相手への悪口は議論を損なう。|悪口|Lời lăng mạ đối phương chỉ làm cuộc tranh luận xấu đi.|Verbal abuse in a formal argument context; akkou reading.
+425|A|1|結婚式のために着物を誂えた。|誂えた|Tôi đặt may kimono để mặc trong lễ cưới.|Made-to-order clothing.
+426|L|0|1|Đôi khi người ta dùng chữ Hán phiên âm 花林糖 để viết tên món này.
+427|L|0|1|Không thể áp dụng quy tắc này cho mọi trường hợp.
+428|L|0|1|Yoshimitsu đã gửi quốc thư tới hoàng đế Vĩnh Lạc.
+429|L|0|2|Tuy nhiên, ông đã chọn Inoue Matsuzō làm người kế nghiệp.
+430|L|1|2|Nướng trực tiếp trên lửa rồi ăn.
+431|L|1|1|Tsukudani bán trên thị trường hiện nay có vị nhẹ và ngọt.
+432|A|1|山の天気に備えて雨具を持っていく。|雨具|Tôi mang đồ đi mưa để phòng thời tiết trên núi thay đổi.|Rain gear for an outing.
+433|A|1|古い神話には天つ神が登場する。|天つ|Trong thần thoại xưa có các vị thần trên trời.|Archaic attributive form in established amatsukami compound.
+434|A|1|天地の恵みに感謝して祈る。|天地|Chúng tôi cầu nguyện, cảm tạ ân huệ của trời đất.|Literary ametsuchi in solemn nature imagery.
+435|A|1|記憶があやふやなので断言できない。|あやふや|Tôi không nhớ rõ nên không thể khẳng định.|Uncertain memory rather than deliberate evasion.
+436|L|0|1|Bạn có thể tóm tắt câu chuyện giúp tôi không?
+437|L|2|1|Dưới thời Thiên hoàng Kōtoku, thể chế đã thay đổi lớn.
+438|A|1|荒っぽい言葉でも、悪気はなかった。|荒っぽい|Lời lẽ tuy thô nhưng anh ấy không có ý xấu.|Rough manner of speech.
+439|A|1|屋根にあられがぱらぱら当たった。|あられ|Những hạt mưa đá nhỏ lộp bộp rơi xuống mái nhà.|Weather graupel, not rice crackers.
+440|A|1|笑顔は自信の現われだった。|現われ|Nụ cười ấy thể hiện sự tự tin.|Noun manifestation, not the verb appear.
+441|L|3|1|Từ lâu đã có cách lý giải rằng tên chương ngầm báo trước cái chết của Genji.
+442|A|1|離れて暮らす母の体を案じている。|案じて|Tôi lo cho sức khỏe của mẹ đang sống xa.|Concern for someone's wellbeing.
+443|L|1|1|Vừa ra khỏi nhà, quả nhiên anh ấy đã đứng đợi sẵn.
+444|A|1|修理の費用を家主に相談した。|家主|Tôi trao đổi với chủ nhà về chi phí sửa chữa.|Landlord, selected ienushi reading.
+445|A|1|暗い空を雷が切り裂いた。|雷|Sét xé ngang bầu trời tối đen.|Literary ikazuchi for a thunderbolt.
+446|A|1|民衆は不正に怒り、声を上げた。|怒り|Người dân phẫn nộ trước gian lận và lên tiếng phản đối.|Formal ikaru conjugation; righteous anger.
+447|A|1|熱で板が歪んでしまった。|歪んで|Tấm ván đã bị cong vênh vì nóng.|Physical warping; igamu is the selected variant.
+448|L|0|1|Diễn viên chính vào vai người đứng đầu toán thợ, ăn mặc bảnh bao trong trang phục lễ hội.
+449|L|1|1|Việc đối tượng độc quyền nằm trong hay ngoài khu vực cũng là yếu tố quan trọng.
+450|L|0|1|Hào hứng quyết làm xong bài tập thật sớm, nhưng rồi tôi vẫn lại lề mề cả buổi.
+451|L|0|1|Thư của bạn và thư của tôi đã gửi chéo nhau.
+452|L|1|1|Cải cách giáo dục là điều không thể thiếu để đào tạo người có khả năng thích ứng với thay đổi xã hội.
+453|A|1|幾多の困難を乗り越えて店を開いた。|幾多|Vượt qua bao khó khăn, tôi đã mở được cửa hàng.|Numerous difficulties in a formal narrative.
+454|A|1|会議では異見にも耳を傾けたい。|異見|Trong cuộc họp, tôi muốn lắng nghe cả những ý kiến trái chiều.|Dissenting opinion, not reprimand.
+455|L|0|1|Theo ý cha, anh đặt mục tiêu thi vào khoa luật.
+456|L|3|1|Có thể thấy hoạt động thương mại đang chuyển từ nhà nước sang tư nhân.
+457|L|1|1|Một tấm bia tưởng niệm Tametomo cũng đã được dựng lên.
+458|A|1|一つの収入源への依存を減らしたい。|依存|Tôi muốn bớt phụ thuộc vào một nguồn thu nhập duy nhất.|Dependence; ison is a dictionary variant of izon.
+459|L|0|1|Tăng tỷ suất lợi nhuận bằng cách thuê ngoài sản xuất.
+460|L|0|1|Xin phép cả nhà, tôi ăn đây ạ.
+461|L|1|1|=
+462|A|1|週末の市で新鮮な野菜を買った。|市|Tôi mua rau tươi ở phiên chợ cuối tuần.|Market read ichi, not a city.
+463|L|2|1|Có nhiều kiểu như vậy nên không thể nói tất cả đều theo một khuôn cố định.
+464|A|1|この店は一見の客も歓迎している。|一見|Quán này cũng chào đón khách lần đầu đến mà không cần người giới thiệu.|First-time unintroduced visitor; ichigen, not ikken.
+465|A|1|一言をもって決意を表す。|一言|Dùng một lời ngắn gọn để bày tỏ quyết tâm.|Literary ichigen; deliberately formal construction.
+466|A|1|一日たりとも努力を怠らなかった。|一日|Ông không một ngày nào lơ là nỗ lực.|Formal ichijitsu with tari tomo.
+467|A|2|敗北は一定と覚悟した。|一定|Tôi đã chuẩn bị tinh thần rằng thất bại là điều chắc chắn.|Literary ichijou meaning certainty, in the established haiboku wa ichijou construction.
+468|A|1|一別以来、十年の歳月が流れた。|一別|Từ lần chia tay ấy, mười năm đã trôi qua.|Formal narrative of parting.
+469|L|0|1|Theo sự đa dạng hóa của Âm Dương đạo qua từng thời kỳ, các nghi lễ cũng không đồng nhất.
+470|L|3|1|Họ lập ra hệ thống trong đó công ty trả lương thống nhất cho mọi cấp diễn viên.
+471|L|0|1|Hijikata nghĩ đến việc diệt trừ tận gốc trong một lần.
+472|A|2|家族を守りたい一心で働いた。|一心|Tôi làm việc chỉ với một lòng muốn bảo vệ gia đình.|Single wholehearted motivation, not a religious name.
+473|A|1|今大会は三勝一敗で終えた。|一敗|Tôi kết thúc giải lần này với ba trận thắng, một trận thua.|One defeat in a clear sports record.
+474|L|0|1|Mùa đông tuyết rơi làm cảnh sắc thành phố thay đổi hẳn.
+475|A|1|来月から営業部への異動が決まった。|異動|Tôi đã được quyết định chuyển sang phòng kinh doanh từ tháng sau.|Personnel transfer, not household registration.
+476|A|1|古の人々も同じ月を見上げた。|古|Người xưa cũng từng ngước nhìn vầng trăng này.|Literary inishie, not a personal name.
+477|L|0|1|Maria đã miễn cưỡng lấy chồng đấy.
+478|A|4|食べ物を独り占めするのは卑しい。|卑しい|Giành hết đồ ăn cho mình là tham lam.|Greedy behavior, not social class.
+479|A|1|家の入口に小さな灯をともした。|入口|Tôi thắp một ngọn đèn nhỏ ở lối vào nhà.|Entryway; irikuchi is a variant reading.
+480|L|3|1|Vải tsumugi bền nên từ xưa đã được dùng làm quần áo hằng ngày và đồ làm đồng.
+481|L|2|1|Kết quả là để tăng độ bền và sức mạnh, nó được làm thành hình dáng hiện nay.
+482|A|3|ようやく話が佳境に入った。|入った|Cuối cùng câu chuyện cũng đi vào đoạn hấp dẫn nhất.|Established kakyou ni iru collocation; not hairu.
+483|A|1|窓のない部屋は少し陰気だった。|陰気|Căn phòng không cửa sổ có phần u ám.|Gloomy atmosphere, not yin energy.
+484|L|0|2|Cách sống của Kōsaka cứ như một người đã về hưu vậy.
+485|A|1|次のインターチェンジで高速を降りる。|インターチェンジ|Tôi sẽ ra khỏi đường cao tốc ở nút giao tiếp theo.|Motorway exit rather than a fragmentary route label.
+486|A|1|インターナショナルな交流会に参加した。|インターナショナル|Tôi đã tham gia một buổi giao lưu quốc tế.|Adjectival international, not a company name.
+487|A|1|玄関のインターフォンが鳴った。|インターフォン|Chuông liên lạc ở cửa ra vào reo lên.|Household intercom.
+488|A|1|彼は知識を鼻にかけないインテリだ。|インテリ|Anh ấy là người trí thức nhưng không hề khoe khoang.|Educated individual rather than a social class.
+489|A|1|ウェートレスが注文を取りに来た。|ウェートレス|Cô phục vụ đến nhận gọi món.|Restaurant waitress; listed spelling retained.
+490|A|1|服の上下を同じ色でそろえた。|上下|Tôi phối áo và quần cùng một màu.|Top and bottom of clothing, read ueshita.
+491|A|1|帰宅したら、手洗いと含嗽をする。|含嗽|Về đến nhà, tôi rửa tay rồi súc miệng.|Routine gargling; formal kanji spelling retained.
+492|L|0|1|Việc đăng ký được tiếp nhận từ buổi chiều.
+493|L|0|3|Sách bài tập chính thức giải thích đây là dạng bị động ở thì hiện tại tiếp diễn.
+494|A|1|満ちてくる潮が砂浜を覆った。|潮|Thủy triều dâng lên phủ kín bãi cát.|Literary ushio for the tide.
+495|A|1|古文書で一族の氏を調べる。|氏|Tôi tra họ của dòng tộc trong tài liệu cổ.|Historical family name, not the honorific shi.
+496|A|1|川の深い所に渦ができている。|渦|Ở chỗ sâu trên sông đang có một xoáy nước.|Literal whirlpool, not a proper name.
+497|A|1|小屋が深い雪に埋まっていた。|埋まって|Căn lều bị vùi trong lớp tuyết dày.|Burial under snow; uzumaru reading.
+498|A|2|訪問の時間を電話で打ち合わせた。|打ち合わせた|Tôi đã gọi điện thống nhất giờ đến thăm.|Advance arrangements, not striking objects together.
+499|L|1|1|Người ta vừa cầm quạt nan vừa múa.
+500|L|2|2|Mất hết hy vọng, Jihei đến khu Shinchi với lòng trống rỗng.
+501|A|1|穏やかな海路を船で進んだ。|海路|Con tàu đi trên hải trình yên ả.|Literary umiji, a sea route.
+502|L|1|1|Người ta dùng đục khắc chữ lên hai mặt thanh kiếm sắt rồi khảm dây vàng vào đó.
+503|L|1|1|Quả mơ muối này mặn nhỉ.
+504|A|1|風が杉の末を静かに揺らした。|末|Gió nhẹ nhàng lay ngọn cây tuyết tùng.|Literary ura, the top tip of a tree.
+505|A|4|交渉では彼の方が一枚上手だった。|上手|Trong đàm phán, anh ấy cao tay hơn một bậc.|Comparative skill read uwate, not jouzu.
+506|L|0|1|Gói hàng lẽ ra tới hôm nay bị trục trặc vận chuyển, nên phải mai hoặc muộn hơn mới tới.
+507|A|2|理由を云々する前に、まず謝ろう。|云々|Trước khi bàn nọ kia về lý do, hãy xin lỗi đã.|Discussing or commenting, verbal suru use.
+508|L|0|1|Thực hiện việc rửa dụng cụ và vận chuyển nước.
+509|A|1|地域の運輸を支える会社で働く。|運輸|Tôi làm ở công ty phụ trách vận tải trong khu vực.|Transport sector, not a unit name.
+510|A|1|寺で春の会を営んだ。|会|Ngôi chùa tổ chức pháp hội mùa xuân.|Buddhist gathering read e, formal temple register.
+511|L|2|2|=
+512|A|1|古いフィルムを映写して確かめた。|映写|Tôi chiếu thử cuộn phim cũ để kiểm tra.|Projection of film onto a screen.
+513|L|0|1|Tôi muốn đọc báo tiếng Anh trôi chảy hơn.
+514|L|0|1|Thư viện rất chú ý đến vệ sinh.
+515|A|1|文永の役について史料を読んだ。|役|Tôi đọc sử liệu về cuộc chiến thời Bun'ei.|Established historical war name, read eki.
+516|A|1|酸と塩基の反応で塩ができる。|塩|Phản ứng giữa axit và bazơ tạo ra muối.|Chemical salt read en, not culinary shio.
+517|A|1|舞台の女優は艶な笑みを浮かべた。|艶|Nữ diễn viên trên sân khấu nở nụ cười quyến rũ.|Literary en as a charming adjective, not surface gloss.
+518|L|0|1|Kỹ năng kinh doanh là những năng lực cần để công việc diễn ra suôn sẻ.
+519|L|1|1|Hiên engawa có loại hở ngoài trời và loại nằm trong nhà.
+520|L|0|1|Đây là những cách nói vòng nhằm tránh gọi trực tiếp tên Thiên hoàng.
+521|L|1|1|Mỗi ngày tôi dành một khoảng thời gian cố định để làm bài tập toán.
+522|L|2|1|Dọc tuyến còn có nhiều danh thắng và di tích lịch sử.
+523|A|1|話し合いで問題は円満に解決した。|円満|Nhờ trao đổi, vấn đề đã được giải quyết êm đẹp.|Amicable resolution, not a temple name.
+524|L|0|2|Tami phát hiện một lỗi trong cấu trúc câu.
+525|A|2|先生は明日こちらへお出でになります。|お出でになります|Ngày mai thầy sẽ đến đây ạ.|Honorific coming, appropriate subject.
+526|A|1|黄色の顔料を少量加えた。|黄色|Tôi cho thêm một ít bột màu vàng.|Technical colour term supports oushoku.
+527|L|1|1|Ông cao thứ năm trong mười lăm tướng quân Tokugawa và có vóc dáng lớn so với các tướng quân đời sau.
+528|L|1|1|Các câu chuyện trong Kojiki và Nihon Shoki về đại thể giống nhau.
+529|A|1|大水で橋が流されてしまった。|大水|Lũ lớn đã cuốn trôi cây cầu.|Flood rather than simply a lot of water.
+530|A|1|雨のため出発を一時間遅らした。|遅らした|Vì mưa, tôi lùi giờ khởi hành lại một tiếng.|Transitive delay with the okurasu variant.
+531|A|1|村の長が皆の意見を聞いた。|長|Trưởng làng lắng nghe ý kiến của mọi người.|Head of a community read osa.
+532|A|1|姉は初めてのお産を控えている。|お産|Chị tôi sắp sinh con đầu lòng.|Childbirth in an ordinary family context.
+533|L|0|1|Nhà vệ sinh ở đâu ạ?
+534|A|1|兄は弟を連れて旅に出た。|弟|Người anh đưa em trai lên đường đi xa.|Archaic oto for a younger brother; narrative register.
+535|L|0|1|Được vây quanh bởi những thiếu nữ đẹp như hoa, Tom không giấu nổi vẻ bối rối.
+536|A|2|急に大声を出して猫を脅かした。|脅かした|Tôi bất ngờ nói lớn làm con mèo giật mình.|Startling, not endangering.
+537|A|1|村の女子たちが祭りの支度をした。|女子|Những người phụ nữ trong làng chuẩn bị cho lễ hội.|Traditional narrative supports onago, not joshi.
+538|L|0|1|Mỗi người cần tự đưa ra quyết định có lợi cho bản thân mình.
+539|L|1|1|Ông mời người quen đến nhà dự tiệc, và nơi đó tự nhiên trở thành chỗ giao lưu.
+540|A|1|赤ちゃんのお襁褓を取り替えた。|お襁褓|Tôi thay tã cho em bé.|Diaper changing; rare kanji, ordinary activity.
+541|A|1|お誕生日お目出度うございます。|お目出度う|Chúc mừng sinh nhật anh chị ạ.|Polite congratulatory greeting.
+542|A|1|少女は恥ずかしげに面を伏せた。|面|Cô gái thẹn thùng cúi mặt xuống.|Literary omo for face.
+543|L|0|1|Ý hay đấy.
+544|A|1|重なる原因は水不足であった。|重なる|Nguyên nhân chính là thiếu nước.|Archaic attributive omonaru, not overlapping kasanaru.
+545|L|2|4|Tác phẩm có vẻ mạnh mẽ, trang nghiêm và thanh nhã.
+546|L|2|1|Ông thích du lịch và đã đến Kyushu ba lần.
+547|A|2|彼は若くして重役を任された。|重役|Anh ấy được giao một trọng trách khi còn trẻ.|Important responsibility read omoyaku, not executive juuyaku.
+548|L|0|1|Người ta bắt đầu gọi như vậy để tôn trọng cách phát âm địa phương.
+549|A|1|この布は織が細かく、手触りがよい。|織|Vải này dệt mịn, sờ rất dễ chịu.|Weave of fabric, not a personal name.
+550|A|1|入学前のオリエンテーションに参加した。|オリエンテーション|Tôi đã tham gia buổi giới thiệu trước khi nhập học.|School orientation session.
+551|L|0|1|Vì quá say mê sở thích, tôi đã lơ là công việc.
+552|A|1|楽器ごとの音色の違いを比べる。|音色|So sánh sự khác nhau về âm sắc giữa các nhạc cụ.|Technical onshoku for timbre.
+553|A|3|この車はオートマチックなので運転しやすい。|オートマチック|Xe này dùng số tự động nên dễ lái.|Automatic transmission, not a firearm.
+554|A|1|地図の三個所に印を付けた。|個|Tôi đánh dấu ba chỗ trên bản đồ.|Counter ka before sho; variant written 個所.
+555|L|1|1|Phần đáng lẽ không nên đụng vào nhất lại bị sửa thành tệ hơn mất rồi.
+556|L|0|1|Chăm sóc người cần trợ giúp tuy vất vả nhưng rất có ý nghĩa.
+557|A|1|古い新聞は資源回収に出した。|回収|Tôi mang báo cũ đi thu gom tái chế.|Collection of recyclable material.
+558|L|0|2|Đó là việc mở tuyến chạy tàu Shinkansen rỗng cho hành khách sử dụng.
+559|L|1|1|Một số tầng lớp thượng lưu dùng vải chirimen và các loại vải tương tự.
+560|L|0|1|Các khu vực tuyển sinh sau khi điều chỉnh như sau.
+561|L|1|1|Tất nhiên, can thiệp bằng sức mạnh quân sự là điều không được phép.
+562|L|1|1|Vườn mơ Tsukigase nằm trên cao nguyên cao từ hai trăm đến ba trăm mét so với mực nước biển.
+563|L|1|1|Trên thực tế, phương pháp hiện tại còn rất nhiều điểm có thể cải tiến.
+564|A|1|自分の言動を省みる時間を持ちたい。|省みる|Tôi muốn dành thời gian nhìn lại lời nói và hành động của mình.|Self-reflection, not merely paying attention to something.
+565|L|2|1|Anh ấy có vẻ mặt đăm chiêu.
+566|L|0|1|Nơi đây không có phòng học hay phòng nghiên cứu; ngoài giờ thực hành thể thao, chủ yếu dùng cho ngoại khóa.
+567|L|1|1|Hãy ghi lại những điều tôi sắp nói.
+568|A|1|心に残る佳句を手帳に書き留めた。|佳句|Tôi ghi vào sổ tay những câu văn hay khiến mình nhớ mãi.|A beautiful passage, not a book title.
+569|L|1|4|Giống, số và cách của tính từ tiếng Nga phải phù hợp với danh từ hoặc đại từ liên quan.
+570|L|1|1|Khoảng cách xã hội ngày càng lớn là một trong những nguyên nhân gây bất ổn.
+571|A|1|窓口で各種の申請を受け付けます。|各種|Quầy này tiếp nhận nhiều loại hồ sơ đăng ký.|Various types in an administrative service context.
+572|L|0|1|Chúng tôi hướng tới việc thiết lập chế độ nghỉ hai ngày mỗi tuần.
+573|A|1|二つの物質が化合して別の物質になる。|化合|Hai chất kết hợp hóa học tạo thành một chất khác.|Chemical combination, not mere physical mixing.
+574|A|1|華奢を尽くした屋敷に客を招いた。|華奢|Ông mời khách đến dinh thự xa hoa tột bậc.|Rare kasha meaning luxury, not slender kyasha.
+575|A|1|火傷の跡を医師に診てもらった。|火傷|Tôi nhờ bác sĩ xem vết bỏng.|Formal kashou reading in medical context.
+576|A|1|伝えたい点を箇条書きにまとめた。|箇条書き|Tôi tóm tắt các ý muốn nói thành từng mục.|Itemized presentation of points.
+577|A|1|飛んできた球が頬を擦った。|擦った|Quả bóng bay tới sượt qua má.|Graze reading kasuru; not rubbing suru.
+578|L|0|1|Chất liệu rất đa dạng, như lụa tơ tằm, bông hay sợi tổng hợp.
+579|L|1|1|Khu vực này còn những ngôi nhà mái tranh, nhưng gần đây dân cư ngày càng thưa vắng.
+580|L|0|1|Trong thời đại quá tải thông tin, việc chọn lọc thông tin phù hợp rất quan trọng.
+581|A|1|決勝では長年の敵と対戦する。|敵|Ở trận chung kết, tôi sẽ gặp đối thủ lâu năm.|Rival read kataki, without revenge instructions.
+582|A|1|父には昔ながらの職人気質がある。|気質|Bố tôi mang tính cách của người thợ truyền thống.|Characteristic temperament in shokunin katagi.
+583|A|2|西の空に日が傾いてきた。|傾いて|Mặt trời bắt đầu ngả về phía tây.|Literary katabuku conjugation is checked separately.
+584|L|0|1|Tôi phân loại rồi sắp xếp cẩn thận đấy.
+585|A|1|家の門に客の姿が見えた。|門|Tôi nhìn thấy khách ở cổng nhà.|Gate read kado, not a suffix in a name.
+586|A|1|太い鉄棒で門をしっかり支えた。|鉄棒|Tôi dùng một thanh sắt to chống chắc cánh cổng.|Metal rod read kanabou, not gymnastic tetsubou.
+587|A|1|城の金庫には金銀が蓄えられていた。|金庫|Kho báu của thành tích trữ vàng bạc.|Historical treasure storehouse, kanegura not modern safe kinko.
+588|A|1|別れの予言を守り、春に戻った。|予言|Giữ lời hẹn lúc chia tay, anh trở về vào mùa xuân.|Archaic kanegoto meaning promise; not prophecy yogen.
+589|A|1|下番した兵士は宿舎へ戻った。|下番|Người lính hết ca trực trở về doanh trại.|Going off duty, military register.
+590|L|1|1|Gắn thêm phụ kiện kim loại trang trí lên ván đầu hồi sẽ càng lộng lẫy hơn.
+591|L|0|1|Groschen từng là một đơn vị tiền tệ của Đức.
+592|A|2|経験も加味して採用を決める。|加味|Khi quyết định tuyển dụng, chúng tôi cũng cân nhắc kinh nghiệm.|Taking an additional factor into account.
+593|A|2|過密な日程を少し見直した。|過密|Tôi đã điều chỉnh lại lịch trình quá dày đặc.|Overloaded schedule, not a personal name.
+594|A|1|けがを乗り越え、見事にカムバックした。|カムバック|Vượt qua chấn thương, anh ấy đã trở lại đầy ấn tượng.|Return to activity after an absence.
+595|L|2|1|Người ta chôn chum ở những vị trí quan trọng để tiếng giậm chân vang hơn.
+596|A|1|人の失敗を揶揄うのはよくない。|揶揄う|Trêu chọc sai lầm của người khác là không hay.|Teasing behavior, standard karakau sense.
+597|L|1|1|Anh ấy luyện tập đều đặn mỗi ngày nên có vóc dáng rất đẹp.
+598|A|1|下吏が役所の門で書状を受け取った。|下吏|Viên lại cấp dưới nhận thư ở cổng công đường.|Historical lower official, period register.
+599|L|0|1|Một buổi chơi karuta được tổ chức tại dinh của một hatamoto.
+600|A|1|道の右の側を歩いてください。|側|Hãy đi phía bên phải đường.|Physical side, kawa variant reading.
+601|L|0|1|Thuở nhỏ, ông thích chăm sóc cá trong ao và chim trong lồng.
+602|A|1|家族が代わる代わる母を見舞った。|代わる代わる|Người trong gia đình thay phiên nhau đến thăm mẹ.|Alternating visits by several people.
+603|A|2|王は金の冠をかぶって現れた。|冠|Nhà vua xuất hiện, đầu đội vương miện vàng.|Crown; kan is a formal variant reading.
+604|L|0|1|Phần kiếm được được đóng góp trở lại cho công ty.
+605|L|2|1|Người ta cho rằng ở Nhật từ trước đó đã có tập quán cho vay lấy lãi.
+606|L|0|1|Tướng quân Ashikaga Yoshinori đã khuyến cáo gia tộc Hashio rút quân.
+607|A|1|マイクの感度を少し下げた。|感度|Tôi giảm độ nhạy của micro xuống một chút.|Sensitivity of an instrument.
+608|L|0|1|Lãnh đạo công đoàn đang đấu tranh phản đối việc đóng băng tiền lương.
+609|A|1|長年の夢がかない、感無量だった。|感無量|Ước mơ bao năm thành hiện thực, tôi xúc động không nói nên lời.|Deep emotion after a long-awaited achievement.
+610|L|0|1|Điện thoại chào mời nhiều quá, đến câu từ chối của tôi cũng thành bài thuộc lòng.
+611|L|2|1|Trong văn bản pháp luật, người ta thường đọc là “ichigetsu”.
+612|A|1|街頭で募金活動が行われていた。|街頭|Trên phố đang diễn ra hoạt động quyên góp.|Public street activity.
+613|L|0|1|Dưới đây là phần trình bày khái quát.
+614|L|1|1|“Sōgei” có nghĩa là tổng hợp nhiều ngành học thuật và nghệ thuật.
+615|L|0|1|Có lẽ vì quan niệm thanh nhã và bình dân của giới văn nhân mà cờ vây được coi là một thú chơi tao nhã.
+616|L|1|1|Phần lớn lộ trình trùng với đường Fushimi xưa.
+617|A|1|申込書に出発の月日を記入した。|月日|Tôi điền ngày tháng khởi hành vào đơn đăng ký.|Calendar month and day, gappi not tsukihi.
+618|A|1|眼鏡の度数を検査で確かめた。|眼鏡|Tôi kiểm tra độ kính qua buổi đo mắt.|Technical gankyou reading, eyeglasses.
+619|A|1|大学の願書を締切前に提出した。|願書|Tôi nộp hồ sơ dự tuyển đại học trước hạn.|Written application, not a prayer.
+620|A|1|令和元年にこの店を開いた。|元年|Tôi mở cửa hàng này vào năm đầu niên hiệu Reiwa.|First year of an era in a fictional personal example.
+621|A|1|その掛け軸は鑑定で贋物と分かった。|贋物|Sau khi giám định, bức tranh cuộn đó được xác định là đồ giả.|Spurious art object, formal ganbutsu reading.
+622|A|1|この建物は元来、学校だった。|元来|Tòa nhà này vốn là trường học.|Original use, not an incomplete noun label.
+623|A|1|生のままの酒を少し味わった。|生|Tôi nếm một chút rượu nguyên chất chưa pha.|Pure undiluted ki; not raw nama food.
+624|L|1|1|Sản phẩm phải đáp ứng tiêu chuẩn sản xuất rượu.
+625|L|0|1|Người mang cơm ra ruộng cho buổi cấy là những phụ nữ ăn mặc đẹp, được gọi là onari.
+626|A|1|この文芸誌は季刊で発行される。|季刊|Tạp chí văn học này được xuất bản hằng quý.|Quarterly publication frequency.
+627|L|0|2|Nhà báo Shinoda Kōzō đã thực hiện việc phỏng vấn các cụ cao niên.
+628|A|1|出張を終え、昨夜帰京しました。|帰京|Tôi kết thúc chuyến công tác và trở về Tokyo tối qua.|Return to Tokyo, avoiding historical Kyoto ambiguity.
+629|A|1|採決では賛否を示さず棄権した。|棄権|Khi biểu quyết, tôi không tán thành hay phản đối mà bỏ phiếu trắng.|Explicit voting abstention.
+630|L|1|1|Sau khi trở thành đạo diễn, ông chủ yếu làm phim hài.
+631|A|1|彼の気障な言い方に苦笑した。|気障|Tôi cười gượng trước cách nói kiểu cách của anh ấy.|Affected speech, not physical impediment.
+632|L|1|2|Tom có lý do riêng cho việc không trả tiền thuê nhà đúng hạn.
+633|A|1|卒業生が図書館に本を寄贈した。|寄贈|Cựu học sinh đã tặng sách cho thư viện.|Donation, kisou is the selected variant reading.
+634|L|0|1|Ông xuất thân từ tầng lớp quý tộc.
+635|L|0|2|Cởi giày ra thì nhớ xếp ngay ngắn.
+636|A|1|この駅を起点に旅を始める。|起点|Tôi bắt đầu chuyến đi từ ga này.|Route starting point.
+637|A|1|十干の最初は甲である。|甲|Thiên can đầu tiên là Giáp.|Calendar sign kinoe, not armor or a party label.
+638|A|1|廊下に誰かの気配を感じた。|気配|Tôi cảm thấy có ai đó ngoài hành lang.|Presence indication; rare kihai reading is documented.
+639|L|0|1|Có ý kiến cho rằng điều đó không mang tính quy phạm.
+640|L|0|1|Phong cách thư pháp ôn hòa, thanh nhã và rất sang trọng.
+641|L|0|1|Xã hội quý tộc và võ sĩ thời đó có khuynh hướng coi trọng vẻ đẹp u huyền.
+642|A|1|この道は起伏が多く、歩くと疲れる。|起伏|Đường này lên xuống nhiều nên đi bộ khá mệt.|Physical undulations rather than emotional swings.
+643|A|1|名前を忘れて、決まり悪い思いをした。|決まり悪い|Quên tên người ta khiến tôi thấy ngượng.|Social embarrassment, not a rule issue.
+644|L|0|1|Tác phẩm đã được chuyển thể thành kịch Noh và Kabuki.
+645|A|1|秋に植えた球根から芽が出た。|球根|Củ trồng hồi thu đã nảy mầm.|Plant bulb, concrete growth context.
+646|L|0|1|Cách thức phục vụ món ăn ở đó rất đặc biệt.
+647|L|0|1|Theo một cách kể dân gian, Hisahide và Dōsan vốn đã quen biết nhau từ trước.
+648|L|0|1|Tuy nhiên, tài chính của triều đình đã kiệt quệ đến cùng cực.
+649|L|1|1|Nơi này nằm dưới chân đồi ở phía đông đồng bằng Yodoe.
+650|L|0|1|Đã có lần tôi đồng cảm với lời bài hát đến mức bật khóc.
+651|L|0|1|Trường vốn chỉ dành cho nam sinh trong nhiều năm, nhưng từ năm Heisei 18 đã nhận cả nam lẫn nữ.
+652|L|1|1|Lần này, phản ứng của Mạc phủ rất cứng rắn.
+653|A|1|反対を押し切って計画を強行した。|強行|Họ bất chấp phản đối để triển khai kế hoạch bằng được.|Forcing through a plan; excludes source typo strong opposition.
+654|A|1|長雨で米が凶作になった。|凶作|Mưa kéo dài khiến vụ lúa thất bát.|Poor agricultural harvest.
+655|L|1|1|Tài liệu dùng trong giờ học rất thú vị.
+656|L|0|1|Không biết có phải phản xạ có điều kiện không, nhưng trong tôi dâng lên một nỗi hoài niệm khó tả.
+657|L|0|1|Như vậy, hai bên gắn bó với nhau nhờ cùng được hưởng lợi.
+658|L|0|1|Tôi nằm trên bãi cát, ngắm những người trẻ say sưa lướt ván buồm.
+659|A|1|人と野生動物の共存を考える。|共存|Cùng suy nghĩ về cách để con người và động vật hoang dã chung sống.|Coexistence, kyouson variant reading.
+660|A|1|私たちは三人姉妹です。|姉妹|Chúng tôi là ba chị em gái.|Sisters; kyoudai is a rarer reading of this spelling.
+661|A|1|二本の音叉が共鳴して音を出す。|共鳴|Hai âm thoa cộng hưởng và phát ra âm thanh.|Physical resonance, not ideological sympathy.
+662|L|0|1|Thị trấn quê tôi nằm bên biển.
+663|A|1|議論を予算の問題に局限した。|局限|Tôi giới hạn cuộc thảo luận trong vấn đề ngân sách.|Limiting the scope of a discussion.
+664|L|0|1|Khả năng đưa ra ý tưởng mới góp phần nâng cao sức cạnh tranh của sản phẩm và dịch vụ.
+665|L|2|1|Đây là vùng nông sơn thôn có thiên nhiên tươi đẹp, cây xanh trù phú và dòng nước trong lành.
+666|L|1|1|Phần thân được làm bằng gỗ hông.
+667|L|0|1|Âm nhạc có thể giúp ta chuyển đổi tâm trạng.
+668|L|0|1|Tôi vừa nhặt vỏ sò vừa đi dọc mép sóng.
+669|A|1|木綿を紡いで丈夫な糸を作った。|木綿|Tôi kéo sợi bông thành những sợi chỉ chắc bền.|Raw cotton kiwata, not the woven momen fabric.
+670|L|0|1|Chẳng hạn, có một quốc gia với cán cân vãng lai cân bằng.
+671|L|2|1|Ngay cả thời Edo, nhiều phiên cũng cấm võ sĩ ăn cá nóc.
+672|L|0|1|Sau chiến tranh, ngày này trở thành quốc lễ mang tên Ngày Cảm tạ Lao động.
+673|L|1|1|Trong suốt cuộc đời, ông để lại một trăm chín mươi sáu vở kịch.
+674|L|0|1|Kia là tòa nhà Quốc hội à?
+675|L|1|1|Nếu có hành vi làm giả tiền, sẽ xử phạt theo luật của nước đó.
+676|A|1|職人が玉を磨いて飾りを作った。|玉|Người thợ mài ngọc để làm đồ trang sức.|Precious stone gyoku, not a ball or a name.
+677|L|1|1|Vì vậy đã xuất hiện nghi ngờ rằng Mạc phủ Kamakura từng lên kế hoạch ám sát Michichika.
+678|L|1|1|Câu đố này tôi đã thấy ở chỗ khác rồi.
+679|L|2|2|Khoảng hai mươi sáu tuổi, khi công việc khai hoang tạm ổn, ông bắt đầu chuyên tâm vào hội họa.
+680|A|1|庭には種々の草花が咲いていた。|種々|Trong vườn nở đủ loại hoa cỏ.|Literary kusagusa, various kinds.
+681|A|1|祖父は村の旧事を静かに語った。|旧事|Ông tôi chậm rãi kể lại chuyện xưa của làng.|Past events, kuji reading in narrative.
+682|L|0|1|Anh ấy bốc thăm trúng giải nhất đấy.
+683|L|1|2|Ngược lại, nếu trả lời nhảm nhí thì sẽ bị lấy mất đệm ngồi.
+684|A|1|件の手紙は机の引き出しにあった。|件|Lá thư đã nhắc đến nằm trong ngăn kéo bàn.|Aforementioned kudan, not case counter ken.
+685|L|0|1|Sau khi chủ quán trà chuyển đến Yawata, công trình cũng mục nát dần.
+686|L|0|3|Hiện tượng khúc xạ càng mạnh khi mặt trời càng gần đường chân trời.
+687|A|1|同じ説明を繰り返すと諄い印象になる。|諄い|Lặp lại cùng một lời giải thích sẽ khiến người nghe thấy dài dòng.|Repetitious speech, not heavy flavor.
+688|A|1|山の尾根が国境になっていた。|国境|Đường sống núi tạo thành biên giới hai nước.|Physical border, kunizakai reading.
+689|L|0|1|Người ta khoan lỗ ở đầu tròn phình ra rồi luồn dây qua để làm vòng cổ.
+690|L|0|1|Sự kết hợp giữa ký hiệu biểu thị số và toán tử được gọi là biểu thức.
+691|L|0|1|Bộ phận này được lắp bên trong đàn piano.
+692|L|0|1|Trực quan hóa dữ liệu đã tích lũy bằng bảng và biểu đồ.
+693|L|0|1|Ở nhiều nước, việc cắt giảm quân bị trên thực tế rất khó.
+694|L|2|1|Ông rất tự hào là quân nhân, đến khi đi dạo cùng con gái cũng nhất định thay sang quân phục.
+695|A|1|中国の面積単位では一頃は百畝だ。|頃|Trong hệ đo diện tích Trung Quốc, một khoảnh bằng một trăm mẫu.|Chinese qing unit, not the time suffix goro.
+696|L|0|2|Bài hát có nhịp điệu vui tươi, tiết tấu nhanh nên được giới trẻ yêu thích.
+697|A|1|出発前に計器の数値を確認した。|計器|Tôi kiểm tra các chỉ số trên đồng hồ đo trước khi khởi hành.|Measurement instrument in practical use.
+698|A|1|手紙の最後に「敬具」と添えた。|敬具|Cuối thư, tôi thêm lời kết “Trân trọng”.|Letter closing, not spoken farewell.
+699|L|1|1|Ngôi mộ cổ được xây trên sườn đồi.
+700|A|1|警部が現場の状況を部下に尋ねた。|警部|Thanh tra hỏi cấp dưới về tình hình hiện trường.|Police rank, not a historical list fragment.
+701|A|1|地図で目的地までの経路を確かめる。|経路|Tôi kiểm tra đường đi tới điểm đến trên bản đồ.|Travel route.
+702|A|3|祭りの前に身の汚れを祓う。|汚れ|Trước lễ hội, người ta làm lễ thanh tẩy những ô uế trên mình.|Ritual impurity kegare, not ordinary dirt yogore.
+703|A|1|不正によって名誉が汚れてしまった。|汚れて|Hành vi gian lận đã làm hoen ố danh dự.|Defilement of honor, not physical soiling.
+704|A|1|森の奥から獣の声が聞こえた。|獣|Tiếng thú vọng ra từ sâu trong rừng.|Literal beast, kedamono reading.
+705|A|1|必要な物まで惜しむのは吝嗇だ。|吝嗇|Đến thứ cần thiết cũng tiếc tiền thì đúng là keo kiệt.|Stinginess kechi, not the formal rinshoku reading.
+706|L|0|1|Ông mắc bệnh lao và phải nằm liệt giường.
+707|L|0|1|Đó là nguồn gốc sức đoàn kết của các nhóm võ sĩ Kantō dưới quyền Yoritomo.
+708|A|1|彼は大会の十傑に名を連ねた。|傑|Anh ấy có tên trong mười người xuất sắc nhất giải.|Counter for top performers in the established jukketsu compound.
+709|L|0|1|Tôi ủng hộ nghị quyết của ủy ban.
+710|A|1|他人の作品をむやみに貶してはいけない。|貶して|Đừng tùy tiện chê bai tác phẩm của người khác.|Speaking disparagingly of someone's work.
+711|A|2|雨に煙る山が遠くに見えた。|煙る|Xa xa là dãy núi mờ trong mưa.|Hazy appearance, not literal smoke emission.
+712|A|1|家来は主君の帰りを門で待った。|家来|Gia thần đợi chủ tướng trở về ở cổng.|Historical retainer in period context.
+713|L|1|1|Ông lớn lên là con của một thợ đắp đê kiêm làm nông.
+714|L|1|1|Về cái chết đứng này, cũng có nhiều bàn luận từ góc độ y học.
+715|A|1|小さな劇団が町のホールで公演する。|劇団|Một đoàn kịch nhỏ biểu diễn tại hội trường thị trấn.|Theater troupe, complete sentence.
+716|L|0|1|Nếu không có lời động viên của bạn, chắc tôi đã bỏ kế hoạch này rồi.
+717|A|1|山積みの書類を見てげっそりした。|げっそりした|Nhìn đống giấy tờ chất cao, tôi nản cả người.|Disheartened, not weight loss.
+718|A|1|冷蔵庫を月賦で購入した。|月賦|Tôi mua tủ lạnh theo hình thức trả góp hằng tháng.|Monthly installments, older but natural term.
+719|A|1|各国の元首が式典に出席した。|元首|Nguyên thủ các nước đã tham dự buổi lễ.|Generic heads of state without disputed constitutional claims.
+720|A|1|事故の現場を詳しく調べた。|現場|Người ta đã xem xét kỹ hiện trường vụ tai nạn.|Actual site; rare genjou reading documented.
+721|L|1|1|Cho đến nay vẫn chưa tìm thấy nguyên bản tiếng Phạn.
+722|L|2|1|Việc này được cho là điểm khởi đầu của kế hoạch khai phá Ezo của Tanuma.
+723|A|1|計算ミスで五点の減点となった。|減点|Lỗi tính toán khiến tôi bị trừ năm điểm.|Deduction from a score.
+724|A|1|資料館で原爆の被害を学んだ。|原爆|Tôi tìm hiểu hậu quả của bom nguyên tử tại bảo tàng tư liệu.|Historical learning, nontechnical weapon context.
+725|L|2|1|Cậu bé ấy thật sự rất thông minh.
+726|A|1|故山田先生の研究を読み返した。|故|Tôi đọc lại công trình nghiên cứu của cố giáo sư Yamada.|Late before a fictional person's name.
+727|A|1|一溝は一穣の一万倍に当たる。|溝|Một câu bằng mười nghìn nhương, tức mười lũy thừa ba mươi hai.|Large-number unit kou, not a drainage ditch.
+728|A|1|行員が振込の手順を説明してくれた。|行員|Nhân viên ngân hàng đã giải thích giúp tôi cách chuyển khoản.|Bank employee, not a general office worker.
+729|L|1|1|Thuyền buôn từ Ayutthaya cũng đến Nagasaki.
+730|L|0|1|Tòa án Tối cao nằm gần Hoàng cung.
+731|A|1|政府は興業のため新技術を導入した。|興業|Chính phủ đưa vào công nghệ mới để phát triển công nghiệp.|Promotion of industry, not entertainment or a company name.
+732|L|0|1|Xếp mơ và đường xen kẽ từng lớp vào lọ.
+733|A|1|彼女は高尚な趣味の持ち主だ。|高尚|Cô ấy có những thú vui tao nhã.|Refined cultural taste.
+734|L|0|1|Theo AMeDAS, lượng mưa ở làng trong ba ngày này đã vượt một nghìn hai trăm milimét.
+735|L|2|1|Công bố bài phê bình công khai nhắm vào ông sẽ bị xử phạt.
+736|L|1|1|Như vậy, cuộc xung đột giữa viện và chùa Enryaku lại bùng lên.
+737|L|0|1|Thế lực gia tộc Fujiwara đã suy giảm đáng kể.
+738|L|0|1|Vì vậy, tổng công ty nhà nước cùng thị trấn Hiyoshi đã sớm hướng tới phát triển địa phương nhờ con đập.
+739|A|1|授業で古典の講読を行った。|講読|Trong giờ học, chúng tôi đọc và phân tích tác phẩm cổ điển.|Close reading with explanation, not subscription koudoku.
+740|L|0|1|Ngoài tiền ký túc xá, phí điện nước, nhiên liệu và phí tự quản được thu riêng.
+741|L|1|1|Sau đó, ngôi chùa trở nên hoang phế.
+742|L|0|1|Đồng thời, họ tìm cách phục hồi kinh tế bằng việc nâng cao sức mua của những người đó.
+743|L|2|1|Các ruộng bậc thang được công nhận sẽ nhận trợ cấp.
+744|A|1|新しい公園の名前を公募する。|公募|Chúng tôi kêu gọi người dân đề xuất tên cho công viên mới.|Public call for submissions.
+745|L|0|1|Khu vực này nằm trong Công viên Quốc định vịnh Wakasa.
+746|A|1|国土の多くを山地が占めている。|国土|Phần lớn lãnh thổ là đồi núi.|Physical national territory, neutral description.
+747|L|1|1|Vì thế, triều đình quyết định trước hết tăng cường năng lực quốc phòng.
+748|A|1|この森は国有の土地に広がっている。|国有|Khu rừng này trải rộng trên đất thuộc sở hữu nhà nước.|National ownership, not part of a company name.
+749|L|0|1|Anh ấy có mái tóc màu nâu sẫm.
+750|L|1|1|Thời gian về đích sẽ là thành tích của từng người.
+751|A|1|医師になる志を胸に勉強を続けた。|志|Tôi tiếp tục học, nuôi chí trở thành bác sĩ.|Personal aspiration, not gift or surname.
+752|A|1|厳しい寒気が池の水を凝らした。|凝らした|Cái rét buốt đã làm nước ao đông lại.|Rare kogorasu, literary freezing sense.
+753|A|1|冷えた煮汁がすっかり凝った。|凝った|Phần nước nấu để nguội đã đông lại hoàn toàn.|Congealing broth, kogoru not elaborate koru.
+754|L|0|1|Bạn có khi nào thấy quan hệ với người khác trở nên rắc rối không?
+755|A|1|梢の小鳥が朝日を浴びて鳴いた。|梢|Con chim nhỏ trên ngọn cây hót trong nắng sớm.|Treetop, complete natural image.
+756|L|0|1|Dù quan hệ trên hộ tịch đã chấm dứt, tình gắn bó ngày xưa vẫn còn nguyên.
+757|A|1|歯を食いしばって痛みを堪えた。|堪えた|Tôi nghiến răng chịu đau.|Enduring pain, kotaeru variant, not meeting expectations.
+758|L|0|1|Dạo này trời lạnh hơn rồi, tôi đang phân vân có nên mang bàn sưởi kotatsu ra chưa.
+759|A|1|事によると、明日は雪になるかもしれない。|事によると|Biết đâu ngày mai trời sẽ có tuyết.|Possibility, natural conjectural ending.
+760|L|2|1|Đi phỏng vấn xin việc thì cà vạt nhã nhặn sẽ phù hợp hơn loại sặc sỡ.
+761|A|1|事情が違うので個別に相談したい。|個別|Hoàn cảnh mỗi người khác nhau nên tôi muốn trao đổi riêng từng trường hợp.|Individual handling of distinct circumstances.
+762|A|1|壁の暦で祝日を確かめた。|暦|Tôi xem lịch treo tường để kiểm tra ngày lễ.|Calendar, not a decorative style name.
+763|A|1|古い思想では魂と魄を区別する。|魂|Trong tư tưởng cổ, người ta phân biệt hồn với phách.|Kon as the yang component contrasted with haku.
+764|A|1|祖母は自分が混血であることを話した。|混血|Bà kể rằng mình mang hai dòng máu.|Neutral self-description; avoids judging ancestry by appearance.
+765|L|0|1|Nền tảng của điều đó là sự chết đi và tái sinh của ngũ cốc.
+766|L|0|1|Sự tương phản giữa cát trắng và biển xanh thật đẹp.
+767|L|0|1|Một lúc sau, các bồi thẩm viên rời phòng xử để thảo luận.
+768|A|1|なんとも豪儀なもてなしであった。|豪儀|Quả là một sự tiếp đãi hào phóng, linh đình.|Dictionary spelling alias, literary gougi meaning splendid.
+769|L|1|1|Do được sử dụng trong thời gian dài, sai số dần tích lũy.
+770|A|1|受付は二階にご座います。|ご座います|Quầy lễ tân ở tầng hai ạ.|Polite existential gozaimasu; not a thanks formula.
+771|A|1|ご馳走さま、また食べに来ますね。|ご馳走さま|Cảm ơn bữa ăn nhé, tôi sẽ lại ghé ăn.|After-meal thanks, friendly register.
+772|L|1|1|Nhìn kỹ thì trên bàn cờ vây còn hằn vết nắm đấm.
+773|A|1|すっかりご無沙汰してしまいました。|ご無沙汰|Thật lâu rồi tôi chưa liên lạc với anh chị.|Polite acknowledgment of a long silence.
+774|A|1|御免ください、どなたかいらっしゃいますか。|御免ください|Xin phép, có ai ở nhà không ạ?|Calling at someone's doorway.
+775|A|1|窓の外を御覧なさい。|御覧なさい|Con nhìn ra ngoài cửa sổ xem.|Instruction from senior to junior, not a formal customer request.
+776|L|0|1|Có sự khác biệt tùy địa phương và tông phái.
+777|A|1|睡眠のサイクルを整えたい。|サイクル|Tôi muốn điều chỉnh lại chu kỳ giấc ngủ.|Repeating cycle, not a bicycle.
+778|L|2|1|Hai dự án đã được lựa chọn cho Chương trình COE thế kỷ hai mươi mốt.
+779|L|0|1|Chúng ta phải ngăn những tai nạn như thế này tái diễn.
+780|L|2|1|Sau đó, chủ và khách rót rượu mời nhau bằng cùng một chén.
+781|A|1|炉の火が赤々と盛っていた。|盛って|Lửa trong lò cháy đỏ rực.|Vigorous flame sakaru, not piling food moru.
+782|A|1|交換した商品の差額を支払った。|差額|Tôi trả thêm phần chênh lệch khi đổi hàng.|Difference between two prices.
+783|A|1|一昨昨日、友人から手紙が届いた。|一昨昨日|Ba hôm trước, tôi nhận được thư của một người bạn.|Three days ago; rare kanji spelling retained.
+784|A|1|この詩は若い頃の作物である。|作物|Bài thơ này là sáng tác thời trẻ của tác giả.|Literary sakubutsu, artistic work not crops.
+785|L|0|2|Khoảng lúc quen nhau được gần nửa năm, tôi bắt đầu nghĩ đến chuyện chia tay.
+786|L|0|1|Muốn sống hạnh phúc, ta phải biết yêu những điều nhỏ nhặt hằng ngày.
+787|L|0|1|Tự do ngôn luận mang lại nhiều lợi ích cho xã hội.
+788|L|2|1|Bản thân khái niệm du lịch vẫn chưa được xác định rõ.
+789|L|2|1|Chiếc thang ấy phủ đầy bụi và gỉ sét.
+790|A|1|祖母は三味線を弾くのが好きだ。|三味線|Bà tôi thích chơi đàn shamisen.|Traditional instrument in an everyday family context; samisen reading is dictionary supported.
+791|A|1|手伝ってくれて、サンキュー！|サンキュー|Cảm ơn cậu đã giúp nhé!|Casual borrowed expression used between friends.
+792|A|1|船は古い桟橋に着いた。|桟橋|Tàu cập vào cầu tàu cũ.|Literal pier; uncommon sankyou reading needs separate confirmation.
+793|A|1|ご挨拶のため参上しました。|参上|Tôi xin đến để chào hỏi ngài.|Humble formal expression for visiting someone of higher status.
+794|L|0|1|Người ta cho rằng nghi thức này nhằm ca ngợi Đức Phật cùng với việc tụng kinh.
+795|L|0|1|Nơi này nằm trên sườn núi nhìn xuống thung lũng Ikoma.
+796|A|1|卒業生を招いて座談会を開いた。|座談会|Chúng tôi mời các cựu học sinh đến buổi tọa đàm.|A small discussion gathering rather than a formal lecture.
+797|A|1|庭の隅に雑木が生えている。|雑木|Ở góc vườn mọc đủ loại cây tạp.|Mixed miscellaneous trees; selected zatsuboku reading is uncommon.
+798|A|1|地図に現在地の座標を入力した。|座標|Tôi nhập tọa độ vị trí hiện tại lên bản đồ.|Concrete geographical coordinates, avoiding an opaque literary metaphor.
+799|A|1|残金は来月お支払いします。|残金|Tôi sẽ thanh toán số tiền còn lại vào tháng sau.|Outstanding balance in a polite payment arrangement.
+800|L|0|1|Nếu phải chọn thì tôi thích món thịt heo chiên xù vị mè và ponzu.
+801|L|0|1|Không nên ép buộc người ta học, mà nên khuyến khích việc học.
+802|A|1|この店は港で新鮮な魚を仕入れる。|仕入れる|Cửa hàng này lấy cá tươi ngay tại cảng.|Purchasing stock for resale, distinct from obtaining information.
+803|L|0|1|Đây là tư liệu hình ảnh rất có giá trị về phong tục, xã hội và văn hóa.
+804|L|2|1|Hiện nay, khu vực này đã trở thành khu đô thị.
+805|A|1|この絵は色彩が鮮やかだ。|色彩|Bức tranh này có màu sắc rất rực rỡ.|Literal colours rather than a figurative political tendency.
+806|L|0|1|Vì thế, một số địa điểm tổ chức đám cưới giảm giá vào ngày Butsumetsu, ngày bị coi là không may.
+807|A|2|予定どおり式典を施行した。|施行した|Buổi lễ đã được tiến hành đúng kế hoạch.|Selected shigyou sense means carrying out a ceremony, not enacting legislation.
+808|L|1|1|Mẹ ơi, bánh gạo này bị ỉu rồi, ăn không ngon nữa.
+809|L|0|1|Có vẻ bố thích loại cà phê không có vị chua hơn.
+810|L|1|1|Người ta thiên về những loại dễ uống.
+811|L|0|1|Ông ấy sắp đến đây để khảo sát hoạt động công nghiệp của thị trấn này.
+812|L|0|1|Nước đang nhỏ giọt từ chiếc khăn ướt.
+813|A|1|親切にしてくれるのは下心があるからだ。|下心|Anh ta tốt với tôi như vậy là có ý đồ cả.|Hidden ulterior motive behind apparent kindness.
+814|L|0|1|Tôi quyết định ghé qua sau giờ làm để tìm hiểu trước về cửa hàng.
+815|A|1|日々の練習が成功の下地になった。|下地|Việc luyện tập hằng ngày đã tạo nền tảng cho thành công.|Figurative foundation for an achievement.
+816|L|1|2|Sau vụ việc, phong trào phản đối ô nhiễm do khai mỏ đã lắng xuống.
+817|A|1|栄養失調で体力が落ちてしまった。|失調|Vì suy dinh dưỡng, sức lực của tôi đã giảm sút.|Loss of physiological balance in the established compound eiyou shicchou.
+818|A|1|説明の後に質疑の時間を設けます。|質疑|Sau phần trình bày sẽ có thời gian hỏi đáp.|Formal questions in a meeting setting.
+819|A|1|冷蔵庫の人参が萎びてしまった。|萎びて|Cà rốt trong tủ lạnh đã héo quắt mất rồi.|A vegetable shrivelling through moisture loss.
+820|L|0|1|Người ta cho rằng những cây có cành mềm dẻo như liễu rủ và phong là phù hợp.
+821|A|1|屎尿は専用の施設で処理される。|屎尿|Phân và nước tiểu được xử lý tại cơ sở chuyên dụng.|Technical sanitation register appropriate to this noun.
+822|L|0|2|Tuy làm vội, nhưng nó vẫn đủ để giải quyết nhu cầu trước mắt.
+823|A|1|相手はしぶとく最後まで粘った。|しぶとく|Đối thủ rất lì lợm, kiên trì đến tận phút cuối.|Tenacity in competition without implying physical toughness.
+824|A|1|空気が抜けて風船が萎んだ。|萎んだ|Bóng bị xì hơi rồi xẹp xuống.|Deflation rather than the wilting of a plant.
+825|A|1|彼は王に仕える忠実な僕だった。|僕|Anh ấy là người hầu trung thành của nhà vua.|Literary shimobe meaning servant, explicitly not the pronoun boku.
+826|A|1|彼の洒落な生き方に憧れる。|洒落|Tôi ngưỡng mộ lối sống phóng khoáng của anh ấy.|Literary sharaku meaning free and easy; uncommon reading must remain flagged.
+827|L|0|2|Bài diễn thuyết của Tom cuốn hút và có sức mạnh dẫn dắt đám đông.
+828|A|1|衆議院で法案の審議が始まった。|衆議院|Hạ viện đã bắt đầu thảo luận dự luật.|Institutional use without asserting a current political event.
+829|L|0|1|Có thể dễ dàng tổng hợp dữ liệu trong danh sách bằng chức năng tính tổng tự động.
+830|L|0|1|Chương trình thạc sĩ được mở vào năm 1955.
+831|L|0|3|Dù được hỏi điều gì, ông ấy cũng chỉ trả lời mà không đưa ra biện pháp cụ thể.
+832|A|1|名誉への執着を捨てて山に入った。|執着|Ông từ bỏ sự chấp niệm với danh vọng rồi lên núi sống.|Buddhist literary shuujaku reading suits renunciation.
+833|L|0|1|Những người hoàn thành khóa đào tạo do Hiệp hội Thần xã quy định sẽ được cấp chứng nhận.
+834|L|0|1|Sau đó, ông từng làm nhiệm vụ bảo vệ cho phiên Takatsuki và một số nơi khác.
+835|L|0|1|Ai đóng vai chính vậy?
+836|L|2|2|Với những chuyện như thế này, tốt nhất là mỗi người tự đánh giá theo cảm nhận, tức khẩu vị của mình.
+837|L|0|1|Họa sĩ ấy sang Paris để trau dồi tay nghề.
+838|L|0|1|Sau lễ trao sính lễ, người ta tổ chức ăn mừng.
+839|A|1|二人は再び出会う宿命にあった。|宿命|Hai người như đã được số phận định sẵn sẽ gặp lại nhau.|Narrative use of an unavoidable destiny.
+840|L|0|1|Cô ấy thích làm đồ thủ công và đã dùng đủ loại vật liệu để tạo ra những món đồ nhỏ xinh.
+841|L|0|1|Phóng viên đã đi tìm hiểu và đưa tin về vụ việc.
+842|L|2|1|Tôi nhận được thư của anh ấy, đại ý là không thể chấp nhận đề nghị của tôi.
+843|L|0|1|Hãy thử làm đề thi các năm trước để nắm được xu hướng ra đề.
+844|L|0|1|Thầy phụ trách khối đã gọi tôi lại ở hành lang.
+845|L|1|1|Những khu đất tư hữu quy mô lớn vào thời kỳ này được gọi là các trang viên sơ kỳ.
+846|L|2|1|Số biểu diễn được dưới dạng thương của hai số nguyên được gọi là số hữu tỉ.
+847|A|1|父は子供を背負って山道を歩いた。|背負って|Bố cõng con đi trên đường núi.|Literal carrying on the back; selected shou inflection needs reading review.
+848|A|1|月の象を鏡に映した意匠だ。|象|Đó là họa tiết mô phỏng hình mặt trăng soi trong gương.|Literary shou meaning form or appearance; not an elephant.
+849|A|1|長い旅で体力を消耗した。|消耗した|Chuyến đi dài khiến tôi hao mòn sức lực.|Exhaustion of strength; uncommon shoukou reading is recorded rather than assumed.
+850|L|0|1|Cảnh sát đã hỏi nhân chứng.
+851|A|1|古い城壁は所々に傷がある。|所々|Bức tường thành cũ có nhiều chỗ bị hư hại.|Literary shosho reading meaning here and there.
+852|A|1|所定の用紙に氏名を記入してください。|所定|Vui lòng ghi họ tên vào mẫu quy định.|Standard administrative collocation.
+853|L|1|1|Ấn bản đầu tiên được nhà xuất bản Tōundō Shoten phát hành ngày 1 tháng 12 năm 1910.
+854|L|0|1|Tôi viết bài cảm nhận sau khi đọc sách mà trông như một bài điểm sách.
+855|L|0|1|Dù có sốt ruột đến đâu, việc hành chính vẫn cứ chất đống, làm không xuể.
+856|L|0|1|Tôi đã bác bỏ lời phản đối đó.
+857|A|4|布を切るときは縫い代を残す。|代|Khi cắt vải, nhớ chừa phần để may đường viền.|Productive suffix shiro meaning allowance in nuishiro; not historical money.
+858|A|1|隊長が殿を務めて全員の撤退を待った。|殿|Đội trưởng ở lại chặn hậu, chờ mọi người rút hết.|Military rear guard, a natural context for shingari.
+859|L|0|1|Mục tiêu lớn nhất của cả hai đều là phát triển địa phương.
+860|A|1|新興企業が次々と市場に参入した。|新興|Các doanh nghiệp mới nổi liên tiếp gia nhập thị trường.|Emerging businesses, not religious belief shinkou.
+861|L|1|1|Sứ giả trình bày ý định trao sính lễ rồi kính dâng lễ vật.
+862|A|1|生徒の理解に合わせて授業の進度を調整する。|進度|Điều chỉnh tốc độ dạy theo mức độ tiếp thu của học sinh.|Progress through a course, with a slightly longer sentence for clarity.
+863|L|2|1|Người ta nói rằng Munenori rất được Hidetada tin cậy.
+864|A|4|審判の笛で試合が始まった。|審判|Tiếng còi của trọng tài báo hiệu trận đấu bắt đầu.|A referee; rare shinban reading is explicitly distinguished from default shinpan.
+865|L|1|1|Nơi này còn kiêm cả phòng khám.
+866|A|1|地方の三味線に合わせて舞う。|地方|Nàng múa theo tiếng đàn shamisen của người đệm nhạc.|Jikata denotes the musician accompanying a dance, not a region.
+867|L|1|1|Về chất liệu, đồ sứ hoặc đồ sành chiếm đa số áp đảo.
+868|A|1|磁気を利用してカードの情報を読み取る。|磁気|Thông tin trên thẻ được đọc bằng từ tính.|Physical magnetism in a familiar technical application.
+869|A|1|山々に囲まれた険しい地形である。|地形|Đây là địa hình hiểm trở, bao quanh bởi núi non.|Terrain sense with uncommon jigyou reading; analyzer limits must be recorded.
+870|A|1|授業の後も自主的に練習を続けた。|自主|Sau giờ học, tôi vẫn tự giác tập luyện tiếp.|Independent initiative in the productive adjectival form jishuteki.
+871|A|1|参加する方は事前にご連絡ください。|事前|Ai muốn tham gia vui lòng liên hệ trước.|Beforehand in a natural event notice.
+872|L|2|1|Tuy vậy, người ta cũng cho rằng ông có lòng tự tôn rất cao.
+873|L|0|1|Theo lối viết chữ Hán cũ, từ này được viết là 聲明.
+874|A|1|交通費は実費をお支払いします。|実費|Chúng tôi sẽ thanh toán chi phí đi lại theo số tiền thực tế.|Actual expenses reimbursed rather than a fixed allowance.
+875|A|1|駅まで歩いて十分ほどかかる。|十分|Đi bộ đến ga mất khoảng mười phút.|Ten minutes, explicitly not sufficient; jippun reading may be masked by juppun.
+876|L|0|1|Một ủy ban điều tra thực tế đã được thành lập để làm rõ nguyên nhân vụ việc.
+877|A|1|地主の許可を得て畑を借りた。|地主|Tôi được chủ đất đồng ý cho thuê ruộng.|Landowner in an ordinary rental situation.
+878|A|1|じゃん拳で順番を決めよう。|じゃん拳|Mình oẳn tù tì để quyết định thứ tự nhé.|Playful invitation using the exact dictionary spelling variant.
+879|A|1|寒いのでジャンパーを羽織った。|ジャンパー|Trời lạnh nên tôi khoác thêm áo gió.|Jacket sense, not an athlete or an electrical lead.
+880|L|0|1|Ngã tư trước ga hay xảy ra tai nạn, nên nhớ cẩn thận nhé.
+881|A|1|名簿に同じ名前の重複があった。|重複|Trong danh sách có tên bị lặp lại.|Duplication in a list; selected juufuku is a recognized nondefault reading.
+882|A|3|この刀は代々伝わる家の重宝だ。|重宝|Thanh kiếm này là báu vật gia truyền qua bao thế hệ.|Juuhou means a priceless treasure, not useful chouhou.
+883|L|2|1|Khu dắt ngựa đi vòng có hình tròn, ở giữa được trồng cây.
+884|A|1|研修中も社員の規則に準じる。|準じる|Trong thời gian đào tạo cũng áp dụng theo nội quy dành cho nhân viên.|Following an established rule or standard.
+885|A|1|この資料が研究の助となれば幸いです。|助|Mong rằng tài liệu này sẽ giúp ích cho việc nghiên cứu.|Formal noun jo meaning assistance, not a substring of auxiliary verb.
+886|A|1|彼は国司の尉に任じられた。|尉|Ông được bổ nhiệm làm viên quan cấp ba trong bộ máy cai quản tỉnh thời xưa.|Historical ritsuryou rank; technical vocabulary is appropriate to the sense.
+887|L|0|1|Cô ấy là người dễ mủi lòng.
+888|A|1|六畳の部屋に机を置いた。|畳|Tôi kê bàn trong căn phòng rộng sáu chiếu tatami.|Counter for tatami-sized floor area; numerical ruby remains conservative.
+889|A|1|乗客は静かに船を降りた。|乗客|Hành khách lặng lẽ xuống tàu.|Passenger noun; selected joukaku reading is uncommon and must be flagged.
+890|A|1|幼い子はまだ情緒が安定しない。|情緒|Cảm xúc của trẻ nhỏ vẫn chưa ổn định.|Emotional state; the selected jousho reading needs explicit analyzer review.
+891|A|1|危機にひるまぬ丈夫であれ。|丈夫|Hãy là bậc trượng phu không nao núng trước hiểm nguy.|Literary joufu meaning a heroic man, not durable joubu.
+892|L|0|1|Chắc cả đời tôi cũng không dùng thành thạo được hai trợ từ wa và ga trong tiếng Nhật mất.
+893|A|1|講演の後で田中女史にご挨拶した。|女史|Sau buổi diễn thuyết, tôi đến chào bà Tanaka.|Formal, somewhat dated honorific for a distinguished woman.
+894|L|0|2|Vì can là trợ động từ nên trong câu hỏi, ta đưa nó lên đầu câu.
+895|A|1|私はベトナム人です。|人|Tôi là người Việt Nam.|Nationality suffix jin attached to a country name.
+896|A|1|人目を避けて裏道を歩いた。|人目|Tôi đi đường sau để tránh bị người khác nhìn thấy.|Public notice; uncommon jinmoku reading is recorded rather than forced into ruby.
+897|A|1|朝の森は水気を帯びていた。|水気|Khu rừng buổi sáng còn đẫm hơi ẩm.|Moisture in literary description; selected suiki reading is uncommon.
+898|L|0|2|Thúc đẩy những đổi mới tiên tiến nhất.
+899|A|1|「三」は数を表す数詞です。|数詞|“Ba” là một số từ, dùng để biểu thị số lượng.|Explicit grammatical numeral, avoiding a match inside josuushi.
+900|A|1|窓の下に暖房器具を据え付けた。|据え付けた|Tôi lắp máy sưởi bên dưới cửa sổ.|Installing equipment in a fixed position.
+901|L|0|1|Đây là món nướng có hương yuzu thơm mát.
+902|A|1|子供たちの健やかな成長を願う。|健やか|Tôi mong các con lớn lên khỏe mạnh.|Conventional warm wish for children's health and growth.
+903|L|0|1|Gấu áo dài thật, nhưng trông không luộm thuộm đâu.
+904|L|0|1|Ngày nay, nó đã không còn được sử dụng.
+905|A|1|スチームで服のしわを伸ばした。|スチーム|Tôi dùng hơi nước để làm phẳng nếp nhăn trên quần áo.|Steam used in garment care.
+906|A|2|暗い室内でストロボを使って撮影した。|ストロボ|Tôi dùng đèn flash để chụp trong phòng tối.|Camera flash, not a laboratory stroboscope.
+907|A|1|すばしこい猫が塀を飛び越えた。|すばしこい|Con mèo nhanh nhẹn nhảy vọt qua bức tường.|Quick agile movement of an animal.
+908|A|1|椅子のスプリングが壊れてしまった。|スプリング|Lò xo của chiếc ghế bị hỏng mất rồi.|Coil spring, not the season or an overcoat.
+909|A|1|古い歌には天皇をたたえる言葉がある。|天皇|Trong bài ca cổ có những lời ca ngợi Thiên hoàng.|Literary sumeragi fits the historical poetic context; reading needs review.
+910|A|1|僧は頭を剃って山に入った。|剃って|Vị sư cạo đầu rồi lên núi tu hành.|Shaving in a monastic context; selected suru reading is uncommon.
+911|L|0|3|Cũng có người cho rằng chính ở đây đã nảy sinh sự hiểu lầm giữa hai bên.
+912|L|0|1|Tôi nghe thấy tiếng áo khoác cọ vào nhau.
+913|A|2|交渉は予想よりすんなりまとまった。|すんなり|Cuộc thương lượng đạt thỏa thuận dễ dàng hơn dự kiến.|Smooth completion rather than a slender physical shape.
+914|L|0|2|Dạo này, thứ tôi mê nhất chính là phi tiêu.
+915|A|1|店の前に客がずらっと並んでいる。|ずらっと|Khách xếp thành một hàng dài trước cửa hàng.|A conspicuous long line of people.
+916|L|0|1|Nhìn chung, cây lai cà chua và khoai tây năm nay phát triển tốt.
+917|L|2|1|Các thợ chuyên nghiệp cũng xuất hiện, và người ta bắt đầu làm ra những sản phẩm rất tinh xảo.
+918|L|0|1|Việc áp dụng biện pháp trừng phạt đối với công đoàn là không thỏa đáng.
+919|L|0|1|Mọi thứ đều đứng yên, như thể bị bỏ lại ngoài dòng chảy của thời gian.
+920|L|0|1|Đến khoảng tháng mười một, trứng phát triển chín hơn nữa.
+921|A|1|彼女は清純な役柄で人気を集めた。|清純|Cô được yêu thích qua những vai diễn trong sáng.|An actress's character type; avoids judgement about a real person's private life.
+922|L|1|1|Hàng người tiến lên trật tự, không hề rối loạn.
+923|L|0|1|Khi mặc lễ phục, người ta quấn thêm đai datemaki bên ngoài lớp này.
+924|A|1|この絵には静的な美しさがある。|静的|Bức tranh này có một vẻ đẹp tĩnh lặng.|Static aesthetic quality, contrasted implicitly with motion.
+925|L|0|1|Shigejirō cũng làm việc ở nhà máy luyện sắt một thời gian.
+926|L|1|1|Chính những hạn chế khắt khe mới làm nảy sinh ý tưởng.
+927|A|1|生徒たちは校庭に整列した。|整列した|Học sinh xếp hàng ngay ngắn trên sân trường.|People forming orderly rows in a school setting.
+928|A|1|うちの伜も今年で二十歳になる。|伜|Thằng con trai nhà tôi năm nay cũng tròn hai mươi rồi.|Familiar, self-deprecating way for a parent to refer to his son.
+929|L|0|1|Cuối cùng, anh ấy đã hoàn thành trách nhiệm của mình.
+930|A|1|このセクションでは研究方法を説明する。|セクション|Phần này trình bày phương pháp nghiên cứu.|A section of a document, avoiding obscure railway compounds.
+931|A|1|両者の案を折衷して計画をまとめた。|折衷して|Chúng tôi kết hợp ý tưởng của hai bên để hoàn thiện kế hoạch.|A compromise incorporating elements from both proposals.
+932|L|0|1|Tự nhiên tôi thấy nhớ nhà da diết, chỉ muốn về ngay.
+933|L|0|1|Đại từ quan hệ có chức năng kết hợp giữa liên từ và đại từ.
+934|A|1|この事件は世論に大きな影響を与えた。|世論|Vụ việc này đã tác động mạnh đến dư luận.|Public opinion; selected seron must not be overwritten with yoron ruby.
+935|A|1|山に住む仙は千年を生きたという。|仙|Tương truyền vị tiên sống trên núi đã sống cả nghìn năm.|Folktale hermit or immortal, not a character in a personal name.
+936|L|0|2|Xét về niên đại, mộ cổ Hashihaka có trước.
+937|L|0|1|Quy định về việc tuyển chọn nhân viên được xác định như sau.
+938|A|1|大学では日本史を専修している。|専修している|Ở đại học, tôi theo chuyên ngành lịch sử Nhật Bản.|Academic specialization, avoiding school names and Buddhist senju.
+939|L|1|1|Trên thực tế, chiến thuật thâm nhập đã được triển khai trên quy mô lớn.
+940|A|1|先先月から日本語を習っている。|先先月|Tôi bắt đầu học tiếng Nhật từ tháng trước nữa.|Month before last; exact selected spelling is preserved.
+941|A|1|先先週、祖母の家を訪ねた。|先先週|Tuần trước nữa, tôi đến thăm nhà bà.|Week before last, in a simple completed event.
+942|L|0|2|Cũng trong năm đó, vị lãnh chúa tiền nhiệm Mitsuyoshi qua đời.
+943|L|0|1|Vui lòng xếp hàng theo thứ tự đến trước, đến sau.
+944|A|1|彼には先天的な音感の良さがある。|先天的|Anh ấy có khả năng cảm thụ âm nhạc tốt bẩm sinh.|An inborn aptitude rather than the philosophical a priori sense.
+945|L|2|1|Họ đảm nhiệm việc giám sát tàu thuyền đi vào vịnh Edo.
+946|L|0|1|Em gái tôi chiếm luôn phòng của tôi.
+947|L|0|2|Do anh Lee bị chấn thương, sức mạnh của đội Stars đã giảm đáng kể.
+948|A|1|地域間の格差を是正する必要がある。|是正する|Cần thu hẹp sự chênh lệch giữa các vùng.|Correcting an imbalance in formal policy language, without a factual current claim.
+949|L|0|1|Cuốn sách này từng bán chạy, nhưng giờ đã ngừng xuất bản.
+950|A|2|大学で禅の思想について学んだ。|禅|Tôi đã tìm hiểu tư tưởng Thiền ở đại học.|Zen as a Buddhist school, not an element of a religious name.
+951|L|0|1|=
+952|L|0|2|Hôm nay đi chào hàng từng nơi mà chẳng được khách nào.
+953|A|1|善良な人々が困っている隣人を助けた。|善良|Những người tốt bụng đã giúp người hàng xóm gặp khó khăn.|Moral kindness expressed through an ordinary helpful action.
+954|A|1|学生たちが小さな文芸誌を創刊した。|創刊した|Các sinh viên đã cho ra mắt một tạp chí văn học nhỏ.|Launching a magazine's first issue.
+955|L|0|2|Qua môn học này, chúng ta sẽ phát triển năng lực tiếng Nhật toàn diện.
+956|A|1|然うして二人は家路についた。|然うして|Rồi hai người lên đường về nhà.|Literary connective soushite in the selected historical spelling.
+957|L|0|1|Đây là câu ví dụ sát với cuộc sống hằng ngày nhỉ. Những câu như thế này rất đáng hoan nghênh.
+958|A|1|鍵は其処らに置いたはずだ。|其処ら|Tôi nhớ là đã để chìa khóa đâu đó quanh đây mà.|Vague nearby location; historical kanji spelling is retained.
+959|A|1|雨がやんだ。然して虹が出た。|然して|Mưa tạnh. Rồi cầu vồng xuất hiện.|Sequential connective soshite with the selected older written form.
+960|A|1|名前を呼ぶと、猫は外方を向いた。|外方|Vừa nghe gọi tên, con mèo lại ngoảnh mặt đi.|Turning the other way, an idiomatic use of soppo.
+961|L|2|1|Người ta tin rằng đồ trang sức làm từ kim loại như bạc có sức mạnh đặc biệt.
+962|A|1|春の園に色とりどりの花が咲く。|園|Muôn hoa đủ sắc nở trong khu vườn mùa xuân.|Literary sono meaning garden, not a proper name or suffix en.
+963|L|2|2|Ngoài ra, người ta còn khai quật được đồ gốm Sue và các hiện vật khác.
+964|A|1|机の上は其の儘にしておいて。|其の儘|Cứ để nguyên đồ trên bàn nhé.|Leaving something unchanged; rare spelling is intentional.
+965|L|1|1|Nó sừng sững giữa Fukakusa và Daigo, thuộc quận Fushimi của Kyoto.
+966|L|1|2|Loại Shizuka có độ cong ít hơn.
+967|A|1|今日は其れ程寒くない。|其れ程|Hôm nay không lạnh đến mức ấy đâu.|Degree expression in its common negative construction.
+968|L|2|1|Vì vậy, xét về tình cảm, hai bên vốn đối địch nhau.
+969|L|1|1|Thông thường, phần mở đầu bản nhạc là đoạn độc tấu sáo ryūteki.
+970|A|1|川沿いをゆっくり散歩した。|沿い|Tôi thong thả đi dạo dọc bờ sông.|Suffix zoi attached to a geographical feature.
+971|A|1|当時の蔵相は減税案を発表した。|蔵相|Bộ trưởng Tài chính khi ấy đã công bố đề xuất giảm thuế.|Historical Japanese cabinet title, avoiding claims about a present officeholder.
+972|A|1|大切な本をぞんざいに扱わないで。|ぞんざい|Đừng quăng quật cuốn sách quý như thế.|Careless handling of an object, in a natural request.
+973|L|0|1|Phóng viên chiến trường được hưởng chế độ tương đương đại úy.
+974|L|1|1|Đến lúc này, Motonari cũng quyết định đối đầu với Takafusa.
+975|A|1|二人の作家が文学について対談した。|対談した|Hai nhà văn đã cùng trò chuyện về văn học.|A conversation between two speakers, typical of an interview feature.
+976|L|1|1|Ban đầu, Nobunaga và Ieyasu là đồng minh ngang hàng.
+977|L|0|2|Đối tượng này thường được đem ra so sánh với tầng lớp quý tộc.
+978|L|1|1|Trong các bản của Truyện Hōgen, đây là bản dài nhất.
+979|L|0|1|Người Nhật đã rất mong chờ điều đó.
+980|A|1|困っていた時にタイムリーな助言をもらった。|タイムリー|Đúng lúc đang bối rối, tôi nhận được lời khuyên kịp thời.|Timely advice, not a baseball hit; slightly longer for a complete situation.
+981|L|1|1|Có lẽ nên dập lửa trại trước khi đi ngủ.
+982|A|2|このズボンは丈が少し長い。|丈|Chiếc quần này hơi dài một chút.|Length of clothing, not a quoted phrase without a predicate.
+983|L|0|1|Ý kiến được nêu trong buổi họp lớp đã được thông qua theo đa số.
+984|A|1|領主の館は丘の上にあった。|館|Dinh thự của lãnh chúa nằm trên đồi.|Historical noble residence; selected tachi reading needs review.
+985|A|1|立方を変えると背中が楽になった。|立方|Đổi cách đứng thì lưng tôi thấy dễ chịu hơn.|Way of standing, explicitly not cubical rippou or a dancer.
+986|A|1|多くの尊い命が戦争で失われた。|尊い|Chiến tranh đã cướp đi biết bao sinh mạng quý giá.|Precious human life; selected tattoi is a supported alternate reading.
+987|A|1|家族と過ごす時間は何よりも貴い。|貴い|Thời gian bên gia đình quý hơn tất cả.|Precious time rather than high price; selected tattoi reading must be preserved.
+988|A|2|祖母は古くからの教えを尊ぶ。|尊ぶ|Bà tôi luôn kính trọng những lời dạy từ xưa.|Respect for traditional teachings; tattobu alternate reading needs review.
+989|A|1|掌に小さな貝殻を載せた。|掌|Tôi đặt một vỏ sò nhỏ vào lòng bàn tay.|Literary tanagokoro meaning palm, supported by a concrete action.
+990|L|0|2|Một mặt ông ấy khen báo cáo của tôi, nhưng mặt khác lại phê bình nó.
+991|L|0|1|Vắng Yumi, tôi thấy cô đơn đến mức không chịu nổi.
+992|A|1|雨上がりの道に水の溜まりができた。|溜まり|Sau cơn mưa, trên đường đọng lại một vũng nước.|A collection of liquid; standalone nominal use rather than a verb stem.
+993|A|1|彼が約束を守った例はない。|例|Chưa lần nào anh ta giữ lời hứa cả.|Tameshi means an instance or precedent, in its characteristic negative pattern.
+994|A|1|ロープの弛みを直してから渡ろう。|弛み|Mình kéo dây cho hết chùng rồi hãy qua nhé.|Physical slack in a rope.
+995|A|1|荷物を縛ったロープが弛んできた。|弛んで|Sợi dây buộc hành lý bắt đầu chùng ra.|A rope becoming slack, not someone neglecting work.
+996|L|0|2|Mười se bằng một tan, một đơn vị đo diện tích đất truyền thống.
+997|A|2|詩人は世の乱れに歎を発した。|歎|Nhà thơ cất lời than trước cảnh đời loạn lạc.|Literary noun for lamentation; not part of a personal name or a verb quotation.
+998|L|0|1|Một câu có thể chứa nhiều thông tin.
+999|A|1|けが人を担架に乗せて運んだ。|担架|Người bị thương được đặt lên cáng rồi đưa đi.|Ordinary emergency transport, without procedural medical advice.
+1000|A|1|姉は短大で保育について学んだ。|短大|Chị tôi học ngành chăm sóc trẻ ở trường cao đẳng.|Junior college in a familiar educational context.
+1001|L|2|1|Không có thế lực nào có thể một mình chống lại họ.
+1002|A|1|祖父は短波ラジオで海外の放送を聞く。|短波|Ông tôi nghe đài nước ngoài bằng radio sóng ngắn.|Short-wave broadcasting as a concrete technical use.
+1003|L|1|1|Hôm nay tôi không muốn ăn đạm động vật.
+1004|L|0|1|Có vẻ ông đã lên tiếng đại diện cho lập trường của Anh.
+1005|L|0|1|Ưu tiên trước hết là tìm cách thoát khỏi bế tắc.
+1006|L|2|1|Đến giữa tháng mười, cuộc đàm phán đã đạt được thỏa thuận.
+1007|L|0|1|Tom và Mary đúng là một tác phẩm dở không cứu nổi.
+1008|L|2|1|Đây là trường hợp đầu tiên một công ty thành viên rút khỏi tổ chức.
+1009|A|1|代表者が壇に上がって挨拶した。|壇|Người đại diện bước lên bục phát biểu lời chào.|A raised speaking platform rather than a mandala or a name fragment.
+1010|A|2|ダンプが工事現場に土を運んできた。|ダンプ|Xe ben chở đất đến công trường.|Common shortened form for a dump truck, used as a complete noun.
+1011|L|0|1|Nến thành phẩm có mặt cắt trông như những vòng tuổi của cây.
+1012|L|0|3|Trong số mọi người, anh ấy là người khó có thể tưởng tượng sẽ thất hứa nhất.
+1013|A|1|二人は生涯の愛を契った。|契った|Hai người nguyện yêu nhau suốt đời.|Solemn promise of love rather than the sexual sense.
+1014|L|0|1|Ông mở cửa hàng thịt bò ở Hakodate và lập công ty chăn nuôi ở thị trấn Tōbetsu.
+1015|L|0|1|Trình bày dữ liệu đã tích lũy dưới dạng bảng và biểu đồ.
+1016|A|1|故郷で待つ父母に手紙を書いた。|父母|Tôi viết thư cho cha mẹ đang đợi ở quê nhà.|Warm literary chichihaha reading, avoiding the violent source candidate.
+1017|A|1|新しい道ができて通勤時間が縮まった。|縮まった|Có con đường mới nên thời gian đi làm đã ngắn lại.|A measurable duration becoming shorter.
+1018|L|0|1|Mục đích của pháp luật là duy trì hòa bình và trật tự xã hội.
+1019|L|0|1|Phần mép thường được tô màu đỏ.
+1020|L|0|1|Ōkubo chú ý đến bản kiến nghị về phòng thủ biển của Katsu Kaishū.
+1021|L|0|1|Công trình được khởi công vào năm 1974.
+1022|L|0|1|Ông học trà đạo với Furuta Shigenari.
+1023|A|1|周囲にちやほやされても彼女は謙虚だ。|ちやほや|Dù được mọi người săn đón, cô ấy vẫn khiêm tốn.|Excessive flattering attention from others.
+1024|A|1|この道路は昼間だけ通行できる。|昼間|Con đường này chỉ được phép đi vào ban ngày.|Formal chuukan reading fits a notice about daytime access.
+1025|A|1|右手の中指に指輪をはめた。|中指|Tôi đeo nhẫn vào ngón giữa bàn tay phải.|Anatomical middle finger; chuushi reading is uncommon.
+1026|A|1|首都は政治の中枢を担っている。|中枢|Thủ đô giữ vai trò trung tâm chính trị.|Central coordinating role rather than a nervous-system structure.
+1027|L|2|1|Kết quả bốc thăm sẽ được thông báo bằng việc công bố các số trúng thưởng.
+1028|A|1|弟は中っ腹で返事もしなかった。|中っ腹|Em trai đang bực bội nên chẳng buồn trả lời.|Contained anger in a somewhat dated narrative expression.
+1029|A|1|叔父が二人の仲人を務めた。|仲人|Chú tôi làm người mai mối cho hai người.|Matchmaker; selected chuunin is a rare reading requiring review.
+1030|L|0|1|Tuy vậy, sau đó ông vẫn ở lại trường đại học với tư cách sinh viên dự thính.
+1031|L|1|1|Dựa trên những tư liệu này, người ta đã sáng tác nên một tác phẩm đồ sộ.
+1032|L|1|1|Ông đặc biệt phát huy khả năng trong vai trò hòa giải các vụ tranh chấp.
+1033|A|1|ほうきで集めたごみを塵取りに入れた。|塵取り|Tôi hốt số rác vừa quét vào đồ hốt rác.|Dustpan paired with a broom in an everyday cleaning task.
+1034|L|0|1|Khi đun nóng, protein bị biến tính, trở nên không tan và lắng xuống.
+1035|L|1|1|Qua trải nghiệm này, chúng tôi một lần nữa nhận ra tầm quan trọng của tinh thần đồng đội.
+1036|L|0|1|Thấm thía rằng năng lực còn yếu, tôi quyết định học lại từ căn bản.
+1037|L|0|1|Ông chủ yếu phụ trách việc biên soạn lịch.
+1038|L|0|1|Nhưng đó chỉ là khoảng bình yên ngắn ngủi.
+1039|A|2|月並みな表現でも気持ちは伝わる。|月並み|Dù lời lẽ quen thuộc, tình cảm vẫn có thể được truyền đạt.|Trite or conventional wording rather than a monthly event.
+1040|A|1|板の継ぎ目から冷たい風が入る。|継ぎ目|Gió lạnh lùa vào từ khe nối giữa các tấm ván.|Physical join between two pieces of wood.
+1041|A|1|破れた布に別の布を接いだ。|接いだ|Tôi ghép thêm một miếng vải vào chỗ bị rách.|Joining or patching cloth, not grafting a tree.
+1042|A|1|洗顔の後、肌が突っ張る。|突っ張る|Rửa mặt xong, da tôi bị căng rít.|Skin feeling tight, not acting tough or pushing an opponent.
+1043|A|1|紙を丸めて筒を作った。|筒|Tôi cuộn giấy lại thành một cái ống.|A simple hollow cylinder rather than a weapon.
+1044|A|1|兵は古い銃を肩に担いだ。|銃|Người lính vác khẩu súng cũ lên vai.|Historical tsutsu reading meaning a gun; no instructions for weapon use.
+1045|A|1|旅先の友から伝言を預かった。|伝言|Tôi nhận lời nhắn từ người bạn đang đi xa.|Verbal message; archaic tsutekoto reading is separately flagged.
+1046|A|1|この仕事は経験がないと勤まらない。|勤まらない|Không có kinh nghiệm thì khó đảm đương công việc này.|Being capable of fulfilling a role, in a natural negative condition.
+1047|A|1|勤め先が変わって通勤が楽になった。|勤め先|Đổi nơi làm việc rồi, tôi đi làm thuận tiện hơn.|Place of employment in a common life change.
+1048|A|1|一人で待つのは詰らない。|詰らない|Ngồi chờ một mình chán thật.|Boring, using the selected spelling without an extra okurigana ma.
+1049|A|1|朝の葉に露が光っている。|露|Những giọt sương lấp lánh trên lá buổi sớm.|Literal dew, not tears or a negative adverb.
+1050|L|0|1|Dãy núi Ōmine nối tiếp nhau kéo dài đến Kumano.
+1051|A|1|祭りでは色鮮やかな車を連ねて進む。|連ねて|Trong lễ hội, những cỗ xe rực rỡ nối đuôi nhau tiến bước.|Lining up vehicles in procession rather than merely listing names.
+1052|L|0|1|Quý khách vui lòng nắm quai vịn.
+1053|L|1|1|Khi ông đang ở khu học xá chùa Eiheiji, có ai đó đã hạ chiếc chuông chùa xuống.
+1054|L|0|1|Bạn có được phụ cấp làm ca đêm không?
+1055|A|1|ティッシュペーパーで口元を拭いた。|ティッシュペーパー|Tôi lấy khăn giấy lau miệng.|Everyday tissue use; a concise alternative to the industrial source sentence.
+1056|A|1|彼はほうほうの体で逃げ帰った。|体|Anh ta chạy về trong bộ dạng thảm hại.|Tei means appearance or condition in the established phrase houhou no tei.
+1057|A|1|高い棚の本を梯子で取った。|梯子|Tôi dùng thang lấy sách trên kệ cao.|Ladder sense; rare teishi reading must not receive default hashigo ruby.
+1058|A|2|少ない手数で相手の王を詰めた。|手数|Tôi chiếu bí vua đối phương chỉ sau vài nước đi.|Number of moves in shogi, a context supporting tekazu.
+1059|L|0|2|Khăn lau tay bị bẩn sẽ được thay khi cần.
+1060|A|1|実習を通して仕事への適性を確かめる。|適性|Qua đợt thực tập, tôi xem mình có phù hợp với công việc không.|Personal aptitude for an occupation.
+1061|L|0|1|Họ còn dùng cả đại bác nạp những mảnh sắt và đinh sắt thay cho đạn pháo.
+1062|A|1|会議の手筈はすべて整っている。|手筈|Mọi việc chuẩn bị cho cuộc họp đều đã đâu vào đấy.|Completed arrangements for an event.
+1063|A|3|この手引きを読めば操作が分かる。|手引き|Đọc sách hướng dẫn này là biết cách sử dụng.|A practical written manual rather than someone's covert assistance.
+1064|L|0|1|Ngay cả hiện nay, loại quay tay vẫn được bán như một sản phẩm mang phong cách hoài cổ.
+1065|A|1|白い壁が夏の日差しを照り返す。|照り返す|Bức tường trắng hắt lại ánh nắng mùa hè.|Reflecting strong sunlight from a surface.
+1066|A|1|昔は海外の支店とテレックスで連絡した。|テレックス|Ngày xưa, người ta liên lạc với chi nhánh ở nước ngoài bằng telex.|Historical context makes the dated communications technology natural.
+1067|L|0|1|Chia nhau ra tìm hồ sơ.
+1068|A|1|係員の合図で花火に点火した。|点火した|Theo hiệu lệnh của nhân viên phụ trách, pháo hoa được châm lửa.|Ignition in a supervised event, without operational instructions.
+1069|L|0|2|Những suy nghĩ như vậy là cơ sở dẫn đến sự chuyển hướng chính sách.
+1070|L|0|1|Ông chuyển sang chương trình học thuộc khối xã hội và nhân văn.
+1071|A|1|点線に沿って紙を切ってください。|点線|Hãy cắt giấy theo đường nét đứt.|Common instruction on a paper activity.
+1072|L|0|1|Anh ấy liên tục chuyển từ nơi này sang nơi khác.
+1073|A|1|父は来月大阪の支店に転任する。|転任する|Tháng sau, bố tôi sẽ được điều chuyển đến chi nhánh Osaka.|A transfer to a different post or office.
+1074|A|1|出入り口に荷物を置かないでください。|出入り口|Vui lòng không để hành lý ở lối ra vào.|Simple notice with the exact selected compound.
+1075|A|1|頬に小さな出来物ができた。|出来物|Trên má tôi nổi một nốt nhỏ.|A small skin swelling, without diagnosing a tumour.
+1076|A|1|話し合いで皆の意見が出切った。|出切った|Trong cuộc thảo luận, mọi người đã nói hết ý kiến của mình.|All opinions coming out; dekiru here is not ability or completion 出来る.
+1077|A|1|ケーキのデコレーションを子供に任せた。|デコレーション|Tôi để bọn trẻ tự trang trí chiếc bánh.|Decoration as a creative task.
+1078|A|1|美術の授業で手のデッサンを描いた。|デッサン|Trong giờ mỹ thuật, tôi vẽ phác họa bàn tay.|A study sketch in an art class.
+1079|L|0|2|Buổi trình diễn sản phẩm mới đã được tổ chức thành công tại bảy khu vực.
+1080|L|2|1|Nó được du nhập vào Nhật Bản từ Trung Quốc.
+1081|A|1|問屋から商品をまとめて仕入れた。|問屋|Tôi lấy một lô hàng từ nhà bán buôn.|Wholesale dealer; older toiya reading is recorded separately.
+1082|A|2|新しい校舎が二棟建った。|棟|Hai tòa nhà học mới đã được xây xong.|Building counter tou after a numeral.
+1083|L|0|1|Ban đầu, tầng lớp quý tộc kazoku chưa được chia thành các bậc.
+1084|A|1|王は広い領土を統治した。|統治した|Nhà vua cai trị một lãnh thổ rộng lớn.|Governing territory; selected touji reading differs from default touchi.
+1085|L|1|1|Ông đã không còn kiểm soát được các thuộc hạ trong gia tộc.
+1086|L|2|1|Họ đã tăng cường khả năng chỉ huy tập thể.
+1087|A|1|森に丁々と斧の音が響いた。|丁々|Tiếng rìu bổ chan chát vang trong rừng.|Literary onomatopoeia toutou specifically for chopping sounds.
+1088|L|1|1|Có lời đề tựa là Ngâm khi đang bệnh, nên chính tác giả cũng không coi đây là thơ tuyệt mệnh.
+1089|L|2|1|Sanemori đã nói về sự dũng mãnh của các võ sĩ miền đông.
+1090|L|0|1|Tôi mua đặc sản địa phương mang về làm quà.
+1091|L|0|1|Thực hiện một chuyên đề.
+1092|A|1|今夜は早めに床に就こう。|床|Tối nay mình đi ngủ sớm nhé.|Toko meaning bed in the fixed phrase toko ni tsuku.
+1093|L|1|1|Như vậy, dòng chính của gia tộc Hirate đã tuyệt tự.
+1094|A|1|咄嗟に手を伸ばして子供を支えた。|咄嗟|Tôi lập tức đưa tay đỡ đứa trẻ.|An immediate reflex expressed by tossa ni.
+1095|L|0|2|Anh chị đang chậm tiền thuê nhà một tháng rồi đấy.
+1096|L|0|1|Về trang phục theo quy định cũ, ở đây chỉ xin giải thích ngắn gọn.
+1097|L|2|4|Hiếm thấy ở vùng Kantō, gò mộ vẫn giữ dạng trên tròn, dưới vuông.
+1098|A|2|村人たちは殿様に年貢を納めた。|殿様|Dân làng nộp tô cho lãnh chúa.|Feudal lord in a historical taxation context.
+1099|A|1|両親は共稼ぎで私たちを育てた。|共稼ぎ|Bố mẹ cùng đi làm kiếm tiền nuôi chúng tôi khôn lớn.|A husband and wife both earning an income.
+1100|A|1|窓辺の灯が暗い道を照らしていた。|灯|Ánh đèn bên cửa sổ soi xuống con đường tối.|Literary tomoshibi meaning a lamp's light.
+1101|A|1|共働きなので家事を分担している。|共働き|Vì cả hai vợ chồng đều đi làm nên chúng tôi chia nhau việc nhà.|Dual employment linked to a natural household arrangement.
+1102|A|1|古いラジオのトランジスターを交換した。|トランジスター|Tôi thay bóng bán dẫn trong chiếc radio cũ.|Electronic component with the exact long-vowel spelling.
+1103|A|1|駅前で違法駐車の取り締まりがあった。|取り締まり|Khu vực trước ga vừa có đợt xử lý xe đỗ trái phép.|Enforcement noun; rejects false matches inside company-director titles.
+1104|L|0|2|Thành phố kiểm soát rất nghiêm việc lái xe khi đã uống rượu và áp dụng phạt tiền.
+1105|L|0|1|Một ủy ban điều tra thực tế đã được thành lập để làm rõ nguyên nhân vụ việc.
+1106|L|0|1|Ông đảm nhiệm việc chuyển các thỉnh cầu của giới võ sĩ lên triều đình.
+1107|L|0|1|Tác phẩm kết hợp chữ khải, hành và thảo, với nét chữ lớn nhỏ, đậm mảnh rất đa dạng.
+1108|A|1|少し声のトーンを落として話した。|トーン|Tôi hạ giọng xuống một chút khi nói.|Vocal tone, not a substring of a personal name.
+1109|L|0|1|Chó Dachshund có nguồn gốc từ Đức, thân rất dài và chân ngắn.
+1110|L|0|1|Lực lượng Negoro cũng được huy động về phía Oda.
+1111|L|0|1|Tham dự buổi giới thiệu doanh nghiệp giúp ta nắm được xu hướng chung của ngành.
+1112|L|0|2|Chúng ta là đồng đội, là bạn bè cơ mà, đúng không?
+1113|A|1|この箱は如何して開けるのですか。|如何して|Làm thế nào để mở chiếc hộp này vậy?|Method sense of doushite, using the selected kanji spelling.
+1114|A|1|如何してもこの大会で優勝したい。|如何しても|Bằng mọi giá, tôi muốn vô địch giải này.|Strong determination to achieve something.
+1115|L|1|1|Ông đào tạo thế hệ sau tại võ đường Kurumazaka.
+1116|L|0|1|Cuối cùng, chúng tôi cũng thuyết phục được anh ấy đồng tình với mình.
+1117|L|0|1|Tác phẩm nổi bật ở bố cục nối tiếp và cách thể hiện giàu chuyển động.
+1118|L|0|1|Nếu cần thư trả lời, vui lòng gửi kèm một phong bì hồi âm đã dán tem.
+1119|L|0|1|Chiếc thuyền đó dùng động cơ để vận hành.
+1120|A|1|この土地の土産として良質の茶が知られる。|土産|Vùng đất này nổi tiếng với sản vật là loại trà chất lượng cao.|Literary dosan meaning a local product, not a purchased souvenir.
+1121|L|2|1|Ông dựng một võ đài sumo trong vườn để thi đấu vui với khách.
+1122|L|0|1|Ông còn giám sát các công trình xây dựng như kênh dẫn nước.
+1123|A|1|この上着はドライクリーニングに出す。|ドライクリーニング|Chiếc áo khoác này tôi sẽ mang đi giặt khô.|Ordinary care of clothing, not a blanket material recommendation.
+1124|L|0|2|Lái xe hơn ba tiếng rồi, mình ghé quán ven đường nghỉ một chút nhé.
+1125|A|2|何れ何れ、傷を見せてごらん。|何れ何れ|Đâu nào, cho tôi xem vết thương một chút.|Conversational interjection dore dore, with the selected rare spelling.
+1126|A|1|長い内乱の末に国は疲弊した。|内乱|Sau cuộc nội chiến kéo dài, đất nước kiệt quệ.|General historical description without a specific disputed event.
+1127|L|1|1|Ở khoảng giữa sân ga cũng có cầu thang để ra vào.
+1128|L|1|1|Chùa Anrakujuin là dấu tích còn lại của thời ấy.
+1129|L|0|1|Ông thoát được nhờ sự giúp đỡ của viên quan nhân hậu Hayase Yajūrō.
+1130|A|1|今日は休む。何故なら熱があるからだ。|何故なら|Hôm nay tôi nghỉ vì đang bị sốt.|A complete reason introduced by nazenara and closed with kara da.
+1131|L|0|1|Mèo nhà tôi lạnh lùng lắm, nhưng chỉ quấn mỗi tôi thôi.
+1132|A|1|何気ない一言に励まされた。|何気ない|Một câu nói vu vơ thôi mà đã động viên tôi rất nhiều.|A casual remark with an unexpected positive effect.
+1133|A|2|何しろ初めてなので、少し緊張する。|何しろ|Dù sao cũng là lần đầu, nên tôi hơi hồi hộp.|Explanatory nanishiro, not a mistaken split of nani plus imperative shiro.
+1134|L|0|1|Kính mong quý vị tiếp tục tận tình chỉ dẫn và hỗ trợ chúng tôi trong thời gian tới.
+1135|A|1|七日の朝、故郷を旅立った。|七日|Sáng mùng bảy, tôi rời quê hương lên đường.|Seventh day of the month; literary nanuka reading is recorded.
+1136|A|1|生身の人間には休息が必要だ。|生身|Con người bằng xương bằng thịt thì cần được nghỉ ngơi.|Living flesh, emphasizing ordinary human limitations.
+1137|A|2|運動を休んで体が鈍ってしまった。|鈍って|Nghỉ tập một thời gian, cơ thể tôi trở nên chậm chạp hẳn.|Loss of physical fitness, supporting namaru rather than blade dullness.
+1138|L|1|1|Nhìn vẻ quyến rũ của cô ấy, anh hoàn toàn mê mẩn.
+1139|A|1|均しで一日に三十人ほど来店する。|均し|Trung bình mỗi ngày có khoảng ba mươi khách đến cửa hàng.|Average over a period, not levelling soil.
+1140|A|1|少しずつ体を暑さに慣らしていく。|慣らして|Tôi để cơ thể dần quen với thời tiết nóng.|Accustoming oneself to a condition; avoids confusing the two spelling preferences.
+1141|L|0|2|Anh ấy đã mất rất nhiều công sức để thuần hóa con báo sư tử.
+1142|L|0|1|Tên công ty và tên sản phẩm là nhãn hiệu hoặc nhãn hiệu đã đăng ký của công ty chúng tôi và các công ty liên quan.
+1143|A|1|成る丈早く返事をください。|成る丈|Hãy trả lời sớm nhất có thể nhé.|As much as possible, with the selected narutake form.
+1144|A|1|麻雀で南を一枚捨てた。|南|Tôi đánh ra một quân Nam khi chơi mạt chược.|South wind tile, not a place-name fragment or the direction minami.
+1145|L|1|1|Nói gì thì nói, cậu vẫn còn thích Tom đúng không?
+1146|L|1|1|Thời điểm xây dựng và cấu trúc buồng đá khá giống với quần thể mộ cổ Tsukahara.
+1147|A|1|遠く離れても肉親の絆は変わらない。|肉親|Dù xa cách, tình thân ruột thịt vẫn không thay đổi.|Blood relationship in a warm family context.
+1148|A|1|出張中は交通費とは別に日当が出る。|日当|Trong thời gian đi công tác, ngoài tiền đi lại còn có phụ cấp theo ngày.|Daily allowance, avoiding a place-name match.
+1149|L|0|2|Vật liệu đóng gói này đảm nhiệm chức năng cách nhiệt.
+1150|L|0|1|Dù đang đau, anh ấy vẫn tỏ ra bình thản.
+1151|L|0|1|Ngay cả với những từ cùng nghĩa, hãy chú ý đến các khác biệt tinh tế về sắc thái.
+1152|L|0|1|Nước tiểu của tôi hơi đỏ.
+1153|A|1|窓の外から虫の音が聞こえる。|音|Từ ngoài cửa sổ vọng vào tiếng côn trùng kêu.|Ne reading in the established phrase mushi no ne.
+1154|A|1|古い写真のネガを大切に保管している。|ネガ|Tôi giữ gìn cẩn thận những bản phim âm của ảnh cũ.|Photographic negative, not a negative attitude.
+1155|A|1|ねじ回しで机のねじを締めた。|ねじ回し|Tôi dùng tua vít siết lại con ốc ở bàn.|Screwdriver used in an ordinary repair.
+1156|A|1|かばんのひもが捻じれている。|捻じれている|Quai túi bị xoắn lại rồi.|Literal twisting of a strap, preserving the selected spelling.
+1157|A|2|鼠の紬に白い帯を締めた。|鼠|Tôi thắt đai obi trắng với bộ kimono vải tsumugi màu xám.|Nezu as a traditional grey colour name in a kimono description, not nezumi the animal.
+1158|L|1|1|Tỉ lệ gạo còn lại sau xay càng cao và thời gian xay càng lâu thì lượng nhiệt tích tụ càng lớn.
+1159|L|0|1|Yamagata lập tức tán thành và cùng hai người kia đi vận động trước những nhân vật có thế lực.
+1160|A|1|人口の変化を統計年鑑で調べた。|年鑑|Tôi tra niên giám thống kê để xem dân số thay đổi ra sao.|Annual reference publication rather than a contextless population claim.
+1161|L|1|1|Tháng một năm 1989, sau khi Thiên hoàng Shōwa qua đời, niên hiệu được đổi thành Heisei.
+1162|L|1|1|Người ta sử dụng những tấm ván được chẻ dọc theo vòng tuổi của cây.
+1163|L|2|1|Cấy lúa từng là giai đoạn quan trọng nhất trong các nghi lễ nông nghiệp.
+1164|A|1|授業料は月末までに納入してください。|納入して|Vui lòng nộp học phí trước cuối tháng.|Payment of a fee; not delivery of goods.
+1165|A|3|連休中はホテルが軒並み満室だった。|軒並み|Trong kỳ nghỉ dài, khách sạn nào cũng kín phòng.|Across-the-board condition, not a literal row of houses.
+1166|L|0|1|Một người bạn nhắn rằng tài khoản của mình đã bị chiếm mất.
+1167|L|1|4|Nghe nói tổng số lượt bệnh nhân đã vượt mười nghìn, còn học trò lên đến một nghìn người.
+1168|L|0|1|Tất cả đều do công ty Ōbei Eiga phân phối.
+1169|A|1|拝啓、皆様お変わりなくお過ごしでしょうか。|拝啓|Kính gửi quý vị, mong rằng quý vị vẫn luôn mạnh khỏe.|Formal letter opening followed by a natural greeting, not a complete letter template.
+1170|L|1|1|Tia nước áp suất cực cao loại bỏ được hầu hết các chỗ tắc nghẽn.
+1171|A|1|受付で会議の資料を配布した。|配布した|Tài liệu cuộc họp được phát tại quầy tiếp đón.|Distributing documents, with a concise complete context.
+1172|L|0|1|Cũng từ khoảng thời gian này, cách sắp xếp tượng đất haniwa bắt đầu thay đổi.
+1173|A|1|丘の上の墓地に祖父は眠っている。|墓地|Ông tôi yên nghỉ trong nghĩa trang trên đồi.|Cemetery sense; uncommon hakachi reading must remain explicit.
+1174|A|1|この案を委員会に諮ることにした。|諮る|Chúng tôi quyết định trình phương án này lên ủy ban để xin ý kiến.|Consulting a deliberative body, rejecting unrelated hakaru homophones.
+1175|L|0|1|Ông còn làm cầu nối giữa triều đình và các văn nhân như Shōkadō Shōjō.
+1176|L|2|4|Đây là nhạc cụ dây gảy, phát âm thanh bằng cách gảy dây, hoàn toàn không dùng vĩ.
+1177|L|1|1|Xin chào, rất vui được làm quen.
+1178|L|2|1|Nghe nói Tom đã phải lòng Mary ngay lần đầu nhìn thấy cô đỏ mặt e thẹn.
+1179|L|0|1|Hồ Aji này nổi tiếng với hoa sen nở vào tháng bảy và tháng tám.
+1180|A|1|祖母は機で絹の布を織っていた。|機|Bà tôi từng dệt lụa bằng khung cửi.|Hata meaning a loom, not a machine suffix ki.
+1181|L|0|1|Trong cuộc khai quật, các nhà khảo cổ đã tìm thấy xương động vật thời cổ đại.
+1182|A|1|新しい研究会が来月発足する。|発足する|Một nhóm nghiên cứu mới sẽ được thành lập vào tháng sau.|Starting an organization; selected hassoku is a recognized alternate reading.
+1183|A|1|まいた種が一週間で発芽した。|発芽した|Hạt đã gieo nảy mầm sau một tuần.|Literal germination with a clear subject and timeframe.
+1184|A|1|発病してから仕事を休んでいる。|発病して|Từ khi phát bệnh, tôi đã nghỉ làm.|Onset of illness without making medical claims or recommendations.
+1185|L|0|1|Và đó cũng là hoạt động xã hội rực rỡ cuối cùng của ông.
+1186|L|1|1|=
+1187|L|0|1|Màu đỏ không còn là mốt nữa.
+1188|A|1|失礼な言葉に腹立ちを覚えた。|腹立ち|Nghe những lời bất lịch sự ấy, tôi thấy bực mình.|The nominal feeling of anger, avoiding a verb-stem false match.
+1189|A|1|子供たちが原っぱで駆け回っている。|原っぱ|Bọn trẻ đang chạy chơi trên bãi đất trống.|Open grassy ground in an ordinary play scene.
+1190|L|0|2|Nhìn tờ thông báo ngay trước mặt đi.
+1191|A|1|この本は版によって内容が異なる。|版|Nội dung cuốn sách này khác nhau tùy từng ấn bản.|Edition of a book, not a printing plate.
+1192|L|0|1|Ngoài tranh in khắc, ông còn xuất sắc cả ở tranh vẽ tay.
+1193|L|0|1|Những lời như thế chắc sẽ gây phản ứng ngược.
+1194|L|0|2|Đừng đối xử với tôi như thứ vi trùng bẩn thỉu thế.
+1195|A|1|同じことで争うのは馬鹿らしい。|馬鹿らしい|Cứ cãi nhau mãi vì một chuyện thì thật vô lý.|Foolishness of an action, not an insult directed at a person.
+1196|A|1|将来への漠然とした不安がある。|漠然|Tôi có một nỗi lo mơ hồ về tương lai.|Vague unease expressed by the normal to shita construction.
+1197|A|1|記者が会社の不正を暴露した。|暴露した|Phóng viên đã phanh phui sai phạm của công ty.|Disclosure of wrongdoing in a fictional generic situation.
+1198|L|2|3|Tiền học phí đã biến thành tiền rượu.
+1199|A|1|そんな嘘をつくと罰が当たるよ。|罰|Nói dối như thế thì có ngày bị trời phạt đấy.|Bachi as divine retribution in a familiar admonition.
+1200|A|1|暑さでばてて、木陰で休んだ。|ばてて|Mệt lả vì nóng, tôi nghỉ dưới bóng cây.|Casual exhaustion from heat, with no diagnosis implied.
+1201|L|0|1|Chỉ một chiếc lò xo đó đã đỡ toàn bộ trọng lượng của xe.
+1202|A|1|万遺漏なきよう準備を整えた。|万|Chúng tôi chuẩn bị chu đáo để không bỏ sót bất cứ điều gì.|Formal ban meaning completely in the established phrase ban irou naki you.
+1203|A|3|資料はＡ４判で配ってください。|判|Vui lòng phát tài liệu khổ A4.|Paper-size suffix ban, the only sense applicable to the selected reading.
+1204|A|1|万人に好かれる作品はない。|万人|Không có tác phẩm nào được tất cả mọi người yêu thích.|All people; banjin is a supported alternate reading.
+1205|L|1|1|Điều này, về lâu dài, trở thành nguyên nhân gây mâu thuẫn trong nội bộ giới nghệ sĩ rakugo.
+1206|L|0|1|Đây là phòng chờ dành cho khách.
+1207|A|1|店は売れ残った商品の価格を引き下げた。|引き下げた|Cửa hàng hạ giá những mặt hàng còn tồn.|Reducing a price, without ambiguous clothing vocabulary.
+1208|L|0|1|Dự luật này ban đầu bị bác bỏ, nhưng đã được thông qua vào năm sau.
+1209|L|0|1|Vì liên tục có hành vi phạm pháp, anh ta đã phải ra tòa.
+1210|L|1|2|Lâu rồi mới gặp nhỉ!
+1211|L|0|1|Người ta cho rằng loại gỗ cứng, đặc và có tỉ trọng cao là tốt.
+1212|A|1|祖母は未の年に生まれた。|未|Bà tôi sinh năm Mùi.|The eighth zodiac sign, not an incomplete prefix mi.
+1213|A|3|暑い日は単の着物を着る。|単|Vào những ngày nóng, tôi mặc kimono một lớp không lót.|Unlined kimono; hitoe rather than tan meaning single in compounds.
+1214|A|1|この歌は一頃とても流行した。|一頃|Có một dạo, bài hát này rất thịnh hành.|A period in the past, distinct from a precise time.
+1215|A|2|式場の入口に日の丸が掲げられていた。|日の丸|Quốc kỳ Nhật Bản được treo ở lối vào nơi tổ chức buổi lễ.|Japanese flag, not the named bento or a brand.
+1216|L|0|1|Một tia lửa nhỏ thường có thể gây nên ngọn lửa lớn.
+1217|L|1|1|Bản chỉnh sửa của bộ bách khoa toàn thư ấy đã được xuất bản.
+1218|A|1|友達に冷やかされて顔が赤くなった。|冷やかされて|Bị bạn bè trêu, tôi đỏ cả mặt.|Light teasing rather than cooling or window-shopping.
+1219|A|1|小麦粉と水の比率を変えてみた。|比率|Tôi thử thay đổi tỉ lệ bột mì và nước.|A simple quantitative ratio without an unstable demographic claim.
+1220|A|1|同じ速さなら距離は時間に比例する。|比例する|Với cùng tốc độ, quãng đường tỉ lệ thuận với thời gian.|Accurate proportional relationship under an explicit condition.
+1221|L|1|1|Ban đầu, nhà giam quá sơ sài, khiến ông phải chịu mưa gió và sức khỏe suy yếu.
+1222|L|0|1|Trong đó cũng có một lượng rất nhỏ bạc và bismuth.
+1223|A|1|古い医学書ではビールスと表記されている。|ビールス|Trong sách y học cũ, vi rút được viết là bīrusu.|Historical spelling context makes this dated loanword natural.
+1224|A|1|歩を一つ前に進めた。|歩|Tôi đẩy quân tốt lên một ô.|Shogi pawn fu, not a walking step or a name fragment.
+1225|L|0|1|Nhớ vệ sinh bộ lọc máy giặt định kỳ nhé.
+1226|A|1|この土地の風土が独特の食文化を育てた。|風土|Điều kiện tự nhiên nơi đây đã tạo nên nền văn hóa ẩm thực riêng.|Natural regional environment, not a historical book title.
+1227|L|2|1|Đôi khi người ta còn thêu sashiko lên khăn để làm thành khăn trang trí.
+1228|L|0|1|Nhà hay cười thì phúc sẽ đến.
+1229|L|0|1|Trên thực tế, đó là một lời tuyên chiến.
+1230|L|0|1|Đến tháng mười cùng năm, tổ chức giải thể và để lại các khoản nợ.
+1231|A|1|巫山戯てばかりでは話が進まない。|巫山戯て|Cứ đùa mãi thì chẳng bàn bạc được gì đâu.|Joking rather than mocking someone; rare kanji spelling is deliberately retained.
+1232|L|0|1|Tuy không liên quan đến buôn bán, cũng có vài người bị đắm tàu rồi dạt ra nước ngoài do thời tiết xấu.
+1233|L|0|1|Thấy sức khỏe không ổn, tôi đã nghỉ ngơi.
+1234|L|0|1|Ông xây dựng kế hoạch phục hưng Nhật Bản ngay trong tù.
+1235|L|0|1|Những người đến nhận nhiệm vụ chủ yếu là các võ sĩ của phiên Aizu.
+1236|L|0|1|Nếu chuyện thành ra như vậy, liệu bạn có thấy thương tôi một chút không?
+1237|L|0|1|Sự tách biệt này là một hiện tượng phổ biến trong quá trình trưởng thành của con người.
+1238|L|0|1|Dưới đây là những lưu ý dựa trên các quy tắc ứng xử tại chùa.
+1239|A|1|遠い都から母の文が届いた。|文|Lá thư của mẹ gửi từ kinh đô xa xôi đã đến.|Literary fumi meaning a letter, not a coin inscription or a personal name.
+1240|A|1|彼は幼い弟を扶養している。|扶養している|Anh ấy đang chu cấp cho cậu em trai còn nhỏ.|Financial support of a dependent family member.
+1241|A|1|水に入ると浮力で体が軽く感じる。|浮力|Khi xuống nước, lực đẩy nổi khiến cơ thể có cảm giác nhẹ hơn.|Physical buoyancy in a familiar observation.
+1242|A|1|彼女は声を震わせて礼を述べた。|震わせて|Cô ấy nói lời cảm ơn bằng giọng run run.|Making the voice quiver with emotion, not a separate lexical furuu.
+1243|L|0|1|Nhưng ngay lập tức, hàng loạt ý kiến phản đối nổi lên trong chính phủ.
+1244|L|0|1|Thịt gà được cho rất nhiều, còn trứng thì có màu sắc và độ bóng đẹp mắt.
+1245|A|1|乾燥した葉を細かい粉末にした。|粉末|Tôi nghiền lá khô thành bột mịn.|Powder made from leaves, avoiding unnecessarily technical hazardous examples.
+1246|A|1|白い犬の背中に黒い斑がある。|斑|Trên lưng con chó trắng có những đốm đen.|Buchi meaning spots on an animal, not uneven sword texture mura.
+1247|L|0|1|Việc xác định vị trí này là trách nhiệm của tác giả chính và chủ đoàn, nên thường gây tranh cãi.
+1248|A|1|急いで立ち上がり、頭を棚に打付けた。|打付けた|Tôi đứng bật dậy quá nhanh, đập đầu vào kệ.|Accidental impact, with the selected spelling variant.
+1249|A|1|迷ったら無難な色を選ぼう。|無難|Nếu phân vân thì cứ chọn màu dễ dùng nhé.|A safe, unobjectionable choice rather than a physical safety guarantee.
+1250|L|0|1|Nâng cao hiệu quả nhờ phân công lao động là nền tảng của văn minh hiện đại.
+1251|L|0|1|Hiểu sự khác nhau giữa văn viết và khẩu ngữ sẽ giúp mở rộng cách diễn đạt.
+1252|A|1|分母をそろえてから分数を足す。|分母|Quy đồng mẫu số rồi mới cộng các phân số.|Denominator in a basic arithmetic procedure.
+1253|L|0|1|Đây là cách bố trí thành trong đó khu thành chính và khu thành thứ hai nằm cạnh nhau.
+1254|L|0|1|Tôi phát ngán với sự hào hứng quá mức của họ.
+1255|A|1|赤ちゃんの臍が小さく動いている。|臍|Chiếc rốn bé xíu của em bé khẽ nhấp nhô.|Literal human navel, avoiding the false premise in the koala source question.
+1256|A|1|二つの村は山を挟んで遠く隔たる。|隔たる|Hai ngôi làng cách xa nhau, bị ngăn bởi một dãy núi.|Physical distance between places.
+1257|L|0|1|Thể hiện thái độ khiêm nhường.
+1258|A|2|この物語は前後二編に分かれる。|編|Câu chuyện này được chia thành hai phần trước và sau.|A division or volume of a text, not compilation metadata.
+1259|A|1|借りていた資料を所有者に返還した。|返還した|Tôi đã hoàn trả tài liệu mượn cho chủ sở hữu.|Formal return of property, avoiding opaque historical fragments.
+1260|L|0|1|Dưới đây trình bày sự biến đổi của hình tượng người nông dân ở Nhật Bản.
+1261|L|0|1|Cuốn sách này từng bán chạy, nhưng giờ đã ngừng xuất bản.
+1262|L|0|1|Dọc đường cao tốc có nhiều điểm nghỉ nhằm tạo thuận tiện cho người đi đường.
+1263|A|1|彼は弁論大会で自分の考えを述べた。|弁論|Anh ấy trình bày quan điểm của mình tại cuộc thi hùng biện.|Reasoned public speaking in a common compound.
+1264|L|0|1|Trong giờ tiếng Anh, chúng tôi chia cặp để luyện hội thoại.
+1265|A|1|実った稲の穂が風に揺れている。|穂|Những bông lúa chín đung đưa trong gió.|Ear of grain, not the tip of a brush.
+1266|L|0|1|Giá mà hồi đó tôi cũng vào khoa luật nhỉ.
+1267|A|1|寺に伝わる宝器が特別に公開された。|宝器|Những bảo vật được lưu truyền trong chùa đã được trưng bày đặc biệt.|Treasured objects in an appropriate museum context.
+1268|L|1|1|Đó là sự kiện xảy ra trong quá trình nhà nước phong kiến biến đổi.
+1269|L|1|1|Họ quyết định cử ông sang Triều Tiên để trực tiếp thuyết phục.
+1270|L|0|1|Đập bị vỡ, khiến một lượng nước lớn tràn xuống hạ lưu.
+1271|A|1|新聞は選挙の結果を大きく報じた。|報じた|Báo chí đưa tin nổi bật về kết quả bầu cử.|Reporting news with the ichidan dictionary form houjiru.
+1272|L|0|1|Tờ báo đã không đưa tin đó.
+1273|L|1|1|Chiếc quan tài được chôn xuống mộ.
+1274|L|0|1|Thị trường máy chơi game trong nước đã bão hòa, khó kỳ vọng vào một cú hích lớn.
+1275|L|1|1|Tro có tác dụng giữ nhiệt.
+1276|L|2|1|Các mối nối được gia cố bằng chi tiết kim loại.
+1277|L|0|1|Một số nước đã ngừng săn cá voi trước sự chỉ trích của quốc tế.
+1278|L|2|1|Nho khô chính là nho được phơi khô đấy.
+1279|A|1|雨が降る前に干し物を取り込んだ。|干し物|Tôi thu đồ đang phơi vào trước khi trời mưa.|Laundry drying outside, the common noun sense.
+1280|L|0|1|Cần bổ sung thêm giấy.
+1281|L|1|1|Vì vậy, một vài phần bổ sung đã được thêm vào.
+1282|A|1|母は若い頃、保母として働いていた。|保母|Hồi còn trẻ, mẹ tôi từng làm cô giữ trẻ.|Historical context fits the older gender-specific job title.
+1283|L|0|1|Xét về việc nghỉ dưỡng bằng suối nước nóng thì cũng giống Nhật Bản.
+1284|L|0|1|Theo lệnh của phiên, ông phải đổi tên thành Saigō Sansuke để qua mắt lính tuần tra.
+1285|L|0|1|Việc xây dựng tòa nhà chính vẫn tiếp tục sau ngày mở cửa.
+1286|L|0|2|Phần thân được làm bằng gỗ hông.
+1287|A|1|ホースを伸ばして庭に水をまいた。|ホース|Tôi kéo dài vòi rồi tưới nước cho vườn.|Flexible watering hose in a simple household context.
+1288|L|0|1|Sau đó, Mototsune có hành động tẩy chay bằng cách không vào chầu.
+1289|A|1|卯は十二支の四番目に当たる。|卯|Mão đứng thứ tư trong mười hai địa chi.|Zodiac sign; selected on-reading bou is uncommon and remains flagged.
+1290|L|1|1|Không có lãnh chúa nào cản trở việc này.
+1291|A|1|この町は紡績の工場とともに発展した。|紡績|Thị trấn này phát triển cùng với các nhà máy kéo sợi.|Textile spinning as an industry, avoiding company-name-only matches.
+1292|L|1|1|Vũ trụ đang giãn nở.
+1293|A|1|坊ちゃんはもう学校に慣れましたか。|坊ちゃん|Cháu trai nhà anh chị đã quen trường lớp chưa?|Polite reference to another person's son, not a book title.
+1294|A|2|ぼつぼつ帰る支度をしよう。|ぼつぼつ|Cũng đến lúc chuẩn bị về rồi nhỉ.|It is about time to start, distinct from scattered spots.
+1295|A|1|彼は休みが少ないとぼやいていた。|ぼやいて|Anh ấy cứ than là được nghỉ ít quá.|Casual grumbling about an ordinary inconvenience.
+1296|L|0|3|Hắn toàn nói khoác thôi, rồi cũng có ngày lộ tẩy.
+1297|L|2|1|Vị trí thi đấu của ông là người bắt bóng.
+1298|L|0|1|Phần mở đầu xin dừng ở đây, tôi muốn đi vào nội dung chính.
+1299|L|0|1|Ngôi nhà này đáp ứng toàn bộ nhu cầu điện bằng năng lượng mặt trời.
+1300|L|2|1|Việc phơi khô tạo ra một lớp màng cứng trên bề mặt, giúp bảo quản được lâu hơn.
+1301|A|1|真心を込めて手紙を書いた。|真心|Tôi viết lá thư bằng tất cả tấm lòng chân thành.|Sincerity; nondefault makokoro reading requires separate evidence.
+1302|A|1|初めての駅でまごついてしまった。|まごついて|Lần đầu đến ga này, tôi lúng túng không biết đi đâu.|Confusion in an unfamiliar location, not idle lingering.
+1303|A|2|澄んだ夜空に星の瞬きが見える。|瞬き|Trong bầu trời đêm trong vắt, có thể thấy sao lấp lánh.|Twinkling stars supports matataki rather than the default mabataki eye blink.
+1304|A|1|帰宅する時間は日によって区々だ。|区々|Giờ về nhà của tôi mỗi ngày mỗi khác.|Varying from day to day, with the selected written form.
+1305|A|1|強い風で枝が真っ二つに折れた。|真っ二つ|Gió mạnh làm cành cây gãy làm đôi.|Splitting into two distinct pieces; selected mapputatsu reading must be checked separately.
+1306|A|1|幸いにも大きな被害は免れた。|免れた|May thay, chúng tôi tránh được thiệt hại lớn.|Escaping harm; selected manukareru differs from the common manugareru reading.
+1307|A|1|忙しいと約束を忘れることが間々ある。|間々|Khi bận rộn, đôi lúc tôi quên cả cuộc hẹn.|Occasionally, not a historical length notation.
+1308|L|1|1|Quả bóng dùng trong kemari được làm bằng da và rỗng bên trong.
+1309|A|1|話の内容が丸っきり分からなかった。|丸っきり|Tôi hoàn toàn không hiểu nội dung câu chuyện.|Completely, in its common negative construction.
+1310|L|0|1|Sau đó, Viện Cơ mật nhất trí thông qua quy tắc với sự tán thành của toàn thể thành viên.
+1311|A|1|真ん丸い月が海の上に浮かんでいた。|真ん丸い|Vầng trăng tròn vành vạnh lơ lửng trên biển.|Perfectly round shape in an ordinary visual description.
+1312|L|2|1|Dấu chấm hỏi là một dấu câu.
+1313|A|1|三つのりんごを家族で分けた。|三|Cả nhà chia nhau ba quả táo.|Native numeral stem mi in mittsu; morpheme-level confirmation is required, not a false match to mite.
+1314|A|2|探検隊は未開の土地へ向かった。|未開|Đoàn thám hiểm tiến về vùng đất chưa được khai phá.|Undeveloped land, not a judgement about a people's culture.
+1315|A|1|夕空に細い三日月が見えた。|三日月|Trên bầu trời chiều hiện ra vầng trăng lưỡi liềm mảnh mai.|Crescent moon, preserving the selected mikazuki reading spelling.
+1316|L|0|1|Cuốn giáo trình này có nhiều lỗi in vì được in quá gấp.
+1317|A|1|ミセス・スミスが花を届けてくれた。|ミセス|Bà Smith đã mang hoa đến cho tôi.|Borrowed English title before a family name.
+1318|L|0|1|Thời đó, những trò biểu diễn như thế này rất thịnh hành.
+1319|L|1|1|Chỉ dựa vào một tấm bản đồ, anh ấy lên đường đến nơi chưa từng biết tới.
+1320|L|2|1|Ở các lớp đầu và giữa bậc tiểu học, hoạt động quan sát sinh vật quanh mình thường được đưa vào bài học.
+1321|A|1|人前で言い争うのは見っともない。|見っともない|Cãi nhau trước mặt mọi người thì khó coi lắm.|Socially embarrassing behaviour, using the selected spelling.
+1322|A|1|都市によって人口の密度は大きく違う。|密度|Mật độ dân số khác nhau rất nhiều giữa các thành phố.|Density without a changing numerical claim.
+1323|L|0|1|Bạn đã nhận được báo giá chưa?
+1324|A|1|雪をかぶった峰が朝日に輝く。|峰|Đỉnh núi phủ tuyết sáng rực dưới nắng mai.|Mountain peak, not a proper name or a blade's back.
+1325|L|2|1|Cảm ơn bạn đã đến thăm lúc tôi ốm.
+1326|L|1|1|Có lúc, sự lưu luyến ấy hiện ra dưới dạng ngưỡng mộ, thèm muốn hoặc ghen tị.
+1327|A|1|祖父はこの地方の民俗を研究していた。|民俗|Ông tôi từng nghiên cứu phong tục dân gian của vùng này.|Folk customs rather than ethnic group minzoku 民族.
+1328|A|1|客のために六つの椅子を並べた。|六|Tôi xếp sáu chiếc ghế cho khách.|Native numeral stem mu in muttsu; record bound-form analysis explicitly.
+1329|L|0|2|Tôi đã nói chắc với bố mẹ Mary rằng nên nhận Tom làm con rể đấy.
+1330|L|0|1|Nhổ cỏ dại.
+1331|L|1|1|Các tông phái Chân Ngôn và Thiên Thai có mối liên hệ chặt chẽ với giới quý tộc.
+1332|L|0|1|Những món ăn gắn với các lễ hội và sự kiện cũng ra đời.
+1333|L|1|1|Trận đấu hôm nay đã kết thúc với kết quả đầy tiếc nuối.
+1334|L|0|1|Cứ mua bừa hàng loạt giáo trình ngoại ngữ mà không học thì cũng vô ích.
+1335|L|0|1|Nông nghiệp chiếm tỉ trọng cao, và lê được biết đến như một đặc sản nổi tiếng.
+1336|A|1|投げたボールが的に命中した。|命中した|Quả bóng ném ra trúng ngay mục tiêu.|A direct hit in a harmless target game.
+1337|L|0|1|Cô ấy đang tăng cân.
+1338|L|0|1|Nhìn ánh mắt anh ta, tôi biết anh ta đang nói dối.
+1339|L|2|1|Những vở có phần Okina mở đầu đều mang nội dung chúc tụng, tốt lành.
+1340|A|1|定規の目盛をよく見て長さを測る。|目盛|Nhìn kỹ vạch chia trên thước để đo chiều dài.|Graduations on a ruler, not computer memory.
+1341|A|1|会社に勤務時間の変更を申し入れた。|申し入れた|Tôi đề nghị công ty thay đổi giờ làm việc.|Making a formal request to an organization.
+1342|L|2|1|Tôi đã đồng ý với đề nghị của anh ấy.
+1343|L|0|2|Ra là vậy, đúng là điểm tôi đã bỏ sót.
+1344|L|0|1|Tôi vùng vẫy cố đứng dậy thật nhanh.
+1345|L|0|1|Để trả lời thư ngày 22 tháng 7 của quý vị, chúng tôi xin gửi kèm danh mục mới nhất.
+1346|A|1|若しかしたら、彼はもう帰ったかもしれない。|若しかしたら|Có khi anh ấy đã về rồi cũng nên.|Tentative possibility in a natural paired construction.
+1347|A|1|若しかして、田中さんのお兄さんですか。|若しかして|Chẳng lẽ anh là anh trai của bạn Tanaka ạ?|A tentative guess when recognizing someone's identity.
+1348|A|1|若しかすると明日は雪になる。|若しかすると|Biết đâu ngày mai trời lại có tuyết.|Possibility about a hypothetical future day, not an actual forecast.
+1349|L|0|1|=
+1350|L|2|2|Mũ thì có nhiều loại như mũ nồi, nhưng tôi chủ yếu thích dùng mũ bóng chày.
+1351|A|1|日々の努力が成功の基となる。|基|Nỗ lực mỗi ngày tạo nên nền tảng của thành công.|Literary motoi meaning foundation, not the default moto or a counter ki.
+1352|L|0|1|=
+1353|L|1|2|Trên đời cũng có những người thích chuyện lạ thật.
+1354|L|0|1|Hàng đời cũ quả thật vẫn hơi thiếu về mặt tính năng.
+1355|L|1|1|Bên trong có những khu đất hình chữ nhật mô phỏng kinh đô.
+1356|L|1|1|Đặt tay nhẹ nhàng lên đầu gối hoặc đùi, rồi giữ lưng thẳng.
+1357|A|1|古い屋根から雨が漏る。|漏る|Mưa dột qua mái nhà cũ.|Godan moru meaning leak, not the more common ichidan moreru.
+1358|L|0|1|Còn với trường phái Omotesenke, ta có thể cảm nhận trọn vẹn hương vị.
+1359|L|0|1|Nhà nghỉ ven đường nào trên con phố này cũng kín phòng.
+1360|A|3|絵巻には百鬼夜行の様子が描かれる。|夜行|Cuộn tranh miêu tả cảnh trăm quỷ kéo nhau đi trong đêm.|Yagyou in the established supernatural procession hyakki yagyou, not a night train.
+1361|A|1|優な姿で舞う人に見とれた。|優|Tôi mải ngắm người đang múa với dáng vẻ dịu dàng.|Literary adjectival yasa, meaning gentle or graceful; rare reading needs review.
+1362|A|1|森の奥に小さな社がある。|社|Sâu trong rừng có một ngôi đền Thần đạo nhỏ.|Yashiro meaning shrine, not a company suffix sha.
+1363|L|0|1|Sao lại mắc một trò lừa rẻ tiền như thế chứ?
+1364|A|1|知らないきのこを矢鱈に採らないで。|矢鱈に|Đừng hái bừa những loại nấm mình không biết.|Indiscriminate action, in a simple caution without technical advice.
+1365|A|1|夜中の外出は控えるよう命じられた。|夜中|Họ được yêu cầu hạn chế ra ngoài vào ban đêm.|Formal yachuu reading in a narrative order; do not substitute yonaka ruby.
+1366|L|0|1|Ông từng đóng vai người hầu yakko trong các đám rước lãnh chúa và những dịp tương tự.
+1367|A|1|何度食べても母の料理が矢っ張り一番だ。|矢っ張り|Ăn bao nhiêu lần thì tôi vẫn thấy cơm mẹ nấu là ngon nhất.|After all, with the exact selected kanji spelling.
+1368|L|0|1|Nhưng ngay sau đó chính quyền sụp đổ, và Tanaka cũng trở thành nghị sĩ đối lập.
+1369|A|1|台風なら旅行の中止も止むを得ない。|止むを得ない|Nếu có bão thì đành phải hủy chuyến đi thôi.|An unavoidable cancellation in a hypothetical situation.
+1370|L|0|1|Tôi có cảm giác giấy in báo đã tốt hơn một chút.
+1371|A|2|昔の雑誌にはヤング向けの記事が多い。|ヤング|Tạp chí ngày xưa có nhiều bài dành cho giới trẻ.|Dated youth-oriented vocabulary in an explicitly historical context.
+1372|L|0|1|Dù có lợi thế đến đâu, chúng ta cũng không được chủ quan.
+1373|L|0|1|Người ta cũng nhấn mạnh tính cởi mở trong thế giới quan của các dân tộc du mục.
+1374|L|0|1|Ông ấy là người có thế lực trong chính giới.
+1375|L|0|1|Ý tưởng có độc đáo nhưng làm thử rồi đôi khi lại chẳng mấy hay ho.
+1376|A|1|塩を水に溶かして溶液を作った。|溶液|Tôi hòa muối vào nước để tạo thành dung dịch.|A simple liquid solution without hazardous chemicals.
+1377|L|0|1|Ông tôi ở cơ sở chăm sóc từ năm ngoái.
+1378|A|1|大学で日本語教師の養成に力を入れる。|養成|Trường đại học chú trọng đào tạo giáo viên tiếng Nhật.|Training people for a profession.
+1379|L|0|1|Cuộc đời sẽ thay đổi rất nhiều tùy theo con đường ta chọn.
+1380|L|0|1|Chúng tôi sẽ tổ chức trò ứng đáp hài làm tiết mục giúp vui trong tiệc cuối năm.
+1381|A|1|横綱が土俵に上がると歓声が響いた。|横綱|Khi võ sĩ yokozuna bước lên sàn đấu, tiếng reo hò vang dội.|The highest sumo rank used as a title for the wrestler who holds it.
+1382|A|1|川辺で葦が風に揺れている。|葦|Những cây sậy bên sông đung đưa trong gió.|Common reed; selected yoshi is a supported alternative to ashi.
+1383|L|0|1|Bạn nam đằng kia, đừng nhìn đi chỗ khác trong giờ học!
+1384|A|1|証拠は十分だ。依って再調査は不要とする。|依って|Bằng chứng đã đầy đủ. Vì vậy, không cần điều tra lại.|Formal connective therefore, not an inflected yoru meaning depend on.
+1385|A|1|一人より二人で行く方が余っ程楽しい。|余っ程|Đi hai người vui hơn đi một mình nhiều lắm.|Much more in a direct comparison.
+1386|L|0|1|Chúng tôi chân thành mong được đón tiếp quý vị.
+1387|L|0|1|Ông khuyến khích phát triển nghề chăn nuôi bò sữa.
+1388|L|0|1|=
+1389|A|1|利根の弟子は一度で教えを悟った。|利根|Người đệ tử thông tuệ chỉ nghe một lần đã hiểu lời dạy.|Literary rikon for intellectual aptitude; not the Tone river proper name.
+1390|L|0|1|Chính phủ cấp các khoản vay không lãi suất cho doanh nghiệp tham gia kế hoạch đó.
+1391|A|1|得た利潤の一部を地域に還元した。|利潤|Một phần lợi nhuận thu được đã được đóng góp trở lại cho cộng đồng.|Business profit in a generic completed action.
+1392|A|1|返済額には利息も含まれている。|利息|Số tiền hoàn trả đã bao gồm cả tiền lãi.|Interest on a loan; explanatory vocabulary, not financial advice.
+1393|L|1|1|Cơ quan này có các chức năng lập pháp, hành pháp và tư pháp.
+1394|A|1|原稿の末尾に「了」と記した。|了|Tôi ghi chữ “Hết” ở cuối bản thảo.|Conventional end marker ryou, not a character in a person's name.
+1395|L|1|1|Lãnh thổ ấy tương ứng với tỉnh Nara ngày nay.
+1396|A|1|船は静かに領海の外へ出た。|領海|Con tàu lặng lẽ đi ra ngoài vùng lãnh hải.|Territorial waters in a generic narrative, with no legal boundary claim.
+1397|L|0|1|Phí chuyển khoản do quý khách chịu, kính mong quý khách thông cảm.
+1398|L|2|1|Trong khi cai quản lãnh địa, ông còn sáng lập một trường phái kiếm thuật.
+1399|A|1|山に囲まれたこの村では林業が盛んだ。|林業|Ở ngôi làng được núi non bao quanh này, nghề rừng rất phát triển.|Forestry as an industry, not a company's proper name.
+1400|L|0|2|Tuy nhiên, điều này được suy ra bằng cách đối chiếu với các hiện vật khai quật ở Siberia và Trung Quốc.
+1401|A|2|友人の冷淡な返事に傷ついた。|冷淡|Câu trả lời lạnh nhạt của bạn khiến tôi tổn thương.|Emotional coldness rather than lack of interest in a topic.
+1402|A|2|長唄の連中が舞台に並んだ。|連中|Các nghệ sĩ nagauta xếp hàng trên sân khấu.|Renjuu specifically for a troupe of traditional performers.
+1403|L|0|1|Tôi đọc thành tiếng một bài thơ tiếng Đức và bị cuốn hút bởi âm điệu đẹp đẽ của nó.
+1404|L|0|1|Ông khuyên Saigyō rằng cảm thấy phiền phức cũng là tâm lý của con người.
+1405|L|0|1|Cứ đến mùa đông hằng năm, rất nhiều chim di trú lại về hồ này.
+1406|A|1|この電球の消費電力は十ワットだ。|ワット|Bóng đèn này tiêu thụ công suất mười oát.|Unit of power, distinct from energy consumption over time.
+1407|L|1|1|Ga Katabiranotsuji nằm cách khoảng 300 mét về phía nam, nhưng lượng khách chuyển tuyến khá đông.
+1408|A|1|物語の最後に悪者が捕まった。|悪者|Đến cuối câu chuyện, kẻ xấu đã bị bắt.|A villain in a fictional story, avoiding identifying a real person as bad.
