@@ -24,4 +24,4 @@ with (src/'links.csv').open() as f:
  for line in f:
   a,b=map(int,line.split());edges.discard((a,b));edges.discard((b,a))
 assert not edges,edges
-print(f'{count} examples: exact token match, original text/author and every direct/pivot edge verified')
+print(f'{count} examples: lexical/surface match, original text/author and every direct/pivot edge verified')

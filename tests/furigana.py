@@ -27,12 +27,15 @@ class FuriganaTest(unittest.TestCase):
 
     def test_every_released_example_and_target_reading(self):
         verify_dictionary()
+        sources = json.loads((ROOT/'data/sources/tatoeba-examples.json').read_text())
         for n in range(5, 0, -1):
             for w in json.loads((ROOT/f'data/n{n}.json').read_text()):
                 e = w['example']
                 if not e:
                     continue
-                self.assertEqual(annotate(w, e), e, w['id'])
+                source = sources[w['id']]
+                self.assertEqual(annotate(w, source), source, w['id'])
+                self.assertEqual(e, {k: v for k, v in source.items() if k not in ('furiganaEvidence', 'furiganaSkipped')}, w['id'])
                 m = e['match']
                 ts = [t for t in analyze(e['text']) if m['start'] <= t['start'] and t['end'] <= m['end']]
                 if m['kind'] == 'lemma':

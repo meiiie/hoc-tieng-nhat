@@ -9,6 +9,7 @@ class MatchTest(unittest.TestCase):
   self.assertIsNotNone(match_word({'kanji':'珈琲','kana':'コーヒー'},'コーヒーを飲む。'))
   self.assertIsNotNone(match_word({'kanji':'おめでとう','kana':'おめでとう','pos':'thán từ'},'おめでとうございます。'))
   self.assertIsNotNone(match_word({'kanji':'等','kana':'など','pos':'trợ từ'},'私は英雄などではない。'))
+  self.assertIsNotNone(match_word({'kanji':'本の','kana':'ほんの','pos':'tính từ'},'ほんの少しです。'))
  def test_no_partial_or_wrong_reading(self):
   for word,text in [({'kanji':'校','kana':'こう'},'学校へ行く。'),({'kanji':'愛','kana':'あい'},'愛知に住む。'),({'kanji':'行く','kana':'ゆく','pos':'động từ'},'学校へ行った。'),({'kanji':'いる','kana':'いる','pos':'động từ'},'ビールが入る。')]:
    self.assertIsNone(match_word(word,text),(word,text))
@@ -40,6 +41,7 @@ class MatchTest(unittest.TestCase):
    ({'kanji':'芽','kana':'め','pos':'danh từ'},'あけおめ！'),
    ({'kanji':'嫌','kana':'いや','pos':'tính từ đuôi na'},'いや、全然。')]:
    self.assertIsNone(match_word(word,text),(word,text))
+  self.assertIsNone(match_word({'kanji':'本の','kana':'ほんの','pos':'tính từ'},'トムは本の虫だ。'))
  def test_existing_selection_is_stable_unless_better(self):
   def e(text,machine=False,pivot=False):return {'text':text,'translation':{'machine':machine,'pivot':pivot}}
   self.assertFalse(better(e('同じ長さ。'),e('同じ長さ。')))

@@ -119,6 +119,16 @@ def run(kind):
     assert lemma['example']['match']['surface'] in pg.locator('#fb').inner_text()
     assert E('JSON.stringify(S.srs)')=='{}'
    ok('lemma cloze hides and accepts the actual surface/reading, rejects dictionary form and preserves SRS')
+   for level in [2,1]:
+    for mode in ['direct','pivot','machine']:
+     fixture=E("([n,mode])=>{const w=words.find(w=>w.level===n&&w.example&&(mode==='machine'?w.example.translation.machine:mode==='pivot'?w.example.translation.pivot:!w.example.translation.machine&&!w.example.translation.pivot));S.jaUnlocked[n]=true;S.star={[w.id]:true};S.set.f={cefr:'N'+n,star:true};S.set.furigana='on';S.srs={};S.sess={};FC=null;save();return w}",[level,mode])
+     go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example')
+     assert fixture['example']['text']==pg.locator('.face.b .ja-example-text').evaluate("e=>{const c=e.cloneNode(true);c.querySelectorAll('rt').forEach(x=>x.remove());return c.textContent}")
+     assert {'direct':'bản dịch tiếng Việt trên Tatoeba','pivot':'dịch qua câu tiếng Anh','machine':'bản dịch máy, cần kiểm tra'}[mode] in pg.locator('.face.b .ja-example').inner_text()
+     assert pg.locator('.face.b .ja-example-text ruby').count()==sum(bool(x.get('ruby')) for x in fixture['example']['furigana'])
+     pg.locator('.face.b .ja-example-source summary').click();assert pg.locator('.face.b .ja-example-source a').first.get_attribute('href')==fixture['example']['url']
+    ok('N'+str(level)+' examples: direct/pivot/machine labels, original base, ruby and attribution')
+
 
    forward=E("(()=>{const w=words.find(w=>w.level===5);S.star={[w.id]:true};S.set.f={cefr:'N5',star:true};S.srs[w.id]={...SRS.fresh(),state:'review',s:31,d:4,int:30,due:SRS.dayAt(Date.now(),20),last:Date.now(),reps:4};FC=null;S.sess={};save();return w.id})()")
    go('cards');pg.click('#nL');pg.wait_for_timeout(300);assert E('id=>S.srs[id].due===SRS.dayAt(Date.now(),1)&&S.srs[id].s===31&&S.srs[id].int===30',forward);ok('English failed-recall exception advances due date without changing memory state')

@@ -108,7 +108,15 @@ def main():
  roman=json.loads(subprocess.check_output(['node','-e',"const k=require('./ja-kana.js');let s='';process.stdin.on('data',x=>s+=x);process.stdin.on('end',()=>process.stdout.write(JSON.stringify(JSON.parse(s).map(k.toRomaji))))"],input=json.dumps([w['kana'] for w in kana_cards]).encode(),cwd=ROOT))
  for w,r in zip(kana_cards,roman):w['romaji']=r
  dump(out/'kana.json',kana_cards);dump(out/'kanji.json',kanji)
- for n in range(5,0,-1):dump(out/f'n{n}.json',[w for w in words if w['level']==n])
+ # The browser needs ruby segments; lexical audit records stay in the source overlay.
+ # Avoid downloading thousands of redundant dictionary evidence records on startup.
+ for n in range(5,0,-1):
+  runtime=[]
+  for w in words:
+   if w['level']!=n:continue
+   e=w['example']
+   runtime.append({**w,'example':{k:v for k,v in e.items() if k not in ('furiganaEvidence','furiganaSkipped')} if e else None})
+  dump(out/f'n{n}.json',runtime)
  writetsv(out/'sources/unmatched.tsv',['kanji','reading','level','status','corrected_form','corrected_reading','jmdict'],unmatched)
  dump(ROOT/'.cache/translation-worklist.json',words)
  writetsv(out/'sources/quarantined.tsv',['kanji','reading','level','reason'],quarantined)

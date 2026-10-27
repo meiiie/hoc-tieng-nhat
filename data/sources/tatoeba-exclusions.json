@@ -20,5 +20,7 @@
   "3402115": "Japanese typo はらない instead of ならない",
   "9972620": "Outdated named-monarch statement; prefer a sentence without a misleading present-tense fact",
   "235585": "Japanese says twenty houses burned down, Vietnamese says within twenty minutes",
-  "9550240": "Reduplicated 込み込み is not a clear conjugated example of standalone 込む; prefer an unambiguous verb context."
+  "9550240": "Reduplicated 込み込み is not a clear conjugated example of standalone 込む; prefer an unambiguous verb context.",
+  "116169": "Japanese has the malformed time expression １５年間前; choose a sentence without a known source typo.",
+  "1219164": "Linked Vietnamese says ngay (now) instead of あらかじめ (in advance), losing the target meaning."
 }
