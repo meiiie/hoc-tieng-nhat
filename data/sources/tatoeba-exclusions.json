@@ -12,5 +12,12 @@
   "228803": "Vietnamese link changes the instruction and quantifier",
   "1619881": "Vietnamese link reverses the direction of the birthday gift",
   "4977": "Vietnamese link omits stretching the item into shape",
-  "184420": "Vietnamese link says 8:00, Japanese says 8:30 (found during screenshot review)"
+  "184420": "Vietnamese link says 8:00, Japanese says 8:30 (found during screenshot review)",
+  "195310": "English stir-fried pea pods does not match Japanese kakiage fritters",
+  "11211733": "Japanese asks about a cigar pipe/holder, English about a cigar",
+  "3710864": "English conditional changes the Japanese complaint about an existing prime minister",
+  "928540": "Malformed Japanese double topic construction; prefer a clear learner example",
+  "3402115": "Japanese typo はらない instead of ならない",
+  "9972620": "Outdated named-monarch statement; prefer a sentence without a misleading present-tense fact",
+  "235585": "Japanese says twenty houses burned down, Vietnamese says within twenty minutes"
 }

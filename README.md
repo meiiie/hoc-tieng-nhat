@@ -1,11 +1,11 @@
 # Học Tiếng Nhật cùng Neko
 
-PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên bản **1.1.0**, ngày 27-10-2026. Chạy bằng các tệp tĩnh; không cần tài khoản, máy chủ ứng dụng hay khóa API.
+PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên bản **1.2.0**, ngày 27-10-2026. Chạy bằng các tệp tĩnh; không cần tài khoản, máy chủ ứng dụng hay khóa API.
 
 ## Học cùng Neko
 
 - 214 mục hiragana/katakana: âm cơ bản, âm đục, âm ghép, nghe, luyện nhớ và viết nét.
-- 1.259 từ N5/N4 có ví dụ Tatoeba ngắn và bản dịch có nhãn/ghi công; bước điền vào câu bật khi có ví dụ.
+- 2.971 từ N5/N4/N3 có ví dụ Tatoeba ngắn và bản dịch có nhãn/ghi công; bước điền vào câu bật khi có ví dụ.
 - 8.344 mục từ N5–N1 có nghĩa Việt, kana, romaji, nghĩa Anh đối chiếu và liên kết JMdict. Furigana bật/tắt trên thanh đầu trang; romaji trong Cài đặt.
 - Ôn theo lịch FSRS-6, Thẻ ghi nhớ, Học, Từ khó, Ghép thẻ, Nghe – chép, Kiểm tra, Ôn toàn bộ, Danh sách từ và Thống kê.
 - Bắt đầu từ kana hoặc N5; mặc định 5 từ mới/ngày. Cấp tiếp theo mở khi 80% từ đã qua bước học ban đầu, hoặc chọn **Mở sớm**.

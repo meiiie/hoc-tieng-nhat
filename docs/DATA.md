@@ -58,7 +58,7 @@ Cao độ ghép đúng dạng chữ + cách đọc, chỉ chuẩn hóa katakana/
 |---|---:|---:|---:|---:|
 | N5 | 648 | 518 | 44 | 86 |
 | N4 | 611 | 387 | 70 | 154 |
-| N3 | 0 | 0 | 0 | 0 |
+| N3 | 1712 | 992 | 161 | 559 |
 | N2 | 0 | 0 | 0 | 0 |
 | N1 | 0 | 0 | 0 | 0 |
 <!-- example-counts:end -->
@@ -71,7 +71,7 @@ Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu
 
 Đầu vào biên soạn bền vững: `tatoeba-examples.json`, `tatoeba-vi-machine.tsv`, `tatoeba-exclusions.json`. Tệp loại trừ ghi lý do cho câu/link lỗi phát hiện khi rà. `tools/build-data.py` luôn ghép overlay, giữ ID từ và tiến độ cũ. Tái chọn bằng `tools/tatoeba.py --levels 5 4` rồi `tools/apply-examples.py .cache/examples-5-4.json`; bước apply từ chối bản dịch máy còn trống. Dùng venv biên soạn `.cache/content-venv`, không phân phối bộ tách từ/từ điển trong website.
 
-`tests/tatoeba_provenance.py` đối chiếu tất cả câu/ID/tác giả với TSV gốc và mọi cạnh liên kết với links.csv. `tests/example_matching.py` kiểm tra khớp từ và các trường hợp âm/biên sai; Node kiểm tra thuộc tính ghi công, câu ngắn và vị trí từ; E2E kiểm tra nhãn, nguồn và bước cloze. Chưa có người bản ngữ rà toàn bộ câu/bản dịch. Không dùng `sentences_with_audio.csv`: phát âm câu vẫn dùng giọng thiết bị; không tải audio Tatoeba khi chưa kiểm tra giấy phép riêng từng bản ghi.
+`tests/tatoeba_provenance.py` đối chiếu tất cả câu/ID/tác giả với TSV gốc và mọi cạnh liên kết với links.csv. `tests/example_matching.py` kiểm tra khớp từ và các trường hợp âm/biên sai; Node kiểm tra thuộc tính ghi công, câu ngắn và vị trí từ; E2E kiểm tra nhãn, nguồn và bước cloze. Nhật ký tự rà: `data/sources/tatoeba-review.json`. Codex đã dịch/đối chiếu các trường hợp máy, xem mẫu 35 bản dịch của người đóng góp N5/N4 và 60 N3; lỗi phát hiện được loại bằng danh sách có lý do. Không suy ra tỷ lệ chính xác; chưa có người bản ngữ rà toàn bộ câu/bản dịch. Không dùng `sentences_with_audio.csv`: phát âm câu vẫn dùng giọng thiết bị; không tải audio Tatoeba khi chưa kiểm tra giấy phép riêng từng bản ghi.
 
 ## Âm thanh
 

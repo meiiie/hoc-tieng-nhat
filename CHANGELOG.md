@@ -1,3 +1,10 @@
+# 1.2.0 — 2026-10-27
+
+- Thêm 1.712 ví dụ N3: 992 Việt trực tiếp, 161 qua tiếng Anh, 559 dịch máy có nhãn; tổng 2.971 từ N5–N3 có câu.
+- Giữ ghi công và liên kết từng câu; công bố mẫu tự rà và lý do loại câu/link không phù hợp.
+- Ghi rõ giấy phép và tác giả AI cho bản dịch máy; không thêm furigana suy đoán, không đổi ID hoặc schema tiến độ.
+- Cache shell htn-v1.2.0, cập nhật theo nút Tải lại.
+
 # 1.1.0 — 2026-10-27
 
 - 648 ví dụ N5 và 611 ví dụ N4 từ Tatoeba, ghi công từng câu; phân biệt Việt trực tiếp, qua Anh và dịch máy.

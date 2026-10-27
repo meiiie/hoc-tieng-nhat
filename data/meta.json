@@ -1,5 +1,5 @@
 {
- "version": "1.1.0",
+ "version": "1.2.0",
  "sourceDate": "2026-10-26",
  "sourceHeadwords": 8138,
  "sourceRows": 8505,
@@ -44,10 +44,10 @@
    "hanViet": 1546,
    "pitch": 1536,
    "audio": 0,
-   "examples": 0,
-   "exampleHumanDirect": 0,
-   "exampleHumanPivot": 0,
-   "exampleMachine": 0
+   "examples": 1712,
+   "exampleHumanDirect": 992,
+   "exampleHumanPivot": 161,
+   "exampleMachine": 559
   },
   "N2": {
    "words": 1826,

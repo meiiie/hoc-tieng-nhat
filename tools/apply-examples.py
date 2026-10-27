@@ -18,5 +18,9 @@ for key,e in selected.items():
   e['translation']['method']='Codex translation of the linked English sentence, compared with Japanese; not native-speaker verified'
  assert e['translation']['text'].strip(),key
 examples.update(selected)
+for e in examples.values():
+ if e["translation"]["machine"]:
+  e["translation"]["license"]="CC BY 2.0 FR"
+  e["translation"]["translator"]="Codex (AI)"
 path.write_text(json.dumps(examples,ensure_ascii=False,indent=1)+'\n')
 print('Published source overlay:',len(examples))

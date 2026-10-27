@@ -36,7 +36,7 @@
 
 ### Task 2: N3 examples
 
-- [ ] Reuse pipeline, review machine translations, record coverage; run all gates, bump, commit and push.
+- [x] Reuse pipeline, review machine translations, record coverage; run all gates, bump, commit and push.
 
 ### Task 3: Audio per N3, N2, N1
 
