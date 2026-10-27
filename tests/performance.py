@@ -37,6 +37,13 @@ with sync_playwright() as p:
                    'encoding': r.headers.get('content-encoding')} for r in responses]
         startup_bytes = sum(r['bytes'] for r in bodies)
         decoded = pg.evaluate('performance.getEntriesByType("navigation").concat(performance.getEntriesByType("resource")).reduce((n,r)=>n+r.decodedBodySize,0)')
+        # WebKit does not emit worker requests through Playwright. Inspect the
+        # installed cache too, so neither its size nor unwanted precaches hide.
+        shell = pg.evaluate("""async()=>{const names=(await caches.keys()).filter(k=>/^htn-v/.test(k)),rows=[];
+          for(const name of names){const c=await caches.open(name);for(const r of await c.keys())rows.push({url:r.url,bytes:(await (await c.match(r)).arrayBuffer()).byteLength})}return rows}""")
+        assert not [r for r in shell if BIG.search(urlsplit(r['url']).path)], shell
+        shell_bytes = sum(r['bytes'] for r in shell)
+        assert decoded + shell_bytes < 1_300_000, (decoded, shell_bytes)
         assert startup_bytes < 1_300_000, startup_bytes  # Both page + worker; uncompressed localhost.
         assert 100_000 < decoded < 600_000, decoded
         assert pg.evaluate('words.length===8344&&!words.some(w=>w.example)')
@@ -126,9 +133,11 @@ with sync_playwright() as p:
         checks.append('one fetch per concurrent level load; late completion never replaces a newer route')
         isolated.close()
         browser.close()
-        results[engine] = {'url': BASE, 'passed': len(checks), 'startupRequests': len(bodies),
-                           'startupEncodedBodyBytesIncludingSW': startup_bytes,
-                           'pageDecodedBytes': decoded, 'startupFiles': bodies, 'checks': checks}
+        results[engine] = {'url': BASE, 'passed': len(checks), 'observedStartupRequests': len(bodies),
+                           'observedEncodedBodyBytes': startup_bytes,
+                           'networkObservationScope': 'page + worker' if engine == 'chromium' else 'page (worker cache inspected separately)',
+                           'pageDecodedBytes': decoded, 'installedShellDecodedBytes': shell_bytes,
+                           'startupFiles': bodies, 'shellFiles': shell, 'checks': checks}
         print(engine, len(checks), 'performance/offline checks passed', flush=True)
 OUT.mkdir(parents=True, exist_ok=True)
 (OUT / (PREFIX + 'performance.json')).write_text(json.dumps(results, ensure_ascii=False, indent=2) + '\n')
