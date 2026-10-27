@@ -46,6 +46,21 @@ test('added pitch values retain explicit licensed lexical evidence and source la
  }
 });
 
+test('machine sentence translations keep model attribution and honest per-sentence review flags',()=>{
+ const methods=JSON.parse(fs.readFileSync('data/sources/tatoeba-machine-methods.json'));
+ const manifest=JSON.parse(fs.readFileSync('data/sources/tatoeba-machine-method.json'));
+ assert.equal(Object.keys(methods).length,manifest.importedUniqueSentences);
+ assert.equal(Object.values(methods).filter(m=>m.aiSpotChecked).length,manifest.aiSpotChecked);
+ for(const w of all){const e=w.example,m=e&&methods[e.id];if(!m)continue;
+  assert.equal(e.translation.machine,true);assert.equal(e.translation.pivot,false);
+  assert.equal(e.translation.translator,m.translator);assert.equal(e.translation.method,m.method);
+  assert.equal(e.translation.from.id,m.englishSentence);assert.equal(m.nativeReviewed,false);
+  assert.equal(typeof m.aiSpotChecked,'boolean');assert.equal(typeof m.aiCorrected,'boolean');
+  if(m.aiCorrected)assert.equal(m.aiSpotChecked,true);
+  if(!m.aiSpotChecked)assert.ok(m.method.includes('not individually reviewed against Japanese'));
+ }
+});
+
  test('sentence ruby preserves every base character, excludes kana and retains lexical evidence',()=>{
  const sources=JSON.parse(fs.readFileSync('data/sources/tatoeba-examples.json'));
  const hira=s=>s.normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96));

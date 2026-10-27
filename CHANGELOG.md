@@ -1,3 +1,10 @@
+# 1.10.1 — 2026-10-27
+
+- Thêm ví dụ Tatoeba cho N2/N1, cùng kiểm tra lemma/POS/dạng chữ/cách đọc, nguồn và nhãn dịch trực tiếp/qua Anh/dịch máy.
+- Furigana câu chạy offline; trình duyệt chỉ nhận các đoạn ruby, bằng chứng từ điển giữ ở overlay nguồn để giảm dữ liệu tải lúc mở app.
+- Bản dịch máy mới có model/hash và cờ xem/sửa riêng từng ID; phần chưa đối chiếu được ghi rõ, tất cả giữ nhãn cần kiểm tra.
+- Kiểm tra N2/N1 trên hai engine và ảnh review ruby sáng/tối. Cache htn-v1.10.0 chờ Tải lại; ID/schema 11/tiến độ giữ nguyên.
+
 # 1.10.0 — 2026-10-27
 
 - Luyện nói chấm từng mora ngay trên máy: mô hình âm vị tiếng Nhật japanese-hubert-base-phoneme-ctc-v4 (Apache-2.0, ONNX 4-bit, 63 MB, chỉ tải khi người học bấm "Tải mô hình", lưu offline). Phát hiện sai âm, bỏ trường âm, bỏ っ, bỏ ん; chấp nhận nguyên âm vô thanh. Giao diện điểm, chip từng mora, gợi ý, so sánh giọng mẫu và giọng mình giống app tiếng Anh.

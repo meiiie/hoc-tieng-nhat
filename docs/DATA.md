@@ -77,7 +77,7 @@ Tái trích: `.cache/content-venv/bin/python tools/pitch_sources.py --download` 
 
 Mỗi từ được chọn tối đa một câu thật, dài 4–25 ký tự, có dấu kết câu và tác giả được nêu tên. Tệp chi tiết thực tế có sáu cột `id, lang, text, username, created, modified`, **không có cột giấy phép**; văn bản được tái sử dụng theo CC BY 2.0 FR của bản xuất Tatoeba. Bỏ câu không có chủ sở hữu. SHA-256 và phương pháp nằm trong `data/sources/tatoeba-method.json`; nguyên câu, tên người đóng góp và liên kết `https://tatoeba.org/sentences/show/<id>` giữ cho cả Nhật, Việt và Anh được dùng.
 
-Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu, chọn Việt nối qua một câu Anh và ghi `pivot:true`, nhãn **dịch qua câu tiếng Anh**. Nếu chỉ có câu Anh liên kết trực tiếp, Codex dịch sang Việt, đối chiếu câu Nhật và giữ `machine:true`, nhãn **bản dịch máy, cần kiểm tra**. Không gọi các bản dịch AI là bản dịch do người đóng góp Tatoeba viết. Cột Việt trực tiếp/pivot chỉ cho biết nguồn văn bản do người đóng góp đăng; chưa có biên tập viên bản ngữ kiểm định chúng hay xác minh cách tác giả tạo ra chúng.
+Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu, chọn Việt nối qua một câu Anh và ghi `pivot:true`, nhãn **dịch qua câu tiếng Anh**. Nếu chỉ có câu Anh liên kết trực tiếp, bản dịch AI sang Việt giữ `machine:true`, nhãn **bản dịch máy, cần kiểm tra**. Không gọi các bản dịch AI là bản dịch do người đóng góp Tatoeba viết. Cột Việt trực tiếp/pivot chỉ cho biết nguồn văn bản do người đóng góp đăng; chưa có biên tập viên bản ngữ kiểm định chúng hay xác minh cách tác giả tạo ra chúng.
 
 `match` ghi `start`, `end`, `surface`, `kind:exact` hoặc `kind:lemma`. Biên từ và cách đọc được kiểm tra bằng fugashi 1.5.2 + UniDic 2.1.2 (unidic-lite 1.0.8). Chỉ lấy dạng chữ hoặc kana nguyên vẹn, không ghép một phần kanji/từ đồng âm khác cách đọc. Bản 1.9.0 dùng lemma + POS và kiểm tra dạng chữ/cách đọc JMdict cho động từ/tính từ đã chia; không tìm chuỗi thân từ bằng cách cắt đuôi. Bộ phân tích vẫn có thể sai nghĩa/cách tách; không bảo đảm mọi ví dụ đúng sense JLPT. Furigana được biên soạn offline theo chính sách bảo thủ bên dưới. Cloze che đúng đoạn khớp; chỉ bật khi có ví dụ hợp lệ.
 
@@ -110,6 +110,16 @@ Nút furigana hiện có điều khiển cả từ và câu. Các bộ đếm th
 | N2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | N1 | 0 | 0 | 0 | 0 | 0 | 0 |
 <!-- furigana-counts:end -->
+
+### Mở rộng N2/N1 và bản dịch máy (1.10.0)
+
+N2/N1 dùng cùng bộ chọn câu 4–25 ký tự, kiểm tra exact/lemma, ưu tiên Việt trực tiếp rồi Việt qua Anh, cùng ghi công Tatoeba/CC BY 2.0 FR và bộ lọc ruby. Quy trình: `tools/tatoeba.py --levels 2 1`, apply, annotate, build. `tatoeba-selection-2-1.json` ghi các từ có câu.
+
+Các bản dịch máy đã có từ trước được giữ. Phần Anh liên kết còn thiếu dùng model [Helsinki-NLP/opus-mt-en-vi](https://huggingface.co/Helsinki-NLP/opus-mt-en-vi) (Apache-2.0) chạy offline bằng Transformers/PyTorch từ trọng số gốc. Model không được phân phối. Bản chuyển đổi CTranslate2 cũ cho kết quả lỗi trong smoke test nên **không dùng để tạo bản dịch phát hành**. Bản gốc được thử với câu đơn giản trước khi chạy; smoke test không chứng minh chất lượng toàn bộ dữ liệu.
+
+`tools/translate-example-drafts.py` tạo nháp trong `.cache`; `tools/import-example-drafts.py` nhập nháp với thông tin kiểm tra tách biệt. `tatoeba-machine-method.json` ghim engine, tham số, hash, số đã xem/sửa; `tatoeba-machine-methods.json` ghi `aiSpotChecked`, `aiCorrected`, `nativeReviewed:false` và ID câu Anh cho từng câu mới. Chỉ các ID đã ghi mới được Codex xem/sửa; **phần còn lại chưa được đối chiếu từng câu với tiếng Nhật**. Mọi bản dịch này vẫn `machine:true`, nhãn **bản dịch máy, cần kiểm tra**, kể cả đã được cùng AI xem lại. `translation.translator` ghi đúng model và phần sửa của Codex; không gán nhãn người đóng góp Tatoeba cho bản dịch máy.
+
+Mẫu rà nguồn Việt và bản dịch máy, các lỗi đã sửa/loại và giới hạn nằm trong `tatoeba-review.json`. Không có tỷ lệ chính xác hoặc đánh giá bản ngữ. Các bản dịch máy chưa rà có thể sai nghĩa từ đa nghĩa, thành ngữ và thuật ngữ chuyên ngành; đây là dữ liệu cần kiểm tra tiếp.
 
 ## Âm thanh
 
