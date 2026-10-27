@@ -1,0 +1,179 @@
+{
+  "voice": "ja-JP-NanamiNeural",
+  "input": "kana",
+  "sampleRate": 24000,
+  "channels": 1,
+  "bitrate": "32k",
+  "levels": [
+    "n1"
+  ],
+  "requested": 3425,
+  "offset": 0,
+  "generated": 3425,
+  "existing": 0,
+  "errors": [],
+  "retryEvents": [
+    {
+      "id": "j75fbdcebb369",
+      "attempt": 1,
+      "error": "timeout"
+    },
+    {
+      "id": "j68eeb589b5f5",
+      "attempt": 1,
+      "error": "timeout"
+    },
+    {
+      "id": "jf32aea0211e9",
+      "attempt": 1,
+      "error": "timeout"
+    },
+    {
+      "id": "j5b048e9ed36b",
+      "attempt": 1,
+      "error": "timeout"
+    },
+    {
+      "id": "j0c5b311c841f",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j0576f8f449b6",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j2aa39214f515",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jd641984c5a98",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j0a97e2ddb6fe",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j2e31a142e172",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "ja349451e6f1e",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jc7eabeb3a00b",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jca8d7861086c",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jc25ed75d9b4e",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jae69d7cea64f",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j426b8738b02e",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j8bb76d43a4c6",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j2ca0c3566834",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j164bfa0782c8",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j98ab53e75989",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "je268a7193d62",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jb08efa327f86",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j3806386517a5",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j8d7043b2d42f",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j14c6dd7f5d2e",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "jedd49b26ff2f",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j874a687abb10",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j661d483a5f02",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j1df42dbe05ae",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j2ffac909487b",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    },
+    {
+      "id": "j2d100483b9e7",
+      "attempt": 1,
+      "error": "aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+    }
+  ],
+  "chunkSize": 100,
+  "workers": 4,
+  "status": "complete",
+  "chunksCompleted": 35,
+  "available": 3425,
+  "totalLevelWords": 3425,
+  "seconds": 1144.0
+}

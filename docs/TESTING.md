@@ -2,7 +2,7 @@
 
 Môi trường: Node 20.19.2, Python 3.13.5, Playwright 1.64.0; Chromium revision 1248 (Chrome for Testing 156.0.8078.4), WebKit revision 2370. HTTP server: `python3 -m http.server 8931`. Kiểm thử chính dùng viewport 390 × 844, touch/mobile. Đây là engine trên Linux, không phải Safari trên iPhone thật.
 
-## Kết quả thực tế
+## Kết quả bản 1.0.0 (lịch sử)
 
 | Suite | Đạt | Trượt |
 |---|---:|---:|

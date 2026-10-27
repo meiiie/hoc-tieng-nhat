@@ -1,3 +1,9 @@
+# 1.5.0 — 2026-10-27
+
+- Đủ 3.425 MP3 N1 Nanami; toàn bộ 8.344 từ N5–N1 có tệp mono 24 kHz / 32 kbit/s.
+- Kiểm tra giải mã từng tệp và tải trong Cài đặt ở cả năm cấp; audio vẫn tải lười, không thuộc SW shell.
+- Công bố dung lượng thực tế và retry; cache htn-v1.5.0 chờ Tải lại, giữ nguyên tiến độ.
+
 # 1.4.0 — 2026-10-27
 
 - Đủ 1.826 MP3 N2 Nanami; tổng 4.919 MP3 N5–N2, mono 24 kHz / 32 kbit/s.

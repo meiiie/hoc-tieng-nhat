@@ -1,5 +1,5 @@
 {
- "version": "1.4.0",
+ "version": "1.5.0",
  "sourceDate": "2026-10-26",
  "sourceHeadwords": 8138,
  "sourceRows": 8505,
@@ -65,7 +65,7 @@
    "vi": 3425,
    "hanViet": 3152,
    "pitch": 3072,
-   "audio": 0,
+   "audio": 3425,
    "examples": 0,
    "exampleHumanDirect": 0,
    "exampleHumanPivot": 0,

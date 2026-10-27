@@ -15,7 +15,7 @@
 - [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs): MIT, phiên bản 5.4.2, sao chép bản đang dùng của English Neko.
 - Bản văn giấy phép đầy đủ lấy từ repository chính thức [Creative Commons](https://github.com/creativecommons/creativecommons.org/tree/main/docroot/legalcode): by-sa_4.0.txt và by-sa_3.0.txt, lưu tại LICENSE-CC-BY-SA-4.0.txt và LICENSE-CC-BY-SA-3.0.txt.
 
-Tệp âm thanh tổng hợp được tạo bằng edge-tts, giọng ja-JP-NanamiNeural; 4.919 MP3. Nhật ký gốc: sources/audio-generation.json; các đợt bổ sung: sources/audio-generation-n*.json. Không gửi bản ghi giọng người học đến dịch vụ tạo giọng. Từ chưa có MP3 dùng speechSynthesis trên thiết bị.
+Tệp âm thanh tổng hợp được tạo bằng edge-tts, giọng ja-JP-NanamiNeural; 8.344 MP3. Nhật ký gốc: sources/audio-generation.json; các đợt bổ sung: sources/audio-generation-n*.json. Không gửi bản ghi giọng người học đến dịch vụ tạo giọng. Từ chưa có MP3 dùng speechSynthesis trên thiết bị.
 
 - [Tatoeba downloads](https://tatoeba.org/en/downloads), [quy định sử dụng corpus](https://en.wiki.tatoeba.org/articles/show/using-the-tatoeba-corpus), [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/): câu Nhật và bản dịch Việt/Anh, bản xuất nhận 2026-10-27. Username/ID/URL của từng câu nằm trong dữ liệu; SHA-256 của jpn.tsv, vie.tsv, eng.tsv, links.csv trong sources/tatoeba-method.json. Không có cột licence trong detailed TSV này, dùng giấy phép văn bản của bản xuất. Không dùng audio Tatoeba.
 - [fugashi](https://github.com/polm/fugashi) và [unidic-lite](https://github.com/polm/unidic-lite): công cụ kiểm tra biên từ/cách đọc lúc biên soạn, không tạo furigana, không tải trong ứng dụng.
