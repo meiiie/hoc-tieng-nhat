@@ -1,4 +1,4 @@
-const V='htn-v1.10.2',DATA='htn-data-v1',AUDIO='htn-audio-v1',CONTENT='htn-content-v1';
+const V='htn-v1.11.0',DATA='htn-data-v1',AUDIO='htn-audio-v1',CONTENT='htn-content-v1';
 const SHELL=['./','index.html','core/style.css','lang-ja.css','core/app-core.js','core/mascot.js','core/speech.js','core/mic-worklet.js','core/mic-meter.js','lang-ja.js','ja-examples.js','ja-data.js','ja-kana.js','ja-pitch.js','ja-pitch-worker.js','ja-engine.js','ja-phone.js','asr-worker.js','vendor/ja-phone-vocab.json','ja-writing.js','srs.js','storage.js','learning-plan.js','content.js','vendor/ts-fsrs.min.js','manifest.webmanifest','version.json','data/meta.json','data/index.json','data/kana.json','data/NOTICE.md','data/SOURCES.md','icons/icon.svg','icons/icon-192.png','icons/icon-512.png','icons/maskable-192.png','icons/maskable-512.png','icons/apple-touch-icon.png'];
 const URLS=new Set(SHELL.map(x=>new URL(x,self.registration.scope).href));
 const isContent=u=>/\/data\/(?:n[1-5]|kanji)\.json$/.test(u.pathname);
@@ -24,7 +24,7 @@ self.addEventListener('fetch',e=>{const r=e.request,u=new URL(r.url);if(r.method
  if(isContent(u)){e.respondWith(caches.open(CONTENT).then(async c=>{
   const saved=await c.match(r);if(saved)return saved;
   try{const res=await timeout(fetch(r),4000);if(!res.ok)throw Error('content unavailable');await c.put(r,res.clone()).catch(()=>{});return res}
-  catch(error){const previous=await c.match(r,{ignoreSearch:true});return previous||Response.error()}
+  catch(error){const previous=await c.match(r,{ignoreSearch:true});return previous||new Response('',{status:503,statusText:'Content unavailable offline'})}
  }));return}
  const lazy=u.pathname.includes('/audio/')?AUDIO:/\/(data\/strokes|models|vendor\/ort)\//.test(u.pathname)?DATA:null;
  if(lazy){e.respondWith(caches.open(lazy).then(async c=>{const saved=await c.match(r);if(saved)return saved;const res=await fetch(r);if(res.ok)e.waitUntil(c.put(r,res.clone()).catch(()=>{}));return res}));return}

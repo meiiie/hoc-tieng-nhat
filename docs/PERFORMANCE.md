@@ -83,9 +83,76 @@ precache traffic; further decisions will use fresh measurements, not assumptions
 about script size or the pronunciation model. No model or MP3 was requested at
 startup.
 
-## Implementation and after measurements
+## Implementation (v1.11.0)
 
-Pending. Storage schema must remain 11, runtime vocabulary files/IDs/semantics
-must remain unchanged, and used levels must survive offline reloads and updates.
-The regression gate must cover fresh home traffic including SW installation;
-zero transferred bytes in a warmed Lighthouse run cannot enforce that budget.
+`tools/build-index.py` generates a **134,067-byte** catalogue from the unchanged
+level files. It contains IDs in their original order, level membership, missing
+audio IDs, byte sizes and content revisions. Home, onboarding, statistics,
+filters, unlocking and global/reverse due counts use that catalogue plus saved
+progress. The full five JSON files and all of their fields remain byte-identical.
+
+`ja-data.js` hydrates a level's records in place only when a study route needs
+it. That preserves core map/queue references and study order. Review also loads
+levels with active scheduled cards, including reverse directions and saved
+sessions, so global scheduling still works. Practice distractors use fully loaded
+words. Kanji metadata loads on the writing route. Concurrent requests share a
+promise; late completion cannot replace a newer route, and failures offer Retry.
+
+The install shell contains the index and small kana table, not vocabulary or
+kanji. `htn-content-v1` caches content on use independently of the versioned
+shell; revision URLs allow content updates without invalidating unchanged levels.
+An offline fallback can use an already-cached prior revision. Activation copies
+old eager-shell vocabulary before deleting old shell caches. Cache identity and
+content metadata are separate from learner storage: schema stays **11**.
+
+Settings offers **Tải để dùng offline** for all five levels, their complete
+examples/ruby, and kanji metadata. Downloads are sequential and don't parse
+unused levels. It only reports success after the requested content is cached;
+partial downloads can be retried. Audio and individual stroke SVGs remain on-use
+(or the existing audio download button). Home alone does not make unseen levels
+available offline; an uncached level explains this and offers Retry/home.
+
+## First implementation measurement
+
+After the loading change, using the same unmodified capture harness, the first
+localhost warm Lighthouse 13.5.0 run scored **100**, TBT **52.5 ms**, main-thread
+work **1,499.40 ms**, versus **75 / 1,321 ms / 3,753.76 ms** before. This is one
+intermediate local run, not the final live median. Artifacts:
+`/workspace/japanese/reports/perf-after-local-*`.
+
+Cold page startup fell from **14,559,738 to 512,535 decoded bytes** and from
+**25 to 21 requests**. The page requested only `data/index.json` and
+`data/kana.json` as data. SW installation fell from **43 to 38 requests**; combined
+page + worker uncompressed response bodies fell from **29,247,560 to 1,150,873
+bytes**. The cold page had one 58 ms long task instead of five totaling 402 ms.
+This confirms that the unnecessary full-data boot path was the dominant removable
+cause. Mascot bytes and animation remain unchanged; optimizing them was not needed
+for this measured improvement.
+
+Final deployed verification uses **three** Lighthouse 13.x runs and reports the
+median, plus Lighthouse **11.7.1** for its legacy PWA category, after Pages matches
+the pushed HEAD. The results and limits belong in
+`/workspace/japanese/codex-report-4.md` and `reports/live4-lighthouse-summary.json`;
+the localhost result above must not be presented as a live score.
+
+## Regression and preservation gates
+
+- `npm test`: index IDs/order/levels/audio/revision integrity in addition to the
+  unchanged scheduler, storage, content and pronunciation tests.
+- `python3 tests/performance.py [URL]`: cold page <600,000 decoded bytes; page +
+  worker response bodies <1,300,000 bytes on uncompressed localhost; no level or
+  kanji request on home/stats, including installation. Both Chromium and WebKit
+  test global reverse-card counts, hydration, used-level offline reload,
+  missing-level retry, full offline download, and stale navigation cancellation.
+- `python3 tests/progress-preservation.py`: byte comparison to deployed v1.10.1
+  of all 8,344 full records/fields/IDs, kana/kanji, scheduler, storage, vendor and
+  mascot; unchanged core state/migration, SRS review and backup sections.
+- Existing E2E/axe, PWA root/subpath failed and successful updates,
+  answer-boundaries and standalone onboarding remain required. PWA also verifies
+  retaining vocabulary from an old eager shell.
+
+Generate core only via `tools/make-core.py` (asserted replacements). Full data
+builds also regenerate the index. No Lighthouse timing threshold is used as a
+flaky unit test: deterministic network/content boundaries guard the root cause,
+while deployed Lighthouse measures the actual outcome. Warm `total-byte-weight`
+can still be zero with the SW, so cold request/body inventories are reported too.

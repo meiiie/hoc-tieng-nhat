@@ -13,6 +13,7 @@ with sync_playwright() as p:
  ctx=browser.new_context(viewport={'width':390,'height':844},device_scale_factor=2,has_touch=True,is_mobile=True,reduced_motion='reduce')
  page=ctx.new_page();page.goto(BASE);onboard(page);page.wait_for_selector('.v-home')
  page.evaluate("S.set.autoplay=false;S.set.gtip=true;S.set.furigana='on';S.set.romaji='off';S.user.name='';save()")
+ page.evaluate('JaData.loadLevel(5)')
  word=page.evaluate("words.find(w=>w.kanji==='学校').id")
  def go(route):
   page.goto(BASE+'#/'+route);page.wait_for_selector('.view');page.evaluate('route()');page.wait_for_timeout(250)

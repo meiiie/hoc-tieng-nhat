@@ -92,3 +92,32 @@ Bản 1.9.0 thêm fixtures `.cache/content-venv/bin/python tests/example_matchin
 Bản 1.10.1: E2E thêm cả ba nhãn dịch, nguyên câu, ruby và nguồn ở N2 và N1 trên Chromium/WebKit. Kiểm tra ruby đối chiếu cả overlay bằng chứng và JSON gọn phục vụ trình duyệt. `tests/screenshots.py` thêm ảnh riêng thẻ review có ruby câu, sáng/tối (`<REPORT_PREFIX><theme>-review-furigana.png`). Gates và các phép đo live/Lighthouse của lần bàn giao 3 lưu ngoài repository ở `../reports/live3-*`; điểm được báo sau deploy, không lấy điểm localhost thay thế.
 
 Khi môi trường chỉ cho ghi trong workspace, đặt `REPORT_DIR=.cache/reports` và `SCREENSHOT_DIR=.cache/screenshots`; mặc định vẫn là `../reports` / `../screenshots`. `REPORT_PREFIX` và mọi assertion giữ nguyên. Việc lưu được artifact nội bộ không chứng minh đã ghi được vào đường dẫn bàn giao ngoài workspace.
+
+## Gate hiệu năng từ 1.11.0
+
+Chạy thêm trước mỗi push:
+
+```sh
+python3 tests/performance.py http://localhost:8931/
+python3 tests/progress-preservation.py
+```
+
+`performance.py` chạy Chromium và WebKit với storage mới: không yêu cầu N1–N5
+hoặc kanji trên home/onboarding/stats (kể cả worker install); trang <600.000 byte
+giải nén, tổng body trang + worker <1.300.000 byte (localhost không gzip). Kiểm tra
+thẻ đến hạn chiều ngược ở cấp khác, số thống kê từ chỉ mục, tải dữ liệu khi học,
+offline reload bộ đã dùng, cấp chưa tải có Thử lại, nút tải tất cả thực sự lưu đủ
+5 cấp + kanji, và chuyển trang trong khi tải không bị kết quả cũ ghi đè. Cùng
+`REPORT_DIR`/`REPORT_PREFIX` như các gate khác. Kiểm tra cache update PWA bổ sung
+dữ liệu từ shell cũ, không đòi mọi cấp được tải tự động trong lần mở đầu.
+
+`progress-preservation.py` so byte với commit v1.10.1 cho toàn bộ từ, kanji/kana,
+scheduler/storage/vendor/mascot; so nguyên các đoạn core về state, review và
+backup. Schema vẫn 11. `npm test` thêm kiểm tra chỉ mục ID/thứ tự/cấp/audio và hash
+nội dung. `tools/build-data.py` gọi `tools/build-index.py`; chạy riêng script chỉ
+mục khi dữ liệu phát hành không đổi. Core vẫn sinh bằng `tools/make-core.py`, mọi
+thay thế đều assert. Test dùng dữ liệu đầy đủ để chọn fixture phải tải cấp đó rõ
+ràng; fixture lưu tiến độ phải chờ `save()` trước reload.
+
+Số đo Lighthouse và trace trước/sau được ghi riêng trong [PERFORMANCE](PERFORMANCE.md).
+Điểm 1.0.0/1.6.0 phía trên là lịch sử, không phải kết quả release mới.

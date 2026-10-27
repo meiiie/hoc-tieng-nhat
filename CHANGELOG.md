@@ -1,3 +1,11 @@
+# 1.11.0 — 2026-10-27
+
+- Trang chủ, thống kê và onboarding dùng chỉ mục nhỏ; chỉ tải bộ từ cùng ví dụ/furigana khi mở màn hình học cần cấp đó. Thông tin kanji tải khi luyện viết.
+- Bỏ N5–N1 và kanji khỏi shell cài service worker. Bộ từ đã dùng được lưu riêng để học offline, giữ lại qua cập nhật; Cài đặt có nút “Tải để dùng offline” cho toàn bộ N5–N1.
+- Giữ nguyên dữ liệu/ID/ý nghĩa trường từ vựng và schema 11. Hàng đợi ôn vẫn tính cả thẻ đến hạn ngoài cấp đang chọn và thẻ chiều ngược.
+- Thêm ngân sách tải lúc mở app, kiểm tra tải trễ/offline/retry/đổi màn hình trên Chromium và WebKit, cùng audit giữ nguyên tiến độ và dữ liệu.
+- Cache shell `htn-v1.11.0`; nội dung đã tải trong shell cũ được giữ trước khi xóa cache cũ. Số đo trước/sau và giới hạn phép đo: `docs/PERFORMANCE.md`.
+
 # 1.10.2 — 2026-10-27
 
 - Kiểm tra tự động toàn bộ 8.344 MP3: cho mô hình nhận dạng âm vị nghe lại từng tệp và chấm so với kana. 252 tệp dưới 60 điểm được thu lại bằng cùng giọng Nanami (thêm dấu câu hoặc ngữ cảnh chữ Hán); 152 tệp được thay vì bản mới khớp rõ hơn (≥ 85 điểm và hơn bản cũ ≥ 20). Còn 100 tệp dưới 60 được liệt kê để nghe lại.

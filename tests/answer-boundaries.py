@@ -10,6 +10,7 @@ ROOT=Path(__file__).resolve().parents[1];OUT=Path(os.environ.get('REPORT_DIR',RO
 with sync_playwright() as p:
  for name in ['chromium','webkit']:
   b=getattr(p,name).launch();pg=b.new_page();pg.goto(BASE);pg.wait_for_selector('#nm')
+  pg.evaluate('JaData.loadLevel(3)')
   r=pg.evaluate("()=>{const w=words.find(w=>w.kanji==='あっ'),ts=accepts(w);return {romaji:w.romaji,correct:checkAns('axtsu',ts).ok,wrong:checkAns('a',ts).ok,boundary:JaKana.soundKey('しんよう')!==JaKana.soundKey('しにょう')}}")
   assert r['romaji']=='axtsu' and r['correct'] and not r['wrong'] and r['boundary'];rows.append({'browser':name,'passed':3,'failed':0,**r});b.close()
 (OUT/(PREFIX+'answer-boundaries.json')).write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n');print(json.dumps(rows,ensure_ascii=False))

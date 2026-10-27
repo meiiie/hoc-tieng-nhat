@@ -23,6 +23,7 @@ def run(kind):
   E=pg.evaluate
   def ok(name):checks.append(name);print(kind,'PASS',name,flush=True)
   def go(route=''):
+   if pg.url.startswith(BASE):E('save()') # Finish fixture writes before a possible reload.
    target=BASE+('#/'+route if route else '')
    if pg.url==target:pg.reload()
    else:pg.goto(target)
@@ -121,6 +122,7 @@ def run(kind):
    ok('lemma cloze hides and accepts the actual surface/reading, rejects dictionary form and preserves SRS')
    for level in [2,1]:
     for mode in ['direct','pivot','machine']:
+     E('n=>JaData.loadLevel(n)',level) # Fixture selection needs that level's examples.
      fixture=E("([n,mode])=>{const w=words.find(w=>w.level===n&&w.example&&(mode==='machine'?w.example.translation.machine:mode==='pivot'?w.example.translation.pivot:!w.example.translation.machine&&!w.example.translation.pivot));S.jaUnlocked[n]=true;S.star={[w.id]:true};S.set.f={cefr:'N'+n,star:true};S.set.furigana='on';S.srs={};S.sess={};FC=null;save();return w}",[level,mode])
      go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example')
      assert fixture['example']['text']==pg.locator('.face.b .ja-example-text').evaluate("e=>{const c=e.cloneNode(true);c.querySelectorAll('rt').forEach(x=>x.remove());return c.textContent}")
@@ -187,7 +189,7 @@ def run(kind):
     pg.keyboard.press('Escape')
    (REPORTS/f'{PREFIX}axe-{kind}.json').write_text(json.dumps(violations,ensure_ascii=False,indent=2)+'\n');assert not violations,json.dumps(violations,ensure_ascii=False)[:2500];ok('axe clean: all routes and card backs, light and dark')
    go();E('navigator.serviceWorker.ready');pg.wait_for_function('!!navigator.serviceWorker.controller');saved=E('save().then(()=>JSON.stringify([S.srs,S.ev,S.pron]))')
-   ctx.set_offline(True);pg.reload();pg.wait_for_selector('.v-home');assert E('words.length')>8000;assert E('JSON.stringify([S.srs,S.ev,S.pron])')==saved;go('kana');pg.wait_for_selector('.kana-grid');go('write?w='+word);pg.wait_for_selector('.stroke-path');ok('offline reload, all levels, kana and lazily cached strokes');ctx.set_offline(False)
+   ctx.set_offline(True);pg.reload();pg.wait_for_selector('.v-home');assert E('words.length')>8000;assert E('JSON.stringify([S.srs,S.ev,S.pron])')==saved;go('kana');pg.wait_for_selector('.kana-grid');go('write?w='+word);pg.wait_for_selector('.stroke-path');ok('offline reload, full catalogue, used levels, kana and cached strokes');ctx.set_offline(False)
    assert not errors,errors;ok('no page errors or console errors')
    oc=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True);op=oc.new_page();op.goto(BASE)
    op.wait_for_selector('#nm');assert op.locator('.seg i').count()==5

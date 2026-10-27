@@ -46,6 +46,12 @@ try:
       session=context.new_cdp_session(page);m=session.send('Page.getAppManifest');assert not m.get('errors'),m
       assert not session.send('Page.getInstallabilityErrors')['installabilityErrors']
      checks.append('relative manifest and scope; Chromium CDP installability' if kind=='chromium' else 'relative manifest and scope in WebKit')
+     # Visit content before going offline; installation no longer downloads levels.
+     assert not page.evaluate("caches.open('htn-content-v1').then(c=>c.keys()).then(k=>k.length)")
+     page.evaluate('JaData.loadLevel(5)');page.evaluate('JaData.loadLevel(1)')
+     if not BASE:
+      # Model a v1.10.1 eager shell: data exists only in its old shell cache.
+      page.evaluate("async name=>{const r=await fetch('data/n2.json');await (await caches.open(name)).put('data/n2.json',r);const c=await caches.open('htn-content-v1');for(const k of await c.keys())if(new URL(k.url).pathname.endsWith('/n2.json'))await c.delete(k)}",CURRENT)
      if not BASE:
       page.evaluate("async()=>{S.notes.upgrade='giữ lại';S.srs.fixture={state:'review',due:4102444800000,int:30,s:31.5,d:4.2,reps:4,lapses:0};await save();for(const name of ['another-app','htv-v24','htt-v5.0.0','htn-v0.9.0','htn-data-v0'])await (await caches.open(name)).put('sentinel',new Response('keep'))}")
       progress=page.evaluate('JSON.stringify([S.srs,S.notes])')
@@ -73,6 +79,8 @@ try:
       for name in ['another-app','htv-v24','htt-v5.0.0']:
        assert page.evaluate("name=>caches.open(name).then(c=>c.match('sentinel')).then(r=>r.text())",name)=='keep'
       checks.append('activation removes own obsolete caches and retains other apps')
+      context.set_offline(True);page.evaluate('JaData.loadLevel(2)');assert page.evaluate('words.some(w=>w.level===2&&w.example)');context.set_offline(False)
+      checks.append('upgrade retains vocabulary from the old eager shell for offline use')
      audio=page.evaluate('words.find(w=>w.audio).audio')
      assert page.evaluate("async url=>{const r=await fetch(url);return r.ok&&(await r.arrayBuffer()).byteLength>256}",audio)
      assert page.evaluate("fetch('data/strokes/05b66.svg').then(r=>r.ok)")
@@ -81,7 +89,9 @@ try:
      assert page.evaluate('words.length')==8344
      files=['core/mic-worklet.js','core/mic-meter.js','ja-pitch-worker.js','ja-engine.js','icons/maskable-192.png','icons/maskable-512.png','data/n1.json','data/kana.json','data/strokes/05b66.svg',audio]
      assert all(page.evaluate("files=>Promise.all(files.map(async file=>{const r=await fetch(file);return r.ok&&(await r.arrayBuffer()).byteLength>0}))",files))
-     checks.append('offline shell, five levels, workers, icons and previously cached audio/strokes')
+     page.evaluate('JaData.loadLevel(5)');page.evaluate('JaData.loadLevel(1)')
+     assert page.evaluate('words.some(w=>w.level===1&&w.example)&&words.some(w=>w.level===5&&w.example)')
+     checks.append('offline shell, used N5/N1 examples, workers, icons and cached audio/strokes')
      row={'browser':kind,'path':path,'passed':len(checks),'failed':0,'checks':checks}
     except Exception as e:
      traceback.print_exc();row={'browser':kind,'path':path,'passed':len(checks),'failed':1,'checks':checks,'error':str(e)}
