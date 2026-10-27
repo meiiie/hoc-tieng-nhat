@@ -43,7 +43,7 @@ B('function sheet(html,onClose){', "document.addEventListener('keydown',e=>{if(e
  sh.onkeydown=e=>{if(e.key!=='Tab')return;const xs=$$('button,a,input,select,textarea,summary,[tabindex="0"]',sh).filter(x=>!x.disabled&&x.getClientRects().length);if(!xs.length)return;const first=xs[0],last=xs.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}};
  requestAnimationFrame(()=>{if(!sh.classList.contains('hidden'))$('.sheet-close',sh).focus({preventScroll:true})});return {sh,close}}
 """)
-R("function route(){keys=null;", "function route(){if(!$('#sheet').classList.contains('hidden'))$('#sheet')._close?.(false);keys=null;")
+R("function route(){keys=null;", "let routeEpoch=0;function route(){const epoch=++routeEpoch;if(!$('#sheet').classList.contains('hidden'))$('#sheet')._close?.(false);keys=null;")
 R("function openFilter(){const f=F();","function openFilter(){if(LANG.filter)return LANG.filter();const f=F();")
 R("<div class=\"opt-row\"><span>Giọng đọc</span>${seg('voice',[['gb','Anh (UK)'],['us','Mỹ (US)']])}</div>","${LANG.settingsTop?LANG.settingsTop(seg):''}")
 R("${deck().length} thẻ · khoảng ${Math.ceil(deck().reduce((n,w)=>n+(w.audioBytes?.[S.set.voice]||0),0)/1048576)} MB · giọng ${S.set.voice=='gb'?'Anh':'Mỹ'}. Có thể tiếp tục nếu tải lỗi", "${LANG.audioUrls().length} tệp có sẵn trong bộ đang chọn. Giọng thiết bị phụ thuộc máy.")
@@ -53,7 +53,7 @@ B(' <div class="eyebrow">Chấm phát âm</div>',' <div class="eyebrow">Giao di�
 R('Nội dung 26-10-2026 · Giọng đọc tổng hợp Piper và Microsoft · <a href="CONTENT_SOURCES.html" target="_blank" rel="noopener">Nguồn dữ liệu, giấy phép và giới hạn kiểm duyệt</a>',"${LANG.credits}")
 R('${LANG.credits}</p>`,route);',"${LANG.credits}</p>`,()=>{if(location.hash==='#/settings')location.hash='#/';else route()});")
 B(' if(Speech.supported()){const upd=s=>'," $$('[data-sw]',sh)"," if(LANG.bindSettings)LANG.bindSettings(sh,close);\n")
-R("if(k=='voice'||k=='slow')play(words[2]);updVoice();", "if(k=='voice'||k=='slow')play(words[2]);if(LANG.onSet)LANG.onSet(k,v);updVoice();")
+R("if(k=='voice'||k=='slow')play(words[2]);updVoice();", "if(k=='voice'||k=='slow'){if(LANG.preview)LANG.preview();else play(words[2])}if(LANG.onSet)LANG.onSet(k,v);updVoice();")
 R('function onboarding(step=0,draft={...(S.user||{})}){','function onboarding(step=0,draft={...(S.user||{})}){if(LANG.onboarding)return LANG.onboarding(step,draft);')
 R("function home(){const d=deck()","function home(){if(LANG.onHome)LANG.onHome();const d=deck()")
 R('Chuỗi ${streak} ngày đang chờ bạn, vài câu là đủ.','Bạn có thể học tiếp hoặc nghỉ theo thời gian của mình.')
@@ -72,7 +72,11 @@ R("a.download=`hoc-tu-vung-tien-do-${today()}.json`", "a.download=`${LANG.app}-t
 R("const d=j&&j.app=='hoc-tu-vung'&&j.data?j.data:j;", "if(j?.app&&j.app!==LANG.app)throw new Error('wrong app');const d=j&&j.app===LANG.app&&j.data?j.data:j;")
 R("hard:()=>learn('hard'),speak,listen,match,test,list,stats};", "hard:()=>learn('hard'),speak,listen,match,test,list,stats,...(LANG.routes||{})};")
 R("if(!words.length)return;if(!S.user", "if(!words.length)return;if(+S.v>SCHEMA){view('Phiên bản mới hơn','<p>Tiến độ được tạo bằng phiên bản mới hơn. Hãy tải lại ứng dụng; dữ liệu của bạn vẫn được giữ nguyên.</p>');return}if(!S.user")
-R("const k=location.hash.replace(/^#\\/?/,'');const r=(R[k]||home)();", "const k=location.hash.replace(/^#\\/?/,'').split('?')[0];const r=(R[k]||home)();")
+R("const k=location.hash.replace(/^#\\/?/,'');const r=(R[k]||home)();", """const k=location.hash.replace(/^#\\/?/,'').split('?')[0],pending=LANG.prepareRoute?.(k);
+ if(pending){view('Đang tải bộ từ','<p role="status">Đang chuẩn bị bài học…</p>');return pending.then(()=>{if(epoch===routeEpoch)route()},()=>{if(epoch===routeEpoch)LANG.dataError()})}
+ const r=(R[k]||home)();""")
+# Distractors must have full text. Home/statistics keep only ID/level summaries.
+R("shuffle(words.filter(x=>x.id!=w.id", "shuffle((LANG.studyWords?LANG.studyWords():words).filter(x=>x.id!=w.id",3)
 R("const updVoice=()=>{$('#voice').textContent=", "const updVoice=()=>{if(LANG.chip)return LANG.chip.paint();$('#voice').textContent=")
 R("$('#voice').onclick=()=>{S.set.voice=", "$('#voice').onclick=()=>{if(LANG.chip)return LANG.chip.click();S.set.voice=")
 R(".then(()=>loadPron()).then(()=>{save();route();", ".then(()=>S.v>SCHEMA?null:(LANG.boot?LANG.boot():loadPron())).then(()=>{save();route();")

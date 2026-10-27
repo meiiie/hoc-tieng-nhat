@@ -127,5 +127,7 @@ def main():
    'furiganaFull':sum(bool(e.get('furiganaEvidence')) and not e.get('furiganaSkipped') for e in es),
    'furiganaPartial':sum(bool(e.get('furiganaEvidence')) and bool(e.get('furiganaSkipped')) for e in es),
    'furiganaTokensSkipped':sum(len(e.get('furiganaSkipped',[])) for e in es)})
- dump(out/'meta.json',meta);print(json.dumps(meta,ensure_ascii=False,indent=2));print('Pending Vietnamese:',len(missing))
+ dump(out/'meta.json',meta)
+ subprocess.run(['python3',str(ROOT/'tools/build-index.py')],check=True)
+ print(json.dumps(meta,ensure_ascii=False,indent=2));print('Pending Vietnamese:',len(missing))
 if __name__=='__main__':main()

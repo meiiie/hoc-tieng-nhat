@@ -200,7 +200,7 @@ function openSettings(){const cur=k=>k=='goal'?String(newPerDay()):String(S.set[
  <button class="opt-row" style="width:100%;border:none;background:none;text-align:left" id="imp"><span>Nhập tiến độ từ tệp sao lưu</span>${I('upload')}</button><input type="file" id="impf" accept="application/json,.json" hidden aria-label="Chọn tệp sao lưu">
  <button class="opt-row" style="width:100%;border:none;background:none;text-align:left;color:var(--danger)" id="rst"><span>Xoá toàn bộ tiến độ</span>${I('rotate-ccw')}</button></div>
  <p class="muted center" style="margin-top:16px">${LANG.credits}</p>`,()=>{if(location.hash==='#/settings')location.hash='#/';else route()});
- $$('[data-set]',sh).forEach(b=>b.onclick=()=>{const k=b.dataset.set;let v=b.dataset.v;if(k=='slow')v=v=='true';if(k=='retention'||k=='goalAns')v=+v;if(k=='goal'){S.user=S.user||{};S.user.goal=v}else S.set[k]=v;save();$$(`[data-set="${k}"]`,sh).forEach(x=>{x.classList.toggle('on',x==b);x.setAttribute('aria-checked',x==b)});if(k=='theme')applyTheme();if(k=='asr')toast(v=='auto'?'Chấm trên máy (từng âm)':'Dùng nhận dạng của trình duyệt','mic');if(k=='voice'||k=='slow')play(words[2]);if(LANG.onSet)LANG.onSet(k,v);updVoice();buzz(8)});
+ $$('[data-set]',sh).forEach(b=>b.onclick=()=>{const k=b.dataset.set;let v=b.dataset.v;if(k=='slow')v=v=='true';if(k=='retention'||k=='goalAns')v=+v;if(k=='goal'){S.user=S.user||{};S.user.goal=v}else S.set[k]=v;save();$$(`[data-set="${k}"]`,sh).forEach(x=>{x.classList.toggle('on',x==b);x.setAttribute('aria-checked',x==b)});if(k=='theme')applyTheme();if(k=='asr')toast(v=='auto'?'Chấm trên máy (từng âm)':'Dùng nhận dạng của trình duyệt','mic');if(k=='voice'||k=='slow'){if(LANG.preview)LANG.preview();else play(words[2])}if(LANG.onSet)LANG.onSet(k,v);updVoice();buzz(8)});
  $$('[data-mc]',sh).forEach(b=>b.onclick=()=>{S.set.mcolor=b.dataset.mc;save();applyTheme();$$('[data-mc]',sh).forEach(x=>{x.classList.toggle('on',x==b);x.setAttribute('aria-checked',x==b)});moodTo($('.mcrow .mascot',sh),'happy',null,1400);buzz(8)});
  if(LANG.bindSettings)LANG.bindSettings(sh,close);
  $$('[data-sw]',sh).forEach(x=>x.onchange=()=>{S.set[x.dataset.sw]=x.checked;save();applyTheme()});
@@ -433,7 +433,7 @@ function learn(mode){const hard=mode=='hard',SK=hard?'hard':'learn',MAX=4,ROUND=
   return `${mascot('think',tip,{small:true,row:true})}<div class="prog"><div class="bar" role="progressbar" aria-label="Tiến độ" aria-valuenow="${m}" aria-valuemin="0" aria-valuemax="${d.length}"><i style="width:${sum/(MAX*d.length)*100}%"></i></div><span>${m}/${d.length}</span></div>
   <p class="muted">Câu ${ri+1}/${round.length} · ${KIND[st]} <span class="sr">· bước ${st+1} trên 4</span><span class="steps" aria-hidden="true">${[0,1,2,3].map(k=>`<i class="${k<st?'done':k==st?'cur':''}"></i>`).join('')}</span></p>`}
  function ask(){if(ri>=round.length)return roundEnd();put();const w=round[ri],st=stageOf(w),T=hard?'Từ khó':'Học';
-  if(st==0){const en=Math.random()<.5;const pool=shuffle(words.filter(x=>x.id!=w.id&&x.pos.split(',')[0]==w.pos.split(',')[0])).concat(shuffle(words.filter(x=>x.id!=w.id)));const opts=shuffle([w,...pool.filter((x,i,a)=>a.indexOf(x)==i).slice(0,3)]);
+  if(st==0){const en=Math.random()<.5;const pool=shuffle((LANG.studyWords?LANG.studyWords():words).filter(x=>x.id!=w.id&&x.pos.split(',')[0]==w.pos.split(',')[0])).concat(shuffle((LANG.studyWords?LANG.studyWords():words).filter(x=>x.id!=w.id)));const opts=shuffle([w,...pool.filter((x,i,a)=>a.indexOf(x)==i).slice(0,3)]);
    view(T,header(st)+`<div class="card q"><div class="kind">${en?'Thuật ngữ':'Định nghĩa'}</div><div class="term">${esc(en?w.w:w.vi)}</div>${en?`<div class="audiobar" style="justify-content:flex-start;margin:-8px 0 12px">${auBtns(w,false)}</div>`:''}
    <div class="kind" style="margin-bottom:8px">Chọn đáp án đúng</div><div class="opts">${opts.map((o,i)=>`<button class="opt" data-id="${o.id}"><span class="n">${i+1}</span>${esc(en?o.vi:o.w)}</button>`).join('')}</div><div id="fb" aria-live="polite"></div></div>`);
    if(en&&S.set.autoplay)play(w);
@@ -640,7 +640,7 @@ function match(){const d=deck();if(d.length<3){toast('Cần ít nhất 3 từ','
 
 /* ---------- Test ---------- */
 function test(){const d=deck();if(d.length<4){toast('Cần ít nhất 4 từ','info');return home()}
- const n=Math.min(20,d.length),qs=shuffle(d).slice(0,n).map((w,i)=>{const t=['type','mc','tf'][i%3],q={w,t};if(t=='mc')q.opts=shuffle([w,...shuffle(d.filter(x=>x.id!=w.id)).slice(0,3)]);if(t=='tf'){q.truth=Math.random()<.5;q.shown=q.truth?w:shuffle(words.filter(x=>x.id!=w.id))[0]}return q});
+ const n=Math.min(20,d.length),qs=shuffle(d).slice(0,n).map((w,i)=>{const t=['type','mc','tf'][i%3],q={w,t};if(t=='mc')q.opts=shuffle([w,...shuffle(d.filter(x=>x.id!=w.id)).slice(0,3)]);if(t=='tf'){q.truth=Math.random()<.5;q.shown=q.truth?w:shuffle((LANG.studyWords?LANG.studyWords():words).filter(x=>x.id!=w.id))[0]}return q});
  view('Kiểm tra',`<p class="muted">${n} câu · gõ từ, trắc nghiệm và đúng/sai</p>`+qs.map((q,i)=>`<div class="card q" style="margin-bottom:12px" data-q="${i}"><div class="kind">Câu ${i+1}/${n} · ${q.t=='type'?'Gõ kana, romaji hoặc kanji':q.t=='mc'?'Chọn nghĩa đúng':'Đúng hay sai?'}</div>
   ${q.t=='type'?`<div class="term">${esc(q.w.vi)}</div><input class="ti" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Đáp án câu ${i+1}">`
   :q.t=='mc'?`<div class="term">${esc(q.w.w)}</div><div class="opts" role="radiogroup">${q.opts.map((o,k)=>`<button class="opt" role="radio" aria-checked="false" data-id="${o.id}"><span class="n">${k+1}</span>${esc(o.vi)}</button>`).join('')}</div>`
@@ -734,8 +734,10 @@ async function importProgress(file,close){try{if(file.size>50e6)throw new Error(
 
 /* ---------- router & boot ---------- */
 const R={'':home,path:()=>{location.replace('#/');home()},cards,review,cram:()=>review(true),learn:()=>learn(),hard:()=>learn('hard'),speak,listen,match,test,list,stats,...(LANG.routes||{})};let cleanup=null;
-function route(){if(!$('#sheet').classList.contains('hidden'))$('#sheet')._close?.(false);keys=null;audio.pause();if(cleanup){try{cleanup()}catch(e){}cleanup=null}$('#back').onclick=()=>{location.hash='#/'};
- if(!words.length)return;if(+S.v>SCHEMA){view('Phiên bản mới hơn','<p>Tiến độ được tạo bằng phiên bản mới hơn. Hãy tải lại ứng dụng; dữ liệu của bạn vẫn được giữ nguyên.</p>');return}if(!S.user||!S.user.done)return onboarding(0);const k=location.hash.replace(/^#\/?/,'').split('?')[0];const r=(R[k]||home)();if(typeof r=='function')cleanup=r;document.body.classList.toggle('home-v',!k)}
+let routeEpoch=0;function route(){const epoch=++routeEpoch;if(!$('#sheet').classList.contains('hidden'))$('#sheet')._close?.(false);keys=null;audio.pause();if(cleanup){try{cleanup()}catch(e){}cleanup=null}$('#back').onclick=()=>{location.hash='#/'};
+ if(!words.length)return;if(+S.v>SCHEMA){view('Phiên bản mới hơn','<p>Tiến độ được tạo bằng phiên bản mới hơn. Hãy tải lại ứng dụng; dữ liệu của bạn vẫn được giữ nguyên.</p>');return}if(!S.user||!S.user.done)return onboarding(0);const k=location.hash.replace(/^#\/?/,'').split('?')[0],pending=LANG.prepareRoute?.(k);
+ if(pending){view('Đang tải bộ từ','<p role="status">Đang chuẩn bị bài học…</p>');return pending.then(()=>{if(epoch===routeEpoch)route()},()=>{if(epoch===routeEpoch)LANG.dataError()})}
+ const r=(R[k]||home)();if(typeof r=='function')cleanup=r;document.body.classList.toggle('home-v',!k)}
 addEventListener('hashchange',route);
 /* v15: keyboard shortcuts per mode, shown in a '?' sheet (desktop) instead of a side panel */
 const KEYS={cards:[['Phím cách','Lật thẻ'],['→','Đã biết'],['←','Đang học'],['Z','Hoàn tác']],review:[['Phím cách','Hiện đáp án, rồi chọn Được'],['1','Lại'],['2','Khó'],['3','Được'],['4','Dễ'],['Z','Hoàn tác']],cram:[['Phím cách','Hiện đáp án, rồi Được'],['1–4','Chấm điểm']],
