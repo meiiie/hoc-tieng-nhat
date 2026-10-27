@@ -140,3 +140,11 @@ Giới hạn đã đối chiếu ngày 2026-10-27: [GitHub Pages](https://docs.g
 Node kiểm tra đủ cấp/trường, ID duy nhất, kana hợp lệ, bản dịch không trống/không còn mẫu tiếng Anh rõ ràng/không emoji, Hán Việt đối chiếu từng âm KANJIDIC2, giới hạn cao độ, audio tồn tại và mọi kanji N5 có SVG. Một lượt giải mã riêng kiểm tra toàn bộ MP3; nó không đo chất lượng nói. So sánh SHA-256 trước/sau build xác minh tái dựng không đổi các tệp đã tạo.
 
 JMdict, KANJIDIC2 và bản dịch phái sinh giữ CC BY-SA 4.0. Tanos/Waller CC BY, bản chuyển đổi Bluskyo MIT; Kanjium CC BY-SA 4.0; phần trích UniDic BSD-3-Clause; SVG KanjiVG giữ CC BY-SA 3.0. [NOTICE](../data/NOTICE.md) và [SOURCES](../data/SOURCES.md) có ghi công, liên kết giấy phép và mô tả phần sửa.
+
+## Kiểm tra tự động thay cho người duyệt bản ngữ (1.10.2)
+
+**Âm thanh: nghe lại bằng máy.** `tools/audio_roundtrip_logits.py` + `tools/audio-roundtrip-score.js` cho mô hình japanese-hubert-base-phoneme-ctc-v4 (cũng là mô hình chấm phát âm trong app) nghe từng MP3 và chấm so với kana của từ. Kết quả cuối (`data/sources/audio-roundtrip.json`): 7.864 tệp ≥ 85 điểm (94,2%), 380 tệp 60–84, 100 tệp < 60. Lần đầu có 252 tệp < 60; `tools/audio_regen_flagged.py` thu lại bằng Nanami với `kana。`, `「kana」` hoặc `chữ Hán。` và chỉ thay khi bản mới ≥ 85 và hơn bản cũ ≥ 20 điểm: 152 tệp được thay (`data/sources/audio-regenerated.json`, danh sách `audio-replaced-1.10.2.json`). Nhiều lỗi là từ một mora (ぶ, げ, き) mà Nanami đọc thành âm khác.
+
+Giới hạn: người chấm và người chọn bản thay là cùng một mô hình, nên đây không phải bằng chứng độc lập. Mô hình hay nhầm phụ âm đầu từ ngắn (k/g, t/d, n/m, h/f/w); nhiều tệp trong 100 tệp còn lại có thể đúng. Chưa có người nghe lại.
+
+**Nghĩa Việt: dịch ngược.** `tools/meaning_crosscheck.py` dịch nghĩa Việt sang Anh bằng Helsinki-NLP/opus-mt-vi-en và so từ nội dung với chú giải JMdict. 5.636 khớp rõ, 86 khớp một phần, 2.622 không chung từ nào. Đọc thử ngẫu nhiên 15 mục "không khớp" thì cả 15 đều là nghĩa Việt chấp nhận được; lệch là do dịch ngược hoặc từ đồng nghĩa (chất lên → "load" so với "pile up"). Vì vậy nhãn này chỉ dùng để ưu tiên rà soát, không hiển thị như cảnh báo trong app. Một lượt đánh giá bằng mô hình ngôn ngữ lớn chưa chạy.
