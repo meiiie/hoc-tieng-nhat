@@ -2,7 +2,7 @@
 /* Generated Neko core. Source and assertions: tools/make-core.py. */
 const LANG=window.LANG||{};
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
-const DAY=864e5,KEY=LANG.key||'htv2',AUDIO_CACHE=LANG.audioCache||'htv-audio-v1';
+const DAY=864e5,KEY=LANG.key||'htn-core',AUDIO_CACHE=LANG.audioCache||'htn-audio-v1';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 const ymd=d=>d.toLocaleDateString('sv');const today=()=>ymd(new Date());
@@ -199,7 +199,7 @@ function openSettings(){const cur=k=>k=='goal'?String(newPerDay()):String(S.set[
  <button class="opt-row" style="width:100%;border:none;background:none;text-align:left" id="exp"><span>Xuất bản sao lưu tiến độ<br><small class="muted">Lưu tệp .json để chuyển máy hoặc phòng mất dữ liệu</small></span>${I('download')}</button>
  <button class="opt-row" style="width:100%;border:none;background:none;text-align:left" id="imp"><span>Nhập tiến độ từ tệp sao lưu</span>${I('upload')}</button><input type="file" id="impf" accept="application/json,.json" hidden aria-label="Chọn tệp sao lưu">
  <button class="opt-row" style="width:100%;border:none;background:none;text-align:left;color:var(--danger)" id="rst"><span>Xoá toàn bộ tiến độ</span>${I('rotate-ccw')}</button></div>
- <p class="muted center" style="margin-top:16px">${LANG.credits}</p>`,route);
+ <p class="muted center" style="margin-top:16px">${LANG.credits}</p>`,()=>{if(location.hash==='#/settings')location.hash='#/';else route()});
  $$('[data-set]',sh).forEach(b=>b.onclick=()=>{const k=b.dataset.set;let v=b.dataset.v;if(k=='slow')v=v=='true';if(k=='retention'||k=='goalAns')v=+v;if(k=='goal'){S.user=S.user||{};S.user.goal=v}else S.set[k]=v;save();$$(`[data-set="${k}"]`,sh).forEach(x=>{x.classList.toggle('on',x==b);x.setAttribute('aria-checked',x==b)});if(k=='theme')applyTheme();if(k=='asr')toast(v=='auto'?'Chấm trên máy (từng âm)':'Dùng nhận dạng của trình duyệt','mic');if(k=='voice'||k=='slow')play(words[2]);if(LANG.onSet)LANG.onSet(k,v);updVoice();buzz(8)});
  $$('[data-mc]',sh).forEach(b=>b.onclick=()=>{S.set.mcolor=b.dataset.mc;save();applyTheme();$$('[data-mc]',sh).forEach(x=>{x.classList.toggle('on',x==b);x.setAttribute('aria-checked',x==b)});moodTo($('.mcrow .mascot',sh),'happy',null,1400);buzz(8)});
  if(LANG.bindSettings)LANG.bindSettings(sh,close);

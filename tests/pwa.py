@@ -41,7 +41,7 @@ try:
      if kind=='chromium':
       session=context.new_cdp_session(page);m=session.send('Page.getAppManifest');assert not m.get('errors'),m
       assert not session.send('Page.getInstallabilityErrors')['installabilityErrors']
-     checks.append('relative manifest, scope, icons and installability')
+     checks.append('relative manifest and scope; Chromium CDP installability' if kind=='chromium' else 'relative manifest and scope in WebKit')
      page.evaluate("async()=>{S.notes.upgrade='giữ lại';S.srs.fixture={state:'review',due:4102444800000,int:30,s:31.5,d:4.2,reps:4,lapses:0};await save();for(const name of ['another-app','htv-v24','htt-v5.0.0','htn-v0.9.0','htn-data-v0'])await (await caches.open(name)).put('sentinel',new Response('keep'))}")
      progress=page.evaluate('JSON.stringify([S.srs,S.notes])')
      STATE.update(next=True,fail=True)

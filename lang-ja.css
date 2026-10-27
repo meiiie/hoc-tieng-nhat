@@ -24,3 +24,4 @@ header{gap:8px}header #title{font-size:16px;line-height:1.3;flex:1;min-width:0}h
 :root{--line:var(--border)}
 .fc .lab{color:var(--text-2)}
 .sheet>div{position:relative}.sheet-close{position:absolute;right:16px;top:16px;background:var(--surface);z-index:2}.sheet h2{padding-right:50px}
+.ja-tabs>.btn.sec,.row>.btn.sec{margin-top:0}

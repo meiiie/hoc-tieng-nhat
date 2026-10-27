@@ -19,13 +19,23 @@ def run(kind):
   E=pg.evaluate
   def ok(name):checks.append(name);print(kind,'PASS',name,flush=True)
   def go(route=''):
-   pg.goto(BASE+('#/'+route if route else ''));pg.wait_for_selector('.view');pg.wait_for_timeout(180)
+   target=BASE+('#/'+route if route else '')
+   if pg.url==target:pg.reload()
+   else:pg.goto(target)
+   pg.wait_for_selector('.view');pg.wait_for_timeout(180)
   def settle():
    E("Promise.all(document.getAnimations().filter(a=>a.effect?.getComputedTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{})))")
   try:
-   go();pg.wait_for_selector('[data-start="kana"]');pg.fill('#ja-name','Bạn');pg.click('[data-start="kana"]');pg.wait_for_selector('.kana-grid');ok('onboarding starts with kana and a five-word goal')
+   go();pg.wait_for_selector('[data-start="kana"]')
+   for theme in ['light','dark']:
+    E("theme=>{S.set.theme=theme;applyTheme()}",theme);E(AXE);bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
+    if bad:violations[theme+':onboarding']=bad
+   E("S.set.theme='light';applyTheme()");pg.fill('#ja-name','Bạn');pg.click('[data-start="kana"]');pg.wait_for_selector('.kana-grid');ok('onboarding starts with kana and a five-word goal')
    assert E('S.user.goal')=='5'
    pg.locator('.kana-cell').first.click();pg.wait_for_selector('.kana-detail');snap=E('JSON.stringify(S.srs)');pg.click('#kana-quiz');pg.locator('[data-option]').first.click();pg.wait_for_selector('#kana-next');assert E('S.kanaPractice.answered')==1;assert E('JSON.stringify(S.srs)')==snap;ok('kana tables, playback, quiz and practice isolation')
+   go('kana');pg.click('[data-script="katakana"]');assert pg.locator('.kana-cell b').first.inner_text()=='ア'
+   pg.click('[data-group="dakuten"]');assert pg.locator('.kana-cell').count()==25;pg.click('[data-group="yoon"]');assert pg.locator('.kana-cell').count()==36
+   pg.click('[data-script="hiragana"]');assert pg.locator('.kana-cell b').first.inner_text()=='きゃ';ok('both kana scripts and dakuten/yoon groups')
    go();pg.wait_for_selector('.v-home');E('S.set.autoplay=false;save()');assert E('deck().every(w=>w.level===5)');pg.click('[data-jlpt="4"]');pg.wait_for_selector('#early-open');assert 'N4' in pg.text_content('#sheet');pg.click('#early-open');assert E('S.jaUnlocked[4]');ok('manual early level unlock')
    E("S.set.f={cefr:'N5'};S.jaUnlocked={5:true};S.srs={};S.introductions={};S.sess={};save()")
    go('review');pg.wait_for_selector('.fc');assert pg.locator('.face.f ruby rt').count()>0;before=E('JSON.stringify(S.srs)');pg.click('#show');pg.wait_for_selector('#gr:not(.hidden)');pg.click('[data-g="3"]');pg.wait_for_timeout(250);assert E('JSON.stringify(S.srs)')!=before;pg.click('#undo');assert E('JSON.stringify(S.srs)')==before;ok('scheduled rating and undo restore exact card state')
@@ -45,6 +55,7 @@ def run(kind):
    assert E("document.activeElement.classList.contains('sheet-close')&&document.querySelector('main').inert")
    pg.keyboard.press('Shift+Tab');assert E("document.activeElement.closest('#sheet')!==null")
    pg.keyboard.press('Escape');assert E("document.activeElement.id==='settings'&&!document.querySelector('main').inert");ok('sheets trap focus, close by keyboard and restore header focus')
+   go('settings');pg.wait_for_selector('#sheet:not(.hidden)');pg.click('.sheet-close');pg.wait_for_function("location.hash==='#/'&&document.querySelector('#sheet').classList.contains('hidden')");ok('direct settings route opens and closes to home')
    pg.click('#settings')
    with pg.expect_download() as download:pg.click('#exp')
    exported=json.loads(Path(download.value.path()).read_text());assert exported['app']=='hoc-tieng-nhat';assert exported['schema']==11
@@ -88,6 +99,9 @@ def run(kind):
    go('speak?w='+word);pg.wait_for_selector('.pitch-svg');assert 'mora' in pg.text_content('main');pg.click('#mora-play');pg.wait_for_selector('.mora-row .beat');ok('pitch pattern and timed mora practice')
    if kind=='chromium':
     pg.click('#mic');pg.wait_for_selector('[data-state="rec"]');pg.wait_for_function("['result','error'].includes(document.querySelector('#sarea').dataset.state)",timeout=18000);assert 'ước lượng' in pg.text_content('#sarea') or 'Chưa nhận' in pg.text_content('#sarea');assert pg.locator('.score').count()==0;ok('fake microphone capture, honest estimate or abstention')
+   E("window.savedMedia=navigator.mediaDevices;Object.defineProperty(navigator,'mediaDevices',{value:undefined,configurable:true});route()")
+   assert 'Micro chưa khả dụng' in pg.text_content('#sarea');assert pg.locator('#mic').count()==0;assert pg.locator('#mora-play').is_enabled()
+   E("Object.defineProperty(navigator,'mediaDevices',{value:window.savedMedia,configurable:true});delete window.savedMedia;route()");ok('no-microphone fallback retains listening and mora practice')
    go('review');pg.wait_for_selector('.fc');pg.click('#voice');assert pg.locator('.fc ruby').count()==0;pg.click('#voice');assert pg.locator('.fc ruby').count()>0;ok('furigana toggle on both card faces')
    go();pg.click('#settings');pg.wait_for_selector('#sheet:not(.hidden)');pg.click('[data-set="romaji"][data-v="on"]');pg.keyboard.press('Escape');go('review');pg.wait_for_selector('.ja-romaji');ok('romaji settings toggle')
    # Full route accessibility in both themes, including transient sheets and the back face.
@@ -102,7 +116,7 @@ def run(kind):
      if route=='review':
       pg.click('#show');settle();bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
       if bad:violations[theme+':review-back']=bad
-    go();pg.click('#settings');settle();E(AXE);bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
+    go('settings');settle();E(AXE);bad=E("axe.run(document).then(r=>r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})))")
     if bad:violations[theme+':settings']=bad
     pg.keyboard.press('Escape')
    (REPORTS/f'axe-{kind}.json').write_text(json.dumps(violations,ensure_ascii=False,indent=2)+'\n');assert not violations,json.dumps(violations,ensure_ascii=False)[:2500];ok('axe clean: all routes and card backs, light and dark')

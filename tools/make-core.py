@@ -15,7 +15,7 @@ def B(start,end,new):
  assert s.count(start)==s.count(end)==1,(start,end)
  i=s.index(start);j=s.index(end,i);s=s[:i]+new+s[j:]
 R("/* Học Từ Vựng. Static PWA with versioned content and local progress. */","/* Generated Neko core. Source and assertions: tools/make-core.py. */\nconst LANG=window.LANG||{};")
-R("const DAY=864e5,KEY='htv2',AUDIO_CACHE='htv-audio-v1';","const DAY=864e5,KEY=LANG.key||'htv2',AUDIO_CACHE=LANG.audioCache||'htv-audio-v1';")
+R("const DAY=864e5,KEY='htv2',AUDIO_CACHE='htv-audio-v1';","const DAY=864e5,KEY=LANG.key||'htn-core',AUDIO_CACHE=LANG.audioCache||'htn-audio-v1';")
 R("retention:0.9,rev:true,fcMode:'sched'}};","retention:0.9,rev:true,fcMode:'sched',...(LANG.setDefaults||{})}};")
 R("function migrate(d){d=d&&typeof d=='object'?d:{};let v=+d.v||2;","function migrate(d){d=d&&typeof d=='object'&&!Array.isArray(d)?d:{};if(+d.v>SCHEMA)return {...structuredClone(blank),...d,set:{...structuredClone(blank.set),...d.set}};let v=+d.v||2;\n if(v<SCHEMA&&Object.keys(d).length)lsSet(KEY+'-pre-v'+v,JSON.stringify(d));")
 R("const save=()=>{S.v=SCHEMA;","const save=()=>{if(+S.v>SCHEMA)return Promise.resolve(false);S.v=SCHEMA;")
@@ -48,6 +48,7 @@ R("Content.downloadAudio(selected,voice,c,", "LANG.downloadAudio(selected,voice,
 R("tệp giọng ${voice=='gb'?'Anh':'Mỹ'}", "tệp âm thanh")
 B(' <div class="eyebrow">Chấm phát âm</div>',' <div class="eyebrow">Giao diện</div>'," ${LANG.settingsPron?LANG.settingsPron(seg):''}\n")
 R('Nội dung 26-10-2026 · Giọng đọc tổng hợp Piper và Microsoft · <a href="CONTENT_SOURCES.html" target="_blank" rel="noopener">Nguồn dữ liệu, giấy phép và giới hạn kiểm duyệt</a>',"${LANG.credits}")
+R('${LANG.credits}</p>`,route);',"${LANG.credits}</p>`,()=>{if(location.hash==='#/settings')location.hash='#/';else route()});")
 B(' if(Speech.supported()){const upd=s=>'," $$('[data-sw]',sh)"," if(LANG.bindSettings)LANG.bindSettings(sh,close);\n")
 R("if(k=='voice'||k=='slow')play(words[2]);updVoice();", "if(k=='voice'||k=='slow')play(words[2]);if(LANG.onSet)LANG.onSet(k,v);updVoice();")
 R('function onboarding(step=0,draft={...(S.user||{})}){','function onboarding(step=0,draft={...(S.user||{})}){if(LANG.onboarding)return LANG.onboarding(step,draft);')

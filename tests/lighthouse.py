@@ -11,12 +11,13 @@ with tempfile.TemporaryDirectory(prefix="neko-lighthouse-") as profile, sync_pla
  if page.locator('[data-start="n5"]').count():page.click('[data-start="n5"]')
  page.wait_for_selector('.v-home');page.evaluate("S.set.theme='light';S.set.autoplay=false;save()");page.evaluate('navigator.serviceWorker.ready');page.wait_for_function('!!navigator.serviceWorker.controller')
  cases=[('lighthouse','lighthouse-current','performance,accessibility,best-practices'),(str(ROOT/'.cache/lighthouse11/node_modules/.bin/lighthouse'),'lighthouse-pwa-legacy','pwa,accessibility')]
+ env={**os.environ,'CHROME_PATH':p.chromium.executable_path}
  summary={}
  for cmd,name,categories in cases:
   with (OUT/(name+'.log')).open('w') as log:
-   run=subprocess.run([cmd,'http://localhost:8931/','--port=9225','--disable-storage-reset','--only-categories='+categories,'--output=json','--output=html','--output-path='+str(OUT/name),'--quiet'],stdout=log,stderr=subprocess.STDOUT,timeout=200)
+   run=subprocess.run([cmd,'http://localhost:8931/','--port=9225','--disable-storage-reset','--only-categories='+categories,'--output=json','--output=html','--output-path='+str(OUT/name),'--quiet'],stdout=log,stderr=subprocess.STDOUT,timeout=200,env=env)
   path=OUT/(name+'.report.json')
   if run.returncode or not path.exists():raise RuntimeError((name,run.returncode,(OUT/(name+'.log')).read_text()[-2500:]))
-  r=json.loads(path.read_text());summary[name]={'version':r['lighthouseVersion'],'url':r['finalDisplayedUrl'] if 'finalDisplayedUrl' in r else r['finalUrl'],'scores':{k:round(v['score']*100) for k,v in r['categories'].items()},'warnings':r.get('runWarnings',[])}
+  r=json.loads(path.read_text());summary[name]={'version':r['lighthouseVersion'],'chromePath':env['CHROME_PATH'],'url':r['finalDisplayedUrl'] if 'finalDisplayedUrl' in r else r['finalUrl'],'scores':{k:round(v['score']*100) for k,v in r['categories'].items()},'warnings':r.get('runWarnings',[])}
   print(json.dumps(summary[name]),flush=True)
  (OUT/'lighthouse-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n');ctx.close()

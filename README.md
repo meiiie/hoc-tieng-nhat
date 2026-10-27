@@ -73,6 +73,7 @@ Kết quả thực tế và ảnh chụp của lượt bàn giao nằm ở `../r
 - [Pipeline, tỷ lệ ghép từ và nguồn](docs/DATA.md)
 - [Phương pháp dịch và mẫu 100 mục](docs/VIETNAMESE.md)
 - [Phát âm: phương pháp, phép đo và giới hạn](docs/PRONUNCIATION-JA.md)
+- [Kết quả kiểm thử và Lighthouse](docs/TESTING.md)
 - [Thay đổi phiên bản](CHANGELOG.md)
 
 Mã ứng dụng: [MIT](LICENSE). Bộ từ và bản dịch phái sinh: CC BY-SA 4.0; SVG KanjiVG giữ CC BY-SA 3.0. [NOTICE](data/NOTICE.md) và [SOURCES](data/SOURCES.md) ghi riêng từng nguồn, thay đổi và ghi công. ts-fsrs giữ MIT; sprite Lucide giữ ISC.
