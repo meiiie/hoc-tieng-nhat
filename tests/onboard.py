@@ -6,6 +6,9 @@ def onboard(pg,start='n5',name='',goal=None,style=None):
   if val is not None:pg.click('[data-%s="%s"]'%(key,val))
   pg.click('#nx')
  pg.wait_for_selector('.plan');pg.click('#nx')
+ # The onboarding wizard itself has .v-home at the root URL. Wait for the
+ # completed screen, which is shown only after its awaited progress save.
+ pg.wait_for_selector('.kana-grid' if start=='kana' else '.v-home .ja-levels')
 
 
 def main():
@@ -30,7 +33,7 @@ def main():
     pg.click('#nx');pg.wait_for_selector('[data-style]');pg.locator('[data-style]').last.click()
     style=pg.locator('[data-style][aria-checked=true]').get_attribute('data-style')
     pg.click('#nx');pg.wait_for_selector('.plan');assert pg.get_attribute('[role=progressbar]','aria-valuenow')=='5'
-    assert not pg.evaluate('!!S.user?.done');pg.click('#nx');pg.wait_for_selector('.kana-grid' if start=='kana' else '.v-home')
+    assert not pg.evaluate('!!S.user?.done');pg.click('#nx');pg.wait_for_selector('.kana-grid' if start=='kana' else '.v-home .ja-levels')
     user=pg.evaluate('S.user');assert all(user[k]==v for k,v in {'name':'Minh','start':start,'goal':goal,'style':style,'done':True}.items())
     level=3 if start=='n3' else 4 if start=='n4' else 5
     assert pg.evaluate('S.set.f.cefr')=='N'+str(level)

@@ -165,7 +165,7 @@ The initial deployed Lighthouse reports are archived outside the repository as
 `reports/initial-live4-lighthouse-*`; the final deployment's three-run median,
 all gate/live results, incoming-release details and untested items are in
 `/workspace/japanese/codex-report-4.md` and `reports/live4-*`. Changes since this
-measurement only document results; final verification must use the final Pages
+measurement document results and tighten onboarding-test waits; final verification must use the final Pages
 HEAD, without substituting this initial score.
 
 ## Regression and preservation gates
