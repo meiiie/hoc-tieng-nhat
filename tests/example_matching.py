@@ -7,6 +7,8 @@ class MatchTest(unittest.TestCase):
  def test_exact_and_kana(self):
   self.assertEqual(match_word({'kanji':'学校','kana':'がっこう'},'学校へ行く。'),{'start':0,'end':2,'surface':'学校','kind':'exact'})
   self.assertIsNotNone(match_word({'kanji':'珈琲','kana':'コーヒー'},'コーヒーを飲む。'))
+  self.assertIsNotNone(match_word({'kanji':'おめでとう','kana':'おめでとう','pos':'thán từ'},'おめでとうございます。'))
+  self.assertIsNotNone(match_word({'kanji':'等','kana':'など','pos':'trợ từ'},'私は英雄などではない。'))
  def test_no_partial_or_wrong_reading(self):
   for word,text in [({'kanji':'校','kana':'こう'},'学校へ行く。'),({'kanji':'愛','kana':'あい'},'愛知に住む。'),({'kanji':'行く','kana':'ゆく','pos':'động từ'},'学校へ行った。'),({'kanji':'いる','kana':'いる','pos':'động từ'},'ビールが入る。')]:
    self.assertIsNone(match_word(word,text),(word,text))

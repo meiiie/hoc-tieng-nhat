@@ -130,6 +130,9 @@ def exact_lexeme_ok(word, selected):
     """Kana aliases must identify the target lexeme, not adjacent particles."""
     if not selected:
         return False
+    # This conventional greeting is analyzed as 御 + めでたい, not 感動詞.
+    if word['kanji'] == 'おめでとう' and ''.join(t['surface'] for t in selected) == 'おめでとう':
+        return True
     if word.get('pos') == 'thán từ' and not any(t.get('pos1') == '感動詞' for t in selected):
         return False
     surface = ''.join(t['surface'] for t in selected)
@@ -141,6 +144,12 @@ def exact_lexeme_ok(word, selected):
         bases = lexical_form(''.join(t.get('orthBase', '') for t in selected))
         if lemmas in forms or (re.search(HAN, bases) and bases in forms):
             return True
+        if len(selected) == 1 and hira(lemmas) == hira(word['kana']):
+            categories = {'助詞': 'trợ từ', '副詞': 'phó từ', '接尾辞': 'hậu tố',
+                          '接頭辞': 'tiền tố', '感動詞': 'thán từ'}
+            label = categories.get(selected[0].get('pos1'))
+            if label and label in word.get('pos', ''):
+                return True  # Canonical kana function word, e.g. 等 / など.
         # Kana is the dictionary spelling of these katakana loanwords.
         return bool(re.search('[ァ-ヶ]', word['kana']) and len(selected) == 1
                     and hira(lemmas) == hira(word['kana']))

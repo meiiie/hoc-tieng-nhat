@@ -113,5 +113,11 @@ def main():
  dump(ROOT/'.cache/translation-worklist.json',words)
  writetsv(out/'sources/quarantined.tsv',['kanji','reading','level','reason'],quarantined)
  meta={'version':json.loads((ROOT/'version.json').read_text())['version'],'sourceDate':jm['dictDate'],'sourceHeadwords':len(vocab),'sourceRows':source_rows,'uniqueWords':len(words),'matches':dict(matches),'rawExactMatches':raw_matches,'matchRate':round(raw_matches/source_rows*100,4),'correctedMatchRate':round(matches['exact']/(source_rows-len(quarantined))*100,4),'unmatched':len(unmatched),'kana':len(kana_cards),'kanji':len(kanji),'levels':{f'N{n}':{'words':sum(w['level']==n for w in words),'vi':sum(w['level']==n and bool(w['v']) for w in words),'hanViet':sum(w['level']==n and bool(w['hv']) for w in words),'pitch':sum(w['level']==n and w['pitch'] is not None for w in words),'audio':sum(w['level']==n and w['audio'] is not None for w in words),'examples':sum(w['level']==n and w['example'] is not None for w in words),'exampleHumanDirect':sum(w['level']==n and w['example'] is not None and not w['example']['translation']['machine'] and not w['example']['translation']['pivot'] for w in words),'exampleHumanPivot':sum(w['level']==n and w['example'] is not None and w['example']['translation']['pivot'] for w in words),'exampleMachine':sum(w['level']==n and w['example'] is not None and w['example']['translation']['machine'] for w in words)} for n in range(5,0,-1)},'sources':{f:hashlib.sha256((src/f).read_bytes()).hexdigest() for f in ['JLPT_vocab_ALL.json','JLPT_kanji_ALL.json','jmdict-eng-3.6.2.json','kanjidic2-all-3.6.2.json','accents.txt']}}
+ for n in range(5,0,-1):
+  es=[w['example'] for w in words if w['level']==n and w['example']]
+  meta['levels'][f'N{n}'].update({'exampleLemma':sum(e['match']['kind']=='lemma' for e in es),
+   'furiganaFull':sum(bool(e.get('furiganaEvidence')) and not e.get('furiganaSkipped') for e in es),
+   'furiganaPartial':sum(bool(e.get('furiganaEvidence')) and bool(e.get('furiganaSkipped')) for e in es),
+   'furiganaTokensSkipped':sum(len(e.get('furiganaSkipped',[])) for e in es)})
  dump(out/'meta.json',meta);print(json.dumps(meta,ensure_ascii=False,indent=2));print('Pending Vietnamese:',len(missing))
 if __name__=='__main__':main()

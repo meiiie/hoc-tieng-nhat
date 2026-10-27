@@ -1,5 +1,5 @@
 {
- "version": "1.8.0",
+ "version": "1.9.0",
  "sourceDate": "2026-10-26",
  "sourceHeadwords": 8138,
  "sourceRows": 8505,
@@ -22,10 +22,14 @@
    "hanViet": 514,
    "pitch": 638,
    "audio": 684,
-   "examples": 648,
-   "exampleHumanDirect": 518,
-   "exampleHumanPivot": 44,
-   "exampleMachine": 86
+   "examples": 649,
+   "exampleHumanDirect": 541,
+   "exampleHumanPivot": 37,
+   "exampleMachine": 71,
+   "exampleLemma": 99,
+   "furiganaFull": 222,
+   "furiganaPartial": 322,
+   "furiganaTokensSkipped": 632
   },
   "N4": {
    "words": 641,
@@ -33,10 +37,14 @@
    "hanViet": 496,
    "pitch": 605,
    "audio": 641,
-   "examples": 611,
-   "exampleHumanDirect": 387,
-   "exampleHumanPivot": 70,
-   "exampleMachine": 154
+   "examples": 627,
+   "exampleHumanDirect": 450,
+   "exampleHumanPivot": 59,
+   "exampleMachine": 118,
+   "exampleLemma": 132,
+   "furiganaFull": 210,
+   "furiganaPartial": 347,
+   "furiganaTokensSkipped": 604
   },
   "N3": {
    "words": 1768,
@@ -44,10 +52,14 @@
    "hanViet": 1546,
    "pitch": 1712,
    "audio": 1768,
-   "examples": 1712,
-   "exampleHumanDirect": 992,
-   "exampleHumanPivot": 161,
-   "exampleMachine": 559
+   "examples": 1719,
+   "exampleHumanDirect": 1045,
+   "exampleHumanPivot": 169,
+   "exampleMachine": 505,
+   "exampleLemma": 165,
+   "furiganaFull": 515,
+   "furiganaPartial": 1081,
+   "furiganaTokensSkipped": 1969
   },
   "N2": {
    "words": 1826,
@@ -58,7 +70,11 @@
    "examples": 0,
    "exampleHumanDirect": 0,
    "exampleHumanPivot": 0,
-   "exampleMachine": 0
+   "exampleMachine": 0,
+   "exampleLemma": 0,
+   "furiganaFull": 0,
+   "furiganaPartial": 0,
+   "furiganaTokensSkipped": 0
   },
   "N1": {
    "words": 3425,
@@ -69,7 +85,11 @@
    "examples": 0,
    "exampleHumanDirect": 0,
    "exampleHumanPivot": 0,
-   "exampleMachine": 0
+   "exampleMachine": 0,
+   "exampleLemma": 0,
+   "furiganaFull": 0,
+   "furiganaPartial": 0,
+   "furiganaTokensSkipped": 0
   }
  },
  "sources": {

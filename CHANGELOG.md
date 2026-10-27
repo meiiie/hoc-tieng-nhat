@@ -1,3 +1,9 @@
+# 1.9.0 — 2026-10-27
+
+- Chọn câu bằng lemma/POS, dạng chữ và cách đọc JMdict; hỗ trợ động từ, tính từ, する và phủ định. Sửa ghép kana nhầm từ đồng âm/trợ từ; giữ câu cũ trừ khi sai khớp hoặc có câu người đóng góp tốt hơn/ngắn hơn.
+- Chọn lại N5–N3, bổ sung chỗ trống; mọi câu giữ nguồn, nhãn dịch và furigana bảo thủ.
+- Cloze che toàn bộ dạng thực, nhận cách đọc của dạng đó và hiển thị đúng đáp án. Không đổi ID, schema 11 hoặc lịch SRS. Cache htn-v1.9.0 chờ Tải lại.
+
 # 1.8.0 — 2026-10-27
 
 - Thêm furigana câu ví dụ N5–N3, biên soạn offline bằng fugashi/UniDic có phiên bản/hash và giấy phép đầy đủ. Chỉ ruby kanji khi đủ căn cứ; giữ chữ mơ hồ và ghi lý do bỏ.

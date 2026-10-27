@@ -4,50 +4,62 @@
   "dictionarySha256": "122c4c91f026bf4b65bbe2dfd8b9f8eeb6ab56d8eb2a7287a68bca75708ba513",
   "levels": {
     "N5": {
-      "examples": 648,
-      "full": 167,
-      "partial": 384,
+      "examples": 649,
+      "full": 222,
+      "partial": 322,
       "unannotated": 77,
-      "kanaOnly": 20,
-      "tokensAnnotated": 969,
-      "tokensSkipped": 769,
+      "kanaOnly": 28,
+      "tokensAnnotated": 872,
+      "tokensSkipped": 632,
+      "lemmaMatched": 99,
+      "direct": 541,
+      "pivot": 37,
+      "machine": 71,
       "skipReasons": {
-        "ambiguous-date-or-person": 17,
+        "ambiguous-date-or-person": 19,
         "ambiguous-kana-alignment": 1,
-        "multiple-or-missing-readings": 629,
-        "number-or-counter": 110,
-        "proper-name": 12
+        "multiple-or-missing-readings": 484,
+        "number-or-counter": 115,
+        "proper-name": 13
       }
     },
     "N4": {
-      "examples": 611,
-      "full": 185,
-      "partial": 363,
-      "unannotated": 44,
-      "kanaOnly": 19,
-      "tokensAnnotated": 1050,
-      "tokensSkipped": 631,
+      "examples": 627,
+      "full": 210,
+      "partial": 347,
+      "unannotated": 48,
+      "kanaOnly": 22,
+      "tokensAnnotated": 1022,
+      "tokensSkipped": 604,
+      "lemmaMatched": 132,
+      "direct": 450,
+      "pivot": 59,
+      "machine": 118,
       "skipReasons": {
-        "ambiguous-date-or-person": 17,
-        "multiple-or-missing-readings": 544,
-        "number-or-counter": 55,
-        "proper-name": 15
+        "ambiguous-date-or-person": 18,
+        "multiple-or-missing-readings": 502,
+        "number-or-counter": 68,
+        "proper-name": 16
       }
     },
     "N3": {
-      "examples": 1712,
-      "full": 479,
-      "partial": 1094,
-      "unannotated": 98,
-      "kanaOnly": 41,
-      "tokensAnnotated": 3260,
-      "tokensSkipped": 1986,
+      "examples": 1719,
+      "full": 515,
+      "partial": 1081,
+      "unannotated": 90,
+      "kanaOnly": 33,
+      "tokensAnnotated": 3228,
+      "tokensSkipped": 1969,
+      "lemmaMatched": 165,
+      "direct": 1045,
+      "pivot": 169,
+      "machine": 505,
       "skipReasons": {
-        "ambiguous-date-or-person": 54,
+        "ambiguous-date-or-person": 44,
         "ambiguous-kana-alignment": 3,
-        "multiple-or-missing-readings": 1670,
-        "number-or-counter": 222,
-        "proper-name": 37
+        "multiple-or-missing-readings": 1648,
+        "number-or-counter": 235,
+        "proper-name": 39
       }
     },
     "N2": {
@@ -58,6 +70,10 @@
       "kanaOnly": 0,
       "tokensAnnotated": 0,
       "tokensSkipped": 0,
+      "lemmaMatched": 0,
+      "direct": 0,
+      "pivot": 0,
+      "machine": 0,
       "skipReasons": {}
     },
     "N1": {
@@ -68,6 +84,10 @@
       "kanaOnly": 0,
       "tokensAnnotated": 0,
       "tokensSkipped": 0,
+      "lemmaMatched": 0,
+      "direct": 0,
+      "pivot": 0,
+      "machine": 0,
       "skipReasons": {}
     }
   },

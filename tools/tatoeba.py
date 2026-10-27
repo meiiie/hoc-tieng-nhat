@@ -109,7 +109,7 @@ def main():
  for w in words:
   ident=w['id'];old=existing.get(ident);new=best.get(ident)
   key='filled' if new and not old else 'removed' if old and not new else 'retained' if old and new and old['id']==new['id'] else 'replaced' if old and new else None
-  if key:changes[key].append({'word':ident,'before':old['id'] if old else None,'after':new['id'] if new else None,'match':new['match']['kind'] if new else None})
+  if key:changes[key].append({'word':ident,'before':old['id'] if old else None,'after':new['id'] if new else None,'match':new['match']['kind'] if new else None,'reason':'previous example fails lexical/POS guard' if old and not match_word(w,old['text']) else 'better translation tier or shorter human example' if key=='replaced' else key})
  (ROOT/'data/sources'/('tatoeba-selection-'+ '-'.join(map(str,a.levels))+'.json')).write_text(json.dumps({'levels':a.levels,'counts':{k:len(v) for k,v in changes.items()},'changes':changes},ensure_ascii=False,indent=1)+'\n')
  print('Selected',out,{k:len(v) for k,v in changes.items()},flush=True)
  for n in a.levels:

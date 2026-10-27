@@ -10,7 +10,7 @@
     "modified"
   ],
   "retrieved": "2026-10-27",
-  "selection": "one named sentence, 4–25 characters, punctuation-terminated; exact surface and UniDic token reading; no inflection matching or generated furigana",
+  "selection": "one named sentence, 4–25 characters, punctuation-terminated; exact token reading or UniDic lemma + POS + JMdict spelling/reading; actual contiguous inflected surface including auxiliaries; retain existing unless better translation tier or shorter human example at same tier (retain existing machine examples); conservative offline ruby in annotate-examples.py",
   "tokenizer": "fugashi 1.5.2 / unidic-lite 1.0.8 (UniDic 2.1.2)",
   "sources": {
     "jpn.tsv": "e2e9533c271107c65da6d0601c0f96186da0fe0027b49298e579467aaedc7e8a",

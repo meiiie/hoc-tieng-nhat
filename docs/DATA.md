@@ -67,10 +67,10 @@ Tái trích: `.cache/content-venv/bin/python tools/pitch_sources.py --download` 
 
 <!-- example-counts:start -->
 | Cấp | Có ví dụ | Việt trực tiếp | Việt qua Anh (pivot) | Dịch máy |
-|---|---:|---:|---:|---:|
-| N5 | 648 | 518 | 44 | 86 |
-| N4 | 611 | 387 | 70 | 154 |
-| N3 | 1712 | 992 | 161 | 559 |
+|---|---|---|---|---|
+| N5 | 649 | 541 | 37 | 71 |
+| N4 | 627 | 450 | 59 | 118 |
+| N3 | 1719 | 1045 | 169 | 505 |
 | N2 | 0 | 0 | 0 | 0 |
 | N1 | 0 | 0 | 0 | 0 |
 <!-- example-counts:end -->
@@ -79,11 +79,19 @@ Mỗi từ được chọn tối đa một câu thật, dài 4–25 ký tự, c�
 
 Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu, chọn Việt nối qua một câu Anh và ghi `pivot:true`, nhãn **dịch qua câu tiếng Anh**. Nếu chỉ có câu Anh liên kết trực tiếp, Codex dịch sang Việt, đối chiếu câu Nhật và giữ `machine:true`, nhãn **bản dịch máy, cần kiểm tra**. Không gọi các bản dịch AI là bản dịch do người đóng góp Tatoeba viết. Cột Việt trực tiếp/pivot chỉ cho biết nguồn văn bản do người đóng góp đăng; chưa có biên tập viên bản ngữ kiểm định chúng hay xác minh cách tác giả tạo ra chúng.
 
-`match` ghi `start`, `end`, `surface`, `kind:exact`. Biên từ và cách đọc được kiểm tra bằng fugashi 1.5.2 + UniDic 2.1.2 (unidic-lite 1.0.8). Chỉ lấy dạng chữ hoặc kana nguyên vẹn, không ghép một phần kanji/từ đồng âm khác cách đọc. **Không dùng khớp thân biến cách** trong bản này; các câu chỉ chứa dạng đã chia có thể bị bỏ. Bộ phân tích vẫn có thể sai nghĩa/cách tách; không bảo đảm mọi ví dụ đúng sense JLPT. Furigana được biên soạn offline theo chính sách bảo thủ bên dưới. Cloze che đúng đoạn khớp; chỉ bật khi có ví dụ hợp lệ.
+`match` ghi `start`, `end`, `surface`, `kind:exact` hoặc `kind:lemma`. Biên từ và cách đọc được kiểm tra bằng fugashi 1.5.2 + UniDic 2.1.2 (unidic-lite 1.0.8). Chỉ lấy dạng chữ hoặc kana nguyên vẹn, không ghép một phần kanji/từ đồng âm khác cách đọc. Bản 1.9.0 dùng lemma + POS và kiểm tra dạng chữ/cách đọc JMdict cho động từ/tính từ đã chia; không tìm chuỗi thân từ bằng cách cắt đuôi. Bộ phân tích vẫn có thể sai nghĩa/cách tách; không bảo đảm mọi ví dụ đúng sense JLPT. Furigana được biên soạn offline theo chính sách bảo thủ bên dưới. Cloze che đúng đoạn khớp; chỉ bật khi có ví dụ hợp lệ.
 
 Đầu vào biên soạn bền vững: `tatoeba-examples.json`, `tatoeba-vi-machine.tsv`, `tatoeba-exclusions.json`. Tệp loại trừ ghi lý do cho câu/link lỗi phát hiện khi rà. `tools/build-data.py` luôn ghép overlay, giữ ID từ và tiến độ cũ. Tái chọn bằng `tools/tatoeba.py --levels 5 4` rồi `tools/apply-examples.py .cache/examples-5-4.json`; bước apply từ chối bản dịch máy còn trống. Dùng venv biên soạn `.cache/content-venv`, không phân phối bộ tách từ/từ điển trong website.
 
 `tests/tatoeba_provenance.py` đối chiếu tất cả câu/ID/tác giả với TSV gốc và mọi cạnh liên kết với links.csv. `tests/example_matching.py` kiểm tra khớp từ và các trường hợp âm/biên sai; Node kiểm tra thuộc tính ghi công, câu ngắn và vị trí từ; E2E kiểm tra nhãn, nguồn và bước cloze. Nhật ký tự rà: `data/sources/tatoeba-review.json`. Codex đã dịch/đối chiếu các trường hợp máy, xem mẫu 35 bản dịch của người đóng góp N5/N4 và 60 N3; lỗi phát hiện được loại bằng danh sách có lý do. Không suy ra tỷ lệ chính xác; chưa có người bản ngữ rà toàn bộ câu/bản dịch. Không dùng `sentences_with_audio.csv`: phát âm câu vẫn dùng giọng thiết bị; không tải audio Tatoeba khi chưa kiểm tra giấy phép riêng từng bản ghi.
+
+### Ghép dạng biến cách (1.9.0)
+
+`tools/example_lemmas.py` dùng UniDic `lemma`, `orthBase`, `kanaBase`, POS và dạng chữ JMdict đúng ràng buộc cách đọc. Không chấp nhận chỉ vì đồng âm. Nếu UniDic gộp lemma của hai cách viết (như 閉める/締める), kanji xuất hiện vẫn phải thuộc từ đích. Cách đọc kana thay cho kanji cũng phải chỉ đúng lexeme; chuỗi trợ từ như と + お không được khớp 十/とお. Cách đọc mơ hồ, từ không phân tích chắc hoặc sai POS bị bỏ.
+
+Vị trí cloze bao gồm dạng thực và trợ động từ liên tiếp: 食べました → 食べる, 高かった → 高い, 勉強しませんでした → 勉強する; bao gồm ない ở dạng phủ định. `match` lưu `lemma`, `dictionaryForm`, `targetReading`, `surfaceReading`, `pos`, `lexicalEnd`. Bước điền câu nhận dạng thực bằng kanji/kana/romaji, không nhận dạng từ điển thay cho phần biến cách; phản hồi hiện đúng phần đã che. Lịch SRS không đổi.
+
+Tái chọn bằng `.cache/content-venv/bin/python tools/tatoeba.py --levels 5 4 3`, `python3 tools/apply-examples.py .cache/examples-5-4-3.json`, rồi annotate/build. Giữ ví dụ cũ còn hợp lệ, chỉ thay khi chất lượng bản dịch cao hơn (Việt trực tiếp > Việt qua Anh > máy), hoặc bản dịch người đóng góp cùng loại có câu ngắn hơn. Giữ câu máy cũ nếu chỉ có máy mới ngắn hơn. Loại các ví dụ cũ sai biên/POS/lexeme; từng thay đổi nằm trong `tatoeba-selection-5-4-3.json`. Không thể bảo đảm cùng sense trong mọi thành ngữ hoặc ngữ cảnh.
 
 ## Furigana câu ví dụ (1.8.0)
 
@@ -91,7 +99,17 @@ Chạy `.cache/content-venv/bin/python tools/annotate-examples.py` rồi `python
 
 `example.furigana` là danh sách `{base, ruby?}` nối lại đúng nguyên câu. Chỉ nhóm kanji nhận ruby, kana/okurigana luôn giữ riêng. Mọi nút từ điển nguyên token phải thống nhất một cách đọc, hoặc cách đọc phải đồng ý với từ đích JMdict. Từ chưa biết, tên riêng, số/đơn vị đếm, 今日/一日/人, cách đọc khác nhau và phép tách kana không duy nhất giữ nguyên chữ. `furiganaEvidence` lưu cách đọc và nguồn tin cậy; `furiganaSkipped` lưu vị trí/lý do từng token kanji bị bỏ. Đây là bộ lọc bảo thủ, không phải xác suất thống kê hay kiểm định bản ngữ.
 
-Nút furigana hiện có điều khiển cả từ và câu. Các bộ đếm theo từng ví dụ của từng từ (có thể lặp ID câu) ở `data/sources/furigana-method.json`: N5 đầy đủ/một phần **167/384**, N4 **185/363**, N3 **479/1094**; bỏ **3.386 token kanji**. Câu chỉ có kana được đếm riêng. `tests/furigana.py` tái tạo toàn bộ annotation bằng dictionary thật và kiểm tra cách đọc từ đích; Node kiểm tra phép nối base, không ruby kana và bằng chứng. Chưa bảo đảm đọc đúng mọi ngữ cảnh.
+Nút furigana hiện có điều khiển cả từ và câu. Các bộ đếm theo từng ví dụ của từng từ (có thể lặp ID câu) ở `data/sources/furigana-method.json`; token bỏ chỉ đếm token chứa kanji. Câu chỉ có kana được đếm riêng. `tests/furigana.py` tái tạo toàn bộ annotation bằng dictionary thật và kiểm tra cách đọc từ đích; Node kiểm tra phép nối base, không ruby kana và bằng chứng. Chưa bảo đảm đọc đúng mọi ngữ cảnh.
+
+<!-- furigana-counts:start -->
+| Cấp | Ruby đầy đủ | Ruby một phần | Chưa ruby | Chỉ kana | Token bỏ | Khớp lemma |
+|---|---|---|---|---|---|---|
+| N5 | 222 | 322 | 77 | 28 | 632 | 99 |
+| N4 | 210 | 347 | 48 | 22 | 604 | 132 |
+| N3 | 515 | 1081 | 90 | 33 | 1969 | 165 |
+| N2 | 0 | 0 | 0 | 0 | 0 | 0 |
+| N1 | 0 | 0 | 0 | 0 | 0 | 0 |
+<!-- furigana-counts:end -->
 
 ## Âm thanh
 
