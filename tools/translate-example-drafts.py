@@ -29,7 +29,7 @@ def main():
             if e['translation']['machine'] and e['id'] not in existing}
     model = ROOT/'.cache/opus-en-vi'
     tokenizer = AutoTokenizer.from_pretrained(model, local_files_only=True)
-    torch.set_num_threads(4)
+    torch.set_num_threads(1)
     translator = AutoModelForSeq2SeqLM.from_pretrained(model, local_files_only=True).eval()
     rows = json.loads(args.output.read_text()) if args.output.exists() else {}
     pending = [e for k, e in sorted(work.items()) if str(k) not in rows]

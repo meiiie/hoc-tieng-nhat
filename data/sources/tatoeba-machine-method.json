@@ -1,0 +1,24 @@
+{
+  "model": "Helsinki-NLP/opus-mt-en-vi",
+  "modelLicense": "Apache-2.0",
+  "modelUrl": "https://huggingface.co/Helsinki-NLP/opus-mt-en-vi",
+  "engine": "Transformers 5.20.2 / PyTorch 2.14.1+cpu float32 CPU",
+  "languageToken": ">>vie<<",
+  "decoderStartToken": "<pad>",
+  "beamSize": 4,
+  "batchSize": 24,
+  "maxNewTokens": 128,
+  "drafts": 2512,
+  "review": "Only listed IDs spot-checked/corrected by Codex; all other MT is explicitly unreviewed. All machine:true.",
+  "hashes": {
+    "opus-en-vi/pytorch_model.bin": "50eec80a5807001b9efdf06e76a2d3a7ed61d798af6bc96539ea7679f7d97a99",
+    "opus-en-vi/source.spm": "fdd9ab486ca8ea060967105e30db7d8928729c78a67448711d2dd7c3153b37cd",
+    "opus-en-vi/target.spm": "fb8ad63c818f073c246952c91b2cb1f16aa30728bf51b5c179b8481bc0e20bb5",
+    "opus-en-vi/vocab.json": "fccff4e1ed80f65ebc9b13352b4267d735595480c86378534d46f9d4b3c13c7c",
+    "opus-en-vi/config.json": "35c71b5df9d9500d557b90c7f6b86d5277ad8fdbff63a26a621ca1d23f4045fb"
+  },
+  "importedUniqueSentences": 2509,
+  "aiSpotChecked": 310,
+  "aiCorrected": 146,
+  "nativeReviewed": 0
+}

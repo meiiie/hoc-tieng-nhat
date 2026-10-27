@@ -302,6 +302,15 @@
       "lexicalFix": "本の as an adjective must not match a noun+particle book phrase; fixture added."
     },
     "machine": "Original Marian model drafts from linked English. Only IDs in tatoeba-machine-methods.json with aiSpotChecked true were individually cross-read; the rest have not been checked against Japanese. All remain machine:true and need review.",
-    "knownRisk": "Machine output can mistranslate polysemy, idioms and technical terms. Sample corrections do not establish whole-corpus accuracy."
+    "knownRisk": "Machine output can mistranslate polysemy, idioms and technical terms. Sample corrections do not establish whole-corpus accuracy.",
+    "machineCounts": {
+      "drafts": 2512,
+      "importedUniqueSentences": 2509,
+      "aiSpotChecked": 310,
+      "aiCorrected": 146,
+      "nativeReviewed": 0
+    },
+    "machineSampleSelection": "Initial 84 source-order candidates, seeded samples 20261101 and 20261102 from completed batches, a 45-row and 50-row batch review, and targeted polysemy/format checks. The manifest counts only IDs actually imported.",
+    "unreviewedImportedMachineSentences": 2199
   }
 }
