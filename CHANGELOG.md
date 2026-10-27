@@ -1,3 +1,8 @@
+# 1.12.1 — 2026-10-27
+
+- Bổ sung 303 ví dụ N2 đã áp dụng review: 178 câu có giấy phép (111 Tatoeba, 63 KFTT, 3 Wiktionary, 1 KNBC) và 125 câu AI. Giữ 2 mục chưa có câu sau khi bản viết lại không qua tự kiểm tra độ tự nhiên.
+- Giữ ghi công, nhãn AI/dịch máy, ruby bảo thủ, tải trễ từng cấp và toàn bộ ID/trường từ khác/schema 11. Cache `htn-v1.12.1`.
+
 # 1.12.0 — 2026-10-27
 
 - Bổ sung 99 ví dụ vào chỗ trống N5/N4/N3: 26 câu có giấy phép và 73 câu AI. Giữ các câu cũ, toàn bộ ID/trường từ khác và schema 11.

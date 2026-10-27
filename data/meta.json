@@ -1,5 +1,5 @@
 {
- "version": "1.12.0",
+ "version": "1.12.1",
  "sourceDate": "2026-10-26",
  "sourceHeadwords": 8138,
  "sourceRows": 8505,
@@ -67,14 +67,14 @@
    "hanViet": 1508,
    "pitch": 1749,
    "audio": 1826,
-   "examples": 1521,
-   "exampleHumanDirect": 294,
-   "exampleHumanPivot": 134,
-   "exampleMachine": 1093,
-   "exampleLemma": 320,
-   "furiganaFull": 478,
-   "furiganaPartial": 895,
-   "furiganaTokensSkipped": 1543
+   "examples": 1824,
+   "exampleHumanDirect": 300,
+   "exampleHumanPivot": 136,
+   "exampleMachine": 1388,
+   "exampleLemma": 342,
+   "furiganaFull": 560,
+   "furiganaPartial": 1101,
+   "furiganaTokensSkipped": 1988
   },
   "N1": {
    "words": 3425,

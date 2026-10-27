@@ -1,6 +1,6 @@
 # Học Tiếng Nhật cùng Neko
 
-PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên bản **1.12.0**, ngày 27-10-2026. Chạy bằng các tệp tĩnh; không cần tài khoản, máy chủ ứng dụng hay khóa API.
+PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên bản **1.12.1**, ngày 27-10-2026. Chạy bằng các tệp tĩnh; không cần tài khoản, máy chủ ứng dụng hay khóa API.
 
 ## Học cùng Neko
 

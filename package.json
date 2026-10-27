@@ -1,6 +1,6 @@
 {
   "name": "hoc-tieng-nhat",
-  "version": "1.12.0",
+  "version": "1.12.1",
   "private": true,
   "scripts": {
     "test": "node tests/srs.test.js && node tests/learning-plan.test.js && node --test tests/examples.test.js tests/examples-v5.test.js tests/lang-ja.test.js tests/data.test.js tests/pitch.test.js tests/storage.test.js tests/phone.test.js tests/performance.test.js"

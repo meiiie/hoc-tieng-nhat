@@ -30,9 +30,14 @@
   "N2": {
     "words": 1826,
     "tatoeba_before": 1521,
-    "new_licensed": {},
-    "ai_authored": 0,
-    "still_missing": 305
+    "new_licensed": {
+      "Tatoeba": 111,
+      "KFTT 1.0": 63,
+      "Japanese Wiktionary": 3,
+      "KNBC 1.0 (2009-09-25)": 1
+    },
+    "ai_authored": 125,
+    "still_missing": 2
   },
   "N1": {
     "words": 3425,
