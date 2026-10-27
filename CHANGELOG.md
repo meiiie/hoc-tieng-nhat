@@ -1,3 +1,9 @@
+# 1.7.0 — 2026-10-27
+
+- Màn hình mở đầu theo đúng mẫu app tiếng Anh: 5 bước có thanh tiến trình và nút quay lại (tên, điểm bắt đầu, số từ mới mỗi nhóm, kiểu học, kế hoạch). Bước riêng cho tiếng Nhật: bắt đầu từ kana, N5, N4 hoặc N3; chọn N4/N3 mở sẵn các cấp tương ứng.
+- Nút "Chọn bộ từ" có nhãn chữ như app tiếng Anh.
+- Tiến độ cũ giữ nguyên: người đã hoàn tất onboarding không phải làm lại; schema không đổi. Cache htn-v1.7.0 chờ Tải lại.
+
 # 1.6.0 — 2026-10-27
 
 - Thêm 936 cao độ có nguồn: 935 UniDic 2.1.2 (BSD-3-Clause), 1 Kanjium (CC BY-SA 4.0); tổng 8.032/8.344, còn 312 null.

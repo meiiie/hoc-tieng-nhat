@@ -169,7 +169,7 @@ def run(kind):
    op.wait_for_selector('#nm');assert op.locator('.seg i').count()==5
    op.fill('#nm','Darren');op.click('#nx');op.click('[data-start="n4"]');assert op.get_attribute('[data-start="n4"]','aria-checked')=='true'
    op.click('#back');assert op.input_value('#nm')=='Darren';op.click('#nx');assert op.get_attribute('[data-start="n4"]','aria-checked')=='true'
-   op.click('#nx');op.click('[data-goal="10"]');op.click('#nx');op.click('[data-style="learn"]');op.click('#nx');op.wait_for_selector('.plan');op.click('#nx');op.wait_for_selector('.v-home')
+   op.click('#nx');op.click('[data-goal="10"]');op.click('#nx');op.click('[data-style="learn"]');op.click('#nx');op.wait_for_selector('.plan');op.click('#nx');op.wait_for_selector('.v-home #filt')
    u=op.evaluate('({u:S.user,f:S.set.f,o:S.jaUnlocked,chip:document.querySelector("#filt").textContent.trim()})')
    assert u['u']['goal']=='10' and u['u']['style']=='learn' and u['f']=={'cefr':'N4'} and u['o'].get('4') and not u['o'].get('3') and u['chip']=='Chọn bộ từ',u
    oc.close();ok('five-step onboarding wizard: back keeps draft, N4 start unlocks N5+N4 only')
