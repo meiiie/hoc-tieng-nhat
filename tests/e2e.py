@@ -144,7 +144,7 @@ def run(kind):
    ok('licensed pitch sources, variants and missing-accent fallback render honestly')
    go('review');pg.wait_for_selector('.fc');pg.click('#voice');assert pg.locator('.fc ruby').count()==0;pg.click('#voice');assert pg.locator('.fc ruby').count()>0;ok('furigana toggle on both card faces')
    E("const w=words.find(w=>w.example?.furigana?.some(s=>s.ruby));S.star={[w.id]:true};S.set.f={cefr:'N'+w.level,star:true};FC=null;save()")
-   go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example-text ruby rt');pg.click('#voice');pg.click('#show');assert pg.locator('.ja-example-text ruby').count()==0;pg.click('#voice');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example-text ruby rt');ok('sentence furigana follows the persisted toggle')
+   go('review');pg.click('#show');pg.wait_for_selector('.fc.flip .ja-example-text ruby rt');pg.click('#voice');assert pg.locator('.ja-example-text ruby').count()==0;pg.click('#voice');pg.wait_for_selector('.fc.flip .ja-example-text ruby rt');ok('sentence furigana follows the persisted toggle')
    go();pg.click('#settings');pg.wait_for_selector('#sheet:not(.hidden)');pg.click('[data-set="romaji"][data-v="on"]');pg.keyboard.press('Escape');go('review');pg.wait_for_selector('.ja-romaji');ok('romaji settings toggle')
    # Full route accessibility in both themes, including transient sheets and the back face.
    for theme in ['light','dark']:
