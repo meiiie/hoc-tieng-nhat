@@ -9,9 +9,9 @@
 | N5 | 684 | 684 | 514 | 506 | 684 |
 | N4 | 641 | 641 | 496 | 488 | 641 |
 | N3 | 1.768 | 1.768 | 1.546 | 1.536 | 1.768 |
-| N2 | 1.826 | 1.826 | 1.508 | 1.494 | 0 |
+| N2 | 1.826 | 1.826 | 1.508 | 1.494 | 1.826 |
 | N1 | 3.425 | 3.425 | 3.152 | 3.072 | 0 |
-| Tổng | 8.344 | 8.344 | 7.216 | 7.096 | 3.093 |
+| Tổng | 8.344 | 8.344 | 7.216 | 7.096 | 4.919 |
 
 `data/kanji.json` có **2.535 kanji**, tất cả có âm Hán Việt trong KANJIDIC2 và SVG KanjiVG. `data/kana.json` có **214 mục**: mỗi bảng có 46 âm cơ bản, 25 âm đục/bán đục, 36 âm ghép. **2.683 SVG** là hợp của các chữ trong danh mục kanji JLPT, chữ xuất hiện trong từ vựng và kana dùng trong bảng; không sao chép toàn bộ KanjiVG hoặc các biến thể không dùng. SVG nguồn giữ nguyên byte.
 
@@ -77,7 +77,7 @@ Chọn bản dịch Việt có liên kết trực tiếp trước; nếu thiếu
 
 `tools/gen-audio.py` dùng cùng pipeline N5/N4: edge-tts 7.3.1, `ja-JP-NanamiNeural`, đầu vào kana, FFmpeg MP3 mono 24 kHz / 32 kbit/s. Đường dẫn `audio/n<level>/w/<id>.mp3`. Tệp chỉ được đưa vào vị trí phát hành sau khi giải mã thành công, sau đó `tools/build-data.py` gắn đường dẫn thực sự tồn tại. Không đổi ID từ hoặc schema tiến độ.
 
-Có **3.093 MP3**, tổng **24.395.964 byte**. Bảng phía trên là số thực tế từng cấp. Mọi tệp của các cấp hoàn tất được kiểm tra lại bằng FFmpeg và ffprobe (`tests/audio_decode.py`): phải giải mã được, đúng mono/24 kHz/32 kbit/s, không thiếu/thừa ID. Chưa nghe duyệt từng tệp; giọng TTS có thể chọn accent khác từ điển. Không dùng MP3 làm nhãn chuẩn để chấm phát âm.
+Có **4.919 MP3**, tổng **38.847.988 byte**. Bảng phía trên là số thực tế từng cấp. Mọi tệp của các cấp hoàn tất được kiểm tra lại bằng FFmpeg và ffprobe (`tests/audio_decode.py`): phải giải mã được, đúng mono/24 kHz/32 kbit/s, không thiếu/thừa ID. Chưa nghe duyệt từng tệp; giọng TTS có thể chọn accent khác từ điển. Không dùng MP3 làm nhãn chuẩn để chấm phát âm.
 
 Chạy nền theo lô 100, bốn yêu cầu đồng thời, tiếp tục được từ tệp đã có: `python3 tools/gen-audio.py --levels n3 --chunk-size 100 --workers 4`. Mỗi lỗi được thử tối đa 5 lần, chờ 3/6/12/24 giây; dừng lấy việc mới sau 3 từ lỗi liên tiếp đã hết lượt thử. Có `--offset`/`--limit` để chạy một đoạn. Nhật ký riêng cho từng cấp tại `data/sources/audio-generation-n*.json`, giữ số thật, lỗi và retry; kết thúc thiếu không báo complete. `tests/audio_generation.py` kiểm tra retry/backoff, hết lượt và hủy.
 

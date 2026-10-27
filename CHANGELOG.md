@@ -1,3 +1,9 @@
+# 1.4.0 — 2026-10-27
+
+- Đủ 1.826 MP3 N2 Nanami; tổng 4.919 MP3 N5–N2, mono 24 kHz / 32 kbit/s.
+- Kiểm tra giải mã toàn bộ N2; tiếp tục tải theo yêu cầu hoặc qua Cài đặt, không đưa MP3 vào SW shell.
+- Cache htn-v1.4.0 chờ Tải lại; giữ nguyên ID và tiến độ.
+
 # 1.3.0 — 2026-10-27
 
 - Đủ 1.768 MP3 N3 Nanami; tổng 3.093 MP3 N5–N3, giữ mono 24 kHz / 32 kbit/s.
