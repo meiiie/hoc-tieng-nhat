@@ -1,0 +1,1165 @@
+{
+ "method": "Each Nanami MP3 is decoded to 16 kHz, passed through japanese-hubert-base-phoneme-ctc-v4 (ONNX q4) and scored against the word's own kana with ja-phone.js. Low scores mean the recording, the kana, or the recogniser disagree; they need a listen, not an automatic fix.",
+ "model": "air-air/japanese-hubert-base-phoneme-ctc-v4-ONNX@a36617c5fbf7cfde02caa067716961c03cf4d87e",
+ "total": 8344,
+ "scored": 8344,
+ "missing": 0,
+ "bands": {
+  "85-100": 7864,
+  "60-84": 380,
+  "0-59": 100
+ },
+ "perLevel": {
+  "n5": {
+   "n": 684,
+   "ge85": 660,
+   "lt60": 10
+  },
+  "n4": {
+   "n": 641,
+   "ge85": 609,
+   "lt60": 11
+  },
+  "n3": {
+   "n": 1768,
+   "ge85": 1675,
+   "lt60": 25
+  },
+  "n2": {
+   "n": 1826,
+   "ge85": 1721,
+   "lt60": 19
+  },
+  "n1": {
+   "n": 3425,
+   "ge85": 3199,
+   "lt60": 35
+  }
+ },
+ "flagged": [
+  {
+   "id": "j69f176ce582c",
+   "level": "n5",
+   "kana": "いい",
+   "score": 0,
+   "heard": "e N",
+   "expected": "i i",
+   "bad": [
+    "い:sub",
+    "い:sub"
+   ]
+  },
+  {
+   "id": "j27d5744f36a2",
+   "level": "n4",
+   "kana": "こ",
+   "score": 0,
+   "heard": "g o",
+   "expected": "k o",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "j1b0f2a3c8cc6",
+   "level": "n4",
+   "kana": "てん",
+   "score": 0,
+   "heard": "s e",
+   "expected": "t e N",
+   "bad": [
+    "て:sub",
+    "ん:del"
+   ]
+  },
+  {
+   "id": "j06ada5e5c0b2",
+   "level": "n3",
+   "kana": "げ",
+   "score": 0,
+   "heard": "d e",
+   "expected": "g e",
+   "bad": [
+    "げ:sub"
+   ]
+  },
+  {
+   "id": "jeb7417ce2651",
+   "level": "n3",
+   "kana": "ちゃ",
+   "score": 0,
+   "heard": "j a a",
+   "expected": "ch a",
+   "bad": [
+    "ちゃ:sub"
+   ]
+  },
+  {
+   "id": "jd050227c99bc",
+   "level": "n3",
+   "kana": "ば",
+   "score": 0,
+   "heard": "w a",
+   "expected": "b a",
+   "bad": [
+    "ば:sub"
+   ]
+  },
+  {
+   "id": "j7b2214a1b328",
+   "level": "n2",
+   "kana": "らん",
+   "score": 0,
+   "heard": "t a m a g o",
+   "expected": "r a N",
+   "bad": [
+    "ら:sub",
+    "ん:sub"
+   ]
+  },
+  {
+   "id": "j7dc1bb27b2f7",
+   "level": "n1",
+   "kana": "こ",
+   "score": 0,
+   "heard": "g o",
+   "expected": "k o",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "jade500cd4a6e",
+   "level": "n1",
+   "kana": "こ",
+   "score": 0,
+   "heard": "g o",
+   "expected": "k o",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "j8e2c2002ede8",
+   "level": "n1",
+   "kana": "こ",
+   "score": 0,
+   "heard": "g o",
+   "expected": "k o",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "je9741cfa6d38",
+   "level": "n1",
+   "kana": "てん",
+   "score": 0,
+   "heard": "s e",
+   "expected": "t e N",
+   "bad": [
+    "て:sub",
+    "ん:del"
+   ]
+  },
+  {
+   "id": "jcf58c5cf08d9",
+   "level": "n4",
+   "kana": "ひ",
+   "score": 10,
+   "heard": "u i",
+   "expected": "h i",
+   "bad": [
+    "ひ:sub"
+   ]
+  },
+  {
+   "id": "jf3881ce313e7",
+   "level": "n4",
+   "kana": "ひ",
+   "score": 11,
+   "heard": "u i",
+   "expected": "h i",
+   "bad": [
+    "ひ:sub"
+   ]
+  },
+  {
+   "id": "j45410f94ac7b",
+   "level": "n3",
+   "kana": "ひ",
+   "score": 11,
+   "heard": "u i",
+   "expected": "h i",
+   "bad": [
+    "ひ:sub"
+   ]
+  },
+  {
+   "id": "j801ce4ef5572",
+   "level": "n1",
+   "kana": "ひ",
+   "score": 12,
+   "heard": "u i",
+   "expected": "h i",
+   "bad": [
+    "ひ:sub"
+   ]
+  },
+  {
+   "id": "ja2f2f199f6eb",
+   "level": "n1",
+   "kana": "ひ",
+   "score": 13,
+   "heard": "u i",
+   "expected": "h i",
+   "bad": [
+    "ひ:sub"
+   ]
+  },
+  {
+   "id": "jbb1e9b205fac",
+   "level": "n3",
+   "kana": "おおう",
+   "score": 24,
+   "heard": "u",
+   "expected": "o o u",
+   "bad": [
+    "お:del",
+    "お:short"
+   ]
+  },
+  {
+   "id": "jbcf5b6403eaa",
+   "level": "n1",
+   "kana": "へいき",
+   "score": 24,
+   "heard": "e e i ch i",
+   "expected": "h e i k i",
+   "bad": [
+    "へ:sub",
+    "き:sub"
+   ]
+  },
+  {
+   "id": "j5e97c99f1db9",
+   "level": "n5",
+   "kana": "いいえ",
+   "score": 30,
+   "heard": "i e",
+   "expected": "i i e",
+   "bad": [
+    "い:del",
+    "い:sub"
+   ]
+  },
+  {
+   "id": "j73f344b1ced1",
+   "level": "n2",
+   "kana": "ひっき",
+   "score": 30,
+   "heard": "s u cl ch i",
+   "expected": "h i cl k i",
+   "bad": [
+    "ひ:sub",
+    "き:sub"
+   ]
+  },
+  {
+   "id": "jd3262bf9ace7",
+   "level": "n1",
+   "kana": "そうおう",
+   "score": 30,
+   "heard": "s o",
+   "expected": "s o o o o",
+   "bad": [
+    "そ:del",
+    "う:short",
+    "お:short"
+   ]
+  },
+  {
+   "id": "jb1ff052549ed",
+   "level": "n5",
+   "kana": "て",
+   "score": 35,
+   "heard": "d e",
+   "expected": "t e",
+   "bad": [
+    "て:close"
+   ]
+  },
+  {
+   "id": "jbd365f430f35",
+   "level": "n5",
+   "kana": "とまる",
+   "score": 36,
+   "heard": "o a r u",
+   "expected": "t o m a r u",
+   "bad": [
+    "と:del",
+    "ま:del"
+   ]
+  },
+  {
+   "id": "j267406da2053",
+   "level": "n3",
+   "kana": "かくす",
+   "score": 36,
+   "heard": "a s",
+   "expected": "k a k U s u",
+   "bad": [
+    "か:del",
+    "く:del"
+   ]
+  },
+  {
+   "id": "j391f1b6c6db9",
+   "level": "n2",
+   "kana": "いきいき",
+   "score": 36,
+   "heard": "i ch i i ch i",
+   "expected": "i k i i k i",
+   "bad": [
+    "き:sub",
+    "き:sub"
+   ]
+  },
+  {
+   "id": "j3c8adc2e5d4f",
+   "level": "n2",
+   "kana": "たまる",
+   "score": 36,
+   "heard": "t a a r",
+   "expected": "t a m a r u",
+   "bad": [
+    "ま:del",
+    "る:del"
+   ]
+  },
+  {
+   "id": "jdebbf56a8512",
+   "level": "n2",
+   "kana": "ためる",
+   "score": 36,
+   "heard": "a e r u",
+   "expected": "t a m e r u",
+   "bad": [
+    "た:del",
+    "め:del"
+   ]
+  },
+  {
+   "id": "j66d3b8f893f9",
+   "level": "n1",
+   "kana": "はあく",
+   "score": 36,
+   "heard": "f a a k U",
+   "expected": "h a a k u",
+   "bad": [
+    "は:sub",
+    "く:close"
+   ]
+  },
+  {
+   "id": "j2ed5a3e6d640",
+   "level": "n3",
+   "kana": "バッグ",
+   "score": 38,
+   "heard": "m a cl k u",
+   "expected": "b a cl g u",
+   "bad": [
+    "ば:close",
+    "ぐ:sub"
+   ]
+  },
+  {
+   "id": "j0958f7553d9f",
+   "level": "n4",
+   "kana": "こめ",
+   "score": 39,
+   "heard": "g o m e N",
+   "expected": "k o m e",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "jecfbed35fdf1",
+   "level": "n2",
+   "kana": "ダイヤル",
+   "score": 41,
+   "heard": "r a i a r u",
+   "expected": "d a i y a r u",
+   "bad": [
+    "だ:sub",
+    "や:del"
+   ]
+  },
+  {
+   "id": "jf6065ea00eef",
+   "level": "n3",
+   "kana": "けいえい",
+   "score": 42,
+   "heard": "t e e i",
+   "expected": "k e i e i",
+   "bad": [
+    "け:sub",
+    "い:short"
+   ]
+  },
+  {
+   "id": "j7d8539fef3dc",
+   "level": "n1",
+   "kana": "ひれい",
+   "score": 42,
+   "heard": "k i r e i",
+   "expected": "h i r e i",
+   "bad": [
+    "ひ:sub",
+    "い:close"
+   ]
+  },
+  {
+   "id": "j908591f921b0",
+   "level": "n5",
+   "kana": "はし",
+   "score": 43,
+   "heard": "w a sh i",
+   "expected": "h a sh i",
+   "bad": [
+    "は:sub"
+   ]
+  },
+  {
+   "id": "j873a33bd6c13",
+   "level": "n5",
+   "kana": "はし",
+   "score": 43,
+   "heard": "w a sh i",
+   "expected": "h a sh i",
+   "bad": [
+    "は:sub"
+   ]
+  },
+  {
+   "id": "j12b3aa7f9d18",
+   "level": "n4",
+   "kana": "かべ",
+   "score": 43,
+   "heard": "k a f e",
+   "expected": "k a b e",
+   "bad": [
+    "べ:sub"
+   ]
+  },
+  {
+   "id": "j38c7365e9765",
+   "level": "n4",
+   "kana": "こむ",
+   "score": 43,
+   "heard": "g o m u",
+   "expected": "k o m u",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "j2a3336b14727",
+   "level": "n4",
+   "kana": "ちゃん",
+   "score": 43,
+   "heard": "j a N",
+   "expected": "ch a N",
+   "bad": [
+    "ちゃ:sub"
+   ]
+  },
+  {
+   "id": "j5d8087a22afd",
+   "level": "n4",
+   "kana": "ひげ",
+   "score": 43,
+   "heard": "h i d e",
+   "expected": "h i g e",
+   "bad": [
+    "げ:sub"
+   ]
+  },
+  {
+   "id": "jecd249751f2a",
+   "level": "n3",
+   "kana": "いき",
+   "score": 43,
+   "heard": "i ch i",
+   "expected": "i k i",
+   "bad": [
+    "き:sub"
+   ]
+  },
+  {
+   "id": "j74552f12decb",
+   "level": "n3",
+   "kana": "いき",
+   "score": 43,
+   "heard": "i ch i",
+   "expected": "i k i",
+   "bad": [
+    "き:sub"
+   ]
+  },
+  {
+   "id": "jc2f6dfb42b45",
+   "level": "n3",
+   "kana": "ちょしゃ",
+   "score": 43,
+   "heard": "j o sh a",
+   "expected": "ch o sh a",
+   "bad": [
+    "ちょ:sub"
+   ]
+  },
+  {
+   "id": "j77ac01fd2610",
+   "level": "n3",
+   "kana": "とも",
+   "score": 43,
+   "heard": "d o m o",
+   "expected": "t o m o",
+   "bad": [
+    "と:sub"
+   ]
+  },
+  {
+   "id": "jfb9e91d6616d",
+   "level": "n3",
+   "kana": "はし",
+   "score": 43,
+   "heard": "w a sh i",
+   "expected": "h a sh i",
+   "bad": [
+    "は:sub"
+   ]
+  },
+  {
+   "id": "jc32769ec220b",
+   "level": "n3",
+   "kana": "ばか",
+   "score": 43,
+   "heard": "w a k a",
+   "expected": "b a k a",
+   "bad": [
+    "ば:sub"
+   ]
+  },
+  {
+   "id": "j94fa7fb0e7b8",
+   "level": "n3",
+   "kana": "へい",
+   "score": 43,
+   "heard": "h a i",
+   "expected": "h e i",
+   "bad": [
+    "へ:sub"
+   ]
+  },
+  {
+   "id": "j76ede82d91f3",
+   "level": "n2",
+   "kana": "しき",
+   "score": 43,
+   "heard": "s U k i",
+   "expected": "sh I k i",
+   "bad": [
+    "し:sub"
+   ]
+  },
+  {
+   "id": "j8185799b99fe",
+   "level": "n2",
+   "kana": "ディア",
+   "score": 43,
+   "heard": "b i a",
+   "expected": "d i a",
+   "bad": [
+    "でぃ:sub"
+   ]
+  },
+  {
+   "id": "j788a8843ced9",
+   "level": "n2",
+   "kana": "はし",
+   "score": 43,
+   "heard": "w a sh i",
+   "expected": "h a sh i",
+   "bad": [
+    "は:sub"
+   ]
+  },
+  {
+   "id": "j69879921b328",
+   "level": "n2",
+   "kana": "ひげ",
+   "score": 43,
+   "heard": "h i d e",
+   "expected": "h i g e",
+   "bad": [
+    "げ:sub"
+   ]
+  },
+  {
+   "id": "j6c6d88289a33",
+   "level": "n1",
+   "kana": "いき",
+   "score": 43,
+   "heard": "i ch i",
+   "expected": "i k i",
+   "bad": [
+    "き:sub"
+   ]
+  },
+  {
+   "id": "j81b02c663dac",
+   "level": "n1",
+   "kana": "こじ",
+   "score": 43,
+   "heard": "g o j i",
+   "expected": "k o j i",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "jc0795f284221",
+   "level": "n1",
+   "kana": "こむ",
+   "score": 43,
+   "heard": "g o m u",
+   "expected": "k o m u",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "j86288f9ffad6",
+   "level": "n1",
+   "kana": "ちょしょ",
+   "score": 43,
+   "heard": "j o sh o",
+   "expected": "ch o sh o",
+   "bad": [
+    "ちょ:sub"
+   ]
+  },
+  {
+   "id": "jd66a284a078e",
+   "level": "n1",
+   "kana": "とこ",
+   "score": 43,
+   "heard": "d o k o",
+   "expected": "t o k o",
+   "bad": [
+    "と:sub"
+   ]
+  },
+  {
+   "id": "j8ba373b3f65b",
+   "level": "n1",
+   "kana": "ネガ",
+   "score": 43,
+   "heard": "m e g a",
+   "expected": "n e g a",
+   "bad": [
+    "ね:sub"
+   ]
+  },
+  {
+   "id": "jd7e3ced803bc",
+   "level": "n2",
+   "kana": "ぺん",
+   "score": 44,
+   "heard": "d e N",
+   "expected": "p e N",
+   "bad": [
+    "ぺ:sub"
+   ]
+  },
+  {
+   "id": "j653a7bc79088",
+   "level": "n3",
+   "kana": "ばいう",
+   "score": 45,
+   "heard": "w a y u u",
+   "expected": "b a i u",
+   "bad": [
+    "ば:close",
+    "い:close"
+   ]
+  },
+  {
+   "id": "je917553c3184",
+   "level": "n1",
+   "kana": "かまえる",
+   "score": 45,
+   "heard": "k a m e",
+   "expected": "k a m a e r u",
+   "bad": [
+    "ま:del",
+    "る:del"
+   ]
+  },
+  {
+   "id": "j44892a66252c",
+   "level": "n1",
+   "kana": "タイトル",
+   "score": 45,
+   "heard": "t a i o r",
+   "expected": "t a i t o r u",
+   "bad": [
+    "と:del",
+    "る:del"
+   ]
+  },
+  {
+   "id": "j651603322794",
+   "level": "n5",
+   "kana": "しち",
+   "score": 47,
+   "heard": "ch I ch i",
+   "expected": "sh I ch i",
+   "bad": [
+    "し:sub"
+   ]
+  },
+  {
+   "id": "j16bb8892c1be",
+   "level": "n3",
+   "kana": "とう",
+   "score": 49,
+   "heard": "s o o",
+   "expected": "t o o",
+   "bad": [
+    "と:sub"
+   ]
+  },
+  {
+   "id": "j7e03c69a195c",
+   "level": "n3",
+   "kana": "とう",
+   "score": 49,
+   "heard": "s o o",
+   "expected": "t o o",
+   "bad": [
+    "と:sub"
+   ]
+  },
+  {
+   "id": "j0e54311d2033",
+   "level": "n5",
+   "kana": "ベッド",
+   "score": 50,
+   "heard": "b e cl t o",
+   "expected": "b e cl d o",
+   "bad": [
+    "ど:sub"
+   ]
+  },
+  {
+   "id": "j011bd57c2253",
+   "level": "n2",
+   "kana": "こす",
+   "score": 53,
+   "heard": "o s u",
+   "expected": "k o s u",
+   "bad": [
+    "こ:del"
+   ]
+  },
+  {
+   "id": "j432f1612c791",
+   "level": "n2",
+   "kana": "ばね",
+   "score": 53,
+   "heard": "a n e",
+   "expected": "b a n e",
+   "bad": [
+    "ば:del"
+   ]
+  },
+  {
+   "id": "j1068b6fb2b56",
+   "level": "n1",
+   "kana": "ばね",
+   "score": 53,
+   "heard": "a n e",
+   "expected": "b a n e",
+   "bad": [
+    "ば:del"
+   ]
+  },
+  {
+   "id": "je262c71374c7",
+   "level": "n1",
+   "kana": "りゅう",
+   "score": 56,
+   "heard": "gy u u",
+   "expected": "ry u u",
+   "bad": [
+    "りゅ:sub"
+   ]
+  },
+  {
+   "id": "j25f38ca835c5",
+   "level": "n5",
+   "kana": "ちゃわん",
+   "score": 57,
+   "heard": "j a w a N",
+   "expected": "ch a w a N",
+   "bad": [
+    "ちゃ:sub"
+   ]
+  },
+  {
+   "id": "jf4ab9773f675",
+   "level": "n5",
+   "kana": "ぬるい",
+   "score": 57,
+   "heard": "m u r u i",
+   "expected": "n u r u i",
+   "bad": [
+    "ぬ:sub"
+   ]
+  },
+  {
+   "id": "j4d4127e1b81e",
+   "level": "n4",
+   "kana": "だいぶ",
+   "score": 57,
+   "heard": "r a i b u",
+   "expected": "d a i b u",
+   "bad": [
+    "だ:sub"
+   ]
+  },
+  {
+   "id": "je9cf0826c5f3",
+   "level": "n4",
+   "kana": "ハンドバッグ",
+   "score": 57,
+   "heard": "h a N d o b a cl k u",
+   "expected": "h a N d o b a cl g u",
+   "bad": [
+    "は:close",
+    "ぐ:sub"
+   ]
+  },
+  {
+   "id": "je35ca0360151",
+   "level": "n3",
+   "kana": "けいい",
+   "score": 57,
+   "heard": "j e i i",
+   "expected": "k e i i",
+   "bad": [
+    "け:sub"
+   ]
+  },
+  {
+   "id": "jb34b4a2e7a98",
+   "level": "n3",
+   "kana": "たから",
+   "score": 57,
+   "heard": "d a k a r a",
+   "expected": "t a k a r a",
+   "bad": [
+    "た:sub"
+   ]
+  },
+  {
+   "id": "j4b8bc9a675c9",
+   "level": "n3",
+   "kana": "ひたい",
+   "score": 57,
+   "heard": "sh I t a i",
+   "expected": "h I t a i",
+   "bad": [
+    "ひ:sub"
+   ]
+  },
+  {
+   "id": "ja5f76eadade4",
+   "level": "n3",
+   "kana": "ペンキ",
+   "score": 57,
+   "heard": "t e N k i",
+   "expected": "p e N k i",
+   "bad": [
+    "ぺ:sub"
+   ]
+  },
+  {
+   "id": "j31018aa46388",
+   "level": "n2",
+   "kana": "こしょう",
+   "score": 57,
+   "heard": "g o sh o o",
+   "expected": "k o sh o o",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "jdfb904d9ade5",
+   "level": "n2",
+   "kana": "しんろ",
+   "score": 57,
+   "heard": "sh i N d o",
+   "expected": "sh i N r o",
+   "bad": [
+    "ろ:sub"
+   ]
+  },
+  {
+   "id": "jafca3166c1c6",
+   "level": "n2",
+   "kana": "だます",
+   "score": 57,
+   "heard": "r a m a s u",
+   "expected": "d a m a s u",
+   "bad": [
+    "だ:sub"
+   ]
+  },
+  {
+   "id": "jaa6a896345b4",
+   "level": "n2",
+   "kana": "ちゃわん",
+   "score": 57,
+   "heard": "j a w a N",
+   "expected": "ch a w a N",
+   "bad": [
+    "ちゃ:sub"
+   ]
+  },
+  {
+   "id": "j536cdf75702e",
+   "level": "n2",
+   "kana": "にえる",
+   "score": 57,
+   "heard": "m i e r u",
+   "expected": "n i e r u",
+   "bad": [
+    "に:sub"
+   ]
+  },
+  {
+   "id": "j7290e8a1d9ac",
+   "level": "n2",
+   "kana": "ひょうし",
+   "score": 57,
+   "heard": "y o o sh i",
+   "expected": "hy o o sh i",
+   "bad": [
+    "ひょ:sub"
+   ]
+  },
+  {
+   "id": "j58205fab8b28",
+   "level": "n1",
+   "kana": "きひん",
+   "score": 57,
+   "heard": "j i h i N",
+   "expected": "k i h i N",
+   "bad": [
+    "き:sub"
+   ]
+  },
+  {
+   "id": "j9114c332f4bf",
+   "level": "n1",
+   "kana": "こよう",
+   "score": 57,
+   "heard": "g o y o o",
+   "expected": "k o y o o",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "jcc65eac9854a",
+   "level": "n1",
+   "kana": "しゅたい",
+   "score": 57,
+   "heard": "sh I t a i",
+   "expected": "sh U t a i",
+   "bad": [
+    "しゅ:sub"
+   ]
+  },
+  {
+   "id": "ja7b9128d2c1a",
+   "level": "n1",
+   "kana": "しんろ",
+   "score": 57,
+   "heard": "sh i N d o",
+   "expected": "sh i N r o",
+   "bad": [
+    "ろ:sub"
+   ]
+  },
+  {
+   "id": "j17254c1a2ca6",
+   "level": "n1",
+   "kana": "ちつじょ",
+   "score": 57,
+   "heard": "sh I ts u j o",
+   "expected": "ch I ts u j o",
+   "bad": [
+    "ち:sub"
+   ]
+  },
+  {
+   "id": "jda67153b085f",
+   "level": "n1",
+   "kana": "ちてき",
+   "score": 57,
+   "heard": "sh I t e k i",
+   "expected": "ch I t e k i",
+   "bad": [
+    "ち:sub"
+   ]
+  },
+  {
+   "id": "j87acc33e93f3",
+   "level": "n1",
+   "kana": "つねる",
+   "score": 57,
+   "heard": "ts u m e r u",
+   "expected": "ts u n e r u",
+   "bad": [
+    "ね:sub"
+   ]
+  },
+  {
+   "id": "j53a59086722f",
+   "level": "n1",
+   "kana": "ぬかす",
+   "score": 57,
+   "heard": "m u k a s u",
+   "expected": "n u k a s u",
+   "bad": [
+    "ぬ:sub"
+   ]
+  },
+  {
+   "id": "jbc38f04a00f1",
+   "level": "n1",
+   "kana": "ねだる",
+   "score": 57,
+   "heard": "m e d a r u",
+   "expected": "n e d a r u",
+   "bad": [
+    "ね:sub"
+   ]
+  },
+  {
+   "id": "jcb2afcecb6c3",
+   "level": "n1",
+   "kana": "ばける",
+   "score": 57,
+   "heard": "w a k e r u",
+   "expected": "b a k e r u",
+   "bad": [
+    "ば:sub"
+   ]
+  },
+  {
+   "id": "j508dabac8a53",
+   "level": "n1",
+   "kana": "バッジ",
+   "score": 57,
+   "heard": "b a cl ch i",
+   "expected": "b a cl j i",
+   "bad": [
+    "じ:sub"
+   ]
+  },
+  {
+   "id": "j2bef0b6fab4b",
+   "level": "n1",
+   "kana": "ひつじ",
+   "score": 57,
+   "heard": "sh I ts u j i",
+   "expected": "h I ts u j i",
+   "bad": [
+    "ひ:sub"
+   ]
+  },
+  {
+   "id": "j65994afe5008",
+   "level": "n1",
+   "kana": "ひょっと",
+   "score": 57,
+   "heard": "y o cl t o",
+   "expected": "hy o cl t o",
+   "bad": [
+    "ひょ:sub"
+   ]
+  },
+  {
+   "id": "j9e5b238a083a",
+   "level": "n1",
+   "kana": "ろんり",
+   "score": 57,
+   "heard": "r o N d i",
+   "expected": "r o N r i",
+   "bad": [
+    "り:sub"
+   ]
+  },
+  {
+   "id": "j076931927881",
+   "level": "n1",
+   "kana": "てんきょ",
+   "score": 58,
+   "heard": "d e N ky o",
+   "expected": "t e N ky o",
+   "bad": [
+    "て:sub"
+   ]
+  },
+  {
+   "id": "jdc7a90dca261",
+   "level": "n3",
+   "kana": "こす",
+   "score": 59,
+   "heard": "g o s u",
+   "expected": "k o s u",
+   "bad": [
+    "こ:sub"
+   ]
+  },
+  {
+   "id": "jee3a00ce4f51",
+   "level": "n3",
+   "kana": "ひてい",
+   "score": 59,
+   "heard": "sh I t e i",
+   "expected": "h I t e i",
+   "bad": [
+    "ひ:sub"
+   ]
+  },
+  {
+   "id": "jeab050d96f79",
+   "level": "n3",
+   "kana": "まんいち",
+   "score": 59,
+   "heard": "m a i n i ch i",
+   "expected": "m a N i ch i",
+   "bad": [
+    "ん:sub"
+   ]
+  }
+ ]
+}

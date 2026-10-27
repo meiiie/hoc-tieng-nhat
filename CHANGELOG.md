@@ -1,3 +1,10 @@
+# 1.10.2 — 2026-10-27
+
+- Kiểm tra tự động toàn bộ 8.344 MP3: cho mô hình nhận dạng âm vị nghe lại từng tệp và chấm so với kana. 252 tệp dưới 60 điểm được thu lại bằng cùng giọng Nanami (thêm dấu câu hoặc ngữ cảnh chữ Hán); 152 tệp được thay vì bản mới khớp rõ hơn (≥ 85 điểm và hơn bản cũ ≥ 20). Còn 100 tệp dưới 60 được liệt kê để nghe lại.
+- Sau cập nhật, chỉ 152 tệp đã thay bị xoá khỏi bộ nhớ âm thanh offline; các tệp đã tải khác giữ nguyên.
+- Đối chiếu nghĩa Việt với JMdict bằng dịch ngược (opus-mt-vi-en); kết quả lưu trong data/sources/meaning-check.json để rà soát, chưa hiển thị trong app vì độ tin cậy của phép kiểm tra còn thấp.
+- Cache htn-v1.10.2.
+
 # 1.10.1 — 2026-10-27
 
 - Thêm ví dụ Tatoeba cho N2/N1, cùng kiểm tra lemma/POS/dạng chữ/cách đọc, nguồn và nhãn dịch trực tiếp/qua Anh/dịch máy.

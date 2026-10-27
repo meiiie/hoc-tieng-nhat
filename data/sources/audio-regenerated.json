@@ -1,0 +1,2327 @@
+{
+ "rule": "replace only when candidate >= 85 and >= old + 20",
+ "attempted": 252,
+ "replaced": 152,
+ "rows": [
+  {
+   "id": "j69f176ce582c",
+   "kana": "いい",
+   "old": 0,
+   "oldHeard": "e N",
+   "replaced": false,
+   "bestCandidate": 0
+  },
+  {
+   "id": "j27d5744f36a2",
+   "kana": "こ",
+   "old": 0,
+   "oldHeard": "g o",
+   "replaced": false,
+   "bestCandidate": 38
+  },
+  {
+   "id": "j1b0f2a3c8cc6",
+   "kana": "てん",
+   "old": 0,
+   "oldHeard": "s e",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j0ee157072118",
+   "kana": "うお",
+   "old": 0,
+   "oldHeard": "k a n a",
+   "replaced": true,
+   "new": 92,
+   "text": "「うお」",
+   "heard": "g u o"
+  },
+  {
+   "id": "j267a571da73a",
+   "kana": "お",
+   "old": 0,
+   "oldHeard": "u cl",
+   "replaced": true,
+   "new": 92,
+   "text": "御。",
+   "heard": "o cl"
+  },
+  {
+   "id": "j06ada5e5c0b2",
+   "kana": "げ",
+   "old": 0,
+   "oldHeard": "d e",
+   "replaced": false,
+   "bestCandidate": 8
+  },
+  {
+   "id": "jeb7417ce2651",
+   "kana": "ちゃ",
+   "old": 0,
+   "oldHeard": "j a a",
+   "replaced": false,
+   "bestCandidate": 0
+  },
+  {
+   "id": "jd050227c99bc",
+   "kana": "ば",
+   "old": 0,
+   "oldHeard": "w a",
+   "replaced": false,
+   "bestCandidate": 0
+  },
+  {
+   "id": "j98e6ef04426f",
+   "kana": "ぶ",
+   "old": 0,
+   "oldHeard": "d e",
+   "replaced": true,
+   "new": 100,
+   "text": "ぶ。",
+   "heard": "b u"
+  },
+  {
+   "id": "j8ed04ec90005",
+   "kana": "ぶ",
+   "old": 0,
+   "oldHeard": "d e",
+   "replaced": true,
+   "new": 100,
+   "text": "ぶ。",
+   "heard": "b u"
+  },
+  {
+   "id": "je4334e117c6e",
+   "kana": "ぶ",
+   "old": 0,
+   "oldHeard": "d e",
+   "replaced": true,
+   "new": 100,
+   "text": "ぶ。",
+   "heard": "b u"
+  },
+  {
+   "id": "j7b2214a1b328",
+   "kana": "らん",
+   "old": 0,
+   "oldHeard": "t a m a g o",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j2c4d947143f5",
+   "kana": "お",
+   "old": 0,
+   "oldHeard": "u cl",
+   "replaced": true,
+   "new": 92,
+   "text": "尾。",
+   "heard": "o cl"
+  },
+  {
+   "id": "j92a0f9b49e95",
+   "kana": "む",
+   "old": 9,
+   "oldHeard": "m e",
+   "replaced": true,
+   "new": 100,
+   "text": "む。",
+   "heard": "m u"
+  },
+  {
+   "id": "jcf58c5cf08d9",
+   "kana": "ひ",
+   "old": 10,
+   "oldHeard": "u i",
+   "replaced": false,
+   "bestCandidate": 51
+  },
+  {
+   "id": "jf3881ce313e7",
+   "kana": "ひ",
+   "old": 11,
+   "oldHeard": "u i",
+   "replaced": false,
+   "bestCandidate": 51
+  },
+  {
+   "id": "j45410f94ac7b",
+   "kana": "ひ",
+   "old": 11,
+   "oldHeard": "u i",
+   "replaced": false,
+   "bestCandidate": 1
+  },
+  {
+   "id": "j1e808c7b4b4e",
+   "kana": "き",
+   "old": 14,
+   "oldHeard": "j i i",
+   "replaced": true,
+   "new": 100,
+   "text": "き。",
+   "heard": "k i"
+  },
+  {
+   "id": "ja5d390dc4805",
+   "kana": "き",
+   "old": 15,
+   "oldHeard": "j i i",
+   "replaced": true,
+   "new": 100,
+   "text": "き。",
+   "heard": "k i"
+  },
+  {
+   "id": "j29ac916d728b",
+   "kana": "き",
+   "old": 15,
+   "oldHeard": "j i i",
+   "replaced": true,
+   "new": 100,
+   "text": "き。",
+   "heard": "k i"
+  },
+  {
+   "id": "jb0c5f5a7cf7f",
+   "kana": "とおりかかる",
+   "old": 17,
+   "oldHeard": "t o r r",
+   "replaced": true,
+   "new": 100,
+   "text": "とおりかかる。",
+   "heard": "t o o r i k a k a r u"
+  },
+  {
+   "id": "jd2f231e7b015",
+   "kana": "ぬう",
+   "old": 18,
+   "oldHeard": "u N",
+   "replaced": true,
+   "new": 100,
+   "text": "ぬう。",
+   "heard": "n u u"
+  },
+  {
+   "id": "jbb1e9b205fac",
+   "kana": "おおう",
+   "old": 24,
+   "oldHeard": "u",
+   "replaced": false,
+   "bestCandidate": 38
+  },
+  {
+   "id": "j70d39729a906",
+   "kana": "ずつう",
+   "old": 24,
+   "oldHeard": "b a t o u",
+   "replaced": true,
+   "new": 100,
+   "text": "ずつう。",
+   "heard": "z u ts u u"
+  },
+  {
+   "id": "jd5bd6e2d7ad1",
+   "kana": "へいき",
+   "old": 24,
+   "oldHeard": "e e i ch i",
+   "replaced": true,
+   "new": 100,
+   "text": "平気。",
+   "heard": "h e e k i"
+  },
+  {
+   "id": "j9aea00f23bd3",
+   "kana": "かくじゅう",
+   "old": 27,
+   "oldHeard": "j u",
+   "replaced": true,
+   "new": 100,
+   "text": "拡充。",
+   "heard": "k a k u j u u"
+  },
+  {
+   "id": "jc6630bb3b7f1",
+   "kana": "かさなる",
+   "old": 27,
+   "oldHeard": "s a a u",
+   "replaced": true,
+   "new": 100,
+   "text": "かさなる。",
+   "heard": "k a s a n a r u"
+  },
+  {
+   "id": "j0386cb8e57f2",
+   "kana": "かたまる",
+   "old": 27,
+   "oldHeard": "k t a r u",
+   "replaced": true,
+   "new": 100,
+   "text": "かたまる。",
+   "heard": "k a t a m a r u"
+  },
+  {
+   "id": "j5e97c99f1db9",
+   "kana": "いいえ",
+   "old": 30,
+   "oldHeard": "i e",
+   "replaced": false,
+   "bestCandidate": 64
+  },
+  {
+   "id": "j73f344b1ced1",
+   "kana": "ひっき",
+   "old": 30,
+   "oldHeard": "s u cl ch i",
+   "replaced": false,
+   "bestCandidate": 26
+  },
+  {
+   "id": "j629d62385869",
+   "kana": "ていりゅうじょ",
+   "old": 34,
+   "oldHeard": "t e ry u j",
+   "replaced": true,
+   "new": 100,
+   "text": "ていりゅうじょ。",
+   "heard": "t e e ry u u j o"
+  },
+  {
+   "id": "jb1ff052549ed",
+   "kana": "て",
+   "old": 35,
+   "oldHeard": "d e",
+   "replaced": false,
+   "bestCandidate": 25
+  },
+  {
+   "id": "j5878d58d5da7",
+   "kana": "ひげき",
+   "old": 35,
+   "oldHeard": "h i d e ts u",
+   "replaced": true,
+   "new": 100,
+   "text": "ひげき。",
+   "heard": "h i g e k i"
+  },
+  {
+   "id": "jbd365f430f35",
+   "kana": "とまる",
+   "old": 36,
+   "oldHeard": "o a r u",
+   "replaced": false,
+   "bestCandidate": 64
+  },
+  {
+   "id": "j267406da2053",
+   "kana": "かくす",
+   "old": 36,
+   "oldHeard": "a s",
+   "replaced": false,
+   "bestCandidate": 77
+  },
+  {
+   "id": "j391f1b6c6db9",
+   "kana": "いきいき",
+   "old": 36,
+   "oldHeard": "i ch i i ch i",
+   "replaced": false,
+   "bestCandidate": 36
+  },
+  {
+   "id": "j3c8adc2e5d4f",
+   "kana": "たまる",
+   "old": 36,
+   "oldHeard": "t a a r",
+   "replaced": false,
+   "bestCandidate": 64
+  },
+  {
+   "id": "jdebbf56a8512",
+   "kana": "ためる",
+   "old": 36,
+   "oldHeard": "a e r u",
+   "replaced": false,
+   "bestCandidate": 64
+  },
+  {
+   "id": "j4061c224bd88",
+   "kana": "きげん",
+   "old": 38,
+   "oldHeard": "j i d e N",
+   "replaced": true,
+   "new": 100,
+   "text": "きげん。",
+   "heard": "k i g e N"
+  },
+  {
+   "id": "j2ed5a3e6d640",
+   "kana": "バッグ",
+   "old": 38,
+   "oldHeard": "m a cl k u",
+   "replaced": false,
+   "bestCandidate": 34
+  },
+  {
+   "id": "j82a114897d9c",
+   "kana": "はいる",
+   "old": 39,
+   "oldHeard": "f a r u",
+   "replaced": true,
+   "new": 100,
+   "text": "入る。",
+   "heard": "h a i r u"
+  },
+  {
+   "id": "j0958f7553d9f",
+   "kana": "こめ",
+   "old": 39,
+   "oldHeard": "g o m e N",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j5dd0300c588e",
+   "kana": "ていねい",
+   "old": 39,
+   "oldHeard": "t e e g e N",
+   "replaced": true,
+   "new": 100,
+   "text": "「ていねい」",
+   "heard": "t e e n e e"
+  },
+  {
+   "id": "j960ab521ed25",
+   "kana": "きし",
+   "old": 39,
+   "oldHeard": "k I s u i",
+   "replaced": true,
+   "new": 100,
+   "text": "きし。",
+   "heard": "k i sh i"
+  },
+  {
+   "id": "jac3939d71e1e",
+   "kana": "へいじつ",
+   "old": 39,
+   "oldHeard": "e i j u ts u",
+   "replaced": true,
+   "new": 100,
+   "text": "「へいじつ」",
+   "heard": "h e e j i ts u"
+  },
+  {
+   "id": "jebacd5638153",
+   "kana": "きげん",
+   "old": 41,
+   "oldHeard": "j i d e N",
+   "replaced": true,
+   "new": 100,
+   "text": "きげん。",
+   "heard": "k i g e N"
+  },
+  {
+   "id": "jecfbed35fdf1",
+   "kana": "ダイヤル",
+   "old": 41,
+   "oldHeard": "r a i a r u",
+   "replaced": false,
+   "bestCandidate": 76
+  },
+  {
+   "id": "jf6065ea00eef",
+   "kana": "けいえい",
+   "old": 42,
+   "oldHeard": "t e e i",
+   "replaced": false,
+   "bestCandidate": 67
+  },
+  {
+   "id": "jb549323b238f",
+   "kana": "いみ",
+   "old": 43,
+   "oldHeard": "u m i",
+   "replaced": true,
+   "new": 100,
+   "text": "「いみ」",
+   "heard": "i m i"
+  },
+  {
+   "id": "j0afc81d87148",
+   "kana": "ええ",
+   "old": 43,
+   "oldHeard": "e cl",
+   "replaced": true,
+   "new": 100,
+   "text": "ええ。",
+   "heard": "e e"
+  },
+  {
+   "id": "j5afaf8671e34",
+   "kana": "など",
+   "old": 43,
+   "oldHeard": "m a d o",
+   "replaced": true,
+   "new": 100,
+   "text": "など。",
+   "heard": "n a d o"
+  },
+  {
+   "id": "j0954522e1764",
+   "kana": "ぬぐ",
+   "old": 43,
+   "oldHeard": "m u g u",
+   "replaced": true,
+   "new": 100,
+   "text": "「ぬぐ」",
+   "heard": "n u g u"
+  },
+  {
+   "id": "j908591f921b0",
+   "kana": "はし",
+   "old": 43,
+   "oldHeard": "w a sh i",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j873a33bd6c13",
+   "kana": "はし",
+   "old": 43,
+   "oldHeard": "w a sh i",
+   "replaced": false,
+   "bestCandidate": 63
+  },
+  {
+   "id": "j12b3aa7f9d18",
+   "kana": "かべ",
+   "old": 43,
+   "oldHeard": "k a f e",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j9c6064a751f5",
+   "kana": "きゃく",
+   "old": 43,
+   "oldHeard": "gy a k u",
+   "replaced": true,
+   "new": 100,
+   "text": "きゃく。",
+   "heard": "ky a k u"
+  },
+  {
+   "id": "j38c7365e9765",
+   "kana": "こむ",
+   "old": 43,
+   "oldHeard": "g o m u",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j2a3336b14727",
+   "kana": "ちゃん",
+   "old": 43,
+   "oldHeard": "j a N",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j94c0123fb172",
+   "kana": "ぬる",
+   "old": 43,
+   "oldHeard": "m u r u",
+   "replaced": true,
+   "new": 100,
+   "text": "ぬる。",
+   "heard": "n u r u"
+  },
+  {
+   "id": "j5d8087a22afd",
+   "kana": "ひげ",
+   "old": 43,
+   "oldHeard": "h i d e",
+   "replaced": false,
+   "bestCandidate": 0
+  },
+  {
+   "id": "jecd249751f2a",
+   "kana": "いき",
+   "old": 43,
+   "oldHeard": "i ch i",
+   "replaced": false,
+   "bestCandidate": 45
+  },
+  {
+   "id": "j74552f12decb",
+   "kana": "いき",
+   "old": 43,
+   "oldHeard": "i ch i",
+   "replaced": false,
+   "bestCandidate": 46
+  },
+  {
+   "id": "jfce7743a6cc5",
+   "kana": "おう",
+   "old": 43,
+   "oldHeard": "o N",
+   "replaced": true,
+   "new": 100,
+   "text": "おう。",
+   "heard": "o o"
+  },
+  {
+   "id": "j5df078eb1d12",
+   "kana": "おう",
+   "old": 43,
+   "oldHeard": "o N",
+   "replaced": true,
+   "new": 100,
+   "text": "おう。",
+   "heard": "o o"
+  },
+  {
+   "id": "jb72e43894a61",
+   "kana": "しき",
+   "old": 43,
+   "oldHeard": "s U k i",
+   "replaced": true,
+   "new": 100,
+   "text": "式。",
+   "heard": "sh I k i"
+  },
+  {
+   "id": "jdd3bcc7f3449",
+   "kana": "しり",
+   "old": 43,
+   "oldHeard": "s u r i",
+   "replaced": true,
+   "new": 100,
+   "text": "「しり」",
+   "heard": "sh i r i"
+  },
+  {
+   "id": "j43b1ffee1b9c",
+   "kana": "ちい",
+   "old": 43,
+   "oldHeard": "sh i i",
+   "replaced": true,
+   "new": 98,
+   "text": "「ちい」",
+   "heard": "ch i i"
+  },
+  {
+   "id": "j5c5a000edb7c",
+   "kana": "ちゅう",
+   "old": 43,
+   "oldHeard": "j u u",
+   "replaced": true,
+   "new": 100,
+   "text": "「ちゅう」",
+   "heard": "ch u u"
+  },
+  {
+   "id": "j03b3847086c3",
+   "kana": "ちゅう",
+   "old": 43,
+   "oldHeard": "j u u",
+   "replaced": true,
+   "new": 100,
+   "text": "「ちゅう」",
+   "heard": "ch u u"
+  },
+  {
+   "id": "jc2f6dfb42b45",
+   "kana": "ちょしゃ",
+   "old": 43,
+   "oldHeard": "j o sh a",
+   "replaced": false,
+   "bestCandidate": 63
+  },
+  {
+   "id": "j77ac01fd2610",
+   "kana": "とも",
+   "old": 43,
+   "oldHeard": "d o m o",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "jef6d3a29e7b3",
+   "kana": "など",
+   "old": 43,
+   "oldHeard": "m a d o",
+   "replaced": true,
+   "new": 100,
+   "text": "など。",
+   "heard": "n a d o"
+  },
+  {
+   "id": "jfb9e91d6616d",
+   "kana": "はし",
+   "old": 43,
+   "oldHeard": "w a sh i",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "jc32769ec220b",
+   "kana": "ばか",
+   "old": 43,
+   "oldHeard": "w a k a",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "jb24cf4f136f9",
+   "kana": "パス",
+   "old": 43,
+   "oldHeard": "t o s u",
+   "replaced": true,
+   "new": 100,
+   "text": "「パス」",
+   "heard": "p a s u"
+  },
+  {
+   "id": "j0ebf4a410f20",
+   "kana": "びょう",
+   "old": 43,
+   "oldHeard": "ry o o",
+   "replaced": true,
+   "new": 89,
+   "text": "「びょう」",
+   "heard": "by o o"
+  },
+  {
+   "id": "j94fa7fb0e7b8",
+   "kana": "へい",
+   "old": 43,
+   "oldHeard": "h a i",
+   "replaced": false,
+   "bestCandidate": 50
+  },
+  {
+   "id": "je9359e57d553",
+   "kana": "ほぼ",
+   "old": 43,
+   "oldHeard": "h o d o",
+   "replaced": true,
+   "new": 100,
+   "text": "ほぼ。",
+   "heard": "h o b o"
+  },
+  {
+   "id": "jdf5f4c82092c",
+   "kana": "いぎ",
+   "old": 43,
+   "oldHeard": "i k i",
+   "replaced": true,
+   "new": 100,
+   "text": "いぎ。",
+   "heard": "i g i"
+  },
+  {
+   "id": "j76ede82d91f3",
+   "kana": "しき",
+   "old": 43,
+   "oldHeard": "s U k i",
+   "replaced": false,
+   "bestCandidate": 45
+  },
+  {
+   "id": "j8185799b99fe",
+   "kana": "ディア",
+   "old": 43,
+   "oldHeard": "b i a",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "jdb42c1960de6",
+   "kana": "ねじ",
+   "old": 43,
+   "oldHeard": "m e j i",
+   "replaced": true,
+   "new": 100,
+   "text": "「ねじ」",
+   "heard": "n e j i"
+  },
+  {
+   "id": "j788a8843ced9",
+   "kana": "はし",
+   "old": 43,
+   "oldHeard": "w a sh i",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j69879921b328",
+   "kana": "ひげ",
+   "old": 43,
+   "oldHeard": "h i d e",
+   "replaced": false,
+   "bestCandidate": 0
+  },
+  {
+   "id": "je8bee8b0b3b8",
+   "kana": "ゆげ",
+   "old": 43,
+   "oldHeard": "y u d e",
+   "replaced": true,
+   "new": 100,
+   "text": "湯気。",
+   "heard": "y u g e"
+  },
+  {
+   "id": "j6c6d88289a33",
+   "kana": "いき",
+   "old": 43,
+   "oldHeard": "i ch i",
+   "replaced": false,
+   "bestCandidate": 48
+  },
+  {
+   "id": "j04f727b321a4",
+   "kana": "いぎ",
+   "old": 43,
+   "oldHeard": "i k i",
+   "replaced": true,
+   "new": 100,
+   "text": "いぎ。",
+   "heard": "i g i"
+  },
+  {
+   "id": "j1d93ec0233cb",
+   "kana": "いん",
+   "old": 43,
+   "oldHeard": "u N",
+   "replaced": true,
+   "new": 100,
+   "text": "「いん」",
+   "heard": "i N"
+  },
+  {
+   "id": "j9958661a47af",
+   "kana": "いん",
+   "old": 43,
+   "oldHeard": "u N",
+   "replaced": true,
+   "new": 100,
+   "text": "「いん」",
+   "heard": "i N"
+  },
+  {
+   "id": "ja8a901866dca",
+   "kana": "えい",
+   "old": 43,
+   "oldHeard": "e cl",
+   "replaced": true,
+   "new": 100,
+   "text": "えい。",
+   "heard": "e i"
+  },
+  {
+   "id": "j07f3bec19003",
+   "kana": "おう",
+   "old": 43,
+   "oldHeard": "o N",
+   "replaced": true,
+   "new": 100,
+   "text": "おう。",
+   "heard": "o o"
+  },
+  {
+   "id": "jd605986c3af4",
+   "kana": "はん",
+   "old": 44,
+   "oldHeard": "f a N",
+   "replaced": true,
+   "new": 98,
+   "text": "「はん」",
+   "heard": "h a N"
+  },
+  {
+   "id": "jd7e3ced803bc",
+   "kana": "ぺん",
+   "old": 44,
+   "oldHeard": "d e N",
+   "replaced": false,
+   "bestCandidate": 74
+  },
+  {
+   "id": "je64b189d1607",
+   "kana": "きにいる",
+   "old": 45,
+   "oldHeard": "k i n i r",
+   "replaced": true,
+   "new": 100,
+   "text": "気に入る。",
+   "heard": "k i n i i r u"
+  },
+  {
+   "id": "jd921e51f8a8f",
+   "kana": "とお",
+   "old": 45,
+   "oldHeard": "d o o",
+   "replaced": true,
+   "new": 100,
+   "text": "とお。",
+   "heard": "t o o"
+  },
+  {
+   "id": "jfd2bc3ba07a6",
+   "kana": "はいたつ",
+   "old": 45,
+   "oldHeard": "h a t a u",
+   "replaced": true,
+   "new": 100,
+   "text": "「はいたつ」",
+   "heard": "h a i t a ts u"
+  },
+  {
+   "id": "j653a7bc79088",
+   "kana": "ばいう",
+   "old": 45,
+   "oldHeard": "w a y u u",
+   "replaced": false,
+   "bestCandidate": 37
+  },
+  {
+   "id": "j8569c256a85f",
+   "kana": "げしゃ",
+   "old": 45,
+   "oldHeard": "d e sh a",
+   "replaced": true,
+   "new": 100,
+   "text": "げしゃ。",
+   "heard": "g e sh a"
+  },
+  {
+   "id": "j3ad79496437d",
+   "kana": "パン",
+   "old": 46,
+   "oldHeard": "t a N",
+   "replaced": true,
+   "new": 95,
+   "text": "パン。",
+   "heard": "p a N"
+  },
+  {
+   "id": "j1a7c757b9e8a",
+   "kana": "ほう",
+   "old": 46,
+   "oldHeard": "o",
+   "replaced": true,
+   "new": 100,
+   "text": "ほう。",
+   "heard": "h o o"
+  },
+  {
+   "id": "jef81627faf65",
+   "kana": "ぬの",
+   "old": 46,
+   "oldHeard": "m u n o",
+   "replaced": true,
+   "new": 100,
+   "text": "ぬの。",
+   "heard": "n u n o"
+  },
+  {
+   "id": "j95fa270afe89",
+   "kana": "ほう",
+   "old": 46,
+   "oldHeard": "o",
+   "replaced": true,
+   "new": 100,
+   "text": "ほう。",
+   "heard": "h o o"
+  },
+  {
+   "id": "jad415cdf106d",
+   "kana": "わた",
+   "old": 46,
+   "oldHeard": "m a t a",
+   "replaced": true,
+   "new": 100,
+   "text": "「わた」",
+   "heard": "w a t a"
+  },
+  {
+   "id": "j651603322794",
+   "kana": "しち",
+   "old": 47,
+   "oldHeard": "ch I ch i",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j36b64c8b0c82",
+   "kana": "こい",
+   "old": 47,
+   "oldHeard": "g o i",
+   "replaced": true,
+   "new": 100,
+   "text": "こい。",
+   "heard": "k o i"
+  },
+  {
+   "id": "jc2e8f168ee14",
+   "kana": "はいゆう",
+   "old": 47,
+   "oldHeard": "h a i y",
+   "replaced": true,
+   "new": 100,
+   "text": "はいゆう。",
+   "heard": "h a i y u u"
+  },
+  {
+   "id": "j18fe4d351abc",
+   "kana": "ほう",
+   "old": 47,
+   "oldHeard": "o",
+   "replaced": true,
+   "new": 100,
+   "text": "ほう。",
+   "heard": "h o o"
+  },
+  {
+   "id": "j4e54c15c89e0",
+   "kana": "やね",
+   "old": 47,
+   "oldHeard": "y a m e",
+   "replaced": true,
+   "new": 100,
+   "text": "「やね」",
+   "heard": "y a n e"
+  },
+  {
+   "id": "j15a27fa98b84",
+   "kana": "こい",
+   "old": 48,
+   "oldHeard": "g o i",
+   "replaced": true,
+   "new": 100,
+   "text": "こい。",
+   "heard": "k o i"
+  },
+  {
+   "id": "j16bb8892c1be",
+   "kana": "とう",
+   "old": 49,
+   "oldHeard": "s o o",
+   "replaced": false,
+   "bestCandidate": 70
+  },
+  {
+   "id": "j7e03c69a195c",
+   "kana": "とう",
+   "old": 49,
+   "oldHeard": "s o o",
+   "replaced": false,
+   "bestCandidate": 68
+  },
+  {
+   "id": "jbd61163a2067",
+   "kana": "うんそう",
+   "old": 49,
+   "oldHeard": "u N s o N",
+   "replaced": true,
+   "new": 100,
+   "text": "うんそう。",
+   "heard": "u N s o o"
+  },
+  {
+   "id": "j0e54311d2033",
+   "kana": "ベッド",
+   "old": 50,
+   "oldHeard": "b e cl t o",
+   "replaced": false,
+   "bestCandidate": 53
+  },
+  {
+   "id": "j47792baa0c01",
+   "kana": "けいゆ",
+   "old": 53,
+   "oldHeard": "k e r i u",
+   "replaced": true,
+   "new": 100,
+   "text": "けいゆ。",
+   "heard": "k e e y u"
+  },
+  {
+   "id": "j011bd57c2253",
+   "kana": "こす",
+   "old": 53,
+   "oldHeard": "o s u",
+   "replaced": false,
+   "bestCandidate": 53
+  },
+  {
+   "id": "j432f1612c791",
+   "kana": "ばね",
+   "old": 53,
+   "oldHeard": "a n e",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "jac8918aacfbb",
+   "kana": "ピン",
+   "old": 55,
+   "oldHeard": "b i N",
+   "replaced": true,
+   "new": 100,
+   "text": "ピン。",
+   "heard": "p i N"
+  },
+  {
+   "id": "jb7002b87f58d",
+   "kana": "きいろ",
+   "old": 57,
+   "oldHeard": "g i i r o",
+   "replaced": true,
+   "new": 100,
+   "text": "きいろ。",
+   "heard": "k i i r o"
+  },
+  {
+   "id": "j138ed7cda1de",
+   "kana": "コート",
+   "old": 57,
+   "oldHeard": "g o o t o",
+   "replaced": true,
+   "new": 100,
+   "text": "コート。",
+   "heard": "k o o t o"
+  },
+  {
+   "id": "j25f38ca835c5",
+   "kana": "ちゃわん",
+   "old": 57,
+   "oldHeard": "j a w a N",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j4754cbccd601",
+   "kana": "とけい",
+   "old": 57,
+   "oldHeard": "d o k e e",
+   "replaced": true,
+   "new": 100,
+   "text": "とけい。",
+   "heard": "t o k e e"
+  },
+  {
+   "id": "jf4ab9773f675",
+   "kana": "ぬるい",
+   "old": 57,
+   "oldHeard": "m u r u i",
+   "replaced": false,
+   "bestCandidate": 73
+  },
+  {
+   "id": "j44e524e4f238",
+   "kana": "はれる",
+   "old": 57,
+   "oldHeard": "w a r e r u",
+   "replaced": true,
+   "new": 100,
+   "text": "「はれる」",
+   "heard": "h a r e r u"
+  },
+  {
+   "id": "j4fff1c1f0559",
+   "kana": "こしょう",
+   "old": 57,
+   "oldHeard": "g o sh o o",
+   "replaced": true,
+   "new": 100,
+   "text": "故障。",
+   "heard": "k o sh o o"
+  },
+  {
+   "id": "ja4517808475d",
+   "kana": "すっと",
+   "old": 57,
+   "oldHeard": "z u cl t o",
+   "replaced": true,
+   "new": 100,
+   "text": "すっと。",
+   "heard": "s u cl t o"
+  },
+  {
+   "id": "j4d4127e1b81e",
+   "kana": "だいぶ",
+   "old": 57,
+   "oldHeard": "r a i b u",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j99dd36bb56ee",
+   "kana": "とこや",
+   "old": 57,
+   "oldHeard": "d o k o y a",
+   "replaced": true,
+   "new": 100,
+   "text": "とこや。",
+   "heard": "t o k o y a"
+  },
+  {
+   "id": "jdedac553ff95",
+   "kana": "ねぼう",
+   "old": 57,
+   "oldHeard": "m e b o o",
+   "replaced": true,
+   "new": 100,
+   "text": "「ねぼう」",
+   "heard": "n e b o o"
+  },
+  {
+   "id": "je9cf0826c5f3",
+   "kana": "ハンドバッグ",
+   "old": 57,
+   "oldHeard": "h a N d o b a cl k u",
+   "replaced": false,
+   "bestCandidate": 71
+  },
+  {
+   "id": "jf29418c3f5df",
+   "kana": "えんぎ",
+   "old": 57,
+   "oldHeard": "e N j i",
+   "replaced": true,
+   "new": 100,
+   "text": "えんぎ。",
+   "heard": "e N g i"
+  },
+  {
+   "id": "je35ca0360151",
+   "kana": "けいい",
+   "old": 57,
+   "oldHeard": "j e i i",
+   "replaced": false,
+   "bestCandidate": 48
+  },
+  {
+   "id": "jb34b4a2e7a98",
+   "kana": "たから",
+   "old": 57,
+   "oldHeard": "d a k a r a",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j9a86eb087d93",
+   "kana": "ひこう",
+   "old": 57,
+   "oldHeard": "k I k o o",
+   "replaced": true,
+   "new": 100,
+   "text": "ひこう。",
+   "heard": "h I k o o"
+  },
+  {
+   "id": "j4b8bc9a675c9",
+   "kana": "ひたい",
+   "old": 57,
+   "oldHeard": "sh I t a i",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "ja5f76eadade4",
+   "kana": "ペンキ",
+   "old": 57,
+   "oldHeard": "t e N k i",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j0585ade139c2",
+   "kana": "きよい",
+   "old": 57,
+   "oldHeard": "ts u y o i",
+   "replaced": true,
+   "new": 100,
+   "text": "きよい。",
+   "heard": "k i y o i"
+  },
+  {
+   "id": "j31018aa46388",
+   "kana": "こしょう",
+   "old": 57,
+   "oldHeard": "g o sh o o",
+   "replaced": false,
+   "bestCandidate": 67
+  },
+  {
+   "id": "j7a64d3fda47c",
+   "kana": "こてん",
+   "old": 57,
+   "oldHeard": "g o t e N",
+   "replaced": true,
+   "new": 100,
+   "text": "こてん。",
+   "heard": "k o t e N"
+  },
+  {
+   "id": "jdfb904d9ade5",
+   "kana": "しんろ",
+   "old": 57,
+   "oldHeard": "sh i N d o",
+   "replaced": false,
+   "bestCandidate": 58
+  },
+  {
+   "id": "jd359598226ee",
+   "kana": "だとう",
+   "old": 57,
+   "oldHeard": "r a t o o",
+   "replaced": true,
+   "new": 100,
+   "text": "「だとう」",
+   "heard": "d a t o o"
+  },
+  {
+   "id": "jafca3166c1c6",
+   "kana": "だます",
+   "old": 57,
+   "oldHeard": "r a m a s u",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "jaa6a896345b4",
+   "kana": "ちゃわん",
+   "old": 57,
+   "oldHeard": "j a w a N",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j878e40af41ae",
+   "kana": "でんぱ",
+   "old": 57,
+   "oldHeard": "r e N p a",
+   "replaced": true,
+   "new": 100,
+   "text": "でんぱ。",
+   "heard": "d e N p a"
+  },
+  {
+   "id": "jef4cdc0659e0",
+   "kana": "とこや",
+   "old": 57,
+   "oldHeard": "d o k o y a",
+   "replaced": true,
+   "new": 100,
+   "text": "とこや。",
+   "heard": "t o k o y a"
+  },
+  {
+   "id": "j536cdf75702e",
+   "kana": "にえる",
+   "old": 57,
+   "oldHeard": "m i e r u",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "jc0d1b0b83b47",
+   "kana": "ぬらす",
+   "old": 57,
+   "oldHeard": "m u r a s u",
+   "replaced": true,
+   "new": 85,
+   "text": "ぬらす。",
+   "heard": "m n u r a s u"
+  },
+  {
+   "id": "j7290e8a1d9ac",
+   "kana": "ひょうし",
+   "old": 57,
+   "oldHeard": "y o o sh i",
+   "replaced": false,
+   "bestCandidate": 62
+  },
+  {
+   "id": "jcf97c079a16c",
+   "kana": "へいや",
+   "old": 57,
+   "oldHeard": "e i y a",
+   "replaced": true,
+   "new": 100,
+   "text": "「へいや」",
+   "heard": "h e e y a"
+  },
+  {
+   "id": "j412738d27fc2",
+   "kana": "べんじょ",
+   "old": 57,
+   "oldHeard": "r e N j o",
+   "replaced": true,
+   "new": 96,
+   "text": "便所。",
+   "heard": "b e N j o"
+  },
+  {
+   "id": "jdc7a90dca261",
+   "kana": "こす",
+   "old": 59,
+   "oldHeard": "g o s u",
+   "replaced": false,
+   "bestCandidate": 53
+  },
+  {
+   "id": "jee3a00ce4f51",
+   "kana": "ひてい",
+   "old": 59,
+   "oldHeard": "sh I t e i",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "jeab050d96f79",
+   "kana": "まんいち",
+   "old": 59,
+   "oldHeard": "m a i n i ch i",
+   "replaced": false,
+   "bestCandidate": 64
+  },
+  {
+   "id": "j90eee49cc855",
+   "kana": "ぎり",
+   "old": 0,
+   "oldHeard": "g u r u",
+   "replaced": true,
+   "new": 100,
+   "text": "ぎり。",
+   "heard": "g i r i"
+  },
+  {
+   "id": "j7dc1bb27b2f7",
+   "kana": "こ",
+   "old": 0,
+   "oldHeard": "g o",
+   "replaced": false,
+   "bestCandidate": 38
+  },
+  {
+   "id": "jade500cd4a6e",
+   "kana": "こ",
+   "old": 0,
+   "oldHeard": "g o",
+   "replaced": false,
+   "bestCandidate": 39
+  },
+  {
+   "id": "j8e2c2002ede8",
+   "kana": "こ",
+   "old": 0,
+   "oldHeard": "g o",
+   "replaced": false,
+   "bestCandidate": 42
+  },
+  {
+   "id": "je9741cfa6d38",
+   "kana": "てん",
+   "old": 0,
+   "oldHeard": "s e",
+   "replaced": false,
+   "bestCandidate": 0
+  },
+  {
+   "id": "jeb802c1071ca",
+   "kana": "ぶ",
+   "old": 0,
+   "oldHeard": "d e",
+   "replaced": true,
+   "new": 100,
+   "text": "ぶ。",
+   "heard": "b u"
+  },
+  {
+   "id": "j18bf73af8385",
+   "kana": "む",
+   "old": 6,
+   "oldHeard": "n e",
+   "replaced": true,
+   "new": 100,
+   "text": "「む」",
+   "heard": "m u"
+  },
+  {
+   "id": "j801ce4ef5572",
+   "kana": "ひ",
+   "old": 12,
+   "oldHeard": "u i",
+   "replaced": false,
+   "bestCandidate": 51
+  },
+  {
+   "id": "ja2f2f199f6eb",
+   "kana": "ひ",
+   "old": 13,
+   "oldHeard": "u i",
+   "replaced": false,
+   "bestCandidate": 51
+  },
+  {
+   "id": "j7e010e89b3cc",
+   "kana": "き",
+   "old": 15,
+   "oldHeard": "j i i",
+   "replaced": true,
+   "new": 100,
+   "text": "き。",
+   "heard": "k i"
+  },
+  {
+   "id": "j83c19b190452",
+   "kana": "き",
+   "old": 16,
+   "oldHeard": "j i i",
+   "replaced": true,
+   "new": 100,
+   "text": "き。",
+   "heard": "k i"
+  },
+  {
+   "id": "j0579e1d385ea",
+   "kana": "とおりかかる",
+   "old": 17,
+   "oldHeard": "t o r r",
+   "replaced": true,
+   "new": 100,
+   "text": "とおりかかる。",
+   "heard": "t o o r i k a k a r u"
+  },
+  {
+   "id": "jbcf5b6403eaa",
+   "kana": "へいき",
+   "old": 24,
+   "oldHeard": "e e i ch i",
+   "replaced": false,
+   "bestCandidate": 50
+  },
+  {
+   "id": "jd3262bf9ace7",
+   "kana": "そうおう",
+   "old": 30,
+   "oldHeard": "s o",
+   "replaced": false,
+   "bestCandidate": 47
+  },
+  {
+   "id": "jca750a3101ba",
+   "kana": "かえりみる",
+   "old": 34,
+   "oldHeard": "e r m i r",
+   "replaced": true,
+   "new": 100,
+   "text": "かえりみる。",
+   "heard": "k a e r i m i r u"
+  },
+  {
+   "id": "j53e6d66ac2e7",
+   "kana": "かえりみる",
+   "old": 34,
+   "oldHeard": "e r m i r",
+   "replaced": true,
+   "new": 100,
+   "text": "かえりみる。",
+   "heard": "k a e r i m i r u"
+  },
+  {
+   "id": "j5b09bcb0b666",
+   "kana": "きげん",
+   "old": 35,
+   "oldHeard": "j i d e N",
+   "replaced": true,
+   "new": 100,
+   "text": "きげん。",
+   "heard": "k i g e N"
+  },
+  {
+   "id": "j07eaeee9cada",
+   "kana": "ひき",
+   "old": 35,
+   "oldHeard": "s U k i",
+   "replaced": true,
+   "new": 100,
+   "text": "「ひき」",
+   "heard": "h I k i"
+  },
+  {
+   "id": "j66d3b8f893f9",
+   "kana": "はあく",
+   "old": 36,
+   "oldHeard": "f a a k U",
+   "replaced": false,
+   "bestCandidate": 73
+  },
+  {
+   "id": "j7d8539fef3dc",
+   "kana": "ひれい",
+   "old": 42,
+   "oldHeard": "k i r e i",
+   "replaced": false,
+   "bestCandidate": 69
+  },
+  {
+   "id": "j04ddef2b511b",
+   "kana": "きょひ",
+   "old": 43,
+   "oldHeard": "ky o sh I",
+   "replaced": true,
+   "new": 100,
+   "text": "きょひ。",
+   "heard": "ky o h i"
+  },
+  {
+   "id": "jf5c16d2cae59",
+   "kana": "きよ",
+   "old": 43,
+   "oldHeard": "k i ry o",
+   "replaced": true,
+   "new": 100,
+   "text": "きよ。",
+   "heard": "k i y o"
+  },
+  {
+   "id": "j81b02c663dac",
+   "kana": "こじ",
+   "old": 43,
+   "oldHeard": "g o j i",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "jc0795f284221",
+   "kana": "こむ",
+   "old": 43,
+   "oldHeard": "g o m u",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j88d1d15876d9",
+   "kana": "しき",
+   "old": 43,
+   "oldHeard": "s U k i",
+   "replaced": true,
+   "new": 100,
+   "text": "指揮。",
+   "heard": "sh I k i"
+  },
+  {
+   "id": "j42d0ebd555f8",
+   "kana": "たか",
+   "old": 43,
+   "oldHeard": "d a k a",
+   "replaced": true,
+   "new": 100,
+   "text": "たか。",
+   "heard": "t a k a"
+  },
+  {
+   "id": "jde0f3937cab3",
+   "kana": "ちゃく",
+   "old": 43,
+   "oldHeard": "j a k u",
+   "replaced": true,
+   "new": 96,
+   "text": "「ちゃく」",
+   "heard": "ch a k u"
+  },
+  {
+   "id": "j86288f9ffad6",
+   "kana": "ちょしょ",
+   "old": 43,
+   "oldHeard": "j o sh o",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "jd66a284a078e",
+   "kana": "とこ",
+   "old": 43,
+   "oldHeard": "d o k o",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "j8ba373b3f65b",
+   "kana": "ネガ",
+   "old": 43,
+   "oldHeard": "m e g a",
+   "replaced": false,
+   "bestCandidate": 47
+  },
+  {
+   "id": "j7580154c9341",
+   "kana": "ねじ",
+   "old": 43,
+   "oldHeard": "m e j i",
+   "replaced": true,
+   "new": 100,
+   "text": "「ねじ」",
+   "heard": "n e j i"
+  },
+  {
+   "id": "j06ef3c49a0fe",
+   "kana": "はて",
+   "old": 43,
+   "oldHeard": "w a t e",
+   "replaced": true,
+   "new": 100,
+   "text": "はて。",
+   "heard": "h a t e"
+  },
+  {
+   "id": "j56906110c140",
+   "kana": "ほぼ",
+   "old": 43,
+   "oldHeard": "h o d o",
+   "replaced": true,
+   "new": 100,
+   "text": "ほぼ。",
+   "heard": "h o b o"
+  },
+  {
+   "id": "j8bd0fd5848fe",
+   "kana": "カクテル",
+   "old": 45,
+   "oldHeard": "k a k t e r",
+   "replaced": true,
+   "new": 100,
+   "text": "カクテル。",
+   "heard": "k a k U t e r u"
+  },
+  {
+   "id": "je917553c3184",
+   "kana": "かまえる",
+   "old": 45,
+   "oldHeard": "k a m e",
+   "replaced": false,
+   "bestCandidate": 45
+  },
+  {
+   "id": "j4e857cd2e44d",
+   "kana": "かみきる",
+   "old": 45,
+   "oldHeard": "k m i k i r",
+   "replaced": true,
+   "new": 100,
+   "text": "かみきる。",
+   "heard": "k a m i k i r u"
+  },
+  {
+   "id": "j44892a66252c",
+   "kana": "タイトル",
+   "old": 45,
+   "oldHeard": "t a i o r",
+   "replaced": false,
+   "bestCandidate": 69
+  },
+  {
+   "id": "j059d63093496",
+   "kana": "はいぶん",
+   "old": 45,
+   "oldHeard": "a i N",
+   "replaced": true,
+   "new": 100,
+   "text": "配分。",
+   "heard": "h a i b u N"
+  },
+  {
+   "id": "jb306f58ae3b2",
+   "kana": "はん",
+   "old": 45,
+   "oldHeard": "f a N",
+   "replaced": true,
+   "new": 89,
+   "text": "はん。",
+   "heard": "h a N"
+  },
+  {
+   "id": "jce279aaa24c4",
+   "kana": "はん",
+   "old": 45,
+   "oldHeard": "f a N",
+   "replaced": true,
+   "new": 98,
+   "text": "「はん」",
+   "heard": "h a N"
+  },
+  {
+   "id": "jb1b80f240129",
+   "kana": "はん",
+   "old": 45,
+   "oldHeard": "f a N",
+   "replaced": true,
+   "new": 99,
+   "text": "「はん」",
+   "heard": "h a N"
+  },
+  {
+   "id": "j3c15c0de46a6",
+   "kana": "ちょう",
+   "old": 46,
+   "oldHeard": "j o o",
+   "replaced": true,
+   "new": 100,
+   "text": "「ちょう」",
+   "heard": "ch o o"
+  },
+  {
+   "id": "j8ef0cfd50af5",
+   "kana": "ちょう",
+   "old": 46,
+   "oldHeard": "j o o",
+   "replaced": true,
+   "new": 100,
+   "text": "「ちょう」",
+   "heard": "ch o o"
+  },
+  {
+   "id": "jbbe557df3884",
+   "kana": "ちょう",
+   "old": 46,
+   "oldHeard": "j o o",
+   "replaced": true,
+   "new": 100,
+   "text": "「ちょう」",
+   "heard": "ch o o"
+  },
+  {
+   "id": "jee701016a7c9",
+   "kana": "ちょう",
+   "old": 46,
+   "oldHeard": "j o o",
+   "replaced": true,
+   "new": 100,
+   "text": "「ちょう」",
+   "heard": "ch o o"
+  },
+  {
+   "id": "j770553c1cc13",
+   "kana": "ともかせぎ",
+   "old": 51,
+   "oldHeard": "o m k a s e g i",
+   "replaced": true,
+   "new": 100,
+   "text": "「ともかせぎ」",
+   "heard": "t o m o k a s e g i"
+  },
+  {
+   "id": "j1c815ddc33cd",
+   "kana": "ほ",
+   "old": 51,
+   "oldHeard": "o cl",
+   "replaced": true,
+   "new": 92,
+   "text": "「ほ」",
+   "heard": "h o cl"
+  },
+  {
+   "id": "jc40bd5121340",
+   "kana": "きわ",
+   "old": 53,
+   "oldHeard": "g i w a",
+   "replaced": true,
+   "new": 100,
+   "text": "きわ。",
+   "heard": "k i w a"
+  },
+  {
+   "id": "j52810e16ce22",
+   "kana": "こぜに",
+   "old": 53,
+   "oldHeard": "g o z e N n i",
+   "replaced": true,
+   "new": 100,
+   "text": "こぜに。",
+   "heard": "k o z e n i"
+  },
+  {
+   "id": "j1068b6fb2b56",
+   "kana": "ばね",
+   "old": 53,
+   "oldHeard": "a n e",
+   "replaced": false,
+   "bestCandidate": 43
+  },
+  {
+   "id": "jac928fab14ed",
+   "kana": "ふん",
+   "old": 53,
+   "oldHeard": "u N",
+   "replaced": true,
+   "new": 100,
+   "text": "ふん。",
+   "heard": "f u N"
+  },
+  {
+   "id": "j068e3e4b677b",
+   "kana": "こうにゅう",
+   "old": 54,
+   "oldHeard": "k o o n y u u",
+   "replaced": true,
+   "new": 100,
+   "text": "こうにゅう。",
+   "heard": "k o o ny u u"
+  },
+  {
+   "id": "je262c71374c7",
+   "kana": "りゅう",
+   "old": 56,
+   "oldHeard": "gy u u",
+   "replaced": false,
+   "bestCandidate": 58
+  },
+  {
+   "id": "jce551757a1c3",
+   "kana": "きじつ",
+   "old": 57,
+   "oldHeard": "k i j u ts u",
+   "replaced": true,
+   "new": 94,
+   "text": "きじつ。",
+   "heard": "k i j i ts u"
+  },
+  {
+   "id": "j58205fab8b28",
+   "kana": "きひん",
+   "old": 57,
+   "oldHeard": "j i h i N",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j66d625784d20",
+   "kana": "きょよう",
+   "old": 57,
+   "oldHeard": "gy o y o o",
+   "replaced": true,
+   "new": 100,
+   "text": "許容。",
+   "heard": "ky o y o o"
+  },
+  {
+   "id": "jb2e0e3e52c5b",
+   "kana": "きりゅう",
+   "old": 57,
+   "oldHeard": "g i ry u u",
+   "replaced": true,
+   "new": 100,
+   "text": "きりゅう。",
+   "heard": "k i ry u u"
+  },
+  {
+   "id": "j471c2b7efcee",
+   "kana": "ぎょせん",
+   "old": 57,
+   "oldHeard": "y o s e N",
+   "replaced": true,
+   "new": 100,
+   "text": "ぎょせん。",
+   "heard": "gy o s e N"
+  },
+  {
+   "id": "jaf6305aaa3f9",
+   "kana": "ぎんみ",
+   "old": 57,
+   "oldHeard": "g e N m i",
+   "replaced": true,
+   "new": 100,
+   "text": "ぎんみ。",
+   "heard": "g i N m i"
+  },
+  {
+   "id": "ja899407c5a3a",
+   "kana": "くんしゅ",
+   "old": 57,
+   "oldHeard": "g u N sh",
+   "replaced": true,
+   "new": 97,
+   "text": "くんしゅ。",
+   "heard": "k u N sh"
+  },
+  {
+   "id": "j483c13ec3481",
+   "kana": "けいひ",
+   "old": 57,
+   "oldHeard": "k e e sh i",
+   "replaced": true,
+   "new": 100,
+   "text": "「けいひ」",
+   "heard": "k e e h i"
+  },
+  {
+   "id": "je5ac3d91c2f6",
+   "kana": "げっしゃ",
+   "old": 57,
+   "oldHeard": "r e cl sh a",
+   "replaced": true,
+   "new": 100,
+   "text": "「げっしゃ」",
+   "heard": "g e cl sh a"
+  },
+  {
+   "id": "j9114c332f4bf",
+   "kana": "こよう",
+   "old": 57,
+   "oldHeard": "g o y o o",
+   "replaced": false,
+   "bestCandidate": 76
+  },
+  {
+   "id": "jb2bc21fd179b",
+   "kana": "しけい",
+   "old": 57,
+   "oldHeard": "s u k e e",
+   "replaced": true,
+   "new": 100,
+   "text": "しけい。",
+   "heard": "sh I k e e"
+  },
+  {
+   "id": "jcc65eac9854a",
+   "kana": "しゅたい",
+   "old": 57,
+   "oldHeard": "sh I t a i",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "ja7b9128d2c1a",
+   "kana": "しんろ",
+   "old": 57,
+   "oldHeard": "sh i N d o",
+   "replaced": false,
+   "bestCandidate": 58
+  },
+  {
+   "id": "j55a621b0e5a2",
+   "kana": "だかい",
+   "old": 57,
+   "oldHeard": "r a k a i",
+   "replaced": true,
+   "new": 100,
+   "text": "だかい。",
+   "heard": "d a k a i"
+  },
+  {
+   "id": "j4cdcc241b339",
+   "kana": "だます",
+   "old": 57,
+   "oldHeard": "r a m a s u",
+   "replaced": true,
+   "new": 99,
+   "text": "騙す。",
+   "heard": "d a m a s u"
+  },
+  {
+   "id": "j6dcdadbd724a",
+   "kana": "ダース",
+   "old": 57,
+   "oldHeard": "r a a s u",
+   "replaced": true,
+   "new": 100,
+   "text": "「ダース」",
+   "heard": "d a a s u"
+  },
+  {
+   "id": "j17254c1a2ca6",
+   "kana": "ちつじょ",
+   "old": 57,
+   "oldHeard": "sh I ts u j o",
+   "replaced": false,
+   "bestCandidate": 74
+  },
+  {
+   "id": "jda67153b085f",
+   "kana": "ちてき",
+   "old": 57,
+   "oldHeard": "sh I t e k i",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j89365bfc8529",
+   "kana": "ちょうめ",
+   "old": 57,
+   "oldHeard": "j o o m e",
+   "replaced": true,
+   "new": 100,
+   "text": "丁目。",
+   "heard": "ch o o m e"
+  },
+  {
+   "id": "j87acc33e93f3",
+   "kana": "つねる",
+   "old": 57,
+   "oldHeard": "ts u m e r u",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j13554b24186c",
+   "kana": "てはい",
+   "old": 57,
+   "oldHeard": "d e h a i",
+   "replaced": true,
+   "new": 100,
+   "text": "てはい。",
+   "heard": "t e h a i"
+  },
+  {
+   "id": "j2328b783ec50",
+   "kana": "でかい",
+   "old": 57,
+   "oldHeard": "r e k a i",
+   "replaced": true,
+   "new": 100,
+   "text": "でかい。",
+   "heard": "d e k a i"
+  },
+  {
+   "id": "j9c35ae55e576",
+   "kana": "なふだ",
+   "old": 57,
+   "oldHeard": "r a f u d a",
+   "replaced": true,
+   "new": 100,
+   "text": "なふだ。",
+   "heard": "n a f u d a"
+  },
+  {
+   "id": "j53a59086722f",
+   "kana": "ぬかす",
+   "old": 57,
+   "oldHeard": "m u k a s u",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "ja7185100e36b",
+   "kana": "ぬすみ",
+   "old": 57,
+   "oldHeard": "m u s u m i",
+   "replaced": true,
+   "new": 100,
+   "text": "「ぬすみ」",
+   "heard": "n u s u m i"
+  },
+  {
+   "id": "jf769e463d2c3",
+   "kana": "ねうち",
+   "old": 57,
+   "oldHeard": "m e u ch i",
+   "replaced": true,
+   "new": 100,
+   "text": "ねうち。",
+   "heard": "n e u ch i"
+  },
+  {
+   "id": "j8fe12e08d0b1",
+   "kana": "ねたむ",
+   "old": 57,
+   "oldHeard": "m e t a m u",
+   "replaced": true,
+   "new": 100,
+   "text": "ねたむ。",
+   "heard": "n e t a m u"
+  },
+  {
+   "id": "jbc38f04a00f1",
+   "kana": "ねだる",
+   "old": 57,
+   "oldHeard": "m e d a r u",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j2251da4ad776",
+   "kana": "はいき",
+   "old": 57,
+   "oldHeard": "w a i k i",
+   "replaced": true,
+   "new": 100,
+   "text": "廃棄。",
+   "heard": "h a i k i"
+  },
+  {
+   "id": "j3b9a2c384c47",
+   "kana": "はいふ",
+   "old": 57,
+   "oldHeard": "w a i f u",
+   "replaced": true,
+   "new": 100,
+   "text": "配布。",
+   "heard": "h a i f u"
+  },
+  {
+   "id": "jc010289bfedd",
+   "kana": "はかい",
+   "old": 57,
+   "oldHeard": "w a k a i",
+   "replaced": true,
+   "new": 100,
+   "text": "破壊。",
+   "heard": "h a k a i"
+  },
+  {
+   "id": "j2979ad5fc800",
+   "kana": "はまべ",
+   "old": 57,
+   "oldHeard": "h a m a d e",
+   "replaced": true,
+   "new": 100,
+   "text": "はまべ。",
+   "heard": "h a m a b e"
+  },
+  {
+   "id": "j107e93867e85",
+   "kana": "はれる",
+   "old": 57,
+   "oldHeard": "w a r e r u",
+   "replaced": true,
+   "new": 100,
+   "text": "「はれる」",
+   "heard": "h a r e r u"
+  },
+  {
+   "id": "jcb2afcecb6c3",
+   "kana": "ばける",
+   "old": 57,
+   "oldHeard": "w a k e r u",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j508dabac8a53",
+   "kana": "バッジ",
+   "old": 57,
+   "oldHeard": "b a cl ch i",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "jbcfaf5a09759",
+   "kana": "ひこう",
+   "old": 57,
+   "oldHeard": "k I k o o",
+   "replaced": true,
+   "new": 100,
+   "text": "ひこう。",
+   "heard": "h I k o o"
+  },
+  {
+   "id": "j92cadcf28a00",
+   "kana": "ひじゅう",
+   "old": 57,
+   "oldHeard": "k i j u u",
+   "replaced": true,
+   "new": 100,
+   "text": "ひじゅう。",
+   "heard": "h i j u u"
+  },
+  {
+   "id": "j2bef0b6fab4b",
+   "kana": "ひつじ",
+   "old": 57,
+   "oldHeard": "sh I ts u j i",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j65994afe5008",
+   "kana": "ひょっと",
+   "old": 57,
+   "oldHeard": "y o cl t o",
+   "replaced": false,
+   "bestCandidate": 57
+  },
+  {
+   "id": "j6a16f55f6fc2",
+   "kana": "びょうしゃ",
+   "old": 57,
+   "oldHeard": "ry o o sh a",
+   "replaced": true,
+   "new": 100,
+   "text": "描写。",
+   "heard": "by o o sh a"
+  },
+  {
+   "id": "jec9c8ca0ba88",
+   "kana": "へいさ",
+   "old": 57,
+   "oldHeard": "e i s a",
+   "replaced": true,
+   "new": 100,
+   "text": "「へいさ」",
+   "heard": "h e e s a"
+  },
+  {
+   "id": "jf3112e3024c8",
+   "kana": "へいし",
+   "old": 57,
+   "oldHeard": "e i sh i",
+   "replaced": true,
+   "new": 100,
+   "text": "へいし。",
+   "heard": "h e e sh i"
+  },
+  {
+   "id": "j0bff34c1f5d4",
+   "kana": "みかい",
+   "old": 57,
+   "oldHeard": "n i k a i",
+   "replaced": true,
+   "new": 100,
+   "text": "みかい。",
+   "heard": "m i k a i"
+  },
+  {
+   "id": "jbdae9d962acb",
+   "kana": "りゃくご",
+   "old": 57,
+   "oldHeard": "y a k u g o",
+   "replaced": true,
+   "new": 100,
+   "text": "りゃくご。",
+   "heard": "ry a k u g o"
+  },
+  {
+   "id": "j9e5b238a083a",
+   "kana": "ろんり",
+   "old": 57,
+   "oldHeard": "r o N d i",
+   "replaced": false,
+   "bestCandidate": 70
+  },
+  {
+   "id": "jaa7072ea0b25",
+   "kana": "ぎょそん",
+   "old": 58,
+   "oldHeard": "y o s o N",
+   "replaced": true,
+   "new": 100,
+   "text": "ぎょそん。",
+   "heard": "gy o s o N"
+  },
+  {
+   "id": "j076931927881",
+   "kana": "てんきょ",
+   "old": 58,
+   "oldHeard": "d e N ky o",
+   "replaced": false,
+   "bestCandidate": 74
+  }
+ ]
+}
