@@ -11,10 +11,10 @@ out={}
 with sync_playwright() as p:
  for label,wav in [('same',WORD),('other','j497356cf0646')]:
   ctx=p.chromium.launch_persistent_context(PROFILE,headless=True,args=['--use-fake-ui-for-media-stream','--use-fake-device-for-media-stream',f'--use-file-for-fake-audio-capture={FAKE/(wav+".wav")}'],viewport={'width':390,'height':844},is_mobile=True,has_touch=True,permissions=['microphone'])
-  pg=ctx.pages[0] if ctx.pages else ctx.new_page();errs=[];pg.on('pageerror',lambda e:errs.append(str(e)))
+  print('RUN',label,flush=True);pg=ctx.pages[0] if ctx.pages else ctx.new_page();errs=[];pg.on('pageerror',lambda e:errs.append(str(e)))
   pg.goto(BASE);pg.wait_for_selector('.view')
   if pg.locator('#nm').count():onboard(pg)
-  pg.goto(BASE+'#/speak?w='+WORD);pg.evaluate('route()');pg.wait_for_selector('#sarea');pg.wait_for_timeout(1500)
+  pg.wait_for_function('typeof words!=="undefined"&&words.length>0');pg.goto(BASE+'#/speak?w='+WORD);pg.wait_for_timeout(500);pg.evaluate('route()');pg.wait_for_selector('#sarea',timeout=60000);pg.wait_for_timeout(1500)
   if pg.locator('#dlm').count():pg.click('#dlm');pg.wait_for_selector('#sarea[data-state="ready"]',timeout=600000)
   pg.click('#mic');pg.wait_for_selector('#sarea[data-state="scored"], #sarea[data-state="result"], #sarea[data-state="error"]',timeout=60000)
   st=pg.get_attribute('#sarea','data-state');score=pg.locator('.score b').inner_text() if st=='scored' else None
