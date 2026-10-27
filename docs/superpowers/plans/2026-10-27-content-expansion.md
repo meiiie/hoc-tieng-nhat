@@ -40,19 +40,16 @@
 
 ### Task 3: Audio per N3, N2, N1
 
-- [ ] Add resumable chunk/backoff options to tools/gen-audio.py with retry behavior checks.
-- [ ] Generate in background chunks, verify all MP3 decode/format, rebuild bindings, document actual counts and hosting size/limits.
-- [ ] Gate, bump, commit and push each level separately.
+- [x] Add resumable chunk/backoff options to tools/gen-audio.py with retry behavior checks.
+- [x] Generate in background chunks, verify all MP3 decode/format, rebuild bindings, document actual counts and hosting size/limits.
+- [x] Gate, bump, commit and push each level separately.
 
 ### Task 4: Licensed pitch completion
 
-- [ ] Inspect local Kanjium and licensed online alternatives, retain exact source provenance and licence terms.
-- [ ] Add only directly supported form/reading accents; test mora bounds and source matches; document remaining nulls and before/after counts.
-- [ ] Gate, bump, commit and push release.
+- [x] Inspect local Kanjium and licensed online alternatives, retain exact source provenance and licence terms.
+- [x] Add only directly supported form/reading accents; test mora bounds and source matches; document remaining nulls and before/after counts.
+- [x] Gate, bump, commit and push release.
 
 ### Task 5: Live verification and report
 
-- [ ] Test scripts accept base URL/prefix. Wait for Pages build matching final pushed commit.
-- [ ] Run full live Chromium/WebKit E2E/axe, live-safe PWA checks, answer boundaries, Lighthouse 13.x and 11.7.1 PWA.
-- [ ] Save live-* reports and review-example screenshots; inspect screenshots.
-- [ ] Write /workspace/japanese/codex-report-2.md with full commit hashes/push status, counts, sizes, gate results, scores and honest untested list.
+The test scripts accept the deployment URL and report prefix. After the final push, record the matching Pages build, full live Chromium/WebKit E2E/axe, live-safe PWA checks, answer boundaries, Lighthouse 13.x and 11.7.1 PWA, and inspected screenshots in `/workspace/japanese/codex-report-2.md`. Live artifacts belong in `/workspace/japanese/reports/live-*` and `/workspace/japanese/screenshots/live-*`; they are produced after deployment and kept outside the repository.

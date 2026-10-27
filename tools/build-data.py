@@ -21,6 +21,7 @@ def main():
  vocab=json.loads((src/'JLPT_vocab_ALL.json').read_text());jlptkanji=json.loads((src/'JLPT_kanji_ALL.json').read_text());jm=json.loads((src/'jmdict-eng-3.6.2.json').read_text());kd=json.loads((src/'kanjidic2-all-3.6.2.json').read_text())
  fixes={(r['kanji'],r['reading']):r for r in readtsv(out/'sources/entry-fixes.tsv')}
  tatoeba_examples=json.loads((out/'sources/tatoeba-examples.json').read_text()) if (out/'sources/tatoeba-examples.json').exists() else {}
+ pitch_additions=json.loads((out/'sources/pitch-additions.json').read_text()) if (out/'sources/pitch-additions.json').exists() else {}
  vi={r['id']:r for r in readtsv(out/'sources/vi-glosses.tsv')}
  selections={(r['kanji'],r['reading']):r['jmdict'] for r in readtsv(out/'sources/sense-selection.tsv')}
  pairs=defaultdict(list);kana=defaultdict(list)
@@ -83,6 +84,13 @@ def main():
   kanji[c]={'hv':list(dict.fromkeys(r['value'].lower() for r in rs if r['type']=='vietnam')),'on':[r['value'] for r in rs if r['type']=='ja_on'],'kun':[r['value'] for r in rs if r['type']=='ja_kun'],'level':jlptkanji.get(c),'strokes':path if p.exists() else None,'strokeCount':(x.get('misc',{}).get('strokeCounts') or [None])[0]}
  for w,r in zip(words,romaji):
   w['romaji']=r;w['hv']=' · '.join('/'.join(kanji[c]['hv']) for c in w['kanji'] if c in kanji and kanji[c]['hv']);w['pitch']=accents.get((w['kanji'],hira(w['kana']))) or None
+  w['pitchSource']='kanjium' if w['pitch'] is not None else None
+  if w['id'] in pitch_additions:
+   addition=pitch_additions[w['id']]
+   assert w['pitch'] is None,('pitch overlay must not replace existing Kanjium',w['id'])
+   assert (addition['form'],addition['reading'],addition['jmdict'])==(w['kanji'],w['kana'],w['jmdict']),('pitch key mismatch',w['id'])
+   assert addition['source'] in ('kanjium','unidic-2.1.2') and addition['pitch'],('invalid pitch source',w['id'])
+   w['pitch']=addition['pitch'];w['pitchSource']=addition['source']
   w['audio']=f"audio/n{w['level']}/w/{w['id']}.mp3" if (ROOT/f"audio/n{w['level']}/w/{w['id']}.mp3").exists() else None
   if w['id'] in vi:assert vi[w['id']]['kanji']==w['kanji'] and vi[w['id']]['reading']==w['kana'],('translation key mismatch',w['id'])
  kana_cards=[]

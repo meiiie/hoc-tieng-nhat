@@ -6,12 +6,12 @@
 
 | Cấp | Từ phân biệt | Có nghĩa Việt | Có Hán Việt | Có cao độ | Có MP3 |
 |---|---:|---:|---:|---:|---:|
-| N5 | 684 | 684 | 514 | 506 | 684 |
-| N4 | 641 | 641 | 496 | 488 | 641 |
-| N3 | 1.768 | 1.768 | 1.546 | 1.536 | 1.768 |
-| N2 | 1.826 | 1.826 | 1.508 | 1.494 | 1.826 |
-| N1 | 3.425 | 3.425 | 3.152 | 3.072 | 3.425 |
-| Tổng | 8.344 | 8.344 | 7.216 | 7.096 | 8.344 |
+| N5 | 684 | 684 | 514 | 638 | 684 |
+| N4 | 641 | 641 | 496 | 605 | 641 |
+| N3 | 1.768 | 1.768 | 1.546 | 1.712 | 1.768 |
+| N2 | 1.826 | 1.826 | 1.508 | 1.749 | 1.826 |
+| N1 | 3.425 | 3.425 | 3.152 | 3.328 | 3.425 |
+| Tổng | 8.344 | 8.344 | 7.216 | 8.032 | 8.344 |
 
 `data/kanji.json` có **2.535 kanji**, tất cả có âm Hán Việt trong KANJIDIC2 và SVG KanjiVG. `data/kana.json` có **214 mục**: mỗi bảng có 46 âm cơ bản, 25 âm đục/bán đục, 36 âm ghép. **2.683 SVG** là hợp của các chữ trong danh mục kanji JLPT, chữ xuất hiện trong từ vựng và kana dùng trong bảng; không sao chép toàn bộ KanjiVG hoặc các biến thể không dùng. SVG nguồn giữ nguyên byte.
 
@@ -43,13 +43,25 @@ Python chuẩn và Node (dùng cùng bộ chuyển kana/romaji với ứng dụn
 | `en`, `jmdict`, `match`, `sourceForm` | Các nghĩa Anh đúng ràng buộc kana/kanji, ID từ điển, cách ghép, cặp Tanos gốc |
 | `v`, `viMethod` | Nghĩa Việt ngắn và phương pháp cho từng mục |
 | `hv` | Ghép âm `vietnam` của từng kanji, viết thường; `/` phân cách biến thể, `·` phân cách chữ |
-| `pitch` | Danh sách số accent từ Kanjium, hoặc `null` khi thiếu |
+| `pitch`, `pitchSource` | Số accent gốc và nguồn `kanjium`/`unidic-2.1.2`; cả hai `null` khi thiếu |
 | `example` | Câu Tatoeba, bản dịch, tác giả/ID/URL/giấy phép và vị trí khớp chính xác; thiếu thì `null` |
 | `audio` | Đường dẫn MP3 thực sự tồn tại, hoặc `null` |
 
 Hán Việt trình bày **theo từng chữ**, không tự chọn một cách đọc chuẩn cho cả từ; thí dụ 校 có nhiều âm trong KANJIDIC2. Từ thuần kana không tự suy diễn Hán Việt. `kanji.json` giữ toàn bộ âm on/kun, Hán Việt, cấp từ danh mục kanji (có thể `null` nếu chữ chỉ có trong từ vựng), số nét và đường dẫn SVG. Không suy cấp của chữ từ cấp của từ chứa nó.
 
-Cao độ ghép đúng dạng chữ + cách đọc, chỉ chuẩn hóa katakana/hiragana cho khóa cách đọc. Giữ nhiều biến thể; không đoán từ khi dữ liệu thiếu. **1.248 mục chưa có cao độ**. Số accent phải nằm trong số mora của từ; test xác minh toàn bộ.
+Cao độ có nguồn tăng từ **7.096 lên 8.032**: thêm **936** (935 UniDic, 1 Kanjium). Còn **312 mục `null`**, không đoán khi thiếu hoặc mơ hồ. Giữ thứ tự biến thể trong nguồn; số accent phải nằm trong số mora của từ. ID và 7.096 giá trị cũ không thay đổi.
+
+## Bổ sung cao độ có nguồn
+
+`data/sources/pitch-method.json` ghi số trước/sau từng cấp, phiên bản, SHA-256 và URL nguồn; `pitch-additions.json` giữ từng giá trị gốc và khóa ghép. `pitch-unresolved.json` công bố các mục còn `null`. Không thay các giá trị Kanjium đã có.
+
+Đã đối chiếu `../src/accents.txt` với Kanjium tại commit `9ebca4589565c696e7c39e089e2e928ad65f678c`: cùng byte. Kiểm tra thêm các bảng `edict`, `jukugo`, `compverbs`, `yojijukugo` và mô tả cột; một mục có giá trị `acc_pos` khớp chính xác dạng chữ/cách đọc. Giữ dòng nguồn, số dòng, ID bảng và giấy phép CC BY-SA 4.0 của Uros O.
+
+Nguồn bổ sung chính: [UniDic 2.1.2](https://clrd.ninjal.ac.jp/unidic/en/back_number_en.html), The UniDic Consortium, qua `unidic-lite==1.0.8`. [NINJAL cho chọn BSD trong bộ ba giấy phép](https://clrd.ninjal.ac.jp/unidic/faq.html); dự án chọn BSD-3-Clause và giữ nguyên `data/LICENSE-UniDic-BSD.txt`, `data/AUTHORS-UniDic.txt`, `data/COPYING-UniDic.txt`. Không phân phối toàn bộ từ điển. Gói unidic-lite có thay đổi nhỏ so với bản gốc (thêm 令和, bỏ mục số/chữ Latin đơn, sửa mục chưa biết); ghim hash đúng binary đã dùng, không gọi đây là bản UniDic gốc chưa sửa.
+
+[UniDic mô tả `aType`](https://clrd.ninjal.ac.jp/unidic/UNIDIC_manual.pdf#page=27) là vị trí accent tính theo mora; 0 là heiban, danh sách phân cách bằng dấu phẩy giữ thứ tự ưu tiên. Công cụ đọc mọi nút từ điển thật của fugashi `-a`, đòi nguyên từ bằng `surface`, `orth`, `orthBase`; cả `kana` và `kanaBase` phải đúng cách đọc. Lemma phải thuộc dạng chữ của mục JMdict đã chọn (chỉ bỏ hậu tố nguồn gốc từ mượn như `-apartment`); không dùng riêng cách đọc để cho phép lemma khác. Chỉ nhận `aType` số, không sửa accent, không nút chưa biết, không quy tắc chia động từ hay nối từ. Mọi nút phù hợp phải đồng ý cả giá trị lẫn thứ tự biến thể. Nếu còn mơ hồ, giữ `null`.
+
+Tái trích: `.cache/content-venv/bin/python tools/pitch_sources.py --download` (tải Kanjium đã ghim vào `.cache`); sau đó `python3 tools/build-data.py`. Build thông thường chỉ đọc overlay, không chạy bộ phân tích. `tests/pitch_sources_test.py` kiểm tra từ đồng âm, từ ghép, nút chưa biết và bẫy tên riêng/ký hiệu; `tests/pitch_provenance.py` đối chiếu từng bản ghi với binary/dòng nguồn và bảo toàn toàn bộ accent/ID cũ. Không dùng Wiktionary hoặc nguồn không rõ giấy phép trong đợt này. Chưa có kiểm định accent bởi người bản ngữ; đây là dữ liệu từ điển, không phải kết quả suy từ âm thanh Nanami.
 
 ## Câu ví dụ Tatoeba
 
@@ -89,4 +101,4 @@ Giới hạn đã đối chiếu ngày 2026-10-27: [GitHub Pages](https://docs.g
 
 Node kiểm tra đủ cấp/trường, ID duy nhất, kana hợp lệ, bản dịch không trống/không còn mẫu tiếng Anh rõ ràng/không emoji, Hán Việt đối chiếu từng âm KANJIDIC2, giới hạn cao độ, audio tồn tại và mọi kanji N5 có SVG. Một lượt giải mã riêng kiểm tra toàn bộ MP3; nó không đo chất lượng nói. So sánh SHA-256 trước/sau build xác minh tái dựng không đổi các tệp đã tạo.
 
-JMdict, KANJIDIC2 và bản dịch phái sinh giữ CC BY-SA 4.0. Tanos/Waller CC BY, bản chuyển đổi Bluskyo MIT; Kanjium CC BY-SA 4.0; SVG KanjiVG giữ CC BY-SA 3.0. [NOTICE](../data/NOTICE.md) và [SOURCES](../data/SOURCES.md) có ghi công, liên kết giấy phép và mô tả phần sửa.
+JMdict, KANJIDIC2 và bản dịch phái sinh giữ CC BY-SA 4.0. Tanos/Waller CC BY, bản chuyển đổi Bluskyo MIT; Kanjium CC BY-SA 4.0; phần trích UniDic BSD-3-Clause; SVG KanjiVG giữ CC BY-SA 3.0. [NOTICE](../data/NOTICE.md) và [SOURCES](../data/SOURCES.md) có ghi công, liên kết giấy phép và mô tả phần sửa.

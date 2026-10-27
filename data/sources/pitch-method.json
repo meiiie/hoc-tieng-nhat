@@ -1,0 +1,100 @@
+{
+  "checked": "2026-10-27",
+  "beforeNull": 1248,
+  "added": 936,
+  "remainingNull": 312,
+  "sourcesAdded": {
+    "unidic-2.1.2": 935,
+    "kanjium": 1
+  },
+  "levels": {
+    "N5": {
+      "before": 506,
+      "added": 132,
+      "remainingNull": 46
+    },
+    "N4": {
+      "before": 488,
+      "added": 117,
+      "remainingNull": 36
+    },
+    "N3": {
+      "before": 1536,
+      "added": 176,
+      "remainingNull": 56
+    },
+    "N2": {
+      "before": 1494,
+      "added": 255,
+      "remainingNull": 77
+    },
+    "N1": {
+      "before": 3072,
+      "added": 256,
+      "remainingNull": 97
+    }
+  },
+  "kanjium": {
+    "commit": "9ebca4589565c696e7c39e089e2e928ad65f678c",
+    "files": {
+      "README.md": {
+        "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/README.md",
+        "bytes": 9722,
+        "sha256": "2ca73c9cfbe45f9e49db5ab80d514686a34dbcecde0b95040468c0da8ecde94f"
+      },
+      "LICENSE.txt": {
+        "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/LICENSE.txt",
+        "bytes": 18131,
+        "sha256": "638cc6f2d958b1add3883e8d5d73e32ae999ecdc0a4b4d1a83994b3d5b8e69e9"
+      },
+      "data/source_files/0_README.txt": {
+        "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/0_README.txt",
+        "bytes": 2939,
+        "sha256": "5d418ca98a4b6b178955a6578949e79f337bc8d9c97b9075bd7317c7512a8439"
+      },
+      "data/source_files/raw/accents.txt": {
+        "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+        "bytes": 3226405,
+        "sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20"
+      },
+      "data/source_files/edict.txt": {
+        "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/edict.txt",
+        "bytes": 796128,
+        "sha256": "785dda9a80b982d0cd5e56966572b1488c8e0890961318c1a9ce54d0f6c636e0"
+      },
+      "data/source_files/jukugo.txt": {
+        "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/jukugo.txt",
+        "bytes": 3568599,
+        "sha256": "4a7a9b7c60e235f5050fca95cfadf1c31dc036285ad209313cde3ef0d41ad5bf"
+      },
+      "data/source_files/compverbs.txt": {
+        "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/compverbs.txt",
+        "bytes": 130366,
+        "sha256": "f869a6ae377567fe5627e4a0c53c48c8e0cf54c363861e091742ffd5aa64c13a"
+      },
+      "data/source_files/yojijukugo.txt": {
+        "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/yojijukugo.txt",
+        "bytes": 692454,
+        "sha256": "6da38b5ac667f47ebec7d57b469264276034586f9432f1b16eb3b73d7a024114"
+      }
+    }
+  },
+  "unidic": {
+    "version": "2.1.2",
+    "package": "unidic-lite==1.0.8",
+    "reader": "fugashi==1.5.2",
+    "source": "https://clrd.ninjal.ac.jp/unidic/en/back_number_en.html",
+    "packageSource": "https://github.com/polm/unidic-lite",
+    "license": "BSD-3-Clause",
+    "copyright": "Copyright (c) 2011-2013, The UniDic Consortium",
+    "files": {
+      "sys.dic": "122c4c91f026bf4b65bbe2dfd8b9f8eeb6ab56d8eb2a7287a68bca75708ba513",
+      "BSD": "7917ecfaf95a5ba7b4f45aa9a845ac931d79c90f39b7e711442dbc21c612560f",
+      "COPYING": "178ffb7cbc2beadb0b87a14497e58222b484076ba7cfc8938a07ac7627fa22c4",
+      "AUTHORS": "a05bfdd3a9db36d9c64495f4a3d1824d05b95fbb4fc6dc07c660e91bc191c481"
+    },
+    "terms": "https://clrd.ninjal.ac.jp/unidic/faq.html",
+    "fieldDefinition": "https://clrd.ninjal.ac.jp/unidic/UNIDIC_manual.pdf#page=27"
+  },
+  "method": "Exact lexical surface + orthBase + kana/kanaBase. Lemma must match the selected JMdict entry, allowing the documented ASCII loanword-origin suffix. Only explicit numeric aType, aModeType=*, non-unknown nodes. All matching nodes must agree including variant preference order. No compound, inflection or unknown-word accent rules. Existing Kanjium values unchanged."
+}

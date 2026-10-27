@@ -1,3 +1,10 @@
+# 1.6.0 — 2026-10-27
+
+- Thêm 936 cao độ có nguồn: 935 UniDic 2.1.2 (BSD-3-Clause), 1 Kanjium (CC BY-SA 4.0); tổng 8.032/8.344, còn 312 null.
+- Giữ từng bản ghi gốc, phiên bản/hash, giấy phép, thứ tự biến thể; không đoán hoặc nối accent. 7.096 giá trị cũ và mọi ID không đổi.
+- Hiển thị nguồn cao độ của từ và trạng thái thiếu; kiểm tra đồng âm/tên riêng, nguồn dữ liệu và trình duyệt.
+- Cache htn-v1.6.0 chờ Tải lại; không đổi schema tiến độ.
+
 # 1.5.0 — 2026-10-27
 
 - Đủ 3.425 MP3 N1 Nanami; toàn bộ 8.344 từ N5–N1 có tệp mono 24 kHz / 32 kbit/s.

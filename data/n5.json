@@ -60,6 +60,7 @@
   ],
   "v": "gặp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j40179481fcf6.mp3"
  },
  {
@@ -123,6 +124,7 @@
   ],
   "v": "màu xanh lam",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jba729c7107d1.mp3"
  },
  {
@@ -185,6 +187,7 @@
   ],
   "v": "xanh lam",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j10e568715d3a.mp3"
  },
  {
@@ -253,6 +256,7 @@
   ],
   "v": "màu đỏ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3144539c83d3.mp3"
  },
  {
@@ -313,6 +317,7 @@
   ],
   "v": "đỏ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja595b5ca5679.mp3"
  },
  {
@@ -357,6 +362,7 @@
   ],
   "v": "sáng sủa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j580844ced4c9.mp3"
  },
  {
@@ -425,6 +431,7 @@
   ],
   "v": "mùa thu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j85675bbfdbe6.mp3"
  },
  {
@@ -499,6 +506,7 @@
   ],
   "v": "mở (tự mở)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j56dc4d647d8b.mp3"
  },
  {
@@ -573,6 +581,7 @@
   ],
   "v": "mở ra",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j658ff53bc114.mp3"
  },
  {
@@ -678,6 +687,7 @@
   ],
   "v": "nâng lên; cho",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6d1d47c9258e.mp3"
  },
  {
@@ -734,6 +744,7 @@
   ],
   "v": "buổi sáng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j40ae6dddb10a.mp3"
  },
  {
@@ -759,6 +770,7 @@
   ],
   "v": "bữa sáng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j818846d31820.mp3"
  },
  {
@@ -773,7 +785,9 @@
    "wrong (e.g. direction)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 234490,
    "lang": "jpn",
@@ -813,6 +827,7 @@
   ],
   "v": "ngày kia",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j2116b6cad91d.mp3"
  },
  {
@@ -878,6 +893,7 @@
   ],
   "v": "chân",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j64289653ec1d.mp3"
  },
  {
@@ -945,6 +961,7 @@
   ],
   "v": "ngày mai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbec9ce9d08c8.mp3"
  },
  {
@@ -968,7 +985,9 @@
    "that point"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 193954,
    "lang": "jpn",
@@ -1008,6 +1027,7 @@
   ],
   "v": "chỗ kia",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j5b274f581a57.mp3"
  },
  {
@@ -1076,6 +1096,7 @@
   ],
   "v": "chơi; vui chơi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j58a04652246f.mp3"
  },
  {
@@ -1136,6 +1157,7 @@
   ],
   "v": "ấm áp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb1d6f8ff0597.mp3"
  },
  {
@@ -1208,6 +1230,7 @@
   ],
   "v": "đầu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2110de97e73d.mp3"
  },
  {
@@ -1269,6 +1292,7 @@
   ],
   "v": "mới",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j288a95a40d95.mp3"
  },
  {
@@ -1289,7 +1313,9 @@
    "foreign country (esp. a Western nation)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 8845003,
    "lang": "jpn",
@@ -1341,6 +1367,7 @@
   ],
   "v": "phía kia",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/ja4c61e187228.mp3"
  },
  {
@@ -1361,7 +1388,9 @@
    "foreign country (esp. a Western nation)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 8888257,
    "lang": "jpn",
@@ -1401,6 +1430,7 @@
   ],
   "v": "đằng kia",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jf14c108fc553.mp3"
  },
  {
@@ -1464,6 +1494,7 @@
   ],
   "v": "dày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4e55e094a09d.mp3"
  },
  {
@@ -1529,6 +1560,7 @@
   ],
   "v": "nóng (thời tiết)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j19be7f7be766.mp3"
  },
  {
@@ -1596,6 +1628,7 @@
   ],
   "v": "nóng (khi chạm)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdec4a6497500.mp3"
  },
  {
@@ -1666,6 +1699,7 @@
   ],
   "v": "sau; phía sau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j415439a1dbb6.mp3"
  },
  {
@@ -1679,7 +1713,9 @@
    "you"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 4055012,
    "lang": "jpn",
@@ -1719,6 +1755,7 @@
   ],
   "v": "bạn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j01df3c579080.mp3"
  },
  {
@@ -1776,6 +1813,7 @@
   ],
   "v": "anh trai (của mình)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcda9169e9fa2.mp3"
  },
  {
@@ -1832,6 +1870,7 @@
   ],
   "v": "chị gái (của mình)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je3507900ad06.mp3"
  },
  {
@@ -1847,7 +1886,9 @@
    "the"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 231188,
    "lang": "jpn",
@@ -1887,6 +1928,7 @@
   ],
   "v": "kia; đó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j1cca7d20a36c.mp3"
  },
  {
@@ -1903,7 +1945,9 @@
    "apartment"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 114884,
    "lang": "jpn",
@@ -1943,6 +1987,7 @@
   ],
   "v": "nhà chung cư; căn hộ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jc7012a730acb.mp3"
  },
  {
@@ -1965,7 +2010,9 @@
    "to be showered with"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": null,
   "jmdict": "1547450",
   "match": "exact",
@@ -1975,6 +2022,7 @@
   ],
   "v": "tắm; hứng lấy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jc872eeb20597.mp3"
  },
  {
@@ -2053,6 +2101,7 @@
   ],
   "v": "nguy hiểm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb56f4f9656e1.mp3"
  },
  {
@@ -2134,6 +2183,7 @@
   ],
   "v": "ngọt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3661d8e205a0.mp3"
  },
  {
@@ -2208,6 +2258,7 @@
   ],
   "v": "không... lắm; phần thừa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jb49ff0164cc4.mp3"
  },
  {
@@ -2266,6 +2317,7 @@
   ],
   "v": "mưa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7e87850c448d.mp3"
  },
  {
@@ -2326,6 +2378,7 @@
   ],
   "v": "kẹo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j406f88e7315a.mp3"
  },
  {
@@ -2389,6 +2442,7 @@
   ],
   "v": "rửa; giặt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j84e555b3292a.mp3"
  },
  {
@@ -2411,7 +2465,9 @@
    "to be (something unchanged in its current state)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 1273307,
    "lang": "jpn",
@@ -2451,6 +2507,7 @@
   ],
   "v": "có; tồn tại (đồ vật)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j291cb96d2119.mp3"
  },
  {
@@ -2506,6 +2563,7 @@
   ],
   "v": "đi bộ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja76603aae6e4.mp3"
  },
  {
@@ -2567,6 +2625,7 @@
   ],
   "v": "cái kia",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j56e4ae127cea.mp3"
  },
  {
@@ -2634,6 +2693,7 @@
   ],
   "v": "tốt; được",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j69f176ce582c.mp3"
  },
  {
@@ -2650,7 +2710,9 @@
    "don't mention it"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 229430,
    "lang": "jpn",
@@ -2690,6 +2752,7 @@
   ],
   "v": "không; không có gì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j5e97c99f1db9.mp3"
  },
  {
@@ -2751,6 +2814,7 @@
   ],
   "v": "nói",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4fa253e10946.mp3"
  },
  {
@@ -2813,6 +2877,7 @@
   ],
   "v": "nhà",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8af58778f14e.mp3"
  },
  {
@@ -2829,7 +2894,9 @@
    "questionable"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 4561796,
    "lang": "jpn",
@@ -2869,6 +2936,7 @@
   ],
   "v": "thế nào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jc20b735fa41d.mp3"
  },
  {
@@ -2959,6 +3027,7 @@
   ],
   "v": "đi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4397422fc9fb.mp3"
  },
  {
@@ -3013,6 +3082,7 @@
   ],
   "v": "bao nhiêu cái; mấy tuổi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jc148271b701d.mp3"
  },
  {
@@ -3071,6 +3141,7 @@
   ],
   "v": "bao nhiêu tiền",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j61b1348fd56a.mp3"
  },
  {
@@ -3126,6 +3197,7 @@
   ],
   "v": "ao",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc32242596278.mp3"
  },
  {
@@ -3182,6 +3254,7 @@
   ],
   "v": "bác sĩ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j60e888b69674.mp3"
  },
  {
@@ -3201,7 +3274,9 @@
    "office"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 211006,
    "lang": "jpn",
@@ -3248,6 +3323,7 @@
   ],
   "v": "ghế",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jfa3db4e904e0.mp3"
  },
  {
@@ -3308,6 +3384,7 @@
   ],
   "v": "bận",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5ee54e973899.mp3"
  },
  {
@@ -3366,6 +3443,7 @@
   ],
   "v": "đau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j64170b1798cb.mp3"
  },
  {
@@ -3431,6 +3509,7 @@
   ],
   "v": "một",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5d8047464c5d.mp3"
  },
  {
@@ -3490,6 +3569,7 @@
   ],
   "v": "một ngày; cả ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3d24eb7fb7b5.mp3"
  },
  {
@@ -3517,7 +3597,10 @@
    "piece"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0,
+   2
+  ],
   "example": {
    "id": 82856,
    "lang": "jpn",
@@ -3557,6 +3640,7 @@
   ],
   "v": "nhất; số một",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j27252fcd6778.mp3"
  },
  {
@@ -3618,6 +3702,7 @@
   ],
   "v": "cùng nhau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j842637e88e8c.mp3"
  },
  {
@@ -3635,7 +3720,9 @@
    "ordinary days"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 1557700,
    "lang": "jpn",
@@ -3675,6 +3762,7 @@
   ],
   "v": "khi nào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jc9d354f557b3.mp3"
  },
  {
@@ -3732,6 +3820,7 @@
   ],
   "v": "ngày mùng năm; năm ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja02edbda9f4c.mp3"
  },
  {
@@ -3796,6 +3885,7 @@
   ],
   "v": "năm cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j084edf1fdd10.mp3"
  },
  {
@@ -3856,6 +3946,7 @@
   ],
   "v": "luôn luôn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jc983c7b109a6.mp3"
  },
  {
@@ -3924,6 +4015,7 @@
   ],
   "v": "chó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4cd1238bcb91.mp3"
  },
  {
@@ -3985,6 +4077,7 @@
   ],
   "v": "bây giờ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j89beba69de5a.mp3"
  },
  {
@@ -4042,6 +4135,7 @@
   ],
   "v": "ý nghĩa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb549323b238f.mp3"
  },
  {
@@ -4097,6 +4191,7 @@
   ],
   "v": "em gái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j735d35e5b1be.mp3"
  },
  {
@@ -4165,6 +4260,7 @@
   ],
   "v": "không thích; không muốn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8b1fafbd4eb9.mp3"
  },
  {
@@ -4231,6 +4327,7 @@
   ],
   "v": "lối vào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2277be030602.mp3"
  },
  {
@@ -4291,6 +4388,7 @@
   ],
   "v": "có; ở (người, động vật)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je2f1dae6743a.mp3"
  },
  {
@@ -4351,6 +4449,7 @@
   ],
   "v": "cần",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j663506ac051d.mp3"
  },
  {
@@ -4430,6 +4529,7 @@
   ],
   "v": "cho vào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb5e9e035a8be.mp3"
  },
  {
@@ -4516,6 +4616,7 @@
   ],
   "v": "màu sắc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j921d54ba31ef.mp3"
  },
  {
@@ -4537,7 +4638,9 @@
    "this and that"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 228450,
    "lang": "jpn",
@@ -4577,6 +4680,7 @@
   ],
   "v": "nhiều loại; đa dạng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jd4d0c174f3bd.mp3"
  },
  {
@@ -4673,6 +4777,7 @@
   ],
   "v": "trên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc0f58bfab324.mp3"
  },
  {
@@ -4730,6 +4835,7 @@
   ],
   "v": "phía sau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4125c1bacf52.mp3"
  },
  {
@@ -4807,6 +4913,7 @@
   ],
   "v": "mỏng; nhạt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jed0f7d2a2905.mp3"
  },
  {
@@ -4865,6 +4972,7 @@
   ],
   "v": "bài hát",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc563c884f48f.mp3"
  },
  {
@@ -4923,6 +5031,7 @@
   ],
   "v": "hát",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd8974b42548f.mp3"
  },
  {
@@ -4985,6 +5094,7 @@
   ],
   "v": "được sinh ra",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3db312786ce8.mp3"
  },
  {
@@ -5042,6 +5152,7 @@
   ],
   "v": "biển",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j47c1227c459b.mp3"
  },
  {
@@ -5104,6 +5215,7 @@
   ],
   "v": "bán",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5e42ab61b84c.mp3"
  },
  {
@@ -5186,6 +5298,7 @@
   ],
   "v": "ồn ào; phiền",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1ab66229f882.mp3"
  },
  {
@@ -5257,6 +5370,7 @@
   ],
   "v": "áo khoác",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j561c78ab4070.mp3"
  },
  {
@@ -5317,6 +5431,7 @@
   ],
   "v": "tranh; hình vẽ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1ec067551dd4.mp3"
  },
  {
@@ -5375,6 +5490,7 @@
   ],
   "v": "phim",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7b9d866e6dc2.mp3"
  },
  {
@@ -5439,6 +5555,7 @@
   ],
   "v": "rạp chiếu phim",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je1fc3a1ace9c.mp3"
  },
  {
@@ -5494,6 +5611,7 @@
   ],
   "v": "tiếng Anh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0f7ce836ef7a.mp3"
  },
  {
@@ -5517,7 +5635,9 @@
    "good"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 10651820,
    "lang": "jpn",
@@ -5564,6 +5684,7 @@
   ],
   "v": "vâng; đúng vậy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j0afc81d87148.mp3"
  },
  {
@@ -5622,6 +5743,7 @@
   ],
   "v": "nhà ga",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd29031265cf4.mp3"
  },
  {
@@ -5636,7 +5758,9 @@
    "lift"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 1808671,
    "lang": "jpn",
@@ -5676,6 +5800,7 @@
   ],
   "v": "thang máy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j34751fd2b8b6.mp3"
  },
  {
@@ -5731,6 +5856,7 @@
   ],
   "v": "bút chì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jffe18de42b4b.mp3"
  },
  {
@@ -5753,7 +5879,10 @@
    "profitable"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0,
+   3
+  ],
   "example": {
    "id": 3882479,
    "lang": "jpn",
@@ -5793,6 +5922,7 @@
   ],
   "v": "ngon",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j29d396aac7e1.mp3"
  },
  {
@@ -5856,6 +5986,7 @@
   ],
   "v": "nhiều",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja249b72fa923.mp3"
  },
  {
@@ -5921,6 +6052,7 @@
   ],
   "v": "to; lớn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf6377dcbb564.mp3"
  },
  {
@@ -5978,6 +6110,7 @@
   ],
   "v": "to; lớn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jef06b1815ddd.mp3"
  },
  {
@@ -6035,6 +6168,7 @@
   ],
   "v": "đông người",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8b4b08671ceb.mp3"
  },
  {
@@ -6104,6 +6238,7 @@
   ],
   "v": "mẹ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb27125f41e7c.mp3"
  },
  {
@@ -6162,6 +6297,7 @@
   ],
   "v": "bánh kẹo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3841b646739f.mp3"
  },
  {
@@ -6217,6 +6353,7 @@
   ],
   "v": "tiền",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd242b38667c8.mp3"
  },
  {
@@ -6280,6 +6417,7 @@
   ],
   "v": "thức dậy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j72c5b362c4f2.mp3"
  },
  {
@@ -6351,6 +6489,7 @@
   ],
   "v": "đặt; để",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdb6357cc3ab6.mp3"
  },
  {
@@ -6410,6 +6549,7 @@
   ],
   "v": "vợ (của người khác)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j83ac0c84a18d.mp3"
  },
  {
@@ -6464,6 +6604,7 @@
   ],
   "v": "rượu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jb4ce03cd6090.mp3"
  },
  {
@@ -6525,6 +6666,7 @@
   ],
   "v": "đĩa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jdfc6c56f52a3.mp3"
  },
  {
@@ -6585,6 +6727,7 @@
   ],
   "v": "dạy; chỉ bảo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jde83de37aff5.mp3"
  },
  {
@@ -6647,6 +6790,7 @@
   ],
   "v": "ông; cụ ông",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/je49f0c143bbc.mp3"
  },
  {
@@ -6717,6 +6861,7 @@
   ],
   "v": "bác trai; chú",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2cd5d28bfa98.mp3"
  },
  {
@@ -6787,6 +6932,7 @@
   ],
   "v": "chú; bác trai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j75c6ec026e86.mp3"
  },
  {
@@ -6879,6 +7025,7 @@
   ],
   "v": "đẩy; ấn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf49763b8a94b.mp3"
  },
  {
@@ -6937,6 +7084,7 @@
   ],
   "v": "chậm; muộn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf19598f8742b.mp3"
  },
  {
@@ -6995,6 +7143,7 @@
   ],
   "v": "trà",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd18ca13aa386.mp3"
  },
  {
@@ -7065,6 +7214,7 @@
   ],
   "v": "nhà vệ sinh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jec9a0a2e72f1.mp3"
  },
  {
@@ -7137,6 +7287,7 @@
   ],
   "v": "bố",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9013d708ded7.mp3"
  },
  {
@@ -7195,6 +7346,7 @@
   ],
   "v": "em trai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7e8dc4d63e82.mp3"
  },
  {
@@ -7261,6 +7413,7 @@
   ],
   "v": "đàn ông",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4b9dfeafcab4.mp3"
  },
  {
@@ -7319,6 +7472,7 @@
   ],
   "v": "bé trai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j696107ad9e08.mp3"
  },
  {
@@ -7374,6 +7528,7 @@
   ],
   "v": "hôm kia",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j88ea91af84b4.mp3"
  },
  {
@@ -7436,6 +7591,7 @@
   ],
   "v": "năm kia",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2da594390681.mp3"
  },
  {
@@ -7492,6 +7648,7 @@
   ],
   "v": "người lớn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2cc50c2d66a6.mp3"
  },
  {
@@ -7507,7 +7664,9 @@
    "stomach"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 8400562,
    "lang": "jpn",
@@ -7547,6 +7706,7 @@
   ],
   "v": "bụng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j3be48e9555f0.mp3"
  },
  {
@@ -7611,6 +7771,7 @@
   ],
   "v": "giống nhau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9ff4f40a3428.mp3"
  },
  {
@@ -7641,6 +7802,7 @@
   ],
   "v": "anh trai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7b9061f52b70.mp3"
  },
  {
@@ -7671,6 +7833,7 @@
   ],
   "v": "chị gái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1b000d77877a.mp3"
  },
  {
@@ -7726,6 +7889,7 @@
   ],
   "v": "bà; cụ bà",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j9a9ea8e8d12d.mp3"
  },
  {
@@ -7788,6 +7952,7 @@
   ],
   "v": "bác gái; cô; dì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j671ed0a230db.mp3"
  },
  {
@@ -7850,6 +8015,7 @@
   ],
   "v": "cô; dì; bác gái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j28639ad55d30.mp3"
  },
  {
@@ -7905,6 +8071,7 @@
   ],
   "v": "bồn tắm; việc tắm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6b63fe2c92c8.mp3"
  },
  {
@@ -7968,6 +8135,7 @@
   ],
   "v": "cơm hộp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6df3b821e026.mp3"
  },
  {
@@ -8034,6 +8202,7 @@
   ],
   "v": "nhớ; ghi nhớ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0ec838cc07ea.mp3"
  },
  {
@@ -8094,6 +8263,7 @@
   ],
   "v": "cảnh sát",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j43b5bbb2773d.mp3"
  },
  {
@@ -8172,6 +8342,7 @@
   ],
   "v": "nặng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbeff4a4d6b56.mp3"
  },
  {
@@ -8201,7 +8372,9 @@
    "encouraging"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   4
+  ],
   "example": {
    "id": 3614734,
    "lang": "jpn",
@@ -8241,6 +8414,7 @@
   ],
   "v": "thú vị",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j783cfae9151e.mp3"
  },
  {
@@ -8301,6 +8475,7 @@
   ],
   "v": "bơi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j76a7f713c3db.mp3"
  },
  {
@@ -8384,6 +8559,7 @@
   ],
   "v": "xuống; xuống xe",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2438f15019e7.mp3"
  },
  {
@@ -8421,6 +8597,7 @@
   ],
   "v": "kết thúc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6393ca7aefde.mp3"
  },
  {
@@ -8476,6 +8653,7 @@
   ],
   "v": "âm nhạc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j83b219893eca.mp3"
  },
  {
@@ -8536,6 +8714,7 @@
   ],
   "v": "phụ nữ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4d9423288cb2.mp3"
  },
  {
@@ -8594,6 +8773,7 @@
   ],
   "v": "bé gái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j185a632e3742.mp3"
  },
  {
@@ -8652,6 +8832,7 @@
   ],
   "v": "công ty",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc506bd7fb201.mp3"
  },
  {
@@ -8709,6 +8890,7 @@
   ],
   "v": "cầu thang",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfd12aa0d5724.mp3"
  },
  {
@@ -8765,6 +8947,7 @@
   ],
   "v": "mua sắm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j723d3f75fc14.mp3"
  },
  {
@@ -8836,6 +9019,7 @@
   ],
   "v": "mua",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1b65a0cb82d2.mp3"
  },
  {
@@ -8906,6 +9090,7 @@
   ],
   "v": "trả lại",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j648683b83781.mp3"
  },
  {
@@ -8967,6 +9152,7 @@
   ],
   "v": "về; trở về",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j944f21154c78.mp3"
  },
  {
@@ -9001,7 +9187,9 @@
    "to get down to"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 182285,
    "lang": "jpn",
@@ -9041,6 +9229,7 @@
   ],
   "v": "mất (thời gian, tiền); treo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j0a3ea16df0dc.mp3"
  },
  {
@@ -9057,7 +9246,9 @@
    "clue"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 79796,
    "lang": "jpn",
@@ -9109,6 +9300,7 @@
   ],
   "v": "chìa khóa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/ja8f4ab0c77af.mp3"
  },
  {
@@ -9168,6 +9360,7 @@
   ],
   "v": "viết",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd34997e828cb.mp3"
  },
  {
@@ -9279,6 +9472,7 @@
   ],
   "v": "treo; gọi (điện thoại)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j115e9c23e2b9.mp3"
  },
  {
@@ -9339,6 +9533,7 @@
   ],
   "v": "ô; dù",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je58fdfd2a16b.mp3"
  },
  {
@@ -9406,6 +9601,7 @@
   ],
   "v": "cho mượn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j642d3200e09f.mp3"
  },
  {
@@ -9469,6 +9665,7 @@
   ],
   "v": "gió",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j94bf02007301.mp3"
  },
  {
@@ -9528,6 +9725,7 @@
   ],
   "v": "cảm lạnh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1acb36bc84d4.mp3"
  },
  {
@@ -9583,6 +9781,7 @@
   ],
   "v": "gia đình",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja16373e2426c.mp3"
  },
  {
@@ -9648,6 +9847,7 @@
   ],
   "v": "phía; vị (cách gọi kính trọng)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j22d08b21620a.mp3"
  },
  {
@@ -9661,7 +9861,9 @@
    "cup (drinking vessel, measure, brassiere, prize, etc.)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 4659052,
    "lang": "jpn",
@@ -9701,6 +9903,7 @@
   ],
   "v": "cốc; tách",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j68074320dccb.mp3"
  },
  {
@@ -9759,6 +9962,7 @@
   ],
   "v": "gia đình; hộ gia đình",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6f2aace92da5.mp3"
  },
  {
@@ -9833,6 +10037,7 @@
   ],
   "v": "góc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jceaf3971ff83.mp3"
  },
  {
@@ -9849,7 +10054,9 @@
    "basket"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 3362365,
    "lang": "jpn",
@@ -9889,6 +10096,7 @@
   ],
   "v": "túi; cặp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j704870bca266.mp3"
  },
  {
@@ -9944,6 +10152,7 @@
   ],
   "v": "lọ hoa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf61a0a482634.mp3"
  },
  {
@@ -9999,6 +10208,7 @@
   ],
   "v": "giấy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd060cd928492.mp3"
  },
  {
@@ -10012,7 +10222,9 @@
    "camera"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 8604962,
    "lang": "jpn",
@@ -10052,6 +10264,7 @@
   ],
   "v": "máy ảnh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jd7ac08a1ae47.mp3"
  },
  {
@@ -10077,6 +10290,7 @@
   ],
   "v": "thứ ba",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9ba01fdc9897.mp3"
  },
  {
@@ -10148,6 +10362,7 @@
   ],
   "v": "cay; mặn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5ee635ff604e.mp3"
  },
  {
@@ -10211,6 +10426,7 @@
   ],
   "v": "cơ thể",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6e098e54aa63.mp3"
  },
  {
@@ -10280,6 +10496,7 @@
   ],
   "v": "mượn; thuê",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfcc4b149bcdb.mp3"
  },
  {
@@ -10354,6 +10571,7 @@
   ],
   "v": "nhẹ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j463ea6ce108e.mp3"
  },
  {
@@ -10368,7 +10586,9 @@
    "calender (machine for flattening things)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 4898248,
    "lang": "jpn",
@@ -10420,6 +10640,7 @@
   ],
   "v": "lịch",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j046c334490e2.mp3"
  },
  {
@@ -10434,7 +10655,9 @@
    "rice and curry"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 2744807,
    "lang": "jpn",
@@ -10481,6 +10704,7 @@
   ],
   "v": "cà ri",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j323e543ce9f9.mp3"
  },
  {
@@ -10539,6 +10763,7 @@
   ],
   "v": "sông",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j46f8fe65f218.mp3"
  },
  {
@@ -10604,6 +10829,7 @@
   ],
   "v": "sông",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5c2ad2c1bfca.mp3"
  },
  {
@@ -10634,7 +10860,9 @@
    "dear (to one)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 11336842,
    "lang": "jpn",
@@ -10674,6 +10902,7 @@
   ],
   "v": "dễ thương",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jde5ec86d0b54.mp3"
  },
  {
@@ -10730,6 +10959,7 @@
   ],
   "v": "chữ Hán",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j535c688e8bf9.mp3"
  },
  {
@@ -10785,6 +11015,7 @@
   ],
   "v": "nước ngoài",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8aa646a4debc.mp3"
  },
  {
@@ -10814,6 +11045,7 @@
   ],
   "v": "người nước ngoài",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja089826e2906.mp3"
  },
  {
@@ -10869,6 +11101,7 @@
   ],
   "v": "sinh viên; học sinh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9567eaf8fe9b.mp3"
  },
  {
@@ -10924,6 +11157,7 @@
   ],
   "v": "trường học",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j42edc1b83779.mp3"
  },
  {
@@ -10984,6 +11218,7 @@
   ],
   "v": "cây",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja5d390dc4805.mp3"
  },
  {
@@ -11052,6 +11287,7 @@
   ],
   "v": "màu vàng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb7002b87f58d.mp3"
  },
  {
@@ -11121,6 +11357,7 @@
   ],
   "v": "vàng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcca6201c9683.mp3"
  },
  {
@@ -11192,6 +11429,7 @@
   ],
   "v": "biến mất; tắt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j10cb81b7861f.mp3"
  },
  {
@@ -11278,6 +11516,7 @@
   ],
   "v": "nghe; hỏi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd8a0261581dc.mp3"
  },
  {
@@ -11338,6 +11577,7 @@
   ],
   "v": "phía bắc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb0a03cee753b.mp3"
  },
  {
@@ -11409,6 +11649,7 @@
   ],
   "v": "bẩn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j41710789f4a2.mp3"
  },
  {
@@ -11471,6 +11712,7 @@
   ],
   "v": "quán cà phê",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcaa3749b479b.mp3"
  },
  {
@@ -11527,6 +11769,7 @@
   ],
   "v": "tem",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j36897e1da4ac.mp3"
  },
  {
@@ -11582,6 +11825,7 @@
   ],
   "v": "vé",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf5d0af9cc8d2.mp3"
  },
  {
@@ -11637,6 +11881,7 @@
   ],
   "v": "hôm qua",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jeb208b6436bb.mp3"
  },
  {
@@ -11693,6 +11938,7 @@
   ],
   "v": "chín",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd33ed6be2a48.mp3"
  },
  {
@@ -11749,6 +11995,7 @@
   ],
   "v": "hôm nay",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6b9362de88a7.mp3"
  },
  {
@@ -11811,6 +12058,7 @@
   ],
   "v": "phòng học",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfbb71c77ac0e.mp3"
  },
  {
@@ -11872,6 +12120,7 @@
   ],
   "v": "anh chị em",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2e7b28af830b.mp3"
  },
  {
@@ -11927,6 +12176,7 @@
   ],
   "v": "năm ngoái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je7ce924c4696.mp3"
  },
  {
@@ -11989,6 +12239,7 @@
   ],
   "v": "ghét; không thích",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2903a777a6c7.mp3"
  },
  {
@@ -12095,6 +12346,7 @@
   ],
   "v": "cắt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1ee90bf5d13a.mp3"
  },
  {
@@ -12153,6 +12405,7 @@
   ],
   "v": "mặc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8298c6a732a7.mp3"
  },
  {
@@ -12176,7 +12429,9 @@
    "entirely"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 90931,
    "lang": "jpn",
@@ -12216,6 +12471,7 @@
   ],
   "v": "đẹp; sạch",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jc20586d9e94b.mp3"
  },
  {
@@ -12236,7 +12492,9 @@
    "2^10"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 8655622,
    "lang": "jpn",
@@ -12276,6 +12534,7 @@
   ],
   "v": "ki lô; một nghìn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jd53029d2e8ff.mp3"
  },
  {
@@ -12290,7 +12549,9 @@
    "kilogramme"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 163114,
    "lang": "jpn",
@@ -12337,6 +12598,7 @@
   ],
   "v": "ki lô gam",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jd3fbd9a7be3b.mp3"
  },
  {
@@ -12351,7 +12613,9 @@
    "kilometre"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 11003498,
    "lang": "jpn",
@@ -12398,6 +12662,7 @@
   ],
   "v": "ki lô mét",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j878263ae4035.mp3"
  },
  {
@@ -12423,6 +12688,7 @@
   ],
   "v": "thứ sáu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8f0a38919b77.mp3"
  },
  {
@@ -12476,6 +12742,7 @@
   ],
   "v": "đàn ghi ta",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/je1ede1d758f0.mp3"
  },
  {
@@ -12531,6 +12798,7 @@
   ],
   "v": "thịt bò",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5dc14aea92c7.mp3"
  },
  {
@@ -12586,6 +12854,7 @@
   ],
   "v": "sữa bò",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je90f788a51b5.mp3"
  },
  {
@@ -12642,6 +12911,7 @@
   ],
   "v": "ngân hàng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd425b056fb0b.mp3"
  },
  {
@@ -12668,6 +12938,7 @@
   ],
   "v": "chín",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2a8090e9c46e.mp3"
  },
  {
@@ -12733,6 +13004,7 @@
   ],
   "v": "thuốc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j87bbe3de9902.mp3"
  },
  {
@@ -12787,6 +13059,7 @@
   ],
   "v": "xin hãy; xin cho",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j7a50935b2e7a.mp3"
  },
  {
@@ -12842,6 +13115,7 @@
   ],
   "v": "trái cây",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4f33338415ef.mp3"
  },
  {
@@ -12925,6 +13199,7 @@
   ],
   "v": "miệng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9e64feeea5ea.mp3"
  },
  {
@@ -12984,6 +13259,7 @@
   ],
   "v": "giày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd2110e85159b.mp3"
  },
  {
@@ -13043,6 +13319,7 @@
   ],
   "v": "tất; vớ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2c7d13250c7c.mp3"
  },
  {
@@ -13106,6 +13383,7 @@
   ],
   "v": "đất nước",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jee158182835b.mp3"
  },
  {
@@ -13170,6 +13448,7 @@
   ],
   "v": "trời nhiều mây",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfe4250fc1d4e.mp3"
  },
  {
@@ -13242,6 +13521,7 @@
   ],
   "v": "trở nên nhiều mây; mờ đi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je39511565f37.mp3"
  },
  {
@@ -13313,6 +13593,7 @@
   ],
   "v": "tối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja4945bc781fd.mp3"
  },
  {
@@ -13326,7 +13607,9 @@
    "class"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 113932,
    "lang": "jpn",
@@ -13366,6 +13649,7 @@
   ],
   "v": "lớp học",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j387efc2c5389.mp3"
  },
  {
@@ -13434,6 +13718,7 @@
   ],
   "v": "đến",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbc01756b4d89.mp3"
  },
  {
@@ -13494,6 +13779,7 @@
   ],
   "v": "ô tô; xe",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf71f9de56223.mp3"
  },
  {
@@ -13552,6 +13838,7 @@
   ],
   "v": "màu đen",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd0ff33617d6b.mp3"
  },
  {
@@ -13622,6 +13909,7 @@
   ],
   "v": "đen",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j52a94fe2784e.mp3"
  },
  {
@@ -13636,7 +13924,9 @@
    "gramme"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 11112063,
    "lang": "jpn",
@@ -13683,6 +13973,7 @@
   ],
   "v": "gam",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jd05f0e822ae9.mp3"
  },
  {
@@ -13740,6 +14031,7 @@
   ],
   "v": "cảnh sát",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j53592db36a13.mp3"
  },
  {
@@ -13795,6 +14087,7 @@
   ],
   "v": "sáng nay",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc290e4d3a56e.mp3"
  },
  {
@@ -13870,6 +14163,7 @@
   ],
   "v": "xóa; tắt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfda6e04cdc9d.mp3"
  },
  {
@@ -13953,6 +14247,7 @@
   ],
   "v": "khá; tốt; đủ rồi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j17be2492a375.mp3"
  },
  {
@@ -14008,6 +14303,7 @@
   ],
   "v": "kết hôn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j06ecd9ea5daf.mp3"
  },
  {
@@ -14033,6 +14329,7 @@
   ],
   "v": "thứ hai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j61c02e7f4acc.mp3"
  },
  {
@@ -14108,6 +14405,7 @@
   ],
   "v": "cửa ra vào; sảnh vào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdf6ef292ae5d.mp3"
  },
  {
@@ -14172,6 +14470,7 @@
   ],
   "v": "khỏe; đầy sức sống",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j12f44a1311d1.mp3"
  },
  {
@@ -14227,6 +14526,7 @@
   ],
   "v": "công viên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc3f997ee44ba.mp3"
  },
  {
@@ -14284,6 +14584,7 @@
   ],
   "v": "ngã tư; giao lộ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j73fc24d6d3cb.mp3"
  },
  {
@@ -14351,6 +14652,7 @@
   ],
   "v": "trà đen",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j60e55817f5ca.mp3"
  },
  {
@@ -14417,6 +14719,7 @@
   ],
   "v": "đồn cảnh sát khu phố",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jce4488f51ebc.mp3"
  },
  {
@@ -14484,6 +14787,7 @@
   ],
   "v": "giọng; tiếng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j135a822fbf3a.mp3"
  },
  {
@@ -14504,7 +14808,9 @@
    "these next ..."
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 2113125,
    "lang": "jpn",
@@ -14544,6 +14850,7 @@
   ],
   "v": "ở đây",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jf4ee05460d54.mp3"
  },
  {
@@ -14570,6 +14877,7 @@
   ],
   "v": "ngày mùng chín; chín ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9acbf1542642.mp3"
  },
  {
@@ -14634,6 +14942,7 @@
   ],
   "v": "chín cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0d0163a40587.mp3"
  },
  {
@@ -14691,6 +15000,7 @@
   ],
   "v": "trả lời",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb4624c258f50.mp3"
  },
  {
@@ -14712,7 +15022,9 @@
    "this person"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 3598250,
    "lang": "jpn",
@@ -14752,6 +15064,7 @@
   ],
   "v": "phía này; người này",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j57367d42ac5c.mp3"
  },
  {
@@ -14772,7 +15085,9 @@
    "us"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 1192314,
    "lang": "jpn",
@@ -14812,6 +15127,7 @@
   ],
   "v": "đằng này",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j105cbb94135c.mp3"
  },
  {
@@ -14827,7 +15143,9 @@
    "cups (suit)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 224121,
    "lang": "jpn",
@@ -14879,6 +15197,7 @@
   ],
   "v": "cốc thủy tinh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j317fd78ce0fc.mp3"
  },
  {
@@ -14934,6 +15253,7 @@
   ],
   "v": "năm nay",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j365704d56220.mp3"
  },
  {
@@ -15003,6 +15323,7 @@
   ],
   "v": "từ; lời nói; ngôn ngữ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcef4a2049ff3.mp3"
  },
  {
@@ -15059,6 +15380,7 @@
   ],
   "v": "trẻ em",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5fd1d3759699.mp3"
  },
  {
@@ -15076,7 +15398,9 @@
    "you (as in \"you liar\")"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 220068,
    "lang": "jpn",
@@ -15116,6 +15440,7 @@
   ],
   "v": "này",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j25acc002a82f.mp3"
  },
  {
@@ -15142,6 +15467,7 @@
   ],
   "v": "sao chép; phô tô",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j65255d245d51.mp3"
  },
  {
@@ -15215,6 +15541,7 @@
   ],
   "v": "gặp khó khăn; bối rối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb82779a220f4.mp3"
  },
  {
@@ -15236,7 +15563,9 @@
    "me"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 330755,
    "lang": "jpn",
@@ -15276,6 +15605,7 @@
   ],
   "v": "cái này",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jfb33e3a6798b.mp3"
  },
  {
@@ -15343,6 +15673,7 @@
   ],
   "v": "tháng này",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j309cfedd227d.mp3"
  },
  {
@@ -15398,6 +15729,7 @@
   ],
   "v": "tuần này",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb86d4b5ce53c.mp3"
  },
  {
@@ -15414,7 +15746,9 @@
    "such"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 3368845,
    "lang": "jpn",
@@ -15454,6 +15788,7 @@
   ],
   "v": "như thế này",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j987bbb6528e9.mp3"
  },
  {
@@ -15510,6 +15845,7 @@
   ],
   "v": "tối nay",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j298bb964817e.mp3"
  },
  {
@@ -15524,7 +15860,9 @@
    "coating"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 10635150,
    "lang": "jpn",
@@ -15571,6 +15909,7 @@
   ],
   "v": "áo khoác",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j138ed7cda1de.mp3"
  },
  {
@@ -15584,7 +15923,9 @@
    "coffee"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 4561796,
    "lang": "jpn",
@@ -15624,6 +15965,7 @@
   ],
   "v": "cà phê",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jf5f2c2dca175.mp3"
  },
  {
@@ -15680,6 +16022,7 @@
   ],
   "v": "năm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd4473f87e438.mp3"
  },
  {
@@ -15736,6 +16079,7 @@
   ],
   "v": "buổi chiều",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3e1bdafed48a.mp3"
  },
  {
@@ -15804,6 +16148,7 @@
   ],
   "v": "buổi sáng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jda5a33de5a30.mp3"
  },
  {
@@ -15867,6 +16212,7 @@
   ],
   "v": "cơm; bữa ăn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2bf5dccca2b0.mp3"
  },
  {
@@ -15938,6 +16284,7 @@
   ],
   "v": "nào; thôi nào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/ja98b98005ebd.mp3"
  },
  {
@@ -15997,6 +16344,7 @@
   ],
   "v": "ví",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc5df4f2e7eab.mp3"
  },
  {
@@ -16052,6 +16400,7 @@
   ],
   "v": "cá",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5c1c2120b516.mp3"
  },
  {
@@ -16130,6 +16479,7 @@
   ],
   "v": "trước; đầu; phía trước",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j317542d02c5e.mp3"
  },
  {
@@ -16189,6 +16539,7 @@
   ],
   "v": "nở hoa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbd49bd9a4cc7.mp3"
  },
  {
@@ -16246,6 +16597,7 @@
   ],
   "v": "bài văn; viết văn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4b9574b8d3b9.mp3"
  },
  {
@@ -16340,6 +16692,7 @@
   ],
   "v": "chiếu (ánh sáng); giương (ô)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je01a26a1036c.mp3"
  },
  {
@@ -16395,6 +16748,7 @@
   ],
   "v": "đường (gia vị)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbbd430030244.mp3"
  },
  {
@@ -16455,6 +16809,7 @@
   ],
   "v": "lạnh (thời tiết)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jea75e321b7ef.mp3"
  },
  {
@@ -16480,6 +16835,7 @@
   ],
   "v": "năm sau nữa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j257e2b3e9983.mp3"
  },
  {
@@ -16536,6 +16892,7 @@
   ],
   "v": "ba",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1bedf722c04a.mp3"
  },
  {
@@ -16590,6 +16947,7 @@
   ],
   "v": "đi dạo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jc0b895b11255.mp3"
  },
  {
@@ -16647,6 +17005,7 @@
   ],
   "v": "tạp chí",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf614b379675d.mp3"
  },
  {
@@ -16703,6 +17062,7 @@
   ],
   "v": "bốn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdc8d0860b963.mp3"
  },
  {
@@ -16768,6 +17128,7 @@
   ],
   "v": "muối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j310d0d9b3dad.mp3"
  },
  {
@@ -16782,7 +17143,9 @@
    "but"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 5042,
    "lang": "jpn",
@@ -16822,6 +17185,7 @@
   ],
   "v": "nhưng; tuy nhiên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jd1b30589e5d8.mp3"
  },
  {
@@ -16885,6 +17249,7 @@
   ],
   "v": "công việc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcdf28ddaf837.mp3"
  },
  {
@@ -16945,6 +17310,7 @@
   ],
   "v": "yên tĩnh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j61b57e2d4702.mp3"
  },
  {
@@ -17013,6 +17379,7 @@
   ],
   "v": "dưới",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j520308b3c3b4.mp3"
  },
  {
@@ -17075,6 +17442,7 @@
   ],
   "v": "bảy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j651603322794.mp3"
  },
  {
@@ -17132,6 +17500,7 @@
   ],
   "v": "câu hỏi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf5d831590911.mp3"
  },
  {
@@ -17193,6 +17562,7 @@
   ],
   "v": "chết; qua đời",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdd5d31dbf7c9.mp3"
  },
  {
@@ -17262,6 +17632,7 @@
   ],
   "v": "đóng lại (tự đóng)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j47246131f042.mp3"
  },
  {
@@ -17342,6 +17713,7 @@
   ],
   "v": "buộc; thắt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7e22c8ba7ac9.mp3"
  },
  {
@@ -17410,6 +17782,7 @@
   ],
   "v": "đóng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j98e990bf1d44.mp3"
  },
  {
@@ -17470,6 +17843,7 @@
   ],
   "v": "ảnh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd5901ecbf5fb.mp3"
  },
  {
@@ -17486,7 +17860,9 @@
    "shirt (outerwear; usu. with collar and buttons)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 106905,
    "lang": "jpn",
@@ -17526,6 +17902,7 @@
   ],
   "v": "áo sơ mi; áo lót",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j1d1eb2c3032c.mp3"
  },
  {
@@ -17539,7 +17916,9 @@
    "shower"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 8752766,
    "lang": "jpn",
@@ -17579,6 +17958,7 @@
   ],
   "v": "vòi sen; tắm vòi sen",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j4216cb81030d.mp3"
  },
  {
@@ -17638,6 +18018,7 @@
   ],
   "v": "bài tập về nhà",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf26f501fa1c2.mp3"
  },
  {
@@ -17653,7 +18034,9 @@
    "shoyu"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": null,
   "jmdict": "1595020",
   "match": "exact",
@@ -17663,6 +18046,7 @@
   ],
   "v": "nước tương",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j9bae63d01f2d.mp3"
  },
  {
@@ -17738,6 +18122,7 @@
   ],
   "v": "phòng ăn; nhà ăn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3f0d257a083a.mp3"
  },
  {
@@ -17818,6 +18203,7 @@
   ],
   "v": "biết",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j531b240786ce.mp3"
  },
  {
@@ -17879,6 +18265,7 @@
   ],
   "v": "màu trắng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcbda72b9dd04.mp3"
  },
  {
@@ -17947,6 +18334,7 @@
   ],
   "v": "trắng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd67a7d3dacc9.mp3"
  },
  {
@@ -18002,6 +18390,7 @@
   ],
   "v": "báo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf906b238c9c2.mp3"
  },
  {
@@ -18061,6 +18450,7 @@
   ],
   "v": "thời gian; giờ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf6a8c4a23b51.mp3"
  },
  {
@@ -18118,6 +18508,7 @@
   ],
   "v": "từ điển",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j67ab907b4d96.mp3"
  },
  {
@@ -18175,6 +18566,7 @@
   ],
   "v": "xe đạp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j457ac376d17f.mp3"
  },
  {
@@ -18235,6 +18627,7 @@
   ],
   "v": "ô tô",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j544db5541575.mp3"
  },
  {
@@ -18297,6 +18690,7 @@
   ],
   "v": "từ điển",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jedfc4956f178.mp3"
  },
  {
@@ -18359,6 +18753,7 @@
   ],
   "v": "bản thân",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7cc10603c197.mp3"
  },
  {
@@ -18375,7 +18770,9 @@
    "well then"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 3507378,
    "lang": "jpn",
@@ -18415,6 +18812,7 @@
   ],
   "v": "vậy thì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jb89c058dea91.mp3"
  },
  {
@@ -18471,6 +18869,7 @@
   ],
   "v": "vậy thì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j507d0ea60357.mp3"
  },
  {
@@ -18527,6 +18926,7 @@
   ],
   "v": "mười",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j877b9ba07a47.mp3"
  },
  {
@@ -18587,6 +18987,7 @@
   ],
   "v": "giờ học; tiết học",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4c99b14fe21c.mp3"
  },
  {
@@ -18648,6 +19049,7 @@
   ],
   "v": "giỏi; khéo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf78f531c55a5.mp3"
  },
  {
@@ -18714,6 +19116,7 @@
   ],
   "v": "khỏe; bền",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j62a0b787b977.mp3"
  },
  {
@@ -18739,6 +19142,7 @@
   ],
   "v": "thứ tư",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2c216f915116.mp3"
  },
  {
@@ -18802,6 +19206,7 @@
   ],
   "v": "hít; hút",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jaff9c616e336.mp3"
  },
  {
@@ -18815,7 +19220,9 @@
    "skirt"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 87957,
    "lang": "jpn",
@@ -18855,6 +19262,7 @@
   ],
   "v": "chân váy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j1f57b46ac162.mp3"
  },
  {
@@ -18925,6 +19333,7 @@
   ],
   "v": "thích",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j32a5e8698306.mp3"
  },
  {
@@ -18987,6 +19396,7 @@
   ],
   "v": "ít",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j89cc0156875d.mp3"
  },
  {
@@ -19043,6 +19453,7 @@
   ],
   "v": "ngay lập tức",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j86f4d5b7a565.mp3"
  },
  {
@@ -19110,6 +19521,7 @@
   ],
   "v": "một chút",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8814378ebfc2.mp3"
  },
  {
@@ -19176,6 +19588,7 @@
   ],
   "v": "mát mẻ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7afabeebb280.mp3"
  },
  {
@@ -19190,7 +19603,9 @@
    "stove"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 2800309,
    "lang": "jpn",
@@ -19237,6 +19652,7 @@
   ],
   "v": "lò sưởi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j043c8767225d.mp3"
  },
  {
@@ -19251,7 +19667,9 @@
    "spoon lure"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 10621099,
    "lang": "jpn",
@@ -19303,6 +19721,7 @@
   ],
   "v": "thìa; muỗng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jaf8113eb02b1.mp3"
  },
  {
@@ -19317,7 +19736,9 @@
    "sports"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 214334,
    "lang": "jpn",
@@ -19357,6 +19778,7 @@
   ],
   "v": "thể thao",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jea87a9125536.mp3"
  },
  {
@@ -19416,6 +19838,7 @@
   ],
   "v": "sống; cư trú",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j405805427b97.mp3"
  },
  {
@@ -19430,7 +19853,10 @@
    "slippers"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1,
+   2
+  ],
   "example": {
    "id": 214119,
    "lang": "jpn",
@@ -19477,6 +19903,7 @@
   ],
   "v": "dép đi trong nhà",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jb75e4e255312.mp3"
  },
  {
@@ -19526,7 +19953,9 @@
    "to attempt to"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 5250,
    "lang": "jpn",
@@ -19566,6 +19995,7 @@
   ],
   "v": "làm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jdfb6d8ba613b.mp3"
  },
  {
@@ -19627,6 +20057,7 @@
   ],
   "v": "ngồi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1920bee7857b.mp3"
  },
  {
@@ -19641,7 +20072,10 @@
    "pants"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1,
+   2
+  ],
   "example": {
    "id": 9271775,
    "lang": "jpn",
@@ -19681,6 +20115,7 @@
   ],
   "v": "quần dài",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j7584589de1cc.mp3"
  },
  {
@@ -19744,6 +20179,7 @@
   ],
   "v": "lưng; chiều cao",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd2e629f3a8bc.mp3"
  },
  {
@@ -19801,6 +20237,7 @@
   ],
   "v": "học sinh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5d786dbb29fc.mp3"
  },
  {
@@ -19814,7 +20251,9 @@
    "soap"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 10899704,
    "lang": "jpn",
@@ -19861,6 +20300,7 @@
   ],
   "v": "xà phòng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jdb5153f9ad60.mp3"
  },
  {
@@ -19923,6 +20363,7 @@
   ],
   "v": "bộ com lê",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6bcf7b6d3cad.mp3"
  },
  {
@@ -19984,6 +20425,7 @@
   ],
   "v": "hẹp; chật",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jee1543f61b22.mp3"
  },
  {
@@ -20040,6 +20482,7 @@
   ],
   "v": "một nghìn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j86ef0852f80f.mp3"
  },
  {
@@ -20095,6 +20538,7 @@
   ],
   "v": "tháng trước",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j65da1512acab.mp3"
  },
  {
@@ -20151,6 +20595,7 @@
   ],
   "v": "tuần trước",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb669051ec4f4.mp3"
  },
  {
@@ -20212,6 +20657,7 @@
   ],
   "v": "giáo viên; thầy cô",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j497356cf0646.mp3"
  },
  {
@@ -20271,6 +20717,7 @@
   ],
   "v": "giặt giũ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j30e81148f7ab.mp3"
  },
  {
@@ -20285,7 +20732,9 @@
    "jumper"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 2213089,
    "lang": "jpn",
@@ -20325,6 +20774,7 @@
   ],
   "v": "áo len",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j797ac724daf3.mp3"
  },
  {
@@ -20343,7 +20793,9 @@
    "zilch"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 8561729,
    "lang": "jpn",
@@ -20383,6 +20835,7 @@
   ],
   "v": "số không",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j8b4d4e4df6e7.mp3"
  },
  {
@@ -20441,6 +20894,7 @@
   ],
   "v": "toàn bộ; tất cả",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je7e8233245a9.mp3"
  },
  {
@@ -20495,6 +20949,7 @@
   ],
   "v": "rồi; và như thế",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jc8870989f706.mp3"
  },
  {
@@ -20563,6 +21018,7 @@
   ],
   "v": "dọn dẹp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/je7f35882154f.mp3"
  },
  {
@@ -20581,7 +21037,9 @@
    "you"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 160439,
    "lang": "jpn",
@@ -20621,6 +21079,7 @@
   ],
   "v": "chỗ đó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j50a2492e692d.mp3"
  },
  {
@@ -20638,7 +21097,9 @@
    "and finally"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 10979961,
    "lang": "jpn",
@@ -20685,6 +21146,7 @@
   ],
   "v": "và; sau đó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jb09d8b240379.mp3"
  },
  {
@@ -20705,7 +21167,9 @@
    "that person"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 214978,
    "lang": "jpn",
@@ -20745,6 +21209,7 @@
   ],
   "v": "phía đó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j3c0f1d5e3156.mp3"
  },
  {
@@ -20765,7 +21230,9 @@
    "that person"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 3050857,
    "lang": "jpn",
@@ -20805,6 +21272,7 @@
   ],
   "v": "đằng đó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j5e5184c8d19e.mp3"
  },
  {
@@ -20865,6 +21333,7 @@
   ],
   "v": "bên ngoài",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6109638dac53.mp3"
  },
  {
@@ -20883,7 +21352,9 @@
    "uh ..."
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 136182,
    "lang": "jpn",
@@ -20923,6 +21394,7 @@
   ],
   "v": "đó; ấy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jac42ce789185.mp3"
  },
  {
@@ -20945,7 +21417,9 @@
    "right after"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 2263370,
    "lang": "jpn",
@@ -20985,6 +21459,7 @@
   ],
   "v": "bên cạnh; gần",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j08a53edb01c1.mp3"
  },
  {
@@ -21054,6 +21529,7 @@
   ],
   "v": "bầu trời",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j19bd7db9d5d0.mp3"
  },
  {
@@ -21113,6 +21589,7 @@
   ],
   "v": "cái đó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jcabda7989563.mp3"
  },
  {
@@ -21167,6 +21644,7 @@
   ],
   "v": "sau đó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j3f6c04a2d9e0.mp3"
  },
  {
@@ -21240,6 +21718,7 @@
   ],
   "v": "vậy thì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j8828801cd783.mp3"
  },
  {
@@ -21307,6 +21786,7 @@
   ],
   "v": "đại sứ quán",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jea879ad21181.mp3"
  },
  {
@@ -21371,6 +21851,7 @@
   ],
   "v": "quan trọng; quý giá",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jaad97415a910.mp3"
  },
  {
@@ -21399,7 +21880,9 @@
    "disaster"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 107921,
    "lang": "jpn",
@@ -21439,6 +21922,7 @@
   ],
   "v": "rất; vất vả",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jc8b959a4eaf3.mp3"
  },
  {
@@ -21502,6 +21986,7 @@
   ],
   "v": "cao; đắt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j775979a197ea.mp3"
  },
  {
@@ -21566,6 +22051,7 @@
   ],
   "v": "nhiều",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j89a64c2e6e6b.mp3"
  },
  {
@@ -21579,7 +22065,9 @@
    "taxi"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 92167,
    "lang": "jpn",
@@ -21619,6 +22107,7 @@
   ],
   "v": "xe tắc xi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j0967db6c17f0.mp3"
  },
  {
@@ -21733,6 +22222,7 @@
   ],
   "v": "đứng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j17e3177c62d5.mp3"
  },
  {
@@ -21753,7 +22243,9 @@
    "(weaving) warp"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 1142558,
    "lang": "jpn",
@@ -21793,6 +22285,7 @@
   ],
   "v": "chiều dọc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jee3ffa792efb.mp3"
  },
  {
@@ -21849,6 +22342,7 @@
   ],
   "v": "tòa nhà",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb11f169893fb.mp3"
  },
  {
@@ -21908,6 +22402,7 @@
   ],
   "v": "vui; thú vị",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9cc2d4a9bbe1.mp3"
  },
  {
@@ -21973,6 +22468,7 @@
   ],
   "v": "nhờ; yêu cầu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja905e5f18cff.mp3"
  },
  {
@@ -21989,7 +22485,9 @@
    "tobacco plant (Nicotiana tabacum)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 203419,
    "lang": "jpn",
@@ -22029,6 +22527,7 @@
   ],
   "v": "thuốc lá",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j0e32d27c37eb.mp3"
  },
  {
@@ -22091,6 +22590,7 @@
   ],
   "v": "có lẽ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j8f6a920ffc4b.mp3"
  },
  {
@@ -22147,6 +22647,7 @@
   ],
   "v": "đồ ăn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd26eb9131afb.mp3"
  },
  {
@@ -22205,6 +22706,7 @@
   ],
   "v": "ăn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jec4fa4315542.mp3"
  },
  {
@@ -22271,6 +22773,7 @@
   ],
   "v": "trứng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j190923f1528e.mp3"
  },
  {
@@ -22296,6 +22799,7 @@
   ],
   "v": "sinh nhật",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5841d3db2c97.mp3"
  },
  {
@@ -22354,6 +22858,7 @@
   ],
   "v": "đại học",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9910372c1964.mp3"
  },
  {
@@ -22425,6 +22930,7 @@
   ],
   "v": "ổn; không sao",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2d473f5bae43.mp3"
  },
  {
@@ -22483,6 +22989,7 @@
   ],
   "v": "rất thích",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j061c7ec44fec.mp3"
  },
  {
@@ -22540,6 +23047,7 @@
   ],
   "v": "nhà bếp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2d479962e6d5.mp3"
  },
  {
@@ -22611,6 +23119,7 @@
   ],
   "v": "lấy ra; đưa ra",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja001b24baf12.mp3"
  },
  {
@@ -22666,6 +23175,7 @@
   ],
   "v": "ai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf3f74ef8bc9a.mp3"
  },
  {
@@ -22722,6 +23232,7 @@
   ],
   "v": "ai đó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j78047982c503.mp3"
  },
  {
@@ -22783,6 +23294,7 @@
   ],
   "v": "dần dần",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j79d17283be29.mp3"
  },
  {
@@ -22852,6 +23364,7 @@
   ],
   "v": "nhỏ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j769a80524957.mp3"
  },
  {
@@ -22909,6 +23422,7 @@
   ],
   "v": "nhỏ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j41e4148a48ea.mp3"
  },
  {
@@ -22988,6 +23502,7 @@
   ],
   "v": "gần",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd72e08381953.mp3"
  },
  {
@@ -23051,6 +23566,7 @@
   ],
   "v": "gần; vùng lân cận",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcacc70775f3e.mp3"
  },
  {
@@ -23120,6 +23636,7 @@
   ],
   "v": "tàu điện ngầm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf0bea3272626.mp3"
  },
  {
@@ -23187,6 +23704,7 @@
   ],
   "v": "khác; không đúng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6f0eeee1fe60.mp3"
  },
  {
@@ -23245,6 +23763,7 @@
   ],
   "v": "bản đồ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3c687e40b035.mp3"
  },
  {
@@ -23302,6 +23821,7 @@
   ],
   "v": "màu nâu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3bdadaaa9b40.mp3"
  },
  {
@@ -23317,7 +23837,9 @@
    "teacup"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": null,
   "jmdict": "1597530",
   "match": "exact",
@@ -23327,6 +23849,7 @@
   ],
   "v": "bát; chén trà",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j25f38ca835c5.mp3"
  },
  {
@@ -23348,7 +23871,9 @@
    "as though"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 1251861,
    "lang": "jpn",
@@ -23388,6 +23913,7 @@
   ],
   "v": "vừa đúng; chính xác",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jaf0d4a865c01.mp3"
  },
  {
@@ -23421,7 +23947,11 @@
    "slightly more than"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1,
+   0,
+   3
+  ],
   "example": {
    "id": 202716,
    "lang": "jpn",
@@ -23461,6 +23991,7 @@
   ],
   "v": "một chút",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jb35b57d1d2b3.mp3"
  },
  {
@@ -23517,6 +24048,7 @@
   ],
   "v": "ngày mùng một",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j367ca325e078.mp3"
  },
  {
@@ -23584,6 +24116,7 @@
   ],
   "v": "dùng; sử dụng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9af9c5ffb30e.mp3"
  },
  {
@@ -23652,6 +24185,7 @@
   ],
   "v": "mệt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j65f5cb2d1bd4.mp3"
  },
  {
@@ -23711,6 +24245,7 @@
   ],
   "v": "tiếp theo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc97677d187f5.mp3"
  },
  {
@@ -23770,6 +24305,7 @@
   ],
   "v": "đến nơi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf024ec5e9eea.mp3"
  },
  {
@@ -23825,6 +24361,7 @@
   ],
   "v": "bàn học; bàn làm việc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0cbee2d10284.mp3"
  },
  {
@@ -23911,6 +24448,7 @@
   ],
   "v": "làm; tạo ra",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja4ccf0b7bace.mp3"
  },
  {
@@ -23964,7 +24502,9 @@
    "to be accustomed to"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 10201367,
    "lang": "jpn",
@@ -24016,6 +24556,7 @@
   ],
   "v": "gắn; bật (điện)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jfb80dfec7361.mp3"
  },
  {
@@ -24087,6 +24628,7 @@
   ],
   "v": "làm việc cho",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j64eca7beef5d.mp3"
  },
  {
@@ -24155,6 +24697,7 @@
   ],
   "v": "chán; không thú vị",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jc4173d8c166c.mp3"
  },
  {
@@ -24220,6 +24763,7 @@
   ],
   "v": "lạnh (khi chạm)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jabfe73cb5eb7.mp3"
  },
  {
@@ -24299,6 +24843,7 @@
   ],
   "v": "mạnh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je71d7d160f29.mp3"
  },
  {
@@ -24379,6 +24924,7 @@
   ],
   "v": "tay",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb1ff052549ed.mp3"
  },
  {
@@ -24435,6 +24981,7 @@
   ],
   "v": "thư",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8e7233a38df0.mp3"
  },
  {
@@ -24454,7 +25001,9 @@
    "rehearsal"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 7809276,
    "lang": "jpn",
@@ -24494,6 +25043,7 @@
   ],
   "v": "bài kiểm tra",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jbffa6c2157d5.mp3"
  },
  {
@@ -24511,7 +25061,9 @@
    "TV broadcast"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 86025,
    "lang": "jpn",
@@ -24551,6 +25103,7 @@
   ],
   "v": "ti vi; truyền hình",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jb4d66aa2f6f4.mp3"
  },
  {
@@ -24608,6 +25161,7 @@
   ],
   "v": "thời tiết",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2850b5703e8b.mp3"
  },
  {
@@ -24621,7 +25175,9 @@
    "table"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 223526,
    "lang": "jpn",
@@ -24661,6 +25217,7 @@
   ],
   "v": "bàn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jf1af08d4c51c.mp3"
  },
  {
@@ -24674,7 +25231,9 @@
    "tape"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 4518826,
    "lang": "jpn",
@@ -24714,6 +25273,7 @@
   ],
   "v": "băng; băng dính",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/je64411bc1058.mp3"
  },
  {
@@ -24774,6 +25334,7 @@
   ],
   "v": "máy ghi âm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jf4e7b21c2f09.mp3"
  },
  {
@@ -24835,6 +25396,7 @@
   ],
   "v": "đi ra ngoài",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j001a4faf05bd.mp3"
  },
  {
@@ -24881,7 +25443,9 @@
    "to get pregnant"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 202302,
    "lang": "jpn",
@@ -24921,6 +25485,7 @@
   ],
   "v": "có thể; làm được",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j581d18f92555.mp3"
  },
  {
@@ -24991,6 +25556,7 @@
   ],
   "v": "lối ra",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja19157e62dee.mp3"
  },
  {
@@ -25055,6 +25621,7 @@
   ],
   "v": "vậy thì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j8f8a8601914e.mp3"
  },
  {
@@ -25069,7 +25636,9 @@
    "department"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 1765062,
    "lang": "jpn",
@@ -25109,6 +25678,7 @@
   ],
   "v": "trung tâm bách hóa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j0bd459f82995.mp3"
  },
  {
@@ -25181,6 +25751,7 @@
   ],
   "v": "nhưng; tuy nhiên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j7aeac2a5dd4c.mp3"
  },
  {
@@ -25311,6 +25882,7 @@
   ],
   "v": "ra; rời khỏi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb2a9df4d0301.mp3"
  },
  {
@@ -25367,6 +25939,7 @@
   ],
   "v": "điện; đèn điện",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja24e73630479.mp3"
  },
  {
@@ -25424,6 +25997,7 @@
   ],
   "v": "tàu điện",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdc7f5fc156cf.mp3"
  },
  {
@@ -25482,6 +26056,7 @@
   ],
   "v": "điện thoại; cuộc gọi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j24df87472770.mp3"
  },
  {
@@ -25541,6 +26116,7 @@
   ],
   "v": "cửa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j56e27b2da5a6.mp3"
  },
  {
@@ -25559,7 +26135,9 @@
    "relieving oneself"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 235373,
    "lang": "jpn",
@@ -25599,6 +26177,7 @@
   ],
   "v": "nhà vệ sinh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j3ef72de4de64.mp3"
  },
  {
@@ -25669,6 +26248,7 @@
   ],
   "v": "xa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8b4370afb039.mp3"
  },
  {
@@ -25732,6 +26312,7 @@
   ],
   "v": "ngày mùng mười; mười ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jda2913ad7e4c.mp3"
  },
  {
@@ -25797,6 +26378,7 @@
   ],
   "v": "thỉnh thoảng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j47b8d594eff3.mp3"
  },
  {
@@ -25854,6 +26436,7 @@
   ],
   "v": "đồng hồ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4754cbccd601.mp3"
  },
  {
@@ -25938,6 +26521,7 @@
   ],
   "v": "chỗ; nơi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j490f6a46e947.mp3"
  },
  {
@@ -25997,6 +26581,7 @@
   ],
   "v": "năm; tuổi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8438eda3cfc0.mp3"
  },
  {
@@ -26052,6 +26637,7 @@
   ],
   "v": "thư viện",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jca8d0efe19a3.mp3"
  },
  {
@@ -26070,7 +26656,9 @@
    "simply (cannot)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 4527903,
    "lang": "jpn",
@@ -26110,6 +26698,7 @@
   ],
   "v": "rất",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jffc41bd9a841.mp3"
  },
  {
@@ -26171,6 +26760,7 @@
   ],
   "v": "bên cạnh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1e9c76154fae.mp3"
  },
  {
@@ -26255,6 +26845,7 @@
   ],
   "v": "bay; nhảy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbfe63a77332b.mp3"
  },
  {
@@ -26318,6 +26909,7 @@
   ],
   "v": "dừng lại",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbd365f430f35.mp3"
  },
  {
@@ -26374,6 +26966,7 @@
   ],
   "v": "bạn bè",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd9898f8a95b6.mp3"
  },
  {
@@ -26432,6 +27025,7 @@
   ],
   "v": "chim",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j683f3e7fb085.mp3"
  },
  {
@@ -26445,7 +27039,9 @@
    "chicken meat"
   ],
   "hv": "nhục/nhụ/nậu",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": null,
   "jmdict": "1253020",
   "match": "exact",
@@ -26455,6 +27051,7 @@
   ],
   "v": "thịt gà",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j90edfede93d2.mp3"
  },
  {
@@ -26572,6 +27169,7 @@
   ],
   "v": "lấy; cầm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9ed3b3695645.mp3"
  },
  {
@@ -26630,6 +27228,7 @@
   ],
   "v": "chụp ảnh; quay",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j897d3a642135.mp3"
  },
  {
@@ -26643,7 +27242,9 @@
    "door"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 201779,
    "lang": "jpn",
@@ -26683,6 +27284,7 @@
   ],
   "v": "cửa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j01adf406cacd.mp3"
  },
  {
@@ -26698,7 +27300,9 @@
    "how about"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 171902,
    "lang": "jpn",
@@ -26738,6 +27342,7 @@
   ],
   "v": "thế nào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j99b783690b64.mp3"
  },
  {
@@ -26799,6 +27404,7 @@
   ],
   "v": "tại sao; bằng cách nào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j8684d9811d46.mp3"
  },
  {
@@ -26824,7 +27430,9 @@
    "to give"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 201288,
    "lang": "jpn",
@@ -26864,6 +27472,7 @@
   ],
   "v": "xin mời; xin hãy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j7a7059323b2b.mp3"
  },
  {
@@ -26919,6 +27528,7 @@
   ],
   "v": "động vật",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja3374580d856.mp3"
  },
  {
@@ -26986,6 +27596,7 @@
   ],
   "v": "cảm ơn; rất",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jfe433c0cf385.mp3"
  },
  {
@@ -27002,7 +27613,9 @@
    "what extent"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 2060259,
    "lang": "jpn",
@@ -27042,6 +27655,7 @@
   ],
   "v": "ở đâu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j521f6c462f58.mp3"
  },
  {
@@ -27059,7 +27673,9 @@
    "who"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 3400944,
    "lang": "jpn",
@@ -27099,6 +27715,7 @@
   ],
   "v": "phía nào; ở đâu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j569ccc780ac4.mp3"
  },
  {
@@ -27116,7 +27733,9 @@
    "who"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 8607613,
    "lang": "jpn",
@@ -27156,6 +27775,7 @@
   ],
   "v": "bên nào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j0c294318f010.mp3"
  },
  {
@@ -27169,7 +27789,9 @@
    "who"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 2925505,
    "lang": "jpn",
@@ -27216,6 +27838,7 @@
   ],
   "v": "vị nào; ai (kính ngữ)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j64a7f6bc77c9.mp3"
  },
  {
@@ -27230,7 +27853,9 @@
    "what (way)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 200339,
    "lang": "jpn",
@@ -27270,6 +27895,7 @@
   ],
   "v": "nào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j5400f9f54134.mp3"
  },
  {
@@ -27295,6 +27921,7 @@
   ],
   "v": "thứ bảy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j440290628fd6.mp3"
  },
  {
@@ -27311,7 +27938,9 @@
    "c'mon"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 8494010,
    "lang": "jpn",
@@ -27351,6 +27980,7 @@
   ],
   "v": "cái nào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j67d99c6ae58e.mp3"
  },
  {
@@ -27364,7 +27994,9 @@
    "knife"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 8619663,
    "lang": "jpn",
@@ -27404,6 +28036,7 @@
   ],
   "v": "dao",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j2e1c2840500e.mp3"
  },
  {
@@ -27477,6 +28110,7 @@
   ],
   "v": "bên trong; giữa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5849925b131d.mp3"
  },
  {
@@ -27535,6 +28169,7 @@
   ],
   "v": "dài; lâu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j11b5462fa3a4.mp3"
  },
  {
@@ -27596,6 +28231,7 @@
   ],
   "v": "kêu; hót",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc0ecee8c2c68.mp3"
  },
  {
@@ -27668,6 +28304,7 @@
   ],
   "v": "làm mất",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbfdcaa65f011.mp3"
  },
  {
@@ -27683,7 +28320,9 @@
    "for what reason"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 199205,
    "lang": "jpn",
@@ -27723,6 +28362,7 @@
   ],
   "v": "tại sao",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j9e5230f0f541.mp3"
  },
  {
@@ -27778,6 +28418,7 @@
   ],
   "v": "mùa hè",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja4e52ef19d81.mp3"
  },
  {
@@ -27834,6 +28475,7 @@
   ],
   "v": "kỳ nghỉ hè",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbd3e79e89fe2.mp3"
  },
  {
@@ -27895,6 +28537,7 @@
   ],
   "v": "vân vân; chẳng hạn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j5afaf8671e34.mp3"
  },
  {
@@ -27950,6 +28593,7 @@
   ],
   "v": "bảy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jeda9a40b0c91.mp3"
  },
  {
@@ -27977,6 +28621,7 @@
   ],
   "v": "bảy cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf6bc974a7405.mp3"
  },
  {
@@ -28050,6 +28695,7 @@
   ],
   "v": "cái gì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j115fd51b8d38.mp3"
  },
  {
@@ -28118,6 +28764,7 @@
   ],
   "v": "ngày mùng bảy; bảy ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0655c242d1db.mp3"
  },
  {
@@ -28175,6 +28822,7 @@
   ],
   "v": "tên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j09558b341dc0.mp3"
  },
  {
@@ -28234,6 +28882,7 @@
   ],
   "v": "học (từ người dạy)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0d114c78c7a1.mp3"
  },
  {
@@ -28300,6 +28949,7 @@
   ],
   "v": "xếp hàng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1e3947686d28.mp3"
  },
  {
@@ -28369,6 +29019,7 @@
   ],
   "v": "xếp thành hàng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6377c107ca68.mp3"
  },
  {
@@ -28416,7 +29067,9 @@
    "to do ..."
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 80430,
    "lang": "jpn",
@@ -28456,6 +29109,7 @@
   ],
   "v": "trở thành",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j3653e718a1a5.mp3"
  },
  {
@@ -28517,6 +29171,7 @@
   ],
   "v": "gì; mấy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j54fb3174106c.mp3"
  },
  {
@@ -28573,6 +29228,7 @@
   ],
   "v": "hai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7fc81b0ddd17.mp3"
  },
  {
@@ -28645,6 +29301,7 @@
   ],
   "v": "nhộn nhịp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2138aa8f60bb.mp3"
  },
  {
@@ -28708,6 +29365,7 @@
   ],
   "v": "thịt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb639fedc63ec.mp3"
  },
  {
@@ -28763,6 +29421,7 @@
   ],
   "v": "phía tây",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6f2e359ff6c8.mp3"
  },
  {
@@ -28788,6 +29447,7 @@
   ],
   "v": "chủ nhật",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb7519a0f57a7.mp3"
  },
  {
@@ -28859,6 +29519,7 @@
   ],
   "v": "hành lý; đồ đạc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j567f42b89301.mp3"
  },
  {
@@ -28872,7 +29533,9 @@
    "news"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 160346,
    "lang": "jpn",
@@ -28912,6 +29575,7 @@
   ],
   "v": "tin tức",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jf0637604a585.mp3"
  },
  {
@@ -28971,6 +29635,7 @@
   ],
   "v": "vườn; sân",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j32b69415feac.mp3"
  },
  {
@@ -29027,6 +29692,7 @@
   ],
   "v": "cởi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0954522e1764.mp3"
  },
  {
@@ -29084,6 +29750,7 @@
   ],
   "v": "âm ấm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf4ab9773f675.mp3"
  },
  {
@@ -29098,7 +29765,9 @@
    "necktie"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 10177604,
    "lang": "jpn",
@@ -29150,6 +29819,7 @@
   ],
   "v": "cà vạt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jd68eb0e5b339.mp3"
  },
  {
@@ -29211,6 +29881,7 @@
   ],
   "v": "mèo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j123a10eb50b0.mp3"
  },
  {
@@ -29273,6 +29944,7 @@
   ],
   "v": "ngủ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j50eb0e80c367.mp3"
  },
  {
@@ -29330,6 +30002,7 @@
   ],
   "v": "leo; lên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jec13a01a495e.mp3"
  },
  {
@@ -29387,6 +30060,7 @@
   ],
   "v": "đồ uống",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd47320f031a7.mp3"
  },
  {
@@ -29460,6 +30134,7 @@
   ],
   "v": "uống",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdcd3acd6b659.mp3"
  },
  {
@@ -29542,6 +30217,7 @@
   ],
   "v": "lên (xe, tàu)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9e0eeba39759.mp3"
  },
  {
@@ -29562,7 +30238,9 @@
    "notebook (computer)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 9065740,
    "lang": "jpn",
@@ -29602,6 +30280,7 @@
   ],
   "v": "vở; sổ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j73b6cd855160.mp3"
  },
  {
@@ -29661,6 +30340,7 @@
   ],
   "v": "răng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfd4bb4e3a44c.mp3"
  },
  {
@@ -29688,7 +30368,9 @@
    "giddap"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 2352930,
    "lang": "jpn",
@@ -29728,6 +30410,7 @@
   ],
   "v": "vâng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j6bbf1546d4d7.mp3"
  },
  {
@@ -29795,6 +30478,7 @@
   ],
   "v": "gạt tàn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j5cba13dffe93.mp3"
  },
  {
@@ -29891,6 +30575,7 @@
   ],
   "v": "vào",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j82a114897d9c.mp3"
  },
  {
@@ -29956,6 +30641,7 @@
   ],
   "v": "bưu thiếp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j39d2d353efa5.mp3"
  },
  {
@@ -29972,7 +30658,9 @@
    "to affix (a bowstring to a bow)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 82990,
    "lang": "jpn",
@@ -30012,6 +30700,7 @@
   ],
   "v": "mang (giày); mặc (quần)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jfa3b853fc275.mp3"
  },
  {
@@ -30088,6 +30777,7 @@
   ],
   "v": "hộp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j28102c121d50.mp3"
  },
  {
@@ -30101,7 +30791,9 @@
    "chopsticks"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 82405,
    "lang": "jpn",
@@ -30141,6 +30833,7 @@
   ],
   "v": "đũa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j908591f921b0.mp3"
  },
  {
@@ -30196,6 +30889,7 @@
   ],
   "v": "cầu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j873a33bd6c13.mp3"
  },
  {
@@ -30283,6 +30977,7 @@
   ],
   "v": "chạy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j97526e11c703.mp3"
  },
  {
@@ -30344,6 +31039,7 @@
   ],
   "v": "bắt đầu (tự bắt đầu)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j032ac6757485.mp3"
  },
  {
@@ -30406,6 +31102,7 @@
   ],
   "v": "ban đầu; lúc đầu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb70b754a191a.mp3"
  },
  {
@@ -30468,6 +31165,7 @@
   ],
   "v": "sự bắt đầu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j343be7b47a3c.mp3"
  },
  {
@@ -30528,6 +31226,7 @@
   ],
   "v": "lần đầu tiên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j575d784f0748.mp3"
  },
  {
@@ -30590,6 +31289,7 @@
   ],
   "v": "hai mươi tuổi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j88bf93be43ee.mp3"
  },
  {
@@ -30666,6 +31366,7 @@
   ],
   "v": "làm việc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j49f91d135f05.mp3"
  },
  {
@@ -30722,6 +31423,7 @@
   ],
   "v": "tám",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf6ed7c17c0d5.mp3"
  },
  {
@@ -30790,6 +31492,7 @@
   ],
   "v": "ngày hai mươi; hai mươi ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j08e3c50181be.mp3"
  },
  {
@@ -30856,6 +31559,7 @@
   ],
   "v": "hoa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfa6a4c8f27b4.mp3"
  },
  {
@@ -30911,6 +31615,7 @@
   ],
   "v": "mũi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0d194c50239e.mp3"
  },
  {
@@ -30981,6 +31686,7 @@
   ],
   "v": "câu chuyện; cuộc nói chuyện",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbe9551d57abc.mp3"
  },
  {
@@ -31046,6 +31752,7 @@
   ],
   "v": "nói; trò chuyện",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0b969a8c0944.mp3"
  },
  {
@@ -31118,6 +31825,7 @@
   ],
   "v": "sớm; nhanh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j72460e05df01.mp3"
  },
  {
@@ -31184,6 +31892,7 @@
   ],
   "v": "nhanh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j42f608e946a6.mp3"
  },
  {
@@ -31248,6 +31957,7 @@
   ],
   "v": "mùa xuân",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j18597113ac94.mp3"
  },
  {
@@ -31329,6 +32039,7 @@
   ],
   "v": "dán",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je3044e44f7d9.mp3"
  },
  {
@@ -31389,6 +32100,7 @@
   ],
   "v": "trời quang",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j17cb96ee7eff.mp3"
  },
  {
@@ -31451,6 +32163,7 @@
   ],
   "v": "trời quang đãng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j44e524e4f238.mp3"
  },
  {
@@ -31511,6 +32224,7 @@
   ],
   "v": "nửa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd605986c3af4.mp3"
  },
  {
@@ -31524,7 +32238,11 @@
    "handkerchief"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0,
+   3,
+   1
+  ],
   "example": {
    "id": 223306,
    "lang": "jpn",
@@ -31564,6 +32282,7 @@
   ],
   "v": "khăn tay",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j9e2dd73a328b.mp3"
  },
  {
@@ -31619,6 +32338,7 @@
   ],
   "v": "một nửa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j81e708aba22f.mp3"
  },
  {
@@ -31632,7 +32352,9 @@
    "bus"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 1656321,
    "lang": "jpn",
@@ -31672,6 +32394,7 @@
   ],
   "v": "xe buýt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j826a124ad930.mp3"
  },
  {
@@ -31685,7 +32408,9 @@
    "butter"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 198005,
    "lang": "jpn",
@@ -31725,6 +32450,7 @@
   ],
   "v": "bơ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j33240496da08.mp3"
  },
  {
@@ -31784,6 +32510,7 @@
   ],
   "v": "buổi tối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j42964aea18cf.mp3"
  },
  {
@@ -31840,6 +32567,7 @@
   ],
   "v": "số; số hiệu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0977b731878c.mp3"
  },
  {
@@ -31903,6 +32631,7 @@
   ],
   "v": "bữa tối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j696613003517.mp3"
  },
  {
@@ -31919,7 +32648,9 @@
    "one's bread"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 9524585,
    "lang": "jpn",
@@ -31959,6 +32690,7 @@
   ],
   "v": "bánh mì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j3ad79496437d.mp3"
  },
  {
@@ -31974,7 +32706,9 @@
    "(political) party"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 8766415,
    "lang": "jpn",
@@ -32014,6 +32748,7 @@
   ],
   "v": "bữa tiệc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j37388d6a51a3.mp3"
  },
  {
@@ -32070,6 +32805,7 @@
   ],
   "v": "phía đông",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb89224decc1b.mp3"
  },
  {
@@ -32173,6 +32909,7 @@
   ],
   "v": "kéo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbb787ce6238a.mp3"
  },
  {
@@ -32228,6 +32965,7 @@
   ],
   "v": "chơi (đàn)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja27e87116d14.mp3"
  },
  {
@@ -32289,6 +33027,7 @@
   ],
   "v": "thấp",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd1ad03f14ba3.mp3"
  },
  {
@@ -32347,6 +33086,7 @@
   ],
   "v": "máy bay",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j505a4fc8629a.mp3"
  },
  {
@@ -32420,6 +33160,7 @@
   ],
   "v": "bên trái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j14be5202d5b3.mp3"
  },
  {
@@ -32497,6 +33238,7 @@
   ],
   "v": "người",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jad7167347a2a.mp3"
  },
  {
@@ -32558,6 +33300,7 @@
   ],
   "v": "một cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j277587e6fa07.mp3"
  },
  {
@@ -32583,6 +33326,7 @@
   ],
   "v": "một tháng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j14435050c0df.mp3"
  },
  {
@@ -32647,6 +33391,7 @@
   ],
   "v": "một người; một mình",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7de8b40e4f57.mp3"
  },
  {
@@ -32725,6 +33470,7 @@
   ],
   "v": "rảnh; thời gian rảnh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j91161e6e754c.mp3"
  },
  {
@@ -32781,6 +33527,7 @@
   ],
   "v": "một trăm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j96a032e15dda.mp3"
  },
  {
@@ -32839,6 +33586,7 @@
   ],
   "v": "buổi trưa; ban ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4a9566e87de1.mp3"
  },
  {
@@ -32865,6 +33613,7 @@
   ],
   "v": "bữa trưa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j91b2f0a8bfc1.mp3"
  },
  {
@@ -32922,6 +33671,7 @@
   ],
   "v": "rộng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbb8fc62cf23d.mp3"
  },
  {
@@ -32981,6 +33731,7 @@
   ],
   "v": "bệnh viện",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j152ea0d72dc5.mp3"
  },
  {
@@ -33046,6 +33797,7 @@
   ],
   "v": "bệnh; ốm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf1d4ccc1ebeb.mp3"
  },
  {
@@ -33059,7 +33811,9 @@
    "film"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 1699684,
    "lang": "jpn",
@@ -33106,6 +33860,7 @@
   ],
   "v": "phim (chụp ảnh)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jdb0004aea08f.mp3"
  },
  {
@@ -33168,6 +33923,7 @@
   ],
   "v": "phong bì",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd3e35cbd8b7a.mp3"
  },
  {
@@ -33182,7 +33938,9 @@
    "forkball"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 197208,
    "lang": "jpn",
@@ -33234,6 +33992,7 @@
   ],
   "v": "nĩa; dĩa ăn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j7ce4a26b6d7f.mp3"
  },
  {
@@ -33319,6 +34078,7 @@
   ],
   "v": "thổi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j707c691402bc.mp3"
  },
  {
@@ -33380,6 +34140,7 @@
   ],
   "v": "quần áo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jff1cb3f79233.mp3"
  },
  {
@@ -33435,6 +34196,7 @@
   ],
   "v": "hai cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jbb85f028d944.mp3"
  },
  {
@@ -33493,6 +34255,7 @@
   ],
   "v": "hai người",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4fa716f651b2.mp3"
  },
  {
@@ -33519,6 +34282,7 @@
   ],
   "v": "ngày mùng hai; hai ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j56d52b7869ab.mp3"
  },
  {
@@ -33588,6 +34352,7 @@
   ],
   "v": "to; dày; béo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb7ea6f7eb013.mp3"
  },
  {
@@ -33643,6 +34408,7 @@
   ],
   "v": "mùa đông",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7c4d1abbdd61.mp3"
  },
  {
@@ -33705,6 +34471,7 @@
   ],
   "v": "rơi (mưa, tuyết)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j777161023023.mp3"
  },
  {
@@ -33777,6 +34544,7 @@
   ],
   "v": "cũ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je5fd15d61360.mp3"
  },
  {
@@ -33797,7 +34565,10 @@
    "base (wooden joint connecting the blade of a hoe, spade, etc., to the handle)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2,
+   1
+  ],
   "example": {
    "id": 111040,
    "lang": "jpn",
@@ -33844,6 +34615,7 @@
   ],
   "v": "bồn tắm; việc tắm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jbabf6e65ba86.mp3"
  },
  {
@@ -33906,6 +34678,7 @@
   ],
   "v": "thịt lợn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jadcdf1bd986d.mp3"
  },
  {
@@ -33968,6 +34741,7 @@
   ],
   "v": "bài văn; văn bản",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1a0c68cc98ca.mp3"
  },
  {
@@ -33984,7 +34758,9 @@
    "pool (price ring)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 10175980,
    "lang": "jpn",
@@ -34031,6 +34807,7 @@
   ],
   "v": "bể bơi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j460d27a239c2.mp3"
  },
  {
@@ -34090,6 +34867,7 @@
   ],
   "v": "kém; vụng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8aeedc2d7a47.mp3"
  },
  {
@@ -34150,6 +34928,7 @@
   ],
   "v": "phòng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j23523bbf8d9c.mp3"
  },
  {
@@ -34210,6 +34989,7 @@
   ],
   "v": "vùng; khu vực gần",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcd6dae51bd22.mp3"
  },
  {
@@ -34223,7 +35003,9 @@
    "bed"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 1484659,
    "lang": "jpn",
@@ -34263,6 +35045,7 @@
   ],
   "v": "giường",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j0e54311d2033.mp3"
  },
  {
@@ -34323,6 +35106,7 @@
   ],
   "v": "học",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j6c9121e6aefc.mp3"
  },
  {
@@ -34380,6 +35164,7 @@
   ],
   "v": "tiện lợi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7eeea113076f.mp3"
  },
  {
@@ -34394,7 +35179,9 @@
    "trumpet"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 5598833,
    "lang": "jpn",
@@ -34441,6 +35228,7 @@
   ],
   "v": "thú cưng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j3d33fd4054f1.mp3"
  },
  {
@@ -34454,7 +35242,9 @@
    "pen"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 417690,
    "lang": "jpn",
@@ -34494,6 +35284,7 @@
   ],
   "v": "bút",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j0aba8d2005d4.mp3"
  },
  {
@@ -34549,6 +35340,7 @@
   ],
   "v": "trang",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jfa617f411906.mp3"
  },
  {
@@ -34615,6 +35407,7 @@
   ],
   "v": "phía; bên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j1a7c757b9e8a.mp3"
  },
  {
@@ -34687,6 +35480,7 @@
   ],
   "v": "chỗ khác; khác",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j40e479b98a24.mp3"
  },
  {
@@ -34745,6 +35539,7 @@
   ],
   "v": "muốn có",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc7c31671d53c.mp3"
  },
  {
@@ -34810,6 +35605,7 @@
   ],
   "v": "mảnh; gầy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8b8fa31d72d2.mp3"
  },
  {
@@ -34823,7 +35619,9 @@
    "hotel"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 79712,
    "lang": "jpn",
@@ -34863,6 +35661,7 @@
   ],
   "v": "khách sạn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j9d97ee4082e2.mp3"
  },
  {
@@ -34937,6 +35736,7 @@
   ],
   "v": "sách",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0ac038632611.mp3"
  },
  {
@@ -34994,6 +35794,7 @@
   ],
   "v": "giá sách",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1ff0ae81b873.mp3"
  },
  {
@@ -35019,7 +35820,9 @@
    "veritable"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 120418,
    "lang": "jpn",
@@ -35066,6 +35869,7 @@
   ],
   "v": "thật; sự thật",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/ja89856f07720.mp3"
  },
  {
@@ -35123,6 +35927,7 @@
   ],
   "v": "mũ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jcc51cb65bd8d.mp3"
  },
  {
@@ -35138,7 +35943,9 @@
    "button"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 2140538,
    "lang": "jpn",
@@ -35178,6 +35985,7 @@
   ],
   "v": "nút; cúc áo",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j6e6aad33bc6f.mp3"
  },
  {
@@ -35243,6 +36051,7 @@
   ],
   "v": "bút bi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j352e1de5e9e9.mp3"
  },
  {
@@ -35256,7 +36065,10 @@
    "pocket"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1,
+   2
+  ],
   "example": {
    "id": 107354,
    "lang": "jpn",
@@ -35296,6 +36108,7 @@
   ],
   "v": "túi áo; túi quần",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/ja2486e569541.mp3"
  },
  {
@@ -35317,7 +36130,9 @@
    "post- (e.g. post-Cold War)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 866742,
    "lang": "jpn",
@@ -35369,6 +36184,7 @@
   ],
   "v": "hòm thư",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jb071ec677c37.mp3"
  },
  {
@@ -35425,6 +36241,7 @@
   ],
   "v": "mỗi sáng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jecd92861d4d7.mp3"
  },
  {
@@ -35452,6 +36269,7 @@
   ],
   "v": "mỗi tháng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1a53b6dbb027.mp3"
  },
  {
@@ -35507,6 +36325,7 @@
   ],
   "v": "mỗi tuần",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd63e5b968046.mp3"
  },
  {
@@ -35576,6 +36395,7 @@
   ],
   "v": "mỗi tháng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jad9fb52e6dff.mp3"
  },
  {
@@ -35633,6 +36453,7 @@
   ],
   "v": "mỗi năm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jd860a871b14d.mp3"
  },
  {
@@ -35689,6 +36510,7 @@
   ],
   "v": "mỗi ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1b6483e173f3.mp3"
  },
  {
@@ -35716,6 +36538,7 @@
   ],
   "v": "mỗi năm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0c038f53ae7e.mp3"
  },
  {
@@ -35779,6 +36602,7 @@
   ],
   "v": "mỗi tối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2eff08417f34.mp3"
  },
  {
@@ -35862,6 +36686,7 @@
   ],
   "v": "trước; phía trước",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j07f353ef981c.mp3"
  },
  {
@@ -35895,6 +36720,7 @@
   ],
   "v": "rẽ; cong",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9b9a58f11bf9.mp3"
  },
  {
@@ -35932,7 +36758,9 @@
    "this is bad"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2
+  ],
   "example": {
    "id": 8760370,
    "lang": "jpn",
@@ -35979,6 +36807,7 @@
   ],
   "v": "dở; không ngon",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jd86d12c0f538.mp3"
  },
  {
@@ -36014,7 +36843,9 @@
    "indirect"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 110826,
    "lang": "jpn",
@@ -36054,6 +36885,7 @@
   ],
   "v": "lại; còn nữa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/ja72e26bc8cb2.mp3"
  },
  {
@@ -36078,7 +36910,9 @@
    "not yet done"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 9002411,
    "lang": "jpn",
@@ -36118,6 +36952,7 @@
   ],
   "v": "vẫn; chưa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jf385448e1132.mp3"
  },
  {
@@ -36178,6 +37013,7 @@
   ],
   "v": "thị trấn; khu phố",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j09d74d630a45.mp3"
  },
  {
@@ -36197,7 +37033,9 @@
    "frank"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3
+  ],
   "example": {
    "id": 8071593,
    "lang": "jpn",
@@ -36237,6 +37075,7 @@
   ],
   "v": "thẳng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jb707aecf50a0.mp3"
  },
  {
@@ -36250,7 +37089,9 @@
    "match (for lighting a fire)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 110768,
    "lang": "jpn",
@@ -36290,6 +37131,7 @@
   ],
   "v": "diêm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jc1f712fe9638.mp3"
  },
  {
@@ -36350,6 +37192,7 @@
   ],
   "v": "đợi; chờ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6f30c5c5938f.mp3"
  },
  {
@@ -36405,6 +37248,7 @@
   ],
   "v": "cửa sổ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2c2d6564a0bc.mp3"
  },
  {
@@ -36477,6 +37321,7 @@
   ],
   "v": "tròn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb1514b201acd.mp3"
  },
  {
@@ -36549,6 +37394,7 @@
   ],
   "v": "tròn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j871f9d440154.mp3"
  },
  {
@@ -36606,6 +37452,7 @@
   ],
   "v": "mười nghìn; vạn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j1807218bf360.mp3"
  },
  {
@@ -36668,6 +37515,7 @@
   ],
   "v": "bút máy",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9d1877a53728.mp3"
  },
  {
@@ -36746,6 +37594,7 @@
   ],
   "v": "đánh bóng; chải (răng)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j4cbda80a33ed.mp3"
  },
  {
@@ -36808,6 +37657,7 @@
   ],
   "v": "bên phải",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jed6bd4d73b76.mp3"
  },
  {
@@ -36864,6 +37714,7 @@
   ],
   "v": "ngắn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j456eae34da34.mp3"
  },
  {
@@ -36925,6 +37776,7 @@
   ],
   "v": "nước",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j28ddfdc9290c.mp3"
  },
  {
@@ -36983,6 +37835,7 @@
   ],
   "v": "cửa hàng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je70f9243d4c7.mp3"
  },
  {
@@ -37060,6 +37913,7 @@
   ],
   "v": "cho xem",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j859aec8573b3.mp3"
  },
  {
@@ -37134,6 +37988,7 @@
   ],
   "v": "đường",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb4a022a9e7a6.mp3"
  },
  {
@@ -37190,6 +38045,7 @@
   ],
   "v": "ngày mùng ba; ba ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb0489d428339.mp3"
  },
  {
@@ -37246,6 +38102,7 @@
   ],
   "v": "ba cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8b887bc8af0c.mp3"
  },
  {
@@ -37303,6 +38160,7 @@
   ],
   "v": "màu xanh lá",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/ja460a7ee538c.mp3"
  },
  {
@@ -37360,6 +38218,7 @@
   ],
   "v": "mọi người",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf062df24bcb3.mp3"
  },
  {
@@ -37415,6 +38274,7 @@
   ],
   "v": "phía nam",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je1461a487e42.mp3"
  },
  {
@@ -37479,6 +38339,7 @@
   ],
   "v": "tai",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdca5c9fc5908.mp3"
  },
  {
@@ -37554,6 +38415,7 @@
   ],
   "v": "xem; nhìn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j385cc0d9ee98.mp3"
  },
  {
@@ -37570,7 +38432,10 @@
    "everything"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   3,
+   0
+  ],
   "example": {
    "id": 110686,
    "lang": "jpn",
@@ -37610,6 +38475,7 @@
   ],
   "v": "mọi người; tất cả",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jf8bcafb726fe.mp3"
  },
  {
@@ -37636,6 +38502,7 @@
   ],
   "v": "ngày mùng sáu; sáu ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7b2351210462.mp3"
  },
  {
@@ -37707,6 +38574,7 @@
   ],
   "v": "phía bên kia",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9b462ae20b9c.mp3"
  },
  {
@@ -37786,6 +38654,7 @@
   ],
   "v": "khó",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6ed0b6d4c374.mp3"
  },
  {
@@ -37813,6 +38682,7 @@
   ],
   "v": "sáu cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jdf70a01acaec.mp3"
  },
  {
@@ -37868,6 +38738,7 @@
   ],
   "v": "làng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j92bebda5ac98.mp3"
  },
  {
@@ -37963,6 +38834,7 @@
   ],
   "v": "mắt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6c0b9f3278dc.mp3"
  },
  {
@@ -38026,6 +38898,7 @@
   ],
   "v": "kính mắt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j91c48fa2fe6d.mp3"
  },
  {
@@ -38088,6 +38961,7 @@
   ],
   "v": "mét",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j3fbaed3922ea.mp3"
  },
  {
@@ -38165,6 +39039,7 @@
   ],
   "v": "đã; rồi; nữa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j0960d185c7f1.mp3"
  },
  {
@@ -38219,6 +39094,7 @@
   ],
   "v": "một lần nữa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j81881b9c4631.mp3"
  },
  {
@@ -38244,6 +39120,7 @@
   ],
   "v": "thứ năm",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j8b1ba4846f97.mp3"
  },
  {
@@ -38260,7 +39137,9 @@
    "further"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 193339,
    "lang": "jpn",
@@ -38300,6 +39179,7 @@
   ],
   "v": "hơn nữa",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jb87d435fd7f9.mp3"
  },
  {
@@ -38372,6 +39252,7 @@
   ],
   "v": "cầm; mang; có",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j516ad1128c71.mp3"
  },
  {
@@ -38458,6 +39339,7 @@
   ],
   "v": "đồ vật",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j012e69e925d7.mp3"
  },
  {
@@ -38518,6 +39400,7 @@
   ],
   "v": "cổng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfdfb55d69509.mp3"
  },
  {
@@ -38586,6 +39469,7 @@
   ],
   "v": "vấn đề; câu hỏi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j42d6dbdfe036.mp3"
  },
  {
@@ -38650,6 +39534,7 @@
   ],
   "v": "cửa hàng rau quả",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3757a44055ac.mp3"
  },
  {
@@ -38707,6 +39592,7 @@
   ],
   "v": "rau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j88763af54360.mp3"
  },
  {
@@ -38765,6 +39651,7 @@
   ],
   "v": "dễ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6927fec1fef0.mp3"
  },
  {
@@ -38824,6 +39711,7 @@
   ],
   "v": "rẻ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0513945a1ef5.mp3"
  },
  {
@@ -38886,6 +39774,7 @@
   ],
   "v": "nghỉ; ngày nghỉ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jebdaef0f21db.mp3"
  },
  {
@@ -38962,6 +39851,7 @@
   ],
   "v": "nghỉ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jacc3dd26ba1e.mp3"
  },
  {
@@ -38989,6 +39879,7 @@
   ],
   "v": "tám cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6c9351ae67e6.mp3"
  },
  {
@@ -39071,6 +39962,7 @@
   ],
   "v": "núi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jddd9dca106e2.mp3"
  },
  {
@@ -39130,7 +40022,9 @@
    "to be afflicted with"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 473878,
    "lang": "jpn",
@@ -39170,6 +40064,7 @@
   ],
   "v": "làm; cho",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j922ff9e0323a.mp3"
  },
  {
@@ -39226,6 +40121,7 @@
   ],
   "v": "chiều tối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j3534dd7d07d1.mp3"
  },
  {
@@ -39283,6 +40179,7 @@
   ],
   "v": "bữa tối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf997cc0b6568.mp3"
  },
  {
@@ -39338,6 +40235,7 @@
   ],
   "v": "bưu điện",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je40b7fecf36c.mp3"
  },
  {
@@ -39394,6 +40292,7 @@
   ],
   "v": "tối qua",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jde50d5073f2d.mp3"
  },
  {
@@ -39450,6 +40349,7 @@
   ],
   "v": "nổi tiếng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7c3179147b51.mp3"
  },
  {
@@ -39506,6 +40406,7 @@
   ],
   "v": "tuyết",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j79db1765ce26.mp3"
  },
  {
@@ -39603,6 +40504,7 @@
   ],
   "v": "đi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j30a51a1ad9c2.mp3"
  },
  {
@@ -39667,6 +40569,7 @@
   ],
   "v": "chậm rãi; thong thả",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j0609e7997541.mp3"
  },
  {
@@ -39695,7 +40598,9 @@
    "easy to ..."
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 214789,
    "lang": "jpn",
@@ -39735,6 +40640,7 @@
   ],
   "v": "tốt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j91715456ad16.mp3"
  },
  {
@@ -39791,6 +40697,7 @@
   ],
   "v": "ngày mùng tám; tám ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jf50fcf40e898.mp3"
  },
  {
@@ -39853,6 +40760,7 @@
   ],
   "v": "quần áo kiểu Tây",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j60452785e7a1.mp3"
  },
  {
@@ -39876,7 +40784,9 @@
    "I don't know how you can ..."
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 117676,
    "lang": "jpn",
@@ -39916,6 +40826,7 @@
   ],
   "v": "thường; tốt; kỹ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/jac0d84b30392.mp3"
  },
  {
@@ -39979,6 +40890,7 @@
   ],
   "v": "bên cạnh; chiều ngang",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jabdeea6cb4b4.mp3"
  },
  {
@@ -40005,6 +40917,7 @@
   ],
   "v": "ngày mùng bốn; bốn ngày",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j13ea3220cde0.mp3"
  },
  {
@@ -40035,6 +40948,7 @@
   ],
   "v": "bốn cái",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j947395f42397.mp3"
  },
  {
@@ -40100,6 +41014,7 @@
   ],
   "v": "gọi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j0adf764f9311.mp3"
  },
  {
@@ -40171,6 +41086,7 @@
   ],
   "v": "đọc",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j24f188a06d2c.mp3"
  },
  {
@@ -40237,6 +41153,7 @@
   ],
   "v": "hơn; so với",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j8de0361f5df0.mp3"
  },
  {
@@ -40294,6 +41211,7 @@
   ],
   "v": "đêm; tối",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jba0c8a160c33.mp3"
  },
  {
@@ -40361,6 +41279,7 @@
   ],
   "v": "yếu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j7819c17897e7.mp3"
  },
  {
@@ -40417,6 +41336,7 @@
   ],
   "v": "bốn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb066e78531d6.mp3"
  },
  {
@@ -40472,6 +41392,7 @@
   ],
   "v": "tháng sau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j55fef51b0694.mp3"
  },
  {
@@ -40527,6 +41448,7 @@
   ],
   "v": "tuần sau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jeddc7f95d55c.mp3"
  },
  {
@@ -40582,6 +41504,7 @@
   ],
   "v": "năm sau",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfb3e6c8865d4.mp3"
  },
  {
@@ -40595,7 +41518,9 @@
    "radio"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 192585,
    "lang": "jpn",
@@ -40635,6 +41560,7 @@
   ],
   "v": "đài phát thanh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j896d3ced1b41.mp3"
  },
  {
@@ -40659,6 +41585,7 @@
   ],
   "v": "máy thu thanh kèm máy phát băng từ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/j03f45cca839b.mp3"
  },
  {
@@ -40672,7 +41599,9 @@
    "radio-cassette player"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": null,
   "jmdict": "1138960",
   "match": "exact",
@@ -40682,6 +41611,7 @@
   ],
   "v": "máy thu thanh kèm máy phát băng từ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/ja53d0ec3a35c.mp3"
  },
  {
@@ -40710,7 +41640,9 @@
    "solid"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 110340,
    "lang": "jpn",
@@ -40757,6 +41689,7 @@
   ],
   "v": "tuyệt vời; đáng kính",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j4e631a9d4b7c.mp3"
  },
  {
@@ -40821,6 +41754,7 @@
   ],
   "v": "du học sinh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j077e22812659.mp3"
  },
  {
@@ -40877,6 +41811,7 @@
   ],
   "v": "bố mẹ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9389f18983d3.mp3"
  },
  {
@@ -40939,6 +41874,7 @@
   ],
   "v": "món ăn; nấu ăn",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j6ab8f730431c.mp3"
  },
  {
@@ -40998,6 +41934,7 @@
   ],
   "v": "du lịch",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j2e3ba98d2367.mp3"
  },
  {
@@ -41061,6 +41998,7 @@
   ],
   "v": "số không",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb72f9967b000.mp3"
  },
  {
@@ -41117,6 +42055,7 @@
   ],
   "v": "tủ lạnh",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jfd0d7ce5a34d.mp3"
  },
  {
@@ -41132,7 +42071,10 @@
    "record (data structure)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   2,
+   1
+  ],
   "example": {
    "id": 156708,
    "lang": "jpn",
@@ -41179,6 +42121,7 @@
   ],
   "v": "đĩa nhạc; kỷ lục",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j97be9f1d3fbe.mp3"
  },
  {
@@ -41192,7 +42135,9 @@
    "restaurant (esp. Western-style)"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   1
+  ],
   "example": {
    "id": 2211172,
    "lang": "jpn",
@@ -41232,6 +42177,7 @@
   ],
   "v": "nhà hàng",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j61c233ab6a5e.mp3"
  },
  {
@@ -41296,6 +42242,7 @@
   ],
   "v": "luyện tập",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": null,
   "audio": "audio/n5/w/jd4eb3818a69b.mp3"
  },
  {
@@ -41360,6 +42307,7 @@
   ],
   "v": "hành lang",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j26adc630f7fe.mp3"
  },
  {
@@ -41416,6 +42364,7 @@
   ],
   "v": "sáu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j06ef406f5569.mp3"
  },
  {
@@ -41432,7 +42381,9 @@
    "button-up shirt"
   ],
   "hv": "",
-  "pitch": null,
+  "pitch": [
+   0
+  ],
   "example": {
    "id": 11833918,
    "lang": "jpn",
@@ -41479,6 +42430,7 @@
   ],
   "v": "áo sơ mi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "unidic-2.1.2",
   "audio": "audio/n5/w/j7294370af1b1.mp3"
  },
  {
@@ -41539,6 +42491,7 @@
   ],
   "v": "trẻ",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jc23e5bea4108.mp3"
  },
  {
@@ -41607,6 +42560,7 @@
   ],
   "v": "hiểu",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jeeb8ecca964f.mp3"
  },
  {
@@ -41666,6 +42620,7 @@
   ],
   "v": "quên",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j53c63c8d3e25.mp3"
  },
  {
@@ -41728,6 +42683,7 @@
   ],
   "v": "tôi (trang trọng)",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je4a0829403e3.mp3"
  },
  {
@@ -41784,6 +42740,7 @@
   ],
   "v": "tôi",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/jb6944a5fe271.mp3"
  },
  {
@@ -41855,6 +42812,7 @@
   ],
   "v": "đưa; trao; đưa qua",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/je713380aad5b.mp3"
  },
  {
@@ -41915,6 +42873,7 @@
   ],
   "v": "đi qua; băng qua",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j9aa7d5bc2d8f.mp3"
  },
  {
@@ -41988,6 +42947,7 @@
   ],
   "v": "xấu; không tốt",
   "viMethod": "dịch từ JMdict (tiếng Anh), cần người bản ngữ kiểm tra",
+  "pitchSource": "kanjium",
   "audio": "audio/n5/w/j04d486e7201c.mp3"
  }
 ]

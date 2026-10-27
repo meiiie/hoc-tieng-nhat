@@ -21,3 +21,27 @@ test('Tatoeba examples have exact word blanks, short sentences and per-sentence 
   else{check(t);if(t.pivot){check(t.via);assert.equal(t.via.lang,'eng');assert.deepEqual(t.links,[[e.id,t.via.id],[t.via.id,t.id]])}else assert.deepEqual(t.links,[[e.id,t.id]])}
  }
 });
+
+test('added pitch values retain explicit licensed lexical evidence and source labels',()=>{
+ const rows=JSON.parse(fs.readFileSync('data/sources/pitch-additions.json'));
+ const report=JSON.parse(fs.readFileSync('data/sources/pitch-method.json'));
+ const hira=s=>s.normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96));
+ assert.ok(Object.keys(rows).length>900);
+ assert.equal(Object.keys(rows).length,report.added);
+ assert.equal(all.filter(w=>w.pitch===null).length,report.remainingNull);
+ for(const w of all){const r=rows[w.id];
+  if(!r){assert.equal(w.pitchSource,w.pitch?'kanjium':null);continue}
+  assert.equal(r.form,w.kanji);assert.equal(r.reading,w.kana);assert.equal(r.jmdict,w.jmdict);
+  assert.deepEqual(w.pitch,r.pitch);assert.equal(w.pitchSource,r.source);assert.ok(r.records.length);
+  if(r.source==='unidic-2.1.2'){
+   assert.equal(r.license,'BSD-3-Clause');
+   for(const item of r.records){const f=item.features;
+    assert.equal(item.surface,w.kanji);assert.equal(f.orth,w.kanji);assert.equal(f.orthBase,w.kanji);
+    assert.equal(hira(f.kana),hira(w.kana));assert.equal(hira(f.kanaBase),hira(w.kana));
+    assert.equal(f.aModeType,'*');assert.match(f.aType,/^\d+(,\d+)*$/);
+    assert.deepEqual(f.aType.split(',').map(Number),w.pitch);
+    assert.ok(r.allowedLemmas.map(hira).includes(hira(f.lemma.replace(/-[A-Za-z].*$/,''))));
+   }
+  }else{assert.equal(r.source,'kanjium');assert.equal(r.license,'CC-BY-SA-4.0');for(const item of r.records){assert.equal(item.form,w.kanji);assert.equal(hira(item.reading),hira(w.kana));assert.deepEqual(item.acc_pos.split(',').map(Number),w.pitch);assert.ok(item.line>0&&item.rowId&&item.raw)}}
+ }
+});

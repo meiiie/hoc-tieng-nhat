@@ -1,14 +1,14 @@
 # Cao độ và mora: phương pháp và giới hạn
 
-Ứng dụng cho nghe mẫu, xem đường cao/thấp, theo nhịp mora, ghi âm rồi nghe lại. Khi có đủ tín hiệu, nó so hình dạng cao độ với mẫu Kanjium và luôn ghi **ước lượng**. Không xuất điểm số phát âm, không xác nhận đã nói đúng từ, không đưa kết quả vào FSRS.
+Ứng dụng cho nghe mẫu, xem đường cao/thấp, theo nhịp mora, ghi âm rồi nghe lại. Khi có đủ tín hiệu, nó so hình dạng cao độ với mẫu từ điển có nguồn và luôn ghi **ước lượng**. Không xuất điểm số phát âm, không xác nhận đã nói đúng từ, không đưa kết quả vào FSRS.
 
 ## Mẫu tiếng Nhật
 
-Ghép Kanjium bằng dạng chữ + cách đọc; 7.096/8.344 mục có mẫu, 1.248 mục không có. Giữ các biến thể accent để chọn. Số 0 là không hạ trong từ (heiban); số dương là vị trí hạ sau mora đó. `JaPitch.pattern` tạo các mức cao/thấp, kể cả hình minh họa trợ từ sau từ. Trợ từ này không nằm trong âm cần ghi hoặc so sánh.
+Ghép dạng chữ + cách đọc từ Kanjium và mục từ UniDic 2.1.2 đã kiểm tra lemma; 8.032/8.344 mục có mẫu, 312 mục không có. Màn hình ghi nguồn Kanjium hoặc UniDic cho từ đang xem. 936 mẫu bổ sung có bằng chứng/giấy phép trong data/sources/pitch-additions.json; không nối hoặc suy accent cho từ ghép. Giữ các biến thể accent để chọn. Số 0 là không hạ trong từ (heiban); số dương là vị trí hạ sau mora đó. `JaPitch.pattern` tạo các mức cao/thấp, kể cả hình minh họa trợ từ sau từ. Trợ từ này không nằm trong âm cần ghi hoặc so sánh.
 
 Mora khác số chữ/âm tiết: âm ghép きゃ tính một; っ, ん và dấu kéo dài ー mỗi phần tính một; きょう có hai, がっこう và コーヒー có bốn. Các ô sáng lần lượt mỗi 500 ms chỉ là nhịp luyện do ứng dụng đặt, không phải tốc độ nói tự nhiên hoặc đo thời gian mora của người học. Furigana áp dụng ruby cho cả từ, không tự tách/đoán cách đọc của từng kanji.
 
-Giọng Nanami và giọng thiết bị đọc kana có thể chọn biến thể cao độ khác Kanjium. Đường tham khảo không được trích từ MP3 này, và MP3 không phải bản ghi người bản ngữ đã kiểm duyệt.
+Giọng Nanami và giọng thiết bị đọc kana có thể chọn biến thể cao độ khác mẫu từ điển. Đường tham khảo không được trích từ MP3 này, và MP3 không phải bản ghi người bản ngữ đã kiểm duyệt.
 
 ## Thu âm trên thiết bị
 

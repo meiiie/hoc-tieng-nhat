@@ -19,6 +19,6 @@ function compare(f0,expected){if(!expected||expected.length<2)return {ok:false,r
  const measured=transitions.filter(x=>x.match!==null);if(measured.length<Math.max(1,transitions.length*.5))return {ok:false,reason:'Các khoảng mora chưa có đủ cao độ rõ để đối chiếu.'};
  return {ok:true,kind:measured.every(x=>x.match)?'similar':'compare',means,contour,transitions,voicedFraction:voiced.length/part.length,frameStart:first,frameEnd:last};
 }
-function analyse(pcm,sr,kana,accent){const expected=pattern(Kana.morae(kana).length,accent);if(!expected)return {ok:false,reason:'Từ này chưa có mẫu cao độ trong Kanjium.'};const t=track(pcm,sr);return {...compare(t.f0,expected),expected,duration:pcm.length/sr}}
+function analyse(pcm,sr,kana,accent){const expected=pattern(Kana.morae(kana).length,accent);if(!expected)return {ok:false,reason:'Từ này chưa có mẫu cao độ từ nguồn đã đối chiếu.'};const t=track(pcm,sr);return {...compare(t.f0,expected),expected,duration:pcm.length/sr}}
 const api={pattern,track,compare,analyse};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.JaPitch=api;
 })(globalThis);

@@ -1,0 +1,2498 @@
+[
+  {
+    "id": "jb49ff0164cc4",
+    "form": "あまり",
+    "reading": "あまり",
+    "jmdict": "1584930",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j56e4ae127cea",
+    "form": "あれ",
+    "reading": "あれ",
+    "jmdict": "1000580",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j69f176ce582c",
+    "form": "いい",
+    "reading": "いい",
+    "jmdict": "2820690",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc148271b701d",
+    "form": "いくつ",
+    "reading": "いくつ",
+    "jmdict": "1219960",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j61b1348fd56a",
+    "form": "いくら",
+    "reading": "いくら",
+    "jmdict": "1219980",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc983c7b109a6",
+    "form": "いつも",
+    "reading": "いつも",
+    "jmdict": "1188890",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb4ce03cd6090",
+    "form": "お酒",
+    "reading": "おさけ",
+    "jmdict": "1329015",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jdfc6c56f52a3",
+    "form": "お皿",
+    "reading": "おさら",
+    "jmdict": "1299685",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je49f0c143bbc",
+    "form": "おじいさん",
+    "reading": "おじいさん",
+    "jmdict": "1002320",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9a9ea8e8d12d",
+    "form": "おばあさん",
+    "reading": "おばあさん",
+    "jmdict": "1002330",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j43b5bbb2773d",
+    "form": "おまわりさん",
+    "reading": "おまわりさん",
+    "jmdict": "1002120",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j115e9c23e2b9",
+    "form": "かける",
+    "reading": "かける",
+    "jmdict": "1207610",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je1ede1d758f0",
+    "form": "ギター",
+    "reading": "ギター",
+    "jmdict": "1042820",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7a50935b2e7a",
+    "form": "ください",
+    "reading": "ください",
+    "jmdict": "1184270",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j65255d245d51",
+    "form": "コピーする",
+    "reading": "コピーする",
+    "jmdict": "1050590",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja98b98005ebd",
+    "form": "さあ",
+    "reading": "さあ",
+    "jmdict": "1005110",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc0b895b11255",
+    "form": "散歩する",
+    "reading": "さんぽする",
+    "jmdict": "1303620",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j507d0ea60357",
+    "form": "じゃあ",
+    "reading": "じゃあ",
+    "jmdict": "1005900",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j86f4d5b7a565",
+    "form": "すぐに",
+    "reading": "すぐに",
+    "jmdict": "1430620",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc8870989f706",
+    "form": "そうして",
+    "reading": "そうして",
+    "jmdict": "1612860",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je7f35882154f",
+    "form": "掃除する",
+    "reading": "そうじする",
+    "jmdict": "1399790",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jcabda7989563",
+    "form": "それ",
+    "reading": "それ",
+    "jmdict": "1006970",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j3f6c04a2d9e0",
+    "form": "それから",
+    "reading": "それから",
+    "jmdict": "1006980",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8828801cd783",
+    "form": "それでは",
+    "reading": "それでは",
+    "jmdict": "1406050",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j89a64c2e6e6b",
+    "form": "たくさん",
+    "reading": "たくさん",
+    "jmdict": "1415870",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8f6a920ffc4b",
+    "form": "たぶん",
+    "reading": "たぶん",
+    "jmdict": "1407980",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j79d17283be29",
+    "form": "だんだん",
+    "reading": "だんだん",
+    "jmdict": "1597350",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc4173d8c166c",
+    "form": "つまらない",
+    "reading": "つまらない",
+    "jmdict": "1008190",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jf4e7b21c2f09",
+    "form": "テープレコーダー",
+    "reading": "テープレコーダー",
+    "jmdict": "1078810",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8f8a8601914e",
+    "form": "では",
+    "reading": "では",
+    "jmdict": "1008450",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7aeac2a5dd4c",
+    "form": "でも",
+    "reading": "でも",
+    "jmdict": "1008460",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8684d9811d46",
+    "form": "どうして",
+    "reading": "どうして",
+    "jmdict": "1466940",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jfe433c0cf385",
+    "form": "どうも",
+    "reading": "どうも",
+    "jmdict": "1009000",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j5afaf8671e34",
+    "form": "など",
+    "reading": "など",
+    "jmdict": "1582300",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6c9121e6aefc",
+    "form": "勉強する",
+    "reading": "べんきょうする",
+    "jmdict": "1512670",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jfa617f411906",
+    "form": "ページ",
+    "reading": "ページ",
+    "jmdict": "1120410",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j1a7c757b9e8a",
+    "form": "ほう",
+    "reading": "ほう",
+    "jmdict": "1516930",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j40e479b98a24",
+    "form": "ほか",
+    "reading": "ほか",
+    "jmdict": "1203260",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j352e1de5e9e9",
+    "form": "ボールペン",
+    "reading": "ボールペン",
+    "jmdict": "1123590",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j3fbaed3922ea",
+    "form": "メートル",
+    "reading": "メートル",
+    "jmdict": "1132570",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j0960d185c7f1",
+    "form": "もう",
+    "reading": "もう",
+    "jmdict": "1012480",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j81881b9c4631",
+    "form": "もう一度",
+    "reading": "もういちど",
+    "jmdict": "2005860",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j0609e7997541",
+    "form": "ゆっくりと",
+    "reading": "ゆっくりと",
+    "jmdict": "1013050",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8de0361f5df0",
+    "form": "より",
+    "reading": "より",
+    "jmdict": "1013190",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j03f45cca839b",
+    "form": "ラジオカセット",
+    "reading": "ラジオカセット",
+    "jmdict": "1138900",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd4eb3818a69b",
+    "form": "練習する",
+    "reading": "れんしゅうする",
+    "jmdict": "1559160",
+    "level": 5,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jacc6dcfb8567",
+    "form": "ああ",
+    "reading": "ああ",
+    "jmdict": "1565440",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j50aebb20091d",
+    "form": "あんな",
+    "reading": "あんな",
+    "jmdict": "1000590",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc8dd40953306",
+    "form": "いっぱい",
+    "reading": "いっぱい",
+    "jmdict": "1165670",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j32f470ce19e9",
+    "form": "おいでになる",
+    "reading": "おいでになる",
+    "jmdict": "1001180",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j469dcd8cf9aa",
+    "form": "お金持ち",
+    "reading": "おかねもち",
+    "jmdict": "2429350",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j018d445bd63e",
+    "form": "おつり",
+    "reading": "おつり",
+    "jmdict": "1270550",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6ab6355f7f71",
+    "form": "お祭り",
+    "reading": "おまつり",
+    "jmdict": "1604135",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb2dabb47e7dd",
+    "form": "お見舞い",
+    "reading": "おみまい",
+    "jmdict": "1001870",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb8818c8ae12e",
+    "form": "泳ぎ方",
+    "reading": "およぎかた",
+    "jmdict": "2005990",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jf39ec05e5a61",
+    "form": "会議室",
+    "reading": "かいぎしつ",
+    "jmdict": "1198380",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j36e8ee239d14",
+    "form": "かっこう",
+    "reading": "かっこう",
+    "jmdict": "1590480",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j28ce9a27eaeb",
+    "form": "ガソリンスタンド",
+    "reading": "ガソリンスタンド",
+    "jmdict": "1040260",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7edb0c6b331b",
+    "form": "けれども",
+    "reading": "けれども",
+    "jmdict": "2853889",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6e70affba493",
+    "form": "こう",
+    "reading": "こう",
+    "jmdict": "1004310",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j41860727fee0",
+    "form": "こと",
+    "reading": "こと",
+    "jmdict": "1313580",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7128f47a1cfc",
+    "form": "このあいだ",
+    "reading": "このあいだ",
+    "jmdict": "1004690",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja556c66fb3e4",
+    "form": "これから",
+    "reading": "これから",
+    "jmdict": "1004790",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6335e57fc22f",
+    "form": "コンピュータ",
+    "reading": "コンピュータ",
+    "jmdict": "1053350",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j83bb3d070347",
+    "form": "御主人",
+    "reading": "ごしゅじん",
+    "jmdict": "1270390",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jce0628d869ba",
+    "form": "ごちそう",
+    "reading": "ごちそう",
+    "jmdict": "1593590",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j5b21d92a7eee",
+    "form": "ごらんになる",
+    "reading": "ごらんになる",
+    "jmdict": "2217040",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja4517808475d",
+    "form": "すっと",
+    "reading": "すっと",
+    "jmdict": "1006140",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j0595507689c9",
+    "form": "すると",
+    "reading": "すると",
+    "jmdict": "1006280",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7ec50aeec001",
+    "form": "それで",
+    "reading": "それで",
+    "jmdict": "1007000",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je6c92761a83c",
+    "form": "それに",
+    "reading": "それに",
+    "jmdict": "1007040",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j21c8718d5853",
+    "form": "それほど",
+    "reading": "それほど",
+    "jmdict": "1007060",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7ae1ee3a0309",
+    "form": "そんなに",
+    "reading": "そんなに",
+    "jmdict": "2008740",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8a8d75ddf050",
+    "form": "だから",
+    "reading": "だから",
+    "jmdict": "1007310",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j35e593835cb7",
+    "form": "できるだけ",
+    "reading": "できるだけ",
+    "jmdict": "1340460",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j99dd36bb56ee",
+    "form": "とこや",
+    "reading": "とこや",
+    "jmdict": "1349410",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j41c229a6256d",
+    "form": "または",
+    "reading": "または",
+    "jmdict": "1524990",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7d35ef299db0",
+    "form": "もうすぐ",
+    "reading": "もうすぐ",
+    "jmdict": "2015610",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7862cdc09bae",
+    "form": "もっとも",
+    "reading": "もっとも",
+    "jmdict": "1293700",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja66d2a6ba0ac",
+    "form": "役に立つ",
+    "reading": "やくにたつ",
+    "jmdict": "1537980",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6b4bb7e6fd6d",
+    "form": "やっぱり",
+    "reading": "やっぱり",
+    "jmdict": "1012810",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9ce91e3ea30f",
+    "form": "リポート",
+    "reading": "リポート",
+    "jmdict": "1145990",
+    "level": 4,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j93fbee8b5477",
+    "form": "アイスクリーム",
+    "reading": "アイスクリーム",
+    "jmdict": "1013980",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j65eb0331d450",
+    "form": "あした",
+    "reading": "あした",
+    "jmdict": "1584660",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9c4bbec39573",
+    "form": "あんなに",
+    "reading": "あんなに",
+    "jmdict": "1981450",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j965af0cf2bf4",
+    "form": "いけない",
+    "reading": "いけない",
+    "jmdict": "1000730",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7fd7463f51b7",
+    "form": "いただきます",
+    "reading": "いただきます",
+    "jmdict": "1410800",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j307298ad886d",
+    "form": "いつか",
+    "reading": "いつか",
+    "jmdict": "1188790",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j161254ea2938",
+    "form": "いつでも",
+    "reading": "いつでも",
+    "jmdict": "1577130",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jdc6662adf121",
+    "form": "いつまでも",
+    "reading": "いつまでも",
+    "jmdict": "1188880",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j17e24f9a6fd2",
+    "form": "いらっしゃい",
+    "reading": "いらっしゃい",
+    "jmdict": "1000920",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je6f01103efba",
+    "form": "上",
+    "reading": "うわ",
+    "jmdict": "1352140",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j267a571da73a",
+    "form": "御",
+    "reading": "お",
+    "jmdict": "2826528",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j1ff5dac4ba71",
+    "form": "おしゃべり",
+    "reading": "おしゃべり",
+    "jmdict": "1002450",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbcfbced3ea21",
+    "form": "男の人",
+    "reading": "おとこのひと",
+    "jmdict": "1420020",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j3ab602d8cd4f",
+    "form": "おめでとう",
+    "reading": "おめでとう",
+    "jmdict": "1270700",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jfe951f52c7ae",
+    "form": "お目に掛かる",
+    "reading": "おめにかかる",
+    "jmdict": "1535140",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc0ea81bb5a2a",
+    "form": "かもしれない",
+    "reading": "かもしれない",
+    "jmdict": "1002970",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jfda94324dcce",
+    "form": "これら",
+    "reading": "これら",
+    "jmdict": "1004830",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc70050a62ca0",
+    "form": "こんなに",
+    "reading": "こんなに",
+    "jmdict": "1004890",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je6b9a1707f0d",
+    "form": "ごめんなさい",
+    "reading": "ごめんなさい",
+    "jmdict": "1270680",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j1258b29002fb",
+    "form": "ざっと",
+    "reading": "ざっと",
+    "jmdict": "1005390",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j28f0c76c5bd7",
+    "form": "しきりに",
+    "reading": "しきりに",
+    "jmdict": "1005480",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9a50521ca46d",
+    "form": "したがって",
+    "reading": "したがって",
+    "jmdict": "1335230",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j14a907ae5e2c",
+    "form": "しまった",
+    "reading": "しまった",
+    "jmdict": "1005600",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9d9319c452c3",
+    "form": "徐々に",
+    "reading": "じょじょに",
+    "jmdict": "1595480",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j224fe0f121ab",
+    "form": "すみません",
+    "reading": "すみません",
+    "jmdict": "1295060",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j25df571cc2af",
+    "form": "そこで",
+    "reading": "そこで",
+    "jmdict": "1406090",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb253524bb27c",
+    "form": "そのうち",
+    "reading": "そのうち",
+    "jmdict": "1006930",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j4196a7d7857e",
+    "form": "そのまま",
+    "reading": "そのまま",
+    "jmdict": "1406030",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j44c3c01186a0",
+    "form": "それでも",
+    "reading": "それでも",
+    "jmdict": "1406060",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j40b45ac63a55",
+    "form": "それと",
+    "reading": "それと",
+    "jmdict": "2396190",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j09fc526350ca",
+    "form": "それとも",
+    "reading": "それとも",
+    "jmdict": "1007010",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j4eda31a26ddc",
+    "form": "たった",
+    "reading": "たった",
+    "jmdict": "1007230",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j458a60357cd3",
+    "form": "たまらない",
+    "reading": "たまらない",
+    "jmdict": "1211340",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7a2e59189857",
+    "form": "ダイヤ",
+    "reading": "ダイヤ",
+    "jmdict": "1076860",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j3c6929a3d856",
+    "form": "だが",
+    "reading": "だが",
+    "jmdict": "2055530",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j4aba179d8c12",
+    "form": "だけど",
+    "reading": "だけど",
+    "jmdict": "1007370",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jba7d9c73349a",
+    "form": "だって",
+    "reading": "だって",
+    "jmdict": "2643970",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6fd554506255",
+    "form": "違いない",
+    "reading": "ちがいない",
+    "jmdict": "1610740",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jed1f95c7ea6e",
+    "form": "出来るだけ",
+    "reading": "できるだけ",
+    "jmdict": "1340460",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jfb25ce504604",
+    "form": "できれば",
+    "reading": "できれば",
+    "jmdict": "2825960",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j07ab7770dc78",
+    "form": "ですから",
+    "reading": "ですから",
+    "jmdict": "1008430",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j5ab657a493a7",
+    "form": "ところが",
+    "reading": "ところが",
+    "jmdict": "1008570",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9843e492aa2b",
+    "form": "ところで",
+    "reading": "ところで",
+    "jmdict": "1343110",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8989e48f1992",
+    "form": "とんでもない",
+    "reading": "とんでもない",
+    "jmdict": "1008790",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6de85493583c",
+    "form": "どうか",
+    "reading": "どうか",
+    "jmdict": "1632200",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbd2f038898b4",
+    "form": "どうしても",
+    "reading": "どうしても",
+    "jmdict": "1466950",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j09dc7a6b421e",
+    "form": "どこか",
+    "reading": "どこか",
+    "jmdict": "1189000",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j4a60519f2458",
+    "form": "どんなに",
+    "reading": "どんなに",
+    "jmdict": "1009340",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j56abdaec9715",
+    "form": "なぜなら",
+    "reading": "なぜなら",
+    "jmdict": "1009410",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j3a750bf98a9f",
+    "form": "なにも",
+    "reading": "なにも",
+    "jmdict": "1188490",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jac8918aacfbb",
+    "form": "ピン",
+    "reading": "ピン",
+    "jmdict": "1107060",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j589f79136d1e",
+    "form": "不",
+    "reading": "ふ",
+    "jmdict": "1922780",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j98e6ef04426f",
+    "form": "不",
+    "reading": "ぶ",
+    "jmdict": "2423740",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je4334e117c6e",
+    "form": "無",
+    "reading": "ぶ",
+    "jmdict": "2423740",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6aa143d112f4",
+    "form": "もしも",
+    "reading": "もしも",
+    "jmdict": "1612050",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j50c36d1d6b43",
+    "form": "よると",
+    "reading": "よると",
+    "jmdict": "1009670",
+    "level": 3,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja52977369d34",
+    "form": "あいかわらず",
+    "reading": "あいかわらず",
+    "jmdict": "1401310",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jfe365a397a2c",
+    "form": "アイデア",
+    "reading": "アイデア",
+    "jmdict": "1014210",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j5f2567109f06",
+    "form": "一段と",
+    "reading": "いちだんと",
+    "jmdict": "1164690",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jed3d107bb1ba",
+    "form": "いってまいります",
+    "reading": "いってまいります",
+    "jmdict": "2149180",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja32b11e42842",
+    "form": "いってらっしゃい",
+    "reading": "いってらっしゃい",
+    "jmdict": "2088750",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jccaf61095238",
+    "form": "いつのまにか",
+    "reading": "いつのまにか",
+    "jmdict": "1188850",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6cbc98c07186",
+    "form": "インキ",
+    "reading": "インキ",
+    "jmdict": "2856157",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j3d318a940081",
+    "form": "うんと",
+    "reading": "うんと",
+    "jmdict": "2007420",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja2823444a8b6",
+    "form": "ええと",
+    "reading": "ええと",
+    "jmdict": "1001150",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7da005785ec7",
+    "form": "おかけください",
+    "reading": "おかけください",
+    "jmdict": "2411600",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9e66ccb8ca9f",
+    "form": "おかげさまで",
+    "reading": "おかげさまで",
+    "jmdict": "1270220",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb6505fc2bab3",
+    "form": "おきのどくに",
+    "reading": "おきのどくに",
+    "jmdict": "2167510",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j1c99970bbe4a",
+    "form": "おくさん",
+    "reading": "おくさん",
+    "jmdict": "1179330",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j99c87be8d915",
+    "form": "お元気で",
+    "reading": "おげんきで",
+    "jmdict": "1260720",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j33b756255e4a",
+    "form": "おさきに",
+    "reading": "おさきに",
+    "jmdict": "1002280",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je242862bee2c",
+    "form": "おじゃまします",
+    "reading": "おじゃまします",
+    "jmdict": "1002050",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9c473a08f9b2",
+    "form": "おだいじに",
+    "reading": "おだいじに",
+    "jmdict": "1002390",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j65d767b97593",
+    "form": "御手洗",
+    "reading": "おてあらい",
+    "jmdict": "1002100",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jcca9153bbec6",
+    "form": "お出掛け",
+    "reading": "おでかけ",
+    "jmdict": "1338475",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j472efa1d0c8f",
+    "form": "おねがいします",
+    "reading": "おねがいします",
+    "jmdict": "1001720",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j832afe837f4f",
+    "form": "お待たせしました",
+    "reading": "おまたせしました",
+    "jmdict": "2149640",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8d716f3d9bf4",
+    "form": "お待ちください",
+    "reading": "おまちください",
+    "jmdict": "1410590",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j52a3e6af6467",
+    "form": "おまちどおさま",
+    "reading": "おまちどおさま",
+    "jmdict": "1002360",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j708b3cace802",
+    "form": "おめでたい",
+    "reading": "おめでたい",
+    "jmdict": "1647360",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j74d5012103ec",
+    "form": "おやすみ",
+    "reading": "おやすみ",
+    "jmdict": "1612680",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jf25546e67181",
+    "form": "女の人",
+    "reading": "おんなのひと",
+    "jmdict": "1344980",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbf2e51806971",
+    "form": "畏まりました",
+    "reading": "かしこまりました",
+    "jmdict": "1002790",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j148eebe15323",
+    "form": "かわいがる",
+    "reading": "かわいがる",
+    "jmdict": "1190730",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jf85c8d606b7c",
+    "form": "気を付ける",
+    "reading": "きをつける",
+    "jmdict": "1591990",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j57ae882209d8",
+    "form": "くだらない",
+    "reading": "くだらない",
+    "jmdict": "1184360",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j725e5e44b36d",
+    "form": "くれぐれも",
+    "reading": "くれぐれも",
+    "jmdict": "1269140",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jaf2cf06dc1c4",
+    "form": "こうして",
+    "reading": "こうして",
+    "jmdict": "2008040",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j0cb4faf0b7f0",
+    "form": "こちらこそ",
+    "reading": "こちらこそ",
+    "jmdict": "1004510",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jdcbc3b545a44",
+    "form": "こないだ",
+    "reading": "こないだ",
+    "jmdict": "1004610",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j786691844a70",
+    "form": "ごくろうさま",
+    "reading": "ごくろうさま",
+    "jmdict": "1005030",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb44ac91f7ff5",
+    "form": "ご存じですか",
+    "reading": "ごぞんじですか",
+    "jmdict": "1593570",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6689f6b212f7",
+    "form": "ごちそうさま",
+    "reading": "ごちそうさま",
+    "jmdict": "1270520",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jac6ebcb02f18",
+    "form": "ごめんください",
+    "reading": "ごめんください",
+    "jmdict": "1270690",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j1c1e7c749c96",
+    "form": "しょうがない",
+    "reading": "しょうがない",
+    "jmdict": "1305510",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja9d9a25275c5",
+    "form": "シーツ",
+    "reading": "シーツ",
+    "jmdict": "1059400",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j82c4f5125a9f",
+    "form": "すくなくとも",
+    "reading": "すくなくとも",
+    "jmdict": "1595610",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j0b1bffe9d338",
+    "form": "すまない",
+    "reading": "すまない",
+    "jmdict": "1610020",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j72f298b4e624",
+    "form": "ずうっと",
+    "reading": "ずうっと",
+    "jmdict": "1006380",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j2f6a19521fa0",
+    "form": "ぜひとも",
+    "reading": "ぜひとも",
+    "jmdict": "1610700",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd7954539220c",
+    "form": "そういえば",
+    "reading": "そういえば",
+    "jmdict": "1982210",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7d2ef8754d90",
+    "form": "そうっと",
+    "reading": "そうっと",
+    "jmdict": "1006810",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd540fdda1ae1",
+    "form": "そのうえ",
+    "reading": "そのうえ",
+    "jmdict": "1006880",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j61c8e8df820c",
+    "form": "そのころ",
+    "reading": "そのころ",
+    "jmdict": "2547920",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j596cf1e3f62e",
+    "form": "そのため",
+    "reading": "そのため",
+    "jmdict": "1006850",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jdf1d942e7a86",
+    "form": "そのほか",
+    "reading": "そのほか",
+    "jmdict": "1006900",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j2ef7eb1f88fc",
+    "form": "それなのに",
+    "reading": "それなのに",
+    "jmdict": "2055520",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j57f7df38a31a",
+    "form": "た",
+    "reading": "た",
+    "jmdict": "1407450",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jaf53e4fc5094",
+    "form": "タイア",
+    "reading": "タイア",
+    "jmdict": "1076120",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jf9f352ae6eff",
+    "form": "テニスコート",
+    "reading": "テニスコート",
+    "jmdict": "1080030",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8185799b99fe",
+    "form": "ディア",
+    "reading": "ディア",
+    "jmdict": "2463370",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je4a6f253a530",
+    "form": "とっくに",
+    "reading": "とっくに",
+    "jmdict": "1320570",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb3e0155d85d9",
+    "form": "どうぞよろしく",
+    "reading": "どうぞよろしく",
+    "jmdict": "1008960",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j74f56cd00719",
+    "form": "なんとなく",
+    "reading": "なんとなく",
+    "jmdict": "1599730",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7f431a5aa000",
+    "form": "なんとも",
+    "reading": "なんとも",
+    "jmdict": "1188690",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbf4f4b791269",
+    "form": "初めに",
+    "reading": "はじめに",
+    "jmdict": "1307520",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j69270386ee6b",
+    "form": "始めに",
+    "reading": "はじめに",
+    "jmdict": "1307520",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jcb7c6271c2a9",
+    "form": "はじめまして",
+    "reading": "はじめまして",
+    "jmdict": "1625780",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd7446ee7be9f",
+    "form": "バイバイ",
+    "reading": "バイバイ",
+    "jmdict": "1983760",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb7fff9bda24b",
+    "form": "ばからしい",
+    "reading": "ばからしい",
+    "jmdict": "1612910",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j94452805f921",
+    "form": "バンド",
+    "reading": "バンド",
+    "jmdict": "1100240",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbb3f520c938c",
+    "form": "ひゃっかじてん",
+    "reading": "ひゃっかじてん",
+    "jmdict": "1602190",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j2853a461aa6b",
+    "form": "ぶつぶつ",
+    "reading": "ぶつぶつ",
+    "jmdict": "1011200",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jcfb7c67fe3f2",
+    "form": "もしかしたら",
+    "reading": "もしかしたら",
+    "jmdict": "1012510",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb6f4ad94f38f",
+    "form": "もしかすると",
+    "reading": "もしかすると",
+    "jmdict": "1012530",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc93ec4a45c95",
+    "form": "もったいない",
+    "reading": "もったいない",
+    "jmdict": "1605250",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbc3bee3aa146",
+    "form": "やたらに",
+    "reading": "やたらに",
+    "jmdict": "1537780",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb6bae4fa86d6",
+    "form": "やむをえない",
+    "reading": "やむをえない",
+    "jmdict": "1612100",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j14edab4ee576",
+    "form": "ラッシュアワー",
+    "reading": "ラッシュアワー",
+    "jmdict": "1139190",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je4fee5808bfe",
+    "form": "レインコート",
+    "reading": "レインコート",
+    "jmdict": "1144700",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j5c47fd28f14d",
+    "form": "ローマじ",
+    "reading": "ローマじ",
+    "jmdict": "1146810",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jff6b9c6cd828",
+    "form": "わりあいに",
+    "reading": "わりあいに",
+    "jmdict": "1612360",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7c60a2240166",
+    "form": "ワンピース",
+    "reading": "ワンピース",
+    "jmdict": "1149240",
+    "level": 2,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jee22cf67c5a1",
+    "form": "商人",
+    "reading": "あきうど",
+    "jmdict": "1580270",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd66eb1ff5b55",
+    "form": "凡ゆる",
+    "reading": "あらゆる",
+    "jmdict": "1586780",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9910e65fd1b9",
+    "form": "イエス",
+    "reading": "イエス",
+    "jmdict": "1021010",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jca6ed4c2e25c",
+    "form": "行き成り",
+    "reading": "いきなり",
+    "jmdict": "1282000",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbe89f03a08f7",
+    "form": "戴きます",
+    "reading": "いただきます",
+    "jmdict": "1410800",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j223dc232fa13",
+    "form": "いやに",
+    "reading": "いやに",
+    "jmdict": "1000910",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc71f0e34843a",
+    "form": "入口",
+    "reading": "いりくち",
+    "jmdict": "1582820",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j77aa225ab989",
+    "form": "インターフォン",
+    "reading": "インターフォン",
+    "jmdict": "1022990",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7e44ca1b4487",
+    "form": "ウェートレス",
+    "reading": "ウェートレス",
+    "jmdict": "1025690",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb214224ca540",
+    "form": "重",
+    "reading": "え",
+    "jmdict": "1335730",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j63a5a8173a1c",
+    "form": "おおい",
+    "reading": "おおい",
+    "jmdict": "1407460",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j84e5769d9735",
+    "form": "お蔭様で",
+    "reading": "おかげさまで",
+    "jmdict": "1270220",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j15db4fbf7905",
+    "form": "お先に",
+    "reading": "おさきに",
+    "jmdict": "1002280",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jfc98cf713f55",
+    "form": "お邪魔します",
+    "reading": "おじゃまします",
+    "jmdict": "1002050",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja92a3a630fed",
+    "form": "お願いします",
+    "reading": "おねがいします",
+    "jmdict": "1001720",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j98cc63ab09b5",
+    "form": "重なる",
+    "reading": "おもなる",
+    "jmdict": "1589400",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j748fab55cce9",
+    "form": "オンライン",
+    "reading": "オンライン",
+    "jmdict": "1036080",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb035ece31bd6",
+    "form": "個",
+    "reading": "か",
+    "jmdict": "2220320",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9215cdd47829",
+    "form": "予言",
+    "reading": "かねごと",
+    "jmdict": "2826481",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j38538f71e429",
+    "form": "揶揄う",
+    "reading": "からかう",
+    "jmdict": "1567650",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j1df7451d5084",
+    "form": "街",
+    "reading": "がい",
+    "jmdict": "1204570",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j8a71bcc94b24",
+    "form": "がる",
+    "reading": "がる",
+    "jmdict": "1631750",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9fbee59af142",
+    "form": "きちっと",
+    "reading": "きちっと",
+    "jmdict": "1003390",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j0674f1f2a6d3",
+    "form": "ぐっと",
+    "reading": "ぐっと",
+    "jmdict": "1004080",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j3238019b1f1f",
+    "form": "ぐらい",
+    "reading": "ぐらい",
+    "jmdict": "1154340",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j2dc314bf0542",
+    "form": "頃",
+    "reading": "けい",
+    "jmdict": "2210780",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j2f2ff229b850",
+    "form": "吝嗇",
+    "reading": "けち",
+    "jmdict": "2234080",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jf35f9eba6813",
+    "form": "傑",
+    "reading": "けつ",
+    "jmdict": "2836694",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j43a753ee4220",
+    "form": "凝らす",
+    "reading": "こごらす",
+    "jmdict": "1239000",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc62325b403fd",
+    "form": "毎",
+    "reading": "ごと",
+    "jmdict": "1524640",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je4a5accb33f8",
+    "form": "御免ください",
+    "reading": "ごめんください",
+    "jmdict": "1270690",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd61434f38830",
+    "form": "御免なさい",
+    "reading": "ごめんなさい",
+    "jmdict": "1270680",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbb3a69a2254b",
+    "form": "御覧なさい",
+    "reading": "ごらんなさい",
+    "jmdict": "1270770",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja1df3a54faf9",
+    "form": "再",
+    "reading": "さい",
+    "jmdict": "1292290",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jac541ae04606",
+    "form": "歳",
+    "reading": "さい",
+    "jmdict": "1294940",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9f1d63180674",
+    "form": "さっと",
+    "reading": "さっと",
+    "jmdict": "1005200",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc460231193ff",
+    "form": "さん",
+    "reading": "さん",
+    "jmdict": "1005340",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j4bba38137d6a",
+    "form": "し",
+    "reading": "し",
+    "jmdict": "1308090",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j90e48247120a",
+    "form": "諸",
+    "reading": "しょ",
+    "jmdict": "1344210",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jfa4eb35cb610",
+    "form": "症",
+    "reading": "しょう",
+    "jmdict": "1351000",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc0b7ce607a74",
+    "form": "十分",
+    "reading": "じっぷん",
+    "jmdict": "1335070",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j178151aaa74e",
+    "form": "スポーツカー",
+    "reading": "スポーツカー",
+    "jmdict": "1073250",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j5836cb2f5a3e",
+    "form": "済まない",
+    "reading": "すまない",
+    "jmdict": "1610020",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j10a6ac8ff635",
+    "form": "天皇",
+    "reading": "すめらぎ",
+    "jmdict": "2837102",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j02b4f00d4072",
+    "form": "ずらっと",
+    "reading": "ずらっと",
+    "jmdict": "1006430",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd3596cda83d0",
+    "form": "総",
+    "reading": "そう",
+    "jmdict": "1401470",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jf737409922e0",
+    "form": "即座に",
+    "reading": "そくざに",
+    "jmdict": "1404190",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j3fee78bfe423",
+    "form": "然して",
+    "reading": "そして",
+    "jmdict": "1006730",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j0286fc4cb233",
+    "form": "其れから",
+    "reading": "それから",
+    "jmdict": "1006980",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6a85ebfd546f",
+    "form": "其れで",
+    "reading": "それで",
+    "jmdict": "1007000",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j4912ac454e1d",
+    "form": "其れでは",
+    "reading": "それでは",
+    "jmdict": "1406050",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jdc03261abd1a",
+    "form": "其れでも",
+    "reading": "それでも",
+    "jmdict": "1406060",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja79a6d2acfa2",
+    "form": "其れに",
+    "reading": "それに",
+    "jmdict": "1007040",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jded7b1c2f04d",
+    "form": "沿い",
+    "reading": "ぞい",
+    "jmdict": "1610080",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j28e973801adc",
+    "form": "丈",
+    "reading": "だけ",
+    "jmdict": "1007340",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j7c4c3cc98ce5",
+    "form": "だぶだぶ",
+    "reading": "だぶだぶ",
+    "jmdict": "1007430",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd353be599966",
+    "form": "ちらっと",
+    "reading": "ちらっと",
+    "jmdict": "1007920",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc326198dcf1c",
+    "form": "銃",
+    "reading": "つつ",
+    "jmdict": "2864475",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je1716cdfe74d",
+    "form": "伝言",
+    "reading": "つてこと",
+    "jmdict": "2545840",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j67f325742145",
+    "form": "ティッシュペーパー",
+    "reading": "ティッシュペーパー",
+    "jmdict": "1079110",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je9741cfa6d38",
+    "form": "店",
+    "reading": "てん",
+    "jmdict": "1582125",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je3bc3bbc8fc1",
+    "form": "デザート",
+    "reading": "デザート",
+    "jmdict": "1082850",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja1b4d0de4ca1",
+    "form": "と",
+    "reading": "と",
+    "jmdict": "1008490",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j774ea0878d10",
+    "form": "丁々",
+    "reading": "とうとう",
+    "jmdict": "2857308",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja08c7373fd4c",
+    "form": "所が",
+    "reading": "ところが",
+    "jmdict": "1008570",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j018c0cac251b",
+    "form": "所で",
+    "reading": "ところで",
+    "jmdict": "1343110",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jdad45cc6cdf7",
+    "form": "トランジスター",
+    "reading": "トランジスター",
+    "jmdict": "1086180",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jd0233196f500",
+    "form": "どうぞ宜しく",
+    "reading": "どうぞよろしく",
+    "jmdict": "1008960",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jdf1825260b0f",
+    "form": "どうにか",
+    "reading": "どうにか",
+    "jmdict": "1008990",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j21ad937a7dd9",
+    "form": "どうやら",
+    "reading": "どうやら",
+    "jmdict": "1009020",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6465fd05778c",
+    "form": "ドライクリーニング",
+    "reading": "ドライクリーニング",
+    "jmdict": "1088480",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb4c3b374edf0",
+    "form": "ドライブイン",
+    "reading": "ドライブイン",
+    "jmdict": "1088590",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "je97630f1fd28",
+    "form": "何れ何れ",
+    "reading": "どれどれ",
+    "jmdict": "1188630",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jab5bcef350a6",
+    "form": "なんか",
+    "reading": "なんか",
+    "jmdict": "1009500",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbd61d2cccd21",
+    "form": "なんだかんだ",
+    "reading": "なんだかんだ",
+    "jmdict": "1188360",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "ja2f2f199f6eb",
+    "form": "費",
+    "reading": "ひ",
+    "jmdict": "1484590",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jf806afd1f8f6",
+    "form": "吃驚",
+    "reading": "びっくり",
+    "jmdict": "1226360",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j0b82f8d0bee6",
+    "form": "びり",
+    "reading": "びり",
+    "jmdict": "1010790",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j080afc4db180",
+    "form": "ビールス",
+    "reading": "ビールス",
+    "jmdict": "2843940",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc732f19c2aec",
+    "form": "巫山戯る",
+    "reading": "ふざける",
+    "jmdict": "1566450",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j864732ce944b",
+    "form": "打付ける",
+    "reading": "ぶつける",
+    "jmdict": "2742080",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9f15e4804702",
+    "form": "ベストセラー",
+    "reading": "ベストセラー",
+    "jmdict": "1119560",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j9f2e51aa7d1d",
+    "form": "ぺこぺこ",
+    "reading": "ぺこぺこ",
+    "jmdict": "1011540",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc3f06dc76cab",
+    "form": "ほっと",
+    "reading": "ほっと",
+    "jmdict": "1011660",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc9f96db73354",
+    "form": "卯",
+    "reading": "ぼう",
+    "jmdict": "1576460",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jc7cfc3001a12",
+    "form": "ボルト",
+    "reading": "ボルト",
+    "jmdict": "1124390",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jb53fe21c288b",
+    "form": "枚",
+    "reading": "まい",
+    "jmdict": "1524610",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j959a582750b3",
+    "form": "真心",
+    "reading": "まこころ",
+    "jmdict": "1363970",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j011b60a1cf82",
+    "form": "見っともない",
+    "reading": "みっともない",
+    "jmdict": "1259250",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j791ad9c0583c",
+    "form": "無闇に",
+    "reading": "むやみに",
+    "jmdict": "1529590",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j6260fc753ea0",
+    "form": "もろに",
+    "reading": "もろに",
+    "jmdict": "1012710",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j1a6fd5005502",
+    "form": "問",
+    "reading": "もん",
+    "jmdict": "1634040",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "jbba2ef0085dd",
+    "form": "優",
+    "reading": "やさ",
+    "jmdict": "1539020",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j443b0297dcc5",
+    "form": "矢鱈に",
+    "reading": "やたらに",
+    "jmdict": "1537780",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j494bafd1d3f7",
+    "form": "止むを得ない",
+    "reading": "やむをえない",
+    "jmdict": "1612100",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j488a407a3ff3",
+    "form": "ユニフォーム",
+    "reading": "ユニフォーム",
+    "jmdict": "1137430",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  },
+  {
+    "id": "j408fe714cbfa",
+    "form": "輪",
+    "reading": "りん",
+    "jmdict": "1555700",
+    "level": 1,
+    "reason": "No unambiguous exact lexical form/reading/lemma with explicit accent; no synthesis"
+  }
+]

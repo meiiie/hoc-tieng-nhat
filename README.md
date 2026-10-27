@@ -1,6 +1,6 @@
 # Học Tiếng Nhật cùng Neko
 
-PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên bản **1.5.0**, ngày 27-10-2026. Chạy bằng các tệp tĩnh; không cần tài khoản, máy chủ ứng dụng hay khóa API.
+PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên bản **1.6.0**, ngày 27-10-2026. Chạy bằng các tệp tĩnh; không cần tài khoản, máy chủ ứng dụng hay khóa API.
 
 ## Học cùng Neko
 
@@ -18,11 +18,11 @@ PWA tiếng Việt cho người học tiếng Nhật, ưu tiên iPhone. Phiên b
 
 | Cấp | Từ | Nghĩa Việt | Hán Việt | Cao độ | MP3 Nanami |
 |---|---:|---:|---:|---:|---:|
-| N5 | 684 | 684 | 514 | 506 | 684 |
-| N4 | 641 | 641 | 496 | 488 | 641 |
-| N3 | 1.768 | 1.768 | 1.546 | 1.536 | 1.768 |
-| N2 | 1.826 | 1.826 | 1.508 | 1.494 | 1.826 |
-| N1 | 3.425 | 3.425 | 3.152 | 3.072 | 3.425 |
+| N5 | 684 | 684 | 514 | 638 | 684 |
+| N4 | 641 | 641 | 496 | 605 | 641 |
+| N3 | 1.768 | 1.768 | 1.546 | 1.712 | 1.768 |
+| N2 | 1.826 | 1.826 | 1.508 | 1.749 | 1.826 |
+| N1 | 3.425 | 3.425 | 3.152 | 3.328 | 3.425 |
 
 Từ chưa có MP3 dùng `speechSynthesis` tiếng Nhật của thiết bị. Sau lần tải và cài service worker đầu tiên, ứng dụng và toàn bộ từ vựng dùng được ngoại tuyến. MP3 và nét chữ chỉ được lưu khi đã mở; Cài đặt có nút tải toàn bộ âm thanh của bộ đang chọn. Giọng thiết bị có thể cần cài thêm hoặc cần mạng. Ghi âm cần HTTPS hoặc localhost.
 

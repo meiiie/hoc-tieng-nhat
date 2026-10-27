@@ -132,6 +132,15 @@ def run(kind):
    E("window.savedMedia=navigator.mediaDevices;Object.defineProperty(navigator,'mediaDevices',{value:undefined,configurable:true});route()")
    assert 'Micro chưa khả dụng' in pg.text_content('#sarea');assert pg.locator('#mic').count()==0;assert pg.locator('#mora-play').is_enabled()
    E("Object.defineProperty(navigator,'mediaDevices',{value:window.savedMedia,configurable:true});delete window.savedMedia;route()");ok('no-microphone fallback retains listening and mora practice')
+   # Check the actual dictionary credit, variant selector, and unresolved fallback.
+   pitch_snapshot=E('JSON.stringify(S.srs)')
+   added=E("words.find(w=>w.pitchSource==='unidic-2.1.2'&&w.pitch.length>1)")
+   assert added
+   go('speak?w='+added['id']);pg.wait_for_selector('.pitch-svg');assert 'UniDic 2.1.2' in pg.text_content('.ja-pitch-source')
+   old_points=pg.locator('.pitch-svg polyline').get_attribute('points');pg.select_option('#accent',str(added['pitch'][-1]));assert pg.locator('.pitch-svg polyline').get_attribute('points')!=old_points
+   missing=E('words.find(w=>w.pitch===null).id');go('speak?w='+missing);assert pg.locator('.pitch-svg').count()==0;assert 'Chưa có nguồn' in pg.text_content('.ja-pitch-source');assert 'Kanjium' not in pg.text_content('.ja-pitch-source')
+   assert E('JSON.stringify(S.srs)')==pitch_snapshot
+   ok('licensed pitch sources, variants and missing-accent fallback render honestly')
    go('review');pg.wait_for_selector('.fc');pg.click('#voice');assert pg.locator('.fc ruby').count()==0;pg.click('#voice');assert pg.locator('.fc ruby').count()>0;ok('furigana toggle on both card faces')
    go();pg.click('#settings');pg.wait_for_selector('#sheet:not(.hidden)');pg.click('[data-set="romaji"][data-v="on"]');pg.keyboard.press('Escape');go('review');pg.wait_for_selector('.ja-romaji');ok('romaji settings toggle')
    # Full route accessibility in both themes, including transient sheets and the back face.
