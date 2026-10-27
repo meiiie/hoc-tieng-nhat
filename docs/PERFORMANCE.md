@@ -71,7 +71,7 @@ GC and core work. These unthrottled measurements do not explain every millisecon
 of Lighthouse's much larger simulated “Other” bucket; the raw traces are retained
 rather than relabelling that entire bucket as parse time.
 
-`sw.js` also precaches all six large files in its 43-entry install shell using
+`sw.js` also precaches all six large files in its 42-entry install shell using
 `cache: 'reload'`. Cold context request logging confirms these additional fetches
 overlap the first visit. That is about 2.30 MB of extra compressed level/kanji
 responses on live Pages, and installation/offline readiness depends on them all.
@@ -129,7 +129,7 @@ intermediate local run, not the final live median. Artifacts:
 
 Cold page startup fell from **14,559,738 to 512,535 decoded bytes** and from
 **25 to 21 requests**. The page requested only `data/index.json` and
-`data/kana.json` as data. SW installation fell from **43 to 38 requests**; combined
+`data/kana.json` as data. Observed worker traffic in that local capture fell from **43 to 38 requests**; combined
 page + worker uncompressed response bodies fell from **29,247,560 to 1,150,873
 bytes**. The cold page had one 58 ms long task instead of five totaling 402 ms.
 This confirms that the unnecessary full-data boot path was the dominant removable
@@ -141,6 +141,32 @@ median, plus Lighthouse **11.7.1** for its legacy PWA category, after Pages matc
 the pushed HEAD. The results and limits belong in
 `/workspace/japanese/codex-report-4.md` and `reports/live4-lighthouse-summary.json`;
 the localhost result above must not be presented as a live score.
+
+## Initial deployed result (v1.11.0, 2026-10-27)
+
+Pages built `e5cc5877bd5695d02a67312c64db60217d62204a`; 24 release files matched
+SHA-256 before live measurement. Lighthouse 13.5.0 scored **100, 100, 95**;
+median **100**, TBT **69.5 ms** (69.5 / 10 / 250), main-thread **1,821.79 ms**
+(1,821.79 / 1,520.90 / 2,066.79). Accessibility and Best Practices were 100 in
+all runs; Lighthouse 11.7.1 PWA and Accessibility were both 100, without warnings.
+These are warm installed-home mobile simulations, not cold phone benchmarks.
+
+Fresh live startup: **21 page requests / 512,604 decoded bytes / 186,982 gzip
+body bytes**; worker registration + install added **39 requests / 277,735 gzip
+body bytes**. Combined traffic: **60 requests / 464,717 encoded body bytes**,
+versus 68 / 4,920,774 before. The actual install manifests have **42 → 38 entries**;
+observed worker-request counts also include `sw.js` when the browser emits it.
+The cold trace observed one 58 ms long task versus six totaling 510 ms before.
+The separate native JSON.parse diagnostic fell from **72.5 to 0.3 ms**; only the
+index and kana were parsed. Warm Lighthouse still reports zero wire-byte weight
+because those 21 requests are served by the installed SW.
+
+The initial deployed Lighthouse reports are archived outside the repository as
+`reports/initial-live4-lighthouse-*`; the final deployment's three-run median,
+all gate/live results, incoming-release details and untested items are in
+`/workspace/japanese/codex-report-4.md` and `reports/live4-*`. Changes since this
+measurement only document results; final verification must use the final Pages
+HEAD, without substituting this initial score.
 
 ## Regression and preservation gates
 
