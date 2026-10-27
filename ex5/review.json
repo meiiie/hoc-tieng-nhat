@@ -1,0 +1,9016 @@
+[
+  {
+    "id": "j7b9061f52b70",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1b000d77877a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9ba01fdc9897",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5ee635ff604e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja089826e2906",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8f0a38919b77",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2a8090e9c46e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j61c02e7f4acc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2c216f915116",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5841d3db2c97",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j90edfede93d2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j440290628fd6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf6bc974a7405",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0655c242d1db",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb7519a0f57a7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j28102c121d50",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j88bf93be43ee",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j14435050c0df",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j56d52b7869ab",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1a53b6dbb027",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0c038f53ae7e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdf70a01acaec",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8b1ba4846f97",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6c9351ae67e6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j13ea3220cde0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j947395f42397",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j03f45cca839b",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 'vẫn' adds a continued/still meaning absent from 使っています."
+    ],
+    "suggested_ja": "父はラジオカセットを使っています。",
+    "suggested_vi": "Bố tôi dùng máy cassette có radio."
+  },
+  {
+    "id": "ja53d0ec3a35c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5b21d92a7eee",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3f676facfdd4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3bfea40cee04",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7c23332ecdd6",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "ja_naturalness: 二階建て is an awkward isolated housing referent here; 二階建ての家 gives the natural complete noun phrase."
+    ],
+    "suggested_ja": "駅の近くの二階建ての家に住んでいます。",
+    "suggested_vi": "Tôi sống trong căn nhà hai tầng gần ga."
+  },
+  {
+    "id": "j9ce91e3ea30f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf61c8dbcebee",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb19cdf8fed99",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "register_orthography: Fish scraps are normally written アラ; the opaque kanji 粗 unnecessarily obscures the recorded usually-kana sense for N3."
+    ],
+    "suggested_ja": "魚のアラでだしを取りました。",
+    "suggested_vi": "Tôi đã dùng đầu và xương cá để nấu nước dùng."
+  },
+  {
+    "id": "j580b2eac7df1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j17e24f9a6fd2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je6f01103efba",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j32db7f0b2dc1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j802b86712508",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j10e15909a62d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j59420c476050",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je64b189d1607",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j26c478c91822",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j06ada5e5c0b2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j146878246467",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j309732a67bfb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j14a907ae5e2c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j58d4093f89ca",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j733d2172d757",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j762983bc3fe7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9e9b8c19d8d4",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "register_orthography: 偶の休み is an unusually opaque spelling; use the conventional たまの休み for this usually-kana sense.",
+      "vi_accuracy: 'chỉ muốn' introduces an exclusive desire; 過ごす describes how the speaker spends the time."
+    ],
+    "suggested_ja": "たまの休みは家でゆっくり過ごす。",
+    "suggested_vi": "Vào những ngày nghỉ hiếm hoi, tôi ở nhà thư giãn."
+  },
+  {
+    "id": "j03b3847086c3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j13f2d0619604",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j629d62385869",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5687ed3e1820",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2bc6b74db1f5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcb43cf24e7ad",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd0a72b47f82e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j653a7bc79088",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 梅雨前線 is a weather front associated with the rainy season, not simply a band of rain."
+    ],
+    "suggested_ja": "梅雨前線が南へ下がった。",
+    "suggested_vi": "Frông gây mưa mùa đã dịch xuống phía nam."
+  },
+  {
+    "id": "j45410f94ac7b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j98e6ef04426f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8ed04ec90005",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je4334e117c6e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5c627509af2f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j43f0e09c92b0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9357e32d0194",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3d9e38a63305",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc4335e79b29c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8d01008b8c17",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0c5871310c83",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9f5dc01e03d0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jced6da73a7f7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j747991021806",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: うちわ does not specify a woven bamboo fan; 'quạt nan' adds an unsupported material."
+    ],
+    "suggested_ja": "暑いので、うちわで顔を扇いだ。",
+    "suggested_vi": "Trời nóng nên tôi lấy quạt tay quạt mặt."
+  },
+  {
+    "id": "j0dc7fad636cc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6a1719a84087",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jed3d107bb1ba",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja32b11e42842",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaf7b06668b45",
+    "source": "authored",
+    "verdict": "reject",
+    "issues": [
+      "level: The rare literary noun 佚 is surrounded by むさぼる, literary 務め and the archaic prohibition ならぬ. This creates an unsuitable isolated N2 teaching sentence.",
+      "register_orthography: The entire admonition is literary/archaizing; it needs explicit literary context rather than presentation as an ordinary model sentence."
+    ]
+  },
+  {
+    "id": "j3cc643c59673",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6cbc98c07186",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ff89ed9fbd4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j77ed9e6cdef3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7fa56c093db8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdb62d0203aff",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j58b760c496ca",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j52a3e6af6467",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc28fc3b877aa",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j88bfa1cb7011",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j61d009e512e7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2ddfddbaf4d4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j308c27a28d86",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9aea00f23bd3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j96e3426d4dc1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaa0d17ac4c1f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j061cda76d489",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2e1b81e3e23e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6fb0d901f183",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7b48d2a38c92",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0167c6a60913",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4329fe02827a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j12227207932a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdd02b32ef9e3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0585ade139c2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j35a59040d5a3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja3886b022d11",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j10e499135eb3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb940df047cbe",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc6310b07dcca",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6689f6b212f7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jccc25d6bbd09",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja859f3ebeb40",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbe7a3725a054",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7580bb4ea696",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j49d40ffa2ff1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j94eafb67d691",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j925841cdfb47",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc13369d5c5ff",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j379f4e631a1f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j59f97311799a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf300b4953902",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j719aff2ad42b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfb1a5b4ba5d7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfaab68c19bdf",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je571e5af967f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j865813a2d44c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf6b045b9a180",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb485eb38b09a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4682ae0d2e44",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdfb904d9ade5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdc777d714ac6",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Người bị nguy kịch' is an awkward Vietnamese collocation; describe being in critical condition."
+    ],
+    "suggested_ja": "事故で重体だった人が意識を取り戻した。",
+    "suggested_vi": "Người từng trong tình trạng nguy kịch sau tai nạn đã tỉnh lại."
+  },
+  {
+    "id": "j8c563f1ca068",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4c417c77fedb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4f898051f742",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0d3fd71c26bf",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf8456647779f",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "register_orthography: 掏摸 is an unnecessarily obscure spelling in an ordinary N2 warning; the usual スリ makes the recorded usually-kana sense immediately clear."
+    ],
+    "suggested_ja": "混んだ電車ではスリに気をつけよう。",
+    "suggested_vi": "Trên tàu đông người, hãy cẩn thận kẻ móc túi."
+  },
+  {
+    "id": "j72f298b4e624",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb74c55988d67",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf303d8ce6b20",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j05a86c982ca6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcf437272d0bb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j309ccb4d37b9",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5085718cf848",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaf53e4fc5094",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j89efcc15bf33",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf1106570ee66",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8efe3be5e598",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcde92fe322aa",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7867a845e906",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jab8970507d39",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8185799b99fe",
+    "source": "authored",
+    "verdict": "reject",
+    "issues": [
+      "sense: The recorded sense of ディア is the animal 'deer'; this sentence instead presents ディア as the name of a kind of leather.",
+      "ja_naturalness: この革はディアと呼ばれる鹿革だ is a contrived product-label explanation, not a clear natural example of the recorded animal sense."
+    ]
+  },
+  {
+    "id": "j5aa8be061c2b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc4941dfcf6d8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j946b5b44a005",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j38f9dc83c22e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcb8c98168bd4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4c80d1afd90c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j66f26c0be2ba",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j91aaabba34c6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7b4c3c262f09",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfe7fae15abb6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7db1192e0e80",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb7fff9bda24b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j59bee92c1efd",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jae04495e700d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j257f3cf07ccd",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdefff26a627a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2e36c1b74630",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc5523bd005f3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j83d70c1de04a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2562be8fca22",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j38155a5c14e5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcf6b58bb4e79",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd7e3ced803bc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j414280c66911",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j03b22889306c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfec814526eb6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jffcbf388b149",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4aa5c84df90c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jed05080e5424",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2cdfc6e495af",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j82154cbc5a32",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf5d4a2d307b0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbc3bee3aa146",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb6bae4fa86d6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j61fdbe6fe675",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j06dfb872a3c6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf616ddec905f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9615b8434337",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja0981b55254e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8067af740f0d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4e8876ee5cae",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc1c1b1386569",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4f27bdf877a6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0ab991abf7db",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j149bdaee3686",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j20b11d6dc206",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jee22cf67c5a1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6a94066bbbb5",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "sense: A gap between furniture and a wall is sense 2 (dated 'gap/space'), not the recorded sense 1 ('vacancy/room for rent'). The unmarked 空間 also invites the different reading くうかん."
+    ],
+    "suggested_ja": "この宿には、まだ空き間がある。",
+    "suggested_vi": "Nhà trọ này vẫn còn phòng trống."
+  },
+  {
+    "id": "j6241393b3f25",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2ca58e79ff98",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3a318cc61aa9",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j054d8a5a9c4a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8136cf87c017",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j422971ce6bda",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd986de28b8d2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd2ebdac30111",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8c8aa7422ea2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb78f63e72515",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb3ea6eb63056",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0000c27ca6ab",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf155233c71f7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja6387b3db598",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jccea927b81e0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3cf4fdec5400",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcb52629bed24",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3846fc9ee418",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4cd83fa1d541",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfe18a6c7c3e4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf7fc0928699f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb0ac412a8d78",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb125d8d71385",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j88401a6d62df",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9c4755e8a489",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd7e436bdd920",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5d8799538f7f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd5342c418ad4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j78fa4824ee54",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4bf195033dec",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'chỉ với một lòng muốn' follows Japanese syntax too closely; express the single-minded motivation naturally."
+    ],
+    "suggested_ja": "家族を守りたい一心で働いた。",
+    "suggested_vi": "Tôi làm việc với mong muốn duy nhất là bảo vệ gia đình."
+  },
+  {
+    "id": "jf470d678de5a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8bcf61eca006",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Tôi đã được quyết định chuyển' is an unnatural passive construction."
+    ],
+    "suggested_ja": "来月から営業部への異動が決まった。",
+    "suggested_vi": "Đã có quyết định chuyển tôi sang phòng kinh doanh từ tháng sau."
+  },
+  {
+    "id": "jfecd4b52ac24",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jffa63e03f620",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc71f0e34843a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0ceac3df1a77",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j88228cdaf93b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j771430e5a4b6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc7ee906dd4da",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j77aa225ab989",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6d949c129eaa",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7e44ca1b4487",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'nhận gọi món' is not a natural collocation for taking an order."
+    ],
+    "suggested_ja": "ウェートレスが注文を取りに来た。",
+    "suggested_vi": "Cô phục vụ đến ghi món khách gọi."
+  },
+  {
+    "id": "jfa1ebbcff8ef",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd06a9bb83e9a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdb9c7c15c67b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7a4fa9e74a2f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3ad83b98bead",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6794e1e74afc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja05939288786",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j93cc48faff45",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6095d3365d5a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jae7bbfbb90c9",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd57df8d996d9",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4423c213c2eb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8fcafd88ecd6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5938c8a1bd43",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j119665bda3fc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j92f646086d36",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1dc2fb0de3da",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j499864a2f769",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc75e75ba69d6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j20487758c18c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd384a1c9c1c6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j37f344bbea2c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je52aa0903852",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb01d22fc55f2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j709fea6c1ea8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8a73da827a1d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j30a8128b2db2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8e31cd002849",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j409a1bfe247f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja6971e1dbf4d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j98cc63ab09b5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcf0bfabb6cd8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je7bfc81b477d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j96b9b9e6363d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaa17cbb8ef20",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1a1210b5d008",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb035ece31bd6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j494fd1f0f161",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jca750a3101ba",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j65397e531c0e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j067ba6fc134b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4fcf559c42a7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j318a18c7711c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0d21ba0be1b9",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j906fdf65f78b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2909d40a26b6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j863b214bce4f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jabf4f1a886e6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5396373caf59",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j139fa3390378",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4854610ea3b5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j365d998df8ca",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Kho báu của thành tích trữ' makes the treasury itself the agent and creates an awkward phrase; use a natural storage construction."
+    ],
+    "suggested_ja": "城の金庫には金銀が蓄えられていた。",
+    "suggested_vi": "Vàng bạc được cất giữ trong kho của thành."
+  },
+  {
+    "id": "j9215cdd47829",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "ja_naturalness: 別れの予言 ordinarily reads as a prediction of separation, obscuring the intended archaic 'promise made at parting'. Use 別れ際 and the recorded alternative spelling 兼ね言 to clarify that reading."
+    ],
+    "suggested_ja": "別れ際の兼ね言を守り、春に戻った。",
+    "suggested_vi": "Giữ lời hẹn lúc chia tay, anh trở về vào mùa xuân."
+  },
+  {
+    "id": "j477a9a29741e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j29a316edbd82",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je20b135b2708",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jff2b6dc0eeca",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j38538f71e429",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: In Vietnamese one mocks a person about a mistake; 'trêu chọc sai lầm' treats the mistake itself as the person being teased."
+    ],
+    "suggested_ja": "人の失敗を揶揄うのはよくない。",
+    "suggested_vi": "Lấy sai lầm của người khác ra trêu chọc là không hay."
+  },
+  {
+    "id": "j0c70d1dbd888",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j95118c56c261",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c48e45d6947",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j28493e2f19af",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2644b07a4534",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jacdae53bce9b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j29c82d798683",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je4db102a5798",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1e3dc4333f89",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8cbaae51b0ef",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6c3cd02c1b41",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j02fd78908aff",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4c1d02792508",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7e010e89b3cc",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "sense: 生のままの酒 readily suggests なま (unpasteurized/raw sake), whereas the target is き, undiluted. Explicitly contrast with adding water."
+    ],
+    "suggested_ja": "酒は水で割らず、生で飲む。",
+    "suggested_vi": "Tôi uống rượu nguyên chất, không pha thêm nước."
+  },
+  {
+    "id": "jfdc9736a0841",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je4447d9a4563",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb2fdf9603a5c",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 棄権 means abstention; 'bỏ phiếu trắng' asserts that a blank ballot was actually cast, which the Japanese does not establish."
+    ],
+    "suggested_ja": "採決では賛否を示さず棄権した。",
+    "suggested_vi": "Tôi đã không bỏ phiếu, không thể hiện ý kiến tán thành hay phản đối."
+  },
+  {
+    "id": "j5492ec538615",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc9120b886dd2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9277866d964c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ae409766e47",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j727112059d04",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb03299694c02",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0f08d944e14d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja29f52890cc4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdcce10177b48",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j95a498dba6a4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdb8412d6b29e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbec5bea88ce2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaae6cde421e6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdcb33d08f7a7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6ebcec3d00fa",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5b49dd8c6689",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6b6325fdd7a4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j53475c262cbc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb7a7e396d4af",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb2b524cc32a5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3aec2289e4ae",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2dc314bf0542",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j41b532856ecc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc2d8ff46b432",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcb74d131e4d4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5e4af69fb196",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2b5a420bf00c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf98fe58bbb5f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf928d22165ea",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2f2ff229b850",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf35f9eba6813",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j89bae1a8f967",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6203a919929a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfa1740245160",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0b73698d2175",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j59dc0ebe155a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j092d4588296e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0bbfe3496779",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jff3e56f790c1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfab95dcbe23b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9ee1e76b1402",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8e2c2002ede8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9899b52288a5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc9c4309fd988",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j988ecf04fb2d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja00a18d626f0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja2a8a5a5cc76",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j46c2aa0cbc34",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1102ad34a8a0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbbeac7fb70b6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc7eabeb3a00b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j43a753ee4220",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8f2a6a8c4ae3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j910a6673c77a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j82ffcf836a71",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8370127f49de",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j59efed6eebf3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8092242c72f4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j855a4be25408",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0a6821521f00",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j51426f640e60",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jee1b4cc511aa",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je5591b71319e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j042b91cf4be7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je4a5accb33f8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbb3a69a2254b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0027143e8fdb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je5198b16b5f7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja8eb5233f714",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j69114bd44743",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6bb9c50db63c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8918bd027939",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j253b3510768b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j082d0947f6eb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j727be7e7dacb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf1f9566acb34",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j418781f24efa",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j47e4055b64ce",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6f850a8fb2c0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j03f4714e0e80",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7654d934a5ad",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbca701cec907",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j05ae453a14b8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja8e870ee9059",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j109d74326c8f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc7b15e7646f3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j350d745685ea",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j81234360a031",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4b82935ec637",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j489f081c7dbe",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0000922a647f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j90dfe844c602",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j71de98f7eba7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j877ee4ef5afa",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd6247a632117",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j759000be904d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc2485156bf30",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j07ae0b6d823c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5197cddbaf76",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6a4547d509d4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j490aa827cf2d",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 縫い代 is seam allowance generally; 'phần để may đường viền' incorrectly narrows it to edging/hemming."
+    ],
+    "suggested_ja": "布を切るときは縫い代を残す。",
+    "suggested_vi": "Khi cắt vải, nhớ chừa đường may."
+  },
+  {
+    "id": "j6a6a1a92bd72",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc6d9569f14a4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jec2d3fc7eadb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1b7d6662c03a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j536e0d18d2a6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j76948f84f7f9",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5503b29963d0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd2a10a2edb94",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf67a631bbbce",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3989310b4649",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc0b7ce607a74",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j86ddf30ec66a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j25c039dd221b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j67a571ad95a7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb09ba256907f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7898616ad1a9",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jff81396cec33",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc5460fd7800e",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "sense: The recorded JMdict entry is the prefix 助 (assistant/helping); 研究の助 uses 助 as an independent noun instead. Demonstrate the prefix in 助監督."
+    ],
+    "suggested_ja": "彼女は助監督として撮影に参加した。",
+    "suggested_vi": "Cô ấy tham gia quay phim với vai trò trợ lý đạo diễn."
+  },
+  {
+    "id": "j622459b2fa56",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "sense: 国司の尉 is the wrong historical office/rank combination: the provincial third-rank officer is 掾, while 尉 is used in guard offices such as 衛門府. See Sanseido's historical office table: https://tbqr.sanseido-publ.co.jp/05-seisenkoten/contents/40_2.pdf.",
+      "vi_accuracy: The Vietnamese repeats the incorrect provincial-administration assignment."
+    ],
+    "suggested_ja": "彼は衛門府の尉に任じられた。",
+    "suggested_vi": "Ông được bổ nhiệm làm quan úy trong Vệ môn phủ, cơ quan bảo vệ cung thành."
+  },
+  {
+    "id": "jb4f0f2479edc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j662775107b19",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je3ea2fb84564",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5a02a6b04f91",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j937f0e23a963",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j59abcf0f11ec",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j25f4aa93ecf6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4448ab01dbfd",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j41983c5e0300",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j50c04bfabfaf",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb6fe707e4781",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je4096ec38f0d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0f92f2002b11",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf2991f02ea94",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j67d7c6504b0e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j10a6ac8ff635",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6bd1f68bccb5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfa16eea00326",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j02b4f00d4072",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j24473f41f62a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0431b6b3f2ca",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je3876193b583",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j763f6a83f7fb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jae915911c61c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j783859fb278d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2067a73a8126",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1e5392a0598b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf62cd2fdfaa6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3d6062f9db2c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1152a5414bff",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je597c37f34f0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5e2c1dd81def",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j58728c8846df",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf8f0e913b068",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb74dd3e6f7e1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j271c4c7992cf",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4570e46245ac",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 其処ら refers to around there, but 'quanh đây' shifts the location to around here; はず expresses an expectation rather than necessarily a recollection."
+    ],
+    "suggested_ja": "鍵は其処らに置いたはずだ。",
+    "suggested_vi": "Chắc tôi đã để chìa khóa đâu đó quanh đấy."
+  },
+  {
+    "id": "j3fee78bfe423",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9b468d68264d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfe61aedcea58",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc02cc7e07141",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j21914cd40888",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jded7b1c2f04d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2d1a30f18ad4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j044f4994dc75",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j946067e6a94a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j966c81a7555f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0cea2505aed1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j46b74b157391",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7880c3558ab6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0385df07300a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j87663ded296a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1d08317d64d1",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'kính trọng những lời dạy' is an awkward object collocation; trân trọng fits teachings."
+    ],
+    "suggested_ja": "祖母は古くからの教えを尊ぶ。",
+    "suggested_vi": "Bà tôi luôn trân trọng những lời dạy từ xưa."
+  },
+  {
+    "id": "j2509403a94ea",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9d03861f7ac0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j93b6841c6ec1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5f0c2626c408",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j31e12977856a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jed7d2059d8d2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb46d5faf5fbf",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc38a7ba9c4cc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7abbdb63921d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jecef7a124f9e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb74db5c3cee3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8345dba60520",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j68a8caf8bf50",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j274011617ba3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdb955f04339c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbd547535595e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb15d1a07983c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0c4fb7d9138b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdf00cd41cb98",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc49951a2eed2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7304043fbfdf",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6c4f0e089d7d",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 月並み in the recorded sense means trite/commonplace; 'quen thuộc' loses its evaluative, cliched nuance."
+    ],
+    "suggested_ja": "月並みな表現でも気持ちは伝わる。",
+    "suggested_vi": "Dù lời lẽ có sáo mòn, vẫn có thể truyền tải được tình cảm."
+  },
+  {
+    "id": "j3204dfd8fb72",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb3fbe3565d56",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jeed4a436eaed",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3b70cecffe57",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc326198dcf1c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je1716cdfe74d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j69a27cfdd08c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd1881e579d39",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1cf171dbc617",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja8e4f8240c51",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je54813404a73",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j67f325742145",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j541b5f157562",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j64ad3ee9ad88",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9cd11172a94a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb81feaef5f62",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7c833cd706a8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j85bc4af4d6e9",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9fb18a4206a3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd1eb31b17863",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6c9124d20199",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4f24f1e972a7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcdd115c26358",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j61df493f1291",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j038aab6ff1de",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j55d488318db4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j702f08963277",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd5514b420a98",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j74bc990c4033",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2442e1fd4b7c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5801e0207a3c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j774ea0878d10",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd66a284a078e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2d9791b3d5e7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8d7043b2d42f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j770553c1cc13",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcabb68a2c4e6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j666b8371eba6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdad45cc6cdf7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j34e897df9452",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9c7b349bd467",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5889630e1afb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1bedde1e844d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j780501729d8e",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6465fd05778c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je97630f1fd28",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb6149b756bac",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j13e47f0ee136",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0cd64352d9dc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2b18107beb69",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3cd8319de548",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2ba309a7f7c7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbdb2207c3d1d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ebe3f87f904",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja9aaa4170b66",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9f4af47cb9b1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8ea60d63bb43",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j58de61e5db46",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfcbc9adb3c73",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc35803ba27e4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8ba373b3f65b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j40509fe21ef8",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j86f8187a6de4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8aaa59a11703",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The recorded 鼠 color sense is dark/slate gray; the translation only says gray."
+    ],
+    "suggested_ja": "鼠の紬に白い帯を締めた。",
+    "suggested_vi": "Tôi thắt đai obi trắng với bộ kimono vải tsumugi màu xám sẫm."
+  },
+  {
+    "id": "je5a960fc6fe0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbe1b5e3e6aa9",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 月末までに includes the end-of-month deadline; 'trước cuối tháng' can incorrectly exclude it."
+    ],
+    "suggested_ja": "授業料は月末までに納入してください。",
+    "suggested_vi": "Vui lòng nộp học phí chậm nhất vào cuối tháng."
+  },
+  {
+    "id": "jd6e62237e604",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0496104e240d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3b9a2c384c47",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j108510dcb41d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3eaddebff6a2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je3db3eb64661",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j92c45a56133c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j352a8cf026a5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdf7d59ece283",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8fc2f42f276d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb8994a25fbee",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jce279aaa24c4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc39d8108e710",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja766188fddd0",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j95cd9267b651",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja3c5e7790d71",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2afbc2b354b4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8f6c01b06dde",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jba53fbe11166",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j255733ebac23",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jeb3f075b5416",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2bef0b6fab4b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0be6e99a0920",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j590ef513efe1",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j26e53a52304f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf3e6d7e961b3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jef6bff2c6a03",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7d8539fef3dc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j080afc4db180",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0b2f63a13570",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8749e3cf215d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc732f19c2aec",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c560180769f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja87923ed68b7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1620b3da1d72",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1547b7d42b29",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j04e48f39a772",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2a9c7763e8e4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j864732ce944b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc149f72970e2",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6b6166de9380",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j31f5742fe73d",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 小さく modifies 動いている (small movements), not the size of the navel; 'chiếc rốn bé xíu' adds an unsupported attribute."
+    ],
+    "suggested_ja": "赤ちゃんの臍が小さく動いている。",
+    "suggested_vi": "Rốn em bé đang khẽ nhấp nhô."
+  },
+  {
+    "id": "j853ef890a521",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd21b9b60136d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j16e016aa479b",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7153846526cc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c815ddc33cd",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8eb0e6703f2c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j31a20a6af9ba",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j26fe1b1be1bb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j56906110c140",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd4c3b972f18d",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'kéo dài vòi' is awkward and can suggest lengthening a faucet; ホース here is a hose being extended/uncoiled."
+    ],
+    "suggested_ja": "ホースを伸ばして庭に水をまいた。",
+    "suggested_vi": "Tôi kéo ống nước ra để tưới vườn."
+  },
+  {
+    "id": "jc9f96db73354",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb7552bfb4847",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6a3dad5443dc",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j33ad28998bfe",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j12c1f8a6f143",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j959a582750b3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2479b24be504",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j90bf506f1a32",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Trong bầu trời' is not the natural Vietnamese locative for visible stars; use trên bầu trời."
+    ],
+    "suggested_ja": "澄んだ夜空に星の瞬きが見える。",
+    "suggested_vi": "Trên bầu trời đêm trong vắt, có thể thấy những ngôi sao lấp lánh."
+  },
+  {
+    "id": "j4b1277dffae7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2fdb330b452a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0e7f6d9b8305",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0e1f587ba116",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb1a91004d950",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6ccf037061fa",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf7e4e7d13c26",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0bff34c1f5d4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6ec4d1caa895",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j65b09600b508",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j011b60a1cf82",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ba843a2483a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja60e2815fc99",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0bea4a56bdda",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j18bf73af8385",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2b022ae3cb8c",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0532d663faae",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9540c17cabdd",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j83c16e2faca6",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je9e8442301b7",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 'Chẳng lẽ' adds marked disbelief; もしかして here introduces a tentative identification question."
+    ],
+    "suggested_ja": "若しかして、田中さんのお兄さんですか。",
+    "suggested_vi": "Có phải anh là anh trai của Tanaka không ạ?"
+  },
+  {
+    "id": "jb570b3d9f244",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3402672f6cbe",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf1e87823e72d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j77e75432f84a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbba2ef0085dd",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "ja_grammar: 優 (やさ) is recorded as a prefix; 優な treats it as a productive na-adjective and is not a natural modern model. Use the prefix in 優男."
+    ],
+    "suggested_ja": "彼は優男だが、芯は強い。",
+    "suggested_vi": "Anh ấy trông hiền lành nhưng rất cứng cỏi."
+  },
+  {
+    "id": "j37cad4a19203",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j443b0297dcc5",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j61dfc42a1627",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 命じられた means being ordered, stronger than the translation's 'được yêu cầu'."
+    ],
+    "suggested_ja": "夜中の外出は控えるよう命じられた。",
+    "suggested_vi": "Họ được lệnh hạn chế ra ngoài vào ban đêm."
+  },
+  {
+    "id": "jf7cb95dbb427",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j494bafd1d3f7",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc2f4231c4448",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j06c454062906",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j91c90c379bb3",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf2cd82d77d6a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j788e14462b67",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5067340b8f55",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja0a6f29561fb",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1073cbb01017",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j463a798ff338",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j00c749ea416f",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5e668dc91c49",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je67fa6c2b697",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5591cc093fc4",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf76124fb657d",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j66f061ba9faf",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc4b93b837fa7",
+    "source": "authored",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'tiêu thụ công suất' is an awkward technical collocation; say the bulb has a stated power consumption."
+    ],
+    "suggested_ja": "この電球の消費電力は十ワットだ。",
+    "suggested_vi": "Bóng đèn này có công suất tiêu thụ mười oát."
+  },
+  {
+    "id": "jddf71aea480a",
+    "source": "authored",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j818846d31820",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9acbf1542642",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j257e2b3e9983",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9bae63d01f2d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j25f38ca835c5",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j91b2f0a8bfc1",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7b2351210462",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7cf39f6d341a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7128f47a1cfc",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j83bb3d070347",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "level: The formal expression ご在宅 is unnecessary supporting vocabulary for an N4 example of ご主人; use familiar 家にいますか."
+    ],
+    "suggested_ja": "ご主人は家にいますか。",
+    "suggested_vi": "Anh nhà có ở nhà không ạ?"
+  },
+  {
+    "id": "jb373062f2599",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j35a0e5ef96cc",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j99dd36bb56ee",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "level: 散髪 is avoidable advanced supporting vocabulary in this N4 example; 髪を切る is a clearer model."
+    ],
+    "suggested_ja": "私は床屋で髪を切った。",
+    "suggested_vi": "Tôi đã ra tiệm cắt tóc."
+  },
+  {
+    "id": "jf95165a2c20b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd932c3728abe",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0a069a64ef67",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf6065ea00eef",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'kinh doanh một cửa hàng' is an awkward rendering of running a shop; điều hành is more idiomatic."
+    ],
+    "suggested_ja": "彼は靴屋を経営している。",
+    "suggested_vi": "Anh ấy điều hành một cửa hàng giày."
+  },
+  {
+    "id": "j9a389f63900d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4e519d496fb4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfeca371a2f8b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je19770b21fba",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j40b1035fcae8",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfed1bee5cf0f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3700ad77f356",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "level: 各重 is specialist multi-tier architecture terminology, accompanied by 西北側 and 垂れ下がる; this is too much supporting vocabulary for the N3 target 軒.",
+      "context: The extracted sentence assumes a specific multi-tier building that the learner is not given."
+    ]
+  },
+  {
+    "id": "j4b8bc9a675c9",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j607b99c96807",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7607f7a86467",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2e7c0fbc9739",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7bdbafef409a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf0da946df2be",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j260d5ca13a7a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5ad8f1331ba4",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcc5b162c598d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jee9de8d2d01f",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 'quá lớn' adds an excessive-enlargement qualification absent from 大きく引き伸ばす."
+    ],
+    "suggested_ja": "写真を大きく引き伸ばすと粒子が粗くなる。",
+    "suggested_vi": "Khi phóng to ảnh, ảnh sẽ bị nổi hạt."
+  },
+  {
+    "id": "je0de4e8ffbec",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j884a4b5f1475",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j93a5e73845da",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j391f1b6c6db9",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'trông rất tràn đầy' is an awkward stacking of degree expressions."
+    ],
+    "suggested_ja": "仕事に熱中している人は生き生きしているように見える。",
+    "suggested_vi": "Những người say mê công việc trông tràn đầy sức sống."
+  },
+  {
+    "id": "jf0035fda95a3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja37141fc26ac",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 大図 is the large-scale map category in the surrounding source (contrasted by scale with 中図); khổ lớn instead asserts a large sheet format."
+    ],
+    "suggested_ja": "なお、大図には緯度線・経度線は記入されていない。",
+    "suggested_vi": "Trên các bản đồ tỷ lệ lớn không có đường vĩ tuyến hay kinh tuyến."
+  },
+  {
+    "id": "j3ae5414035d3",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jeb761aef9b82",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j070a146906ea",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbf20dfd63d18",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4145e5fbf5cf",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5525853997c0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6e4e7d6c219a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ba49f9ff245",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb6505fc2bab3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c99970bbe4a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j33b756255e4a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je242862bee2c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9c473a08f9b2",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j65d767b97593",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: お手洗い asks for the toilet/restroom, not a bathing room (phòng tắm).",
+      "vi_naturalness: The question is missing its final question mark."
+    ],
+    "suggested_ja": "お手洗いはどこですか？",
+    "suggested_vi": "Nhà vệ sinh ở đâu ạ?"
+  },
+  {
+    "id": "jcca9153bbec6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j318c8df847c0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd024185eb6b7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1ed6cee01cdd",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The translation omits the location, the town visited during the solo trip."
+    ],
+    "suggested_ja": "一人旅で訪れた町で、思いがけない出会いがあった。",
+    "suggested_vi": "Tôi đã có một cuộc gặp gỡ bất ngờ tại thị trấn mình ghé thăm khi đi du lịch một mình."
+  },
+  {
+    "id": "je0b152570c5d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8d9fa1866fed",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8a3243472e40",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jceae30424061",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3d66c166f511",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5bddd1258b5b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfca3d6fa52eb",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j88ac7a31ac8f",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "level: 箏曲 and the unexplained genre 手事物 are specialist music terms that overwhelm this N2 example of 過半数.",
+      "vi_naturalness: Leaving tegotomono unexplained does not make the musical classification accessible to a Vietnamese learner."
+    ]
+  },
+  {
+    "id": "jf88181d11798",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "level: 藩札, 藩 and 取り潰し require substantial historical vocabulary beyond the N2 target 紙屑; choose a sentence with ordinary supporting vocabulary."
+    ]
+  },
+  {
+    "id": "j8ee6a6402f33",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6d0ea6acdfe2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j148eebe15323",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf894fcda64be",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j23b56a0aa8c4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3b59b57dc5e6",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'tên cơ quan cấp' leaves cấp hanging without an object; use the natural agency label cơ quan cấp phát."
+    ],
+    "suggested_ja": "すなわち、交付元の官庁名が記される。",
+    "suggested_vi": "Nói cách khác, có ghi tên cơ quan cấp phát."
+  },
+  {
+    "id": "jbb2503016de5",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The translation drops the dry-cell distinction in the target 乾電池."
+    ],
+    "suggested_ja": "この乾電池、わりと持つじゃん。",
+    "suggested_vi": "Cục pin khô này dùng cũng lâu ra phết nhỉ."
+  },
+  {
+    "id": "j0057681bcb1f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc98ab5697ac9",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdb5b50c7582d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j491683081aa5",
+    "source": "KNBC 1.0 (2009-09-25)",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: ふらりと describes an unplanned visit on a whim; 'tiện ghé' introduces the different idea of a convenient stop on the way."
+    ],
+    "suggested_ja": "３・４時間目が休講だったので、ふらりと銀閣寺までいってきました。",
+    "suggested_vi": "Tiết ba và bốn được nghỉ nên tôi nổi hứng ghé chùa Ginkaku-ji chơi."
+  },
+  {
+    "id": "je3c9f9e1f3e8",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2a01f100f8e0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2affbadf39cd",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j266844098298",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaf6956a729e7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j22c12a5a3714",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j950cb8524de8",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j55d4318b4c79",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j83f295f1a593",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8569c256a85f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je27789220b27",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf9be4c9bc8d0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdc0ee360af26",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j40d5bf9d442a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcc0dcf6c8c55",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "level: 唐宋期 and 荘園 introduce specialist historical concepts beyond the supporting vocabulary needed for N2 耕地.",
+      "context: The distinction between 農地 and 複数の耕地 is unexplained in this extracted historical description, making the example needlessly opaque."
+    ]
+  },
+  {
+    "id": "j2ba902649541",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j18e642391a8f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jde47f32a70af",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0c8954a585bf",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb50c394ea146",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j13d442ac310a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j11459181660a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j16aeb4b90dd0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja036895b13d5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j39240d58f340",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j43979f356fae",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd88cf187d2ea",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jee25518b1f82",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "ja_naturalness: 主語が口語から抜ける is an awkward description of subject omission; Japanese naturally uses 口語では主語が省略される."
+    ],
+    "suggested_ja": "口語では主語がよく省略されるのが、日本語の特徴だ。",
+    "suggested_vi": "Một đặc điểm của tiếng Nhật là thường lược bỏ chủ ngữ khi nói."
+  },
+  {
+    "id": "jaafb0b735c9e",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2afb0a527854",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8421e482c870",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja6c6c9f92c13",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2382292903b1",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j77a1ab44bdd3",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The surrounding source identifies a woman (later a prima donna and married to Miura); Ông is the wrong gender."
+    ],
+    "suggested_ja": "その後、助教授となる。",
+    "suggested_vi": "Sau đó, bà trở thành phó giáo sư."
+  },
+  {
+    "id": "je1bb0f861095",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j46a4b55ebe34",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1e14b4472a28",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdb6db7273866",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8ea0523509d5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4aba1a6d41c7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j871802f51b8c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j76b085463fb4",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5c550f2bee79",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j747fe58bee6b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c741b9fa185",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "content_precision: A teaching definition of rational numbers should state the nonzero-divisor condition explicitly; the current wording leaves it implicit."
+    ],
+    "suggested_ja": "有理数は、整数を0でない整数で割った数だ。",
+    "suggested_vi": "Số hữu tỉ là số thu được khi chia một số nguyên cho một số nguyên khác 0."
+  },
+  {
+    "id": "j03b3331e0d12",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jde0093e62356",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2f0418b17dcb",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "level: 得宗専制 is a specialized Kamakura political concept, not suitable supporting vocabulary for an N2 example of 専制.",
+      "context: この事件 has no supplied antecedent, and the Vietnamese transliteration Tokusō does not explain the institution."
+    ]
+  },
+  {
+    "id": "j451cd833f2b0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c80d2581418",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4b65f2a943d8",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1a5c61b97fb4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdf1d942e7a86",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2ef7eb1f88fc",
+    "source": "KNBC 1.0 (2009-09-25)",
+    "verdict": "reject",
+    "issues": [
+      "context: The sentence begins それなのに but omits the preceding proposition it contradicts; a standalone example of this conjunction does not demonstrate the relationship.",
+      "level: ジョグダイヤル and 廃れる add avoidable product-specific and advanced vocabulary to the N2 target."
+    ]
+  },
+  {
+    "id": "j0875eea3d7f6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbfb08da5528e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc4f41976bd9b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcedea5ea2a29",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j27e05e2e6e71",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jde7f67d20e9a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdc1905e27c5a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaf9a4be66f90",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j480117ad6397",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j04c842e28b65",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j961356ed53c0",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "level: 楽府 and 雑言詩 require specialist Chinese-poetry knowledge, which is excessive supporting material for the N2 target 長短.",
+      "vi_naturalness: The untranslated Sino-Vietnamese labels nhạc phủ and tạp ngôn thi retain the opacity rather than clarifying the example."
+    ]
+  },
+  {
+    "id": "j94da9105aa2c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc3efbaf0a2e3",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb3b94a4330ae",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfaf65f44f8e4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaa49ed93d973",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j31a8379bb1a3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7725fdb1300e",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'màu mực có ... ánh sáng và cảm giác trong trẻo' is a literal, awkward rendering of visual ink qualities."
+    ],
+    "suggested_ja": "墨色に艶や光や透明感を出す。",
+    "suggested_vi": "Tạo cho màu mực độ bóng, độ bắt sáng và độ trong."
+  },
+  {
+    "id": "j298cc2e53373",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c056009d69e",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j27219a8ed421",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j36852b97b070",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc20d84fcb521",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb3c4f9fff6f9",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "level: Three alternate botanical names in the parenthesis distract from the N2 target 等分; simplify the material to 竹."
+    ],
+    "suggested_ja": "竹を4等分する。",
+    "suggested_vi": "Chẻ tre thành bốn phần bằng nhau."
+  },
+  {
+    "id": "j5234cb2c6197",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8eed497f72d6",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'nét vững, dẻo dai và có nhịp điệu' does not naturally describe the listed visual/brushwork qualities."
+    ],
+    "suggested_ja": "しっかりとした線、粘り、律動感は共通する特長である。",
+    "suggested_vi": "Những ưu điểm chung là nét bút chắc khỏe, có độ dẻo và giàu nhịp điệu."
+  },
+  {
+    "id": "j5a994d7b8b1b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j47d4027b07b8",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0ad738a0802a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j423e10948d99",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j85c634ee1415",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja02051e480cc",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5b2620b1d4b2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfd23f2f65230",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9b011dfc6404",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je8900824f2ef",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1ba30dda3eb8",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaa6d21565ee9",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaf2e6b486464",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb39b4b369cef",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jef0c7e978e3d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j25697c2f5d08",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j432f1612c791",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6d663fc3ec93",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j39dbabb8d763",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je34b7996267e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc039e384a76c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je5a377983218",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j350a6da6f415",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbb3f520c938c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j505213468104",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2ee96ff63ef1",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j85db72a4f453",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je86ea4bb7078",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb4653ac5c778",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jce912c1f97ef",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf532c7bde6a6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf95df59363ab",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j077c7c82a6c0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j28475667d7c8",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j28054dae84e9",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j15738943376d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb0f9ee21e934",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 研いでた is past progressive; 'Tôi đang mài' without a past-time cue incorrectly presents the action as current."
+    ],
+    "suggested_ja": "包丁を研いでたわよ。",
+    "suggested_vi": "Lúc đó tôi đang mài dao bếp đấy."
+  },
+  {
+    "id": "jdae34be29222",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: ぼろ is a concealed fault/weakness, not specifically ignorance (cái dốt)."
+    ],
+    "suggested_ja": "あいつでかいことばかり言ってるけど、そのうちぼろを出すよ。",
+    "suggested_vi": "Hắn toàn nói khoác thôi, rồi cũng có lúc lộ điểm yếu ra."
+  },
+  {
+    "id": "j7b5eb9ddae68",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7c8e4e578ffe",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8ee097b3d6d1",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7dd7953d3944",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 民間伝承 covers folk traditions/lore, not only legends (truyền thuyết)."
+    ],
+    "suggested_ja": "この論文では、ドイツとオランダの民間伝承を比較する。",
+    "suggested_vi": "Bài nghiên cứu này so sánh các truyền thống dân gian của Đức và Hà Lan."
+  },
+  {
+    "id": "j02bf7843300b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5a529275522d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4f0040f83bd6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd3a6275c4b61",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "level: 度量衡 and the traditional unit 升 introduce specialist metrology that is disproportionate to an N2 example of 容積.",
+      "vi_naturalness: The bare unit name shō is not explained for Vietnamese learners."
+    ]
+  },
+  {
+    "id": "j6d8a4c009b9b",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "level: 地下茎, 越冬 and 殖芽 create a specialist botany sentence well beyond the supporting vocabulary appropriate for N2 養分."
+    ]
+  },
+  {
+    "id": "j7f20039fa9eb",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j56639d06a5bd",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2de35f2e6562",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j550d069ca431",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5c47fd28f14d",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7048a241549f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jff6b9c6cd828",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4f23ccae8dc6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1ce06cb03d84",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9c006bcdafe1",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j42ee32022be2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je7c6ae3b897c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7cfd7c90c8bb",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je2cda5d41837",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaf216212d5f0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf50433809f8f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcda6adfe35bb",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j098d9842d2c7",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je4b78ce8edf2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j481d851bd6f6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja0a186eba1d6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4701874adc77",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j51c212532494",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd6f4fbd160da",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6c6d88289a33",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1012bbc8b099",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf59d7e6dc1e4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9db96a7fd0ce",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Thư ... đã gửi chéo nhau' is an awkward calque and does not clearly explain that each letter was sent before the other was received."
+    ],
+    "suggested_ja": "あなたの手紙は私のと行き違いになった。",
+    "suggested_vi": "Bạn và tôi đều gửi thư đi khi chưa nhận được thư của nhau."
+  },
+  {
+    "id": "j446c03071fb1",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j186c98a90fd7",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1e16fbfc2727",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j200681f2bdf5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5498ca2682a7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbe89f03a08f7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6ed274a9be34",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j48fe0db91b85",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jeb4b59706610",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jeda4b1a2db63",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbd0536de17fd",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4eb2a7080ab9",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je76c7c41c763",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9e82fc0fa0ed",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6d7600713c15",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j027862db4940",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf6016f4814dd",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j73f9468efe5c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja344ac1cf657",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: うちわ does not specify a woven bamboo fan; 'quạt nan' adds an unsupported material."
+    ],
+    "suggested_ja": "うちわを持って踊る。",
+    "suggested_vi": "Người ta cầm quạt tay và múa."
+  },
+  {
+    "id": "je2a235a61c35",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb94b7caee10a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8cc2307d9e88",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbd61163a2067",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The translation omits the hearsay marker んだって, presenting reported delivery information as a direct assertion."
+    ],
+    "suggested_ja": "今日届くはずだった荷物、運送中のトラブルで明日以降になるんだって。",
+    "suggested_vi": "Nghe nói gói hàng lẽ ra đến hôm nay gặp trục trặc khi vận chuyển, nên sớm nhất phải ngày mai mới tới."
+  },
+  {
+    "id": "j05cc9982d6c7",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja8a901866dca",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jea4017c51568",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j05b6c06304f6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j85533de4a325",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: ビジネススキル here refers to workplace/business skills generally; 'kỹ năng kinh doanh' narrows it to conducting commercial business."
+    ],
+    "suggested_ja": "ビジネススキルは、円滑に仕事を進めるために必要な力です。",
+    "suggested_vi": "Kỹ năng làm việc là những năng lực cần thiết để công việc diễn ra suôn sẻ."
+  },
+  {
+    "id": "j11ccb491125a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j109133ddd884",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jae351c3fe0e3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbaa1802a180c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j622803e6d356",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j903c24245032",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 後期の将軍 means shoguns of the later period, not necessarily successors after this individual (đời sau)."
+    ],
+    "suggested_ja": "徳川将軍15人の中で5番目の長身であり、後期の将軍の中では大柄である。",
+    "suggested_vi": "Ông cao thứ năm trong mười lăm tướng quân Tokugawa và thuộc nhóm có vóc dáng cao lớn trong số các tướng quân thời kỳ cuối."
+  },
+  {
+    "id": "j549688b39588",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3167ea92bf50",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: お手洗い asks for the toilet/restroom, not a bathing room (phòng tắm).",
+      "vi_naturalness: The question is missing its final question mark."
+    ],
+    "suggested_ja": "お手洗いはどこですか？",
+    "suggested_vi": "Nhà vệ sinh ở đâu ạ?"
+  },
+  {
+    "id": "jb4adfdd5b0df",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1d46bbe3ea2e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jda54b8787796",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 関係者 means people involved/in the relevant circle, not simply acquaintances. The aligned source context identifies a woman, whereas the Vietnamese inserts Ông."
+    ],
+    "suggested_ja": "自宅で関係者を集めてパーティを開き、そこが自ずから社交場となった。",
+    "suggested_vi": "Bà tổ chức tiệc tại nhà cho những người trong giới, và nơi ấy tự nhiên trở thành chốn giao lưu."
+  },
+  {
+    "id": "j996fce1f7eba",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja887edba0eff",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9c4862d6cee2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4b0fdc2b61d2",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j14e9007e99c4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdcf0fb777577",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaaf74aa21126",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j50220297614f",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'mở tuyến chạy tàu Shinkansen rỗng cho hành khách sử dụng' is a cumbersome literal rendering of converting a non-passenger line to passenger service."
+    ],
+    "suggested_ja": "新幹線の回送線を旅客扱いするようにしたものである。",
+    "suggested_vi": "Đây là tuyến vốn dành cho tàu Shinkansen chạy không chở khách, nay được đưa vào phục vụ hành khách."
+  },
+  {
+    "id": "j1f7fea53e4fa",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 一部の上流階層 refers to part of the upper class, not several different upper classes (một số tầng lớp thượng lưu)."
+    ],
+    "suggested_ja": "一部の上流階層は縮緬などを用いていた。",
+    "suggested_vi": "Một bộ phận giới thượng lưu dùng vải chirimen và các loại vải tương tự."
+  },
+  {
+    "id": "jfa78de6be1dc",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "context: 以下の通り promises a following list of school districts, but that list is absent. This extracted lead-in is not a self-contained example."
+    ]
+  },
+  {
+    "id": "j0576f8f449b6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jea878630a4e5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7601f902a1d6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j53eec1ae9a19",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j55ca2731adfd",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: スポーツ実習のほか excludes a type of use, not the hours when sports practice takes place; 'ngoài giờ' adds a temporal restriction."
+    ],
+    "suggested_ja": "講義室や研究室はなく、スポーツ実習のほかは専ら課外活動に使われる。",
+    "suggested_vi": "Nơi đây không có giảng đường hay phòng nghiên cứu; ngoài việc thực hành thể thao, cơ sở chủ yếu phục vụ hoạt động ngoại khóa."
+  },
+  {
+    "id": "j8fd9c46ed51e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j36127355e5e4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc999d197753a",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Khoảng cách xã hội ngày càng lớn' is an ambiguous literal rendering of the growth of an unequal/stratified society; describe social inequality directly."
+    ],
+    "suggested_ja": "格差社会の拡大は、社会の不安定化を招く要因の一つだ。",
+    "suggested_vi": "Bất bình đẳng xã hội ngày càng gia tăng là một trong những nguyên nhân gây bất ổn."
+  },
+  {
+    "id": "j239f7246c181",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je1f4ea236921",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd8fdcd45127f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbcd42a91cebd",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j220f22eb171e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ce76161be05",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3a5095cf6cdb",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ff0cb705f3a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdb8a6ed3840e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0d38dd75450b",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: The unexplained social title hatamoto leaves the Vietnamese sentence insufficiently localized; briefly identify the role."
+    ],
+    "suggested_ja": "旗本の屋敷で、歌留多の会が催された。",
+    "suggested_vi": "Một buổi chơi bài karuta được tổ chức tại dinh của một võ sĩ hatamoto, thuộc hạ trực tiếp của tướng quân."
+  },
+  {
+    "id": "j229a8e170b27",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb198236ccb6d",
+    "source": "Japanese Wiktionary",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Phần kiếm được được đóng góp' has an awkward repeated passive; use a natural active sentence."
+    ],
+    "suggested_ja": "稼いだ分は会社に還元する。",
+    "suggested_vi": "Tôi góp lại cho công ty phần tiền mình kiếm được."
+  },
+  {
+    "id": "ja0a5bb1286be",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb45cd61d45bd",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j72f6fd92fd8b",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 賃上げの凍結 specifically freezes pay increases; the Vietnamese should make that distinction explicit."
+    ],
+    "suggested_ja": "労働組合の幹部は賃上げの凍結に反対して、闘っています。",
+    "suggested_vi": "Lãnh đạo công đoàn đang đấu tranh phản đối việc ngừng tăng lương."
+  },
+  {
+    "id": "j680388e14282",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2d329dca25d8",
+    "source": "Japanese Wiktionary",
+    "verdict": "fix",
+    "issues": [
+      "context: The sentence explains a pronunciation without identifying the word being pronounced; restore 一月 from the source page."
+    ],
+    "suggested_ja": "法令等では「一月」を「いちげつ」と読むのが慣例である。",
+    "suggested_vi": "Trong văn bản pháp luật, chữ 一月 thường được đọc là “ichigetsu”."
+  },
+  {
+    "id": "j62f8509c3679",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "context: 以下にその概略を記す is a lead-in to an omitted outline; both その and the promised content depend on missing text."
+    ]
+  },
+  {
+    "id": "jbaefa45b45a0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jefe7e14fb812",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 雅俗意識 is the distinction between refinement and vulgarity, not simply 'quan niệm thanh nhã và bình dân'."
+    ],
+    "suggested_ja": "文人の雅俗意識から囲碁は雅致がある遊戯として認められたのだろう。",
+    "suggested_vi": "Có lẽ, do quan niệm phân biệt cái thanh nhã với cái dung tục của giới văn nhân, cờ vây được coi là một thú chơi tao nhã."
+  },
+  {
+    "id": "j55d78789b2c6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5ebf72ad97c6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j683df1e6588f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7f93b5e5224d",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j320d65a52af5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jce551757a1c3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6eb57b62e78a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9fbee59af142",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j687bafa0a258",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j58205fab8b28",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6937e9a9da9d",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j562834d03c07",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbb04fe58d2bf",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jccbe68300385",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfd2fe2861bcb",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6791268e09ee",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3a01c1da4432",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j954033b9cffb",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: Leaving the date only as Heisei 18 requires Vietnamese readers to perform an unexplained Japanese-era conversion."
+    ],
+    "suggested_ja": "長らく男子校であったが、平成18年から男女共学になった。",
+    "suggested_vi": "Trường vốn chỉ dành cho nam sinh trong nhiều năm, nhưng từ năm 2006 (Heisei 18) đã nhận cả nam lẫn nữ."
+  },
+  {
+    "id": "jd8a911a99fd1",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8212602f0b6d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd835645172de",
+    "source": "KNBC 1.0 (2009-09-25)",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j185a40b96cab",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja30971656a99",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j934e102abe3b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf5c16d2cae59",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j210c04cd0a22",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'nông sơn thôn' is an unlocalized calque of 農山村, and 'cây xanh trù phú' is an unnatural collocation."
+    ],
+    "suggested_ja": "豊かな緑と、きよらかな水の流れを持つ自然美豊かな農山村地域である。",
+    "suggested_vi": "Đây là vùng nông thôn miền núi có thiên nhiên tươi đẹp, cây cối xanh tươi và những dòng nước trong lành."
+  },
+  {
+    "id": "j7421458169f5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j77f6d105e6c5",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc40bd5121340",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j15170d696e9b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd1673c936768",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j01f785f41c0f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1ea64a70e0d2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf8364bb0f9b4",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j83b77b8d0b57",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j96724fc0746d",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c52791ecabf",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j790c1a19f5df",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb820131d41d0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6b561a49865f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf28a58aede9b",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "ja_naturalness: 持ち主の茶店も...移ったあと obscures which subject moved and which building decayed. The surrounding corpus describes the owner moving and the old teahouse decaying; make that relationship explicit."
+    ],
+    "suggested_ja": "茶店は、持ち主が八幡へ移ったあと朽ち果てていた。",
+    "suggested_vi": "Quán trà đã mục nát sau khi chủ quán chuyển đến Yawata."
+  },
+  {
+    "id": "j60987c769337",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcc878fb527d0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j233cd882d2a6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6efd62cafa32",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j26f975a0ce54",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "ja_grammar: 表やグラフに可視化する uses an unnatural particle for the means of visualization; use で (or にして)."
+    ],
+    "suggested_ja": "蓄積されたデータを表やグラフで可視化する。",
+    "suggested_vi": "Trực quan hóa dữ liệu đã tích lũy bằng bảng và biểu đồ."
+  },
+  {
+    "id": "je2c913ac3965",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4d9ac4d8eeac",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5eb37067438c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0646badd09ca",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j32df097a420c",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 病床につく means taking to one's sickbed; 'nằm liệt giường' overstates the severity and immobility."
+    ],
+    "suggested_ja": "結核を患って病床につく。",
+    "suggested_vi": "Ông mắc bệnh lao và phải nằm dưỡng bệnh."
+  },
+  {
+    "id": "j3c7099e09fc2",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'nguồn gốc sức đoàn kết' is an awkward literal noun chain."
+    ],
+    "suggested_ja": "それが頼朝の元への関東武士団の結束力の源泉であった。",
+    "suggested_vi": "Đó là nguồn sức mạnh gắn kết các nhóm võ sĩ Kantō dưới quyền Yoritomo."
+  },
+  {
+    "id": "j0915195f56e1",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfdef913f32cb",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Ông lớn lên là con của' is an unnatural rendering of upbringing in a particular family."
+    ],
+    "suggested_ja": "兼業農家である築堤職人の息子として育った。",
+    "suggested_vi": "Ông lớn lên trong gia đình có cha vừa làm nông vừa làm nghề đắp đê."
+  },
+  {
+    "id": "j2404c4e46592",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jff1097745b7a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j537e26a92425",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j01286fec7e88",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7dc1bb27b2f7",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Thằng nhóc ... là một đứa trẻ' is redundant and adds a rougher tone than the neutral compliment."
+    ],
+    "suggested_ja": "彼は本当に頭のよい子だ。",
+    "suggested_vi": "Cậu bé ấy thật sự rất thông minh."
+  },
+  {
+    "id": "j3e6f6d79488f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j536f93527137",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfe25bc44a889",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j51d94c6af4d6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j70e140713dcc",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaed351c71996",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 院 in this historical passage refers to the retired emperor's government, confirmed by the surrounding Goshirakawa context; the literal 'viện' is misleading."
+    ],
+    "suggested_ja": "そうして院と延暦寺の抗争が再燃することになった。",
+    "suggested_vi": "Như vậy, cuộc xung đột giữa chính quyền Thượng hoàng và chùa Enryaku lại bùng lên."
+  },
+  {
+    "id": "j924c16501c72",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j866fba1022c1",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5e96d946af95",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'phí tự quản' obscures the association membership fee 自治会費; identify it as an association fee."
+    ],
+    "suggested_ja": "なお、寄宿料のほか、水道光熱費、自治会費を別途徴収する。",
+    "suggested_vi": "Ngoài tiền ở ký túc xá, còn thu riêng tiền nước, tiền điện và nhiên liệu, cùng phí hội tự quản."
+  },
+  {
+    "id": "j55fdfc61704f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4d823b2c226c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9e863f6a87a7",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3ca1c2a3299c",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Công viên Quốc định' leaves the Japanese administrative designation unlocalized; explain that it is a nationally designated protected park."
+    ],
+    "suggested_ja": "若狭湾国定公園に含まれる。",
+    "suggested_vi": "Khu vực này thuộc công viên vịnh Wakasa, một khu bảo tồn do nhà nước chỉ định."
+  },
+  {
+    "id": "j7636e5b3d4d8",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd2c88bf55a71",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb5a15aed19ee",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5ccbac3fa188",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j18c9a5d181e2",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je2e4a510c451",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j770badaa6ee1",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j23970c50b134",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2f7cf8b0cc49",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5bf159b90ad8",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jec64c634291a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j156b11d144b5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6fd7cf124245",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbd616921eadd",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j539c9318e18e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc14f75043b64",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 'rót rượu ... bằng cùng một chén' suggests that the cup is the pouring vessel; the sake is poured into a shared cup."
+    ],
+    "suggested_ja": "その後は亭主と客が1つの盃で酒を注ぎ合う。",
+    "suggested_vi": "Sau đó, chủ và khách thay nhau rót rượu vào cùng một chén để mời nhau."
+  },
+  {
+    "id": "j44e1eb4ec752",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9fa0820d48b8",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j76ac6e27448b",
+    "source": "Tatoeba",
+    "verdict": "reject",
+    "issues": [
+      "ja_naturalness: 言論の自由が利益を授ける is an English-like collocation; benefits are normally もたらす, whereas 授ける naturally involves an agent bestowing something. Repairing the sentence with もたらす would remove the target."
+    ]
+  },
+  {
+    "id": "j1e1ae3c8486b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j115e09c37cf0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5fe47aa2035c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6f54021d2be2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2bd18ce8bc3a",
+    "source": "KNBC 1.0 (2009-09-25)",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j871ac3fa55ec",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja6c196e990b1",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1eec302ef913",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je5017fd5e16d",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j03ed0240068b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbf0ce5d81036",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf34818ea135f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j93036a36d4c4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j90c6b5e7b98e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd662352928c6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3f6b8eed3a94",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j287389538e64",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc1efe72a988e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j250269b2d36c",
+    "source": "Tatoeba",
+    "verdict": "reject",
+    "issues": [
+      "sense: 衆を率いる uses the neutral/literary 'masses, great numbers of people' sense 1, not recorded sense 2 with honorific/familiar force (as in 若い衆).",
+      "register_orthography: The sentence does not demonstrate the hon/fam register explicitly attached to the selected sense."
+    ]
+  },
+  {
+    "id": "j4a7ccf8417ba",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Dữ liệu list' is an unnecessary English insertion, and the passive 'bằng cách sử dụng chức năng' is needlessly heavy."
+    ],
+    "suggested_ja": "リストのデータは、自動集計機能を使って簡単に集計することができます。",
+    "suggested_vi": "Có thể dễ dàng tổng hợp dữ liệu trong danh sách bằng chức năng tổng hợp tự động."
+  },
+  {
+    "id": "jc99b42fa2593",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9ebb3678a436",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "sense: 終始した is the verbal construction in JMdict sense 2; the recorded sense 3 is adverbial. Rewrite with adverbial 終始 to retain the selected sense."
+    ],
+    "suggested_ja": "何を聞かれても、終始具体策のない返答だった。",
+    "suggested_vi": "Suốt buổi, dù được hỏi gì, ông ấy cũng không đưa ra biện pháp cụ thể nào trong câu trả lời."
+  },
+  {
+    "id": "j66807d01c337",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Hiệp hội Thần xã' leaves 神社 as an opaque Sino-Vietnamese calque; identify Shinto shrines in ordinary Vietnamese."
+    ],
+    "suggested_ja": "神社本庁の定める研修を修了した者に資格が授与される。",
+    "suggested_vi": "Những người hoàn thành khóa đào tạo do Hiệp hội các đền Thần đạo quy định sẽ được cấp chứng nhận."
+  },
+  {
+    "id": "j9da3d8813e1b",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 守衛など adds other kinds of duties; 'và một số nơi khác' instead invents additional places of employment."
+    ],
+    "suggested_ja": "その後は高槻藩の守衛などを務めた。",
+    "suggested_vi": "Sau đó, ông từng đảm nhiệm các công việc như bảo vệ cho phiên Takatsuki."
+  },
+  {
+    "id": "jf92075f1c5d0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1828f831263f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3ec7d799fe86",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7b96e4d81127",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbad39d418b13",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0c3fb011655d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j32b8e41025f0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j600e5e2ae66f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc71404f2366b",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 声をかけてくれた means spoke to/addressed the speaker; 'gọi tôi lại' unnecessarily adds calling the person over or stopping them."
+    ],
+    "suggested_ja": "学年主任の先生が、廊下で声をかけてくれた。",
+    "suggested_vi": "Thầy phụ trách khối đã bắt chuyện với tôi ở hành lang."
+  },
+  {
+    "id": "ja9a4c85115fa",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j64ceb11f5bef",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "content_precision: A teaching definition of rational numbers should state the nonzero-denominator condition explicitly; the current wording leaves it implicit."
+    ],
+    "suggested_ja": "分母が0でない二つの整数の商を有理数という。",
+    "suggested_vi": "Số hữu tỉ là số viết được dưới dạng thương của hai số nguyên, với mẫu số khác 0."
+  },
+  {
+    "id": "j5aee159168f7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4954dc6f3929",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j40d34f933422",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb80ff6250999",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9159e12a7c1d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jad57a5cd4852",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6224d3920ca2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf708ff7b2d95",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j616f4c2a6df6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j97441bd6f5f5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je0f92b008c4a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8bb76d43a4c6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9ed4b3816745",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6f8fc0774931",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "ja_naturalness: 十字路の交差点 redundantly says a crossroads intersection. Retain the target 十字路 and remove the repetition."
+    ],
+    "suggested_ja": "駅前の十字路は事故が多いから、気をつけるのよ。",
+    "suggested_vi": "Ngã tư trước ga hay xảy ra tai nạn, nên nhớ cẩn thận nhé."
+  },
+  {
+    "id": "ja912f3a5cb24",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je4f004cccc0d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5b21294746de",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j84cdfff2d294",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "content_precision: The grammatical explanation incorrectly puts can at the beginning of every question; wh-questions such as What can you do? have a question word first. Limit the rule to questions without a question word."
+    ],
+    "suggested_ja": "疑問詞のない疑問文では、助動詞canを文頭に置く。",
+    "suggested_vi": "Trong câu hỏi không có từ để hỏi, đặt trợ động từ can ở đầu câu."
+  },
+  {
+    "id": "jd96ad1f55531",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3f49708f7142",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j357ed605068b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j912a2c8d8fb6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaa8010754eae",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3ca4711a32d9",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 'áo khoác cọ vào nhau' implies multiple coats rubbing against each other; the Japanese only describes the rustling/rubbing sound of a coat."
+    ],
+    "suggested_ja": "上着の擦れる音が聞こえる。",
+    "suggested_vi": "Tôi nghe thấy tiếng áo khoác sột soạt."
+  },
+  {
+    "id": "jf5e7f7a9e2fd",
+    "source": "KNBC 1.0 (2009-09-25)",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 'mê nhất' adds a superlative; はまっている says the speaker is currently very into darts, without ranking it above other interests."
+    ],
+    "suggested_ja": "最近、僕がはまっているのがずばりダーツ。",
+    "suggested_vi": "Dạo này, thứ tôi đang mê chính là trò phi tiêu."
+  },
+  {
+    "id": "jf44060472d94",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jedb0fa35a75a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2b4f1463f49d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j81255af8395f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je85daff18ab3",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'trứng phát triển chín hơn' is an unnatural calque of biological maturation and can suggest cooking."
+    ],
+    "suggested_ja": "11月頃になるとさらに卵は成熟する。",
+    "suggested_vi": "Đến khoảng tháng mười một, trứng phát triển hoàn thiện hơn."
+  },
+  {
+    "id": "jba95cdfbe7cb",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je6395f9e7b92",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf68145048598",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j769b941851d5",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbf853f77be06",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf4324207d5a6",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 'Tự nhiên', homesickness, and immediate return are additions; the Japanese describes a developing earnest desire to return to one's family home."
+    ],
+    "suggested_ja": "切実に実家帰りたくなってきた。",
+    "suggested_vi": "Tôi ngày càng tha thiết muốn về nhà bố mẹ."
+  },
+  {
+    "id": "ja7ec6576106a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je84165018155",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jeaae96918e0b",
+    "source": "Tatoeba",
+    "verdict": "reject",
+    "issues": [
+      "context: 次のように points to rules that are not supplied. This is a document lead-in rather than a self-contained example."
+    ]
+  },
+  {
+    "id": "j71c7467440f8",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4395838f1877",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4cf01fe2d83e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8a8429be5362",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j89d85cd40ef7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdd4c91a3939c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6bee040bc790",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j16ee7cf8939b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0ba762e3d6bc",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j992c87abac9c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcefa6c90534f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf75b999cc18c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbd7ca21ff4c5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5a4d2423e3a4",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0e9152032065",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb792a87eab72",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "context: The target causal connector それゆえ has no supplied premise, and 両者 has no identified parties; the extracted sentence does not demonstrate the causal relationship."
+    ]
+  },
+  {
+    "id": "jab0b1685bb1f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j64ba52495bbc",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j01ba58c92dc7",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1e1d8170fd40",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8459ae8c3645",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0a5fbd003b33",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0f4c3f91a6f3",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "ja_naturalness: とても待望していた is an awkward intensity collocation with the formal verb 待望する; 切に待望する fits that register."
+    ],
+    "suggested_ja": "日本人はそれを切に待望していた。",
+    "suggested_vi": "Người Nhật đã tha thiết mong chờ điều đó."
+  },
+  {
+    "id": "j8117771a91a5",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja189bc40c404",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6ae4c36479b5",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5142c39edc94",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j282487ea9c0f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd02e8c296a7e",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 文章 is a text/passage, not necessarily a single sentence; 'Một câu' is too narrow."
+    ],
+    "suggested_ja": "単一の文章が複数の情報を含むことは可能だ。",
+    "suggested_vi": "Một văn bản có thể chứa nhiều thông tin."
+  },
+  {
+    "id": "j595f7d3c7545",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8d20a66e2724",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j26c79ac3b0e6",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The surrounding source identifies Japan as the party representing Britain's position; the Vietnamese invents a male individual (ông)."
+    ],
+    "suggested_ja": "イギリスの立場を代弁していた様子がある。",
+    "suggested_vi": "Có vẻ Nhật Bản đã lên tiếng thay cho phía Anh."
+  },
+  {
+    "id": "j55a621b0e5a2",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2e422284390b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5f8f11dd8599",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: The translation loses the title markers around 『トムとメアリー』 and can initially be read as two people being called a work."
+    ],
+    "suggested_ja": "『トムとメアリー』は本当に救いようのない駄作だった。",
+    "suggested_vi": "“Tom và Mary” đúng là một tác phẩm dở không cứu nổi."
+  },
+  {
+    "id": "j2632feb157ed",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j34b63f0591d1",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfd56b4a4fa18",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "ja_naturalness: 約束を違えるところを最も想像しがたい男 is a cumbersome translated-style superlative; express the speaker's strong disbelief directly.",
+      "vi_naturalness: The Vietnamese repeats the same cumbersome 'person most difficult to imagine' construction."
+    ],
+    "suggested_ja": "彼が約束を違えるとは、とても思えない。",
+    "suggested_vi": "Tôi khó có thể tưởng tượng anh ấy lại thất hứa."
+  },
+  {
+    "id": "j946bea1767bb",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j739449fb8c1d",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "ja_grammar: 表やグラフに可視化する uses an unnatural particle for the means of visualization; use で (or にして)."
+    ],
+    "suggested_ja": "蓄積されたデータを表やグラフで可視化する。",
+    "suggested_vi": "Trình bày dữ liệu đã tích lũy dưới dạng bảng và biểu đồ."
+  },
+  {
+    "id": "j17254c1a2ca6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2f5cb3fc471a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcbd53b28bc0d",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j66d38237812a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j43935d58860d",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7d956497b4da",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "ja_naturalness: 抽選の結果は...発表をもって代える confuses the result with its notification; the announcement informs people of the result rather than replacing the result."
+    ],
+    "suggested_ja": "抽選の結果は、当選番号を発表してお知らせします。",
+    "suggested_vi": "Kết quả bốc thăm sẽ được thông báo bằng việc công bố các số trúng thưởng."
+  },
+  {
+    "id": "j43a0252be588",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j96675171bd51",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja3add321a326",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j51f34413ba26",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd634cde08c57",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: チームワーク concerns working/coordinating together; 'tinh thần đồng đội' shifts the emphasis to team spirit alone."
+    ],
+    "suggested_ja": "私たちはこの経験を通して、チームワークの大切さを改めて学びました。",
+    "suggested_vi": "Qua trải nghiệm này, chúng tôi một lần nữa nhận ra tầm quan trọng của sự phối hợp trong nhóm."
+  },
+  {
+    "id": "j8492aef8688a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1c184311666e",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The source subject is 天文方, an institution responsible for calendrical work; 'Ông' incorrectly turns it into a male individual."
+    ],
+    "suggested_ja": "主に編暦を司った。",
+    "suggested_vi": "Cơ quan này chủ yếu phụ trách việc biên soạn lịch."
+  },
+  {
+    "id": "j546544633e6c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7a9b15ce0832",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j50a65656243b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5d57f6ee8c8a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j286f6067ac99",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja2a8d2f48d54",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j795a45b230af",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j84cba63c4782",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc8a27092e968",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jce858cc63822",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdd17a53ccb6b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j16eedbde6aef",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2b3201085413",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j238ca32e4663",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcef0a44752a1",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfd0a17d2ea50",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0394e1b81380",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6ea4b024a465",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdf7120c13e8a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf292ba5cf312",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfa827bd98050",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd3e0740fc7e4",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4db61de876fd",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j80c6dbb628c7",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "sense: 説明するにとどめる means limiting oneself to an explanation, JMdict sense 4 ('to limit'), not the recorded sense 1 ('to stop/halt/hold back'). The Vietnamese correctly reflects limiting, which confirms the mismatch."
+    ]
+  },
+  {
+    "id": "j5ad356543291",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4625696f2712",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jadb1e861cb7a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd47cdba12911",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The source describes the responsibilities of the office 武家伝奏, not a specific male person; the added Ông changes the referent."
+    ],
+    "suggested_ja": "武家の奏請を朝廷に取り次ぐ役目を果たした。",
+    "suggested_vi": "Người giữ chức này có nhiệm vụ chuyển các thỉnh cầu của giới võ sĩ lên triều đình."
+  },
+  {
+    "id": "j4f64bb1b72b2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7a94d9262bc4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf11247700e5f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9aaa6e62d5f6",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4fdb50f08ab9",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 同志 means people sharing a cause or convictions; 'đồng đội' alone can incorrectly suggest only membership in a sports or military team."
+    ],
+    "suggested_ja": "俺たちは同志、友達だろ？",
+    "suggested_vi": "Mình là những người cùng chí hướng, là bạn bè mà, đúng không?"
+  },
+  {
+    "id": "jad0191ad493f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j18f57bdf102d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7626f8cd6c25",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j70a30de67d68",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd84635d5f113",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf95a6ddc3bf2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jedd49b26ff2f",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The source discusses the duties of village headmen (庄屋・名主) collectively; the translation invents a single male biographical subject."
+    ],
+    "suggested_ja": "用水路など土木工事の監督もした。",
+    "suggested_vi": "Các trưởng thôn cũng giám sát những công trình xây dựng như kênh dẫn nước."
+  },
+  {
+    "id": "jb4c3b374edf0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8e1e1d397344",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j156c860bd847",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: その refers to the Toba palace complex in the surrounding source, not merely to a period of time (thời ấy)."
+    ],
+    "suggested_ja": "安楽寿院はその名残である。",
+    "suggested_vi": "Chùa Anrakujuin là dấu tích còn lại của quần thể cung điện ấy."
+  },
+  {
+    "id": "jbd52da5324ce",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j96e1d9bcad97",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je7547c386a65",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja006862f237f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0726d3fdb88b",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "register_orthography: The intended animal-taming sense is conventionally 馴らす, as the selected sense itself notes; use that spelling instead of 慣らす here."
+    ],
+    "suggested_ja": "彼はピューマを馴らすのに、大いに骨を折った。",
+    "suggested_vi": "Anh ấy đã mất rất nhiều công sức để thuần hóa con báo sư tử."
+  },
+  {
+    "id": "j8f725418320c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbd61d2cccd21",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0fe41d750027",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je333ab491e36",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd411efe7c1f3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdd7f0055f99c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j79cca0ace208",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8bfb71d10bf9",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The Japanese says 精米歩合 is high and correlates heat specifically with milling time; the Vietnamese adds a second 'the higher ... the more' relationship for the rice-polishing ratio."
+    ],
+    "suggested_ja": "精米歩合が高く、精米時間が長ければ長いほど、帯びる熱量も大きくなる。",
+    "suggested_vi": "Khi tỉ lệ gạo còn lại sau xay ở mức cao, thời gian xay càng lâu thì lượng nhiệt tích tụ càng lớn."
+  },
+  {
+    "id": "j0c8e9619c63c",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'đi vận động trước những nhân vật' is ambiguous and fails to convey the advance, behind-the-scenes consensus building in 根回し."
+    ],
+    "suggested_ja": "山県は即座に賛成し、2人とともに有力者の根回しに走った。",
+    "suggested_vi": "Yamagata lập tức tán thành, rồi cùng hai người kia vận động hậu trường để tranh thủ sự ủng hộ của những nhân vật có thế lực."
+  },
+  {
+    "id": "j83b46e82b48f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb409a9490ce3",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j665209ce3800",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j29584d18e132",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j47fc94dbfb44",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j593b68722e9c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je473d5429013",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2924e973e39f",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2dd1a22f2be4",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j68aafcf4f420",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j14fe150a3ec3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb61640028d80",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "je7457fefb766",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j332a2c8e9d29",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j76234bfcce0c",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'hoạt động xã hội rực rỡ' is a literal and awkward collocation; nổi bật conveys the distinguished/high-profile activity naturally."
+    ],
+    "suggested_ja": "そしてこれが最後の華々しい社会的活動であった。",
+    "suggested_vi": "Và đó cũng là hoạt động xã hội nổi bật cuối cùng của ông."
+  },
+  {
+    "id": "j685115a98daf",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The translation omits the explicit いつも (always)."
+    ],
+    "suggested_ja": "いつも寝る前には歯磨きしてるよ。",
+    "suggested_vi": "Tôi luôn đánh răng trước khi đi ngủ."
+  },
+  {
+    "id": "j5e1f3612374d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j67c815d1c16e",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8fc21eac45ce",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja720b6ef44a2",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jda61c19e6e70",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcb2afcecb6c3",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1068b6fb2b56",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jebb917b53ea2",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: ひいては means by extension/as a further consequence, not 'về lâu dài' (in the long term)."
+    ],
+    "suggested_ja": "これがひいては落語家内部の対立の原因となっている。",
+    "suggested_vi": "Điều này còn kéo theo mâu thuẫn trong nội bộ giới nghệ sĩ rakugo."
+  },
+  {
+    "id": "jd9b85b20c16b",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc6bf82ae9ad9",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbcfaf5a09759",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jebbc7e25f173",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: The full declarative 'Lâu rồi tôi không gặp bạn' misses the natural friendly greeting and the shared-recognition nuance of だね."
+    ],
+    "suggested_ja": "久しぶりだね。",
+    "suggested_vi": "Lâu rồi không gặp nhỉ!"
+  },
+  {
+    "id": "j92cadcf28a00",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6a820c8f3190",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j923b80fcc863",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja7b62cb9c212",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5a44d19119fc",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j80575e429393",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j3fe152530796",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The main target 布巾 is a kitchen/dishcloth; reducing it to generic khăn loses that distinction."
+    ],
+    "suggested_ja": "布巾は更に刺し子をして飾り布巾とすることもある。",
+    "suggested_vi": "Đôi khi người ta còn thêu sashiko lên khăn lau bát đĩa để làm thành khăn trang trí."
+  },
+  {
+    "id": "je5e1b167359c",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Nhà hay cười' is a literal and awkward rendering of the proverb's cheerful household."
+    ],
+    "suggested_ja": "笑う門には福来る。",
+    "suggested_vi": "Nhà nào vui vẻ, nhà ấy có phúc."
+  },
+  {
+    "id": "jf34cad78499a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd1a1025b0330",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfcc70fc1fc4a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd6919f866553",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j73e155bc8ec9",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jef117c365ca3",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j98c107693851",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf1af2997e40a",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 普遍的 means universal, stronger than merely common/widespread (phổ biến)."
+    ],
+    "suggested_ja": "この分離は、人間の成長過程で普遍的な現象である。",
+    "suggested_vi": "Sự tách biệt này là một hiện tượng phổ quát trong quá trình trưởng thành của con người."
+  },
+  {
+    "id": "j082b2aade15a",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "context: 以下は introduces a missing list of cautions; the delivered line is an incomplete document lead-in."
+    ]
+  },
+  {
+    "id": "j76c0409039f0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf3ca8b0b8422",
+    "source": "KNBC 1.0 (2009-09-25)",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'Thịt gà được cho rất nhiều' is a stiff passive calque; describe the food naturally."
+    ],
+    "suggested_ja": "鶏肉がふんだんに入っていて、卵も色艶が見事。",
+    "suggested_vi": "Món này có rất nhiều thịt gà, còn trứng thì bóng đẹp, màu sắc bắt mắt."
+  },
+  {
+    "id": "j3798c540f755",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The conjunction であり coordinates the responsibility and controversy; 'nên' asserts a causal relation that the Japanese does not explicitly make."
+    ],
+    "suggested_ja": "この位置を定めるのは主作者と座元との責任であり、しばしば物議を醸した。",
+    "suggested_vi": "Việc xác định vị trí này do tác giả chính và chủ đoàn chịu trách nhiệm; điều này thường gây tranh cãi."
+  },
+  {
+    "id": "j8f2afe2aefcc",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd45ed88dca4c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jaa6aea1ca0dd",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdf116edf2958",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6a8f8af72da7",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7585716af8ea",
+    "source": "KFTT 1.0",
+    "verdict": "reject",
+    "issues": [
+      "context: 以下に...記す promises an account that is missing from the extracted example; the statement is only a section introduction."
+    ]
+  },
+  {
+    "id": "j9f15e4804702",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jea85717577ce",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc61a4ce49792",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jc03cbf66585d",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ac3c9eae42c",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf1bf49abddb9",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb23c98692201",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j99f99b05c5de",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j86f2bd43d45b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jcf0acf7a2a71",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: A 大きなヒット is a major commercial hit, not a stimulus/boost (cú hích)."
+    ],
+    "suggested_ja": "ゲーム機の国内市場は飽和状態で、大きなヒットは期待できない。",
+    "suggested_vi": "Thị trường máy chơi game trong nước đã bão hòa, khó kỳ vọng có sản phẩm nào thành công vang dội."
+  },
+  {
+    "id": "j55d94c3f8844",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6ace72261740",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jac0642e2c6da",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j98ff452033ad",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j66ccc93deac9",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4ef15c1d4252",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: その分 refers to incorporating the additional literature described in the source, not simply a generic 'therefore'.",
+      "vi_naturalness: 'một vài phần bổ sung đã được thêm vào' is a redundant passive noun chain."
+    ],
+    "suggested_ja": "その分として若干の補足を加えてある。",
+    "suggested_vi": "Một ít nội dung đã được bổ sung để bao quát cả phần tài liệu đó."
+  },
+  {
+    "id": "jdedf27054da0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j115e0b7adaf3",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 捕吏 denotes historical arresting officers/constables, not specifically patrol troops; sai nha better preserves the recorded archaic register."
+    ],
+    "suggested_ja": "捕吏の目を誤魔化すために藩命で西郷三助と改名させられた。",
+    "suggested_vi": "Theo lệnh của phiên, ông phải đổi tên thành Saigō Sansuke để qua mắt sai nha."
+  },
+  {
+    "id": "jf1ad2acc5135",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5abac3b29592",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf883e16e5bff",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jbe0bc0b28f19",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j181d03d82ac4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9794300d7b23",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6872aaf987d1",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j75b0d1c1458c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2ef79fb51d7c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfdbd149d7836",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdc501485429b",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9b0f42a7c8de",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7b6396fe1c52",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2edf8abce1d3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j095865abe8f0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jab70a528d428",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfc5df3a3a7e6",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6b66cafc8e83",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j4a715a7f4fe4",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jfce6aae883c5",
+    "source": "KNBC 1.0 (2009-09-25)",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7a15a2932034",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'đã nói chắc với' is an awkward rendering of the emphatic endorsement 太鼓判を押す."
+    ],
+    "suggested_ja": "トムを婿にもらうべきだと、メアリーの親に太鼓判を押しといたよ。",
+    "suggested_vi": "Tôi đã quả quyết với bố mẹ Mary rằng họ nên nhận Tom làm con rể."
+  },
+  {
+    "id": "j71f9ff2d5fa5",
+    "source": "Japanese Wiktionary",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j0a7b29de2260",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja23df22592a3",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7b32bc2faf54",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j791ad9c0583c",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j88b29c594cc7",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7ffe1daefff5",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf7f02f5973d3",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb59ba135b5ce",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j858a0c2cfb20",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jad8e2c743a3a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j9874ecd84fe7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "ja9e48ba4789f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j025d3cb11370",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 持ちきり makes the news the dominant topic, but does not specify that people talked all day (suốt ngày)."
+    ],
+    "suggested_ja": "社内はそのニュースのことで持ちきりだった。",
+    "suggested_vi": "Cả công ty chỉ bàn tán về tin đó."
+  },
+  {
+    "id": "ja441bac176e1",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j50f35ce7f399",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j8ac96fb2041a",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 物好き describes someone with unusual tastes/interests; 'thích chuyện lạ' narrows it to liking strange stories or events."
+    ],
+    "suggested_ja": "世の中には物好きがいる。",
+    "suggested_vi": "Trên đời cũng có những người có sở thích khác thường thật."
+  },
+  {
+    "id": "j936645fc4d91",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jddd14455cf1d",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7189cb229bd0",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6260fc753ea0",
+    "source": "KNBC 1.0 (2009-09-25)",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j96c9a4076089",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j2aae3eb949cf",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j347d44f37e0e",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: The source describes a class of servants collectively, not one man. 役を務めた means serving in that capacity, not acting a theatrical role (đóng vai)."
+    ],
+    "suggested_ja": "大名行列等では奴（やっこ）の役を務めた。",
+    "suggested_vi": "Trong các đám rước lãnh chúa và những dịp tương tự, họ làm người hầu tùy tùng yakko."
+  },
+  {
+    "id": "jf2e95f3d2687",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1310e22ba5a7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jac3434fe23cd",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j77f30fc95a37",
+    "source": "KFTT 1.0",
+    "verdict": "fix",
+    "issues": [
+      "vi_accuracy: 指摘されている means pointed out/noted; 'nhấn mạnh' unnecessarily strengthens it to emphasized."
+    ],
+    "suggested_ja": "また遊牧民の世界観の開放的な性質も指摘されている。",
+    "suggested_vi": "Người ta cũng chỉ ra tính cởi mở trong thế giới quan của các dân tộc du mục."
+  },
+  {
+    "id": "j74f8b60e884a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j7bb956fdeabb",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jb613dacd383f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5bf3d9d9620f",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j43510e6812a3",
+    "source": "Tatoeba",
+    "verdict": "fix",
+    "issues": [
+      "vi_naturalness: 'trò ứng đáp hài' is an opaque literal rendering of 大喜利; explain it as humorous question-and-answer entertainment."
+    ],
+    "suggested_ja": "忘年会の余興で大喜利をやることになった。",
+    "suggested_vi": "Chúng tôi đã quyết định chơi trò hỏi đáp hài hước để góp vui trong tiệc tất niên."
+  },
+  {
+    "id": "jce5355531ebe",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j19338a772ba0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j79f8d23ec1c2",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j51a6f1eff1e2",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jdc8ecdc92f3a",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j006a8fbad9e5",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jf03b6668cf50",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j5207bf9428d0",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j67c9b3a5f202",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j1290b8a05385",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "jd1aa82d5bf89",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j37d3bc675b45",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j6bd912cf89e7",
+    "source": "Tatoeba",
+    "verdict": "pass",
+    "issues": []
+  },
+  {
+    "id": "j848a750f109a",
+    "source": "KFTT 1.0",
+    "verdict": "pass",
+    "issues": []
+  }
+]

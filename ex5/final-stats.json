@@ -1,0 +1,47 @@
+{
+  "input_sha256": {
+    "authored.json": "fd5f87346e4f4b8d143368e2adc4ae6d2a6022118e9553cf05a3930a7dafb4be",
+    "licensed-candidates.json": "4d02e6bd9087b1b35315ea3311c5ac22652d06983153c28267f1e84ea2c691a7",
+    "review.json": "41816dbadda5c10227842483223c1549942681b4b2670ff68874b3c24e3e916a"
+  },
+  "review": {
+    "pass": 1263,
+    "fix": 126,
+    "reject": 20
+  },
+  "final": {
+    "accepted_pass": 1263,
+    "accepted_fix": 126,
+    "accepted_rewrite": 18,
+    "dropped": 2
+  },
+  "rejection_rate_percent": 1.4194,
+  "by_level": {
+    "5": {
+      "accepted_pass": 34,
+      "accepted_fix": 1
+    },
+    "4": {
+      "accepted_pass": 11,
+      "accepted_fix": 3
+    },
+    "3": {
+      "accepted_fix": 4,
+      "accepted_pass": 45,
+      "accepted_rewrite": 1
+    },
+    "2": {
+      "accepted_pass": 275,
+      "accepted_fix": 20,
+      "dropped": 2,
+      "accepted_rewrite": 8
+    },
+    "1": {
+      "accepted_pass": 898,
+      "accepted_fix": 98,
+      "accepted_rewrite": 9
+    }
+  },
+  "rewrite_check_kind": "self-check by integrating assistant, not an independent review",
+  "native_reviews": 0
+}
