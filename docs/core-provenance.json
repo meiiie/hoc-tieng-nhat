@@ -1,0 +1,16 @@
+{
+  "english": {
+    "app.js": "df82d43e3653169b49639a3e13ffa35ffe0ef92f9cc704bb5e56f32258dc334a",
+    "storage.js": "02426713837ced26364b8de75dbae39f45c3fc33edde84c8e718ef73b9f12f08",
+    "srs.js": "ff1db92ee798865cdb6d55f31b10b77cb92119aa67a651151838c1963cc588a6",
+    "learning-plan.js": "96e2043594a9e38ba826505bfa19810be33b82ba3a623dbda8f47c84d94775fe",
+    "content.js": "59fd0dd91a19ea6c25f377b3bad312439abce7f743a442161c7b55246bac2a04",
+    "style.css": "8878e6f5bd17146f100d84f8e3a7c7533395f7e1e2d854358f0647df917ed8a6",
+    "mascot.js": "2fe5552f1424b6ebe6b5e8b7521577962455518dff716578a5b7611f193eb2c1"
+  },
+  "chinese": {
+    "speech.js": "22c5e0533eadd1d70e3e5020a1d26486598a498a5e2eb5fb29704d3b067ee444",
+    "mic-meter.js": "e0863e15c9ebbec471df54abe74f9f3663debad12ba1d483a0995c4d53fc74a5",
+    "mic-worklet.js": "6dcb3132cbd5cc79e99207522786c269d29097a5edbdffb098be75ff794414b2"
+  }
+}

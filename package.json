@@ -1,0 +1,12 @@
+{
+  "name": "hoc-tieng-nhat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/srs.test.js && node tests/learning-plan.test.js && node --test tests/lang-ja.test.js tests/data.test.js tests/pitch.test.js tests/storage.test.js"
+  },
+  "devDependencies": {
+    "axe-core": "4.10.3",
+    "ts-fsrs": "5.4.2"
+  }
+}
